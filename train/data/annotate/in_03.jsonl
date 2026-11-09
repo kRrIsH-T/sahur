@@ -1,0 +1,645 @@
+{"text": "open the clock app, set alarm I will do", "action": "open_app"}
+{"text": "open maps", "action": "open_app"}
+{"text": "please open zoom meeting app", "action": "open_app"}
+{"text": "open v l c", "action": "open_app"}
+{"text": "open power point", "action": "open_app"}
+{"text": "launch skype yaar", "action": "open_app"}
+{"text": "open the paytm app", "action": "open_app"}
+{"text": "Open Google Meet.", "action": "open_app"}
+{"text": "open gmail please", "action": "open_app"}
+{"text": "can you open facebook for me", "action": "open_app"}
+{"text": "start snipping tool", "action": "open_app"}
+{"text": "open telegraam", "action": "open_app"}
+{"text": "konjam photos open pannu", "action": "open_app"}
+{"text": "open the calendar", "action": "open_app"}
+{"text": "please launch adobe reader to open pdf", "action": "open_app"}
+{"text": "open microsoft store", "action": "open_app"}
+{"text": "open hotstar na, match is coming", "action": "open_app"}
+{"text": "start the command prompt", "action": "open_app"}
+{"text": "open edge browser", "action": "open_app"}
+{"text": "Open Amazon app please.", "action": "open_app"}
+{"text": "open the task manager yaar, computer is hanging", "action": "open_app"}
+{"text": "open outluk", "action": "open_app"}
+{"text": "ondu paint open maadi", "action": "open_app"}
+{"text": "open voice recorder", "action": "open_app"}
+{"text": "my son told me to open anydesk, please open it", "action": "open_app"}
+{"text": "zara whatsapp khol do beta", "action": "open_app"}
+{"text": "Whats app chalu karo please.", "action": "open_app"}
+{"text": "mera watsap khol do na", "action": "open_app"}
+{"text": "व्हाट्सएप खोलो", "action": "open_app"}
+{"text": "WhatsApp खोल दो ज़रा", "action": "open_app"}
+{"text": "yaar whatsapp start kar do mujhe group dekhna hai", "action": "open_app"}
+{"text": "Wattsapp kholna hai.", "action": "open_app"}
+{"text": "व्हाट्सऐप चालू कर दीजिए", "action": "open_app"}
+{"text": "Google Chrome open karo please.", "action": "open_app"}
+{"text": "internet wala browser khol do chrome", "action": "open_app"}
+{"text": "ज़रा Chrome चालू करो", "action": "open_app"}
+{"text": "beta chrome browser start kar do", "action": "open_app"}
+{"text": "Chrome launch karo jaldi", "action": "open_app"}
+{"text": "gugal crome khol de", "action": "open_app"}
+{"text": "गूगल क्रोम खोल दीजिए", "action": "open_app"}
+{"text": "youtube khol do na", "action": "open_app"}
+{"text": "you tube open karo please.", "action": "open_app"}
+{"text": "yutub chalu karo", "action": "open_app"}
+{"text": "ज़रा YouTube खोल दो बेटा", "action": "open_app"}
+{"text": "yaar youtube app start kar", "action": "open_app"}
+{"text": "Mujhe YouTube kholna hai, khol do.", "action": "open_app"}
+{"text": "youtube website khol do chrome mein", "action": "open_app"}
+{"text": "यूट्यूब चालू कर दो", "action": "open_app"}
+{"text": "notepad kholo", "action": "open_app"}
+{"text": "Notepad open kar do please.", "action": "open_app"}
+{"text": "note pad khol do kuch likhna hai baad mein", "action": "open_app"}
+{"text": "notpad chalu karo", "action": "open_app"}
+{"text": "नोटपैड खोलो", "action": "open_app"}
+{"text": "ज़रा Notepad खोल दो", "action": "open_app"}
+{"text": "beta wo notepad wala app khol do", "action": "open_app"}
+{"text": "Notepad start karo", "action": "open_app"}
+{"text": "नोटपैड चालू कीजिए", "action": "open_app"}
+{"text": "khali notepad khol do yaar", "action": "open_app"}
+{"text": "calculator kholo", "action": "open_app"}
+{"text": "Calculator khol do zara hisaab lagana hai.", "action": "open_app"}
+{"text": "calcuator open karo", "action": "open_app"}
+{"text": "hisaab wala calculator chalu kar do", "action": "open_app"}
+{"text": "कैलकुलेटर खोलो", "action": "open_app"}
+{"text": "Calculator खोल दो ना", "action": "open_app"}
+{"text": "kalkulator start karo please", "action": "open_app"}
+{"text": "jaldi se calculator khol de", "action": "open_app"}
+{"text": "कैलकुलेटर चालू कर दीजिए", "action": "open_app"}
+{"text": "Calc app open kar do.", "action": "open_app"}
+{"text": "My computer khol do, files dekhni hain.", "action": "open_app"}
+{"text": "folder wala khol do jisme saari files hoti hain", "action": "open_app"}
+{"text": "file exploror open karo", "action": "open_app"}
+{"text": "फाइल एक्सप्लोरर खोलो", "action": "open_app"}
+{"text": "ज़रा File Explorer खोल दो", "action": "open_app"}
+{"text": "this pc khol do yaar", "action": "open_app"}
+{"text": "Downloads folder kholo", "action": "open_app"}
+{"text": "फाइलें देखनी हैं, explorer खोल दो", "action": "open_app"}
+{"text": "files wala app chalu karo please", "action": "open_app"}
+{"text": "settings kholo", "action": "open_app"}
+{"text": "Computer ki settings khol do please.", "action": "open_app"}
+{"text": "setting open karo zara", "action": "open_app"}
+{"text": "setings chalu kar do", "action": "open_app"}
+{"text": "सेटिंग्स खोलो", "action": "open_app"}
+{"text": "Settings खोल दो बेटा", "action": "open_app"}
+{"text": "beta wo settings wala page khol do, wifi dekhna hai", "action": "open_app"}
+{"text": "windows settings start karo", "action": "open_app"}
+{"text": "सेटिंग चालू करो", "action": "open_app"}
+{"text": "Settings app kholna hai.", "action": "open_app"}
+{"text": "camera kholo", "action": "open_app"}
+{"text": "Camera khol do photo kheechni hai.", "action": "open_app"}
+{"text": "kamera chalu karo", "action": "open_app"}
+{"text": "webcam open karo zara", "action": "open_app"}
+{"text": "कैमरा खोलो", "action": "open_app"}
+{"text": "ज़रा Camera चालू कर दो", "action": "open_app"}
+{"text": "camra app start kar do na", "action": "open_app"}
+{"text": "Apni photo dekhni hai, camera on karo", "action": "open_app"}
+{"text": "कैमरा चालू कर दीजिए", "action": "open_app"}
+{"text": "camera app khol de yaar", "action": "open_app"}
+{"text": "word kholo", "action": "open_app"}
+{"text": "MS Word khol do, letter likhna hai.", "action": "open_app"}
+{"text": "microsoft word open karo please", "action": "open_app"}
+{"text": "vord chalu karo", "action": "open_app"}
+{"text": "वर्ड खोलो", "action": "open_app"}
+{"text": "ज़रा MS Word खोल दो", "action": "open_app"}
+{"text": "em es word start kar do", "action": "open_app"}
+{"text": "Word document wala app khol do", "action": "open_app"}
+{"text": "माइक्रोसॉफ्ट वर्ड चालू कीजिए", "action": "open_app"}
+{"text": "excel kholo", "action": "open_app"}
+{"text": "Excel khol do, dukaan ka hisaab dekhna hai.", "action": "open_app"}
+{"text": "ms excel open karo", "action": "open_app"}
+{"text": "exel chalu kar do", "action": "open_app"}
+{"text": "एक्सेल खोलो", "action": "open_app"}
+{"text": "ज़रा Excel खोल दो ना", "action": "open_app"}
+{"text": "excel sheet wala app start karo", "action": "open_app"}
+{"text": "एक्सेल चालू कर दीजिए", "action": "open_app"}
+{"text": "spotify kholo", "action": "open_app"}
+{"text": "Spotify khol do yaar.", "action": "open_app"}
+{"text": "स्पॉटिफाई खोलो", "action": "open_app"}
+{"text": "ज़रा Spotify चालू करो", "action": "open_app"}
+{"text": "gaane wala spotify app start kar do", "action": "open_app"}
+{"text": "spotify launch karo please", "action": "open_app"}
+{"text": "spotiphy kholna hai", "action": "open_app"}
+{"text": "Zoom khol do, meeting hai abhi.", "action": "open_app"}
+{"text": "paint kholo bachche ke liye", "action": "open_app"}
+{"text": "microsoft teams open karo", "action": "open_app"}
+{"text": "telegram chalu kar do", "action": "open_app"}
+{"text": "टेलीग्राम खोलो", "action": "open_app"}
+{"text": "photos wala app khol do, purani tasveerein dekhni hain", "action": "open_app"}
+{"text": "edge browser kholo", "action": "open_app"}
+{"text": "इंस्टाग्राम खोल दो", "action": "open_app"}
+{"text": "powerpoint open karo please", "action": "open_app"}
+{"text": "outlook kholo mail dekhna hai", "action": "open_app"}
+{"text": "ज़रा Clock app खोलो, alarm लगाना है", "action": "open_app"}
+{"text": "google maps khol do", "action": "open_app"}
+{"text": "विएलसी चालू करो", "action": "open_app"}
+{"text": "Facebook kholo na beta", "action": "open_app"}
+{"text": "whatsapp open maadu", "action": "open_app"}
+{"text": "ondu sala whatsapp tegi", "action": "open_app"}
+{"text": "ವಾಟ್ಸಾಪ್ ಓಪನ್ ಮಾಡು", "action": "open_app"}
+{"text": "ನನ್ನ ವಾಟ್ಸಪ್ ತೆಗಿ ಮಗ", "action": "open_app"}
+{"text": "magu swalpa whatsapp start maadi kodu nodona", "action": "open_app"}
+{"text": "whatsapp app na launch maadu", "action": "open_app"}
+{"text": "google chrome tegi swalpa", "action": "open_app"}
+{"text": "krome browser open madi", "action": "open_app"}
+{"text": "internet nodbeku chrome open maadi kodi please", "action": "open_app"}
+{"text": "ಕ್ರೋಮ್ ತೆರೆಯಿರಿ", "action": "open_app"}
+{"text": "ಗೂಗಲ್ ಕ್ರೋಮ್ ಓಪನ್ ಮಾಡು", "action": "open_app"}
+{"text": "chrome start maadu yaar", "action": "open_app"}
+{"text": "browser beku, chrome hakku", "action": "open_app"}
+{"text": "youtube open maadu", "action": "open_app"}
+{"text": "you tube open madu please", "action": "open_app"}
+{"text": "ಯೂಟ್ಯೂಬ್ ಓಪನ್ ಮಾಡು", "action": "open_app"}
+{"text": "ಯೂಟ್ಯೂಬ್ ತೆಗೆಯಿರಿ ಸ್ವಲ್ಪ", "action": "open_app"}
+{"text": "ajji ge youtube open maadi kodu", "action": "open_app"}
+{"text": "yutub tegi", "action": "open_app"}
+{"text": "youtube website open maadu bega", "action": "open_app"}
+{"text": "Note pad tegi.", "action": "open_app"}
+{"text": "ondu notepad open maadi bareyoke", "action": "open_app"}
+{"text": "ನೋಟ್ಪ್ಯಾಡ್ ಓಪನ್ ಮಾಡು", "action": "open_app"}
+{"text": "ನೋಟ್ ಪ್ಯಾಡ್ ತೆಗಿ", "action": "open_app"}
+{"text": "notpad start madi please", "action": "open_app"}
+{"text": "swalpa notepad application open maadi kodi saar", "action": "open_app"}
+{"text": "notepad hakku", "action": "open_app"}
+{"text": "calculator open maadu", "action": "open_app"}
+{"text": "Calculator tegi.", "action": "open_app"}
+{"text": "ಕ್ಯಾಲ್ಕುಲೇಟರ್ ಓಪನ್ ಮಾಡು", "action": "open_app"}
+{"text": "ಕ್ಯಾಲ್ಕುಲೇಟರ್ ತೆಗೆಯಿರಿ", "action": "open_app"}
+{"text": "kalkulator open madu", "action": "open_app"}
+{"text": "ondu calc open maadu yaar", "action": "open_app"}
+{"text": "dayavittu calculator app start maadi", "action": "open_app"}
+{"text": "My computer tegi.", "action": "open_app"}
+{"text": "ಫೈಲ್ ಎಕ್ಸ್‌ಪ್ಲೋರರ್ ಓಪನ್ ಮಾಡು", "action": "open_app"}
+{"text": "ನನ್ನ ಫೈಲ್ಸ್ ಫೋಲ್ಡರ್ ತೆಗಿ", "action": "open_app"}
+{"text": "this pc open madu", "action": "open_app"}
+{"text": "file explore tegi please", "action": "open_app"}
+{"text": "documents folder iro explorer na open maadi kodi", "action": "open_app"}
+{"text": "settings open maadu", "action": "open_app"}
+{"text": "Settings tegi.", "action": "open_app"}
+{"text": "computer settings open maadi swalpa", "action": "open_app"}
+{"text": "ಸೆಟ್ಟಿಂಗ್ಸ್ ಓಪನ್ ಮಾಡು", "action": "open_app"}
+{"text": "ಸೆಟ್ಟಿಂಗ್ಸ್ ತೆಗೆಯಿರಿ ದಯವಿಟ್ಟು", "action": "open_app"}
+{"text": "setting open madu", "action": "open_app"}
+{"text": "sedings tegi", "action": "open_app"}
+{"text": "windows settings app launch maadi kodi please", "action": "open_app"}
+{"text": "camera open maadu", "action": "open_app"}
+{"text": "Camera tegi.", "action": "open_app"}
+{"text": "photo tegiyoke camera open maadi", "action": "open_app"}
+{"text": "ಕ್ಯಾಮೆರಾ ಓಪನ್ ಮಾಡು", "action": "open_app"}
+{"text": "ಕ್ಯಾಮರಾ ತೆಗಿ ಮಗಳೇ", "action": "open_app"}
+{"text": "kemara open madu", "action": "open_app"}
+{"text": "webcam start maadu", "action": "open_app"}
+{"text": "swalpa camera app open maadi kodi naanu nodbeku", "action": "open_app"}
+{"text": "word open maadu", "action": "open_app"}
+{"text": "MS Word tegi.", "action": "open_app"}
+{"text": "letter bareyoke microsoft word open maadi", "action": "open_app"}
+{"text": "ವರ್ಡ್ ಓಪನ್ ಮಾಡು", "action": "open_app"}
+{"text": "ಮೈಕ್ರೋಸಾಫ್ಟ್ ವರ್ಡ್ ತೆಗೆಯಿರಿ", "action": "open_app"}
+{"text": "vord open madu", "action": "open_app"}
+{"text": "word document app start maadi please", "action": "open_app"}
+{"text": "ms ward tegi", "action": "open_app"}
+{"text": "excel open maadu", "action": "open_app"}
+{"text": "Excel tegi.", "action": "open_app"}
+{"text": "accounts nodbeku excel open maadi", "action": "open_app"}
+{"text": "ಎಕ್ಸೆಲ್ ಓಪನ್ ಮಾಡು", "action": "open_app"}
+{"text": "ಎಕ್ಸೆಲ್ ಶೀಟ್ ತೆಗಿ", "action": "open_app"}
+{"text": "eksel open madu", "action": "open_app"}
+{"text": "microsoft excel start maadi kodi saar", "action": "open_app"}
+{"text": "spreadsheet beku excel hakku", "action": "open_app"}
+{"text": "Spotify tegi.", "action": "open_app"}
+{"text": "spotify app open maadi please", "action": "open_app"}
+{"text": "ಸ್ಪಾಟಿಫೈ ಓಪನ್ ಮಾಡು", "action": "open_app"}
+{"text": "ಸ್ಪಾಟಿಫೈ ತೆಗಿ", "action": "open_app"}
+{"text": "spotifai open madu", "action": "open_app"}
+{"text": "swalpa spotify start maadu yaar", "action": "open_app"}
+{"text": "spot ify launch madi", "action": "open_app"}
+{"text": "vlc open maadu", "action": "open_app"}
+{"text": "VLC player tegi.", "action": "open_app"}
+{"text": "zoom open maadi meeting ide", "action": "open_app"}
+{"text": "ಝೂಮ್ ಓಪನ್ ಮಾಡು", "action": "open_app"}
+{"text": "paint open maadu", "action": "open_app"}
+{"text": "ಪೇಂಟ್ ತೆಗಿ", "action": "open_app"}
+{"text": "teams open maadi please office meeting ge", "action": "open_app"}
+{"text": "microsoft teams tegi", "action": "open_app"}
+{"text": "telegram open maadu", "action": "open_app"}
+{"text": "ಟೆಲಿಗ್ರಾಮ್ ಓಪನ್ ಮಾಡು", "action": "open_app"}
+{"text": "photos app open maadi mommakkala photo nodbeku", "action": "open_app"}
+{"text": "ಫೋಟೋಸ್ ತೆಗಿ", "action": "open_app"}
+{"text": "edge browser open maadu", "action": "open_app"}
+{"text": "microsoft edge tegi.", "action": "open_app"}
+{"text": "instagram open maadu", "action": "open_app"}
+{"text": "insta tegi yaar", "action": "open_app"}
+{"text": "ಇನ್‌ಸ್ಟಾಗ್ರಾಮ್ ಓಪನ್ ಮಾಡು", "action": "open_app"}
+{"text": "powerpoint open maadu presentation ide", "action": "open_app"}
+{"text": "power point tegi please", "action": "open_app"}
+{"text": "ಪವರ್ ಪಾಯಿಂಟ್ ಓಪನ್ ಮಾಡು", "action": "open_app"}
+{"text": "outlook open maadu", "action": "open_app"}
+{"text": "mail nodbeku outlook tegi", "action": "open_app"}
+{"text": "clock app open maadu alarm idbeku", "action": "open_app"}
+{"text": "ಗಡಿಯಾರ ಆಪ್ ತೆಗಿ", "action": "open_app"}
+{"text": "maps open maadu", "action": "open_app"}
+{"text": "google maps tegi daari nodbeku", "action": "open_app"}
+{"text": "ಮ್ಯಾಪ್ಸ್ ಓಪನ್ ಮಾಡಿ", "action": "open_app"}
+{"text": "vee el see open madu", "action": "open_app"}
+{"text": "jum open madu", "action": "open_app"}
+{"text": "gmail open maadu", "action": "open_app"}
+{"text": "facebook tegi swalpa", "action": "open_app"}
+{"text": "ಅಜ್ಜಿ ಹೇಳ್ತಿದಾರೆ ಸ್ವಲ್ಪ ಫೇಸ್‌ಬುಕ್ ಓಪನ್ ಮಾಡು", "action": "open_app"}
+{"text": "control panel open maadi kodi", "action": "open_app"}
+{"text": "amazon app open maadu", "action": "open_app"}
+{"text": "WhatsApp open cheyyandi", "action": "open_app"}
+{"text": "Whatsapp ughada na", "action": "open_app"}
+{"text": "whatsapp ta khulo to", "action": "open_app"}
+{"text": "Dayavayi WhatsApp onnu thurakkamo", "action": "open_app"}
+{"text": "WhatsApp kholo ne bhai", "action": "open_app"}
+{"text": "whatsap khol do ji zara", "action": "open_app"}
+{"text": "naaku whats app teravandi please", "action": "open_app"}
+{"text": "beta mala WhatsApp suru karun de", "action": "open_app"}
+{"text": "Whatsapp start koro", "action": "open_app"}
+{"text": "Chrome open cheyyi", "action": "open_app"}
+{"text": "Google Chrome ughad re", "action": "open_app"}
+{"text": "chrome browser ta ektu khule dao", "action": "open_app"}
+{"text": "Chrome thurakku", "action": "open_app"}
+{"text": "Chrome chalu kar de veere", "action": "open_app"}
+{"text": "internet chalavanyasathi Chrome ughad", "action": "open_app"}
+{"text": "browser lo chrome start cheyyandi kastha", "action": "open_app"}
+{"text": "chrom browser on karo ne please", "action": "open_app"}
+{"text": "YouTube open cheyyi ra", "action": "open_app"}
+{"text": "YouTube ughad na", "action": "open_app"}
+{"text": "YouTube ta khulo", "action": "open_app"}
+{"text": "youtube onnu thurakkamo mole", "action": "open_app"}
+{"text": "YouTube kholo ne", "action": "open_app"}
+{"text": "you tube khol de puttar", "action": "open_app"}
+{"text": "yu tub open karo", "action": "open_app"}
+{"text": "computer lo YouTube app tereyandi", "action": "open_app"}
+{"text": "notepad ughada", "action": "open_app"}
+{"text": "notepad ta khule dao to", "action": "open_app"}
+{"text": "Notepad thurakku", "action": "open_app"}
+{"text": "note pad kholo bhai", "action": "open_app"}
+{"text": "notpad khol do", "action": "open_app"}
+{"text": "edhaina raayadaniki Notepad open chey", "action": "open_app"}
+{"text": "kahi lihinyasathi notepad suru kara please", "action": "open_app"}
+{"text": "Calculator open cheyyi", "action": "open_app"}
+{"text": "calculator ughad re", "action": "open_app"}
+{"text": "hisab korbo, calculator ta khulo", "action": "open_app"}
+{"text": "Calculator onnu thurakku", "action": "open_app"}
+{"text": "calculater kholo ne", "action": "open_app"}
+{"text": "hisaab layi calculator khol de ji", "action": "open_app"}
+{"text": "kalkulator open karo", "action": "open_app"}
+{"text": "lekkalu cheyyali calculator teravandi", "action": "open_app"}
+{"text": "my files ughad na, file explorer", "action": "open_app"}
+{"text": "file explorer ta khulo", "action": "open_app"}
+{"text": "ente files kaanan File Explorer thurakku", "action": "open_app"}
+{"text": "file explorar kholo", "action": "open_app"}
+{"text": "mere folder wala file explorer khol de", "action": "open_app"}
+{"text": "this pc open cheyyi", "action": "open_app"}
+{"text": "Settings open cheyyandi", "action": "open_app"}
+{"text": "settings ughad", "action": "open_app"}
+{"text": "computer er settings ta khulo please", "action": "open_app"}
+{"text": "Settings onnu thurakkamo", "action": "open_app"}
+{"text": "setting kholo ne yaar", "action": "open_app"}
+{"text": "seting khol do ji", "action": "open_app"}
+{"text": "Windows settings suru kar", "action": "open_app"}
+{"text": "Camera open cheyyi", "action": "open_app"}
+{"text": "camera ughad na, photo kadhaycha aahe", "action": "open_app"}
+{"text": "camera ta chalu koro", "action": "open_app"}
+{"text": "Camera thurakku", "action": "open_app"}
+{"text": "kemera kholo", "action": "open_app"}
+{"text": "camera khol de puttar photo khichni hai", "action": "open_app"}
+{"text": "kamera app tereyandi", "action": "open_app"}
+{"text": "Word open cheyyandi", "action": "open_app"}
+{"text": "MS Word ughad", "action": "open_app"}
+{"text": "microsoft word ta khulo", "action": "open_app"}
+{"text": "letter ezhuthan Word thurakku", "action": "open_app"}
+{"text": "word document kholo ne", "action": "open_app"}
+{"text": "ms vard khol do", "action": "open_app"}
+{"text": "Microsoft Word start cheyyi kastha", "action": "open_app"}
+{"text": "excel ughada", "action": "open_app"}
+{"text": "hisaber jonno excel ta khulo", "action": "open_app"}
+{"text": "Excel sheet onnu thurakku", "action": "open_app"}
+{"text": "exel kholo ne", "action": "open_app"}
+{"text": "Microsoft Excel khol de ji", "action": "open_app"}
+{"text": "ex cell open karo", "action": "open_app"}
+{"text": "Spotify open cheyyi", "action": "open_app"}
+{"text": "Spotify ughad na", "action": "open_app"}
+{"text": "spotify ta khulo", "action": "open_app"}
+{"text": "Spotify app thurakku", "action": "open_app"}
+{"text": "spotifai kholo", "action": "open_app"}
+{"text": "spotify khol de yaar", "action": "open_app"}
+{"text": "spoti fy app start cheyyandi", "action": "open_app"}
+{"text": "VLC player open cheyyi", "action": "open_app"}
+{"text": "Zoom ughad, meeting aahe", "action": "open_app"}
+{"text": "Paint ta khulo, chhobi aankbo", "action": "open_app"}
+{"text": "Teams onnu thurakku, office meeting undu", "action": "open_app"}
+{"text": "Telegram kholo ne", "action": "open_app"}
+{"text": "Photos khol do, purani tasveeran dekhniyan", "action": "open_app"}
+{"text": "Microsoft Edge open cheyyandi", "action": "open_app"}
+{"text": "Instagram ughad na", "action": "open_app"}
+{"text": "PowerPoint ta khulo", "action": "open_app"}
+{"text": "Outlook thurakku, mail nokkanam", "action": "open_app"}
+{"text": "clock app kholo, alarm mukvo che", "action": "open_app"}
+{"text": "Google Maps khol de ji", "action": "open_app"}
+{"text": "power point ughada please", "action": "open_app"}
+{"text": "telegrm khulo to", "action": "open_app"}
+{"text": "Facebook thurakkamo", "action": "open_app"}
+{"text": "Netflix kholo ne bhai", "action": "open_app"}
+{"text": "Calendar khol do", "action": "open_app"}
+{"text": "skype open cheyyandi", "action": "open_app"}
+{"text": "Gmail ughad", "action": "open_app"}
+{"text": "amar jonno ektu Paytm app ta khule dao", "action": "open_app"}
+{"text": "Media Player thurakku", "action": "open_app"}
+{"text": "Microsoft Store kholo", "action": "open_app"}
+{"text": "vee el see player chala do", "action": "open_app"}
+{"text": "Google Meet open cheyyi, class undi", "action": "open_app"}
+{"text": "Task Manager ughad", "action": "open_app"}
+{"text": "snipping tool ta khulo", "action": "open_app"}
+{"text": "Amazon app thurakku", "action": "open_app"}
+{"text": "Teams kholo ne office ni meeting che", "action": "open_app"}
+{"text": "Photos app khol de jaldi", "action": "open_app"}
+{"text": "ammaayi, naaku mana WhatsApp okkasari open cheyyi, nenu chudali", "action": "open_app"}
+{"text": "aho jara te YouTube app ughada na, mala kirtan baghaychay aahe", "action": "open_app"}
+{"text": "dada please computer e Chrome ta ektu khule dao na", "action": "open_app"}
+{"text": "Excel khol de puttar, ghar da hisaab likhna hai", "action": "open_app"}
+{"text": "mon, Word onnu open cheyyu, oru application ezhuthanam", "action": "open_app"}
+{"text": "Konjam WhatsApp ah thirandhu kudu pa.", "action": "open_app"}
+{"text": "vats app open pannunga please", "action": "open_app"}
+{"text": "en phone la irukura maadhiri whatsapp computer la open pannu", "action": "open_app"}
+{"text": "dei whatsapp start pannu da", "action": "open_app"}
+{"text": "வாட்ஸ்அப் ஓபன் பண்ணு கண்ணு", "action": "open_app"}
+{"text": "whatsapp web ah open pannu", "action": "open_app"}
+{"text": "Paati ku message paakanum, mudhalla whatsapp open pannu.", "action": "open_app"}
+{"text": "watsup thira", "action": "open_app"}
+{"text": "chrome open pannu", "action": "open_app"}
+{"text": "Google Chrome ah konjam thirandhu vidu.", "action": "open_app"}
+{"text": "browser open pannu chrome la", "action": "open_app"}
+{"text": "குரோம் திற", "action": "open_app"}
+{"text": "krome start pannunga", "action": "open_app"}
+{"text": "internet paakanum, chrome open pannu pa", "action": "open_app"}
+{"text": "குரோம் பிரவுசர் ஓபன் பண்ணுங்க", "action": "open_app"}
+{"text": "puthu chrome window onnu open pannu", "action": "open_app"}
+{"text": "Please chrome launch pannu.", "action": "open_app"}
+{"text": "andha google browser ah thirandhu kudu thambi", "action": "open_app"}
+{"text": "YouTube thira.", "action": "open_app"}
+{"text": "யூடியூப் திறந்து வை", "action": "open_app"}
+{"text": "you tube ah konjam open pannunga", "action": "open_app"}
+{"text": "யூடியூப் ஓபன் பண்ணு", "action": "open_app"}
+{"text": "pasanga ku cartoon kaatanum youtube site open pannu", "action": "open_app"}
+{"text": "youtube app launch pannu please", "action": "open_app"}
+{"text": "Ennaku youtube venum, adha thirandhu kudu.", "action": "open_app"}
+{"text": "note pad start pannunga", "action": "open_app"}
+{"text": "edhavadhu ezhudhanum, notepad open pannu pa", "action": "open_app"}
+{"text": "நோட்பேட் ஓபன் பண்ணுங்க", "action": "open_app"}
+{"text": "noteped thirandhu vidu", "action": "open_app"}
+{"text": "puthu notepad file onnu open pannu", "action": "open_app"}
+{"text": "Please notepad launch pannu da.", "action": "open_app"}
+{"text": "andha chinna ezhudhura app notepad adha open pannu", "action": "open_app"}
+{"text": "Kanakku podanum, calculator ah thira.", "action": "open_app"}
+{"text": "கால்குலேட்டர் திற", "action": "open_app"}
+{"text": "calculater konjam open pannunga", "action": "open_app"}
+{"text": "கணக்கு போட கால்குலேட்டர் ஓபன் பண்ணு", "action": "open_app"}
+{"text": "calc start pannu", "action": "open_app"}
+{"text": "kalkulator thirandhu kudu pa", "action": "open_app"}
+{"text": "Please calculator app ah launch pannu.", "action": "open_app"}
+{"text": "kadai bill kootanum calculator open pannu kanna", "action": "open_app"}
+{"text": "calculator", "action": "open_app"}
+{"text": "My files ah thira.", "action": "open_app"}
+{"text": "ஃபைல் எக்ஸ்ப்ளோரர் திற", "action": "open_app"}
+{"text": "this pc open pannunga", "action": "open_app"}
+{"text": "en folder ellam paakanum, file explorer open pannu", "action": "open_app"}
+{"text": "பைல்ஸ் ஓபன் பண்ணு", "action": "open_app"}
+{"text": "fail explorar thirandhu vidu", "action": "open_app"}
+{"text": "my computer ah konjam open pannu pa", "action": "open_app"}
+{"text": "Please files app launch pannu.", "action": "open_app"}
+{"text": "downloads folder irukura file explorer ah open pannu", "action": "open_app"}
+{"text": "settings open pannu", "action": "open_app"}
+{"text": "Computer settings ah thira.", "action": "open_app"}
+{"text": "செட்டிங்ஸ் திற", "action": "open_app"}
+{"text": "setings konjam open pannunga", "action": "open_app"}
+{"text": "wifi maathanum, settings open pannu", "action": "open_app"}
+{"text": "அமைப்புகள் திறந்து வை", "action": "open_app"}
+{"text": "windows settings start pannu", "action": "open_app"}
+{"text": "Please settings app launch pannu da.", "action": "open_app"}
+{"text": "font perusa pannanum, settings ah thirandhu kudu pa", "action": "open_app"}
+{"text": "setting open", "action": "open_app"}
+{"text": "camera open pannu", "action": "open_app"}
+{"text": "Photo edukanum, camera ah thira.", "action": "open_app"}
+{"text": "கேமரா திற", "action": "open_app"}
+{"text": "kamera konjam on pannunga", "action": "open_app"}
+{"text": "கேமரா ஓபன் பண்ணு", "action": "open_app"}
+{"text": "webcam start pannu", "action": "open_app"}
+{"text": "camra app thirandhu vidu", "action": "open_app"}
+{"text": "Please camera launch pannu.", "action": "open_app"}
+{"text": "en mugam paakanum camera open pannu kanna", "action": "open_app"}
+{"text": "selfie edukanum camera open", "action": "open_app"}
+{"text": "word open pannu", "action": "open_app"}
+{"text": "Microsoft Word ah thira.", "action": "open_app"}
+{"text": "வேர்ட் திற", "action": "open_app"}
+{"text": "ms word konjam open pannunga", "action": "open_app"}
+{"text": "letter type pannanum, word open pannu", "action": "open_app"}
+{"text": "மைக்ரோசாஃப்ட் வேர்ட் ஓபன் பண்ணு", "action": "open_app"}
+{"text": "vord start pannu", "action": "open_app"}
+{"text": "Please word document app launch pannu.", "action": "open_app"}
+{"text": "resume ezhudhanum andha word software ah thirandhu kudu", "action": "open_app"}
+{"text": "winword open pannu", "action": "open_app"}
+{"text": "excel open pannu", "action": "open_app"}
+{"text": "Excel sheet ah thira.", "action": "open_app"}
+{"text": "எக்செல் திற", "action": "open_app"}
+{"text": "ms excel konjam open pannunga", "action": "open_app"}
+{"text": "kadai kanakku podanum excel open pannu", "action": "open_app"}
+{"text": "எக்செல் ஓபன் பண்ணுங்க", "action": "open_app"}
+{"text": "exel start pannu", "action": "open_app"}
+{"text": "Please spreadsheet app excel launch pannu.", "action": "open_app"}
+{"text": "spotify open pannu", "action": "open_app"}
+{"text": "Spotify ah thira.", "action": "open_app"}
+{"text": "ஸ்பாட்டிஃபை திற", "action": "open_app"}
+{"text": "spottify konjam open pannunga", "action": "open_app"}
+{"text": "Please spotify app launch pannu da.", "action": "open_app"}
+{"text": "paatu kekkura app spotify adha thirandhu kudu", "action": "open_app"}
+{"text": "spotifai start pannu", "action": "open_app"}
+{"text": "vlc player open pannu", "action": "open_app"}
+{"text": "Zoom ah thira, meeting irukku.", "action": "open_app"}
+{"text": "பெயிண்ட் திற", "action": "open_app"}
+{"text": "teams konjam open pannunga", "action": "open_app"}
+{"text": "telegram open pannu", "action": "open_app"}
+{"text": "போட்டோஸ் ஓபன் பண்ணு", "action": "open_app"}
+{"text": "microsoft edge start pannu", "action": "open_app"}
+{"text": "instagram thirandhu kudu pa", "action": "open_app"}
+{"text": "பவர்பாயிண்ட் திறந்து வை", "action": "open_app"}
+{"text": "outlook mail open pannu", "action": "open_app"}
+{"text": "clock app ah open pannu alarm vekanum", "action": "open_app"}
+{"text": "google maps open pannunga please", "action": "open_app"}
+{"text": "please play some bhajans", "action": "play_media"}
+{"text": "do one thing, play the Hanuman Chalisa on YouTube", "action": "play_media"}
+{"text": "put some old Kishore Kumar songs yaar", "action": "play_media"}
+{"text": "Play Mohammed Rafi hits please", "action": "play_media"}
+{"text": "can you play Lata Mangeshkar songs for me", "action": "play_media"}
+{"text": "play yesterday's India Australia match highlights", "action": "play_media"}
+{"text": "Cricket highlights play karo", "action": "play_media"}
+{"text": "start Chhota Bheem cartoon for the kids", "action": "play_media"}
+{"text": "play Motu Patlu na, the baby is crying", "action": "play_media"}
+{"text": "put on some Doraemon episodes", "action": "play_media"}
+{"text": "Play AR Rahman songs.", "action": "play_media"}
+{"text": "play a r rehman ka roja songs", "action": "play_media"}
+{"text": "play the latest news on Aaj Tak", "action": "play_media"}
+{"text": "Please play NDTV live news", "action": "play_media"}
+{"text": "play morning aarti", "action": "play_media"}
+{"text": "Can you please play Gayatri Mantra 108 times", "action": "play_media"}
+{"text": "play Om Namah Shivaya chanting", "action": "play_media"}
+{"text": "play some devotional songs for puja", "action": "play_media"}
+{"text": "beta, play Sai Baba bhajans please", "action": "play_media"}
+{"text": "Play Vishnu Sahasranamam by MS Subbulakshmi.", "action": "play_media"}
+{"text": "play suprabhatam", "action": "play_media"}
+{"text": "play Ilaiyaraaja melodies", "action": "play_media"}
+{"text": "play some 90s Bollywood songs yaar", "action": "play_media"}
+{"text": "Play romantic songs", "action": "play_media"}
+{"text": "I want to listen to some ghazals, play Jagjit Singh", "action": "play_media"}
+{"text": "play Pankaj Udhas ghazal chitthi aayi hai", "action": "play_media"}
+{"text": "play the song Kesariya", "action": "play_media"}
+{"text": "Play Tum Hi Ho from Aashiqui 2.", "action": "play_media"}
+{"text": "play Sholay movie", "action": "play_media"}
+{"text": "put on the movie 3 Idiots", "action": "play_media"}
+{"text": "play Dangal full movie", "action": "play_media"}
+{"text": "play Ranveer Allahbadia podcast latest episode", "action": "play_media"}
+{"text": "Play a podcast on stock market for beginners", "action": "play_media"}
+{"text": "play some motivational podcast", "action": "play_media"}
+{"text": "play Radio Mirchi", "action": "play_media"}
+{"text": "Please play Vividh Bharati radio", "action": "play_media"}
+{"text": "play FM radio", "action": "play_media"}
+{"text": "play Mann Ki Baat latest episode", "action": "play_media"}
+{"text": "play lofi music for studying", "action": "play_media"}
+{"text": "Play some relaxing instrumental music", "action": "play_media"}
+{"text": "play flute music by Hariprasad Chaurasia", "action": "play_media"}
+{"text": "play Ravi Shankar sitar", "action": "play_media"}
+{"text": "play Bhimsen Joshi abhang", "action": "play_media"}
+{"text": "play Punjabi songs, Diljit Dosanjh", "action": "play_media"}
+{"text": "Play Sidhu Moosewala songs", "action": "play_media"}
+{"text": "play some party songs for the function", "action": "play_media"}
+{"text": "play wedding songs, sangeet playlist", "action": "play_media"}
+{"text": "play Garba songs for Navratri", "action": "play_media"}
+{"text": "play Ganpati songs", "action": "play_media"}
+{"text": "play happy birthday song", "action": "play_media"}
+{"text": "Play kids nursery rhymes", "action": "play_media"}
+{"text": "play Johnny Johnny Yes Papa for my granddaughter", "action": "play_media"}
+{"text": "play Shreya Ghoshal songs", "action": "play_media"}
+{"text": "play shreya goshal hit songs", "action": "play_media"}
+{"text": "Play SP Balasubrahmanyam songs.", "action": "play_media"}
+{"text": "play SPB tamil songs", "action": "play_media"}
+{"text": "play Anirudh latest songs", "action": "play_media"}
+{"text": "play Sid Sriram songs please", "action": "play_media"}
+{"text": "play KJ Yesudas Ayyappa songs", "action": "play_media"}
+{"text": "play Rajkumar old Kannada songs", "action": "play_media"}
+{"text": "play Telugu songs of Pushpa movie", "action": "play_media"}
+{"text": "Play Naatu Naatu", "action": "play_media"}
+{"text": "play Bengali Rabindra Sangeet", "action": "play_media"}
+{"text": "play some Marathi lavani songs", "action": "play_media"}
+{"text": "Play Bhojpuri songs", "action": "play_media"}
+{"text": "play Taylor Swift", "action": "play_media"}
+{"text": "Play Ed Sheeran Shape of You.", "action": "play_media"}
+{"text": "play some English pop songs", "action": "play_media"}
+{"text": "play the new MrBeast video", "action": "play_media"}
+{"text": "play Dhruv Rathee latest video", "action": "play_media"}
+{"text": "Play CarryMinati's new video on YouTube", "action": "play_media"}
+{"text": "play Kapil Sharma show comedy", "action": "play_media"}
+{"text": "play some stand up comedy, Zakir Khan", "action": "play_media"}
+{"text": "play Ramayan serial episode 1", "action": "play_media"}
+{"text": "Play Mahabharat by B R Chopra", "action": "play_media"}
+{"text": "play Bhagavad Gita path in Hindi", "action": "play_media"}
+{"text": "play Sunderkand", "action": "play_media"}
+{"text": "play gurbani kirtan", "action": "play_media"}
+{"text": "Please play Japji Sahib", "action": "play_media"}
+{"text": "play qawwali by Nusrat Fateh Ali Khan", "action": "play_media"}
+{"text": "play some Sufi songs", "action": "play_media"}
+{"text": "play Christmas carols", "action": "play_media"}
+{"text": "play IPL highlights CSK vs MI", "action": "play_media"}
+{"text": "Play Virat Kohli's century highlights.", "action": "play_media"}
+{"text": "play football highlights", "action": "play_media"}
+{"text": "play yoga video for morning", "action": "play_media"}
+{"text": "Play Baba Ramdev pranayam video", "action": "play_media"}
+{"text": "play a cooking video for paneer butter masala", "action": "play_media"}
+{"text": "play Kabita's Kitchen latest recipe video", "action": "play_media"}
+{"text": "play meditation music", "action": "play_media"}
+{"text": "Play rain sounds for sleeping", "action": "play_media"}
+{"text": "play lullaby for baby to sleep", "action": "play_media"}
+{"text": "play next song", "action": "play_media"}
+{"text": "Play the song again", "action": "play_media"}
+{"text": "play my liked songs on Spotify", "action": "play_media"}
+{"text": "play Bollywood top 50 playlist", "action": "play_media"}
+{"text": "play something nice yaar, I am bored", "action": "play_media"}
+{"text": "uh play some music please", "action": "play_media"}
+{"text": "Music lagao", "action": "play_media"}
+{"text": "zara songs play karo na", "action": "play_media"}
+{"text": "song bajao, the Kishore one, mere sapno ki rani", "action": "play_media"}
+{"text": "can you put Jai Ho song", "action": "play_media"}
+{"text": "I would like to hear old Hindi songs from the 60s, please play them", "action": "play_media"}
+{"text": "do one thing na, play that Gulzar wala song Tujhse Naraz Nahi Zindagi", "action": "play_media"}
+{"text": "Play.", "action": "play_media"}
+{"text": "plays some bajans", "action": "play_media"}
+{"text": "play arjit sing songs", "action": "play_media"}
+{"text": "pley hanuman chalisa", "action": "play_media"}
+{"text": "Play kishor kumar gaane.", "action": "play_media"}
+{"text": "play the rammayan katha", "action": "play_media"}
+{"text": "play cricket hilights of today match", "action": "play_media"}
+{"text": "play nuss rat fateh ali khan qawali", "action": "play_media"}
+{"text": "play elayaraja songs", "action": "play_media"}
+{"text": "play the you tube video on how to tie a saree", "action": "play_media"}
+{"text": "play lata mangeshkar ae mere watan ke logon", "action": "play_media"}
+{"text": "play konjam Ilaiyaraaja songs", "action": "play_media"}
+{"text": "ondu Kannada bhakti geethe play maadi please", "action": "play_media"}
+{"text": "Sir please play my grandson's school annual day video on YouTube", "action": "play_media"}
+{"text": "Arijit Singh ke gaane chalao", "action": "play_media"}
+{"text": "beta subah wala Gayatri mantra chala do", "action": "play_media"}
+{"text": "Lata Mangeshkar ka lag ja gale sunao", "action": "play_media"}
+{"text": "Doraemon cartoon laga do bachche ke liye", "action": "play_media"}
+{"text": "kal ke match ki highlights chalao", "action": "play_media"}
+{"text": "India Pakistan cricket highlights dikhao youtube pe", "action": "play_media"}
+{"text": "Aaj tak live news chala do please", "action": "play_media"}
+{"text": "koi accha sa romantic gaana bajao yaar", "action": "play_media"}
+{"text": "vividh bharati radio laga do zara", "action": "play_media"}
+{"text": "Sholay movie chala do.", "action": "play_media"}
+{"text": "Mohammed Rafi ke dard bhare nagme sunao", "action": "play_media"}
+{"text": "Shree Ram bhajan bajao", "action": "play_media"}
+{"text": "Anup Jalota ke bhajan laga do na", "action": "play_media"}
+{"text": "Shiv tandav stotram play karo", "action": "play_media"}
+{"text": "Diljit Dosanjh ka naya gaana chalao", "action": "play_media"}
+{"text": "Honey Singh ke party songs bajao bhai", "action": "play_media"}
+{"text": "Chhota Bheem ka episode lagao", "action": "play_media"}
+{"text": "motu patlu chala do jaldi", "action": "play_media"}
+{"text": "ranveer allahbadia ka latest podcast chalao", "action": "play_media"}
+{"text": "Raj Shamani ka podcast play kar do", "action": "play_media"}
+{"text": "Sandeep Maheshwari ka motivational video lagao", "action": "play_media"}
+{"text": "Jagjit Singh ki ghazalein sunni hai, laga do", "action": "play_media"}
+{"text": "Mujhe Ghulam Ali ki ghazal sunao.", "action": "play_media"}
+{"text": "90s ke Kumar Sanu wale gaane bajao", "action": "play_media"}
+{"text": "Alka Yagnik aur Udit Narayan ke duet chalao", "action": "play_media"}
+{"text": "Aashiqui 2 ke saare gaane chala do", "action": "play_media"}
+{"text": "DDLJ ka tujhe dekha to gaana lagao", "action": "play_media"}
+{"text": "Sunderkand path chalao", "action": "play_media"}
+{"text": "aarti laga do om jai jagdish hare", "action": "play_media"}
+{"text": "Krishna bhajan bajao please", "action": "play_media"}
+{"text": "Gurbani kirtan laga do ji", "action": "play_media"}
+{"text": "Nusrat Fateh Ali Khan ki qawwali chalao", "action": "play_media"}
+{"text": "Sufi music bajao kuch shanti wala", "action": "play_media"}
+{"text": "neend ke liye flute music laga do", "action": "play_media"}
+{"text": "Bachchon ki poems chalao, Johny Johny wali", "action": "play_media"}
+{"text": "Bhojpuri gaana bajao Pawan Singh ka", "action": "play_media"}
+{"text": "Khesari Lal ka naya video chalao", "action": "play_media"}
+{"text": "Haryanvi songs laga de bhai", "action": "play_media"}
+{"text": "Sapna Choudhary ka dance video chala de", "action": "play_media"}
+{"text": "Rajasthani folk geet bajao", "action": "play_media"}
+{"text": "Ramayan serial ka episode chala do Ramanand Sagar wala", "action": "play_media"}
+{"text": "Mahabharat ka title song sunao", "action": "play_media"}
+{"text": "NDTV India ki khabrein chalao", "action": "play_media"}
+{"text": "aaj ki taaza khabar wala video lagao", "action": "play_media"}
+{"text": "PM Modi ka aaj ka bhashan chala do", "action": "play_media"}
+{"text": "Mann ki baat sunao", "action": "play_media"}
+{"text": "IPL ke final ki highlights play karo", "action": "play_media"}
+{"text": "Virat Kohli ki century wali video chalao", "action": "play_media"}
+{"text": "Kapil Sharma show ka episode laga do", "action": "play_media"}
+{"text": "kuch comedy chala do, Raju Srivastav ki", "action": "play_media"}
+{"text": "Shreya Ghoshal ke gaane", "action": "play_media"}
+{"text": "gaana bajao", "action": "play_media"}
+{"text": "music chalao", "action": "play_media"}
+{"text": "Please play some old Hindi songs.", "action": "play_media"}
+{"text": "arey woh kesariya wala gaana laga na", "action": "play_media"}
+{"text": "accha sun, Pushpa movie ka srivalli gaana bajao", "action": "play_media"}
+{"text": "AR Rahman ke hits chalao spotify pe", "action": "play_media"}
+{"text": "youtube pe Coke Studio ka pasoori chala do", "action": "play_media"}

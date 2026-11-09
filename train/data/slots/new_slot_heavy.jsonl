@@ -1,0 +1,460 @@
+{"text": "Sharma uncle ko message bhejo ki kal subah das baje aa jaunga.", "action": "send_message", "slots": {"contact": "Sharma uncle", "text": "kal subah das baje aa jaunga"}}
+{"text": "Priya didi ko bolo ki rakhi ki thali maine le li hai", "action": "send_message", "slots": {"contact": "Priya didi", "text": "rakhi ki thali maine le li hai"}}
+{"text": "Main late hoon ye Raju ko bhej do.", "action": "send_message", "slots": {"contact": "Raju", "text": "Main late hoon"}}
+{"text": "Ravi bhai ko WhatsApp karo ki match kitne baje shuru hoga?", "action": "send_message", "slots": {"contact": "Ravi bhai", "text": "match kitne baje shuru hoga"}}
+{"text": "Boss ko message karo running 15 minutes late, traffic is bad", "action": "send_message", "slots": {"contact": "Boss", "text": "running 15 minutes late, traffic is bad"}}
+{"text": "Neha ma'am ko bolo ki assignment kal submit kar dungi", "action": "send_message", "slots": {"contact": "Neha ma'am", "text": "assignment kal submit kar dungi"}}
+{"text": "Mummy ko bhejo khana mat banana aaj bahar khayenge", "action": "send_message", "slots": {"contact": "Mummy", "text": "khana mat banana aaj bahar khayenge"}}
+{"text": "Papa ko msg kar do ki gaadi service ke liye de di hai.", "action": "send_message", "slots": {"contact": "Papa", "text": "gaadi service ke liye de di hai"}}
+{"text": "Pinky ko bol do happy birthday, party kab hai?", "action": "send_message", "slots": {"contact": "Pinky", "text": "happy birthday, party kab hai"}}
+{"text": "Verma ji ko message bhejiye ki rent is mahine 5 tareekh tak de dunga", "action": "send_message", "slots": {"contact": "Verma ji", "text": "rent is mahine 5 tareekh tak de dunga"}}
+{"text": "Chhotu ko likh ke bhejo homework kar liya kya", "action": "send_message", "slots": {"contact": "Chhotu", "text": "homework kar liya kya"}}
+{"text": "Rohit ko what's app karo ki gym aaj band hai", "action": "send_message", "slots": {"contact": "Rohit", "text": "gym aaj band hai"}}
+{"text": "Nani ko message karo ki hum Sunday ko aa rahe hain.", "action": "send_message", "slots": {"contact": "Nani", "text": "hum Sunday ko aa rahe hain"}}
+{"text": "Gupta aunty ko bolo ki doodh wala aaj nahi aaya", "action": "send_message", "slots": {"contact": "Gupta aunty", "text": "doodh wala aaj nahi aaya"}}
+{"text": "Ankit ko bhej do meeting link group pe daal diya hai", "action": "send_message", "slots": {"contact": "Ankit", "text": "meeting link group pe daal diya hai"}}
+{"text": "Kal ki train 6:40 ki hai ye Bhaiya ko bata do message pe", "action": "send_message", "slots": {"contact": "Bhaiya", "text": "Kal ki train 6:40 ki hai"}}
+{"text": "Ghar pahunch gaya, ye Maa ko send kar do", "action": "send_message", "slots": {"contact": "Maa", "text": "Ghar pahunch gaya"}}
+{"text": "Sonu ko message karo bol ki paise UPI kar diye.", "action": "send_message", "slots": {"contact": "Sonu", "text": "paise UPI kar diye"}}
+{"text": "Arre Deepak sir ko message bhejo ki aaj ki class online hogi kya?", "action": "send_message", "slots": {"contact": "Deepak sir", "text": "aaj ki class online hogi kya"}}
+{"text": "Meena bua ko bolo ki shaadi ka card mil gaya, bahut sundar hai", "action": "send_message", "slots": {"contact": "Meena bua", "text": "shaadi ka card mil gaya, bahut sundar hai"}}
+{"text": "Jiju ko WhatsApp pe bolo ki flight 2 ghante delay hai", "action": "send_message", "slots": {"contact": "Jiju", "text": "flight 2 ghante delay hai"}}
+{"text": "Group mein nahi, sirf Kavita ko bhejo ki report ready hai", "action": "send_message", "slots": {"contact": "Kavita", "text": "report ready hai"}}
+{"text": "Raj ko bolna ki main stadium ke gate number 3 pe khada hoon.", "action": "send_message", "slots": {"contact": "Raj", "text": "main stadium ke gate number 3 pe khada hoon"}}
+{"text": "zara Mausi ko message kar do ki dawai le li", "action": "send_message", "slots": {"contact": "Mausi", "text": "dawai le li"}}
+{"text": "Imran bhai ko bhejo kal dukaan 11 baje khulegi", "action": "send_message", "slots": {"contact": "Imran bhai", "text": "kal dukaan 11 baje khulegi"}}
+{"text": "Tanya ko message karo, ok see you at 7", "action": "send_message", "slots": {"contact": "Tanya", "text": "ok see you at 7"}}
+{"text": "Driver bhaiya ko bolo ki gaadi gate pe le aao", "action": "send_message", "slots": {"contact": "Driver bhaiya", "text": "gaadi gate pe le aao"}}
+{"text": "Dadi ko bolo ki main theek hoon chinta mat karo.", "action": "send_message", "slots": {"contact": "Dadi", "text": "main theek hoon chinta mat karo"}}
+{"text": "Plumber ko message bhejo ki kal subah aana nal phir se toot gaya", "action": "send_message", "slots": {"contact": "Plumber", "text": "kal subah aana nal phir se toot gaya"}}
+{"text": "Vikram ko message: party cancel ho gayi hai", "action": "send_message", "slots": {"contact": "Vikram", "text": "party cancel ho gayi hai"}}
+{"text": "Bhabhi ko msg karo ki recipe bhej do paneer wali", "action": "send_message", "slots": {"contact": "Bhabhi", "text": "recipe bhej do paneer wali"}}
+{"text": "Akash ko bol de notes kal le aana yaar", "action": "send_message", "slots": {"contact": "Akash", "text": "notes kal le aana yaar"}}
+{"text": "Ek message bhejo Suresh chacha ko ki tractor ki chaabi mere paas hai.", "action": "send_message", "slots": {"contact": "Suresh chacha", "text": "tractor ki chaabi mere paas hai"}}
+{"text": "Ritu ko poocho ki kal college aa rahi hai kya", "action": "send_message", "slots": {"contact": "Ritu", "text": "kal college aa rahi hai kya"}}
+{"text": "Manager sahab ko bhejo aaj tabiyat theek nahi hai chhutti chahiye", "action": "send_message", "slots": {"contact": "Manager sahab", "text": "aaj tabiyat theek nahi hai chhutti chahiye"}}
+{"text": "Aman ko message kardo bro 500 rupay wapas kar de", "action": "send_message", "slots": {"contact": "Aman", "text": "bro 500 rupay wapas kar de"}}
+{"text": "Kiran ko WhatsApp bhejo ki order number 48213 aa gaya", "action": "send_message", "slots": {"contact": "Kiran", "text": "order number 48213 aa gaya"}}
+{"text": "Shweta ko bolo ki traffic mein phasa hoon, 20 minute aur.", "action": "send_message", "slots": {"contact": "Shweta", "text": "traffic mein phasa hoon, 20 minute aur"}}
+{"text": "please Anjali ma'am ko message bhejo ki main kal leave pe rahungi", "action": "send_message", "slots": {"contact": "Anjali ma'am", "text": "main kal leave pe rahungi"}}
+{"text": "Bunty ko yeh bhejo: aaj raat cricket dekhenge mere ghar", "action": "send_message", "slots": {"contact": "Bunty", "text": "aaj raat cricket dekhenge mere ghar"}}
+{"text": "Mama ji ko bolo ki Diwali pe aa jaiye sab milke manayenge", "action": "send_message", "slots": {"contact": "Mama ji", "text": "Diwali pe aa jaiye sab milke manayenge"}}
+{"text": "Mohit ko message karo, \"where are you?\"", "action": "send_message", "slots": {"contact": "Mohit", "text": "where are you"}}
+{"text": "Rekha didi ko keh do ki saree ki dukaan 8 baje band hoti hai.", "action": "send_message", "slots": {"contact": "Rekha didi", "text": "saree ki dukaan 8 baje band hoti hai"}}
+{"text": "Kya tum Nikhil ko bhej sakte ho ki presentation mail kar di", "action": "send_message", "slots": {"contact": "Nikhil", "text": "presentation mail kar di"}}
+{"text": "Teacher ko message bhejo ki Aarav aaj school nahi aayega", "action": "send_message", "slots": {"contact": "Teacher", "text": "Aarav aaj school nahi aayega"}}
+{"text": "Doctor sahab ko message karo ki appointment Thursday 4 baje ka chahiye", "action": "send_message", "slots": {"contact": "Doctor sahab", "text": "appointment Thursday 4 baje ka chahiye"}}
+{"text": "Sameer ko bhej do lol that was so funny", "action": "send_message", "slots": {"contact": "Sameer", "text": "lol that was so funny"}}
+{"text": "Husband ko message karo ki aate waqt sabzi le aana.", "action": "send_message", "slots": {"contact": "Husband", "text": "aate waqt sabzi le aana"}}
+{"text": "Wife ko bolo meeting lambi chal rahi hai dinner pe wait mat karna", "action": "send_message", "slots": {"contact": "Wife", "text": "meeting lambi chal rahi hai dinner pe wait mat karna"}}
+{"text": "राजू को मैसेज भेजो कि मैं दस मिनट में आ रहा हूँ", "action": "send_message", "slots": {"contact": "राजू", "text": "मैं दस मिनट में आ रहा हूँ"}}
+{"text": "मम्मी को बोलो कि खाना बन गया क्या", "action": "send_message", "slots": {"contact": "मम्मी", "text": "खाना बन गया क्या"}}
+{"text": "शर्मा अंकल को भेजो कल मीटिंग शाम पाँच बजे है", "action": "send_message", "slots": {"contact": "शर्मा अंकल", "text": "कल मीटिंग शाम पाँच बजे है"}}
+{"text": "प्रिया दीदी को व्हाट्सएप करो कि टिकट बुक हो गई", "action": "send_message", "slots": {"contact": "प्रिया दीदी", "text": "टिकट बुक हो गई"}}
+{"text": "पापा को बता दो कि मैं स्टेशन पहुँच गया", "action": "send_message", "slots": {"contact": "पापा", "text": "मैं स्टेशन पहुँच गया"}}
+{"text": "मैं आज नहीं आ पाऊँगी ये नेहा को भेज दो", "action": "send_message", "slots": {"contact": "नेहा", "text": "मैं आज नहीं आ पाऊँगी"}}
+{"text": "रवि भैया को मैसेज करो कि बाइक की चाबी टेबल पर है", "action": "send_message", "slots": {"contact": "रवि भैया", "text": "बाइक की चाबी टेबल पर है"}}
+{"text": "बॉस को मैसेज करो आज मैं घर से काम करूँगा", "action": "send_message", "slots": {"contact": "बॉस", "text": "आज मैं घर से काम करूँगा"}}
+{"text": "Send a message to Arjun saying I'll call you after lunch.", "action": "send_message", "slots": {"contact": "Arjun", "text": "I'll call you after lunch"}}
+{"text": "Text mom that I reached the hostel safely.", "action": "send_message", "slots": {"contact": "mom", "text": "I reached the hostel safely"}}
+{"text": "Tell Sharma uncle that the plumber is coming at 3 pm", "action": "send_message", "slots": {"contact": "Sharma uncle", "text": "the plumber is coming at 3 pm"}}
+{"text": "WhatsApp Meera that the cake order is confirmed", "action": "send_message", "slots": {"contact": "Meera", "text": "the cake order is confirmed"}}
+{"text": "Message boss saying I'm stuck in a client call, will join in ten", "action": "send_message", "slots": {"contact": "boss", "text": "I'm stuck in a client call, will join in ten"}}
+{"text": "Can you send Karthik a message, bring the charger tomorrow.", "action": "send_message", "slots": {"contact": "Karthik", "text": "bring the charger tomorrow"}}
+{"text": "Ping Rhea on WhatsApp, are we still on for movie tonight?", "action": "send_message", "slots": {"contact": "Rhea", "text": "are we still on for movie tonight"}}
+{"text": "Let Dev know that the wifi password is sunshine123", "action": "send_message", "slots": {"contact": "Dev", "text": "the wifi password is sunshine123"}}
+{"text": "Send happy anniversary to Ramesh uncle", "action": "send_message", "slots": {"contact": "Ramesh uncle", "text": "happy anniversary"}}
+{"text": "\"Running late\" send that to Ananya", "action": "send_message", "slots": {"contact": "Ananya", "text": "Running late"}}
+{"text": "Write to Professor Iyer that I will submit the thesis draft by Friday.", "action": "send_message", "slots": {"contact": "Professor Iyer", "text": "I will submit the thesis draft by Friday"}}
+{"text": "Send grandma a message saying we miss you a lot", "action": "send_message", "slots": {"contact": "grandma", "text": "we miss you a lot"}}
+{"text": "whatsapp Joseph sir, the bus will leave at 6:15 sharp", "action": "send_message", "slots": {"contact": "Joseph sir", "text": "the bus will leave at 6:15 sharp"}}
+{"text": "Please message Neha ma'am that I have uploaded the lab record", "action": "send_message", "slots": {"contact": "Neha ma'am", "text": "I have uploaded the lab record"}}
+{"text": "send a whats app to Lakshmi akka saying thank you for the sweets", "action": "send_message", "slots": {"contact": "Lakshmi akka", "text": "thank you for the sweets"}}
+{"text": "Tell dad I need 2000 rupees for the trip.", "action": "send_message", "slots": {"contact": "dad", "text": "I need 2000 rupees for the trip"}}
+{"text": "Message Rohan, did you take my umbrella?", "action": "send_message", "slots": {"contact": "Rohan", "text": "did you take my umbrella"}}
+{"text": "Reply to Farhan saying sounds good, see you there", "action": "send_message", "slots": {"contact": "Farhan", "text": "sounds good, see you there"}}
+{"text": "Tell the landlord that the geyser is not working since Monday", "action": "send_message", "slots": {"contact": "landlord", "text": "the geyser is not working since Monday"}}
+{"text": "Send a WhatsApp message to Neelam aunty saying get well soon", "action": "send_message", "slots": {"contact": "Neelam aunty", "text": "get well soon"}}
+{"text": "Could you message Tara, did you reach home?", "action": "send_message", "slots": {"contact": "Tara", "text": "did you reach home"}}
+{"text": "text Priyanka the address is 14 MG Road, second floor", "action": "send_message", "slots": {"contact": "Priyanka", "text": "the address is 14 MG Road, second floor"}}
+{"text": "Send Varun a message saying the keys are under the mat", "action": "send_message", "slots": {"contact": "Varun", "text": "the keys are under the mat"}}
+{"text": "message HR that my laptop has not arrived yet", "action": "send_message", "slots": {"contact": "HR", "text": "my laptop has not arrived yet"}}
+{"text": "WhatsApp Kishore uncle, happy retirement and many congratulations", "action": "send_message", "slots": {"contact": "Kishore uncle", "text": "happy retirement and many congratulations"}}
+{"text": "Amma ge message kalsu naanu oota maadide anta.", "action": "send_message", "slots": {"contact": "Amma", "text": "naanu oota maadide"}}
+{"text": "Ravi ge helu naale office ge barolla antha", "action": "send_message", "slots": {"contact": "Ravi", "text": "naale office ge barolla"}}
+{"text": "Shruthi akka ge WhatsApp maadi bega baa anta", "action": "send_message", "slots": {"contact": "Shruthi akka", "text": "bega baa"}}
+{"text": "Appa ige message kalisi bus sikkilla late aagutte", "action": "send_message", "slots": {"contact": "Appa", "text": "bus sikkilla late aagutte"}}
+{"text": "Manju ge helu match ge tickets sikkide antha", "action": "send_message", "slots": {"contact": "Manju", "text": "match ge tickets sikkide"}}
+{"text": "Naanu manege hogtidini antha Kavya ge kalsu.", "action": "send_message", "slots": {"contact": "Kavya", "text": "Naanu manege hogtidini"}}
+{"text": "Boss ge message maadi ivattu work from home maadtini", "action": "send_message", "slots": {"contact": "Boss", "text": "ivattu work from home maadtini"}}
+{"text": "Anitha madam ge helu project report ready ide antha", "action": "send_message", "slots": {"contact": "Anitha madam", "text": "project report ready ide"}}
+{"text": "Suresh anna ge message kalsu, nimma bike nanna hatra ide", "action": "send_message", "slots": {"contact": "Suresh anna", "text": "nimma bike nanna hatra ide"}}
+{"text": "Ajji ge helu naavu Sunday bartivi antha helu", "action": "send_message", "slots": {"contact": "Ajji", "text": "naavu Sunday bartivi"}}
+{"text": "Praveen ge kalisu meeting 4 gante ge shift aagide.", "action": "send_message", "slots": {"contact": "Praveen", "text": "meeting 4 gante ge shift aagide"}}
+{"text": "Deepu ge WhatsApp maadu, eshtu hothu barthiya?", "action": "send_message", "slots": {"contact": "Deepu", "text": "eshtu hothu barthiya"}}
+{"text": "Gowda sir ge message maadi fees naale kodtini antha", "action": "send_message", "slots": {"contact": "Gowda sir", "text": "fees naale kodtini"}}
+{"text": "ಅಮ್ಮನಿಗೆ ಮೆಸೇಜ್ ಕಳಿಸು ನಾನು ಬಸ್ ಹತ್ತಿದೆ ಅಂತ", "action": "send_message", "slots": {"contact": "ಅಮ್ಮ", "text": "ನಾನು ಬಸ್ ಹತ್ತಿದೆ"}}
+{"text": "ಸುಮಾ ಅಕ್ಕನಿಗೆ ಹೇಳು ನಾಳೆ ಬೆಳಿಗ್ಗೆ ಏಳು ಗಂಟೆಗೆ ಬರ್ತೀನಿ ಅಂತ", "action": "send_message", "slots": {"contact": "ಸುಮಾ ಅಕ್ಕ", "text": "ನಾಳೆ ಬೆಳಿಗ್ಗೆ ಏಳು ಗಂಟೆಗೆ ಬರ್ತೀನಿ"}}
+{"text": "ಬಾಸ್ ಗೆ ವಾಟ್ಸಾಪ್ ಮಾಡು ಇವತ್ತು ರಜೆ ಬೇಕು", "action": "send_message", "slots": {"contact": "ಬಾಸ್", "text": "ಇವತ್ತು ರಜೆ ಬೇಕು"}}
+{"text": "ಕಿರಣ್ ಗೆ ಮೆಸೇಜ್ ಮಾಡು ಮೀಟಿಂಗ್ ಕ್ಯಾನ್ಸಲ್ ಆಯ್ತು", "action": "send_message", "slots": {"contact": "ಕಿರಣ್", "text": "ಮೀಟಿಂಗ್ ಕ್ಯಾನ್ಸಲ್ ಆಯ್ತು"}}
+{"text": "ನಾನು ಆಫೀಸ್ ತಲುಪಿದೆ ಅಂತ ಅಪ್ಪನಿಗೆ ಕಳಿಸು", "action": "send_message", "slots": {"contact": "ಅಪ್ಪ", "text": "ನಾನು ಆಫೀಸ್ ತಲುಪಿದೆ"}}
+{"text": "Amma kku message anuppu naan saapten nu", "action": "send_message", "slots": {"contact": "Amma", "text": "naan saapten"}}
+{"text": "Karthik kitta sollu naalaiku leave nu", "action": "send_message", "slots": {"contact": "Karthik", "text": "naalaiku leave"}}
+{"text": "Priya akka kku WhatsApp pannu train 8 mani ku.", "action": "send_message", "slots": {"contact": "Priya akka", "text": "train 8 mani ku"}}
+{"text": "Boss kku message pannu traffic la maatikiten, konjam late aagum", "action": "send_message", "slots": {"contact": "Boss", "text": "traffic la maatikiten, konjam late aagum"}}
+{"text": "Murugan anna kku sollu car ready aayiduchu nu", "action": "send_message", "slots": {"contact": "Murugan anna", "text": "car ready aayiduchu"}}
+{"text": "Selvi madam kku message anuppu fees kattiten nu", "action": "send_message", "slots": {"contact": "Selvi madam", "text": "fees kattiten"}}
+{"text": "Naan veetuku vandhuten nu Appa kku anuppu", "action": "send_message", "slots": {"contact": "Appa", "text": "Naan veetuku vandhuten"}}
+{"text": "Vignesh ku message podu, match paakalaama?", "action": "send_message", "slots": {"contact": "Vignesh", "text": "match paakalaama"}}
+{"text": "Paati kku sollu Pongal ku oorukku varom nu", "action": "send_message", "slots": {"contact": "Paati", "text": "Pongal ku oorukku varom"}}
+{"text": "Ramesh sir kku anuppu class 10 mani ku start aagum", "action": "send_message", "slots": {"contact": "Ramesh sir", "text": "class 10 mani ku start aagum"}}
+{"text": "Thambi kku sollu bike saavi table mela irukku nu", "action": "send_message", "slots": {"contact": "Thambi", "text": "bike saavi table mela irukku"}}
+{"text": "அம்மாவுக்கு மெசேஜ் அனுப்பு நான் ஆபீஸ் கிளம்பிட்டேன்", "action": "send_message", "slots": {"contact": "அம்மா", "text": "நான் ஆபீஸ் கிளம்பிட்டேன்"}}
+{"text": "கார்த்திக்கு சொல்லு நாளைக்கு மீட்டிங் இல்லை என்று", "action": "send_message", "slots": {"contact": "கார்த்திக்", "text": "நாளைக்கு மீட்டிங் இல்லை"}}
+{"text": "அப்பாவுக்கு வாட்ஸ்அப் பண்ணு பஸ் லேட்டா வருது", "action": "send_message", "slots": {"contact": "அப்பா", "text": "பஸ் லேட்டா வருது"}}
+{"text": "சரவணன் அண்ணாவுக்கு சொல்லு பணம் அனுப்பிட்டேன் என்று", "action": "send_message", "slots": {"contact": "சரவணன் அண்ணா", "text": "பணம் அனுப்பிட்டேன்"}}
+{"text": "Amma ki message pampu nenu tinnanu ani", "action": "send_message", "slots": {"contact": "Amma", "text": "nenu tinnanu"}}
+{"text": "Ravi ki cheppu repu office ki raanu ani", "action": "send_message", "slots": {"contact": "Ravi", "text": "repu office ki raanu"}}
+{"text": "Lakshmi akka ki WhatsApp cheyyi pelli card vachindi.", "action": "send_message", "slots": {"contact": "Lakshmi akka", "text": "pelli card vachindi"}}
+{"text": "Nanna ki message pettu bus miss ayyindi late avutundi", "action": "send_message", "slots": {"contact": "Nanna", "text": "bus miss ayyindi late avutundi"}}
+{"text": "Srinu anna ki cheppu cricket match 5 ki start ani", "action": "send_message", "slots": {"contact": "Srinu anna", "text": "cricket match 5 ki start"}}
+{"text": "Sravani ki message cheyyi movie tickets book chesanu", "action": "send_message", "slots": {"contact": "Sravani", "text": "movie tickets book chesanu"}}
+{"text": "Nenu intiki vachesanu ani Ammamma ki pampu", "action": "send_message", "slots": {"contact": "Ammamma", "text": "Nenu intiki vachesanu"}}
+{"text": "Reddy garu ki message pampandi meeting Monday ki vaayida.", "action": "send_message", "slots": {"contact": "Reddy garu", "text": "meeting Monday ki vaayida"}}
+{"text": "Bujji ki message pettu nuvvu ekkada unnav?", "action": "send_message", "slots": {"contact": "Bujji", "text": "nuvvu ekkada unnav"}}
+{"text": "Kiran sir ki message pampu assignment upload chesanu ani", "action": "send_message", "slots": {"contact": "Kiran sir", "text": "assignment upload chesanu"}}
+{"text": "అమ్మకి మెసేజ్ పంపు నేను బయలుదేరాను", "action": "send_message", "slots": {"contact": "అమ్మ", "text": "నేను బయలుదేరాను"}}
+{"text": "రవికి చెప్పు రేపు సెలవు అని", "action": "send_message", "slots": {"contact": "రవి", "text": "రేపు సెలవు"}}
+{"text": "నాన్నకి వాట్సాప్ చేయి డబ్బులు వచ్చాయి", "action": "send_message", "slots": {"contact": "నాన్న", "text": "డబ్బులు వచ్చాయి"}}
+{"text": "సురేష్ అన్నకి మెసేజ్ చేయి బండి సర్వీస్ అయిపోయింది అని", "action": "send_message", "slots": {"contact": "సురేష్ అన్న", "text": "బండి సర్వీస్ అయిపోయింది"}}
+{"text": "Ammakku message ayakku njan ethi ennu", "action": "send_message", "slots": {"contact": "Amma", "text": "njan ethi"}}
+{"text": "Arun nu message ayakku naale varilla ennu", "action": "send_message", "slots": {"contact": "Arun", "text": "naale varilla"}}
+{"text": "Chechi kku WhatsApp cheyyu train late aanu", "action": "send_message", "slots": {"contact": "Chechi", "text": "train late aanu"}}
+{"text": "Boss nu message ayakku innu leave venam.", "action": "send_message", "slots": {"contact": "Boss", "text": "innu leave venam"}}
+{"text": "Achan nu parayu njan bus il kayari ennu", "action": "send_message", "slots": {"contact": "Achan", "text": "njan bus il kayari"}}
+{"text": "Anu chechi kku message ayakku cake order cheythu", "action": "send_message", "slots": {"contact": "Anu chechi", "text": "cake order cheythu"}}
+{"text": "Thomas sir nu message ayakku exam fee adachu ennu", "action": "send_message", "slots": {"contact": "Thomas sir", "text": "exam fee adachu"}}
+{"text": "Njan vaikum ennu Ammachi kku ayakku", "action": "send_message", "slots": {"contact": "Ammachi", "text": "Njan vaikum"}}
+{"text": "അമ്മയ്ക്ക് മെസേജ് അയക്ക് ഞാൻ എത്തി", "action": "send_message", "slots": {"contact": "അമ്മ", "text": "ഞാൻ എത്തി"}}
+{"text": "ചേച്ചിക്ക് വാട്സാപ്പ് ചെയ്യ് നാളെ കാണാം", "action": "send_message", "slots": {"contact": "ചേച്ചി", "text": "നാളെ കാണാം"}}
+{"text": "Aai la message kar mi ghari pohochlo", "action": "send_message", "slots": {"contact": "Aai", "text": "mi ghari pohochlo"}}
+{"text": "Baba la sang ki gaadi petrol pump var aahe", "action": "send_message", "slots": {"contact": "Baba", "text": "gaadi petrol pump var aahe"}}
+{"text": "Sachin dada la WhatsApp kar ki udya sakali 7 la nigu", "action": "send_message", "slots": {"contact": "Sachin dada", "text": "udya sakali 7 la nigu"}}
+{"text": "Patil kaka na message pathav ki shet var pani sodla.", "action": "send_message", "slots": {"contact": "Patil kaka", "text": "shet var pani sodla"}}
+{"text": "Sneha tai la sang mi ushira yenar aahe", "action": "send_message", "slots": {"contact": "Sneha tai", "text": "mi ushira yenar aahe"}}
+{"text": "Boss la message kar aaj meeting nantar call karto", "action": "send_message", "slots": {"contact": "Boss", "text": "aaj meeting nantar call karto"}}
+{"text": "Mi nighalo aahe he Amol la pathav", "action": "send_message", "slots": {"contact": "Amol", "text": "Mi nighalo aahe"}}
+{"text": "Kulkarni madam na sanga ki notes udya deto", "action": "send_message", "slots": {"contact": "Kulkarni madam", "text": "notes udya deto"}}
+{"text": "आईला मेसेज कर मी जेवलो", "action": "send_message", "slots": {"contact": "आई", "text": "मी जेवलो"}}
+{"text": "दादाला सांग की उद्या लवकर ये", "action": "send_message", "slots": {"contact": "दादा", "text": "उद्या लवकर ये"}}
+{"text": "Ma ke message pathao ami pouche gechi", "action": "send_message", "slots": {"contact": "Ma", "text": "ami pouche gechi"}}
+{"text": "Rina di ke bolo je kal college jabo na", "action": "send_message", "slots": {"contact": "Rina di", "text": "kal college jabo na"}}
+{"text": "Babai ke WhatsApp koro train 2 ghonta late", "action": "send_message", "slots": {"contact": "Babai", "text": "train 2 ghonta late"}}
+{"text": "Sourav da ke message koro khela kokhon shuru?", "action": "send_message", "slots": {"contact": "Sourav da", "text": "khela kokhon shuru"}}
+{"text": "Boss ke bolo ami aaj work from home korchi", "action": "send_message", "slots": {"contact": "Boss", "text": "ami aaj work from home korchi"}}
+{"text": "Mitali boudi ke message pathao mishti pathiye diyechi", "action": "send_message", "slots": {"contact": "Mitali boudi", "text": "mishti pathiye diyechi"}}
+{"text": "Ami dhire aschi eta Arnab ke pathiye dao", "action": "send_message", "slots": {"contact": "Arnab", "text": "Ami dhire aschi"}}
+{"text": "মাকে মেসেজ পাঠাও আমি বাড়ি পৌঁছে গেছি", "action": "send_message", "slots": {"contact": "মা", "text": "আমি বাড়ি পৌঁছে গেছি"}}
+{"text": "রাহুলকে বলো কাল দেখা হবে", "action": "send_message", "slots": {"contact": "রাহুল", "text": "কাল দেখা হবে"}}
+{"text": "দিদিকে হোয়াটসঅ্যাপ করো কেক অর্ডার হয়ে গেছে", "action": "send_message", "slots": {"contact": "দিদি", "text": "কেক অর্ডার হয়ে গেছে"}}
+{"text": "Arey yaar Sunny ko message kar na ki aaj ka plan cancel", "action": "send_message", "slots": {"contact": "Sunny", "text": "aaj ka plan cancel"}}
+{"text": "Kavya ma'am ko inform karo ki main 10:30 tak online aa jaungi", "action": "send_message", "slots": {"contact": "Kavya ma'am", "text": "main 10:30 tak online aa jaungi"}}
+{"text": "Abhishek ko WhatsApp karo, bhai 2 ticket book kar le Pathaan ke", "action": "send_message", "slots": {"contact": "Abhishek", "text": "bhai 2 ticket book kar le Pathaan ke"}}
+{"text": "Electrician bhaiya ko bolo shaam ko 5 baje aana fan theek karna hai.", "action": "send_message", "slots": {"contact": "Electrician bhaiya", "text": "shaam ko 5 baje aana fan theek karna hai"}}
+{"text": "Neeraj ko message bhejo congratulations on your promotion", "action": "send_message", "slots": {"contact": "Neeraj", "text": "congratulations on your promotion"}}
+{"text": "Saurabh ko bolo ki laptop ka charger mere bag mein reh gaya", "action": "send_message", "slots": {"contact": "Saurabh", "text": "laptop ka charger mere bag mein reh gaya"}}
+{"text": "Kaam ho gaya, Mehta sir ko yeh message kar do", "action": "send_message", "slots": {"contact": "Mehta sir", "text": "Kaam ho gaya"}}
+{"text": "Rashmi ko poochho kal ka lunch kahan karna hai", "action": "send_message", "slots": {"contact": "Rashmi", "text": "kal ka lunch kahan karna hai"}}
+{"text": "Harish ko bolna chal kal milte hain 4 baje CCD pe.", "action": "send_message", "slots": {"contact": "Harish", "text": "chal kal milte hain 4 baje CCD pe"}}
+{"text": "Pandit ji ko message karo ki pooja ka muhurat confirm kar dein", "action": "send_message", "slots": {"contact": "Pandit ji", "text": "pooja ka muhurat confirm kar dein"}}
+{"text": "Maa ko text karo ki dawaiyan order kar di hain", "action": "send_message", "slots": {"contact": "Maa", "text": "dawaiyan order kar di hain"}}
+{"text": "Lalit ko WhatsApp pe likho bhai kal wali photo bhej", "action": "send_message", "slots": {"contact": "Lalit", "text": "bhai kal wali photo bhej"}}
+{"text": "Prakash ko bolo ki 3 bori cement aur chahiye", "action": "send_message", "slots": {"contact": "Prakash", "text": "3 bori cement aur chahiye"}}
+{"text": "Mausa ji ko bhej do hum station pe utar gaye hain.", "action": "send_message", "slots": {"contact": "Mausa ji", "text": "hum station pe utar gaye hain"}}
+{"text": "Tinku ko bolo jaldi aa, movie start hone wali hai", "action": "send_message", "slots": {"contact": "Tinku", "text": "jaldi aa, movie start hone wali hai"}}
+{"text": "Yeh message Rani ko bhejo ki kal subah yoga class hai", "action": "send_message", "slots": {"contact": "Rani", "text": "kal subah yoga class hai"}}
+{"text": "Kabir bhaiya ko message karo kya aap kal free ho?", "action": "send_message", "slots": {"contact": "Kabir bhaiya", "text": "kya aap kal free ho"}}
+{"text": "Sarita didi ko message karo, Rs 1500 transfer kar diye", "action": "send_message", "slots": {"contact": "Sarita didi", "text": "Rs 1500 transfer kar diye"}}
+{"text": "Bhai ko message kar de ki phone charge pe hai baad mein call karunga.", "action": "send_message", "slots": {"contact": "Bhai", "text": "phone charge pe hai baad mein call karunga"}}
+{"text": "Sharma ji ko bhejiye ki kal ki meeting 11 baje rakhte hain", "action": "send_message", "slots": {"contact": "Sharma ji", "text": "kal ki meeting 11 baje rakhte hain"}}
+{"text": "Tushar ko message bhejoo ki team ready hai", "action": "send_message", "slots": {"contact": "Tushar", "text": "team ready hai"}}
+{"text": "Kunal ko what's app message karo hostel ka gate 10 baje band hota hai", "action": "send_message", "slots": {"contact": "Kunal", "text": "hostel ka gate 10 baje band hota hai"}}
+{"text": "Seema ko bata do ki main pahunch rahi hoon, 5 minute", "action": "send_message", "slots": {"contact": "Seema", "text": "main pahunch rahi hoon, 5 minute"}}
+{"text": "Coach sir ko message karo practice kal subah 6 baje hai na?", "action": "send_message", "slots": {"contact": "Coach sir", "text": "practice kal subah 6 baje hai na"}}
+{"text": "Ek kaam karo Anil ko likh do ki parcel courier se aa raha hai", "action": "send_message", "slots": {"contact": "Anil", "text": "parcel courier se aa raha hai"}}
+{"text": "Jaya mami ko message karo Navratri ki dher saari shubhkamnayein", "action": "send_message", "slots": {"contact": "Jaya mami", "text": "Navratri ki dher saari shubhkamnayein"}}
+{"text": "Gaurav sir ko reply karo yes sir noted", "action": "send_message", "slots": {"contact": "Gaurav sir", "text": "yes sir noted"}}
+{"text": "Raju ko message karo ki dukaan ki chaabi Pappu ke paas hai", "action": "send_message", "slots": {"contact": "Raju", "text": "dukaan ki chaabi Pappu ke paas hai"}}
+{"text": "Naina ko bhejo 'on my way'", "action": "send_message", "slots": {"contact": "Naina", "text": "on my way"}}
+{"text": "Aditya ko bol do ki cab book kar di, number KA 05 MN 4321", "action": "send_message", "slots": {"contact": "Aditya", "text": "cab book kar di, number KA 05 MN 4321"}}
+{"text": "Rakesh bhaiya ko message bhejo ki kirana ka list bhej raha hoon", "action": "send_message", "slots": {"contact": "Rakesh bhaiya", "text": "kirana ka list bhej raha hoon"}}
+{"text": "Send message to Pinki didi ki main mandir ke bahar wait kar rahi hoon", "action": "send_message", "slots": {"contact": "Pinki didi", "text": "main mandir ke bahar wait kar rahi hoon"}}
+{"text": "Tell Ravi bhai ki bike ki service ho gayi", "action": "send_message", "slots": {"contact": "Ravi bhai", "text": "bike ki service ho gayi"}}
+{"text": "Please Anu ko text karo that I'll be there by 8.", "action": "send_message", "slots": {"contact": "Anu", "text": "I'll be there by 8"}}
+{"text": "Message Sharma uncle kal society meeting 7 baje hai", "action": "send_message", "slots": {"contact": "Sharma uncle", "text": "kal society meeting 7 baje hai"}}
+{"text": "Ritesh ko message send karo, the client approved the design", "action": "send_message", "slots": {"contact": "Ritesh", "text": "the client approved the design"}}
+{"text": "Mujhe thodi der lagegi, Vandana ko message kar do", "action": "send_message", "slots": {"contact": "Vandana", "text": "Mujhe thodi der lagegi"}}
+{"text": "Bittu ko bolo ki ghar ki chaabi padosi ke paas hai", "action": "send_message", "slots": {"contact": "Bittu", "text": "ghar ki chaabi padosi ke paas hai"}}
+{"text": "Office wale Sinha sir ko message karo ki file signed hai.", "action": "send_message", "slots": {"contact": "Sinha sir", "text": "file signed hai"}}
+{"text": "Didi ko WhatsApp karo kal ka kya scene hai?", "action": "send_message", "slots": {"contact": "Didi", "text": "kal ka kya scene hai"}}
+{"text": "Sakshi ko bhejo good morning, have a great day", "action": "send_message", "slots": {"contact": "Sakshi", "text": "good morning, have a great day"}}
+{"text": "Arjun bhaiya ko msg bhejo exam result aa gaya, 92 percent aaye", "action": "send_message", "slots": {"contact": "Arjun bhaiya", "text": "exam result aa gaya, 92 percent aaye"}}
+{"text": "मीना आंटी को मैसेज भेजो कि कल किटी पार्टी तीन बजे है", "action": "send_message", "slots": {"contact": "मीना आंटी", "text": "कल किटी पार्टी तीन बजे है"}}
+{"text": "अजय को बोलो मैं नीचे खड़ा हूँ", "action": "send_message", "slots": {"contact": "अजय", "text": "मैं नीचे खड़ा हूँ"}}
+{"text": "दीपक सर को भेजो कि मैं क्लास में लेट आऊँगा", "action": "send_message", "slots": {"contact": "दीपक सर", "text": "मैं क्लास में लेट आऊँगा"}}
+{"text": "নিলয়দাকে মেসেজ করো কাল অফিস বন্ধ", "action": "send_message", "slots": {"contact": "নিলয়দা", "text": "কাল অফিস বন্ধ"}}
+{"text": "சுமதி மேடம் கிட்ட சொல்லு நான் லீவ் என்று", "action": "send_message", "slots": {"contact": "சுமதி மேடம்", "text": "நான் லீவ்"}}
+{"text": "ప్రియ కి మెసేజ్ పంపు సినిమా ఏడు గంటలకి", "action": "send_message", "slots": {"contact": "ప్రియ", "text": "సినిమా ఏడు గంటలకి"}}
+{"text": "Is box mein likho Ramesh Kumar Sharma.", "action": "type_text", "slots": {"text": "Ramesh Kumar Sharma"}}
+{"text": "type karo meeting at 4 pm tomorrow", "action": "type_text", "slots": {"text": "meeting at 4 pm tomorrow"}}
+{"text": "Search bar mein likho best biryani near me", "action": "type_text", "slots": {"text": "best biryani near me"}}
+{"text": "Address mein likho flat 302, Sai Residency, Kondapur", "action": "type_text", "slots": {"text": "flat 302, Sai Residency, Kondapur"}}
+{"text": "Likho dear sir, I am writing to request two days of leave", "action": "type_text", "slots": {"text": "dear sir, I am writing to request two days of leave"}}
+{"text": "Naam wale box mein type karo Priya Verma.", "action": "type_text", "slots": {"text": "Priya Verma"}}
+{"text": "Email field mein likho ravi dot kumar at gmail dot com", "action": "type_text", "slots": {"text": "ravi dot kumar at gmail dot com"}}
+{"text": "Phone number mein likho 98450 12345", "action": "type_text", "slots": {"text": "98450 12345"}}
+{"text": "Type karo thank you so much for your help", "action": "type_text", "slots": {"text": "thank you so much for your help"}}
+{"text": "Isme likh do Happy Diwali to you and your family", "action": "type_text", "slots": {"text": "Happy Diwali to you and your family"}}
+{"text": "Search mein type karo Radiohead Creep lyrics.", "action": "type_text", "slots": {"text": "Radiohead Creep lyrics"}}
+{"text": "Document mein likho chapter 3, results and discussion", "action": "type_text", "slots": {"text": "chapter 3, results and discussion"}}
+{"text": "Pincode box mein 560034 likho", "action": "type_text", "slots": {"text": "560034"}}
+{"text": "Comment box mein likho bahut badhiya video bhai", "action": "type_text", "slots": {"text": "bahut badhiya video bhai"}}
+{"text": "Likh do ki main kal nahi aa paunga", "action": "type_text", "slots": {"text": "main kal nahi aa paunga"}}
+{"text": "Subject mein likho Leave application for 5th November.", "action": "type_text", "slots": {"text": "Leave application for 5th November"}}
+{"text": "Is field mein type karo Bangalore", "action": "type_text", "slots": {"text": "Bangalore"}}
+{"text": "Yahan likho total amount 2,450 rupees", "action": "type_text", "slots": {"text": "total amount 2,450 rupees"}}
+{"text": "Type kar do OK noted", "action": "type_text", "slots": {"text": "OK noted"}}
+{"text": "Chat box mein likho kya haal hai sab", "action": "type_text", "slots": {"text": "kya haal hai sab"}}
+{"text": "City wale box mein likho Hyderabad.", "action": "type_text", "slots": {"text": "Hyderabad"}}
+{"text": "Search bar mein daalo cheap flights Delhi to Goa", "action": "type_text", "slots": {"text": "cheap flights Delhi to Goa"}}
+{"text": "Ab type karo regards, Ankit", "action": "type_text", "slots": {"text": "regards, Ankit"}}
+{"text": "Description mein likho red cotton kurta size L", "action": "type_text", "slots": {"text": "red cotton kurta size L"}}
+{"text": "Note mein likho doodh, bread, ande aur tamatar", "action": "type_text", "slots": {"text": "doodh, bread, ande aur tamatar"}}
+{"text": "Likhiye kripya meri application par vichar karein.", "action": "type_text", "slots": {"text": "kripya meri application par vichar karein"}}
+{"text": "Is box mein meri date of birth likho 12 March 1998", "action": "type_text", "slots": {"text": "12 March 1998"}}
+{"text": "Reply box mein type karo sure, will do", "action": "type_text", "slots": {"text": "sure, will do"}}
+{"text": "Type karo \"see you soon\"", "action": "type_text", "slots": {"text": "see you soon"}}
+{"text": "Landmark mein likho near Hanuman mandir", "action": "type_text", "slots": {"text": "near Hanuman mandir"}}
+{"text": "Caption mein likho sunset at Marine Drive.", "action": "type_text", "slots": {"text": "sunset at Marine Drive"}}
+{"text": "Bas itna likh do: done", "action": "type_text", "slots": {"text": "done"}}
+{"text": "Google search bar mein likho how to make filter coffee", "action": "type_text", "slots": {"text": "how to make filter coffee"}}
+{"text": "Text box mein likho mera order abhi tak nahi aaya", "action": "type_text", "slots": {"text": "mera order abhi tak nahi aaya"}}
+{"text": "Excel ke cell mein likho 4500", "action": "type_text", "slots": {"text": "4500"}}
+{"text": "Type karo next week Monday se Friday tak.", "action": "type_text", "slots": {"text": "next week Monday se Friday tak"}}
+{"text": "Name field mein Mohammed Irfan type kar do", "action": "type_text", "slots": {"text": "Mohammed Irfan"}}
+{"text": "Search box mein daalo Spotify premium price", "action": "type_text", "slots": {"text": "Spotify premium price"}}
+{"text": "Wahan type karo order id 4021 7788", "action": "type_text", "slots": {"text": "order id 4021 7788"}}
+{"text": "Is jagah likho meri beti ka naam Aaradhya", "action": "type_text", "slots": {"text": "meri beti ka naam Aaradhya"}}
+{"text": "Likho ki payment ho chuki hai.", "action": "type_text", "slots": {"text": "payment ho chuki hai"}}
+{"text": "Message box mein likho hello madam, kya aaj clinic khula hai?", "action": "type_text", "slots": {"text": "hello madam, kya aaj clinic khula hai"}}
+{"text": "Type karo bhaiya 2 plate momos", "action": "type_text", "slots": {"text": "bhaiya 2 plate momos"}}
+{"text": "Is document mein likho Introduction: India is a diverse country", "action": "type_text", "slots": {"text": "Introduction: India is a diverse country"}}
+{"text": "Title mein likho My trip to Manali", "action": "type_text", "slots": {"text": "My trip to Manali"}}
+{"text": "Amount wale box mein 750 daal do.", "action": "type_text", "slots": {"text": "750"}}
+{"text": "Search bar mein likho Radio head songs", "action": "type_text", "slots": {"text": "Radio head songs"}}
+{"text": "Remarks mein likho delivery shaam 6 ke baad karein", "action": "type_text", "slots": {"text": "delivery shaam 6 ke baad karein"}}
+{"text": "Type kijiye aapka bahut bahut dhanyavaad", "action": "type_text", "slots": {"text": "aapka bahut bahut dhanyavaad"}}
+{"text": "Yahan pe likh do OTP nahi aaya", "action": "type_text", "slots": {"text": "OTP nahi aaya"}}
+{"text": "Address line 2 mein likho opposite SBI bank.", "action": "type_text", "slots": {"text": "opposite SBI bank"}}
+{"text": "Likho: Respected Principal ma'am", "action": "type_text", "slots": {"text": "Respected Principal ma'am"}}
+{"text": "Feedback box mein type karo service bahut slow thi", "action": "type_text", "slots": {"text": "service bahut slow thi"}}
+{"text": "Ab likho hum log 7 baje nikal rahe hain", "action": "type_text", "slots": {"text": "hum log 7 baje nikal rahe hain"}}
+{"text": "Bio mein likho coffee lover, Bangalore", "action": "type_text", "slots": {"text": "coffee lover, Bangalore"}}
+{"text": "Is cell mein type karo Total.", "action": "type_text", "slots": {"text": "Total"}}
+{"text": "Notepad mein likho kal 9 baje dentist appointment", "action": "type_text", "slots": {"text": "kal 9 baje dentist appointment"}}
+{"text": "Chat mein type karo haha sahi hai", "action": "type_text", "slots": {"text": "haha sahi hai"}}
+{"text": "Sirf likho haan", "action": "type_text", "slots": {"text": "haan"}}
+{"text": "Company name mein likho Sri Balaji Traders", "action": "type_text", "slots": {"text": "Sri Balaji Traders"}}
+{"text": "Likh do Dear Ma'am, PFA the attendance sheet.", "action": "type_text", "slots": {"text": "Dear Ma'am, PFA the attendance sheet"}}
+{"text": "Search bar mein type karo IRCTC tatkal timing", "action": "type_text", "slots": {"text": "IRCTC tatkal timing"}}
+{"text": "Box mein likho 2 kg aata", "action": "type_text", "slots": {"text": "2 kg aata"}}
+{"text": "Type karo what time does the shop close?", "action": "type_text", "slots": {"text": "what time does the shop close"}}
+{"text": "Is box mein Gnani likho", "action": "type_text", "slots": {"text": "Gnani"}}
+{"text": "Likh de ki birthday party Saturday ko hai.", "action": "type_text", "slots": {"text": "birthday party Saturday ko hai"}}
+{"text": "Comment mein type karo first", "action": "type_text", "slots": {"text": "first"}}
+{"text": "Quantity mein 3 likho", "action": "type_text", "slots": {"text": "3"}}
+{"text": "Mobile number box mein type karo 87654 32109", "action": "type_text", "slots": {"text": "87654 32109"}}
+{"text": "Type karo Om Shanti", "action": "type_text", "slots": {"text": "Om Shanti"}}
+{"text": "Street wale box mein likho MG Road.", "action": "type_text", "slots": {"text": "MG Road"}}
+{"text": "Likho ki kal se office 9:30 baje khulega", "action": "type_text", "slots": {"text": "kal se office 9:30 baje khulega"}}
+{"text": "Letter mein likho Yours faithfully, Rajesh Khanna", "action": "type_text", "slots": {"text": "Yours faithfully, Rajesh Khanna"}}
+{"text": "Search bar me likho you tube downloader", "action": "type_text", "slots": {"text": "you tube downloader"}}
+{"text": "Type karo kal milte hain", "action": "type_text", "slots": {"text": "kal milte hain"}}
+{"text": "Is form mein likho Class 10, Section B.", "action": "type_text", "slots": {"text": "Class 10, Section B"}}
+{"text": "Type hello everyone, welcome to the meeting", "action": "type_text", "slots": {"text": "hello everyone, welcome to the meeting"}}
+{"text": "Write in the search box wireless earphones under 2000", "action": "type_text", "slots": {"text": "wireless earphones under 2000"}}
+{"text": "In the address field type 22 Park Street, Kolkata", "action": "type_text", "slots": {"text": "22 Park Street, Kolkata"}}
+{"text": "Type the name Suresh Iyer", "action": "type_text", "slots": {"text": "Suresh Iyer"}}
+{"text": "Please type the following: the meeting is postponed to Thursday.", "action": "type_text", "slots": {"text": "the meeting is postponed to Thursday"}}
+{"text": "Write dear team, please find the report attached", "action": "type_text", "slots": {"text": "dear team, please find the report attached"}}
+{"text": "Enter 600028 in the pincode box", "action": "type_text", "slots": {"text": "600028"}}
+{"text": "Type in the search bar Kerala tourism packages", "action": "type_text", "slots": {"text": "Kerala tourism packages"}}
+{"text": "Dictate this: we need three more chairs for the hall", "action": "type_text", "slots": {"text": "we need three more chairs for the hall"}}
+{"text": "Type lol ok.", "action": "type_text", "slots": {"text": "lol ok"}}
+{"text": "In the comment box write great explanation, thank you sir", "action": "type_text", "slots": {"text": "great explanation, thank you sir"}}
+{"text": "Fill the name field with Anjali Menon", "action": "type_text", "slots": {"text": "Anjali Menon"}}
+{"text": "type out invoice number INV-2041", "action": "type_text", "slots": {"text": "invoice number INV-2041"}}
+{"text": "Write yes I agree in that box", "action": "type_text", "slots": {"text": "yes I agree"}}
+{"text": "Put Mumbai in the destination box.", "action": "type_text", "slots": {"text": "Mumbai"}}
+{"text": "Ee box alli bari Manjunath Gowda", "action": "type_text", "slots": {"text": "Manjunath Gowda"}}
+{"text": "Type maadi naale sigona", "action": "type_text", "slots": {"text": "naale sigona"}}
+{"text": "Search bar alli bari Mysore Palace timings", "action": "type_text", "slots": {"text": "Mysore Palace timings"}}
+{"text": "Address alli bari 4th cross, Jayanagar, Bengaluru", "action": "type_text", "slots": {"text": "4th cross, Jayanagar, Bengaluru"}}
+{"text": "Bari dhanyavadagalu sir.", "action": "type_text", "slots": {"text": "dhanyavadagalu sir"}}
+{"text": "Illi type maadu nanna phone number 99001 22334", "action": "type_text", "slots": {"text": "nanna phone number 99001 22334"}}
+{"text": "ಈ ಬಾಕ್ಸ್ ನಲ್ಲಿ ಬರಿ ರಮೇಶ್ ಕುಮಾರ್", "action": "type_text", "slots": {"text": "ರಮೇಶ್ ಕುಮಾರ್"}}
+{"text": "ಟೈಪ್ ಮಾಡು ನಾಳೆ ಮೀಟಿಂಗ್ ಇದೆ", "action": "type_text", "slots": {"text": "ನಾಳೆ ಮೀಟಿಂಗ್ ಇದೆ"}}
+{"text": "ಸರ್ಚ್ ಬಾರ್ ನಲ್ಲಿ ಬರಿ ಬೆಂಗಳೂರು ಹವಾಮಾನ", "action": "type_text", "slots": {"text": "ಬೆಂಗಳೂರು ಹವಾಮಾನ"}}
+{"text": "Indha box la type pannu Lakshmi Narayanan.", "action": "type_text", "slots": {"text": "Lakshmi Narayanan"}}
+{"text": "Search bar la ezhudhu Chennai to Madurai bus", "action": "type_text", "slots": {"text": "Chennai to Madurai bus"}}
+{"text": "Type pannu vanakkam ellarukum", "action": "type_text", "slots": {"text": "vanakkam ellarukum"}}
+{"text": "Address la podu 12, Gandhi Street, Tambaram", "action": "type_text", "slots": {"text": "12, Gandhi Street, Tambaram"}}
+{"text": "Ezhudhu naan naalaiku varen", "action": "type_text", "slots": {"text": "naan naalaiku varen"}}
+{"text": "இந்த பாக்ஸ்ல டைப் பண்ணு முருகன் ஸ்டோர்ஸ்", "action": "type_text", "slots": {"text": "முருகன் ஸ்டோர்ஸ்"}}
+{"text": "தேடல் பெட்டியில் எழுது சென்னை வானிலை", "action": "type_text", "slots": {"text": "சென்னை வானிலை"}}
+{"text": "டைப் பண்ணு நன்றி சார்", "action": "type_text", "slots": {"text": "நன்றி சார்"}}
+{"text": "Ee box lo type cheyyi Venkatesh Rao", "action": "type_text", "slots": {"text": "Venkatesh Rao"}}
+{"text": "Search bar lo raayi Hyderabad biryani places", "action": "type_text", "slots": {"text": "Hyderabad biryani places"}}
+{"text": "Type cheyyi nenu repu vastanu.", "action": "type_text", "slots": {"text": "nenu repu vastanu"}}
+{"text": "Address lo raayi Plot 45, Madhapur, Hyderabad", "action": "type_text", "slots": {"text": "Plot 45, Madhapur, Hyderabad"}}
+{"text": "ఈ బాక్స్ లో టైప్ చేయి శ్రీనివాస్", "action": "type_text", "slots": {"text": "శ్రీనివాస్"}}
+{"text": "టైప్ చేయి ధన్యవాదాలు అండి", "action": "type_text", "slots": {"text": "ధన్యవాదాలు అండి"}}
+{"text": "సెర్చ్ బార్ లో రాయి విజయవాడ ట్రైన్ టైమింగ్స్", "action": "type_text", "slots": {"text": "విజయవాడ ట్రైన్ టైమింగ్స్"}}
+{"text": "Ee box il type cheyyu Anil Kumar.", "action": "type_text", "slots": {"text": "Anil Kumar"}}
+{"text": "Ezhuthu njan naale varam", "action": "type_text", "slots": {"text": "njan naale varam"}}
+{"text": "Search bar il type cheyyu Kochi metro timings", "action": "type_text", "slots": {"text": "Kochi metro timings"}}
+{"text": "ഈ ബോക്സിൽ ടൈപ്പ് ചെയ്യ് സുരേഷ് ബാബു", "action": "type_text", "slots": {"text": "സുരേഷ് ബാബു"}}
+{"text": "ടൈപ്പ് ചെയ്യ് നന്ദി", "action": "type_text", "slots": {"text": "നന്ദി"}}
+{"text": "Ya box madhye lihi Sunil Patil.", "action": "type_text", "slots": {"text": "Sunil Patil"}}
+{"text": "Type kar mi udya yeto", "action": "type_text", "slots": {"text": "mi udya yeto"}}
+{"text": "Search bar madhye lihi Pune weather today", "action": "type_text", "slots": {"text": "Pune weather today"}}
+{"text": "पत्ता मध्ये लिहा सदाशिव पेठ, पुणे", "action": "type_text", "slots": {"text": "सदाशिव पेठ, पुणे"}}
+{"text": "इथे टाइप कर धन्यवाद", "action": "type_text", "slots": {"text": "धन्यवाद"}}
+{"text": "Ei box e likho Subhash Chandra Das.", "action": "type_text", "slots": {"text": "Subhash Chandra Das"}}
+{"text": "Type koro ami kal asbo", "action": "type_text", "slots": {"text": "ami kal asbo"}}
+{"text": "Search bar e likho Kolkata biryani", "action": "type_text", "slots": {"text": "Kolkata biryani"}}
+{"text": "এই বক্সে লেখো অমিত ঘোষ", "action": "type_text", "slots": {"text": "অমিত ঘোষ"}}
+{"text": "টাইপ করো শুভ নববর্ষ", "action": "type_text", "slots": {"text": "শুভ নববর্ষ"}}
+{"text": "इस बॉक्स में लिखो रमेश चंद्र गुप्ता", "action": "type_text", "slots": {"text": "रमेश चंद्र गुप्ता"}}
+{"text": "टाइप करो आज की मीटिंग रद्द है", "action": "type_text", "slots": {"text": "आज की मीटिंग रद्द है"}}
+{"text": "सर्च बार में लिखो दिल्ली का मौसम", "action": "type_text", "slots": {"text": "दिल्ली का मौसम"}}
+{"text": "पते में लिखो मकान नंबर 45, सेक्टर 12, नोएडा", "action": "type_text", "slots": {"text": "मकान नंबर 45, सेक्टर 12, नोएडा"}}
+{"text": "लिखो धन्यवाद आपका दिन शुभ हो", "action": "type_text", "slots": {"text": "धन्यवाद आपका दिन शुभ हो"}}
+{"text": "यहाँ टाइप करो ऑर्डर कब आएगा?", "action": "type_text", "slots": {"text": "ऑर्डर कब आएगा"}}
+{"text": "Is box mein likho Sharma uncle ka ghar, gali number 4", "action": "type_text", "slots": {"text": "Sharma uncle ka ghar, gali number 4"}}
+{"text": "ಈ ಬಾಕ್ಸ್ ನಲ್ಲಿ ಟೈಪ್ ಮಾಡು ಧನ್ಯವಾದಗಳು", "action": "type_text", "slots": {"text": "ಧನ್ಯವಾದಗಳು"}}
+{"text": "Submit button dabao", "action": "click", "slots": {"target": "Submit"}}
+{"text": "Next pe click karo", "action": "click", "slots": {"target": "Next"}}
+{"text": "Sign in pe click kar do.", "action": "click", "slots": {"target": "Sign in"}}
+{"text": "Add to cart dabao", "action": "click", "slots": {"target": "Add to cart"}}
+{"text": "Download button pe click karo", "action": "click", "slots": {"target": "Download"}}
+{"text": "Play button dabao na", "action": "click", "slots": {"target": "Play"}}
+{"text": "Second link pe click karo", "action": "click", "slots": {"target": "Second link"}}
+{"text": "Reply pe click karo.", "action": "click", "slots": {"target": "Reply"}}
+{"text": "Login wala button dabao", "action": "click", "slots": {"target": "Login"}}
+{"text": "Buy now pe click karo jaldi", "action": "click", "slots": {"target": "Buy now"}}
+{"text": "Subscribe button dabao", "action": "click", "slots": {"target": "Subscribe"}}
+{"text": "Teesre link pe click karo", "action": "click", "slots": {"target": "Teesre link"}}
+{"text": "Cancel wala button press karo.", "action": "click", "slots": {"target": "Cancel"}}
+{"text": "Save changes pe click karo", "action": "click", "slots": {"target": "Save changes"}}
+{"text": "Upload pe click kar do", "action": "click", "slots": {"target": "Upload"}}
+{"text": "Proceed to checkout dabao", "action": "click", "slots": {"target": "Proceed to checkout"}}
+{"text": "Search wala button dabao", "action": "click", "slots": {"target": "Search"}}
+{"text": "Send button dabao.", "action": "click", "slots": {"target": "Send"}}
+{"text": "Forgot password pe click karo", "action": "click", "slots": {"target": "Forgot password"}}
+{"text": "Home tab pe click karo", "action": "click", "slots": {"target": "Home"}}
+{"text": "pehla video pe click karo", "action": "click", "slots": {"target": "pehla video"}}
+{"text": "Apply coupon pe click karo", "action": "click", "slots": {"target": "Apply coupon"}}
+{"text": "X button dabao.", "action": "click", "slots": {"target": "X"}}
+{"text": "Delete pe click karo", "action": "click", "slots": {"target": "Delete"}}
+{"text": "Join meeting button dabao", "action": "click", "slots": {"target": "Join meeting"}}
+{"text": "Raise hand button dabao", "action": "click", "slots": {"target": "Raise hand"}}
+{"text": "Watch later pe click karo", "action": "click", "slots": {"target": "Watch later"}}
+{"text": "Show more pe click karo.", "action": "click", "slots": {"target": "Show more"}}
+{"text": "Verify wala button dabao", "action": "click", "slots": {"target": "Verify"}}
+{"text": "Pay now dabaiye", "action": "click", "slots": {"target": "Pay now"}}
+{"text": "Book now pe click kijiye", "action": "click", "slots": {"target": "Book now"}}
+{"text": "Inbox tab pe click karo", "action": "click", "slots": {"target": "Inbox"}}
+{"text": "I agree wala button dabao.", "action": "click", "slots": {"target": "I agree"}}
+{"text": "Edit profile pe click karo", "action": "click", "slots": {"target": "Edit profile"}}
+{"text": "Neeche wala Load more button dabao", "action": "click", "slots": {"target": "Load more"}}
+{"text": "Track order pe click karo", "action": "click", "slots": {"target": "Track order"}}
+{"text": "Zara Retry pe click karna", "action": "click", "slots": {"target": "Retry"}}
+{"text": "Accept invite pe click karo.", "action": "click", "slots": {"target": "Accept invite"}}
+{"text": "Mark as read pe click karo", "action": "click", "slots": {"target": "Mark as read"}}
+{"text": "Next page wala button dabao", "action": "click", "slots": {"target": "Next page"}}
+{"text": "Woh Continue to payment wala button daba do", "action": "click", "slots": {"target": "Continue to payment"}}
+{"text": "Yahan Confirm booking dabao", "action": "click", "slots": {"target": "Confirm booking"}}
+{"text": "Arre wo Sign up link pe click karo.", "action": "click", "slots": {"target": "Sign up"}}
+{"text": "Pehle result pe click karo", "action": "click", "slots": {"target": "Pehle result"}}
+{"text": "Video pe Play dabao", "action": "click", "slots": {"target": "Play"}}
+{"text": "Allow pe click karo", "action": "click", "slots": {"target": "Allow"}}
+{"text": "Not now pe click kar do", "action": "click", "slots": {"target": "Not now"}}
+{"text": "Open wala button dabao.", "action": "click", "slots": {"target": "Open"}}
+{"text": "Sort by price pe click karo", "action": "click", "slots": {"target": "Sort by price"}}
+{"text": "Size M pe click karo", "action": "click", "slots": {"target": "Size M"}}
+{"text": "Wishlist button dabao", "action": "click", "slots": {"target": "Wishlist"}}
+{"text": "Cart icon pe click karo", "action": "click", "slots": {"target": "Cart"}}
+{"text": "Profile photo pe click karo.", "action": "click", "slots": {"target": "Profile photo"}}
+{"text": "Notifications pe click karo", "action": "click", "slots": {"target": "Notifications"}}
+{"text": "Reply all pe click karo", "action": "click", "slots": {"target": "Reply all"}}
+{"text": "New chat pe click karo", "action": "click", "slots": {"target": "New chat"}}
+{"text": "aakhri link pe click karo", "action": "click", "slots": {"target": "aakhri link"}}
+{"text": "Upar wala Menu button dabao.", "action": "click", "slots": {"target": "Menu"}}
+{"text": "Download PDF wale link pe click karo", "action": "click", "slots": {"target": "Download PDF"}}
+{"text": "Press the Next button", "action": "click", "slots": {"target": "Next"}}
+{"text": "Click sign in", "action": "click", "slots": {"target": "sign in"}}
+{"text": "Click Add to cart please", "action": "click", "slots": {"target": "Add to cart"}}
+{"text": "Click the download link.", "action": "click", "slots": {"target": "download"}}
+{"text": "Click the play button on the video", "action": "click", "slots": {"target": "play"}}
+{"text": "Click on the second link", "action": "click", "slots": {"target": "second link"}}
+{"text": "Tap the login button", "action": "click", "slots": {"target": "login"}}
+{"text": "Click on the third search result", "action": "click", "slots": {"target": "third search result"}}
+{"text": "Press the Send button.", "action": "click", "slots": {"target": "Send"}}
+{"text": "Click on \"Continue as guest\"", "action": "click", "slots": {"target": "Continue as guest"}}
+{"text": "Click Next step", "action": "click", "slots": {"target": "Next step"}}
+{"text": "Click the Compose button in Gmail", "action": "click", "slots": {"target": "Compose"}}
+{"text": "Click on Downloads in the menu", "action": "click", "slots": {"target": "Downloads"}}
+{"text": "Click the blue Register button.", "action": "click", "slots": {"target": "Register"}}
+{"text": "Select the Images tab", "action": "click", "slots": {"target": "Images"}}
+{"text": "Click on View cart", "action": "click", "slots": {"target": "View cart"}}
+{"text": "Click the Apply button", "action": "click", "slots": {"target": "Apply"}}
+{"text": "Press the Got it button", "action": "click", "slots": {"target": "Got it"}}
+{"text": "click on Shorts.", "action": "click", "slots": {"target": "Shorts"}}
+{"text": "Click on Export as PDF", "action": "click", "slots": {"target": "Export as PDF"}}
+{"text": "Next mele click maadi", "action": "click", "slots": {"target": "Next"}}
+{"text": "Login button otthu", "action": "click", "slots": {"target": "Login"}}
+{"text": "Download mele click maadu", "action": "click", "slots": {"target": "Download"}}
+{"text": "Add to cart otti.", "action": "click", "slots": {"target": "Add to cart"}}
+{"text": "Eradane link mele click maadi", "action": "click", "slots": {"target": "Eradane link"}}
+{"text": "OK otti", "action": "click", "slots": {"target": "OK"}}
+{"text": "ನೆಕ್ಸ್ಟ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡು", "action": "click", "slots": {"target": "ನೆಕ್ಸ್ಟ್"}}
+{"text": "Submit button ah azhuthu", "action": "click", "slots": {"target": "Submit"}}
+{"text": "Next la click pannu.", "action": "click", "slots": {"target": "Next"}}
+{"text": "Sign in button ah press pannu", "action": "click", "slots": {"target": "Sign in"}}
+{"text": "Download la click pannunga", "action": "click", "slots": {"target": "Download"}}
+{"text": "Rendavadhu link la click pannu", "action": "click", "slots": {"target": "Rendavadhu link"}}
+{"text": "சப்மிட் பட்டனை அழுத்து", "action": "click", "slots": {"target": "சப்மிட்"}}
+{"text": "நெக்ஸ்ட் கிளிக் பண்ணு", "action": "click", "slots": {"target": "நெக்ஸ்ட்"}}
+{"text": "லாகின் பட்டன் அழுத்து", "action": "click", "slots": {"target": "லாகின்"}}
+{"text": "Next meeda click cheyyi", "action": "click", "slots": {"target": "Next"}}
+{"text": "Login button meeda click cheyyandi", "action": "click", "slots": {"target": "Login"}}
+{"text": "Add to cart nokkandi", "action": "click", "slots": {"target": "Add to cart"}}
+{"text": "రెండో లింక్ మీద క్లిక్ చేయి", "action": "click", "slots": {"target": "రెండో లింక్"}}
+{"text": "సబ్మిట్ బటన్ నొక్కు", "action": "click", "slots": {"target": "సబ్మిట్"}}
+{"text": "ఓకే నొక్కు", "action": "click", "slots": {"target": "ఓకే"}}
+{"text": "Submit button amarthu", "action": "click", "slots": {"target": "Submit"}}
+{"text": "Download il click cheyyu", "action": "click", "slots": {"target": "Download"}}
+{"text": "സബ്മിറ്റ് ബട്ടൺ അമർത്തുക", "action": "click", "slots": {"target": "സബ്മിറ്റ്"}}
+{"text": "നെക്സ്റ്റ് ക്ലിക്ക് ചെയ്യ്", "action": "click", "slots": {"target": "നെക്സ്റ്റ്"}}
+{"text": "Next var click kar", "action": "click", "slots": {"target": "Next"}}
+{"text": "Login var click kara", "action": "click", "slots": {"target": "Login"}}
+{"text": "सबमिट बटण दाबा", "action": "click", "slots": {"target": "सबमिट"}}
+{"text": "Submit button e chapo.", "action": "click", "slots": {"target": "Submit"}}
+{"text": "Sign in e click koro", "action": "click", "slots": {"target": "Sign in"}}
+{"text": "সাবমিট বাটনে ক্লিক করো", "action": "click", "slots": {"target": "সাবমিট"}}
+{"text": "ডাউনলোড বাটন চাপো", "action": "click", "slots": {"target": "ডাউনলোড"}}
+{"text": "नेक्स्ट पर क्लिक करो", "action": "click", "slots": {"target": "नेक्स्ट"}}
+{"text": "लॉगिन वाला बटन दबाओ", "action": "click", "slots": {"target": "लॉगिन"}}
+{"text": "डाउनलोड पर क्लिक कर दो", "action": "click", "slots": {"target": "डाउनलोड"}}
+{"text": "दूसरे लिंक पर क्लिक करो", "action": "click", "slots": {"target": "दूसरे लिंक"}}

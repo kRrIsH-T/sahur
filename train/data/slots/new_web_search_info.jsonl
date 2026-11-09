@@ -1,0 +1,560 @@
+{"text": "MakeMyTrip pe Goa hotels search karo.", "action": "web_search", "slots": {"site": "MakeMyTrip", "query": "Goa hotels"}}
+{"text": "Katrina Kaif kahan paida hui thi?", "action": "web_search", "slots": {"query": "Katrina Kaif kahan paida hui thi"}}
+{"text": "Kal Ho Naa Ho title song kisne gaaya tha?", "action": "web_search", "slots": {"query": "Kal Ho Naa Ho title song kisne gaaya tha"}}
+{"text": "Volcano eppadi uruvagudhu?", "action": "web_search", "slots": {"query": "Volcano eppadi uruvagudhu"}}
+{"text": "Aamir Khan ki sabse badi hit film kaunsi hai?", "action": "web_search", "slots": {"query": "Aamir Khan ki sabse badi hit film kaunsi hai"}}
+{"text": "Latest news about ISRO.", "action": "web_search", "slots": {"query": "Latest news about ISRO"}}
+{"text": "Ami Je Tomar gaan ta ke geyeche?", "action": "web_search", "slots": {"query": "Ami Je Tomar gaan ta ke geyeche"}}
+{"text": "Bharat mein kitne rajya hain?", "action": "web_search", "slots": {"query": "Bharat mein kitne rajya hain"}}
+{"text": "Satyajit Ray ke chhilen?", "action": "web_search", "slots": {"query": "Satyajit Ray ke chhilen"}}
+{"text": "Explain like I'm five, what is electricity?", "action": "web_search", "slots": {"query": "what is electricity"}}
+{"text": "लोकशाही म्हणजे काय?", "action": "web_search", "slots": {"query": "लोकशाही म्हणजे काय"}}
+{"text": "Diljit Dosanjh ki agli movie kaunsi hai?", "action": "web_search", "slots": {"query": "Diljit Dosanjh ki agli movie kaunsi hai"}}
+{"text": "Bella Ciao song ka itihaas kya hai?", "action": "web_search", "slots": {"query": "Bella Ciao song ka itihaas kya hai"}}
+{"text": "You tube pe cooking videos search karo.", "action": "web_search", "slots": {"site": "You tube", "query": "cooking videos"}}
+{"text": "Messi ke paas kitne Ballon d'Or hain?", "action": "web_search", "slots": {"query": "Messi ke paas kitne Ballon d'Or hain"}}
+{"text": "India vs Pakistan match ka score kya hai?", "action": "web_search", "slots": {"query": "India vs Pakistan match ka score kya hai"}}
+{"text": "Anirudh Ravichander yaaru?", "action": "web_search", "slots": {"query": "Anirudh Ravichander yaaru"}}
+{"text": "Amit Trivedi ko National Award kis film ke liye mila?", "action": "web_search", "slots": {"query": "Amit Trivedi ko National Award kis film ke liye mila"}}
+{"text": "Neha Kakkar ki shaadi kab hui?", "action": "web_search", "slots": {"query": "Neha Kakkar ki shaadi kab hui"}}
+{"text": "Supply and demand explain kar do.", "action": "web_search", "slots": {"query": "Supply and demand"}}
+{"text": "Search Amazon for wireless earbuds under 2000.", "action": "web_search", "slots": {"site": "Amazon", "query": "wireless earbuds under 2000"}}
+{"text": "இன்று தங்கம் விலை என்ன?", "action": "web_search", "slots": {"query": "இன்று தங்கம் விலை என்ன"}}
+{"text": "Fundamental rights kitne hain samjhao.", "action": "web_search", "slots": {"query": "Fundamental rights kitne hain"}}
+{"text": "Jawan movie hit thi ya flop?", "action": "web_search", "slots": {"query": "Jawan movie hit thi ya flop"}}
+{"text": "Search Netflix for Korean dramas.", "action": "web_search", "slots": {"site": "Netflix", "query": "Korean dramas"}}
+{"text": "Article 370 kya tha?", "action": "web_search", "slots": {"query": "Article 370 kya tha"}}
+{"text": "Amazon pe Radiohead ka vinyl dhundho.", "action": "web_search", "slots": {"site": "Amazon", "query": "Radiohead ka vinyl"}}
+{"text": "ಡಾ ರಾಜಕುಮಾರ್ ಅವರ ಮೊದಲ ಚಿತ್ರ ಯಾವುದು?", "action": "web_search", "slots": {"query": "ಡಾ ರಾಜಕುಮಾರ್ ಅವರ ಮೊದಲ ಚಿತ್ರ ಯಾವುದು"}}
+{"text": "Anupam Roy ke? Uni ki ki gaan likhechen?", "action": "web_search", "slots": {"query": "Anupam Roy ke? Uni ki ki gaan likhechen"}}
+{"text": "I want to know about Ilayaraja.", "action": "web_search", "slots": {"query": "Ilayaraja"}}
+{"text": "YouTube mein Radiohead interview search karo.", "action": "web_search", "slots": {"site": "YouTube", "query": "Radiohead interview"}}
+{"text": "Plate tectonics gurinchi explain cheyyi.", "action": "web_search", "slots": {"query": "Plate tectonics"}}
+{"text": "यूट्यूब पर खाना बनाने की वीडियो खोजो", "action": "web_search", "slots": {"site": "यूट्यूब", "query": "खाना बनाने की वीडियो"}}
+{"text": "Amazon par baccho ke khilone search karo.", "action": "web_search", "slots": {"site": "Amazon", "query": "baccho ke khilone"}}
+{"text": "Satellite orbit mein kaise rehta hai?", "action": "web_search", "slots": {"query": "Satellite orbit mein kaise rehta hai"}}
+{"text": "AR Rahman ki age kya hai?", "action": "web_search", "slots": {"query": "AR Rahman ki age kya hai"}}
+{"text": "Khan Academy pe algebra videos search karo.", "action": "web_search", "slots": {"site": "Khan Academy", "query": "algebra videos"}}
+{"text": "Mammootty de yathartha peru enthaanu?", "action": "web_search", "slots": {"query": "Mammootty de yathartha peru enthaanu"}}
+{"text": "Butta Bomma song singer evaru?", "action": "web_search", "slots": {"query": "Butta Bomma song singer evaru"}}
+{"text": "YouTube pe guitar lessons for beginners dhundho.", "action": "web_search", "slots": {"site": "YouTube", "query": "guitar lessons for beginners"}}
+{"text": "Gully Boy kis rapper ki life pe bani hai?", "action": "web_search", "slots": {"query": "Gully Boy kis rapper ki life pe bani hai"}}
+{"text": "Kal Sensex kaisa raha?", "action": "web_search", "slots": {"query": "Kal Sensex kaisa raha"}}
+{"text": "Google pe Gnani AI search karo.", "action": "web_search", "slots": {"site": "Google", "query": "Gnani AI"}}
+{"text": "सचिन तेंडुलकर ने कितने शतक बनाए?", "action": "web_search", "slots": {"query": "सचिन तेंडुलकर ने कितने शतक बनाए"}}
+{"text": "Hans Zimmer kaun hai?", "action": "web_search", "slots": {"query": "Hans Zimmer kaun hai"}}
+{"text": "Internshala pe internships dhundho.", "action": "web_search", "slots": {"site": "Internshala", "query": "internships"}}
+{"text": "YouTube ൽ പാചക വീഡിയോ തിരയൂ", "action": "web_search", "slots": {"site": "YouTube", "query": "പാചക വീഡിയോ"}}
+{"text": "ஏ ஆர் ரஹ்மான் எத்தனை ஆஸ்கர் வாங்கினார்?", "action": "web_search", "slots": {"query": "ஏ ஆர் ரஹ்மான் எத்தனை ஆஸ்கர் வாங்கினார்"}}
+{"text": "Amazon alli kannada books huduku.", "action": "web_search", "slots": {"site": "Amazon", "query": "kannada books"}}
+{"text": "बाहुबली फिल्म का बजट कितना था?", "action": "web_search", "slots": {"query": "बाहुबली फिल्म का बजट कितना था"}}
+{"text": "Coorg alli nodbekaada jagagalu yaavu?", "action": "web_search", "slots": {"query": "Coorg alli nodbekaada jagagalu yaavu"}}
+{"text": "IMDb alli KGF rating huduku.", "action": "web_search", "slots": {"site": "IMDb", "query": "KGF rating"}}
+{"text": "Lagaan movie ki story kya hai?", "action": "web_search", "slots": {"query": "Lagaan movie ki story kya hai"}}
+{"text": "Srivalli song lyrics telugu lo kavali.", "action": "web_search", "slots": {"query": "Srivalli song lyrics telugu lo"}}
+{"text": "Explain the water cycle for kids.", "action": "web_search", "slots": {"query": "the water cycle for kids"}}
+{"text": "Bengaluru weather today.", "action": "web_search", "slots": {"query": "Bengaluru weather today"}}
+{"text": "Tamatar ka bhav kitna hai aaj?", "action": "web_search", "slots": {"query": "Tamatar ka bhav kitna hai aaj"}}
+{"text": "Billie Eilish kaun hai bhai?", "action": "web_search", "slots": {"query": "Billie Eilish kaun hai"}}
+{"text": "Explain recursion with an example.", "action": "web_search", "slots": {"query": "recursion with an example"}}
+{"text": "Global warming pathi explain pannunga.", "action": "web_search", "slots": {"query": "Global warming"}}
+{"text": "Avatar 3 kab aa rahi hai?", "action": "web_search", "slots": {"query": "Avatar 3 kab aa rahi hai"}}
+{"text": "Amazon pe running shoes dhundho.", "action": "web_search", "slots": {"site": "Amazon", "query": "running shoes"}}
+{"text": "Mitochondria ko powerhouse kyun kehte hain?", "action": "web_search", "slots": {"query": "Mitochondria ko powerhouse kyun kehte hain"}}
+{"text": "Kantara chapter 1 yavaga release aagutte?", "action": "web_search", "slots": {"query": "Kantara chapter 1 yavaga release aagutte"}}
+{"text": "Yash avara mundina movie yavudu?", "action": "web_search", "slots": {"query": "Yash avara mundina movie yavudu"}}
+{"text": "Sidhu Moose Wala ke saath kya hua tha?", "action": "web_search", "slots": {"query": "Sidhu Moose Wala ke saath kya hua tha"}}
+{"text": "Hamlet play kis baare mein hai?", "action": "web_search", "slots": {"query": "Hamlet play kis baare mein hai"}}
+{"text": "Cryptocurrency kya hai?", "action": "web_search", "slots": {"query": "Cryptocurrency kya hai"}}
+{"text": "Jagjit Singh ki ghazals ke baare mein batao.", "action": "web_search", "slots": {"query": "Jagjit Singh ki ghazals"}}
+{"text": "Find laptops on Flipkart.", "action": "web_search", "slots": {"site": "Flipkart", "query": "laptops"}}
+{"text": "Divine rapper ki life story kya hai?", "action": "web_search", "slots": {"query": "Divine rapper ki life story kya hai"}}
+{"text": "Kamal Haasan pathi detail ah sollu.", "action": "web_search", "slots": {"query": "Kamal Haasan"}}
+{"text": "What is GDP?", "action": "web_search", "slots": {"query": "What is GDP"}}
+{"text": "Karabuu song lyrics bekagide.", "action": "web_search", "slots": {"query": "Karabuu song lyrics"}}
+{"text": "Video mat chalao, bas batao Radiohead kaun hai.", "action": "web_search", "slots": {"query": "Radiohead kaun hai"}}
+{"text": "Hamsalekha avara bagge helu.", "action": "web_search", "slots": {"query": "Hamsalekha"}}
+{"text": "Yellow by Coldplay ka matlab kya hai?", "action": "web_search", "slots": {"query": "Yellow by Coldplay ka matlab kya hai"}}
+{"text": "Evolution theory Darwin ki samjhao.", "action": "web_search", "slots": {"query": "Evolution theory Darwin ki"}}
+{"text": "Chess world champion abhi kaun hai?", "action": "web_search", "slots": {"query": "Chess world champion abhi kaun hai"}}
+{"text": "Rowdy Baby song ku evlo views?", "action": "web_search", "slots": {"query": "Rowdy Baby song ku evlo views"}}
+{"text": "Rahat Fateh Ali Khan ke baare mein batao.", "action": "web_search", "slots": {"query": "Rahat Fateh Ali Khan"}}
+{"text": "Look up Taylor Swift on Wikipedia.", "action": "web_search", "slots": {"site": "Wikipedia", "query": "Taylor Swift"}}
+{"text": "చిరంజీవి వయసు ఎంత?", "action": "web_search", "slots": {"query": "చిరంజీవి వయసు ఎంత"}}
+{"text": "Play mat karo, sirf AR Rahman ke baare mein batao.", "action": "web_search", "slots": {"query": "AR Rahman"}}
+{"text": "Ilayaraja pathi konjam sollu.", "action": "web_search", "slots": {"query": "Ilayaraja"}}
+{"text": "Ed shiran kaun hai?", "action": "web_search", "slots": {"query": "Ed shiran kaun hai"}}
+{"text": "Why is the sea salty?", "action": "web_search", "slots": {"query": "Why is the sea salty"}}
+{"text": "Belageddu song yaaru haadiddu?", "action": "web_search", "slots": {"query": "Belageddu song yaaru haadiddu"}}
+{"text": "Delhi se Goa ka flight ticket kitne ka hai?", "action": "web_search", "slots": {"query": "Delhi se Goa ka flight ticket kitne ka hai"}}
+{"text": "Agli bank holiday kab hai?", "action": "web_search", "slots": {"query": "Agli bank holiday kab hai"}}
+{"text": "Andhra Pradesh CM evaru?", "action": "web_search", "slots": {"query": "Andhra Pradesh CM evaru"}}
+{"text": "Vitamin D ki kami se kya hota hai?", "action": "web_search", "slots": {"query": "Vitamin D ki kami se kya hota hai"}}
+{"text": "Amazon pe finance ki Kindle books search karo.", "action": "web_search", "slots": {"site": "Amazon", "query": "finance ki Kindle books"}}
+{"text": "Koramangala mein best cafe kaunsa hai?", "action": "web_search", "slots": {"query": "Koramangala mein best cafe kaunsa hai"}}
+{"text": "Flipkart var mobile cover shodha.", "action": "web_search", "slots": {"site": "Flipkart", "query": "mobile cover"}}
+{"text": "Arijit Singh kahan ka rehne wala hai?", "action": "web_search", "slots": {"query": "Arijit Singh kahan ka rehne wala hai"}}
+{"text": "Bhagat Singh ko phansi kab hui thi?", "action": "web_search", "slots": {"query": "Bhagat Singh ko phansi kab hui thi"}}
+{"text": "Kolkata te aaj brishti hobe?", "action": "web_search", "slots": {"query": "Kolkata te aaj brishti hobe"}}
+{"text": "Panchayat season 4 kab aayega?", "action": "web_search", "slots": {"query": "Panchayat season 4 kab aayega"}}
+{"text": "OLX pe second hand bike dhundho.", "action": "web_search", "slots": {"site": "OLX", "query": "second hand bike"}}
+{"text": "Ajio pe sneakers dhundho.", "action": "web_search", "slots": {"site": "Ajio", "query": "sneakers"}}
+{"text": "Vishal Shekhar ne kaunsi films ka music diya?", "action": "web_search", "slots": {"query": "Vishal Shekhar ne kaunsi films ka music diya"}}
+{"text": "Ooty ku eppo pogalaam best time?", "action": "web_search", "slots": {"query": "Ooty ku eppo pogalaam best time"}}
+{"text": "Duniya ka sabse bada desh kaunsa hai?", "action": "web_search", "slots": {"query": "Duniya ka sabse bada desh kaunsa hai"}}
+{"text": "Sonu Nigam ki wife ka naam kya hai?", "action": "web_search", "slots": {"query": "Sonu Nigam ki wife ka naam kya hai"}}
+{"text": "Pandit Jasraj ki gayaki ke baare mein batao.", "action": "web_search", "slots": {"query": "Pandit Jasraj ki gayaki"}}
+{"text": "Shankar Ehsaan Loy mein kaun kaun hai?", "action": "web_search", "slots": {"query": "Shankar Ehsaan Loy mein kaun kaun hai"}}
+{"text": "Creep song ke lyrics dikhao.", "action": "web_search", "slots": {"query": "Creep song ke lyrics"}}
+{"text": "Immunity kaise badhaye?", "action": "web_search", "slots": {"query": "Immunity kaise badhaye"}}
+{"text": "Myntra la saree hudukku.", "action": "web_search", "slots": {"site": "Myntra", "query": "saree"}}
+{"text": "Harris Jayaraj ippo enna pannraru?", "action": "web_search", "slots": {"query": "Harris Jayaraj ippo enna pannraru"}}
+{"text": "Netflix pe thriller movies search karo.", "action": "web_search", "slots": {"site": "Netflix", "query": "thriller movies"}}
+{"text": "Petrol ka daam kitna hai Bangalore mein?", "action": "web_search", "slots": {"query": "Petrol ka daam kitna hai Bangalore mein"}}
+{"text": "Show me the lyrics of Bohemian Rhapsody.", "action": "web_search", "slots": {"query": "the lyrics of Bohemian Rhapsody"}}
+{"text": "How many Harry Potter movies are there?", "action": "web_search", "slots": {"query": "How many Harry Potter movies are there"}}
+{"text": "Coursera la data science courses thedu.", "action": "web_search", "slots": {"site": "Coursera", "query": "data science courses"}}
+{"text": "UPI kaise kaam karta hai explain karo.", "action": "web_search", "slots": {"query": "UPI kaise kaam karta hai"}}
+{"text": "Kantara ka matlab kya hai?", "action": "web_search", "slots": {"query": "Kantara ka matlab kya hai"}}
+{"text": "Atif Aslam Pakistan se hai kya?", "action": "web_search", "slots": {"query": "Atif Aslam Pakistan se hai kya"}}
+{"text": "Aavesham movie ethra collect cheythu?", "action": "web_search", "slots": {"query": "Aavesham movie ethra collect cheythu"}}
+{"text": "Who composed the music for Titanic?", "action": "web_search", "slots": {"query": "Who composed the music for Titanic"}}
+{"text": "Quora pe IAS preparation tips search karo.", "action": "web_search", "slots": {"site": "Quora", "query": "IAS preparation tips"}}
+{"text": "Pinterest pe bedroom decor ideas dhundho.", "action": "web_search", "slots": {"site": "Pinterest", "query": "bedroom decor ideas"}}
+{"text": "Ramayana kathe swalpa helu.", "action": "web_search", "slots": {"query": "Ramayana kathe"}}
+{"text": "5G aur 4G mein kya fark hai?", "action": "web_search", "slots": {"query": "5G aur 4G mein kya fark hai"}}
+{"text": "Docker kya hai aur kaise use karein?", "action": "web_search", "slots": {"query": "Docker kya hai aur kaise use karein"}}
+{"text": "Ratan Tata ke baare mein batao.", "action": "web_search", "slots": {"query": "Ratan Tata"}}
+{"text": "Flipkart e headphone khojo.", "action": "web_search", "slots": {"site": "Flipkart", "query": "headphone"}}
+{"text": "Bing pe today's news search karo.", "action": "web_search", "slots": {"site": "Bing", "query": "today's news"}}
+{"text": "Sabarimala nada eppol thurakkum?", "action": "web_search", "slots": {"query": "Sabarimala nada eppol thurakkum"}}
+{"text": "लता मंगेशकर के बारे में बताओ", "action": "web_search", "slots": {"query": "लता मंगेशकर"}}
+{"text": "KGF Chapter 2 ne kitna collection kiya?", "action": "web_search", "slots": {"query": "KGF Chapter 2 ne kitna collection kiya"}}
+{"text": "Sensex enthaanu ennu vishadeekarikku.", "action": "web_search", "slots": {"query": "Sensex enthaanu"}}
+{"text": "Nusrat Fateh Ali Khan kab guzre the?", "action": "web_search", "slots": {"query": "Nusrat Fateh Ali Khan kab guzre the"}}
+{"text": "Elon Musk ki net worth kitni hai?", "action": "web_search", "slots": {"query": "Elon Musk ki net worth kitni hai"}}
+{"text": "Sachin Pilgaonkar kon aahet?", "action": "web_search", "slots": {"query": "Sachin Pilgaonkar kon aahet"}}
+{"text": "KS Chithra ku ethra national awards kitti?", "action": "web_search", "slots": {"query": "KS Chithra ku ethra national awards kitti"}}
+{"text": "IKEA pe study table dhundho.", "action": "web_search", "slots": {"site": "IKEA", "query": "study table"}}
+{"text": "Mohit Chauhan kaun hai, thoda batao.", "action": "web_search", "slots": {"query": "Mohit Chauhan kaun hai"}}
+{"text": "Wikipedia pe Gandhi ji search karo.", "action": "web_search", "slots": {"site": "Wikipedia", "query": "Gandhi ji"}}
+{"text": "ரஜினிகாந்த் வயது என்ன?", "action": "web_search", "slots": {"query": "ரஜினிகாந்த் வயது என்ன"}}
+{"text": "Kirik Party movie bagge helu.", "action": "web_search", "slots": {"query": "Kirik Party movie"}}
+{"text": "Gangnam Style kisne gaaya?", "action": "web_search", "slots": {"query": "Gangnam Style kisne gaaya"}}
+{"text": "Please tell me about Lucky Ali.", "action": "web_search", "slots": {"query": "Lucky Ali"}}
+{"text": "Kabaddi World Cup kaun jeeta?", "action": "web_search", "slots": {"query": "Kabaddi World Cup kaun jeeta"}}
+{"text": "Thaikkudam Bridge band ne kurichu parayu.", "action": "web_search", "slots": {"query": "Thaikkudam Bridge band"}}
+{"text": "Don't play anything, just tell me who Billie Eilish is.", "action": "web_search", "slots": {"query": "who Billie Eilish is"}}
+{"text": "What is an operating system?", "action": "web_search", "slots": {"query": "What is an operating system"}}
+{"text": "Blockchain kaise kaam karta hai?", "action": "web_search", "slots": {"query": "Blockchain kaise kaam karta hai"}}
+{"text": "YouTube e Bangla natok khojo.", "action": "web_search", "slots": {"site": "YouTube", "query": "Bangla natok"}}
+{"text": "Mohammed Rafi ne kitne gaane gaaye?", "action": "web_search", "slots": {"query": "Mohammed Rafi ne kitne gaane gaaye"}}
+{"text": "Election result kab aayega?", "action": "web_search", "slots": {"query": "Election result kab aayega"}}
+{"text": "Blood pressure high hone ke kya karan hain?", "action": "web_search", "slots": {"query": "Blood pressure high hone ke kya karan hain"}}
+{"text": "Amazon এ জুতো খোঁজো", "action": "web_search", "slots": {"site": "Amazon", "query": "জুতো"}}
+{"text": "Imagine Dragons kahan ka band hai?", "action": "web_search", "slots": {"query": "Imagine Dragons kahan ka band hai"}}
+{"text": "Croma pe washing machine dhundho.", "action": "web_search", "slots": {"site": "Croma", "query": "washing machine"}}
+{"text": "Chester Bennington ko kya hua tha?", "action": "web_search", "slots": {"query": "Chester Bennington ko kya hua tha"}}
+{"text": "ISRO kya kaam karta hai?", "action": "web_search", "slots": {"query": "ISRO kya kaam karta hai"}}
+{"text": "Tailor Swift ka latest album kaunsa hai?", "action": "web_search", "slots": {"query": "Tailor Swift ka latest album kaunsa hai"}}
+{"text": "AP Dhillon kis desh mein rehta hai?", "action": "web_search", "slots": {"query": "AP Dhillon kis desh mein rehta hai"}}
+{"text": "Nana Patekar yanchi mahiti sanga.", "action": "web_search", "slots": {"query": "Nana Patekar"}}
+{"text": "Ronaldo ki age kitni hai?", "action": "web_search", "slots": {"query": "Ronaldo ki age kitni hai"}}
+{"text": "Bhimsen Joshi kaun the?", "action": "web_search", "slots": {"query": "Bhimsen Joshi kaun the"}}
+{"text": "Thom Yorke kaun hai?", "action": "web_search", "slots": {"query": "Thom Yorke kaun hai"}}
+{"text": "Asha Bhosle aur Lata Mangeshkar behen hain kya?", "action": "web_search", "slots": {"query": "Asha Bhosle aur Lata Mangeshkar behen hain kya"}}
+{"text": "APJ Abdul Kalam ke baare mein jaankari do.", "action": "web_search", "slots": {"query": "APJ Abdul Kalam"}}
+{"text": "D Gukesh pathi sollu.", "action": "web_search", "slots": {"query": "D Gukesh"}}
+{"text": "Salaar part 2 release date enti?", "action": "web_search", "slots": {"query": "Salaar part 2 release date enti"}}
+{"text": "Who has the most Test wickets?", "action": "web_search", "slots": {"query": "Who has the most Test wickets"}}
+{"text": "കെ എസ് ചിത്ര എത്ര പാട്ടുകൾ പാടി?", "action": "web_search", "slots": {"query": "കെ എസ് ചിത്ര എത്ര പാട്ടുകൾ പാടി"}}
+{"text": "Mumbai local train timings kya hain?", "action": "web_search", "slots": {"query": "Mumbai local train timings kya hain"}}
+{"text": "Devi Sri Prasad hit songs list cheppu.", "action": "web_search", "slots": {"query": "Devi Sri Prasad hit songs list"}}
+{"text": "Javed Akhtar ke bete ka naam kya hai?", "action": "web_search", "slots": {"query": "Javed Akhtar ke bete ka naam kya hai"}}
+{"text": "Allu Arjun gurinchi cheppu.", "action": "web_search", "slots": {"query": "Allu Arjun"}}
+{"text": "Amazon e kurti khuje dao.", "action": "web_search", "slots": {"site": "Amazon", "query": "kurti"}}
+{"text": "Lok Sabha aur Rajya Sabha mein fark batao.", "action": "web_search", "slots": {"query": "Lok Sabha aur Rajya Sabha mein fark"}}
+{"text": "Python programming enna nu sollu.", "action": "web_search", "slots": {"query": "Python programming enna"}}
+{"text": "Priyanka Chopra ne Hollywood mein kaunsi films ki?", "action": "web_search", "slots": {"query": "Priyanka Chopra ne Hollywood mein kaunsi films ki"}}
+{"text": "Ozone layer kya hai?", "action": "web_search", "slots": {"query": "Ozone layer kya hai"}}
+{"text": "Taylor Swift ke paas kitne Grammys hain?", "action": "web_search", "slots": {"query": "Taylor Swift ke paas kitne Grammys hain"}}
+{"text": "Lenskart pe sunglasses dhundho.", "action": "web_search", "slots": {"site": "Lenskart", "query": "sunglasses"}}
+{"text": "MM Keeravani gurinchi cheppandi.", "action": "web_search", "slots": {"query": "MM Keeravani"}}
+{"text": "Honey Singh ki age kitni hai?", "action": "web_search", "slots": {"query": "Honey Singh ki age kitni hai"}}
+{"text": "Vikram padam la villain yaaru?", "action": "web_search", "slots": {"query": "Vikram padam la villain yaaru"}}
+{"text": "Samajavaragamana song ki lyrics evaru raasaru?", "action": "web_search", "slots": {"query": "Samajavaragamana song ki lyrics evaru raasaru"}}
+{"text": "Chip kaise banti hai?", "action": "web_search", "slots": {"query": "Chip kaise banti hai"}}
+{"text": "Repo rate na enna?", "action": "web_search", "slots": {"query": "Repo rate na enna"}}
+{"text": "Neeraj Chopra ka best throw kitna hai?", "action": "web_search", "slots": {"query": "Neeraj Chopra ka best throw kitna hai"}}
+{"text": "Search for Radiohead on Wikipedia.", "action": "web_search", "slots": {"site": "Wikipedia", "query": "Radiohead"}}
+{"text": "Sambar maadodu hege?", "action": "web_search", "slots": {"query": "Sambar maadodu hege"}}
+{"text": "PAN card ke liye apply kaise karte hain?", "action": "web_search", "slots": {"query": "PAN card ke liye apply kaise karte hain"}}
+{"text": "What album is Karma Police from?", "action": "web_search", "slots": {"query": "What album is Karma Police from"}}
+{"text": "Recession ka matlab samjhao.", "action": "web_search", "slots": {"query": "Recession ka matlab"}}
+{"text": "YouTube lo Telugu movie trailers vetuku.", "action": "web_search", "slots": {"site": "YouTube", "query": "Telugu movie trailers"}}
+{"text": "Rasam recipe sollunga.", "action": "web_search", "slots": {"query": "Rasam recipe"}}
+{"text": "आर डी बर्मन कौन थे?", "action": "web_search", "slots": {"query": "आर डी बर्मन कौन थे"}}
+{"text": "Ennai Konjam Maatri lyrics venum.", "action": "web_search", "slots": {"query": "Ennai Konjam Maatri lyrics"}}
+{"text": "What's a Turing machine?", "action": "web_search", "slots": {"query": "What's a Turing machine"}}
+{"text": "Find Arijit Singh interviews on YouTube.", "action": "web_search", "slots": {"site": "YouTube", "query": "Arijit Singh interviews"}}
+{"text": "Mujhe samjhao ki inflation kya hai.", "action": "web_search", "slots": {"query": "inflation kya hai"}}
+{"text": "Electric current kaise behti hai explain karo.", "action": "web_search", "slots": {"query": "Electric current kaise behti hai"}}
+{"text": "अरिजीत सिंह की उम्र कितनी है?", "action": "web_search", "slots": {"query": "अरिजीत सिंह की उम्र कितनी है"}}
+{"text": "Google pe Taj Mahal ki history search karo.", "action": "web_search", "slots": {"site": "Google", "query": "Taj Mahal ki history"}}
+{"text": "Aaj ki taaza khabar sunao.", "action": "web_search", "slots": {"query": "Aaj ki taaza khabar"}}
+{"text": "Tell me about the band Queen.", "action": "web_search", "slots": {"query": "the band Queen"}}
+{"text": "Fixed deposit aur RD mein kya fark hai?", "action": "web_search", "slots": {"query": "Fixed deposit aur RD mein kya fark hai"}}
+{"text": "Ek baar samjhao ki RBI kya karta hai.", "action": "web_search", "slots": {"query": "RBI kya karta hai"}}
+{"text": "KK singer ka poora naam kya tha?", "action": "web_search", "slots": {"query": "KK singer ka poora naam kya tha"}}
+{"text": "விஜய் அடுத்த படம் என்ன?", "action": "web_search", "slots": {"query": "விஜய் அடுத்த படம் என்ன"}}
+{"text": "Dua Lipa kis desh ki hai?", "action": "web_search", "slots": {"query": "Dua Lipa kis desh ki hai"}}
+{"text": "BTS mein kitne members hain?", "action": "web_search", "slots": {"query": "BTS mein kitne members hain"}}
+{"text": "आज पेट्रोलचा दर किती आहे?", "action": "web_search", "slots": {"query": "आज पेट्रोलचा दर किती आहे"}}
+{"text": "Bhai, simple bhasha mein batao ki AI kya hai.", "action": "web_search", "slots": {"query": "AI kya hai"}}
+{"text": "Samsung S25 Ultra kitne ka hai?", "action": "web_search", "slots": {"query": "Samsung S25 Ultra kitne ka hai"}}
+{"text": "Prateek Kuhad kaun hai?", "action": "web_search", "slots": {"query": "Prateek Kuhad kaun hai"}}
+{"text": "Virat Kohli ne kitni centuries maari hain?", "action": "web_search", "slots": {"query": "Virat Kohli ne kitni centuries maari hain"}}
+{"text": "SP Balasubrahmanyam pathi sollunga.", "action": "web_search", "slots": {"query": "SP Balasubrahmanyam"}}
+{"text": "Udemy pe machine learning course dhundho.", "action": "web_search", "slots": {"site": "Udemy", "query": "machine learning course"}}
+{"text": "இன்ஃப்ளேஷன் என்றால் என்ன?", "action": "web_search", "slots": {"query": "இன்ஃப்ளேஷன் என்றால் என்ன"}}
+{"text": "Housing dot com pe PG dhundho.", "action": "web_search", "slots": {"site": "Housing dot com", "query": "PG"}}
+{"text": "Salman Khan ki shaadi hui hai kya?", "action": "web_search", "slots": {"query": "Salman Khan ki shaadi hui hai kya"}}
+{"text": "Arijit Singh er prothom gaan konta?", "action": "web_search", "slots": {"query": "Arijit Singh er prothom gaan konta"}}
+{"text": "Zomato pe nearby dosa places dhundho.", "action": "web_search", "slots": {"site": "Zomato", "query": "nearby dosa places"}}
+{"text": "What is the difference between a virus and bacteria?", "action": "web_search", "slots": {"query": "What is the difference between a virus and bacteria"}}
+{"text": "How many calories in a banana?", "action": "web_search", "slots": {"query": "How many calories in a banana"}}
+{"text": "अजय अतुल कोण आहेत?", "action": "web_search", "slots": {"query": "अजय अतुल कोण आहेत"}}
+{"text": "Railway ticket cancel karne ka charge kitna hai?", "action": "web_search", "slots": {"query": "Railway ticket cancel karne ka charge kitna hai"}}
+{"text": "GDP ka matlab samjhao.", "action": "web_search", "slots": {"query": "GDP ka matlab"}}
+{"text": "AI andre enu, swalpa vivarisi helu.", "action": "web_search", "slots": {"query": "AI andre enu"}}
+{"text": "Kochi il naale mazha undo?", "action": "web_search", "slots": {"query": "Kochi il naale mazha undo"}}
+{"text": "What time is it in New York right now?", "action": "web_search", "slots": {"query": "What time is it in New York right now"}}
+{"text": "Sundar Pichai kahan ke rehne wale hain?", "action": "web_search", "slots": {"query": "Sundar Pichai kahan ke rehne wale hain"}}
+{"text": "Indiranagar la nalla restaurant yaavudu?", "action": "web_search", "slots": {"query": "Indiranagar la nalla restaurant yaavudu"}}
+{"text": "Drake kis desh se hai?", "action": "web_search", "slots": {"query": "Drake kis desh se hai"}}
+{"text": "Maps la pharmacy near me search pannu.", "action": "web_search", "slots": {"site": "Maps", "query": "pharmacy near me"}}
+{"text": "Nykaa pe sunscreen search karo.", "action": "web_search", "slots": {"site": "Nykaa", "query": "sunscreen"}}
+{"text": "ഗ്രാവിറ്റി എന്താണ്?", "action": "web_search", "slots": {"query": "ഗ്രാവിറ്റി എന്താണ്"}}
+{"text": "Amazon la mixer grinder thedu.", "action": "web_search", "slots": {"site": "Amazon", "query": "mixer grinder"}}
+{"text": "AR Rahman ko kitne Oscar mile hain?", "action": "web_search", "slots": {"query": "AR Rahman ko kitne Oscar mile hain"}}
+{"text": "PV Sindhu ne kitne Olympic medal jeete?", "action": "web_search", "slots": {"query": "PV Sindhu ne kitne Olympic medal jeete"}}
+{"text": "MagicBricks la Chennai rent house thedu.", "action": "web_search", "slots": {"site": "MagicBricks", "query": "Chennai rent house"}}
+{"text": "Black hole kya hota hai?", "action": "web_search", "slots": {"query": "Black hole kya hota hai"}}
+{"text": "Aadhaar card update kaise karein?", "action": "web_search", "slots": {"query": "Aadhaar card update kaise karein"}}
+{"text": "YouTube pe Radiohead documentary dhoondho.", "action": "web_search", "slots": {"site": "YouTube", "query": "Radiohead documentary"}}
+{"text": "Radio head kaun hai?", "action": "web_search", "slots": {"query": "Radio head kaun hai"}}
+{"text": "Amazon pe dekho Samsung ka fridge kitne ka hai.", "action": "web_search", "slots": {"site": "Amazon", "query": "Samsung ka fridge kitne ka hai"}}
+{"text": "जीएसटी क्या होता है?", "action": "web_search", "slots": {"query": "जीएसटी क्या होता है"}}
+{"text": "Yoga ke fayde batao.", "action": "web_search", "slots": {"query": "Yoga ke fayde"}}
+{"text": "WiFi router kaise kaam karta hai samjhao.", "action": "web_search", "slots": {"query": "WiFi router kaise kaam karta hai"}}
+{"text": "तुम ही हो गाना किसने गाया?", "action": "web_search", "slots": {"query": "तुम ही हो गाना किसने गाया"}}
+{"text": "Who sang Tum Hi Ho?", "action": "web_search", "slots": {"query": "Who sang Tum Hi Ho"}}
+{"text": "Who won the Grammy for album of the year?", "action": "web_search", "slots": {"query": "Who won the Grammy for album of the year"}}
+{"text": "Darjeeling e kokhon jawa uchit?", "action": "web_search", "slots": {"query": "Darjeeling e kokhon jawa uchit"}}
+{"text": "Ajith Kumar oda real name enna?", "action": "web_search", "slots": {"query": "Ajith Kumar oda real name enna"}}
+{"text": "YouTube-ல சமையல் வீடியோ தேடு", "action": "web_search", "slots": {"site": "YouTube", "query": "சமையல் வீடியோ"}}
+{"text": "Instagram pe travel reels search karo.", "action": "web_search", "slots": {"site": "Instagram", "query": "travel reels"}}
+{"text": "Teach me the basics of chess.", "action": "web_search", "slots": {"query": "the basics of chess"}}
+{"text": "Radiohead ne Creep kyun gaana band kiya?", "action": "web_search", "slots": {"query": "Radiohead ne Creep kyun gaana band kiya"}}
+{"text": "బాహుబలి సినిమా కథ ఏమిటి?", "action": "web_search", "slots": {"query": "బాహుబలి సినిమా కథ ఏమిటి"}}
+{"text": "LinkedIn alli HR jobs huduku.", "action": "web_search", "slots": {"site": "LinkedIn", "query": "HR jobs"}}
+{"text": "Moon tak jaane mein kitna time lagta hai?", "action": "web_search", "slots": {"query": "Moon tak jaane mein kitna time lagta hai"}}
+{"text": "Aasmaan neela kyun hota hai?", "action": "web_search", "slots": {"query": "Aasmaan neela kyun hota hai"}}
+{"text": "Flipkart pe 5G phone under 15000 dhundho.", "action": "web_search", "slots": {"site": "Flipkart", "query": "5G phone under 15000"}}
+{"text": "Hotstar pe cricket highlights search karo.", "action": "web_search", "slots": {"site": "Hotstar", "query": "cricket highlights"}}
+{"text": "Yuvan Shankar Raja oda first padam enna?", "action": "web_search", "slots": {"query": "Yuvan Shankar Raja oda first padam enna"}}
+{"text": "Pandit Ravi Shankar ke baare mein batao.", "action": "web_search", "slots": {"query": "Pandit Ravi Shankar"}}
+{"text": "Democracy ka arth kya hai?", "action": "web_search", "slots": {"query": "Democracy ka arth kya hai"}}
+{"text": "Shankar Mahadevan ke kitne bete hain?", "action": "web_search", "slots": {"query": "Shankar Mahadevan ke kitne bete hain"}}
+{"text": "SIP ka full form kya hai?", "action": "web_search", "slots": {"query": "SIP ka full form kya hai"}}
+{"text": "How old is Keanu Reeves?", "action": "web_search", "slots": {"query": "How old is Keanu Reeves"}}
+{"text": "Train 12627 ka running status batao.", "action": "web_search", "slots": {"query": "Train 12627 ka running status"}}
+{"text": "The Weeknd ka asli naam batao.", "action": "web_search", "slots": {"query": "The Weeknd ka asli naam"}}
+{"text": "Solar panel kaise bijli banata hai?", "action": "web_search", "slots": {"query": "Solar panel kaise bijli banata hai"}}
+{"text": "Flipkart ನಲ್ಲಿ ಫೋನ್ ಹುಡುಕು", "action": "web_search", "slots": {"site": "Flipkart", "query": "ಫೋನ್"}}
+{"text": "Naatu Naatu song kisne compose kiya?", "action": "web_search", "slots": {"query": "Naatu Naatu song kisne compose kiya"}}
+{"text": "VPN kya hota hai aur kyun use karte hain?", "action": "web_search", "slots": {"query": "VPN kya hota hai aur kyun use karte hain"}}
+{"text": "PharmEasy pe vitamin tablets dhundho.", "action": "web_search", "slots": {"site": "PharmEasy", "query": "vitamin tablets"}}
+{"text": "Coldplay ka naya album kaunsa hai?", "action": "web_search", "slots": {"query": "Coldplay ka naya album kaunsa hai"}}
+{"text": "Shreya Ghoshal ne pehla gaana kaunsa gaaya tha?", "action": "web_search", "slots": {"query": "Shreya Ghoshal ne pehla gaana kaunsa gaaya tha"}}
+{"text": "Oppenheimer movie kis baare mein hai?", "action": "web_search", "slots": {"query": "Oppenheimer movie kis baare mein hai"}}
+{"text": "JioCinema la IPL highlights thedu.", "action": "web_search", "slots": {"site": "JioCinema", "query": "IPL highlights"}}
+{"text": "Hemant Kumar ke baare mein bataiye.", "action": "web_search", "slots": {"query": "Hemant Kumar"}}
+{"text": "Reliance share aaj upar hai ya neeche?", "action": "web_search", "slots": {"query": "Reliance share aaj upar hai ya neeche"}}
+{"text": "Vizag lo beach lu emi unnayi?", "action": "web_search", "slots": {"query": "Vizag lo beach lu emi unnayi"}}
+{"text": "iPhone 17 ki price India mein kya hai?", "action": "web_search", "slots": {"query": "iPhone 17 ki price India mein kya hai"}}
+{"text": "Tamil Nadu CM yaar?", "action": "web_search", "slots": {"query": "Tamil Nadu CM yaar"}}
+{"text": "Rohit Sharma ka captaincy record batao.", "action": "web_search", "slots": {"query": "Rohit Sharma ka captaincy record"}}
+{"text": "Christopher Nolan ki latest movie kaunsi hai?", "action": "web_search", "slots": {"query": "Christopher Nolan ki latest movie kaunsi hai"}}
+{"text": "Kesariya gaana kisne likha hai?", "action": "web_search", "slots": {"query": "Kesariya gaana kisne likha hai"}}
+{"text": "Jailer movie review eppadi irukku?", "action": "web_search", "slots": {"query": "Jailer movie review eppadi irukku"}}
+{"text": "Compound interest kya hai ek example se samjhao.", "action": "web_search", "slots": {"query": "Compound interest kya hai"}}
+{"text": "YouTube var Marathi recipes shodha.", "action": "web_search", "slots": {"site": "YouTube", "query": "Marathi recipes"}}
+{"text": "മോഹൻലാൽ എത്ര സിനിമകളിൽ അഭിനയിച്ചു?", "action": "web_search", "slots": {"query": "മോഹൻലാൽ എത്ര സിനിമകളിൽ അഭിനയിച്ചു"}}
+{"text": "Tujhe Dekha To gaana kis saal aaya?", "action": "web_search", "slots": {"query": "Tujhe Dekha To gaana kis saal aaya"}}
+{"text": "Mohanlal ethra cinemayil abhinayichu?", "action": "web_search", "slots": {"query": "Mohanlal ethra cinemayil abhinayichu"}}
+{"text": "Thaman music chesina latest movie enti?", "action": "web_search", "slots": {"query": "Thaman music chesina latest movie enti"}}
+{"text": "कुमार सानू ने कितने गाने गाए हैं?", "action": "web_search", "slots": {"query": "कुमार सानू ने कितने गाने गाए हैं"}}
+{"text": "Channa Mereya ke lyrics chahiye.", "action": "web_search", "slots": {"query": "Channa Mereya ke lyrics"}}
+{"text": "लता मंगेशकर यांचा जन्म कुठे झाला?", "action": "web_search", "slots": {"query": "लता मंगेशकर यांचा जन्म कुठे झाला"}}
+{"text": "Best biryani in Hyderabad.", "action": "web_search", "slots": {"query": "Best biryani in Hyderabad"}}
+{"text": "Money Heist mein Professor ka role kisne kiya?", "action": "web_search", "slots": {"query": "Money Heist mein Professor ka role kisne kiya"}}
+{"text": "Etsy pe handmade jewellery search karo.", "action": "web_search", "slots": {"site": "Etsy", "query": "handmade jewellery"}}
+{"text": "Gold rate today in Chennai.", "action": "web_search", "slots": {"query": "Gold rate today in Chennai"}}
+{"text": "Semiconductor kya hota hai?", "action": "web_search", "slots": {"query": "Semiconductor kya hota hai"}}
+{"text": "Chennai la inniku mazhai varuma?", "action": "web_search", "slots": {"query": "Chennai la inniku mazhai varuma"}}
+{"text": "Amazon India pe running shoes for men dhundho.", "action": "web_search", "slots": {"site": "Amazon India", "query": "running shoes for men"}}
+{"text": "Dollar ka rate kya hai aaj?", "action": "web_search", "slots": {"query": "Dollar ka rate kya hai aaj"}}
+{"text": "Metallica band kab bani thi?", "action": "web_search", "slots": {"query": "Metallica band kab bani thi"}}
+{"text": "Arjun Janya yaava cinemagalige music kottiddare?", "action": "web_search", "slots": {"query": "Arjun Janya yaava cinemagalige music kottiddare"}}
+{"text": "OK Computer album ke baare mein batao.", "action": "web_search", "slots": {"query": "OK Computer album"}}
+{"text": "লতা মঙ্গেশকর কে ছিলেন?", "action": "web_search", "slots": {"query": "লতা মঙ্গেশকর কে ছিলেন"}}
+{"text": "Explain the stock split concept.", "action": "web_search", "slots": {"query": "the stock split concept"}}
+{"text": "Pune madhye aaj havaman kasa aahe?", "action": "web_search", "slots": {"query": "Pune madhye aaj havaman kasa aahe"}}
+{"text": "Justin Bieber India kab aaya tha?", "action": "web_search", "slots": {"query": "Justin Bieber India kab aaya tha"}}
+{"text": "Wikipedia la Ilayaraja pathi thedu.", "action": "web_search", "slots": {"site": "Wikipedia", "query": "Ilayaraja"}}
+{"text": "Nifty aaj kitne pe band hua?", "action": "web_search", "slots": {"query": "Nifty aaj kitne pe band hua"}}
+{"text": "Mukesh singer ki death kab hui?", "action": "web_search", "slots": {"query": "Mukesh singer ki death kab hui"}}
+{"text": "YouTube alli Kannada comedy videos huduku.", "action": "web_search", "slots": {"site": "YouTube", "query": "Kannada comedy videos"}}
+{"text": "Vineeth Sreenivasan director aano singer aano?", "action": "web_search", "slots": {"query": "Vineeth Sreenivasan director aano singer aano"}}
+{"text": "Integration ante enti?", "action": "web_search", "slots": {"query": "Integration ante enti"}}
+{"text": "How does WiFi work?", "action": "web_search", "slots": {"query": "How does WiFi work"}}
+{"text": "Who wrote the song Yesterday?", "action": "web_search", "slots": {"query": "Who wrote the song Yesterday"}}
+{"text": "অরিজিৎ সিং এর বয়স কত?", "action": "web_search", "slots": {"query": "অরিজিৎ সিং এর বয়স কত"}}
+{"text": "Haadu haakbedi, Rajkumar bagge helu.", "action": "web_search", "slots": {"query": "Rajkumar"}}
+{"text": "Excel mein VLOOKUP kaise use karte hain?", "action": "web_search", "slots": {"query": "Excel mein VLOOKUP kaise use karte hain"}}
+{"text": "Eminem ka real name kya hai?", "action": "web_search", "slots": {"query": "Eminem ka real name kya hai"}}
+{"text": "Google Maps pe nearby ATM dhundho.", "action": "web_search", "slots": {"site": "Google Maps", "query": "nearby ATM"}}
+{"text": "BigBasket pe atta search karo.", "action": "web_search", "slots": {"site": "BigBasket", "query": "atta"}}
+{"text": "HTML aur CSS mein kya fark hai?", "action": "web_search", "slots": {"query": "HTML aur CSS mein kya fark hai"}}
+{"text": "Linkin Park ka naya singer kaun hai?", "action": "web_search", "slots": {"query": "Linkin Park ka naya singer kaun hai"}}
+{"text": "The Local Train band ka lead singer kaun hai?", "action": "web_search", "slots": {"query": "The Local Train band ka lead singer kaun hai"}}
+{"text": "Bangalore se Mysore kitni door hai?", "action": "web_search", "slots": {"query": "Bangalore se Mysore kitni door hai"}}
+{"text": "Zakir Hussain kaun the?", "action": "web_search", "slots": {"query": "Zakir Hussain kaun the"}}
+{"text": "Glassdoor pe Infosys salary dhundho.", "action": "web_search", "slots": {"site": "Glassdoor", "query": "Infosys salary"}}
+{"text": "Pongal festival pathi sollu.", "action": "web_search", "slots": {"query": "Pongal festival"}}
+{"text": "OTP kaise kaam karta hai?", "action": "web_search", "slots": {"query": "OTP kaise kaam karta hai"}}
+{"text": "Vaccine kaise banti hai?", "action": "web_search", "slots": {"query": "Vaccine kaise banti hai"}}
+{"text": "1mg pe paracetamol search karo.", "action": "web_search", "slots": {"site": "1mg", "query": "paracetamol"}}
+{"text": "Photosynthesis ante enti cheppu.", "action": "web_search", "slots": {"query": "Photosynthesis ante enti"}}
+{"text": "Earthquake yaake aagutte?", "action": "web_search", "slots": {"query": "Earthquake yaake aagutte"}}
+{"text": "What does HTTP stand for?", "action": "web_search", "slots": {"query": "What does HTTP stand for"}}
+{"text": "Adele ka naya gaana aaya hai kya?", "action": "web_search", "slots": {"query": "Adele ka naya gaana aaya hai kya"}}
+{"text": "Prosenjit er notun cinema konta?", "action": "web_search", "slots": {"query": "Prosenjit er notun cinema konta"}}
+{"text": "Wikipedia mein Radiohead search karo.", "action": "web_search", "slots": {"site": "Wikipedia", "query": "Radiohead"}}
+{"text": "Leo padam hit ah flop ah?", "action": "web_search", "slots": {"query": "Leo padam hit ah flop ah"}}
+{"text": "What is DNA?", "action": "web_search", "slots": {"query": "What is DNA"}}
+{"text": "Is Coldplay coming to India?", "action": "web_search", "slots": {"query": "Is Coldplay coming to India"}}
+{"text": "Fahadh Faasil ne kurichu parayu.", "action": "web_search", "slots": {"query": "Fahadh Faasil"}}
+{"text": "Fiscal deficit enna?", "action": "web_search", "slots": {"query": "Fiscal deficit enna"}}
+{"text": "Pritam ke famous gaane kaunse hain?", "action": "web_search", "slots": {"query": "Pritam ke famous gaane kaunse hain"}}
+{"text": "Wikipedia var Shivaji Maharaj shodha.", "action": "web_search", "slots": {"site": "Wikipedia", "query": "Shivaji Maharaj"}}
+{"text": "Next Olympics kahan honge?", "action": "web_search", "slots": {"query": "Next Olympics kahan honge"}}
+{"text": "Rainbow kaise banta hai?", "action": "web_search", "slots": {"query": "Rainbow kaise banta hai"}}
+{"text": "America mein abhi kitne baje hain?", "action": "web_search", "slots": {"query": "America mein abhi kitne baje hain"}}
+{"text": "3 Idiots kis book pe based hai?", "action": "web_search", "slots": {"query": "3 Idiots kis book pe based hai"}}
+{"text": "Zomato par chinese restaurants khojo.", "action": "web_search", "slots": {"site": "Zomato", "query": "chinese restaurants"}}
+{"text": "EMI kaise calculate hoti hai?", "action": "web_search", "slots": {"query": "EMI kaise calculate hoti hai"}}
+{"text": "Goodreads pe best thriller novels search karo.", "action": "web_search", "slots": {"site": "Goodreads", "query": "best thriller novels"}}
+{"text": "IRCTC pe Chennai to Bangalore trains search karo.", "action": "web_search", "slots": {"site": "IRCTC", "query": "Chennai to Bangalore trains"}}
+{"text": "Pythagoras theorem kya hai?", "action": "web_search", "slots": {"query": "Pythagoras theorem kya hai"}}
+{"text": "Manjummel Boys real story aano?", "action": "web_search", "slots": {"query": "Manjummel Boys real story aano"}}
+{"text": "కృత్రిమ మేధ అంటే ఏమిటి?", "action": "web_search", "slots": {"query": "కృత్రిమ మేధ అంటే ఏమిటి"}}
+{"text": "You tube la Rajinikanth interview thedu.", "action": "web_search", "slots": {"site": "You tube", "query": "Rajinikanth interview"}}
+{"text": "Arjit Singh ki wife kaun hai?", "action": "web_search", "slots": {"query": "Arjit Singh ki wife kaun hai"}}
+{"text": "Sushin Shyam music cheytha padangal ethokke?", "action": "web_search", "slots": {"query": "Sushin Shyam music cheytha padangal ethokke"}}
+{"text": "Who is the CEO of Google?", "action": "web_search", "slots": {"query": "Who is the CEO of Google"}}
+{"text": "Pushpa 2 ka box office collection batao.", "action": "web_search", "slots": {"query": "Pushpa 2 ka box office collection"}}
+{"text": "NTR Jr next movie enti?", "action": "web_search", "slots": {"query": "NTR Jr next movie enti"}}
+{"text": "King rapper ka asli naam?", "action": "web_search", "slots": {"query": "King rapper ka asli naam"}}
+{"text": "API ka matlab kya hai?", "action": "web_search", "slots": {"query": "API ka matlab kya hai"}}
+{"text": "samjhao photosynthesis kya hai", "action": "web_search", "slots": {"query": "photosynthesis kya hai"}}
+{"text": "യേശുദാസ് ആരാണ്?", "action": "web_search", "slots": {"query": "യേശുദാസ് ആരാണ്"}}
+{"text": "Medium pe AI articles dhundho.", "action": "web_search", "slots": {"site": "Medium", "query": "AI articles"}}
+{"text": "Blinkit pe milk dhundho.", "action": "web_search", "slots": {"site": "Blinkit", "query": "milk"}}
+{"text": "Kumar Sanu koto gaan geyechen?", "action": "web_search", "slots": {"query": "Kumar Sanu koto gaan geyechen"}}
+{"text": "Wikipedia lo Tirupati gurinchi vetuku.", "action": "web_search", "slots": {"site": "Wikipedia", "query": "Tirupati"}}
+{"text": "Formula 1 ka current champion kaun hai?", "action": "web_search", "slots": {"query": "Formula 1 ka current champion kaun hai"}}
+{"text": "Thermodynamics first law vivarisi.", "action": "web_search", "slots": {"query": "Thermodynamics first law"}}
+{"text": "Redbus la Madurai bus search pannu.", "action": "web_search", "slots": {"site": "Redbus", "query": "Madurai bus"}}
+{"text": "What was Freddie Mercury's real name?", "action": "web_search", "slots": {"query": "What was Freddie Mercury's real name"}}
+{"text": "LinkedIn वर नोकऱ्या शोधा", "action": "web_search", "slots": {"site": "LinkedIn", "query": "नोकऱ्या"}}
+{"text": "Sholay kab release hui thi?", "action": "web_search", "slots": {"query": "Sholay kab release hui thi"}}
+{"text": "Wikipedia alli Puneeth Rajkumar huduku.", "action": "web_search", "slots": {"site": "Wikipedia", "query": "Puneeth Rajkumar"}}
+{"text": "Wimbledon 2026 kisne jeeta?", "action": "web_search", "slots": {"query": "Wimbledon 2026 kisne jeeta"}}
+{"text": "Mount Everest ki unchai kitni hai?", "action": "web_search", "slots": {"query": "Mount Everest ki unchai kitni hai"}}
+{"text": "Vijay oda next padam enna?", "action": "web_search", "slots": {"query": "Vijay oda next padam enna"}}
+{"text": "Tell me something about The Beatles.", "action": "web_search", "slots": {"query": "The Beatles"}}
+{"text": "Onam enthinaanu aaghoshikkunnathu?", "action": "web_search", "slots": {"query": "Onam enthinaanu aaghoshikkunnathu"}}
+{"text": "Vada Chennai part 2 eppo varum?", "action": "web_search", "slots": {"query": "Vada Chennai part 2 eppo varum"}}
+{"text": "Deepika Padukone ka pati kaun hai?", "action": "web_search", "slots": {"query": "Deepika Padukone ka pati kaun hai"}}
+{"text": "Climate change kya hai aur kyu ho raha hai?", "action": "web_search", "slots": {"query": "Climate change kya hai aur kyu ho raha hai"}}
+{"text": "ಇವತ್ತು ಬೆಂಗಳೂರು ಹವಾಮಾನ ಹೇಗಿದೆ?", "action": "web_search", "slots": {"query": "ಇವತ್ತು ಬೆಂಗಳೂರು ಹವಾಮಾನ ಹೇಗಿದೆ"}}
+{"text": "Neural network kya hota hai?", "action": "web_search", "slots": {"query": "Neural network kya hota hai"}}
+{"text": "Lata Mangeshkar ke baare mein kuch batao.", "action": "web_search", "slots": {"query": "Lata Mangeshkar"}}
+{"text": "Alia Bhatt ki agli film kaunsi aa rahi hai?", "action": "web_search", "slots": {"query": "Alia Bhatt ki agli film kaunsi aa rahi hai"}}
+{"text": "SPB evlo paattu paadirukkaru?", "action": "web_search", "slots": {"query": "SPB evlo paattu paadirukkaru"}}
+{"text": "Wikipedia pe black hole ke baare mein search karo.", "action": "web_search", "slots": {"site": "Wikipedia", "query": "black hole"}}
+{"text": "Gopi Sundar aaranu?", "action": "web_search", "slots": {"query": "Gopi Sundar aaranu"}}
+{"text": "Hrithik Roshan ki pehli movie kaunsi thi?", "action": "web_search", "slots": {"query": "Hrithik Roshan ki pehli movie kaunsi thi"}}
+{"text": "Wikipedia la photosynthesis search pannunga.", "action": "web_search", "slots": {"site": "Wikipedia", "query": "photosynthesis"}}
+{"text": "ಪುನೀತ್ ರಾಜಕುಮಾರ್ ಬಗ್ಗೆ ಹೇಳು", "action": "web_search", "slots": {"query": "ಪುನೀತ್ ರಾಜಕುಮಾರ್"}}
+{"text": "Dark Side of the Moon album kab aaya tha?", "action": "web_search", "slots": {"query": "Dark Side of the Moon album kab aaya tha"}}
+{"text": "Darshan avara hosa film yavaga release?", "action": "web_search", "slots": {"query": "Darshan avara hosa film yavaga release"}}
+{"text": "Shape of You kab release hua tha?", "action": "web_search", "slots": {"query": "Shape of You kab release hua tha"}}
+{"text": "Flipkart il TV thirayu.", "action": "web_search", "slots": {"site": "Flipkart", "query": "TV"}}
+{"text": "Naukri pe Java developer jobs dhundho.", "action": "web_search", "slots": {"site": "Naukri", "query": "Java developer jobs"}}
+{"text": "Antibiotics kaise kaam karte hain?", "action": "web_search", "slots": {"query": "Antibiotics kaise kaam karte hain"}}
+{"text": "Explain quantum computing.", "action": "web_search", "slots": {"query": "quantum computing"}}
+{"text": "Ranbir Kapoor ke baare mein batao zara.", "action": "web_search", "slots": {"query": "Ranbir Kapoor"}}
+{"text": "Tum Hi Ho gaana kis film ka hai?", "action": "web_search", "slots": {"query": "Tum Hi Ho gaana kis film ka hai"}}
+{"text": "Apna Bana Le lyrics dikhao na.", "action": "web_search", "slots": {"query": "Apna Bana Le lyrics"}}
+{"text": "GitHub pe react projects dhundho.", "action": "web_search", "slots": {"site": "GitHub", "query": "react projects"}}
+{"text": "Stack Overflow pe null pointer exception search karo.", "action": "web_search", "slots": {"site": "Stack Overflow", "query": "null pointer exception"}}
+{"text": "Income tax return kaise file karte hain?", "action": "web_search", "slots": {"query": "Income tax return kaise file karte hain"}}
+{"text": "Diwali 2026 kab hai?", "action": "web_search", "slots": {"query": "Diwali 2026 kab hai"}}
+{"text": "YouTube il Malayalam news thirayu.", "action": "web_search", "slots": {"site": "YouTube", "query": "Malayalam news"}}
+{"text": "Mahatma Gandhi ka janm kab hua tha?", "action": "web_search", "slots": {"query": "Mahatma Gandhi ka janm kab hua tha"}}
+{"text": "అల్లు అర్జున్ గురించి చెప్పు", "action": "web_search", "slots": {"query": "అల్లు అర్జున్"}}
+{"text": "Yesudas avarude age ethra aanu?", "action": "web_search", "slots": {"query": "Yesudas avarude age ethra aanu"}}
+{"text": "Twitter pe cricket news search karo.", "action": "web_search", "slots": {"site": "Twitter", "query": "cricket news"}}
+{"text": "प्रकाश संश्लेषण क्या है समझाओ", "action": "web_search", "slots": {"query": "प्रकाश संश्लेषण क्या है"}}
+{"text": "SQL kya hai?", "action": "web_search", "slots": {"query": "SQL kya hai"}}
+{"text": "Quantum entanglement ko aasaan bhasha mein samjhao.", "action": "web_search", "slots": {"query": "Quantum entanglement"}}
+{"text": "Newton ke teen niyam samjhao.", "action": "web_search", "slots": {"query": "Newton ke teen niyam"}}
+{"text": "பிட்காயின் என்றால் என்ன?", "action": "web_search", "slots": {"query": "பிட்காயின் என்றால் என்ன"}}
+{"text": "eBay pe vintage camera dhundho.", "action": "web_search", "slots": {"site": "eBay", "query": "vintage camera"}}
+{"text": "Gulzar sahab ne kaun kaun se gaane likhe?", "action": "web_search", "slots": {"query": "Gulzar sahab ne kaun kaun se gaane likhe"}}
+{"text": "Bitcoin ka concept samjhao.", "action": "web_search", "slots": {"query": "Bitcoin ka concept"}}
+{"text": "Booking dot com pe Manali hotels dhundho.", "action": "web_search", "slots": {"site": "Booking dot com", "query": "Manali hotels"}}
+{"text": "Lucifer movie la villain evaru?", "action": "web_search", "slots": {"query": "Lucifer movie la villain evaru"}}
+{"text": "Explain the theory of relativity in simple words.", "action": "web_search", "slots": {"query": "the theory of relativity"}}
+{"text": "Creep song kis saal release hua tha?", "action": "web_search", "slots": {"query": "Creep song kis saal release hua tha"}}
+{"text": "99acres pe Pune mein 2BHK flat search karo.", "action": "web_search", "slots": {"site": "99acres", "query": "Pune mein 2BHK flat"}}
+{"text": "Tell me about Taylor Swift.", "action": "web_search", "slots": {"query": "Taylor Swift"}}
+{"text": "Gaana nahi chahiye, Kishore Kumar kab paida hue the ye batao.", "action": "web_search", "slots": {"query": "Kishore Kumar kab paida hue the"}}
+{"text": "When is the next Arijit Singh concert in Bangalore?", "action": "web_search", "slots": {"query": "When is the next Arijit Singh concert in Bangalore"}}
+{"text": "Why this Kolaveri di yaaru paadinaanga?", "action": "web_search", "slots": {"query": "Why this Kolaveri di yaaru paadinaanga"}}
+{"text": "Meditation kaise karte hain samjhao.", "action": "web_search", "slots": {"query": "Meditation kaise karte hain"}}
+{"text": "1 euro kitne rupaye ka hai?", "action": "web_search", "slots": {"query": "1 euro kitne rupaye ka hai"}}
+{"text": "GST enna nu explain pannu.", "action": "web_search", "slots": {"query": "GST enna"}}
+{"text": "Puneeth Rajkumar bagge helu.", "action": "web_search", "slots": {"query": "Puneeth Rajkumar"}}
+{"text": "Vijay Prakash yaava hadugalu haadiddare?", "action": "web_search", "slots": {"query": "Vijay Prakash yaava hadugalu haadiddare"}}
+{"text": "Excel la pivot table eppadi podanum?", "action": "web_search", "slots": {"query": "Excel la pivot table eppadi podanum"}}
+{"text": "আজ কলকাতার আবহাওয়া কেমন?", "action": "web_search", "slots": {"query": "আজ কলকাতার আবহাওয়া কেমন"}}
+{"text": "ഇന്നത്തെ വാർത്തകൾ എന്തൊക്കെ?", "action": "web_search", "slots": {"query": "ഇന്നത്തെ വാർത്തകൾ എന്തൊക്കെ"}}
+{"text": "What is the meaning of the song Hotel California?", "action": "web_search", "slots": {"query": "What is the meaning of the song Hotel California"}}
+{"text": "Chiranjeevi enni cinemalu chesaru?", "action": "web_search", "slots": {"query": "Chiranjeevi enni cinemalu chesaru"}}
+{"text": "DDLJ kitne saal theatre mein chali thi?", "action": "web_search", "slots": {"query": "DDLJ kitne saal theatre mein chali thi"}}
+{"text": "Raghu Dixit avara bagge mahiti kodi.", "action": "web_search", "slots": {"query": "Raghu Dixit"}}
+{"text": "Who played Thanos in Avengers?", "action": "web_search", "slots": {"query": "Who played Thanos in Avengers"}}
+{"text": "महंगाई क्या है समझाइए", "action": "web_search", "slots": {"query": "महंगाई क्या है"}}
+{"text": "Pather Panchali cinema ta kobe beriyechilo?", "action": "web_search", "slots": {"query": "Pather Panchali cinema ta kobe beriyechilo"}}
+{"text": "Zingaat gaana konacha aahe?", "action": "web_search", "slots": {"query": "Zingaat gaana konacha aahe"}}
+{"text": "Hyderabad lo temperature entha undi?", "action": "web_search", "slots": {"query": "Hyderabad lo temperature entha undi"}}
+{"text": "Swiggy pe biryani dhundho.", "action": "web_search", "slots": {"site": "Swiggy", "query": "biryani"}}
+{"text": "Zomato la pizza places search pannu.", "action": "web_search", "slots": {"site": "Zomato", "query": "pizza places"}}
+{"text": "आज दिल्ली का मौसम कैसा है?", "action": "web_search", "slots": {"query": "आज दिल्ली का मौसम कैसा है"}}
+{"text": "शाहरुख खान की पहली फिल्म कौन सी थी?", "action": "web_search", "slots": {"query": "शाहरुख खान की पहली फिल्म कौन सी थी"}}
+{"text": "Chicken biryani ki recipe batao.", "action": "web_search", "slots": {"query": "Chicken biryani ki recipe"}}
+{"text": "RRR ko Oscar kis gaane ke liye mila?", "action": "web_search", "slots": {"query": "RRR ko Oscar kis gaane ke liye mila"}}
+{"text": "Flipkart la phone search pannu.", "action": "web_search", "slots": {"site": "Flipkart", "query": "phone"}}
+{"text": "Paattu podatha, Anirudh yaaru nu sollu.", "action": "web_search", "slots": {"query": "Anirudh yaaru"}}
+{"text": "Chandrayaan 3 mission kya tha samjhao.", "action": "web_search", "slots": {"query": "Chandrayaan 3 mission kya tha"}}
+{"text": "Kaavaalaa song yaar paadunaanga?", "action": "web_search", "slots": {"query": "Kaavaalaa song yaar paadunaanga"}}
+{"text": "இளையராஜா பற்றி சொல்லு", "action": "web_search", "slots": {"query": "இளையராஜா"}}
+{"text": "777 Charlie yaava taraha cinema?", "action": "web_search", "slots": {"query": "777 Charlie yaava taraha cinema"}}
+{"text": "Mahesh Babu father evaru?", "action": "web_search", "slots": {"query": "Mahesh Babu father evaru"}}
+{"text": "YouTube pe Hindi mein Excel tutorial search karo.", "action": "web_search", "slots": {"site": "YouTube", "query": "Hindi mein Excel tutorial"}}
+{"text": "ఈ రోజు క్రికెట్ స్కోర్ ఎంత?", "action": "web_search", "slots": {"query": "ఈ రోజు క్రికెట్ స్కోర్ ఎంత"}}
+{"text": "Reddit pe best budget phones search karo.", "action": "web_search", "slots": {"site": "Reddit", "query": "best budget phones"}}
+{"text": "Mirzapur ke Kaleen Bhaiya ka asli naam kya hai?", "action": "web_search", "slots": {"query": "Mirzapur ke Kaleen Bhaiya ka asli naam kya hai"}}
+{"text": "Kun Faya Kun ka matlab kya hai?", "action": "web_search", "slots": {"query": "Kun Faya Kun ka matlab kya hai"}}
+{"text": "MS Subbulakshmi pathi theriyuma?", "action": "web_search", "slots": {"query": "MS Subbulakshmi pathi theriyuma"}}
+{"text": "IPL 2026 kisne jeeta?", "action": "web_search", "slots": {"query": "IPL 2026 kisne jeeta"}}
+{"text": "Tell me about the movie Interstellar.", "action": "web_search", "slots": {"query": "the movie Interstellar"}}
+{"text": "अमेज़न पर जूते ढूंढो", "action": "web_search", "slots": {"site": "अमेज़न", "query": "जूते"}}
+{"text": "India ka President kaun hai?", "action": "web_search", "slots": {"query": "India ka President kaun hai"}}
+{"text": "Beyonce ki umar kitni hai?", "action": "web_search", "slots": {"query": "Beyonce ki umar kitni hai"}}
+{"text": "Anirudh music panna padangal list sollu.", "action": "web_search", "slots": {"query": "Anirudh music panna padangal list"}}
+{"text": "What is the difference between RAM and ROM?", "action": "web_search", "slots": {"query": "What is the difference between RAM and ROM"}}
+{"text": "Ajay Atul he kon aahet?", "action": "web_search", "slots": {"query": "Ajay Atul he kon aahet"}}
+{"text": "Diwali kyun manate hain?", "action": "web_search", "slots": {"query": "Diwali kyun manate hain"}}
+{"text": "Who sang Kesariya?", "action": "web_search", "slots": {"query": "Who sang Kesariya"}}
+{"text": "Shreya Ghoshal kon jaygar meye?", "action": "web_search", "slots": {"query": "Shreya Ghoshal kon jaygar meye"}}
+{"text": "నాటు నాటు పాట ఎవరు పాడారు?", "action": "web_search", "slots": {"query": "నాటు నాటు పాట ఎవరు పాడారు"}}
+{"text": "Zepto la vegetables search pannu.", "action": "web_search", "slots": {"site": "Zepto", "query": "vegetables"}}
+{"text": "Chris Martin kitne saal ka hai?", "action": "web_search", "slots": {"query": "Chris Martin kitne saal ka hai"}}
+{"text": "Sonu Nigam kahan ka hai?", "action": "web_search", "slots": {"query": "Sonu Nigam kahan ka hai"}}
+{"text": "Ration card yojana enu antha vivarisi.", "action": "web_search", "slots": {"query": "Ration card yojana enu"}}
+{"text": "LinkedIn pe data analyst jobs dhoondo.", "action": "web_search", "slots": {"site": "LinkedIn", "query": "data analyst jobs"}}
+{"text": "Squid Game season 3 ki kahani kya hai?", "action": "web_search", "slots": {"query": "Squid Game season 3 ki kahani kya hai"}}
+{"text": "Sona aaj kitne ka chal raha hai?", "action": "web_search", "slots": {"query": "Sona aaj kitne ka chal raha hai"}}
+{"text": "Mujhe Atif Aslam ke baare mein jaanna hai.", "action": "web_search", "slots": {"query": "Atif Aslam"}}
+{"text": "ಕೆಜಿಎಫ್ ಸಿನಿಮಾ ಕಥೆ ಹೇಳು", "action": "web_search", "slots": {"query": "ಕೆಜಿಎಫ್ ಸಿನಿಮಾ ಕಥೆ"}}
+{"text": "Paneer butter masala kaise banate hain?", "action": "web_search", "slots": {"query": "Paneer butter masala kaise banate hain"}}
+{"text": "Prime Video pe Malayalam movies dhundho.", "action": "web_search", "slots": {"site": "Prime Video", "query": "Malayalam movies"}}
+{"text": "Explain what ChatGPT is.", "action": "web_search", "slots": {"query": "what ChatGPT is"}}
+{"text": "Interest rate badhne se kya hota hai?", "action": "web_search", "slots": {"query": "Interest rate badhne se kya hota hai"}}
+{"text": "Jubin Nautiyal kahan se hai?", "action": "web_search", "slots": {"query": "Jubin Nautiyal kahan se hai"}}
+{"text": "Kal Mumbai mein baarish hogi kya?", "action": "web_search", "slots": {"query": "Kal Mumbai mein baarish hogi kya"}}
+{"text": "Tata Motors ka share price batao.", "action": "web_search", "slots": {"query": "Tata Motors ka share price"}}
+{"text": "Rajkumar avara modala cinema yavudu?", "action": "web_search", "slots": {"query": "Rajkumar avara modala cinema yavudu"}}
+{"text": "Sudeep avara wife hesaru enu?", "action": "web_search", "slots": {"query": "Sudeep avara wife hesaru enu"}}
+{"text": "What is the meaning of API in software?", "action": "web_search", "slots": {"query": "What is the meaning of API in software"}}
+{"text": "সালোকসংশ্লেষণ কী?", "action": "web_search", "slots": {"query": "সালোকসংশ্লেষণ কী"}}
+{"text": "রবীন্দ্রনাথ ঠাকুর নোবেল পুরস্কার কবে পান?", "action": "web_search", "slots": {"query": "রবীন্দ্রনাথ ঠাকুর নোবেল পুরস্কার কবে পান"}}
+{"text": "Cold play ka concert India mein kab hai?", "action": "web_search", "slots": {"query": "Cold play ka concert India mein kab hai"}}
+{"text": "Snapdeal par shoes khojo.", "action": "web_search", "slots": {"site": "Snapdeal", "query": "shoes"}}
+{"text": "అమెజాన్ లో షూస్ వెతుకు", "action": "web_search", "slots": {"site": "అమెజాన్", "query": "షూస్"}}
+{"text": "Mysore Dasara ki date kya hai?", "action": "web_search", "slots": {"query": "Mysore Dasara ki date kya hai"}}
+{"text": "Rajinikanth ku evlo vayasu?", "action": "web_search", "slots": {"query": "Rajinikanth ku evlo vayasu"}}
+{"text": "IMDb pe Inception ki rating dekho.", "action": "web_search", "slots": {"site": "IMDb", "query": "Inception ki rating"}}
+{"text": "Decathlon pe cycle search karo.", "action": "web_search", "slots": {"site": "Decathlon", "query": "cycle"}}
+{"text": "Aaj Delhi ka mausam kaisa hai?", "action": "web_search", "slots": {"query": "Aaj Delhi ka mausam kaisa hai"}}
+{"text": "ब्लैक होल क्या होता है समझाओ", "action": "web_search", "slots": {"query": "ब्लैक होल क्या होता है"}}
+{"text": "Tata Cliq pe AC dhundho.", "action": "web_search", "slots": {"site": "Tata Cliq", "query": "AC"}}
+{"text": "Ponniyin Selvan kathai enna?", "action": "web_search", "slots": {"query": "Ponniyin Selvan kathai enna"}}
+{"text": "Prabhas age entha?", "action": "web_search", "slots": {"query": "Prabhas age entha"}}
+{"text": "Kerala lottery result inniyathe enthaanu?", "action": "web_search", "slots": {"query": "Kerala lottery result inniyathe enthaanu"}}
+{"text": "Amazon lo smart watch vetukandi.", "action": "web_search", "slots": {"site": "Amazon", "query": "smart watch"}}
+{"text": "Sunidhi Chauhan ne Indian Idol judge kiya tha kya?", "action": "web_search", "slots": {"query": "Sunidhi Chauhan ne Indian Idol judge kiya tha kya"}}
+{"text": "ಮಳೆ ಹೇಗೆ ಬರುತ್ತೆ?", "action": "web_search", "slots": {"query": "ಮಳೆ ಹೇಗೆ ಬರುತ್ತೆ"}}
+{"text": "GV Prakash Kumar actor ah music director ah?", "action": "web_search", "slots": {"query": "GV Prakash Kumar actor ah music director ah"}}
+{"text": "Bihar election mein kaun jeeta?", "action": "web_search", "slots": {"query": "Bihar election mein kaun jeeta"}}
+{"text": "Search what's app web features on Google.", "action": "web_search", "slots": {"site": "Google", "query": "what's app web features"}}
+{"text": "Kalki 2898 AD mein kaun kaun actors hain?", "action": "web_search", "slots": {"query": "Kalki 2898 AD mein kaun kaun actors hain"}}
+{"text": "Large language model kya hota hai?", "action": "web_search", "slots": {"query": "Large language model kya hota hai"}}
+{"text": "Myntra pe kurta search karo.", "action": "web_search", "slots": {"site": "Myntra", "query": "kurta"}}
+{"text": "ಜಿಎಸ್ಟಿ ಅಂದರೆ ಏನು?", "action": "web_search", "slots": {"query": "ಜಿಎಸ್ಟಿ ಅಂದರೆ ಏನು"}}
+{"text": "LinkedIn la Chennai software engineer jobs thedu.", "action": "web_search", "slots": {"site": "LinkedIn", "query": "Chennai software engineer jobs"}}
+{"text": "Ohm's law enna?", "action": "web_search", "slots": {"query": "Ohm's law enna"}}
+{"text": "Drishyam original version ethu bhashayil aanu?", "action": "web_search", "slots": {"query": "Drishyam original version ethu bhashayil aanu"}}
+{"text": "Machine learning kya hota hai samjhao.", "action": "web_search", "slots": {"query": "Machine learning kya hota hai"}}
+{"text": "Sairat movie chi kahani sang.", "action": "web_search", "slots": {"query": "Sairat movie chi kahani"}}
+{"text": "Gravity kaise kaam karti hai simple mein batao.", "action": "web_search", "slots": {"query": "Gravity kaise kaam karti hai"}}
+{"text": "Cell division samjhao.", "action": "web_search", "slots": {"query": "Cell division"}}
+{"text": "Bitcoin ki price kitni hai abhi?", "action": "web_search", "slots": {"query": "Bitcoin ki price kitni hai abhi"}}
+{"text": "Indeed pe remote jobs search karo.", "action": "web_search", "slots": {"site": "Indeed", "query": "remote jobs"}}
+{"text": "Meesho pe cotton saree search karo.", "action": "web_search", "slots": {"site": "Meesho", "query": "cotton saree"}}
+{"text": "Electric car ki battery kaise kaam karti hai?", "action": "web_search", "slots": {"query": "Electric car ki battery kaise kaam karti hai"}}
+{"text": "Sachin Tendulkar ne kitne run banaye?", "action": "web_search", "slots": {"query": "Sachin Tendulkar ne kitne run banaye"}}
+{"text": "Search YouTube for Coldplay live concert.", "action": "web_search", "slots": {"site": "YouTube", "query": "Coldplay live concert"}}
+{"text": "Malare song aaru ezhuthi?", "action": "web_search", "slots": {"query": "Malare song aaru ezhuthi"}}
+{"text": "Rabindranath Tagore er somporke bolo.", "action": "web_search", "slots": {"query": "Rabindranath Tagore"}}
+{"text": "Who directed Inception?", "action": "web_search", "slots": {"query": "Who directed Inception"}}
+{"text": "Radiohead ka sabse famous album kaunsa hai?", "action": "web_search", "slots": {"query": "Radiohead ka sabse famous album kaunsa hai"}}
+{"text": "Who won the last FIFA World Cup?", "action": "web_search", "slots": {"query": "Who won the last FIFA World Cup"}}
+{"text": "Dangal ne China mein kitna kamaya?", "action": "web_search", "slots": {"query": "Dangal ne China mein kitna kamaya"}}
+{"text": "Pink Floyd ke members kaun the?", "action": "web_search", "slots": {"query": "Pink Floyd ke members kaun the"}}
+{"text": "Natsamrat cinema kashavar aadharit aahe?", "action": "web_search", "slots": {"query": "Natsamrat cinema kashavar aadharit aahe"}}
+{"text": "Durga Puja keno palon kora hoy?", "action": "web_search", "slots": {"query": "Durga Puja keno palon kora hoy"}}
+{"text": "Ilaiyaraaja ethana padathukku music potrukkaru?", "action": "web_search", "slots": {"query": "Ilaiyaraaja ethana padathukku music potrukkaru"}}
+{"text": "Can you tell me who Prateek Kuhad is?", "action": "web_search", "slots": {"query": "who Prateek Kuhad is"}}
+{"text": "Hello, what's the weather like in Shimla this weekend?", "action": "web_search", "slots": {"query": "what's the weather like in Shimla this weekend"}}
+{"text": "Diabetes kyun hota hai?", "action": "web_search", "slots": {"query": "Diabetes kyun hota hai"}}
+{"text": "Radio head ka lead singer kaun hai?", "action": "web_search", "slots": {"query": "Radio head ka lead singer kaun hai"}}
+{"text": "Shah Rukh Khan ki net worth kitni hai?", "action": "web_search", "slots": {"query": "Shah Rukh Khan ki net worth kitni hai"}}
+{"text": "ಉಪೇಂದ್ರ ಅವರ ಹೊಸ ಸಿನಿಮಾ ಯಾವುದು?", "action": "web_search", "slots": {"query": "ಉಪೇಂದ್ರ ಅವರ ಹೊಸ ಸಿನಿಮಾ ಯಾವುದು"}}
+{"text": "Amitabh Bachchan ka janamdin kab hai?", "action": "web_search", "slots": {"query": "Amitabh Bachchan ka janamdin kab hai"}}
+{"text": "Tirupati darshan timings enti?", "action": "web_search", "slots": {"query": "Tirupati darshan timings enti"}}

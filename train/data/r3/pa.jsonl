@@ -1,0 +1,420 @@
+{"text": "ਕਰੋਮ ਖੋਲ੍ਹੋ ਤੇ ਬੰਗਲੌਰ ਦਾ ਮੌਸਮ ਖੋਜੋ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ਕਰੋਮ"}}, {"action": "web_search", "slots": {"query": "ਬੰਗਲੌਰ ਦਾ ਮੌਸਮ"}}], "joiners": ["ਤੇ"]}
+{"text": "chrome khol ke ajj da mausam dasso", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "ajj da mausam"}}], "joiners": ["khol ke"]}
+{"text": "Firefox Kholo Ate Ludhiana Ton Amritsar Da Distance Labbo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Firefox"}}, {"action": "web_search", "slots": {"query": "Ludhiana Ton Amritsar Da Distance"}}], "joiners": ["Ate"]}
+{"text": "achha open chrome and search punjab election results", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "punjab election results"}}], "joiners": ["and"]}
+{"text": "edge khol ke cricket score google karo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "cricket score"}}], "joiners": ["khol ke"]}
+{"text": "brave kholo fer iphone 15 di keemat dasso", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "brave"}}, {"action": "web_search", "slots": {"query": "iphone 15 di keemat"}}], "joiners": ["fer"]}
+{"text": "chrome kholdo uske baad diljit dosanjh kaun hai", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "diljit dosanjh kaun hai"}}], "joiners": ["uske baad"]}
+{"text": "browser kholo te fer petrol da rate search karo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "browser"}}, {"action": "web_search", "slots": {"query": "petrol da rate"}}], "joiners": ["te fer"]}
+{"text": "mozilla kholo tey kanak di msp dhoondo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "mozilla"}}, {"action": "web_search", "slots": {"query": "kanak di msp"}}], "joiners": ["tey"]}
+{"text": "chrome open karke weather in chandigarh dasso", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "weather in chandigarh"}}], "joiners": ["karke"]}
+{"text": "hmm chrome khol ke amazon te headphones labbo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "headphones", "site": "amazon"}}], "joiners": ["khol ke"]}
+{"text": "achha edge kholo ton baad laembadgini de lyrics search karo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "laembadgini de lyrics"}}], "joiners": ["ton baad"]}
+{"text": "ਕਰੋਮ ਖੋਲ੍ਹ ਕੇ ਲੁਧਿਆਣਾ ਦਾ ਮੌਸਮ ਦੱਸੋ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ਕਰੋਮ"}}, {"action": "web_search", "slots": {"query": "ਲੁਧਿਆਣਾ ਦਾ ਮੌਸਮ"}}], "joiners": ["ਖੋਲ੍ਹ ਕੇ"]}
+{"text": "CHROME KHOLO AND PUNJAB KINGS DA MATCH KAD HAI SEARCH KARO", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "CHROME"}}, {"action": "web_search", "slots": {"query": "PUNJAB KINGS DA MATCH KAD HAI"}}], "joiners": ["AND"]}
+{"text": "opera kholo tan baad bhakra dam kithe hai", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "opera"}}, {"action": "web_search", "slots": {"query": "bhakra dam kithe hai"}}], "joiners": ["tan baad"]}
+{"text": "Chrome Khol De Te Sarson Da Saag Kive Banda Hai Labbo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "web_search", "slots": {"query": "Sarson Da Saag Kive Banda Hai"}}], "joiners": ["Te"]}
+{"text": "ਨੋਟਪੈਡ ਖੋਲ੍ਹੋ ਤੇ ਲਿਖੋ ਅੱਜ ਦਾ ਕੰਮ ਖ਼ਤਮ ਹੋ ਗਿਆ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ਨੋਟਪੈਡ"}}, {"action": "type_text", "slots": {"text": "ਅੱਜ ਦਾ ਕੰਮ ਖ਼ਤਮ ਹੋ ਗਿਆ"}}], "joiners": ["ਤੇ"]}
+{"text": "word khol ke type karo dear sir main chutti lena chahunda haan", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "word"}}, {"action": "type_text", "slots": {"text": "dear sir main chutti lena chahunda haan"}}], "joiners": ["khol ke"]}
+{"text": "notepad khol ke likho grocery list atta daal chawal", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "grocery list atta daal chawal"}}], "joiners": ["khol ke"]}
+{"text": "Open Notepad Then Type Hello Everyone Welcome", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Notepad"}}, {"action": "type_text", "slots": {"text": "Hello Everyone Welcome"}}], "joiners": ["Then"]}
+{"text": "wordpad kholo ate likho meri assignment kal jama karni hai", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "wordpad"}}, {"action": "type_text", "slots": {"text": "meri assignment kal jama karni hai"}}], "joiners": ["ate"]}
+{"text": "notepad chalao fer type karo happy lohri to all", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "happy lohri to all"}}], "joiners": ["fer"]}
+{"text": "ms word kholo uske baad likho dear principal sahib", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ms word"}}, {"action": "type_text", "slots": {"text": "dear principal sahib"}}], "joiners": ["uske baad"]}
+{"text": "notepad kholke likho tusi kithe ho", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "tusi kithe ho"}}], "joiners": ["kholke"]}
+{"text": "onenote khol ke note karo kal doctor kol jaana hai", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "onenote"}}, {"action": "type_text", "slots": {"text": "kal doctor kol jaana hai"}}], "joiners": ["khol ke"]}
+{"text": "ਨੋਟਪੈਡ ਖੋਲ੍ਹੋ ਤੇ ਲਿਖੋ ਅੱਜ ਮੀਟਿੰਗ ਹੈ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ਨੋਟਪੈਡ"}}, {"action": "type_text", "slots": {"text": "ਅੱਜ ਮੀਟਿੰਗ ਹੈ"}}], "joiners": ["ਤੇ"]}
+{"text": "notepad kholo ton baad likho shopping list doodh bread ande", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "shopping list doodh bread ande"}}], "joiners": ["ton baad"]}
+{"text": "ਵਰਡ ਖੋਲ੍ਹੋ ਤੇ ਲਿਖੋ ਧੰਨਵਾਦ ਜੀ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ਵਰਡ"}}, {"action": "type_text", "slots": {"text": "ਧੰਨਵਾਦ ਜੀ"}}], "joiners": ["ਤੇ"]}
+{"text": "vs code kholo ate type karo print hello world", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "vs code"}}, {"action": "type_text", "slots": {"text": "print hello world"}}], "joiners": ["ate"]}
+{"text": "excel khol ke type karo total sales", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "excel"}}, {"action": "type_text", "slots": {"text": "total sales"}}], "joiners": ["khol ke"]}
+{"text": "youtube khol ke arijit de gaane chalao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "arijit"}}], "joiners": ["khol ke"]}
+{"text": "ਸਪੌਟੀਫਾਈ ਖੋਲ੍ਹੋ ਤੇ ਦਿਲਜੀਤ ਚਲਾਓ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ਸਪੌਟੀਫਾਈ"}}, {"action": "play_media", "slots": {"query": "ਦਿਲਜੀਤ"}}], "joiners": ["ਤੇ"]}
+{"text": "spotify khol ke old punjabi songs chala do", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "old punjabi songs"}}], "joiners": ["khol ke"]}
+{"text": "youtube kholo fer ap dhillon de gaane chalao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "ap dhillon"}}], "joiners": ["fer"]}
+{"text": "yaar jiosaavn kholo uske baad punjabi hits lagao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "jiosaavn"}}, {"action": "play_media", "slots": {"query": "punjabi hits"}}], "joiners": ["uske baad"]}
+{"text": "ਯੂਟਿਊਬ ਖੋਲ੍ਹੋ ਤੇ ਭੰਗੜਾ ਮਿਕਸ ਚਲਾਓ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ਯੂਟਿਊਬ"}}, {"action": "play_media", "slots": {"query": "ਭੰਗੜਾ ਮਿਕਸ"}}], "joiners": ["ਤੇ"]}
+{"text": "Wynk Kholo Ate Karan Aujla De Gaane Chalao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Wynk"}}, {"action": "play_media", "slots": {"query": "Karan Aujla"}}], "joiners": ["Ate"]}
+{"text": "youtube chalu karke babbu maan de gaane chalao na", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "babbu maan"}}], "joiners": ["karke"]}
+{"text": "spotify khol ke lo-fi music chalao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "lo-fi music"}}], "joiners": ["khol ke"]}
+{"text": "open youtube and play diljit dosanjh songs", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "diljit dosanjh"}}], "joiners": ["and"]}
+{"text": "hmm apple music kholo fer amrinder gill chalao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "apple music"}}, {"action": "play_media", "slots": {"query": "amrinder gill"}}], "joiners": ["fer"]}
+{"text": "ਯੂਟਿਊਬ ਖੋਲ੍ਹੋ ਤੇ ਸਿੱਧੂ ਮੂਸੇਵਾਲਾ ਦੇ ਗਾਣੇ ਚਲਾਓ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ਯੂਟਿਊਬ"}}, {"action": "play_media", "slots": {"query": "ਸਿੱਧੂ ਮੂਸੇਵਾਲਾ"}}], "joiners": ["ਤੇ"]}
+{"text": "ਸਪੌਟੀਫਾਈ ਖੋਲ੍ਹ ਕੇ ਪੰਜਾਬੀ ਗਾਣੇ ਚਲਾਓ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ਸਪੌਟੀਫਾਈ"}}, {"action": "play_media", "slots": {"query": "ਪੰਜਾਬੀ ਗਾਣੇ"}}], "joiners": ["ਖੋਲ੍ਹ ਕੇ"]}
+{"text": "youtube kholo then play bhajans", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "bhajans"}}], "joiners": ["then"]}
+{"text": "Youtube Music Khol Ke Gurdas Maan Chalao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Youtube Music"}}, {"action": "play_media", "slots": {"query": "Gurdas Maan"}}], "joiners": ["Khol Ke"]}
+{"text": "Spotify Kholo Te Gaana Chalao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Spotify"}}, {"action": "play_media", "slots": {}}], "joiners": ["Te"]}
+{"text": "amazon music chalu karo fer kuldeep manak de gaane laao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "amazon music"}}, {"action": "play_media", "slots": {"query": "kuldeep manak"}}], "joiners": ["fer"]}
+{"text": "gaana rok do te chrome kholo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "chrome"}}], "joiners": ["te"]}
+{"text": "ਪਾਜ਼ ਕਰੋ ਫਿਰ ਵਟਸਐਪ ਖੋਲ੍ਹੋ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "ਵਟਸਐਪ"}}], "joiners": ["ਫਿਰ"]}
+{"text": "ਆਵਾਜ਼ ਘਟਾਓ ਅਤੇ ਯੂਟਿਊਬ ਖੋਲ੍ਹੋ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "open_app", "slots": {"app": "ਯੂਟਿਊਬ"}}], "joiners": ["ਅਤੇ"]}
+{"text": "gaana band karo uske baad notepad kholo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "notepad"}}], "joiners": ["uske baad"]}
+{"text": "listen mute karo and open calculator", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "open_app", "slots": {"app": "calculator"}}], "joiners": ["and"]}
+{"text": "agla gaana chalao fer volume vadha do", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "next"}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["fer"]}
+{"text": "music rok ke chrome kholo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "chrome"}}], "joiners": ["ke"]}
+{"text": "uh volume ghatao te agla gaana", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "media_control", "slots": {}, "control": "next"}], "joiners": ["te"]}
+{"text": "pichla gaana lagao te awaaz vadhao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "previous"}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["te"]}
+{"text": "Sound Mute Karke Notepad Kholo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "open_app", "slots": {"app": "Notepad"}}], "joiners": ["Karke"]}
+{"text": "ਗਾਣਾ ਰੋਕੋ ਤੇ ਕਰੋਮ ਖੋਲ੍ਹੋ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "ਕਰੋਮ"}}], "joiners": ["ਤੇ"]}
+{"text": "gaana pause karo ton baad zoom kholo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "zoom"}}], "joiners": ["ton baad"]}
+{"text": "Music Dobara Chalao Ate Awaaz Thodi Vadhao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "resume"}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["Ate"]}
+{"text": "Mummy Nu Message Karo Ki Main Late Aaunga, Uske Baad Chrome Kholo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Mummy", "text": "Main Late Aaunga"}}, {"action": "open_app", "slots": {"app": "Chrome"}}], "joiners": ["Uske Baad"]}
+{"text": "veer nu whatsapp karo ki kal milde haan, fer youtube kholo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "veer", "text": "kal milde haan"}}, {"action": "open_app", "slots": {"app": "youtube"}}], "joiners": ["fer"]}
+{"text": "ਪਾਪਾ ਨੂੰ ਬੋਲੋ ਕਿ ਮੈਂ ਪਹੁੰਚ ਗਿਆ ਫਿਰ ਸਪੌਟੀਫਾਈ ਖੋਲ੍ਹੋ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "ਪਾਪਾ", "text": "ਮੈਂ ਪਹੁੰਚ ਗਿਆ"}}, {"action": "open_app", "slots": {"app": "ਸਪੌਟੀਫਾਈ"}}], "joiners": ["ਫਿਰ"]}
+{"text": "gurpreet nu message kar ki meeting 5 vaje hai ate notepad kholo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "gurpreet", "text": "meeting 5 vaje hai"}}, {"action": "open_app", "slots": {"app": "notepad"}}], "joiners": ["ate"]}
+{"text": "pehlan chrome kholo fer harman nu message kar ki aaja", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "send_message", "slots": {"contact": "harman", "text": "aaja"}}], "joiners": ["fer"]}
+{"text": "chrome khol ke simran nu likho ki ghar aa jao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "send_message", "slots": {"contact": "simran", "text": "ghar aa jao"}}], "joiners": ["khol ke"]}
+{"text": "bhaji nu whatsapp message bhejo ki paise bhej diye ne, ate youtube kholo yaar", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "bhaji", "text": "paise bhej diye ne"}}, {"action": "open_app", "slots": {"app": "youtube"}}], "joiners": ["ate"]}
+{"text": "teacher nu message karo ki main kal nahi aa sakda then open notepad", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "teacher", "text": "main kal nahi aa sakda"}}, {"action": "open_app", "slots": {"app": "notepad"}}], "joiners": ["then"]}
+{"text": "ਮੰਮੀ ਨੂੰ ਮੈਸੇਜ ਕਰੋ ਕਿ ਮੈਂ ਲੇਟ ਆਵਾਂਗਾ ਤੇ ਕਰੋਮ ਖੋਲ੍ਹੋ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "ਮੰਮੀ", "text": "ਮੈਂ ਲੇਟ ਆਵਾਂਗਾ"}}, {"action": "open_app", "slots": {"app": "ਕਰੋਮ"}}], "joiners": ["ਤੇ"]}
+{"text": "gaana rok do ate jassi nu bolo ki main call karunga", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "send_message", "slots": {"contact": "jassi", "text": "main call karunga"}}], "joiners": ["ate"]}
+{"text": "whatsapp kholo fer bebe nu message karo ki roti kha layi", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "bebe", "text": "roti kha layi"}}], "joiners": ["fer"]}
+{"text": "bibi nu bolo ki main aa riha haan te spotify te lofi chalao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "bibi", "text": "main aa riha haan"}}, {"action": "play_media", "slots": {"app": "spotify", "query": "lofi"}}], "joiners": ["te"]}
+{"text": "chrome kholo te new tab dabao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "click", "slots": {"target": "new tab"}}], "joiners": ["te"]}
+{"text": "zoom khol ke join button dabao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "zoom"}}, {"action": "click", "slots": {"target": "join"}}], "joiners": ["khol ke"]}
+{"text": "uh whatsapp kholo fer search te click karo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "click", "slots": {"target": "search"}}], "joiners": ["fer"]}
+{"text": "teams kholo uske baad mute te click karo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "teams"}}, {"action": "click", "slots": {"target": "mute"}}], "joiners": ["uske baad"]}
+{"text": "chrome kholo ate downloads te click karo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "click", "slots": {"target": "downloads"}}], "joiners": ["ate"]}
+{"text": "spotify khol ke play button dabao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "click", "slots": {"target": "play"}}], "joiners": ["khol ke"]}
+{"text": "open outlook and click new mail", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "outlook"}}, {"action": "click", "slots": {"target": "new mail"}}], "joiners": ["and"]}
+{"text": "word khol ke save te click karo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "word"}}, {"action": "click", "slots": {"target": "save"}}], "joiners": ["khol ke"]}
+{"text": "ਜ਼ੂਮ ਖੋਲ੍ਹੋ ਤੇ ਜੁਆਇਨ ਬਟਨ ਦਬਾਓ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ਜ਼ੂਮ"}}, {"action": "click", "slots": {"target": "ਜੁਆਇਨ"}}], "joiners": ["ਤੇ"]}
+{"text": "chrome kholo te screen te ki likhya hai padho", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "read_screen", "slots": {}}], "joiners": ["te"]}
+{"text": "mail khol ke dasso ki ki aaya hai", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "mail"}}, {"action": "read_screen", "slots": {}}], "joiners": ["khol ke"]}
+{"text": "outlook kholo fer padh ke sunao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "outlook"}}, {"action": "read_screen", "slots": {}}], "joiners": ["fer"]}
+{"text": "ਵਟਸਐਪ ਖੋਲ੍ਹੋ ਅਤੇ ਸਕਰੀਨ ਪੜ੍ਹੋ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ਵਟਸਐਪ"}}, {"action": "read_screen", "slots": {}}], "joiners": ["ਅਤੇ"]}
+{"text": "ਐਮਾਜ਼ਾਨ ਦੀ ਵੈੱਬਸਾਈਟ ਖੋਲ੍ਹੋ ਤੇ ਮੋਬਾਈਲ ਕਵਰ ਲੱਭੋ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "ਐਮਾਜ਼ਾਨ"}}, {"action": "web_search", "slots": {"query": "ਮੋਬਾਈਲ ਕਵਰ"}}], "joiners": ["ਤੇ"]}
+{"text": "flipkart website kholo fer shoes dhundo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "flipkart"}}, {"action": "web_search", "slots": {"query": "shoes"}}], "joiners": ["fer"]}
+{"text": "Youtube.com Kholo Te Cooking Videos Search Karo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "Youtube.com"}}, {"action": "web_search", "slots": {"query": "Cooking Videos"}}], "joiners": ["Te"]}
+{"text": "open github dot com and search react tutorial", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "github dot com"}}, {"action": "web_search", "slots": {"query": "react tutorial"}}], "joiners": ["and"]}
+{"text": "irctc di site kholo fer train status dekho", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "irctc"}}, {"action": "web_search", "slots": {"query": "train status"}}], "joiners": ["fer"]}
+{"text": "wikipedia khol ke bhagat singh baare dasso", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "wikipedia"}}, {"action": "web_search", "slots": {"query": "bhagat singh"}}], "joiners": ["khol ke"]}
+{"text": "tribune india di website kholo ate ajj di khabar dasso", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "tribune india"}}, {"action": "web_search", "slots": {"query": "ajj di khabar"}}], "joiners": ["ate"]}
+{"text": "ਗੂਗਲ ਦੀ ਵੈੱਬਸਾਈਟ ਖੋਲ੍ਹੋ ਤੇ ਪੰਜਾਬ ਦੀ ਖ਼ਬਰ ਖੋਜੋ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "ਗੂਗਲ"}}, {"action": "web_search", "slots": {"query": "ਪੰਜਾਬ ਦੀ ਖ਼ਬਰ"}}], "joiners": ["ਤੇ"]}
+{"text": "naukri dot com kholo ton baad software jobs in mohali search karo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "naukri dot com"}}, {"action": "web_search", "slots": {"query": "software jobs in mohali"}}], "joiners": ["ton baad"]}
+{"text": "makemytrip di site kholo te goa flights labbo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "makemytrip"}}, {"action": "web_search", "slots": {"query": "goa flights"}}], "joiners": ["te"]}
+{"text": "Swiggy Kholo Website Fer Biryani Dhundo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "Swiggy"}}, {"action": "web_search", "slots": {"query": "Biryani"}}], "joiners": ["Fer"]}
+{"text": "bhangra da history search karo te bhangra chalao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "bhangra da history"}}, {"action": "play_media", "slots": {"query": "bhangra"}}], "joiners": ["te"]}
+{"text": "ਮੌਸਮ ਦੱਸੋ ਫਿਰ ਗਾਣਾ ਚਲਾਓ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "ਮੌਸਮ"}}, {"action": "play_media", "slots": {}}], "joiners": ["ਫਿਰ"]}
+{"text": "sidhu moose wala kaun hai dasso te unhan de gaane chalao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "sidhu moose wala kaun hai"}}, {"action": "play_media", "slots": {}}], "joiners": ["te"]}
+{"text": "pehlan weather dekho fer youtube te lofi chalao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "weather"}}, {"action": "play_media", "slots": {"app": "youtube", "query": "lofi"}}], "joiners": ["fer"]}
+{"text": "news search karo te agla gaana", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "news"}}, {"action": "media_control", "slots": {}, "control": "next"}], "joiners": ["te"]}
+{"text": "pause karo te karan aujla kaun hai search karo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "web_search", "slots": {"query": "karan aujla kaun hai"}}], "joiners": ["te"]}
+{"text": "ਆਵਾਜ਼ ਵਧਾਓ ਤੇ ਮੌਸਮ ਦੱਸੋ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_up"}, {"action": "web_search", "slots": {"query": "ਮੌਸਮ"}}], "joiners": ["ਤੇ"]}
+{"text": "type karo happy birthday ate send te click karo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "happy birthday"}}, {"action": "click", "slots": {"target": "send"}}], "joiners": ["ate"]}
+{"text": "likho main thik haan ate send button dabao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "main thik haan"}}, {"action": "click", "slots": {"target": "send"}}], "joiners": ["ate"]}
+{"text": "username box te click karo te likho gurpreet123", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "username box"}}, {"action": "type_text", "slots": {"text": "gurpreet123"}}], "joiners": ["te"]}
+{"text": "hmm screen padho te fer next te click karo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "click", "slots": {"target": "next"}}], "joiners": ["te fer"]}
+{"text": "gaana chalao fer awaaz ghatao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {}}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["fer"]}
+{"text": "youtube te arijit chalao fer agla gaana", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"app": "youtube", "query": "arijit"}}, {"action": "media_control", "slots": {}, "control": "next"}], "joiners": ["fer"]}
+{"text": "open settings and click bluetooth", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "settings"}}, {"action": "click", "slots": {"target": "bluetooth"}}], "joiners": ["and"]}
+{"text": "youtube te sidhu moose wala chalao te volume vadha do", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"app": "youtube", "query": "sidhu moose wala"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["te"]}
+{"text": "pehlan screen padho ate fir mummy nu message karo ki main aa gaya", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "send_message", "slots": {"contact": "mummy", "text": "main aa gaya"}}], "joiners": ["ate fir"]}
+{"text": "gurdas maan de gaane chalao ate fer awaaz ghatao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "gurdas maan"}}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["ate fer"]}
+{"text": "ਗਾਣਾ ਰੋਕੋ ਅਤੇ ਫਿਰ ਮੌਸਮ ਦੱਸੋ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "web_search", "slots": {"query": "ਮੌਸਮ"}}], "joiners": ["ਅਤੇ ਫਿਰ"]}
+{"text": "open spotify and play jazzy b", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "jazzy b"}}], "joiners": ["and"]}
+{"text": "telegram kholo te jaspreet nu likho ki kithe ho", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "telegram"}}, {"action": "send_message", "slots": {"contact": "jaspreet", "text": "kithe ho"}}], "joiners": ["te"]}
+{"text": "oye chrome khol ke gurbani chalao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "play_media", "slots": {"query": "gurbani"}}], "joiners": ["khol ke"]}
+{"text": "Calculator Kholo Te Fer Excel Kholo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Calculator"}}, {"action": "open_app", "slots": {"app": "Excel"}}], "joiners": ["Te Fer"]}
+{"text": "vlc kholo ate paint kholo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "vlc"}}, {"action": "open_app", "slots": {"app": "paint"}}], "joiners": ["ate"]}
+{"text": "listen camera chalu karo then open photos", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "camera"}}, {"action": "open_app", "slots": {"app": "photos"}}], "joiners": ["then"]}
+{"text": "youtube kholo ton baad gaana band karo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "media_control", "slots": {}, "control": "pause"}], "joiners": ["ton baad"]}
+{"text": "file explorer khol ke downloads te click karo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "file explorer"}}, {"action": "click", "slots": {"target": "downloads"}}], "joiners": ["khol ke"]}
+{"text": "Chrome kholo naal hi ajj da rashifal search karo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "web_search", "slots": {"query": "ajj da rashifal"}}], "joiners": ["naal hi"]}
+{"text": "Ummm Youtube Khol Ke Uh Sidhu Moose Wala Da So High Chala Do", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Youtube"}}, {"action": "play_media", "slots": {"query": "Sidhu Moose Wala Da So High"}}], "joiners": ["Khol Ke"]}
+{"text": "notepad kholo hun likho kal subah 6 vaje uthna hai", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "kal subah 6 vaje uthna hai"}}], "joiners": ["hun"]}
+{"text": "spotify chalu kar fer jazzy b de gaane laga de", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "jazzy b"}}], "joiners": ["fer"]}
+{"text": "opn chrome te fer search kar gippy grewal kaun hai", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "gippy grewal kaun hai"}}], "joiners": ["te fer"]}
+{"text": "gaana rok do us ton baad calculator chalao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "calculator"}}], "joiners": ["us ton baad"]}
+{"text": "uh whatsapp khol ke harpreet nu msg kar ki main 5 minute vich aa riha haan", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "harpreet", "text": "main 5 minute vich aa riha haan"}}], "joiners": ["khol ke"]}
+{"text": "youtube kholo te surinder kaur de purane gaane chalao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "surinder kaur"}}], "joiners": ["te"]}
+{"text": "Agla Gaana Ate Fer Awaaz Ghatao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "next"}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["Ate Fer"]}
+{"text": "zoom kholo uh join te click karo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "zoom"}}, {"action": "click", "slots": {"target": "join"}}], "joiners": ["uh"]}
+{"text": "chrome kholo fer chandigarh vich pizza hut labbo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "chandigarh vich pizza hut"}}], "joiners": ["fer"]}
+{"text": "notepad open kar ke likh do aaj tareekh 12 hai", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "aaj tareekh 12 hai"}}], "joiners": ["kar ke"]}
+{"text": "ਸਪੌਟੀਫਾਈ ਖੋਲ੍ਹੋ ਅਤੇ ਦਿਲਜੀਤ ਦੋਸਾਂਝ ਚਲਾਓ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ਸਪੌਟੀਫਾਈ"}}, {"action": "play_media", "slots": {"query": "ਦਿਲਜੀਤ ਦੋਸਾਂਝ"}}], "joiners": ["ਅਤੇ"]}
+{"text": "ਕਰੋਮ ਖੋਲ੍ਹੋ ਫਿਰ ਮੌਸਮ ਖੋਜੋ ਅਤੇ ਨੋਟਪੈਡ ਵਿੱਚ ਲਿਖੋ ਠੰਡ ਹੈ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ਕਰੋਮ"}}, {"action": "web_search", "slots": {"query": "ਮੌਸਮ"}}, {"action": "type_text", "slots": {"text": "ਠੰਡ ਹੈ"}}], "joiners": ["ਫਿਰ", "ਅਤੇ"]}
+{"text": "youtube khol ke arijit chalao te fer awaaz vadha do", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "arijit"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["khol ke", "te fer"]}
+{"text": "pehlan gaana rok do uske baad chrome kholo te cricket score dasso", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "cricket score"}}], "joiners": ["uske baad", "te"]}
+{"text": "notepad khol ke likho kal meeting hai fer save te click karo yaar", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "kal meeting hai"}}, {"action": "click", "slots": {"target": "save"}}], "joiners": ["khol ke", "fer"]}
+{"text": "SPOTIFY KHOLO ATE DILJIT CHALAO ATE FER VOLUME GHATAO", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "SPOTIFY"}}, {"action": "play_media", "slots": {"query": "DILJIT"}}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["ATE", "ATE FER"]}
+{"text": "open chrome and search amritsar weather then open youtube", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "amritsar weather"}}, {"action": "open_app", "slots": {"app": "youtube"}}], "joiners": ["and", "then"]}
+{"text": "chrome kholo ate whatsapp kholo te fer mummy nu message karo ki main late aaunga", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "mummy", "text": "main late aaunga"}}], "joiners": ["ate", "te fer"]}
+{"text": "gaana band karo ate zoom kholo ate join te click karo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "zoom"}}, {"action": "click", "slots": {"target": "join"}}], "joiners": ["ate", "ate"]}
+{"text": "chrome kholo ton baad bhangra da history labbo ton baad youtube te bhangra chalao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "bhangra da history"}}, {"action": "play_media", "slots": {"app": "youtube", "query": "bhangra"}}], "joiners": ["ton baad", "ton baad"]}
+{"text": "Edge Khol Ke Irctc Di Website Kholo Te Train Status Dekho", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Edge"}}, {"action": "open_website", "slots": {"site": "Irctc"}}, {"action": "web_search", "slots": {"query": "Train Status"}}], "joiners": ["Khol Ke", "Te"]}
+{"text": "word kholo uske baad likho dear sir te uske baad save dabao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "word"}}, {"action": "type_text", "slots": {"text": "dear sir"}}, {"action": "click", "slots": {"target": "save"}}], "joiners": ["uske baad", "uske baad"]}
+{"text": "volume ghatao fer notepad kholo te likho shopping list", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "shopping list"}}], "joiners": ["fer", "te"]}
+{"text": "ਕਰੋਮ ਖੋਲ੍ਹੋ ਫਿਰ ਮੌਸਮ ਦੱਸੋ ਅਤੇ ਯੂਟਿਊਬ ਖੋਲ੍ਹੋ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ਕਰੋਮ"}}, {"action": "web_search", "slots": {"query": "ਮੌਸਮ"}}, {"action": "open_app", "slots": {"app": "ਯੂਟਿਊਬ"}}], "joiners": ["ਫਿਰ", "ਅਤੇ"]}
+{"text": "pehlan spotify kholo fer sidhu moose wala chalao fer agla gaana", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "sidhu moose wala"}}, {"action": "media_control", "slots": {}, "control": "next"}], "joiners": ["fer", "fer"]}
+{"text": "chrome khol ke gold da rate labbo te fer excel kholo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "gold da rate"}}, {"action": "open_app", "slots": {"app": "excel"}}], "joiners": ["khol ke", "te fer"]}
+{"text": "teams kholo te mute dabao te fer screen padho", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "teams"}}, {"action": "click", "slots": {"target": "mute"}}, {"action": "read_screen", "slots": {}}], "joiners": ["te", "te fer"]}
+{"text": "music rok do ate jassi nu message karo ki main call karunga ate chrome kholo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "send_message", "slots": {"contact": "jassi", "text": "main call karunga"}}, {"action": "open_app", "slots": {"app": "chrome"}}], "joiners": ["ate", "ate"]}
+{"text": "yaar brave kholo fer petrol da rate search karo fer notepad vich likho 95 rupaye", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "brave"}}, {"action": "web_search", "slots": {"query": "petrol da rate"}}, {"action": "type_text", "slots": {"text": "95 rupaye"}}], "joiners": ["fer", "fer"]}
+{"text": "achha open youtube then play punjabi songs and increase volume", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "punjabi songs"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["then", "and"]}
+{"text": "vs code kholo te likho print hello te fer save dabao", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "vs code"}}, {"action": "type_text", "slots": {"text": "print hello"}}, {"action": "click", "slots": {"target": "save"}}], "joiners": ["te", "te fer"]}
+{"text": "gaana rok ke notepad kholo ate likho ajj di list", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "ajj di list"}}], "joiners": ["ke", "ate"]}
+{"text": "firefox kholo ate github dot com kholo te react tutorial search karo yaar", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "open_website", "slots": {"site": "github dot com"}}, {"action": "web_search", "slots": {"query": "react tutorial"}}], "joiners": ["ate", "te"]}
+{"text": "ਮਿਊਟ ਕਰੋ ਫਿਰ ਵਟਸਐਪ ਖੋਲ੍ਹੋ ਫਿਰ ਸਿਮਰਨ ਨੂੰ ਬੋਲੋ ਕਿ ਮੈਂ ਰੁੱਝਿਆ ਹਾਂ", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "open_app", "slots": {"app": "ਵਟਸਐਪ"}}, {"action": "send_message", "slots": {"contact": "ਸਿਮਰਨ", "text": "ਮੈਂ ਰੁੱਝਿਆ ਹਾਂ"}}], "joiners": ["ਫਿਰ", "ਫਿਰ"]}
+{"text": "youtube khol ke karan aujla chalao fer pause karo", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "karan aujla"}}, {"action": "media_control", "slots": {}, "control": "pause"}], "joiners": ["khol ke", "fer"]}
+{"text": "camera kholo then photos kholo and click on delete", "lang": "pa", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "camera"}}, {"action": "open_app", "slots": {"app": "photos"}}, {"action": "click", "slots": {"target": "delete"}}], "joiners": ["then", "and"]}
+{"text": "tom and jerry chalao", "lang": "pa", "action": "play_media", "slots": {"query": "tom and jerry"}}
+{"text": "JATT AND JULIET MOVIE CHALAO", "lang": "pa", "action": "play_media", "slots": {"query": "JATT AND JULIET MOVIE"}}
+{"text": "Heer Te Ranjha Da Gaana Chalao", "lang": "pa", "action": "play_media", "slots": {"query": "Heer Te Ranjha"}}
+{"text": "ਸੋਹਣੀ ਤੇ ਮਹੀਂਵਾਲ ਫ਼ਿਲਮ ਚਲਾਓ", "lang": "pa", "action": "play_media", "slots": {"query": "ਸੋਹਣੀ ਤੇ ਮਹੀਂਵਾਲ ਫ਼ਿਲਮ"}}
+{"text": "youtube te romeo and juliet movie chalao", "lang": "pa", "action": "play_media", "slots": {"app": "youtube", "query": "romeo and juliet movie"}}
+{"text": "spotify te simon and garfunkel chalao", "lang": "pa", "action": "play_media", "slots": {"app": "spotify", "query": "simon and garfunkel"}}
+{"text": "play lock and key song", "lang": "pa", "action": "play_media", "slots": {"query": "lock and key song"}}
+{"text": "chalao beauty and the beast", "lang": "pa", "action": "play_media", "slots": {"query": "beauty and the beast"}}
+{"text": "ਹੀਰ ਤੇ ਰਾਂਝਾ ਗਾਣਾ ਚਲਾਓ", "lang": "pa", "action": "play_media", "slots": {"query": "ਹੀਰ ਤੇ ਰਾਂਝਾ"}}
+{"text": "fer mamla gadbad hai movie chalao", "lang": "pa", "action": "play_media", "slots": {"query": "fer mamla gadbad hai movie"}}
+{"text": "mundeya te kudiyan da bhangra mix chalao", "lang": "pa", "action": "play_media", "slots": {"query": "mundeya te kudiyan da bhangra mix"}}
+{"text": "and then there were none movie lagao", "lang": "pa", "action": "play_media", "slots": {"query": "and then there were none movie"}}
+{"text": "tum aur hum song chalao", "lang": "pa", "action": "play_media", "slots": {"query": "tum aur hum song"}}
+{"text": "diljit and ap dhillon de gaane chalao", "lang": "pa", "action": "play_media", "slots": {"query": "diljit and ap dhillon"}}
+{"text": "karan aujla te ap dhillon da collab chalao", "lang": "pa", "action": "play_media", "slots": {"query": "karan aujla te ap dhillon da collab"}}
+{"text": "yaar kudi ate munda wala gaana chala do", "lang": "pa", "action": "play_media", "slots": {"query": "kudi ate munda wala gaana"}}
+{"text": "jazzy b te sukshinder shinda de gaane lagao", "lang": "pa", "action": "play_media", "slots": {"query": "jazzy b te sukshinder shinda"}}
+{"text": "wynk te laung te lashkara chalao", "lang": "pa", "action": "play_media", "slots": {"app": "wynk", "query": "laung te lashkara"}}
+{"text": "ਯੂਟਿਊਬ ਤੇ ਟੌਮ ਐਂਡ ਜੈਰੀ ਚਲਾਓ", "lang": "pa", "action": "play_media", "slots": {"app": "ਯੂਟਿਊਬ", "query": "ਟੌਮ ਐਂਡ ਜੈਰੀ"}}
+{"text": "listen play then and now by diljit", "lang": "pa", "action": "play_media", "slots": {"query": "then and now by diljit"}}
+{"text": "salt and pepper chicken recipe search karo", "lang": "pa", "action": "web_search", "slots": {"query": "salt and pepper chicken recipe"}}
+{"text": "heer te ranjha di kahani labbo", "lang": "pa", "action": "web_search", "slots": {"query": "heer te ranjha di kahani"}}
+{"text": "bhagat singh te sukhdev kaun san", "lang": "pa", "action": "web_search", "slots": {"query": "bhagat singh te sukhdev kaun san"}}
+{"text": "ਲੁਧਿਆਣਾ ਤੇ ਜਲੰਧਰ ਵਿੱਚ ਕੀ ਫ਼ਰਕ ਹੈ", "lang": "pa", "action": "web_search", "slots": {"query": "ਲੁਧਿਆਣਾ ਤੇ ਜਲੰਧਰ ਵਿੱਚ ਕੀ ਫ਼ਰਕ ਹੈ"}}
+{"text": "ਮੈਕ ਐਂਡ ਚੀਜ਼ ਰੈਸਿਪੀ ਦੱਸੋ", "lang": "pa", "action": "web_search", "slots": {"query": "ਮੈਕ ਐਂਡ ਚੀਜ਼ ਰੈਸਿਪੀ"}}
+{"text": "Rock And Roll Da History Dasso", "lang": "pa", "action": "web_search", "slots": {"query": "Rock And Roll Da History"}}
+{"text": "yaar pros and cons of electric car search karo", "lang": "pa", "action": "web_search", "slots": {"query": "pros and cons of electric car"}}
+{"text": "ਹੀਰ ਤੇ ਰਾਂਝਾ ਦੀ ਕਹਾਣੀ ਦੱਸੋ", "lang": "pa", "action": "web_search", "slots": {"query": "ਹੀਰ ਤੇ ਰਾਂਝਾ ਦੀ ਕਹਾਣੀ"}}
+{"text": "diwali ton baad pehla tyohar kehda hai", "lang": "pa", "action": "web_search", "slots": {"query": "diwali ton baad pehla tyohar kehda hai"}}
+{"text": "ਮੰਮੀ ਤੇ ਪਾਪਾ ਦੀ ਵਰ੍ਹੇਗੰਢ ਦੇ ਤੋਹਫ਼ੇ ਦੇ ਵਿਚਾਰ ਲੱਭੋ", "lang": "pa", "action": "web_search", "slots": {"query": "ਮੰਮੀ ਤੇ ਪਾਪਾ ਦੀ ਵਰ੍ਹੇਗੰਢ ਦੇ ਤੋਹਫ਼ੇ ਦੇ ਵਿਚਾਰ"}}
+{"text": "fish and chips kithe milda hai ludhiana vich", "lang": "pa", "action": "web_search", "slots": {"query": "fish and chips kithe milda hai ludhiana vich"}}
+{"text": "sweet and sour sauce kive banaiye", "lang": "pa", "action": "web_search", "slots": {"query": "sweet and sour sauce kive banaiye"}}
+{"text": "english te punjabi translation of thank you", "lang": "pa", "action": "web_search", "slots": {"query": "english te punjabi translation of thank you"}}
+{"text": "Tom And Jerry De Creator Kaun Han", "lang": "pa", "action": "web_search", "slots": {"query": "Tom And Jerry De Creator Kaun Han"}}
+{"text": "singh is kinng te singh is bliing di cast labbo", "lang": "pa", "action": "web_search", "slots": {"query": "singh is kinng te singh is bliing di cast"}}
+{"text": "research and development di full form dasso", "lang": "pa", "action": "web_search", "slots": {"query": "research and development di full form"}}
+{"text": "MUMMY NU BOLO KI DOODH TE BREAD LE AAO", "lang": "pa", "action": "send_message", "slots": {"contact": "MUMMY", "text": "DOODH TE BREAD LE AAO"}}
+{"text": "ਪਾਪਾ ਨੂੰ ਮੈਸੇਜ ਕਰੋ ਕਿ ਮੈਂ ਖਾਣਾ ਖਾ ਕੇ ਆਵਾਂਗਾ", "lang": "pa", "action": "send_message", "slots": {"contact": "ਪਾਪਾ", "text": "ਮੈਂ ਖਾਣਾ ਖਾ ਕੇ ਆਵਾਂਗਾ"}}
+{"text": "ਭਾਜੀ ਨੂੰ ਵਟਸਐਪ ਕਰੋ ਕਿ ਦਰਵਾਜ਼ਾ ਖੋਲ੍ਹ ਕੇ ਰੱਖਣਾ", "lang": "pa", "action": "send_message", "slots": {"contact": "ਭਾਜੀ", "text": "ਦਰਵਾਜ਼ਾ ਖੋਲ੍ਹ ਕੇ ਰੱਖਣਾ"}}
+{"text": "SIMRAN NU MESSAGE KAR KI KAM KHATAM HOYE TON BAAD MILANGE", "lang": "pa", "action": "send_message", "slots": {"contact": "SIMRAN", "text": "KAM KHATAM HOYE TON BAAD MILANGE"}}
+{"text": "veer nu message bhejo ki tusi te main kal chalange", "lang": "pa", "action": "send_message", "slots": {"contact": "veer", "text": "tusi te main kal chalange"}}
+{"text": "manpreet nu bolo happy birthday and many happy returns", "lang": "pa", "action": "send_message", "slots": {"contact": "manpreet", "text": "happy birthday and many happy returns"}}
+{"text": "boss nu message karo ki report bhej ditti and call vi kitta", "lang": "pa", "action": "send_message", "slots": {"contact": "boss", "text": "report bhej ditti and call vi kitta"}}
+{"text": "dadi nu whatsapp karo ki sat sri akal ate chaa pee layi", "lang": "pa", "action": "send_message", "slots": {"contact": "dadi", "text": "sat sri akal ate chaa pee layi"}}
+{"text": "ਮੰਮੀ ਨੂੰ ਲਿਖੋ ਕਿ ਦੁੱਧ ਤੇ ਬਰੈੱਡ ਲੈ ਆਓ", "lang": "pa", "action": "send_message", "slots": {"contact": "ਮੰਮੀ", "text": "ਦੁੱਧ ਤੇ ਬਰੈੱਡ ਲੈ ਆਓ"}}
+{"text": "jassi nu bol de ki main dinner then movie dekh ke aavan ga", "lang": "pa", "action": "send_message", "slots": {"contact": "jassi", "text": "main dinner then movie dekh ke aavan ga"}}
+{"text": "teacher nu message karo ki bukhar hai fer vi kal aavanga", "lang": "pa", "action": "send_message", "slots": {"contact": "teacher", "text": "bukhar hai fer vi kal aavanga"}}
+{"text": "gurpreet nu bolo ki meeting khatam hoke fer call karna", "lang": "pa", "action": "send_message", "slots": {"contact": "gurpreet", "text": "meeting khatam hoke fer call karna"}}
+{"text": "likho ki ravi te seema aa rahe ne", "lang": "pa", "action": "type_text", "slots": {"text": "ravi te seema aa rahe ne"}}
+{"text": "type karo salt and pepper", "lang": "pa", "action": "type_text", "slots": {"text": "salt and pepper"}}
+{"text": "likho assignment ate project dono kal jama karne ne", "lang": "pa", "action": "type_text", "slots": {"text": "assignment ate project dono kal jama karne ne"}}
+{"text": "ਲਿਖੋ ਰਾਮ ਅਤੇ ਸ਼ਿਆਮ ਦੋਸਤ ਨੇ", "lang": "pa", "action": "type_text", "slots": {"text": "ਰਾਮ ਅਤੇ ਸ਼ਿਆਮ ਦੋਸਤ ਨੇ"}}
+{"text": "ਲਿਖੋ ਰਵੀ ਤੇ ਸੀਮਾ ਆ ਰਹੇ ਨੇ", "lang": "pa", "action": "type_text", "slots": {"text": "ਰਵੀ ਤੇ ਸੀਮਾ ਆ ਰਹੇ ਨੇ"}}
+{"text": "likh do pehlan kam kar ke fer khelna", "lang": "pa", "action": "type_text", "slots": {"text": "pehlan kam kar ke fer khelna"}}
+{"text": "ਜੌਨਸਨ ਐਂਡ ਜੌਨਸਨ ਦੀ ਵੈੱਬਸਾਈਟ ਖੋਲ੍ਹੋ", "lang": "pa", "action": "open_website", "slots": {"site": "ਜੌਨਸਨ ਐਂਡ ਜੌਨਸਨ"}}
+{"text": "marks and spencer di site kholo", "lang": "pa", "action": "open_website", "slots": {"site": "marks and spencer"}}
+{"text": "terms and conditions te click karo", "lang": "pa", "action": "click", "slots": {"target": "terms and conditions"}}
+{"text": "save and exit button dabao", "lang": "pa", "action": "click", "slots": {"target": "save and exit"}}
+{"text": "ਸੇਵ ਐਂਡ ਐਗਜ਼ਿਟ ਬਟਨ ਦਬਾਓ", "lang": "pa", "action": "click", "slots": {"target": "ਸੇਵ ਐਂਡ ਐਗਜ਼ਿਟ"}}
+{"text": "p and g di website kholo", "lang": "pa", "action": "open_website", "slots": {"site": "p and g"}}
+{"text": "chrome kholo", "lang": "pa", "action": "open_app", "slots": {"app": "chrome"}}
+{"text": "ਨੋਟਪੈਡ ਚਾਲੂ ਕਰੋ", "lang": "pa", "action": "open_app", "slots": {"app": "ਨੋਟਪੈਡ"}}
+{"text": "whatsapp khol do", "lang": "pa", "action": "open_app", "slots": {"app": "whatsapp"}}
+{"text": "ਯੂਟਿਊਬ ਖੋਲ੍ਹ ਦਿਓ", "lang": "pa", "action": "open_app", "slots": {"app": "ਯੂਟਿਊਬ"}}
+{"text": "spotify app kholo", "lang": "pa", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "calculator kholo ji", "lang": "pa", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "listen excel chalu kar do", "lang": "pa", "action": "open_app", "slots": {"app": "excel"}}
+{"text": "oye vs code kholo", "lang": "pa", "action": "open_app", "slots": {"app": "vs code"}}
+{"text": "zoom wala app kholo", "lang": "pa", "action": "open_app", "slots": {"app": "zoom"}}
+{"text": "ਟੈਲੀਗ੍ਰਾਮ ਖੋਲ੍ਹ ਦਿਓ", "lang": "pa", "action": "open_app", "slots": {"app": "ਟੈਲੀਗ੍ਰਾਮ"}}
+{"text": "ਕੈਮਰਾ ਚਾਲੂ ਕਰੋ", "lang": "pa", "action": "open_app", "slots": {"app": "ਕੈਮਰਾ"}}
+{"text": "ਸੈਟਿੰਗਜ਼ ਖੋਲ੍ਹੋ", "lang": "pa", "action": "open_app", "slots": {"app": "ਸੈਟਿੰਗਜ਼"}}
+{"text": "file explorer kholo", "lang": "pa", "action": "open_app", "slots": {"app": "file explorer"}}
+{"text": "paint kholo", "lang": "pa", "action": "open_app", "slots": {"app": "paint"}}
+{"text": "microsoft edge chalao", "lang": "pa", "action": "open_app", "slots": {"app": "microsoft edge"}}
+{"text": "open task manager", "lang": "pa", "action": "open_app", "slots": {"app": "task manager"}}
+{"text": "launch vlc", "lang": "pa", "action": "open_app", "slots": {"app": "vlc"}}
+{"text": "instagram khol do", "lang": "pa", "action": "open_app", "slots": {"app": "instagram"}}
+{"text": "snapchat kholo", "lang": "pa", "action": "open_app", "slots": {"app": "snapchat"}}
+{"text": "discord chalu kar", "lang": "pa", "action": "open_app", "slots": {"app": "discord"}}
+{"text": "teams kholo", "lang": "pa", "action": "open_app", "slots": {"app": "teams"}}
+{"text": "listen outlook khol de", "lang": "pa", "action": "open_app", "slots": {"app": "outlook"}}
+{"text": "Google Maps Kholo", "lang": "pa", "action": "open_app", "slots": {"app": "Google Maps"}}
+{"text": "brave browser kholo", "lang": "pa", "action": "open_app", "slots": {"app": "brave browser"}}
+{"text": "command prompt kholo", "lang": "pa", "action": "open_app", "slots": {"app": "command prompt"}}
+{"text": "photos app kholo", "lang": "pa", "action": "open_app", "slots": {"app": "photos"}}
+{"text": "ਕਰੋਮ ਖੋਲ੍ਹੋ", "lang": "pa", "action": "open_app", "slots": {"app": "ਕਰੋਮ"}}
+{"text": "ਵਟਸਐਪ ਖੋਲ੍ਹ ਦਿਓ", "lang": "pa", "action": "open_app", "slots": {"app": "ਵਟਸਐਪ"}}
+{"text": "ਕੈਲਕੁਲੇਟਰ ਚਲਾਓ", "lang": "pa", "action": "open_app", "slots": {"app": "ਕੈਲਕੁਲੇਟਰ"}}
+{"text": "ummm notepad khol do zara", "lang": "pa", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "ਐਮਾਜ਼ਾਨ ਦੀ ਵੈੱਬਸਾਈਟ ਖੋਲ੍ਹੋ", "lang": "pa", "action": "open_website", "slots": {"site": "ਐਮਾਜ਼ਾਨ"}}
+{"text": "flipkart.com kholo", "lang": "pa", "action": "open_website", "slots": {"site": "flipkart.com"}}
+{"text": "open github dot com", "lang": "pa", "action": "open_website", "slots": {"site": "github dot com"}}
+{"text": "ਆਈਆਰਸੀਟੀਸੀ ਦੀ ਸਾਈਟ ਖੋਲ੍ਹੋ", "lang": "pa", "action": "open_website", "slots": {"site": "ਆਈਆਰਸੀਟੀਸੀ"}}
+{"text": "jagbani di website kholo", "lang": "pa", "action": "open_website", "slots": {"site": "jagbani"}}
+{"text": "ptc punjabi di website chalao", "lang": "pa", "action": "open_website", "slots": {"site": "ptc punjabi"}}
+{"text": "ajit di website kholo", "lang": "pa", "action": "open_website", "slots": {"site": "ajit"}}
+{"text": "naukri dot com kholo", "lang": "pa", "action": "open_website", "slots": {"site": "naukri dot com"}}
+{"text": "makemytrip di site kholo ji", "lang": "pa", "action": "open_website", "slots": {"site": "makemytrip"}}
+{"text": "Swiggy Website Khol Do", "lang": "pa", "action": "open_website", "slots": {"site": "Swiggy"}}
+{"text": "bookmyshow di website", "lang": "pa", "action": "open_website", "slots": {"site": "bookmyshow"}}
+{"text": "ਗੂਗਲ ਦੀ ਵੈੱਬਸਾਈਟ ਖੋਲ੍ਹੋ", "lang": "pa", "action": "open_website", "slots": {"site": "ਗੂਗਲ"}}
+{"text": "ਜਗਬਾਣੀ ਦੀ ਵੈੱਬਸਾਈਟ ਖੋਲ੍ਹੋ", "lang": "pa", "action": "open_website", "slots": {"site": "ਜਗਬਾਣੀ"}}
+{"text": "twitter.com khol do", "lang": "pa", "action": "open_website", "slots": {"site": "twitter.com"}}
+{"text": "uh linkedin dot com kholo", "lang": "pa", "action": "open_website", "slots": {"site": "linkedin dot com"}}
+{"text": "bangalore da mausam dasso", "lang": "pa", "action": "web_search", "slots": {"query": "bangalore da mausam"}}
+{"text": "ਪੰਜਾਬ ਦਾ ਮੁੱਖ ਮੰਤਰੀ ਕੌਣ ਹੈ", "lang": "pa", "action": "web_search", "slots": {"query": "ਪੰਜਾਬ ਦਾ ਮੁੱਖ ਮੰਤਰੀ ਕੌਣ ਹੈ"}}
+{"text": "diljit dosanjh kaun hai", "lang": "pa", "action": "web_search", "slots": {"query": "diljit dosanjh kaun hai"}}
+{"text": "ਸਿੱਧੂ ਮੂਸੇਵਾਲਾ ਬਾਰੇ ਦੱਸੋ", "lang": "pa", "action": "web_search", "slots": {"query": "ਸਿੱਧੂ ਮੂਸੇਵਾਲਾ"}}
+{"text": "yaar jatt and juliet film di cast labbo", "lang": "pa", "action": "web_search", "slots": {"query": "jatt and juliet film di cast"}}
+{"text": "oye carry on jatta kis ne banayi", "lang": "pa", "action": "web_search", "slots": {"query": "carry on jatta kis ne banayi"}}
+{"text": "chandigarh to amritsar bus time search karo", "lang": "pa", "action": "web_search", "slots": {"query": "chandigarh to amritsar bus time"}}
+{"text": "ਅੱਜ ਦਾ ਸੋਨੇ ਦਾ ਰੇਟ ਦੱਸੋ", "lang": "pa", "action": "web_search", "slots": {"query": "ਅੱਜ ਦਾ ਸੋਨੇ ਦਾ ਰੇਟ"}}
+{"text": "ਕ੍ਰਿਕਟ ਦਾ ਸਕੋਰ ਦੱਸੋ", "lang": "pa", "action": "web_search", "slots": {"query": "ਕ੍ਰਿਕਟ ਦਾ ਸਕੋਰ"}}
+{"text": "achha amazon te shoes labbo", "lang": "pa", "action": "web_search", "slots": {"query": "shoes", "site": "amazon"}}
+{"text": "flipkart te mobile dhundo", "lang": "pa", "action": "web_search", "slots": {"query": "mobile", "site": "flipkart"}}
+{"text": "yaar youtube te cooking videos search karo", "lang": "pa", "action": "web_search", "slots": {"query": "cooking videos", "site": "youtube"}}
+{"text": "google karo best dhaba in ludhiana", "lang": "pa", "action": "web_search", "slots": {"query": "best dhaba in ludhiana"}}
+{"text": "lyrics of brown munde", "lang": "pa", "action": "web_search", "slots": {"query": "lyrics of brown munde"}}
+{"text": "who sang laung laachi", "lang": "pa", "action": "web_search", "slots": {"query": "who sang laung laachi"}}
+{"text": "kanak di fasal kadon vaddi jandi hai", "lang": "pa", "action": "web_search", "slots": {"query": "kanak di fasal kadon vaddi jandi hai"}}
+{"text": "punjab di population kinni hai", "lang": "pa", "action": "web_search", "slots": {"query": "punjab di population kinni hai"}}
+{"text": "how to make sarson da saag", "lang": "pa", "action": "web_search", "slots": {"query": "how to make sarson da saag"}}
+{"text": "Samjhao Photosynthesis Ki Hunda Hai", "lang": "pa", "action": "web_search", "slots": {"query": "Photosynthesis Ki Hunda Hai"}}
+{"text": "oye hansraj hans de baare daso", "lang": "pa", "action": "web_search", "slots": {"query": "hansraj hans"}}
+{"text": "ਐਮੀ ਵਿਰਕ ਕੌਣ ਹੈ", "lang": "pa", "action": "web_search", "slots": {"query": "ਐਮੀ ਵਿਰਕ ਕੌਣ ਹੈ"}}
+{"text": "petrol da rate ajj ludhiana vich", "lang": "pa", "action": "web_search", "slots": {"query": "petrol da rate ajj ludhiana vich"}}
+{"text": "ਪੰਜਾਬ ਦਾ ਮੌਸਮ ਦੱਸੋ", "lang": "pa", "action": "web_search", "slots": {"query": "ਪੰਜਾਬ ਦਾ ਮੌਸਮ"}}
+{"text": "ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਕੌਣ ਸਨ", "lang": "pa", "action": "web_search", "slots": {"query": "ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਕੌਣ ਸਨ"}}
+{"text": "ਦਿਲਜੀਤ ਦੋਸਾਂਝ ਬਾਰੇ ਦੱਸੋ", "lang": "pa", "action": "web_search", "slots": {"query": "ਦਿਲਜੀਤ ਦੋਸਾਂਝ"}}
+{"text": "search karo butter chicken recipe", "lang": "pa", "action": "web_search", "slots": {"query": "butter chicken recipe"}}
+{"text": "kal da weather kida rahega", "lang": "pa", "action": "web_search", "slots": {"query": "kal da weather kida rahega"}}
+{"text": "ipl da schedule dhoondo ji", "lang": "pa", "action": "web_search", "slots": {"query": "ipl da schedule"}}
+{"text": "uh honsla rakh film kihda ne banayi", "lang": "pa", "action": "web_search", "slots": {"query": "honsla rakh film kihda ne banayi"}}
+{"text": "chamkila film vich hero kaun si", "lang": "pa", "action": "web_search", "slots": {"query": "chamkila film vich hero kaun si"}}
+{"text": "arijit de gaane chalao", "lang": "pa", "action": "play_media", "slots": {"query": "arijit"}}
+{"text": "gaana chalao", "lang": "pa", "action": "play_media", "slots": {}}
+{"text": "ਸਪੌਟੀਫਾਈ ਤੇ ਦਿਲਜੀਤ ਚਲਾਓ", "lang": "pa", "action": "play_media", "slots": {"app": "ਸਪੌਟੀਫਾਈ", "query": "ਦਿਲਜੀਤ"}}
+{"text": "youtube te sidhu moose wala da 295 chalao", "lang": "pa", "action": "play_media", "slots": {"app": "youtube", "query": "sidhu moose wala da 295"}}
+{"text": "ਪੰਜਾਬੀ ਗਾਣੇ ਲਗਾਓ", "lang": "pa", "action": "play_media", "slots": {"query": "ਪੰਜਾਬੀ ਗਾਣੇ"}}
+{"text": "ਕਰਨ ਔਜਲਾ ਦੇ ਗਾਣੇ ਚਲਾ ਦਿਓ", "lang": "pa", "action": "play_media", "slots": {"query": "ਕਰਨ ਔਜਲਾ"}}
+{"text": "play brown munde", "lang": "pa", "action": "play_media", "slots": {"query": "brown munde"}}
+{"text": "jiosaavn te bhangra chalao", "lang": "pa", "action": "play_media", "slots": {"app": "jiosaavn", "query": "bhangra"}}
+{"text": "kuch changa sunao", "lang": "pa", "action": "play_media", "slots": {}}
+{"text": "ਭਜਨ ਚਲਾਓ", "lang": "pa", "action": "play_media", "slots": {"query": "ਭਜਨ"}}
+{"text": "ਗੁਰਬਾਣੀ ਚਲਾਓ", "lang": "pa", "action": "play_media", "slots": {"query": "ਗੁਰਬਾਣੀ"}}
+{"text": "shabad kirtan chalao ji", "lang": "pa", "action": "play_media", "slots": {"query": "shabad kirtan"}}
+{"text": "Wynk Te Amrinder Gill De Gaane", "lang": "pa", "action": "play_media", "slots": {"app": "Wynk", "query": "Amrinder Gill"}}
+{"text": "carry on jatta movie chalao", "lang": "pa", "action": "play_media", "slots": {"query": "carry on jatta movie"}}
+{"text": "OLD PUNJABI SONGS LAGAO", "lang": "pa", "action": "play_media", "slots": {"query": "OLD PUNJABI SONGS"}}
+{"text": "music chalao", "lang": "pa", "action": "play_media", "slots": {}}
+{"text": "play lahore by guru randhawa", "lang": "pa", "action": "play_media", "slots": {"query": "lahore by guru randhawa"}}
+{"text": "ਗਾਣਾ ਚਲਾਓ", "lang": "pa", "action": "play_media", "slots": {}}
+{"text": "ਦਿਲਜੀਤ ਦੇ ਗਾਣੇ ਚਲਾਓ", "lang": "pa", "action": "play_media", "slots": {"query": "ਦਿਲਜੀਤ"}}
+{"text": "ਯੂਟਿਊਬ ਤੇ ਬੱਬੂ ਮਾਨ ਚਲਾਓ", "lang": "pa", "action": "play_media", "slots": {"app": "ਯੂਟਿਊਬ", "query": "ਬੱਬੂ ਮਾਨ"}}
+{"text": "Apple Music Te Jazzy B Chalao", "lang": "pa", "action": "play_media", "slots": {"app": "Apple Music", "query": "Jazzy B"}}
+{"text": "surinder kaur de gaane chalao", "lang": "pa", "action": "play_media", "slots": {"query": "surinder kaur"}}
+{"text": "Chamkila De Gaane Sunao", "lang": "pa", "action": "play_media", "slots": {"query": "Chamkila"}}
+{"text": "lofi music laga do", "lang": "pa", "action": "play_media", "slots": {"query": "lofi music"}}
+{"text": "nusrat fateh ali khan chalao", "lang": "pa", "action": "play_media", "slots": {"query": "nusrat fateh ali khan"}}
+{"text": "amazon music te ap dhillon chalao", "lang": "pa", "action": "play_media", "slots": {"app": "amazon music", "query": "ap dhillon"}}
+{"text": "youtube music te new punjabi songs chalao yaar", "lang": "pa", "action": "play_media", "slots": {"app": "youtube music", "query": "new punjabi songs"}}
+{"text": "gaana chalao yaar", "lang": "pa", "action": "play_media", "slots": {}}
+{"text": "play excuses", "lang": "pa", "action": "play_media", "slots": {"query": "excuses"}}
+{"text": "gippy grewal de gaane chalo", "lang": "pa", "action": "play_media", "slots": {"query": "gippy grewal"}}
+{"text": "gaana rok do", "lang": "pa", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "ਪਾਜ਼ ਕਰੋ", "lang": "pa", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "music band karo", "lang": "pa", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "resume karo", "lang": "pa", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "oye gaana dobara chalao", "lang": "pa", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "agla gaana ji", "lang": "pa", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "next", "lang": "pa", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "agle gaane te jao", "lang": "pa", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "ਪਿਛਲਾ ਗਾਣਾ", "lang": "pa", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "previous karo", "lang": "pa", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "awaaz vadhao", "lang": "pa", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "volume vadha do", "lang": "pa", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "ਵਾਲੀਅਮ ਘਟਾਓ", "lang": "pa", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "awaaz ghat karo", "lang": "pa", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "ਮਿਊਟ ਕਰੋ", "lang": "pa", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "sound band kar do", "lang": "pa", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "ਗਾਣਾ ਰੋਕੋ", "lang": "pa", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "ਆਵਾਜ਼ ਵਧਾਓ", "lang": "pa", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "ਅਗਲਾ ਗਾਣਾ", "lang": "pa", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "song skip kar do", "lang": "pa", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "mummy nu message karo ki main late aaunga", "lang": "pa", "action": "send_message", "slots": {"contact": "mummy", "text": "main late aaunga"}}
+{"text": "bhaji nu whatsapp karo ki kal milange", "lang": "pa", "action": "send_message", "slots": {"contact": "bhaji", "text": "kal milange"}}
+{"text": "papa nu bolo ki gaddi service te de ditti hai", "lang": "pa", "action": "send_message", "slots": {"contact": "papa", "text": "gaddi service te de ditti hai"}}
+{"text": "gurpreet nu likho ki tusi kithe ho", "lang": "pa", "action": "send_message", "slots": {"contact": "gurpreet", "text": "tusi kithe ho"}}
+{"text": "Veer Ji Nu Message Bhejo Ki Paise Bhej Ditte", "lang": "pa", "action": "send_message", "slots": {"contact": "Veer Ji", "text": "Paise Bhej Ditte"}}
+{"text": "ਸਿਮਰਨ ਨੂੰ ਮੈਸੇਜ ਕਰੋ ਕਿ ਅੱਜ ਕਲਾਸ ਨਹੀਂ ਹੈ", "lang": "pa", "action": "send_message", "slots": {"contact": "ਸਿਮਰਨ", "text": "ਅੱਜ ਕਲਾਸ ਨਹੀਂ ਹੈ"}}
+{"text": "ਬੇਬੇ ਨੂੰ ਬੋਲੋ ਮੈਂ ਪਹੁੰਚ ਗਿਆ", "lang": "pa", "action": "send_message", "slots": {"contact": "ਬੇਬੇ", "text": "ਮੈਂ ਪਹੁੰਚ ਗਿਆ"}}
+{"text": "achha boss nu message karo ki main 10 minute late aavan ga", "lang": "pa", "action": "send_message", "slots": {"contact": "boss", "text": "main 10 minute late aavan ga"}}
+{"text": "dadi nu whatsapp karo ki sat sri akal", "lang": "pa", "action": "send_message", "slots": {"contact": "dadi", "text": "sat sri akal"}}
+{"text": "jassi nu bolo ki party kadon hai", "lang": "pa", "action": "send_message", "slots": {"contact": "jassi", "text": "party kadon hai"}}
+{"text": "send message to harpreet that i am coming", "lang": "pa", "action": "send_message", "slots": {"contact": "harpreet", "text": "i am coming"}}
+{"text": "Chacha Ji Nu Likho Ki Shaadi Di Tareekh Pakki Ho Gayi", "lang": "pa", "action": "send_message", "slots": {"contact": "Chacha Ji", "text": "Shaadi Di Tareekh Pakki Ho Gayi"}}
+{"text": "MAMA JI NU BOLO HAPPY BIRTHDAY", "lang": "pa", "action": "send_message", "slots": {"contact": "MAMA JI", "text": "HAPPY BIRTHDAY"}}
+{"text": "ਮੰਮੀ ਨੂੰ ਮੈਸੇਜ ਕਰੋ ਕਿ ਮੈਂ ਲੇਟ ਆਵਾਂਗਾ", "lang": "pa", "action": "send_message", "slots": {"contact": "ਮੰਮੀ", "text": "ਮੈਂ ਲੇਟ ਆਵਾਂਗਾ"}}
+{"text": "ਪਾਪਾ ਨੂੰ ਵਟਸਐਪ ਕਰੋ ਕਿ ਮੈਂ ਪਹੁੰਚ ਗਿਆ", "lang": "pa", "action": "send_message", "slots": {"contact": "ਪਾਪਾ", "text": "ਮੈਂ ਪਹੁੰਚ ਗਿਆ"}}
+{"text": "sukhi nu bol de ki ghar aa ja", "lang": "pa", "action": "send_message", "slots": {"contact": "sukhi", "text": "ghar aa ja"}}
+{"text": "honey paaji nu message karo ki congratulations", "lang": "pa", "action": "send_message", "slots": {"contact": "honey paaji", "text": "congratulations"}}
+{"text": "listen manpreet nu msg kar do ki assignment ho gaya", "lang": "pa", "action": "send_message", "slots": {"contact": "manpreet", "text": "assignment ho gaya"}}
+{"text": "mummy nu message karo", "lang": "pa", "action": "send_message", "slots": {"contact": "mummy"}, "incomplete": true}
+{"text": "listen gurpreet nu whatsapp karna hai", "lang": "pa", "action": "send_message", "slots": {"contact": "gurpreet"}, "incomplete": true}
+{"text": "likho meeting kal subah hai", "lang": "pa", "action": "type_text", "slots": {"text": "meeting kal subah hai"}}
+{"text": "ਲਿਖੋ ਸਤਿਕਾਰਯੋਗ ਸਰ", "lang": "pa", "action": "type_text", "slots": {"text": "ਸਤਿਕਾਰਯੋਗ ਸਰ"}}
+{"text": "likh do main ajj chutti te haan", "lang": "pa", "action": "type_text", "slots": {"text": "main ajj chutti te haan"}}
+{"text": "type kar thank you so much", "lang": "pa", "action": "type_text", "slots": {"text": "thank you so much"}}
+{"text": "likho ki main kal aaunga", "lang": "pa", "action": "type_text", "slots": {"text": "main kal aaunga"}}
+{"text": "ਲਿਖੋ ਧੰਨਵਾਦ ਜੀ", "lang": "pa", "action": "type_text", "slots": {"text": "ਧੰਨਵਾਦ ਜੀ"}}
+{"text": "write hello how are you", "lang": "pa", "action": "type_text", "slots": {"text": "hello how are you"}}
+{"text": "Type Karo Regards Gurpreet Singh", "lang": "pa", "action": "type_text", "slots": {"text": "Regards Gurpreet Singh"}}
+{"text": "likho sat sri akal ji", "lang": "pa", "action": "type_text", "slots": {"text": "sat sri akal ji"}}
+{"text": "likho date 15 november", "lang": "pa", "action": "type_text", "slots": {"text": "date 15 november"}}
+{"text": "type karo lohri di lakh lakh vadhai", "lang": "pa", "action": "type_text", "slots": {"text": "lohri di lakh lakh vadhai"}}
+{"text": "likh de grocery list doodh dahi paneer", "lang": "pa", "action": "type_text", "slots": {"text": "grocery list doodh dahi paneer"}}
+{"text": "Submit Button Dabao", "lang": "pa", "action": "click", "slots": {"target": "Submit"}}
+{"text": "ਅਗਲਾ ਤੇ ਕਲਿੱਕ ਕਰੋ", "lang": "pa", "action": "click", "slots": {"target": "ਅਗਲਾ"}}
+{"text": "Login Te Click Karo", "lang": "pa", "action": "click", "slots": {"target": "Login"}}
+{"text": "ਸੇਵ ਦਬਾਓ", "lang": "pa", "action": "click", "slots": {"target": "ਸੇਵ"}}
+{"text": "ok te click karo", "lang": "pa", "action": "click", "slots": {"target": "ok"}}
+{"text": "send button dabao", "lang": "pa", "action": "click", "slots": {"target": "send"}}
+{"text": "ਸਬਮਿਟ ਬਟਨ ਦਬਾਓ", "lang": "pa", "action": "click", "slots": {"target": "ਸਬਮਿਟ"}}
+{"text": "downloads tab te click karo", "lang": "pa", "action": "click", "slots": {"target": "downloads"}}
+{"text": "play button dabao", "lang": "pa", "action": "click", "slots": {"target": "play"}}
+{"text": "settings wale button te click karo", "lang": "pa", "action": "click", "slots": {"target": "settings"}}
+{"text": "Sign In Te Click Kar Do", "lang": "pa", "action": "click", "slots": {"target": "Sign In"}}
+{"text": "accept te click karo", "lang": "pa", "action": "click", "slots": {"target": "accept"}}
+{"text": "screen te ki likhya hai padho", "lang": "pa", "action": "read_screen", "slots": {}}
+{"text": "ki likhya hai padh ke sunao", "lang": "pa", "action": "read_screen", "slots": {}}
+{"text": "ਸਕਰੀਨ ਤੇ ਕੀ ਲਿਖਿਆ ਹੈ ਪੜ੍ਹੋ", "lang": "pa", "action": "read_screen", "slots": {}}
+{"text": "listen ih kee hai screen te dasso", "lang": "pa", "action": "read_screen", "slots": {}}
+{"text": "ih email vich ki likhya hai", "lang": "pa", "action": "read_screen", "slots": {}}
+{"text": "ih message kisne bheja padho", "lang": "pa", "action": "read_screen", "slots": {}}
+{"text": "screen padh ke sunao yaar yaar", "lang": "pa", "action": "read_screen", "slots": {}}
+{"text": "ਸਕਰੀਨ ਪੜ੍ਹ ਕੇ ਸੁਣਾਓ", "lang": "pa", "action": "read_screen", "slots": {}}
+{"text": "rehan do", "lang": "pa", "action": "cancel", "slots": {}}
+{"text": "ਛੱਡ ਯਾਰ", "lang": "pa", "action": "cancel", "slots": {}}
+{"text": "cancel", "lang": "pa", "action": "cancel", "slots": {}}
+{"text": "koi gal nahi rehn de", "lang": "pa", "action": "cancel", "slots": {}}
+{"text": "BAS BAS RUK JAO", "lang": "pa", "action": "cancel", "slots": {}}
+{"text": "yaar nahi nahi mat karo", "lang": "pa", "action": "cancel", "slots": {}}
+{"text": "ਰਹਿਣ ਦਿਓ", "lang": "pa", "action": "cancel", "slots": {}}
+{"text": "never mind", "lang": "pa", "action": "cancel", "slots": {}}
+{"text": "brightness ghatao", "lang": "pa", "action": "unknown", "slots": {}}
+{"text": "ਸਵੇਰੇ 6 ਵਜੇ ਦਾ ਅਲਾਰਮ ਲਗਾ ਦਿਓ", "lang": "pa", "action": "unknown", "slots": {}}
+{"text": "yaar papa nu phone karo", "lang": "pa", "action": "unknown", "slots": {}}
+{"text": "Computer Band Kar Do", "lang": "pa", "action": "unknown", "slots": {}}
+{"text": "ki haal hai", "lang": "pa", "action": "unknown", "slots": {}}
+{"text": "tu kaun hai", "lang": "pa", "action": "unknown", "slots": {}}
+{"text": "mainu bhukh lagi hai", "lang": "pa", "action": "unknown", "slots": {}}
+{"text": "ajj bahut thand hai", "lang": "pa", "action": "unknown", "slots": {}}
+{"text": "mera naam gurpreet hai", "lang": "pa", "action": "unknown", "slots": {}}
+{"text": "bluetooth on karo", "lang": "pa", "action": "unknown", "slots": {}}
+{"text": "ਕੀ ਹਾਲ ਹੈ", "lang": "pa", "action": "unknown", "slots": {}}
+{"text": "wifi band karo", "lang": "pa", "action": "unknown", "slots": {}}
+{"text": "timer laga do 10 minute da", "lang": "pa", "action": "unknown", "slots": {}}
+{"text": "uh hello hello", "lang": "pa", "action": "unknown", "slots": {}}
+{"text": "uhh hmm oye", "lang": "pa", "action": "unknown", "slots": {}}

@@ -1,0 +1,460 @@
+{"text": "Amazon ki website kholo.", "action": "open_website", "slots": {"site": "Amazon"}}
+{"text": "Amazon.in khol do", "action": "open_website", "slots": {"site": "Amazon.in"}}
+{"text": "Flipkart ki site open karo.", "action": "open_website", "slots": {"site": "Flipkart"}}
+{"text": "flip kart ki website khol do bhai", "action": "open_website", "slots": {"site": "flip kart"}}
+{"text": "Myntra ki website kholo, kuch kapde dekhne hain.", "action": "open_website", "slots": {"site": "Myntra"}}
+{"text": "myntra dot com open karo", "action": "open_website", "slots": {"site": "myntra dot com"}}
+{"text": "swiggy dot com pe jao", "action": "open_website", "slots": {"site": "swiggy dot com"}}
+{"text": "Zomato ki site kholo, dinner order karna hai.", "action": "open_website", "slots": {"site": "Zomato"}}
+{"text": "Irctc dot co dot in open karo.", "action": "open_website", "slots": {"site": "Irctc dot co dot in"}}
+{"text": "make my trip site open karo", "action": "open_website", "slots": {"site": "make my trip"}}
+{"text": "Paytm ki website kholo.", "action": "open_website", "slots": {"site": "Paytm"}}
+{"text": "paytm dot com khol do", "action": "open_website", "slots": {"site": "paytm dot com"}}
+{"text": "PhonePe ki website open karo", "action": "open_website", "slots": {"site": "PhonePe"}}
+{"text": "SBI online kholo.", "action": "open_website", "slots": {"site": "SBI online"}}
+{"text": "onlinesbi dot com open karo", "action": "open_website", "slots": {"site": "onlinesbi dot com"}}
+{"text": "SBI netbanking site kholo", "action": "open_website", "slots": {"site": "SBI netbanking"}}
+{"text": "HDFC netbanking kholo.", "action": "open_website", "slots": {"site": "HDFC netbanking"}}
+{"text": "HDFC bank ki website open karo", "action": "open_website", "slots": {"site": "HDFC bank"}}
+{"text": "gmail dot com open karo.", "action": "open_website", "slots": {"site": "gmail dot com"}}
+{"text": "Google Drive ki site kholo, file dekhni hai.", "action": "open_website", "slots": {"site": "Google Drive"}}
+{"text": "drive.google.com kholo", "action": "open_website", "slots": {"site": "drive.google.com"}}
+{"text": "Google Maps ki website open karo", "action": "open_website", "slots": {"site": "Google Maps"}}
+{"text": "Google Translate kholo.", "action": "open_website", "slots": {"site": "Google Translate"}}
+{"text": "translate dot google dot com pe jao", "action": "open_website", "slots": {"site": "translate dot google dot com"}}
+{"text": "YouTube ki website kholo.", "action": "open_website", "slots": {"site": "YouTube"}}
+{"text": "youtube dot com kholo", "action": "open_website", "slots": {"site": "youtube dot com"}}
+{"text": "you tube dot com open karo", "action": "open_website", "slots": {"site": "you tube dot com"}}
+{"text": "Wikipedia kholo.", "action": "open_website", "slots": {"site": "Wikipedia"}}
+{"text": "Wikipedia pe jao", "action": "open_website", "slots": {"site": "Wikipedia"}}
+{"text": "wiki pedia ki site kholo", "action": "open_website", "slots": {"site": "wiki pedia"}}
+{"text": "GitHub dot com kholo", "action": "open_website", "slots": {"site": "GitHub dot com"}}
+{"text": "github ki website open karo bhai", "action": "open_website", "slots": {"site": "github"}}
+{"text": "git hub site kholo.", "action": "open_website", "slots": {"site": "git hub"}}
+{"text": "Stack Overflow kholo.", "action": "open_website", "slots": {"site": "Stack Overflow"}}
+{"text": "stackoverflow dot com pe jao", "action": "open_website", "slots": {"site": "stackoverflow dot com"}}
+{"text": "LinkedIn ki website kholo.", "action": "open_website", "slots": {"site": "LinkedIn"}}
+{"text": "linkedin dot com open kar", "action": "open_website", "slots": {"site": "linkedin dot com"}}
+{"text": "Facebook ki site kholo", "action": "open_website", "slots": {"site": "Facebook"}}
+{"text": "face book dot com khol do", "action": "open_website", "slots": {"site": "face book dot com"}}
+{"text": "Twitter ki website kholo.", "action": "open_website", "slots": {"site": "Twitter"}}
+{"text": "x dot com kholo", "action": "open_website", "slots": {"site": "x dot com"}}
+{"text": "Instagram ki website open karo.", "action": "open_website", "slots": {"site": "Instagram"}}
+{"text": "instagram dot com pe jao", "action": "open_website", "slots": {"site": "instagram dot com"}}
+{"text": "Reddit kholo yaar.", "action": "open_website", "slots": {"site": "Reddit"}}
+{"text": "Netflix ki website kholo.", "action": "open_website", "slots": {"site": "Netflix"}}
+{"text": "netflix dot com pe le chalo", "action": "open_website", "slots": {"site": "netflix dot com"}}
+{"text": "Hotstar ki site open karo", "action": "open_website", "slots": {"site": "Hotstar"}}
+{"text": "Cricbuzz kholo, score dekhna hai.", "action": "open_website", "slots": {"site": "Cricbuzz"}}
+{"text": "cricbuzz dot com open karo", "action": "open_website", "slots": {"site": "cricbuzz dot com"}}
+{"text": "ESPNcricinfo ki website kholo", "action": "open_website", "slots": {"site": "ESPNcricinfo"}}
+{"text": "cricinfo site pe jao", "action": "open_website", "slots": {"site": "cricinfo"}}
+{"text": "NDTV ki website kholo.", "action": "open_website", "slots": {"site": "NDTV"}}
+{"text": "ndtv dot com kholo", "action": "open_website", "slots": {"site": "ndtv dot com"}}
+{"text": "times of india dot com open karo.", "action": "open_website", "slots": {"site": "times of india dot com"}}
+{"text": "The Hindu ki site kholo", "action": "open_website", "slots": {"site": "The Hindu"}}
+{"text": "Moneycontrol kholo.", "action": "open_website", "slots": {"site": "Moneycontrol"}}
+{"text": "money control ki website open karo", "action": "open_website", "slots": {"site": "money control"}}
+{"text": "Zerodha Kite kholo", "action": "open_website", "slots": {"site": "Zerodha Kite"}}
+{"text": "kite dot zerodha dot com pe jao", "action": "open_website", "slots": {"site": "kite dot zerodha dot com"}}
+{"text": "groww dot in open karo", "action": "open_website", "slots": {"site": "groww dot in"}}
+{"text": "Naukri dot com kholo", "action": "open_website", "slots": {"site": "Naukri dot com"}}
+{"text": "Naukri ki site pe jao, job dekhni hai.", "action": "open_website", "slots": {"site": "Naukri"}}
+{"text": "Indeed ki website open karo", "action": "open_website", "slots": {"site": "Indeed"}}
+{"text": "Coursera kholo.", "action": "open_website", "slots": {"site": "Coursera"}}
+{"text": "coursera dot org open karo", "action": "open_website", "slots": {"site": "coursera dot org"}}
+{"text": "Udemy ki website kholo", "action": "open_website", "slots": {"site": "Udemy"}}
+{"text": "BYJU's ki website open karo", "action": "open_website", "slots": {"site": "BYJU's"}}
+{"text": "chat gpt dot com open karo.", "action": "open_website", "slots": {"site": "chat gpt dot com"}}
+{"text": "Gemini ki website kholo", "action": "open_website", "slots": {"site": "Gemini"}}
+{"text": "gemini dot google dot com pe jao", "action": "open_website", "slots": {"site": "gemini dot google dot com"}}
+{"text": "DigiLocker kholo.", "action": "open_website", "slots": {"site": "DigiLocker"}}
+{"text": "digilocker ki site open karo", "action": "open_website", "slots": {"site": "digilocker"}}
+{"text": "UIDAI ki website kholo.", "action": "open_website", "slots": {"site": "UIDAI"}}
+{"text": "Aadhaar ki website kholo, address update karna hai.", "action": "open_website", "slots": {"site": "Aadhaar"}}
+{"text": "Income Tax e-filing site kholo", "action": "open_website", "slots": {"site": "Income Tax e-filing"}}
+{"text": "incometax dot gov dot in open karo", "action": "open_website", "slots": {"site": "incometax dot gov dot in"}}
+{"text": "Passport Seva ki website kholo.", "action": "open_website", "slots": {"site": "Passport Seva"}}
+{"text": "BookMyShow kholo, movie ticket lena hai.", "action": "open_website", "slots": {"site": "BookMyShow"}}
+{"text": "book my show ki site open karo", "action": "open_website", "slots": {"site": "book my show"}}
+{"text": "Uber ki site open karo.", "action": "open_website", "slots": {"site": "Uber"}}
+{"text": "RedBus ki website kholo", "action": "open_website", "slots": {"site": "RedBus"}}
+{"text": "Practo ki website kholo, doctor ka appointment lena hai.", "action": "open_website", "slots": {"site": "Practo"}}
+{"text": "PharmEasy ki website open karo", "action": "open_website", "slots": {"site": "PharmEasy"}}
+{"text": "BigBasket ki website kholo.", "action": "open_website", "slots": {"site": "BigBasket"}}
+{"text": "Zepto ki website open karo.", "action": "open_website", "slots": {"site": "Zepto"}}
+{"text": "JioCinema ki website kholo", "action": "open_website", "slots": {"site": "JioCinema"}}
+{"text": "open dot spotify dot com pe jao", "action": "open_website", "slots": {"site": "open dot spotify dot com"}}
+{"text": "Canva ki website kholo.", "action": "open_website", "slots": {"site": "Canva"}}
+{"text": "Overleaf kholo, paper likhna hai.", "action": "open_website", "slots": {"site": "Overleaf"}}
+{"text": "Zara Amazon ki site khol dijiye.", "action": "open_website", "slots": {"site": "Amazon"}}
+{"text": "Kya aap Flipkart ki website khol sakte ho?", "action": "open_website", "slots": {"site": "Flipkart"}}
+{"text": "GitHub ka page open karo", "action": "open_website", "slots": {"site": "GitHub"}}
+{"text": "Browser mein Gmail kholo.", "action": "open_website", "slots": {"site": "Gmail"}}
+{"text": "Chrome mein youtube dot com kholo", "action": "open_website", "slots": {"site": "youtube dot com"}}
+{"text": "Naya tab kholke Amazon ki site pe jao.", "action": "open_website", "slots": {"site": "Amazon"}}
+{"text": "Moneycontrol ki website pe le chalo, market dekhna hai.", "action": "open_website", "slots": {"site": "Moneycontrol"}}
+{"text": "Kripya Passport Seva ki website kholiye.", "action": "open_website", "slots": {"site": "Passport Seva"}}
+{"text": "Mere liye DigiLocker ki website kholo.", "action": "open_website", "slots": {"site": "DigiLocker"}}
+{"text": "1mg dot com open kar de", "action": "open_website", "slots": {"site": "1mg dot com"}}
+{"text": "pharmeasy dot in kholo.", "action": "open_website", "slots": {"site": "pharmeasy dot in"}}
+{"text": "blinkit dot com pe jao", "action": "open_website", "slots": {"site": "blinkit dot com"}}
+{"text": "zepto ki site khol de bhai", "action": "open_website", "slots": {"site": "zepto"}}
+{"text": "Uber dot com kholo", "action": "open_website", "slots": {"site": "Uber dot com"}}
+{"text": "olacabs dot com open karo", "action": "open_website", "slots": {"site": "olacabs dot com"}}
+{"text": "bookmyshow.com kholo", "action": "open_website", "slots": {"site": "bookmyshow.com"}}
+{"text": "wikipedia.org pe jao", "action": "open_website", "slots": {"site": "wikipedia.org"}}
+{"text": "amazon.in open karo", "action": "open_website", "slots": {"site": "amazon.in"}}
+{"text": "flipkart.com kholo", "action": "open_website", "slots": {"site": "flipkart.com"}}
+{"text": "jiocinema dot com pe jao.", "action": "open_website", "slots": {"site": "jiocinema dot com"}}
+{"text": "Stack Overflow ki site kholo, error dekhna hai.", "action": "open_website", "slots": {"site": "Stack Overflow"}}
+{"text": "LinkedIn ka website kholo", "action": "open_website", "slots": {"site": "LinkedIn"}}
+{"text": "Coursera ki website pe le jao.", "action": "open_website", "slots": {"site": "Coursera"}}
+{"text": "Khan Academy dot org kholo", "action": "open_website", "slots": {"site": "Khan Academy dot org"}}
+{"text": "ESPN cricinfo dot com open karo", "action": "open_website", "slots": {"site": "ESPN cricinfo dot com"}}
+{"text": "the hindu dot com kholo", "action": "open_website", "slots": {"site": "the hindu dot com"}}
+{"text": "Groww pe jao", "action": "open_website", "slots": {"site": "Groww"}}
+{"text": "Indeed dot co dot in kholo", "action": "open_website", "slots": {"site": "Indeed dot co dot in"}}
+{"text": "SBI ki website kholo.", "action": "open_website", "slots": {"site": "SBI"}}
+{"text": "reddit pe jao", "action": "open_website", "slots": {"site": "reddit"}}
+{"text": "Gemini website kholo.", "action": "open_website", "slots": {"site": "Gemini"}}
+{"text": "chatgpt.com open karo", "action": "open_website", "slots": {"site": "chatgpt.com"}}
+{"text": "UIDAI dot gov dot in kholo", "action": "open_website", "slots": {"site": "UIDAI dot gov dot in"}}
+{"text": "Income tax ki website kholo", "action": "open_website", "slots": {"site": "Income tax"}}
+{"text": "Passport seva site pe jao", "action": "open_website", "slots": {"site": "Passport seva"}}
+{"text": "Meesho dot com kholo", "action": "open_website", "slots": {"site": "Meesho dot com"}}
+{"text": "Myntra pe jao", "action": "open_website", "slots": {"site": "Myntra"}}
+{"text": "Swiggy ki website pe jao, biryani dekhni hai.", "action": "open_website", "slots": {"site": "Swiggy"}}
+{"text": "MakeMyTrip dot com kholo, flight dekhni hai.", "action": "open_website", "slots": {"site": "MakeMyTrip dot com"}}
+{"text": "Paytm ki site pe jao", "action": "open_website", "slots": {"site": "Paytm"}}
+{"text": "phonepe dot com open karo", "action": "open_website", "slots": {"site": "phonepe dot com"}}
+{"text": "Google Maps ki site kholo.", "action": "open_website", "slots": {"site": "Google Maps"}}
+{"text": "maps dot google dot com kholo", "action": "open_website", "slots": {"site": "maps dot google dot com"}}
+{"text": "IRCTC chi website open kar.", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "Wikipedia ughad na", "action": "open_website", "slots": {"site": "Wikipedia"}}
+{"text": "github dot com ughad", "action": "open_website", "slots": {"site": "github dot com"}}
+{"text": "Cricbuzz chi site ughada.", "action": "open_website", "slots": {"site": "Cricbuzz"}}
+{"text": "Zomato chi website ughad", "action": "open_website", "slots": {"site": "Zomato"}}
+{"text": "Gmail chi website ughada.", "action": "open_website", "slots": {"site": "Gmail"}}
+{"text": "Naukri dot com ughad", "action": "open_website", "slots": {"site": "Naukri dot com"}}
+{"text": "Moneycontrol chi site open kara", "action": "open_website", "slots": {"site": "Moneycontrol"}}
+{"text": "BookMyShow chi website ughad, picture la jaycha aahe.", "action": "open_website", "slots": {"site": "BookMyShow"}}
+{"text": "Myntra chi site ughad na.", "action": "open_website", "slots": {"site": "Myntra"}}
+{"text": "DigiLocker chi website ughada", "action": "open_website", "slots": {"site": "DigiLocker"}}
+{"text": "Passport Seva chi site ughad.", "action": "open_website", "slots": {"site": "Passport Seva"}}
+{"text": "Times of India chi website ughad", "action": "open_website", "slots": {"site": "Times of India"}}
+{"text": "Udemy chi site ughad", "action": "open_website", "slots": {"site": "Udemy"}}
+{"text": "Practo chi website ughada", "action": "open_website", "slots": {"site": "Practo"}}
+{"text": "BigBasket chi site ughad.", "action": "open_website", "slots": {"site": "BigBasket"}}
+{"text": "amazon dot in ughad", "action": "open_website", "slots": {"site": "amazon dot in"}}
+{"text": "Zepto chi website ughad", "action": "open_website", "slots": {"site": "Zepto"}}
+{"text": "Groww chi website ughada.", "action": "open_website", "slots": {"site": "Groww"}}
+{"text": "Amazon er website kholo.", "action": "open_website", "slots": {"site": "Amazon"}}
+{"text": "Flipkart er site ta khulo", "action": "open_website", "slots": {"site": "Flipkart"}}
+{"text": "IRCTC er website khule dao.", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "Wikipedia khule dao", "action": "open_website", "slots": {"site": "Wikipedia"}}
+{"text": "youtube dot com khulo", "action": "open_website", "slots": {"site": "youtube dot com"}}
+{"text": "Cricbuzz er site ta kholo.", "action": "open_website", "slots": {"site": "Cricbuzz"}}
+{"text": "Gmail er website khule dao", "action": "open_website", "slots": {"site": "Gmail"}}
+{"text": "The Hindu er website kholo", "action": "open_website", "slots": {"site": "The Hindu"}}
+{"text": "Zomato er site ta open koro.", "action": "open_website", "slots": {"site": "Zomato"}}
+{"text": "Swiggy er website open koro", "action": "open_website", "slots": {"site": "Swiggy"}}
+{"text": "Netflix er website kholo", "action": "open_website", "slots": {"site": "Netflix"}}
+{"text": "Moneycontrol er site ta kholo.", "action": "open_website", "slots": {"site": "Moneycontrol"}}
+{"text": "RedBus er website khule dao", "action": "open_website", "slots": {"site": "RedBus"}}
+{"text": "Blinkit er site ta open koro", "action": "open_website", "slots": {"site": "Blinkit"}}
+{"text": "makemytrip dot com khulo.", "action": "open_website", "slots": {"site": "makemytrip dot com"}}
+{"text": "Facebook er website ta kholo", "action": "open_website", "slots": {"site": "Facebook"}}
+{"text": "Practo er website khule dao.", "action": "open_website", "slots": {"site": "Practo"}}
+{"text": "stack overflow er site ta kholo", "action": "open_website", "slots": {"site": "stack overflow"}}
+{"text": "Amazon website open maadi.", "action": "open_website", "slots": {"site": "Amazon"}}
+{"text": "Flipkart site open maadi", "action": "open_website", "slots": {"site": "Flipkart"}}
+{"text": "IRCTC website open maadi, ticket book maadbeku.", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "Cricbuzz site open maadi.", "action": "open_website", "slots": {"site": "Cricbuzz"}}
+{"text": "Swiggy site tegi, oota order maadbeku.", "action": "open_website", "slots": {"site": "Swiggy"}}
+{"text": "Gmail website open maadi", "action": "open_website", "slots": {"site": "Gmail"}}
+{"text": "Myntra website tegiri.", "action": "open_website", "slots": {"site": "Myntra"}}
+{"text": "YouTube website open maadi", "action": "open_website", "slots": {"site": "YouTube"}}
+{"text": "youtube dot com tegi", "action": "open_website", "slots": {"site": "youtube dot com"}}
+{"text": "Naukri dot com open maadi.", "action": "open_website", "slots": {"site": "Naukri dot com"}}
+{"text": "LinkedIn website tegi", "action": "open_website", "slots": {"site": "LinkedIn"}}
+{"text": "Moneycontrol site open maadi", "action": "open_website", "slots": {"site": "Moneycontrol"}}
+{"text": "Zerodha Kite website open maadi.", "action": "open_website", "slots": {"site": "Zerodha Kite"}}
+{"text": "BookMyShow site open maadi, movie ticket beku.", "action": "open_website", "slots": {"site": "BookMyShow"}}
+{"text": "RedBus website tegiri", "action": "open_website", "slots": {"site": "RedBus"}}
+{"text": "BigBasket site tegi.", "action": "open_website", "slots": {"site": "BigBasket"}}
+{"text": "DigiLocker website open maadi", "action": "open_website", "slots": {"site": "DigiLocker"}}
+{"text": "Passport Seva site tegiri.", "action": "open_website", "slots": {"site": "Passport Seva"}}
+{"text": "Stack Overflow site open maadu", "action": "open_website", "slots": {"site": "Stack Overflow"}}
+{"text": "ChatGPT website tegi.", "action": "open_website", "slots": {"site": "ChatGPT"}}
+{"text": "The Hindu website open maadi", "action": "open_website", "slots": {"site": "The Hindu"}}
+{"text": "amazon dot in open maadi", "action": "open_website", "slots": {"site": "amazon dot in"}}
+{"text": "Flipkart ge hogu", "action": "open_website", "slots": {"site": "Flipkart"}}
+{"text": "Wikipedia ge hogi.", "action": "open_website", "slots": {"site": "Wikipedia"}}
+{"text": "HDFC netbanking open maadi", "action": "open_website", "slots": {"site": "HDFC netbanking"}}
+{"text": "Google Maps website open maadi.", "action": "open_website", "slots": {"site": "Google Maps"}}
+{"text": "Canva site tegi", "action": "open_website", "slots": {"site": "Canva"}}
+{"text": "Overleaf website open maadi", "action": "open_website", "slots": {"site": "Overleaf"}}
+{"text": "Netflix website open maadi.", "action": "open_website", "slots": {"site": "Netflix"}}
+{"text": "Hotstar site open maadi", "action": "open_website", "slots": {"site": "Hotstar"}}
+{"text": "Ola website open maadu", "action": "open_website", "slots": {"site": "Ola"}}
+{"text": "Groww site open maadi.", "action": "open_website", "slots": {"site": "Groww"}}
+{"text": "Indeed website open maadi", "action": "open_website", "slots": {"site": "Indeed"}}
+{"text": "Zepto site tegi", "action": "open_website", "slots": {"site": "Zepto"}}
+{"text": "Spotify website open maadi.", "action": "open_website", "slots": {"site": "Spotify"}}
+{"text": "Swalpa IRCTC site open maadi please", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "Amazon website open pannu", "action": "open_website", "slots": {"site": "Amazon"}}
+{"text": "IRCTC website ah open pannunga", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "Wikipedia open pannu", "action": "open_website", "slots": {"site": "Wikipedia"}}
+{"text": "Cricbuzz site ah thira", "action": "open_website", "slots": {"site": "Cricbuzz"}}
+{"text": "Zomato website ah open pannunga.", "action": "open_website", "slots": {"site": "Zomato"}}
+{"text": "Swiggy site open pannu", "action": "open_website", "slots": {"site": "Swiggy"}}
+{"text": "Gmail website ah open pannu", "action": "open_website", "slots": {"site": "Gmail"}}
+{"text": "Meesho website open pannunga.", "action": "open_website", "slots": {"site": "Meesho"}}
+{"text": "YouTube website ah open pannu", "action": "open_website", "slots": {"site": "YouTube"}}
+{"text": "you tube dot com open pannu", "action": "open_website", "slots": {"site": "you tube dot com"}}
+{"text": "LinkedIn site ah open pannunga", "action": "open_website", "slots": {"site": "LinkedIn"}}
+{"text": "Moneycontrol website open pannu", "action": "open_website", "slots": {"site": "Moneycontrol"}}
+{"text": "The Hindu website ah open pannu.", "action": "open_website", "slots": {"site": "The Hindu"}}
+{"text": "BookMyShow site ah open pannu, padam ticket venum", "action": "open_website", "slots": {"site": "BookMyShow"}}
+{"text": "RedBus website ah thira", "action": "open_website", "slots": {"site": "RedBus"}}
+{"text": "Practo site open pannunga.", "action": "open_website", "slots": {"site": "Practo"}}
+{"text": "BigBasket website ah open pannu", "action": "open_website", "slots": {"site": "BigBasket"}}
+{"text": "DigiLocker website open pannunga.", "action": "open_website", "slots": {"site": "DigiLocker"}}
+{"text": "Passport Seva website ah open pannu", "action": "open_website", "slots": {"site": "Passport Seva"}}
+{"text": "Coursera site ah open pannu", "action": "open_website", "slots": {"site": "Coursera"}}
+{"text": "Stack Overflow website ah open pannu.", "action": "open_website", "slots": {"site": "Stack Overflow"}}
+{"text": "ChatGPT website open pannu", "action": "open_website", "slots": {"site": "ChatGPT"}}
+{"text": "ESPNcricinfo site ah open pannu", "action": "open_website", "slots": {"site": "ESPNcricinfo"}}
+{"text": "amazon dot in open pannu.", "action": "open_website", "slots": {"site": "amazon dot in"}}
+{"text": "Wikipedia ku po", "action": "open_website", "slots": {"site": "Wikipedia"}}
+{"text": "Flipkart page ku po.", "action": "open_website", "slots": {"site": "Flipkart"}}
+{"text": "SBI online website open pannunga", "action": "open_website", "slots": {"site": "SBI online"}}
+{"text": "Google Translate site ah open pannu.", "action": "open_website", "slots": {"site": "Google Translate"}}
+{"text": "Canva website ah open pannu", "action": "open_website", "slots": {"site": "Canva"}}
+{"text": "Udemy site open pannu", "action": "open_website", "slots": {"site": "Udemy"}}
+{"text": "Netflix website ah open pannunga", "action": "open_website", "slots": {"site": "Netflix"}}
+{"text": "Hotstar website ah open pannu.", "action": "open_website", "slots": {"site": "Hotstar"}}
+{"text": "Uber site ah open pannu", "action": "open_website", "slots": {"site": "Uber"}}
+{"text": "NDTV website open pannu", "action": "open_website", "slots": {"site": "NDTV"}}
+{"text": "Groww website ah open pannunga.", "action": "open_website", "slots": {"site": "Groww"}}
+{"text": "Khan Academy site ah open pannu", "action": "open_website", "slots": {"site": "Khan Academy"}}
+{"text": "Blinkit website ah thira", "action": "open_website", "slots": {"site": "Blinkit"}}
+{"text": "PharmEasy site ah open pannu.", "action": "open_website", "slots": {"site": "PharmEasy"}}
+{"text": "irctc.co.in open pannu", "action": "open_website", "slots": {"site": "irctc.co.in"}}
+{"text": "Amazon website open cheyyi.", "action": "open_website", "slots": {"site": "Amazon"}}
+{"text": "Flipkart site open cheyyandi", "action": "open_website", "slots": {"site": "Flipkart"}}
+{"text": "github dot com open cheyyi.", "action": "open_website", "slots": {"site": "github dot com"}}
+{"text": "Cricbuzz site teruvu", "action": "open_website", "slots": {"site": "Cricbuzz"}}
+{"text": "Zomato website open cheyyandi", "action": "open_website", "slots": {"site": "Zomato"}}
+{"text": "Swiggy site open cheyyi.", "action": "open_website", "slots": {"site": "Swiggy"}}
+{"text": "Gmail website open chey", "action": "open_website", "slots": {"site": "Gmail"}}
+{"text": "Myntra website teruvandi", "action": "open_website", "slots": {"site": "Myntra"}}
+{"text": "Meesho site open cheyyi", "action": "open_website", "slots": {"site": "Meesho"}}
+{"text": "YouTube website open cheyyandi.", "action": "open_website", "slots": {"site": "YouTube"}}
+{"text": "Naukri website open cheyyi", "action": "open_website", "slots": {"site": "Naukri"}}
+{"text": "LinkedIn site open chey", "action": "open_website", "slots": {"site": "LinkedIn"}}
+{"text": "Moneycontrol website open cheyyandi.", "action": "open_website", "slots": {"site": "Moneycontrol"}}
+{"text": "BookMyShow site open cheyyi, cinema ticket kavali", "action": "open_website", "slots": {"site": "BookMyShow"}}
+{"text": "RedBus website open cheyyi", "action": "open_website", "slots": {"site": "RedBus"}}
+{"text": "Practo site open cheyyandi.", "action": "open_website", "slots": {"site": "Practo"}}
+{"text": "BigBasket website teruvu", "action": "open_website", "slots": {"site": "BigBasket"}}
+{"text": "Passport Seva site open cheyyandi.", "action": "open_website", "slots": {"site": "Passport Seva"}}
+{"text": "Coursera website open chey", "action": "open_website", "slots": {"site": "Coursera"}}
+{"text": "Stack Overflow site open cheyyi", "action": "open_website", "slots": {"site": "Stack Overflow"}}
+{"text": "ChatGPT website open cheyyandi.", "action": "open_website", "slots": {"site": "ChatGPT"}}
+{"text": "amazon dot in open cheyyi", "action": "open_website", "slots": {"site": "amazon dot in"}}
+{"text": "Wikipedia ki vellu.", "action": "open_website", "slots": {"site": "Wikipedia"}}
+{"text": "Google Drive website open cheyyi", "action": "open_website", "slots": {"site": "Google Drive"}}
+{"text": "Canva site open cheyyi.", "action": "open_website", "slots": {"site": "Canva"}}
+{"text": "Udemy website open cheyyandi", "action": "open_website", "slots": {"site": "Udemy"}}
+{"text": "Netflix website open cheyyi", "action": "open_website", "slots": {"site": "Netflix"}}
+{"text": "Hotstar site teruvu.", "action": "open_website", "slots": {"site": "Hotstar"}}
+{"text": "Ola website open cheyyi", "action": "open_website", "slots": {"site": "Ola"}}
+{"text": "Zerodha website open cheyyandi", "action": "open_website", "slots": {"site": "Zerodha"}}
+{"text": "Times of India site open cheyyi.", "action": "open_website", "slots": {"site": "Times of India"}}
+{"text": "Indeed website open chey", "action": "open_website", "slots": {"site": "Indeed"}}
+{"text": "1mg website open cheyyi", "action": "open_website", "slots": {"site": "1mg"}}
+{"text": "Konchem MakeMyTrip site open cheyyandi", "action": "open_website", "slots": {"site": "MakeMyTrip"}}
+{"text": "Income Tax website open cheyyi.", "action": "open_website", "slots": {"site": "Income Tax"}}
+{"text": "Flipkart site open cheyyu", "action": "open_website", "slots": {"site": "Flipkart"}}
+{"text": "github dot com thurakku", "action": "open_website", "slots": {"site": "github dot com"}}
+{"text": "Zomato website thurakkamo?", "action": "open_website", "slots": {"site": "Zomato"}}
+{"text": "Swiggy site open aakku", "action": "open_website", "slots": {"site": "Swiggy"}}
+{"text": "Gmail website thurakku.", "action": "open_website", "slots": {"site": "Gmail"}}
+{"text": "YouTube website onnu thurakku", "action": "open_website", "slots": {"site": "YouTube"}}
+{"text": "Naukri website open cheyyu.", "action": "open_website", "slots": {"site": "Naukri"}}
+{"text": "LinkedIn site thurakku", "action": "open_website", "slots": {"site": "LinkedIn"}}
+{"text": "BookMyShow website open cheyyu", "action": "open_website", "slots": {"site": "BookMyShow"}}
+{"text": "DigiLocker website onnu open cheyyu", "action": "open_website", "slots": {"site": "DigiLocker"}}
+{"text": "Coursera site thurakku", "action": "open_website", "slots": {"site": "Coursera"}}
+{"text": "ChatGPT website open cheyyu.", "action": "open_website", "slots": {"site": "ChatGPT"}}
+{"text": "amazon dot in thurakku", "action": "open_website", "slots": {"site": "amazon dot in"}}
+{"text": "RedBus website open cheyyu", "action": "open_website", "slots": {"site": "RedBus"}}
+{"text": "Blinkit site thurakku", "action": "open_website", "slots": {"site": "Blinkit"}}
+{"text": "Udemy website thurakku.", "action": "open_website", "slots": {"site": "Udemy"}}
+{"text": "Passport Seva site open cheyyu", "action": "open_website", "slots": {"site": "Passport Seva"}}
+{"text": "open the flipkart website", "action": "open_website", "slots": {"site": "flipkart"}}
+{"text": "Go to github dot com.", "action": "open_website", "slots": {"site": "github dot com"}}
+{"text": "open irctc.co.in", "action": "open_website", "slots": {"site": "irctc.co.in"}}
+{"text": "Take me to the Cricbuzz website.", "action": "open_website", "slots": {"site": "Cricbuzz"}}
+{"text": "Please open the LinkedIn website.", "action": "open_website", "slots": {"site": "LinkedIn"}}
+{"text": "Open the Zomato site.", "action": "open_website", "slots": {"site": "Zomato"}}
+{"text": "go to swiggy dot com", "action": "open_website", "slots": {"site": "swiggy dot com"}}
+{"text": "open gmail dot com", "action": "open_website", "slots": {"site": "gmail dot com"}}
+{"text": "Open Google Maps in the browser.", "action": "open_website", "slots": {"site": "Google Maps"}}
+{"text": "go to google translate", "action": "open_website", "slots": {"site": "google translate"}}
+{"text": "Open the YouTube website.", "action": "open_website", "slots": {"site": "YouTube"}}
+{"text": "go to youtube dot com", "action": "open_website", "slots": {"site": "youtube dot com"}}
+{"text": "open netflix dot com", "action": "open_website", "slots": {"site": "netflix dot com"}}
+{"text": "open espncricinfo", "action": "open_website", "slots": {"site": "espncricinfo"}}
+{"text": "Go to the NDTV website.", "action": "open_website", "slots": {"site": "NDTV"}}
+{"text": "open times of india", "action": "open_website", "slots": {"site": "times of india"}}
+{"text": "open the hindu website", "action": "open_website", "slots": {"site": "the hindu"}}
+{"text": "Go to moneycontrol dot com.", "action": "open_website", "slots": {"site": "moneycontrol dot com"}}
+{"text": "open zerodha kite", "action": "open_website", "slots": {"site": "zerodha kite"}}
+{"text": "open kite dot zerodha dot com", "action": "open_website", "slots": {"site": "kite dot zerodha dot com"}}
+{"text": "Open the Groww website.", "action": "open_website", "slots": {"site": "Groww"}}
+{"text": "open indeed dot com", "action": "open_website", "slots": {"site": "indeed dot com"}}
+{"text": "Open Coursera.", "action": "open_website", "slots": {"site": "Coursera"}}
+{"text": "go to udemy dot com", "action": "open_website", "slots": {"site": "udemy dot com"}}
+{"text": "open khan academy", "action": "open_website", "slots": {"site": "khan academy"}}
+{"text": "Open the BYJU's website.", "action": "open_website", "slots": {"site": "BYJU's"}}
+{"text": "go to chatgpt dot com", "action": "open_website", "slots": {"site": "chatgpt dot com"}}
+{"text": "Open DigiLocker.", "action": "open_website", "slots": {"site": "DigiLocker"}}
+{"text": "go to the UIDAI website", "action": "open_website", "slots": {"site": "UIDAI"}}
+{"text": "open the aadhaar website", "action": "open_website", "slots": {"site": "aadhaar"}}
+{"text": "Open the income tax e-filing website.", "action": "open_website", "slots": {"site": "income tax e-filing"}}
+{"text": "open bookmyshow dot com", "action": "open_website", "slots": {"site": "bookmyshow dot com"}}
+{"text": "open redbus", "action": "open_website", "slots": {"site": "redbus"}}
+{"text": "Open Practo.", "action": "open_website", "slots": {"site": "Practo"}}
+{"text": "open the pharmeasy site", "action": "open_website", "slots": {"site": "pharmeasy"}}
+{"text": "Open BigBasket.", "action": "open_website", "slots": {"site": "BigBasket"}}
+{"text": "go to blinkit dot com", "action": "open_website", "slots": {"site": "blinkit dot com"}}
+{"text": "open the zepto website", "action": "open_website", "slots": {"site": "zepto"}}
+{"text": "Open the JioCinema website.", "action": "open_website", "slots": {"site": "JioCinema"}}
+{"text": "open spotify dot com", "action": "open_website", "slots": {"site": "spotify dot com"}}
+{"text": "Open Overleaf.", "action": "open_website", "slots": {"site": "Overleaf"}}
+{"text": "open overleaf dot com", "action": "open_website", "slots": {"site": "overleaf dot com"}}
+{"text": "open instagram dot com", "action": "open_website", "slots": {"site": "instagram dot com"}}
+{"text": "Open the Twitter website.", "action": "open_website", "slots": {"site": "Twitter"}}
+{"text": "go to x dot com", "action": "open_website", "slots": {"site": "x dot com"}}
+{"text": "go to the phonepe site", "action": "open_website", "slots": {"site": "phonepe"}}
+{"text": "Open onlinesbi dot sbi.", "action": "open_website", "slots": {"site": "onlinesbi dot sbi"}}
+{"text": "open hdfc netbanking", "action": "open_website", "slots": {"site": "hdfc netbanking"}}
+{"text": "go to the meesho website", "action": "open_website", "slots": {"site": "meesho"}}
+{"text": "Open wikipedia dot org.", "action": "open_website", "slots": {"site": "wikipedia dot org"}}
+{"text": "Open google drive website.", "action": "open_website", "slots": {"site": "google drive"}}
+{"text": "open drive dot google dot com", "action": "open_website", "slots": {"site": "drive dot google dot com"}}
+{"text": "Navigate to amazon.in.", "action": "open_website", "slots": {"site": "amazon.in"}}
+{"text": "visit flipkart dot com", "action": "open_website", "slots": {"site": "flipkart dot com"}}
+{"text": "Load the IRCTC website.", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "pull up the wikipedia site", "action": "open_website", "slots": {"site": "wikipedia"}}
+{"text": "bring up linkedin dot com", "action": "open_website", "slots": {"site": "linkedin dot com"}}
+{"text": "open w w w dot amazon dot in", "action": "open_website", "slots": {"site": "w w w dot amazon dot in"}}
+{"text": "open www.flipkart.com", "action": "open_website", "slots": {"site": "www.flipkart.com"}}
+{"text": "Go to en.wikipedia.org.", "action": "open_website", "slots": {"site": "en.wikipedia.org"}}
+{"text": "अमेज़न की वेबसाइट खोलो", "action": "open_website", "slots": {"site": "अमेज़न"}}
+{"text": "फ्लिपकार्ट की साइट खोलो।", "action": "open_website", "slots": {"site": "फ्लिपकार्ट"}}
+{"text": "IRCTC की वेबसाइट खोलो", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "विकिपीडिया खोलो", "action": "open_website", "slots": {"site": "विकिपीडिया"}}
+{"text": "यूट्यूब की वेबसाइट खोलो।", "action": "open_website", "slots": {"site": "यूट्यूब"}}
+{"text": "जीमेल की साइट खोल दो", "action": "open_website", "slots": {"site": "जीमेल"}}
+{"text": "Cricbuzz की वेबसाइट खोलो", "action": "open_website", "slots": {"site": "Cricbuzz"}}
+{"text": "मिंत्रा की वेबसाइट ओपन करो", "action": "open_website", "slots": {"site": "मिंत्रा"}}
+{"text": "ज़ोमैटो की साइट खोलो।", "action": "open_website", "slots": {"site": "ज़ोमैटो"}}
+{"text": "पासपोर्ट सेवा की वेबसाइट खोलो", "action": "open_website", "slots": {"site": "पासपोर्ट सेवा"}}
+{"text": "डिजीलॉकर की वेबसाइट खोलो", "action": "open_website", "slots": {"site": "डिजीलॉकर"}}
+{"text": "github dot com खोलो", "action": "open_website", "slots": {"site": "github dot com"}}
+{"text": "नौकरी डॉट कॉम खोलो", "action": "open_website", "slots": {"site": "नौकरी डॉट कॉम"}}
+{"text": "आधार की वेबसाइट खोलिए।", "action": "open_website", "slots": {"site": "आधार"}}
+{"text": "ॲमेझॉनची वेबसाईट उघड", "action": "open_website", "slots": {"site": "ॲमेझॉन"}}
+{"text": "विकिपीडिया उघडा", "action": "open_website", "slots": {"site": "विकिपीडिया"}}
+{"text": "IRCTC ची वेबसाईट उघड.", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "অ্যামাজনের ওয়েবসাইট খোলো", "action": "open_website", "slots": {"site": "অ্যামাজন"}}
+{"text": "ফ্লিপকার্টের সাইট খুলে দাও", "action": "open_website", "slots": {"site": "ফ্লিপকার্ট"}}
+{"text": "উইকিপিডিয়া খোলো", "action": "open_website", "slots": {"site": "উইকিপিডিয়া"}}
+{"text": "ಅಮೆಜಾನ್ ವೆಬ್ಸೈಟ್ ಓಪನ್ ಮಾಡಿ", "action": "open_website", "slots": {"site": "ಅಮೆಜಾನ್"}}
+{"text": "ಫ್ಲಿಪ್ಕಾರ್ಟ್ ಸೈಟ್ ತೆಗಿ", "action": "open_website", "slots": {"site": "ಫ್ಲಿಪ್ಕಾರ್ಟ್"}}
+{"text": "ವಿಕಿಪೀಡಿಯಾ ಓಪನ್ ಮಾಡು", "action": "open_website", "slots": {"site": "ವಿಕಿಪೀಡಿಯಾ"}}
+{"text": "IRCTC ವೆಬ್ಸೈಟ್ ಓಪನ್ ಮಾಡಿ", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "ಜಿಮೇಲ್ ವೆಬ್ಸೈಟ್ ತೆಗೆಯಿರಿ", "action": "open_website", "slots": {"site": "ಜಿಮೇಲ್"}}
+{"text": "Cricbuzz ಸೈಟ್ ಓಪನ್ ಮಾಡಿ", "action": "open_website", "slots": {"site": "Cricbuzz"}}
+{"text": "அமேசான் வெப்சைட் ஓபன் பண்ணு", "action": "open_website", "slots": {"site": "அமேசான்"}}
+{"text": "ஃப்ளிப்கார்ட் சைட்டை திற", "action": "open_website", "slots": {"site": "ஃப்ளிப்கார்ட்"}}
+{"text": "விக்கிபீடியா ஓபன் பண்ணுங்க", "action": "open_website", "slots": {"site": "விக்கிபீடியா"}}
+{"text": "IRCTC வெப்சைட் ஓபன் பண்ணு", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "Gmail வெப்சைட்டை திறங்க", "action": "open_website", "slots": {"site": "Gmail"}}
+{"text": "யூடியூப் வெப்சைட் ஓபன் பண்ணு", "action": "open_website", "slots": {"site": "யூடியூப்"}}
+{"text": "అమెజాన్ వెబ్సైట్ ఓపెన్ చేయి", "action": "open_website", "slots": {"site": "అమెజాన్"}}
+{"text": "ఫ్లిప్కార్ట్ సైట్ ఓపెన్ చేయండి", "action": "open_website", "slots": {"site": "ఫ్లిప్కార్ట్"}}
+{"text": "వికీపీడియా ఓపెన్ చెయ్యి", "action": "open_website", "slots": {"site": "వికీపీడియా"}}
+{"text": "IRCTC వెబ్సైట్ తెరువు", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "Naukri వెబ్సైట్ ఓపెన్ చేయి", "action": "open_website", "slots": {"site": "Naukri"}}
+{"text": "ആമസോൺ വെബ്സൈറ്റ് തുറക്കൂ", "action": "open_website", "slots": {"site": "ആമസോൺ"}}
+{"text": "ഫ്ലിപ്കാർട്ട് സൈറ്റ് ഓപ്പൺ ചെയ്യൂ", "action": "open_website", "slots": {"site": "ഫ്ലിപ്കാർട്ട്"}}
+{"text": "വിക്കിപീഡിയ തുറക്ക്", "action": "open_website", "slots": {"site": "വിക്കിപീഡിയ"}}
+{"text": "IRCTC വെബ്സൈറ്റ് തുറക്കൂ", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "Instagram kholo.", "action": "open_app", "slots": {"app": "Instagram"}}
+{"text": "YouTube kholo", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "you tube kholo yaar", "action": "open_app", "slots": {"app": "you tube"}}
+{"text": "Spotify chalu karo.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Netflix open karo", "action": "open_app", "slots": {"app": "Netflix"}}
+{"text": "Facebook kholo.", "action": "open_app", "slots": {"app": "Facebook"}}
+{"text": "face book open kar do", "action": "open_app", "slots": {"app": "face book"}}
+{"text": "Twitter kholo", "action": "open_app", "slots": {"app": "Twitter"}}
+{"text": "X app kholo", "action": "open_app", "slots": {"app": "X"}}
+{"text": "LinkedIn open karo.", "action": "open_app", "slots": {"app": "LinkedIn"}}
+{"text": "Hotstar kholo", "action": "open_app", "slots": {"app": "Hotstar"}}
+{"text": "JioCinema open kar do", "action": "open_app", "slots": {"app": "JioCinema"}}
+{"text": "ChatGPT kholo.", "action": "open_app", "slots": {"app": "ChatGPT"}}
+{"text": "Canva app kholo", "action": "open_app", "slots": {"app": "Canva"}}
+{"text": "WhatsApp kholo", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "what's app open karo.", "action": "open_app", "slots": {"app": "what's app"}}
+{"text": "Prime Video kholo", "action": "open_app", "slots": {"app": "Prime Video"}}
+{"text": "Telegram open karo", "action": "open_app", "slots": {"app": "Telegram"}}
+{"text": "Instagram open maadi", "action": "open_app", "slots": {"app": "Instagram"}}
+{"text": "YouTube open maadi.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "Spotify open maadu", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Netflix tegi", "action": "open_app", "slots": {"app": "Netflix"}}
+{"text": "Instagram open pannu.", "action": "open_app", "slots": {"app": "Instagram"}}
+{"text": "YouTube open pannunga", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "Spotify ah open pannu", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Hotstar open pannu", "action": "open_app", "slots": {"app": "Hotstar"}}
+{"text": "Instagram open cheyyi", "action": "open_app", "slots": {"app": "Instagram"}}
+{"text": "YouTube open cheyyandi.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "Spotify open chey", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Facebook open cheyyi", "action": "open_app", "slots": {"app": "Facebook"}}
+{"text": "Instagram thurakku", "action": "open_app", "slots": {"app": "Instagram"}}
+{"text": "YouTube onnu open cheyyu.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "Instagram ughad", "action": "open_app", "slots": {"app": "Instagram"}}
+{"text": "YouTube ughada.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "Instagram khulo", "action": "open_app", "slots": {"app": "Instagram"}}
+{"text": "YouTube ta khule dao", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "open instagram", "action": "open_app", "slots": {"app": "instagram"}}
+{"text": "Open YouTube.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "launch spotify", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "Open Netflix.", "action": "open_app", "slots": {"app": "Netflix"}}
+{"text": "start the facebook app", "action": "open_app", "slots": {"app": "facebook"}}
+{"text": "open twitter", "action": "open_app", "slots": {"app": "twitter"}}
+{"text": "Open LinkedIn.", "action": "open_app", "slots": {"app": "LinkedIn"}}
+{"text": "open hotstar", "action": "open_app", "slots": {"app": "hotstar"}}
+{"text": "open chatgpt", "action": "open_app", "slots": {"app": "chatgpt"}}
+{"text": "Open the Canva app.", "action": "open_app", "slots": {"app": "Canva"}}
+{"text": "open whatsapp", "action": "open_app", "slots": {"app": "whatsapp"}}
+{"text": "Open JioCinema.", "action": "open_app", "slots": {"app": "JioCinema"}}
+{"text": "start telegram", "action": "open_app", "slots": {"app": "telegram"}}
+{"text": "Zara Instagram khol do na.", "action": "open_app", "slots": {"app": "Instagram"}}
+{"text": "Bhai YouTube chalu kar.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "Spotify app open karo please", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Netflix wala app kholo", "action": "open_app", "slots": {"app": "Netflix"}}
+{"text": "Instagram ko open karo", "action": "open_app", "slots": {"app": "Instagram"}}
+{"text": "Amazon Prime kholo.", "action": "open_app", "slots": {"app": "Amazon Prime"}}
+{"text": "Discord kholo", "action": "open_app", "slots": {"app": "Discord"}}
+{"text": "Zoom open karo", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "Teams kholo.", "action": "open_app", "slots": {"app": "Teams"}}
+{"text": "इंस्टाग्राम खोलो", "action": "open_app", "slots": {"app": "इंस्टाग्राम"}}
+{"text": "यूट्यूब खोलो।", "action": "open_app", "slots": {"app": "यूट्यूब"}}
+{"text": "ಸ್ಪಾಟಿಫೈ ಓಪನ್ ಮಾಡಿ", "action": "open_app", "slots": {"app": "ಸ್ಪಾಟಿಫೈ"}}
+{"text": "இன்ஸ்டாகிராம் ஓபன் பண்ணு", "action": "open_app", "slots": {"app": "இன்ஸ்டாகிராம்"}}
+{"text": "నెట్ఫ్లిక్స్ ఓపెన్ చేయి", "action": "open_app", "slots": {"app": "నెట్ఫ్లిక్స్"}}

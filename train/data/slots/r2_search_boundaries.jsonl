@@ -1,0 +1,260 @@
+{"text": "Zara bataiye ki Chandrayaan 3 kab launch hua tha.", "action": "web_search", "slots": {"query": "Chandrayaan 3 kab launch hua tha"}}
+{"text": "Mujhe ye batao ki RBI ka repo rate abhi kitna hai.", "action": "web_search", "slots": {"query": "RBI ka repo rate abhi kitna hai"}}
+{"text": "Amazon par Boat ke earbuds dhundhiye.", "action": "web_search", "slots": {"site": "Amazon", "query": "Boat ke earbuds"}}
+{"text": "Myntra pe ladies kurta under 500 dhundho.", "action": "web_search", "slots": {"site": "Myntra", "query": "ladies kurta under 500"}}
+{"text": "Meesho mein cotton saree dikhaiye.", "action": "web_search", "slots": {"site": "Meesho", "query": "cotton saree"}}
+{"text": "Kripya samjhaiye ki inflation kya hota hai.", "action": "web_search", "slots": {"query": "inflation kya hota hai"}}
+{"text": "Aap mujhe samjhao blockchain kaise kaam karta hai.", "action": "web_search", "slots": {"query": "blockchain kaise kaam karta hai"}}
+{"text": "Taj Mahal kisne banwaya tha, bataiye.", "action": "web_search", "slots": {"query": "Taj Mahal kisne banwaya tha"}}
+{"text": "Sachin Tendulkar ne kitni centuries banayi, zara batao.", "action": "web_search", "slots": {"query": "Sachin Tendulkar ne kitni centuries banayi"}}
+{"text": "Jaldi se khojiye ki IPL 2026 ka final kab hai.", "action": "web_search", "slots": {"query": "IPL 2026 ka final kab hai"}}
+{"text": "Google pe best laptop under 50000 dhundho.", "action": "web_search", "slots": {"site": "Google", "query": "best laptop under 50000"}}
+{"text": "YouTube par Python tutorial for beginners dhundhiye.", "action": "web_search", "slots": {"site": "YouTube", "query": "Python tutorial for beginners"}}
+{"text": "Please bataiye Mumbai mein aaj ka mausam kaisa hai.", "action": "web_search", "slots": {"query": "Mumbai mein aaj ka mausam kaisa hai"}}
+{"text": "Ek baat bataiye, Delhi mein petrol ka rate kitna hai.", "action": "web_search", "slots": {"query": "Delhi mein petrol ka rate kitna hai"}}
+{"text": "Flipkart pe Samsung Galaxy M35 ka price dikhaiye.", "action": "web_search", "slots": {"site": "Flipkart", "query": "Samsung Galaxy M35 ka price"}}
+{"text": "Zomato par paneer biryani dhundho.", "action": "web_search", "slots": {"site": "Zomato", "query": "paneer biryani"}}
+{"text": "Swiggy mein nearby pizza outlets dhundhiye.", "action": "web_search", "slots": {"site": "Swiggy", "query": "nearby pizza outlets"}}
+{"text": "Wikipedia pe Rani Lakshmibai ke baare mein khojiye.", "action": "web_search", "slots": {"site": "Wikipedia", "query": "Rani Lakshmibai"}}
+{"text": "Mujhe samjhaiye ki GST aur income tax mein kya fark hai.", "action": "web_search", "slots": {"query": "GST aur income tax mein kya fark hai"}}
+{"text": "Bataiye na, Kumbh Mela 2027 kahan hoga?", "action": "web_search", "slots": {"query": "Kumbh Mela 2027 kahan hoga"}}
+{"text": "Kya aap bata sakte hain ki Everest ki unchai kitni hai?", "action": "web_search", "slots": {"query": "Everest ki unchai kitni hai"}}
+{"text": "Nykaa par sunscreen SPF 50 dhundho please.", "action": "web_search", "slots": {"site": "Nykaa", "query": "sunscreen SPF 50"}}
+{"text": "Please Amazon mein 5 litre pressure cooker dhundhiye.", "action": "web_search", "slots": {"site": "Amazon", "query": "5 litre pressure cooker"}}
+{"text": "Ji, samjhaiye ki AI aur machine learning mein kya antar hai.", "action": "web_search", "slots": {"query": "AI aur machine learning mein kya antar hai"}}
+{"text": "Yeh khojiye ki Aadhaar card mein address kaise badle.", "action": "web_search", "slots": {"query": "Aadhaar card mein address kaise badle"}}
+{"text": "PAN card ko Aadhaar se link kaise karte hain, ye batao.", "action": "web_search", "slots": {"query": "PAN card ko Aadhaar se link kaise karte hain"}}
+{"text": "Bhaiya Google par Jaipur ke best hotels dhundh do.", "action": "web_search", "slots": {"site": "Google", "query": "Jaipur ke best hotels"}}
+{"text": "Mujhe dikhaiye YouTube pe aloo paratha recipe.", "action": "web_search", "slots": {"site": "YouTube", "query": "aloo paratha recipe"}}
+{"text": "Dikhaiye Flipkart pe 55 inch smart TV.", "action": "web_search", "slots": {"site": "Flipkart", "query": "55 inch smart TV"}}
+{"text": "Ye samjhao ki UPI payment fail kyun hota hai.", "action": "web_search", "slots": {"query": "UPI payment fail kyun hota hai"}}
+{"text": "Thoda bataiye ki Ram Navami 2027 mein kis din hai.", "action": "web_search", "slots": {"query": "Ram Navami 2027 mein kis din hai"}}
+{"text": "Shah Rukh Khan ki pehli film kaunsi thi, khojiye.", "action": "web_search", "slots": {"query": "Shah Rukh Khan ki pehli film kaunsi thi"}}
+{"text": "Bataiye mujhe, kal Bangalore mein baarish hogi kya?", "action": "web_search", "slots": {"query": "kal Bangalore mein baarish hogi kya"}}
+{"text": "Dhundho na Pune se Goa ki distance kitni hai.", "action": "web_search", "slots": {"query": "Pune se Goa ki distance kitni hai"}}
+{"text": "MakeMyTrip pe Delhi to Shimla bus dhundhiye.", "action": "web_search", "slots": {"site": "MakeMyTrip", "query": "Delhi to Shimla bus"}}
+{"text": "IRCTC par Rajdhani Express ka status dikhaiye.", "action": "web_search", "slots": {"site": "IRCTC", "query": "Rajdhani Express ka status"}}
+{"text": "Ola Electric scooter ki range kitni hai, bataiye zara.", "action": "web_search", "slots": {"query": "Ola Electric scooter ki range kitni hai"}}
+{"text": "Please mujhe samjhaiye compound interest ka formula.", "action": "web_search", "slots": {"query": "compound interest ka formula"}}
+{"text": "Samjhao na, black hole kaise banta hai.", "action": "web_search", "slots": {"query": "black hole kaise banta hai"}}
+{"text": "Search karke batao ki Kerala mein kitne zile hain.", "action": "web_search", "slots": {"query": "Kerala mein kitne zile hain"}}
+{"text": "Jara dhundhiye Hyderabad mein 2BHK flat ka rent kitna hai.", "action": "web_search", "slots": {"query": "Hyderabad mein 2BHK flat ka rent kitna hai"}}
+{"text": "99acres par Noida mein 3BHK flats dhundho.", "action": "web_search", "slots": {"site": "99acres", "query": "Noida mein 3BHK flats"}}
+{"text": "Ajio pe Nike ke running shoes dikhaiye.", "action": "web_search", "slots": {"site": "Ajio", "query": "Nike ke running shoes"}}
+{"text": "BigBasket mein organic atta dhundhiye.", "action": "web_search", "slots": {"site": "BigBasket", "query": "organic atta"}}
+{"text": "Practo par skin doctor in Lucknow dhundho.", "action": "web_search", "slots": {"site": "Practo", "query": "skin doctor in Lucknow"}}
+{"text": "Bataiye ki World Cup 2011 ka man of the match kaun tha.", "action": "web_search", "slots": {"query": "World Cup 2011 ka man of the match kaun tha"}}
+{"text": "Zara khojiye, Diwali 2026 ko Lakshmi Puja ka muhurat kya hai.", "action": "web_search", "slots": {"query": "Diwali 2026 ko Lakshmi Puja ka muhurat kya hai"}}
+{"text": "Kripya bataiye Indian Constitution mein kitne articles hain.", "action": "web_search", "slots": {"query": "Indian Constitution mein kitne articles hain"}}
+{"text": "Wikipedia mein Ashoka the Great dhundhiye.", "action": "web_search", "slots": {"site": "Wikipedia", "query": "Ashoka the Great"}}
+{"text": "Samjhaiye zara, mutual fund mein SIP kya hoti hai?", "action": "web_search", "slots": {"query": "mutual fund mein SIP kya hoti hai"}}
+{"text": "Mujhe dhundh ke batao Tata Nexon EV ki on road price.", "action": "web_search", "slots": {"query": "Tata Nexon EV ki on road price"}}
+{"text": "Hamare liye khojiye ki Shirdi mein darshan ka time kya hai.", "action": "web_search", "slots": {"query": "Shirdi mein darshan ka time kya hai"}}
+{"text": "YouTube mein Class 10 maths chapter 4 dhundhiye.", "action": "web_search", "slots": {"site": "YouTube", "query": "Class 10 maths chapter 4"}}
+{"text": "Google pe Ayodhya Ram Mandir timings dhundho.", "action": "web_search", "slots": {"site": "Google", "query": "Ayodhya Ram Mandir timings"}}
+{"text": "Bataiye ki chand par gravity kitni hoti hai.", "action": "web_search", "slots": {"query": "chand par gravity kitni hoti hai"}}
+{"text": "Mujhe samjhao ki share market mein Sensex kya hota hai.", "action": "web_search", "slots": {"query": "share market mein Sensex kya hota hai"}}
+{"text": "Ek kaam kijiye, Amazon par Kindle Paperwhite dhundhiye.", "action": "web_search", "slots": {"site": "Amazon", "query": "Kindle Paperwhite"}}
+{"text": "Dhundhiye Myntra mein Levi's jeans size 32.", "action": "web_search", "slots": {"site": "Myntra", "query": "Levi's jeans size 32"}}
+{"text": "Batao bhai, Neeraj Chopra ka best throw kitna hai.", "action": "web_search", "slots": {"query": "Neeraj Chopra ka best throw kitna hai"}}
+{"text": "Mujhe Lal Bahadur Shastri ke baare mein bataiye.", "action": "web_search", "slots": {"query": "Lal Bahadur Shastri"}}
+{"text": "Zara Kalpana Chawla ke baare mein khojiye.", "action": "web_search", "slots": {"query": "Kalpana Chawla"}}
+{"text": "ISRO ke Gaganyaan mission ke baare mein samjhaiye.", "action": "web_search", "slots": {"query": "ISRO ke Gaganyaan mission"}}
+{"text": "Khojiye ki BPSC exam 2027 ki date kya hai.", "action": "web_search", "slots": {"query": "BPSC exam 2027 ki date kya hai"}}
+{"text": "Thoda samjhaiye ki credit score kaise badhaye.", "action": "web_search", "slots": {"query": "credit score kaise badhaye"}}
+{"text": "Bataiye please, 100 degree Fahrenheit kitna Celsius hota hai.", "action": "web_search", "slots": {"query": "100 degree Fahrenheit kitna Celsius hota hai"}}
+{"text": "Flipkart mein HP printer ki ink cartridge dhundho.", "action": "web_search", "slots": {"site": "Flipkart", "query": "HP printer ki ink cartridge"}}
+{"text": "JioHotstar par cricket highlights dhundhiye.", "action": "web_search", "slots": {"site": "JioHotstar", "query": "cricket highlights"}}
+{"text": "LinkedIn pe data analyst jobs in Pune dhundho.", "action": "web_search", "slots": {"site": "LinkedIn", "query": "data analyst jobs in Pune"}}
+{"text": "Naukri par fresher Java developer jobs dikhaiye.", "action": "web_search", "slots": {"site": "Naukri", "query": "fresher Java developer jobs"}}
+{"text": "Haan ji, bataiye ki Ganga nadi kahan se nikalti hai.", "action": "web_search", "slots": {"query": "Ganga nadi kahan se nikalti hai"}}
+{"text": "Accha suniye, khojiye ki Delhi ka AQI aaj kitna hai.", "action": "web_search", "slots": {"query": "Delhi ka AQI aaj kitna hai"}}
+{"text": "Dekhiye na, samjhaiye ki 5G aur 4G mein kya difference hai.", "action": "web_search", "slots": {"query": "5G aur 4G mein kya difference hai"}}
+{"text": "Google par dhundho Virat Kohli ki age kitni hai.", "action": "web_search", "slots": {"site": "Google", "query": "Virat Kohli ki age kitni hai"}}
+{"text": "Amazon pe dhundho iPhone 16 cover.", "action": "web_search", "slots": {"site": "Amazon", "query": "iPhone 16 cover"}}
+{"text": "Meesho par dikhaiye kids ke winter jackets.", "action": "web_search", "slots": {"site": "Meesho", "query": "kids ke winter jackets"}}
+{"text": "Batao toh, Holi 2027 kab hai.", "action": "web_search", "slots": {"query": "Holi 2027 kab hai"}}
+{"text": "Gold ka aaj ka bhav kya hai, khojiye zara.", "action": "web_search", "slots": {"query": "Gold ka aaj ka bhav kya hai"}}
+{"text": "Samjhaiye mujhe, EMI kaise calculate hoti hai.", "action": "web_search", "slots": {"query": "EMI kaise calculate hoti hai"}}
+{"text": "Kripya YouTube par yoga for back pain dhundhiye.", "action": "web_search", "slots": {"site": "YouTube", "query": "yoga for back pain"}}
+{"text": "Zara dekhkar bataiye ki Pushpa 2 ka box office collection kitna hua.", "action": "web_search", "slots": {"query": "Pushpa 2 ka box office collection kitna hua"}}
+{"text": "Lata Mangeshkar ko Bharat Ratna kab mila tha, bataiye.", "action": "web_search", "slots": {"query": "Lata Mangeshkar ko Bharat Ratna kab mila tha"}}
+{"text": "Bataiye ki tulsi ke patte khane ke kya fayde hain.", "action": "web_search", "slots": {"query": "tulsi ke patte khane ke kya fayde hain"}}
+{"text": "Batayiye ki you tube premium ka price kitna hai.", "action": "web_search", "slots": {"query": "you tube premium ka price kitna hai"}}
+{"text": "BookMyShow pe cold play concert tickets dhundiye.", "action": "web_search", "slots": {"site": "BookMyShow", "query": "cold play concert tickets"}}
+{"text": "ज़रा बताइए कि भारत का सबसे लंबा पुल कौन सा है।", "action": "web_search", "slots": {"query": "भारत का सबसे लंबा पुल कौन सा है"}}
+{"text": "अमेज़न पर बच्चों के लिए साइकिल ढूंढिए।", "action": "web_search", "slots": {"site": "अमेज़न", "query": "बच्चों के लिए साइकिल"}}
+{"text": "समझाइए कि वोटर आईडी कार्ड कैसे बनता है।", "action": "web_search", "slots": {"query": "वोटर आईडी कार्ड कैसे बनता है"}}
+{"text": "प्रेमचंद के बारे में बताइए।", "action": "web_search", "slots": {"query": "प्रेमचंद"}}
+{"text": "यूट्यूब पे गीता पाठ अध्याय 2 खोजिए।", "action": "web_search", "slots": {"site": "यूट्यूब", "query": "गीता पाठ अध्याय 2"}}
+{"text": "कृपया बताइए कि आज सोने का भाव क्या है?", "action": "web_search", "slots": {"query": "आज सोने का भाव क्या है"}}
+{"text": "फ्लिपकार्ट पे लैपटॉप बैग ढूंढो।", "action": "web_search", "slots": {"site": "फ्लिपकार्ट", "query": "लैपटॉप बैग"}}
+{"text": "मुझे समझाओ कि शेयर बाजार कैसे काम करता है।", "action": "web_search", "slots": {"query": "शेयर बाजार कैसे काम करता है"}}
+{"text": "Google mein dhundho how to make cold coffee at home.", "action": "web_search", "slots": {"site": "Google", "query": "how to make cold coffee at home"}}
+{"text": "Ab bataiye, Sanju Samson ka T20 average kitna hai.", "action": "web_search", "slots": {"query": "Sanju Samson ka T20 average kitna hai"}}
+{"text": "Zara look up karo ki SBI FD interest rate kitna hai.", "action": "web_search", "slots": {"query": "SBI FD interest rate kitna hai"}}
+{"text": "Google karo ki Hyderabad mein Ganesh visarjan kab hai.", "action": "web_search", "slots": {"query": "Hyderabad mein Ganesh visarjan kab hai"}}
+{"text": "Search karo Amazon par Fire TV Stick 4K.", "action": "web_search", "slots": {"site": "Amazon", "query": "Fire TV Stick 4K"}}
+{"text": "Please search for Kedarnath yatra registration process, thank you.", "action": "web_search", "slots": {"query": "Kedarnath yatra registration process"}}
+{"text": "Sanga na, Shivaji Maharaj yancha janma kuthe zala.", "action": "web_search", "slots": {"query": "Shivaji Maharaj yancha janma kuthe zala"}}
+{"text": "Amazon var Marathi pustak shodha.", "action": "web_search", "slots": {"site": "Amazon", "query": "Marathi pustak"}}
+{"text": "Pune madhye aaj pavus padel ka, sanga.", "action": "web_search", "slots": {"query": "Pune madhye aaj pavus padel ka"}}
+{"text": "Flipkart var Redmi Note 14 chi kimmat shodha.", "action": "web_search", "slots": {"site": "Flipkart", "query": "Redmi Note 14 chi kimmat"}}
+{"text": "Mala samjavun sanga ki repo rate mhanje kay.", "action": "web_search", "slots": {"query": "repo rate mhanje kay"}}
+{"text": "Ganpati visarjan 2027 kadhi aahe te sanga.", "action": "web_search", "slots": {"query": "Ganpati visarjan 2027 kadhi aahe"}}
+{"text": "YouTube var puran poli recipe shodha.", "action": "web_search", "slots": {"site": "YouTube", "query": "puran poli recipe"}}
+{"text": "Kripaya sanga, Mumbai te Nashik antar kiti aahe.", "action": "web_search", "slots": {"query": "Mumbai te Nashik antar kiti aahe"}}
+{"text": "पुण्यात चांगले हॉस्पिटल कोणते आहेत ते सांगा.", "action": "web_search", "slots": {"query": "पुण्यात चांगले हॉस्पिटल कोणते आहेत"}}
+{"text": "Lokmanya Tilak yanchyabaddal sanga.", "action": "web_search", "slots": {"query": "Lokmanya Tilak"}}
+{"text": "Google var shodha Lonavala madhe best resorts.", "action": "web_search", "slots": {"site": "Google", "query": "Lonavala madhe best resorts"}}
+{"text": "Bengaluru alli ivattu traffic hegide anta heli.", "action": "web_search", "slots": {"query": "Bengaluru alli ivattu traffic hegide"}}
+{"text": "Amazon alli Prestige mixer hudukki.", "action": "web_search", "slots": {"site": "Amazon", "query": "Prestige mixer"}}
+{"text": "Flipkart nalli 1.5 ton AC hudukki.", "action": "web_search", "slots": {"site": "Flipkart", "query": "1.5 ton AC"}}
+{"text": "Dayavittu Kuvempu bagge tilisi.", "action": "web_search", "slots": {"query": "Kuvempu"}}
+{"text": "Mysore Palace yaaru kattisidru, heli.", "action": "web_search", "slots": {"query": "Mysore Palace yaaru kattisidru"}}
+{"text": "Swalpa heli, KSRTC bus Bengaluru inda Mangaluru ge time eshtu.", "action": "web_search", "slots": {"query": "KSRTC bus Bengaluru inda Mangaluru ge time eshtu"}}
+{"text": "YouTube alli Kannada news live hudukki.", "action": "web_search", "slots": {"site": "YouTube", "query": "Kannada news live"}}
+{"text": "Google alli Hampi timings hudukki please.", "action": "web_search", "slots": {"site": "Google", "query": "Hampi timings"}}
+{"text": "Nanage tilisi, Karnataka dalli eshtu jillegalu ive.", "action": "web_search", "slots": {"query": "Karnataka dalli eshtu jillegalu ive"}}
+{"text": "Hudukki Mysuru Dasara 2027 yaavaga.", "action": "web_search", "slots": {"query": "Mysuru Dasara 2027 yaavaga"}}
+{"text": "Dayavittu heli, Puneeth Rajkumar avara modala cinema yavudu.", "action": "web_search", "slots": {"query": "Puneeth Rajkumar avara modala cinema yavudu"}}
+{"text": "Myntra alli kids shoes size 10 hudukki.", "action": "web_search", "slots": {"site": "Myntra", "query": "kids shoes size 10"}}
+{"text": "Swiggy alli masala dosa hotels hudukki.", "action": "web_search", "slots": {"site": "Swiggy", "query": "masala dosa hotels"}}
+{"text": "Inflation andre enu anta tilisi.", "action": "web_search", "slots": {"query": "Inflation andre enu"}}
+{"text": "Heli, chinnada bele ivattu eshtu ide.", "action": "web_search", "slots": {"query": "chinnada bele ivattu eshtu ide"}}
+{"text": "Ondu vishaya tilisi, Coorg alli best homestay yavudu.", "action": "web_search", "slots": {"query": "Coorg alli best homestay yavudu"}}
+{"text": "Wikipedia alli Basavanna bagge hudukki.", "action": "web_search", "slots": {"site": "Wikipedia", "query": "Basavanna"}}
+{"text": "Hudukki you tube alli yakshagana videos.", "action": "web_search", "slots": {"site": "you tube", "query": "yakshagana videos"}}
+{"text": "ದಯವಿಟ್ಟು ಬೆಂಗಳೂರಿನ ಹವಾಮಾನ ಹೇಗಿದೆ ಎಂದು ತಿಳಿಸಿ.", "action": "web_search", "slots": {"query": "ಬೆಂಗಳೂರಿನ ಹವಾಮಾನ ಹೇಗಿದೆ"}}
+{"text": "ಅಮೆಜಾನ್ ಅಲ್ಲಿ ಕನ್ನಡ ಕಾದಂಬರಿ ಹುಡುಕಿ.", "action": "web_search", "slots": {"site": "ಅಮೆಜಾನ್", "query": "ಕನ್ನಡ ಕಾದಂಬರಿ"}}
+{"text": "ವಿಶ್ವೇಶ್ವರಯ್ಯ ಅವರ ಬಗ್ಗೆ ಹೇಳಿ.", "action": "web_search", "slots": {"query": "ವಿಶ್ವೇಶ್ವರಯ್ಯ"}}
+{"text": "ಯೂಟ್ಯೂಬ್ ನಲ್ಲಿ ಯಕ್ಷಗಾನ ವೀಡಿಯೊ ಹುಡುಕಿ.", "action": "web_search", "slots": {"site": "ಯೂಟ್ಯೂಬ್", "query": "ಯಕ್ಷಗಾನ ವೀಡಿಯೊ"}}
+{"text": "Nange heli 10 lakh home loan ge EMI eshtu barutte.", "action": "web_search", "slots": {"query": "10 lakh home loan ge EMI eshtu barutte"}}
+{"text": "Udupi Krishna temple timings yenu, swalpa hudukki.", "action": "web_search", "slots": {"query": "Udupi Krishna temple timings yenu"}}
+{"text": "Flipkartnalli Realme earphones hudukki.", "action": "web_search", "slots": {"site": "Flipkart", "query": "Realme earphones"}}
+{"text": "Tilisi, ISRO headquarters elli ide.", "action": "web_search", "slots": {"query": "ISRO headquarters elli ide"}}
+{"text": "Zomato alli Bengaluru biryani places hudukki.", "action": "web_search", "slots": {"site": "Zomato", "query": "Bengaluru biryani places"}}
+{"text": "Heli sir, Kannada Rajyotsava yaake aacharisuttare.", "action": "web_search", "slots": {"query": "Kannada Rajyotsava yaake aacharisuttare"}}
+{"text": "Google nalli Jog Falls distance from Shimoga hudukki.", "action": "web_search", "slots": {"site": "Google", "query": "Jog Falls distance from Shimoga"}}
+{"text": "Dayavittu tilisi, BMTC monthly pass rate eshtu.", "action": "web_search", "slots": {"query": "BMTC monthly pass rate eshtu"}}
+{"text": "Chennai la innaikku mazhai varuma nu sollunga.", "action": "web_search", "slots": {"query": "Chennai la innaikku mazhai varuma"}}
+{"text": "Amazon la Sony headphones thedu.", "action": "web_search", "slots": {"site": "Amazon", "query": "Sony headphones"}}
+{"text": "Thiruvalluvar pathi sollunga.", "action": "web_search", "slots": {"query": "Thiruvalluvar"}}
+{"text": "Konjam sollunga, Thanjavur Big Temple yaar kattinaanga.", "action": "web_search", "slots": {"query": "Thanjavur Big Temple yaar kattinaanga"}}
+{"text": "YouTube la Tamil cooking videos thedu.", "action": "web_search", "slots": {"site": "YouTube", "query": "Tamil cooking videos"}}
+{"text": "Google la Ooty hotels under 3000 thedu.", "action": "web_search", "slots": {"site": "Google", "query": "Ooty hotels under 3000"}}
+{"text": "Sollunga, petrol vilai innaikku evvalavu.", "action": "web_search", "slots": {"query": "petrol vilai innaikku evvalavu"}}
+{"text": "Flipkart la Vivo T3 price thedu.", "action": "web_search", "slots": {"site": "Flipkart", "query": "Vivo T3 price"}}
+{"text": "Dhoni eppo retire aanaru nu thedu.", "action": "web_search", "slots": {"query": "Dhoni eppo retire aanaru"}}
+{"text": "Please sollunga, Pongal 2027 endha thedhi.", "action": "web_search", "slots": {"query": "Pongal 2027 endha thedhi"}}
+{"text": "Thedu, Madurai la best mess enga irukku.", "action": "web_search", "slots": {"query": "Madurai la best mess enga irukku"}}
+{"text": "Enakku sollunga, ISRO Chandrayaan budget evvalavu.", "action": "web_search", "slots": {"query": "ISRO Chandrayaan budget evvalavu"}}
+{"text": "Swiggy la chicken biryani thedunga.", "action": "web_search", "slots": {"site": "Swiggy", "query": "chicken biryani"}}
+{"text": "Zomato la Coimbatore veg restaurants thedu.", "action": "web_search", "slots": {"site": "Zomato", "query": "Coimbatore veg restaurants"}}
+{"text": "A R Rahman eththana Oscar vangirukkaru, sollunga.", "action": "web_search", "slots": {"query": "A R Rahman eththana Oscar vangirukkaru"}}
+{"text": "Gold rate Chennai la innaikku enna nu thedu.", "action": "web_search", "slots": {"query": "Gold rate Chennai la innaikku enna"}}
+{"text": "Kamarajar pathi konjam sollunga.", "action": "web_search", "slots": {"query": "Kamarajar"}}
+{"text": "Myntra la cotton veshti thedu.", "action": "web_search", "slots": {"site": "Myntra", "query": "cotton veshti"}}
+{"text": "Wikipedia la Chola dynasty thedu.", "action": "web_search", "slots": {"site": "Wikipedia", "query": "Chola dynasty"}}
+{"text": "Sollunga sir, Rameswaram ku Chennai la irundhu train time enna.", "action": "web_search", "slots": {"query": "Rameswaram ku Chennai la irundhu train time enna"}}
+{"text": "சென்னையில் இன்று வானிலை எப்படி இருக்கு என்று சொல்லுங்கள்.", "action": "web_search", "slots": {"query": "சென்னையில் இன்று வானிலை எப்படி இருக்கு"}}
+{"text": "அமேசான்ல டிவி ஸ்டாண்ட் தேடு.", "action": "web_search", "slots": {"site": "அமேசான்", "query": "டிவி ஸ்டாண்ட்"}}
+{"text": "பாரதியார் பற்றி சொல்லுங்க.", "action": "web_search", "slots": {"query": "பாரதியார்"}}
+{"text": "திருக்குறள் எத்தனை அதிகாரம் என்று தேடு.", "action": "web_search", "slots": {"query": "திருக்குறள் எத்தனை அதிகாரம்"}}
+{"text": "Konjam thedunga, TNPSC Group 4 result eppo varum.", "action": "web_search", "slots": {"query": "TNPSC Group 4 result eppo varum"}}
+{"text": "You tube la Ilaiyaraja interview thedu.", "action": "web_search", "slots": {"site": "You tube", "query": "Ilaiyaraja interview"}}
+{"text": "Sollunga, oru acre la evvalavu cent.", "action": "web_search", "slots": {"query": "oru acre la evvalavu cent"}}
+{"text": "Google la Marina beach length evvalavu nu thedu.", "action": "web_search", "slots": {"site": "Google", "query": "Marina beach length evvalavu"}}
+{"text": "Amazon la 1 TB hard disk thedunga please.", "action": "web_search", "slots": {"site": "Amazon", "query": "1 TB hard disk"}}
+{"text": "Konjam sollunga, Vijay oda adutha padam peru enna.", "action": "web_search", "slots": {"query": "Vijay oda adutha padam peru enna"}}
+{"text": "Hyderabad lo eeroju vaatavaranam ela undi cheppandi.", "action": "web_search", "slots": {"query": "Hyderabad lo eeroju vaatavaranam ela undi"}}
+{"text": "Amazon lo Philips iron box vetuku.", "action": "web_search", "slots": {"site": "Amazon", "query": "Philips iron box"}}
+{"text": "NTR gurinchi cheppandi.", "action": "web_search", "slots": {"query": "NTR"}}
+{"text": "Konchem cheppandi, Charminar evaru kattaru.", "action": "web_search", "slots": {"query": "Charminar evaru kattaru"}}
+{"text": "YouTube lo Telugu devotional songs lyrics vetuku.", "action": "web_search", "slots": {"site": "YouTube", "query": "Telugu devotional songs lyrics"}}
+{"text": "Flipkart lo Poco X7 price vetukandi.", "action": "web_search", "slots": {"site": "Flipkart", "query": "Poco X7 price"}}
+{"text": "Google lo Tirupati darshan tickets vetuku.", "action": "web_search", "slots": {"site": "Google", "query": "Tirupati darshan tickets"}}
+{"text": "Cheppandi, Sankranti 2027 eppudu.", "action": "web_search", "slots": {"query": "Sankranti 2027 eppudu"}}
+{"text": "Vijayawada nunchi Vizag ki entha dooram ani cheppandi.", "action": "web_search", "slots": {"query": "Vijayawada nunchi Vizag ki entha dooram"}}
+{"text": "Dayachesi cheppandi, gold rate eeroju entha.", "action": "web_search", "slots": {"query": "gold rate eeroju entha"}}
+{"text": "Vetuku, Hyderabad lo best biryani ekkada dorukutundi.", "action": "web_search", "slots": {"query": "Hyderabad lo best biryani ekkada dorukutundi"}}
+{"text": "Swiggy lo Hyderabadi haleem vetuku.", "action": "web_search", "slots": {"site": "Swiggy", "query": "Hyderabadi haleem"}}
+{"text": "Naaku cheppandi, Prabhas age entha.", "action": "web_search", "slots": {"query": "Prabhas age entha"}}
+{"text": "Wikipedia lo Alluri Sitarama Raju gurinchi vetuku.", "action": "web_search", "slots": {"site": "Wikipedia", "query": "Alluri Sitarama Raju"}}
+{"text": "Myntra lo pattu saree vetuku.", "action": "web_search", "slots": {"site": "Myntra", "query": "pattu saree"}}
+{"text": "హైదరాబాద్ లో మెట్రో టైమింగ్స్ ఏంటి చెప్పండి.", "action": "web_search", "slots": {"query": "హైదరాబాద్ లో మెట్రో టైమింగ్స్ ఏంటి"}}
+{"text": "అమెజాన్ లో వాషింగ్ మెషిన్ వెతుకు.", "action": "web_search", "slots": {"site": "అమెజాన్", "query": "వాషింగ్ మెషిన్"}}
+{"text": "పీవీ సింధు గురించి చెప్పండి.", "action": "web_search", "slots": {"query": "పీవీ సింధు"}}
+{"text": "దయచేసి చెప్పండి, తిరుపతి దర్శనం టైమింగ్స్ ఏంటి.", "action": "web_search", "slots": {"query": "తిరుపతి దర్శనం టైమింగ్స్ ఏంటి"}}
+{"text": "TSPSC Group 2 notification eppudu vastundi, vetukandi.", "action": "web_search", "slots": {"query": "TSPSC Group 2 notification eppudu vastundi"}}
+{"text": "Cheppandi sir, 1 tola ante entha grams.", "action": "web_search", "slots": {"query": "1 tola ante entha grams"}}
+{"text": "Zomato lo Guntur chicken curry vetuku.", "action": "web_search", "slots": {"site": "Zomato", "query": "Guntur chicken curry"}}
+{"text": "Cheppandi, Rajamouli next movie peru enti.", "action": "web_search", "slots": {"query": "Rajamouli next movie peru enti"}}
+{"text": "Google lo how to apply ration card in Telangana vetuku.", "action": "web_search", "slots": {"site": "Google", "query": "how to apply ration card in Telangana"}}
+{"text": "Please cheppandi, Godavari river length entha.", "action": "web_search", "slots": {"query": "Godavari river length entha"}}
+{"text": "Kochiyil innu mazha undo ennu parayu.", "action": "web_search", "slots": {"query": "Kochiyil innu mazha undo"}}
+{"text": "Amazonil Prestige induction cooker thirayu.", "action": "web_search", "slots": {"site": "Amazon", "query": "Prestige induction cooker"}}
+{"text": "Amazon il Bajaj fan thirayu.", "action": "web_search", "slots": {"site": "Amazon", "query": "Bajaj fan"}}
+{"text": "Mohanlal ne kurichu parayu.", "action": "web_search", "slots": {"query": "Mohanlal"}}
+{"text": "Onnu parayu, Padmanabhaswamy temple il ethra swarnam undu.", "action": "web_search", "slots": {"query": "Padmanabhaswamy temple il ethra swarnam undu"}}
+{"text": "YouTube il Kerala sadya recipe thirayu.", "action": "web_search", "slots": {"site": "YouTube", "query": "Kerala sadya recipe"}}
+{"text": "Google il Munnar homestays thirayu.", "action": "web_search", "slots": {"site": "Google", "query": "Munnar homestays"}}
+{"text": "Parayu, Onam 2027 eppol aanu.", "action": "web_search", "slots": {"query": "Onam 2027 eppol aanu"}}
+{"text": "Thiruvananthapuram ninnu Kozhikode ethra dooram, onnu parayu.", "action": "web_search", "slots": {"query": "Thiruvananthapuram ninnu Kozhikode ethra dooram"}}
+{"text": "Flipkart il Nokia keypad phone thirayu.", "action": "web_search", "slots": {"site": "Flipkart", "query": "Nokia keypad phone"}}
+{"text": "Thirayu, KSEB bill engane online aayi adakkam.", "action": "web_search", "slots": {"query": "KSEB bill engane online aayi adakkam"}}
+{"text": "Dayavaayi parayu, Kerala il ethra jillakal undu.", "action": "web_search", "slots": {"query": "Kerala il ethra jillakal undu"}}
+{"text": "കൊച്ചി മെട്രോയുടെ സമയം എന്താണ് എന്ന് പറയൂ.", "action": "web_search", "slots": {"query": "കൊച്ചി മെട്രോയുടെ സമയം എന്താണ്"}}
+{"text": "വൈക്കം മുഹമ്മദ് ബഷീർ ആരാണ് എന്ന് പറയൂ.", "action": "web_search", "slots": {"query": "വൈക്കം മുഹമ്മദ് ബഷീർ ആരാണ്"}}
+{"text": "Parayu, Mammootty de puthiya cinema eathaanu.", "action": "web_search", "slots": {"query": "Mammootty de puthiya cinema eathaanu"}}
+{"text": "Swiggy il Malabar biryani thirayu.", "action": "web_search", "slots": {"site": "Swiggy", "query": "Malabar biryani"}}
+{"text": "Onnu thirayu, Alappuzha houseboat rate ethra.", "action": "web_search", "slots": {"query": "Alappuzha houseboat rate ethra"}}
+{"text": "Wikipedia il Sree Narayana Guru ne kurichu thirayu.", "action": "web_search", "slots": {"site": "Wikipedia", "query": "Sree Narayana Guru"}}
+{"text": "Please parayu, Sabarimala nada eppol thurakkum.", "action": "web_search", "slots": {"query": "Sabarimala nada eppol thurakkum"}}
+{"text": "Kolkata te aaj brishti hobe kina bolun.", "action": "web_search", "slots": {"query": "Kolkata te aaj brishti hobe kina"}}
+{"text": "Amazon e Bengali boi khunje din.", "action": "web_search", "slots": {"site": "Amazon", "query": "Bengali boi"}}
+{"text": "Rabindranath Tagore er byapare bolun.", "action": "web_search", "slots": {"query": "Rabindranath Tagore"}}
+{"text": "Durga Puja 2027 kobe, ektu bolun.", "action": "web_search", "slots": {"query": "Durga Puja 2027 kobe"}}
+{"text": "Flipkart e Lenovo laptop khunjun.", "action": "web_search", "slots": {"site": "Flipkart", "query": "Lenovo laptop"}}
+{"text": "YouTube e macher jhol recipe khunje dao.", "action": "web_search", "slots": {"site": "YouTube", "query": "macher jhol recipe"}}
+{"text": "Bolun to, Howrah Bridge kobe toiri hoyechhilo.", "action": "web_search", "slots": {"query": "Howrah Bridge kobe toiri hoyechhilo"}}
+{"text": "কলকাতায় আজকের আবহাওয়া কেমন বলুন।", "action": "web_search", "slots": {"query": "কলকাতায় আজকের আবহাওয়া কেমন"}}
+{"text": "সত্যজিৎ রায় সম্পর্কে বলুন।", "action": "web_search", "slots": {"query": "সত্যজিৎ রায়"}}
+{"text": "ইউটিউবে রবীন্দ্রসংগীত শেখার ভিডিও খুঁজুন।", "action": "web_search", "slots": {"site": "ইউটিউব", "query": "রবীন্দ্রসংগীত শেখার ভিডিও"}}
+{"text": "Google e Darjeeling toy train ticket price khunjun.", "action": "web_search", "slots": {"site": "Google", "query": "Darjeeling toy train ticket price"}}
+{"text": "Search for best budget phones under 15000.", "action": "web_search", "slots": {"query": "best budget phones under 15000"}}
+{"text": "Look up the population of Bihar in 2025.", "action": "web_search", "slots": {"query": "the population of Bihar in 2025"}}
+{"text": "Tell me about Homi Bhabha.", "action": "web_search", "slots": {"query": "Homi Bhabha"}}
+{"text": "Can you please look up how many calories are in a banana?", "action": "web_search", "slots": {"query": "how many calories are in a banana"}}
+{"text": "Explain how GPS works in simple words.", "action": "web_search", "slots": {"query": "how GPS works in simple words"}}
+{"text": "Please explain what quantum computing is.", "action": "web_search", "slots": {"query": "what quantum computing is"}}
+{"text": "Who invented the telephone, tell me.", "action": "web_search", "slots": {"query": "Who invented the telephone"}}
+{"text": "What is the capital of Australia? Just look it up.", "action": "web_search", "slots": {"query": "What is the capital of Australia"}}
+{"text": "On Amazon search for wireless mouse under 500.", "action": "web_search", "slots": {"site": "Amazon", "query": "wireless mouse under 500"}}
+{"text": "Search Flipkart for 7 kg washing machine.", "action": "web_search", "slots": {"site": "Flipkart", "query": "7 kg washing machine"}}
+{"text": "Look up Kerala backwater tours on Google.", "action": "web_search", "slots": {"site": "Google", "query": "Kerala backwater tours"}}
+{"text": "Search YouTube for guitar lessons for beginners.", "action": "web_search", "slots": {"site": "YouTube", "query": "guitar lessons for beginners"}}
+{"text": "Hey, could you tell me when the next solar eclipse is?", "action": "web_search", "slots": {"query": "when the next solar eclipse is"}}
+{"text": "Tell me about Narendra Modi's early life.", "action": "web_search", "slots": {"query": "Narendra Modi's early life"}}
+{"text": "Please look up how to renew a passport online.", "action": "web_search", "slots": {"query": "how to renew a passport online"}}
+{"text": "Look up Bangalore to Chennai flight fare for tomorrow.", "action": "web_search", "slots": {"query": "Bangalore to Chennai flight fare for tomorrow"}}
+{"text": "Tell me about you tube shorts monetization.", "action": "web_search", "slots": {"query": "you tube shorts monetization"}}
+{"text": "Explain the difference between RAM and ROM.", "action": "web_search", "slots": {"query": "the difference between RAM and ROM"}}
+{"text": "How tall is the Statue of Unity, tell me please.", "action": "web_search", "slots": {"query": "How tall is the Statue of Unity"}}
+{"text": "Look up India's medal tally at the 2024 Olympics.", "action": "web_search", "slots": {"query": "India's medal tally at the 2024 Olympics"}}
+{"text": "Search on LinkedIn for product manager jobs in Gurgaon.", "action": "web_search", "slots": {"site": "LinkedIn", "query": "product manager jobs in Gurgaon"}}
+{"text": "Find me running shoes on Myntra.", "action": "web_search", "slots": {"site": "Myntra", "query": "running shoes"}}
+{"text": "Tell me about cold play's India tour.", "action": "web_search", "slots": {"query": "cold play's India tour"}}
+{"text": "Explain the stock market for a beginner.", "action": "web_search", "slots": {"query": "the stock market for a beginner"}}
+{"text": "Look up what time the RCB match starts today.", "action": "web_search", "slots": {"query": "what time the RCB match starts today"}}
+{"text": "Please tell me about Konark Sun Temple.", "action": "web_search", "slots": {"query": "Konark Sun Temple"}}
+{"text": "Tell me what is the boiling point of water in Fahrenheit.", "action": "web_search", "slots": {"query": "what is the boiling point of water in Fahrenheit"}}
+{"text": "Who is the current Chief Justice of India? Search for it.", "action": "web_search", "slots": {"query": "Who is the current Chief Justice of India"}}
+{"text": "Search Wikipedia for Battle of Plassey.", "action": "web_search", "slots": {"site": "Wikipedia", "query": "Battle of Plassey"}}
+{"text": "Look up best momos near me on Zomato.", "action": "web_search", "slots": {"site": "Zomato", "query": "best momos near me"}}
+{"text": "Explain why the sky is blue.", "action": "web_search", "slots": {"query": "why the sky is blue"}}
+{"text": "Can you look up the meaning of serendipity?", "action": "web_search", "slots": {"query": "the meaning of serendipity"}}
+{"text": "Tell me about the side effects of paracetamol.", "action": "web_search", "slots": {"query": "the side effects of paracetamol"}}
+{"text": "Search for how many km is a marathon.", "action": "web_search", "slots": {"query": "how many km is a marathon"}}
+{"text": "Explain what inflation means for my savings, thanks.", "action": "web_search", "slots": {"query": "what inflation means for my savings"}}
+{"text": "Tell me about Sundar Pichai.", "action": "web_search", "slots": {"query": "Sundar Pichai"}}

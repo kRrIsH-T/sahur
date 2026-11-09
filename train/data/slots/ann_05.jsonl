@@ -1,0 +1,645 @@
+{"text": "Retry button pe click karo.", "action": "click", "slots": {"target": "Retry"}}
+{"text": "try again button dabao", "action": "click", "slots": {"target": "try again"}}
+{"text": "Forward button dabao.", "action": "click", "slots": {"target": "Forward"}}
+{"text": "upload button pe click kar do", "action": "click", "slots": {"target": "upload"}}
+{"text": "Install button dabao.", "action": "click", "slots": {"target": "Install"}}
+{"text": "Update button click karo.", "action": "click", "slots": {"target": "Update"}}
+{"text": "Apply button pe click kijiye.", "action": "click", "slots": {"target": "Apply"}}
+{"text": "Done button dabao.", "action": "click", "slots": {"target": "Done"}}
+{"text": "Pay button pe click karo.", "action": "click", "slots": {"target": "Pay"}}
+{"text": "Share button dabao.", "action": "click", "slots": {"target": "Share"}}
+{"text": "Print button pe click karo.", "action": "click", "slots": {"target": "Print"}}
+{"text": "refresh button dabao", "action": "click", "slots": {"target": "refresh"}}
+{"text": "Send baTan cheyyi.", "action": "click", "slots": {"target": "Send"}}
+{"text": "Send button tipu.", "action": "click", "slots": {"target": "Send"}}
+{"text": "Okay button e click koro.", "action": "click", "slots": {"target": "Okay"}}
+{"text": "cancel button e click koro", "action": "click", "slots": {"target": "cancel"}}
+{"text": "OK var click kar.", "action": "click", "slots": {"target": "OK"}}
+{"text": "Next button upar click karo.", "action": "click", "slots": {"target": "Next"}}
+{"text": "ओके पर क्लिक करो", "action": "click", "slots": {"target": "ओके"}}
+{"text": "कैंसल बटन दबा दो", "action": "click", "slots": {"target": "कैंसल"}}
+{"text": "प्ले बटन दबाओ", "action": "click", "slots": {"target": "प्ले"}}
+{"text": "सबमिट बटन पर क्लिक कीजिए", "action": "click", "slots": {"target": "सबमिट"}}
+{"text": "यस वाला बटन दबाओ", "action": "click", "slots": {"target": "यस"}}
+{"text": "நெக்ஸ்ட் பட்டனை அழுத்து", "action": "click", "slots": {"target": "நெக்ஸ்ட்"}}
+{"text": "சென்ட் பட்டனை கிளிக் பண்ணு", "action": "click", "slots": {"target": "சென்ட்"}}
+{"text": "సెండ్ బటన్ నొక్కు", "action": "click", "slots": {"target": "సెండ్"}}
+{"text": "ఓకే మీద క్లిక్ చెయ్యి", "action": "click", "slots": {"target": "ఓకే"}}
+{"text": "ಸಬ್ಮಿಟ್ ಬಟನ್ ಒತ್ತು", "action": "click", "slots": {"target": "ಸಬ್ಮಿಟ್"}}
+{"text": "ಕ್ಯಾನ್ಸಲ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ", "action": "click", "slots": {"target": "ಕ್ಯಾನ್ಸಲ್"}}
+{"text": "সেন্ড বাটনে ক্লিক করো", "action": "click", "slots": {"target": "সেন্ড"}}
+{"text": "सेव्ह बटणावर क्लिक करा", "action": "click", "slots": {"target": "सेव्ह"}}
+{"text": "സെൻഡ് ബട്ടൺ അമർത്തു", "action": "click", "slots": {"target": "സെൻഡ്"}}
+{"text": "WhatsApp tura.", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "Chrome kholun de", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "calculator ugadun de", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "whatsapp open cheyyi", "action": "open_app", "slots": {"app": "whatsapp"}}
+{"text": "Chrome open cheyyandi.", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "notepad teruvu", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "Calculator open chey.", "action": "open_app", "slots": {"app": "Calculator"}}
+{"text": "file explorer teruvandi", "action": "open_app", "slots": {"app": "file explorer"}}
+{"text": "Settings open cheyyi.", "action": "open_app", "slots": {"app": "Settings"}}
+{"text": "camera teruvu", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "Word open cheyyandi please", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "Excel teruvu.", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "spotify open chey", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "Teams teruvu.", "action": "open_app", "slots": {"app": "Teams"}}
+{"text": "యూట్యూబ్ తెరువు", "action": "open_app", "slots": {"app": "యూట్యూబ్"}}
+{"text": "వాట్సాప్ ఓపెన్ చెయ్యి", "action": "open_app", "slots": {"app": "వాట్సాప్"}}
+{"text": "కాలిక్యులేటర్ తెరవండి", "action": "open_app", "slots": {"app": "కాలిక్యులేటర్"}}
+{"text": "కెమెరా ఓపెన్ చేయి", "action": "open_app", "slots": {"app": "కెమెరా"}}
+{"text": "YouTube thurakku.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "WhatsApp thurakkoo", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "Chrome open aakku.", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "notepad thurannu tharu", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "calculator thurakku", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "Settings thurakkanam.", "action": "open_app", "slots": {"app": "Settings"}}
+{"text": "camera open cheyyu", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "Excel thurakku", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "file explorer thurakkoo.", "action": "open_app", "slots": {"app": "file explorer"}}
+{"text": "Spotify thurakku.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Word thurakkamo", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "Zoom thurakku", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "യൂട്യൂബ് തുറക്കൂ", "action": "open_app", "slots": {"app": "യൂട്യൂബ്"}}
+{"text": "വാട്സാപ്പ് തുറക്കുക", "action": "open_app", "slots": {"app": "വാട്സാപ്പ്"}}
+{"text": "ക്രോം ഓപ്പൺ ചെയ്യൂ", "action": "open_app", "slots": {"app": "ക്രോം"}}
+{"text": "സെറ്റിങ്സ് തുറക്കൂ", "action": "open_app", "slots": {"app": "സെറ്റിങ്സ്"}}
+{"text": "YouTube kholo to.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "WhatsApp khulo", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "calculator ta khule dao", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "notepad khulo", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "Settings khule dao.", "action": "open_app", "slots": {"app": "Settings"}}
+{"text": "camera chalu koro", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "Word ta khulo.", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "Excel khule dao", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "spotify khulo.", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "Paint ta khulo", "action": "open_app", "slots": {"app": "Paint"}}
+{"text": "ইউটিউব খোলো", "action": "open_app", "slots": {"app": "ইউটিউব"}}
+{"text": "হোয়াটসঅ্যাপ খুলে দাও", "action": "open_app", "slots": {"app": "হোয়াটসঅ্যাপ"}}
+{"text": "ক্যালকুলেটর খোলো", "action": "open_app", "slots": {"app": "ক্যালকুলেটর"}}
+{"text": "ক্যামেরা চালু করো", "action": "open_app", "slots": {"app": "ক্যামেরা"}}
+{"text": "YouTube ughad.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "WhatsApp ughada", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "Chrome ughadun de.", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "notepad ughad", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "Settings ughada.", "action": "open_app", "slots": {"app": "Settings"}}
+{"text": "Word ughadun dya", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "Excel ughad.", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "file explorer ughada", "action": "open_app", "slots": {"app": "file explorer"}}
+{"text": "calculater ugadun de", "action": "open_app", "slots": {"app": "calculater"}}
+{"text": "Telegram ughad", "action": "open_app", "slots": {"app": "Telegram"}}
+{"text": "युट्यूब उघड", "action": "open_app", "slots": {"app": "युट्यूब"}}
+{"text": "व्हॉट्सॲप उघडा", "action": "open_app", "slots": {"app": "व्हॉट्सॲप"}}
+{"text": "क्रोम उघडून दे", "action": "open_app", "slots": {"app": "क्रोम"}}
+{"text": "नोटपॅड उघड", "action": "open_app", "slots": {"app": "नोटपॅड"}}
+{"text": "WhatsApp kholi do", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "notepad kholi aapo.", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "camera chalu karo.", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "Word kholi do", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "Excel kholo ne", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "Spotify chalu karo.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "યુટ્યુબ ખોલો", "action": "open_app", "slots": {"app": "યુટ્યુબ"}}
+{"text": "વોટ્સએપ ખોલી દો", "action": "open_app", "slots": {"app": "વોટ્સએપ"}}
+{"text": "કેલ્ક્યુલેટર ખોલો", "action": "open_app", "slots": {"app": "કેલ્ક્યુલેટર"}}
+{"text": "એક્સેલ ખોલો", "action": "open_app", "slots": {"app": "એક્સેલ"}}
+{"text": "YouTube khol de.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "WhatsApp khol do ji", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "Chrome khol deyo.", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "calculator khol", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "notepad khol de", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "Settings khol deo.", "action": "open_app", "slots": {"app": "Settings"}}
+{"text": "Word khol de.", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "Excel khol do ji", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "Spotify khol de", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "file explorer khol de.", "action": "open_app", "slots": {"app": "file explorer"}}
+{"text": "Instagram khol de", "action": "open_app", "slots": {"app": "Instagram"}}
+{"text": "ਯੂਟਿਊਬ ਖੋਲ੍ਹ ਦੇ", "action": "open_app", "slots": {"app": "ਯੂਟਿਊਬ"}}
+{"text": "ਵਟਸਐਪ ਖੋਲ੍ਹੋ", "action": "open_app", "slots": {"app": "ਵਟਸਐਪ"}}
+{"text": "ਕ੍ਰੋਮ ਖੋਲ੍ਹ ਦਿਓ", "action": "open_app", "slots": {"app": "ਕ੍ਰੋਮ"}}
+{"text": "ਕੈਮਰਾ ਚਾਲੂ ਕਰੋ", "action": "open_app", "slots": {"app": "ਕੈਮਰਾ"}}
+{"text": "You tube teruvu", "action": "open_app", "slots": {"app": "You tube"}}
+{"text": "Whats up open cheyyi.", "action": "open_app", "slots": {"app": "Whats up"}}
+{"text": "Krome ughad", "action": "open_app", "slots": {"app": "Krome"}}
+{"text": "excel teruvandi.", "action": "open_app", "slots": {"app": "excel"}}
+{"text": "Note pad khulo", "action": "open_app", "slots": {"app": "Note pad"}}
+{"text": "spot ify thurakku", "action": "open_app", "slots": {"app": "spot ify"}}
+{"text": "files folder kholo", "action": "open_app", "slots": {"app": "files folder"}}
+{"text": "setting ughad na", "action": "open_app", "slots": {"app": "setting"}}
+{"text": "Word file kholo ne.", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "Camera thurakkoo", "action": "open_app", "slots": {"app": "Camera"}}
+{"text": "ye message kisne bheja padho", "action": "read_screen", "slots": {}}
+{"text": "What does this popup say?", "action": "read_screen", "slots": {}}
+{"text": "Is bill mein kitna likha hai.", "action": "read_screen", "slots": {}}
+{"text": "Ankhen kamzor hain beta, ye message padh do.", "action": "read_screen", "slots": {}}
+{"text": "Can you tell me what's written on the screen.", "action": "read_screen", "slots": {}}
+{"text": "ye email kis baare mein hai batao", "action": "read_screen", "slots": {}}
+{"text": "Chashma nahi hai mere paas, ye padh do.", "action": "read_screen", "slots": {}}
+{"text": "abhi jo notification aaya woh padho", "action": "read_screen", "slots": {}}
+{"text": "Akshar bahut chhote hain, kya likha hai bolo.", "action": "read_screen", "slots": {}}
+{"text": "Is error mein kya likha hai.", "action": "read_screen", "slots": {}}
+{"text": "please read the email that is open", "action": "read_screen", "slots": {}}
+{"text": "Bijli ka bill khula hai, total amount padh do.", "action": "read_screen", "slots": {}}
+{"text": "Mere bete ka message aaya hai kya likha hai padho.", "action": "read_screen", "slots": {}}
+{"text": "What is written in this letter.", "action": "read_screen", "slots": {}}
+{"text": "explain what this page is showing", "action": "read_screen", "slots": {}}
+{"text": "Ye dabba kya bol raha hai screen pe.", "action": "read_screen", "slots": {}}
+{"text": "screen par jo likha hai woh sunao mujhe", "action": "read_screen", "slots": {}}
+{"text": "Bank ka message hai kya, padh ke batao.", "action": "read_screen", "slots": {}}
+{"text": "Is warning ka matlab kya hai samjhao.", "action": "read_screen", "slots": {}}
+{"text": "I can't see properly, what does it say here", "action": "read_screen", "slots": {}}
+{"text": "Read the last WhatsApp message on the screen.", "action": "read_screen", "slots": {}}
+{"text": "Group mein kisne kya likha padh do.", "action": "read_screen", "slots": {}}
+{"text": "ye pop up kya keh raha hai", "action": "read_screen", "slots": {}}
+{"text": "Is receipt mein date kya likhi hai.", "action": "read_screen", "slots": {}}
+{"text": "Mujhe saaf nahi dikh raha, ye kya aaya hai.", "action": "read_screen", "slots": {}}
+{"text": "doctor ki report khuli hai padh ke samjhao", "action": "read_screen", "slots": {}}
+{"text": "Tell me who sent this mail.", "action": "read_screen", "slots": {}}
+{"text": "pura page padh do dhire dhire", "action": "read_screen", "slots": {}}
+{"text": "Ye OTP wala message padho zara.", "action": "read_screen", "slots": {}}
+{"text": "Screen pe kya chal raha hai bataiye.", "action": "read_screen", "slots": {}}
+{"text": "what is this window asking me", "action": "read_screen", "slots": {}}
+{"text": "Pension ka letter khula hai, padh dijiye.", "action": "read_screen", "slots": {}}
+{"text": "Is message mein time kya diya hai.", "action": "read_screen", "slots": {}}
+{"text": "Ye jo likha hai ise bolke sunao.", "action": "read_screen", "slots": {}}
+{"text": "mobile bill mein due date kya hai padho", "action": "read_screen", "slots": {}}
+{"text": "Can you read this out, the font is too small.", "action": "read_screen", "slots": {}}
+{"text": "Kisne call kiya tha screen pe dikha raha hai kya.", "action": "read_screen", "slots": {}}
+{"text": "ye naya mail kya keh raha hai", "action": "read_screen", "slots": {}}
+{"text": "Is page ki heading kya hai.", "action": "read_screen", "slots": {}}
+{"text": "Read me the text on this screen please.", "action": "read_screen", "slots": {}}
+{"text": "Mera nazar kamjor hai ye massage padh do.", "action": "read_screen", "slots": {}}
+{"text": "Is bill pe kitne rupaye bache hain.", "action": "read_screen", "slots": {}}
+{"text": "beti ne kya bheja hai photo ke neeche likha padho", "action": "read_screen", "slots": {}}
+{"text": "What does this error message mean.", "action": "read_screen", "slots": {}}
+{"text": "Is screen ka matlab samjha do mujhe.", "action": "read_screen", "slots": {}}
+{"text": "summarise this email for me", "action": "read_screen", "slots": {}}
+{"text": "Gas booking ka message aaya hai, padho kya likha.", "action": "read_screen", "slots": {}}
+{"text": "Ye kaun sa number hai jisne message kiya.", "action": "read_screen", "slots": {}}
+{"text": "padh ke batao ye notice mein kya hai", "action": "read_screen", "slots": {}}
+{"text": "Is the message on screen from the bank, read it.", "action": "read_screen", "slots": {}}
+{"text": "Upar wala message padho pehle.", "action": "read_screen", "slots": {}}
+{"text": "Ye jo dabba khula hai usme kya likha hai.", "action": "read_screen", "slots": {}}
+{"text": "ticket pe train ka time kya likha hai", "action": "read_screen", "slots": {}}
+{"text": "Bhaiya ye angrezi mein kya likha hai samjhao.", "action": "read_screen", "slots": {}}
+{"text": "read whatever is open right now", "action": "read_screen", "slots": {}}
+{"text": "Ye message padh do na plis.", "action": "read_screen", "slots": {}}
+{"text": "What's the amount written on this invoice.", "action": "read_screen", "slots": {}}
+{"text": "Is chitthi mein kya likha hai padhiye.", "action": "read_screen", "slots": {}}
+{"text": "Naya message kya aaya padh do jaldi.", "action": "read_screen", "slots": {}}
+{"text": "explain this form to me in simple words", "action": "read_screen", "slots": {}}
+{"text": "Kya ye message fraud hai, padh ke batao.", "action": "read_screen", "slots": {}}
+{"text": "Screen pay kya likha hai.", "action": "read_screen", "slots": {}}
+{"text": "Who is this message from, read it.", "action": "read_screen", "slots": {}}
+{"text": "ration card wala page padh ke sunao", "action": "read_screen", "slots": {}}
+{"text": "Is popup mein yes no ke upar kya likha hai.", "action": "read_screen", "slots": {}}
+{"text": "Mujhe padhna nahi aata, ye screen padh do.", "action": "read_screen", "slots": {}}
+{"text": "what did my son write in this chat", "action": "read_screen", "slots": {}}
+{"text": "Ye page kis cheez ke baare mein hai.", "action": "read_screen", "slots": {}}
+{"text": "Bas pehli line padh do.", "action": "read_screen", "slots": {}}
+{"text": "Is message mein link ke saath kya likha hai.", "action": "read_screen", "slots": {}}
+{"text": "salary slip mein net pay kitna hai padho", "action": "read_screen", "slots": {}}
+{"text": "Read the notification at the corner.", "action": "read_screen", "slots": {}}
+{"text": "Ye to theek se dikhta nahi, padh do isse.", "action": "read_screen", "slots": {}}
+{"text": "Is mail ka jawab kya maanga hai batao.", "action": "read_screen", "slots": {}}
+{"text": "what does the screen say now", "action": "read_screen", "slots": {}}
+{"text": "Medicine ke parche pe kya likha hai padho.", "action": "read_screen", "slots": {}}
+{"text": "Ye khabar jo khuli hai padh ke sunao.", "action": "read_screen", "slots": {}}
+{"text": "Is mesej mein kya bola hai.", "action": "read_screen", "slots": {}}
+{"text": "school se jo circular aaya woh padho", "action": "read_screen", "slots": {}}
+{"text": "Read aloud the unread messages here.", "action": "read_screen", "slots": {}}
+{"text": "Is bill mein GST kitna laga hai.", "action": "read_screen", "slots": {}}
+{"text": "mujhe dikhai kam deta hai, yeh pura padho", "action": "read_screen", "slots": {}}
+{"text": "मुझे दिखता नहीं, क्या आया है पढ़ दो", "action": "read_screen", "slots": {}}
+{"text": "ये मैसेज किसने भेजा है पढ़ो", "action": "read_screen", "slots": {}}
+{"text": "इस बिल में कितना लिखा है", "action": "read_screen", "slots": {}}
+{"text": "ये पॉपअप क्या कह रहा है", "action": "read_screen", "slots": {}}
+{"text": "आँखें कमज़ोर हैं, ये ईमेल पढ़ के सुनाओ", "action": "read_screen", "slots": {}}
+{"text": "इस चिट्ठी में क्या लिखा है समझाओ", "action": "read_screen", "slots": {}}
+{"text": "बैंक का मैसेज पढ़ दीजिए", "action": "read_screen", "slots": {}}
+{"text": "ये फॉर्म में क्या पूछा है बताओ", "action": "read_screen", "slots": {}}
+{"text": "नया नोटिफिकेशन क्या आया है पढ़ो", "action": "read_screen", "slots": {}}
+{"text": "इस एरर का मतलब क्या है", "action": "read_screen", "slots": {}}
+{"text": "चश्मा नहीं मिल रहा, ये पढ़ दो", "action": "read_screen", "slots": {}}
+{"text": "बिजली के बिल में आखिरी तारीख क्या है", "action": "read_screen", "slots": {}}
+{"text": "बेटे ने व्हाट्सएप पर क्या लिखा है पढ़ो", "action": "read_screen", "slots": {}}
+{"text": "ये पेज किस बारे में है समझा दो", "action": "read_screen", "slots": {}}
+{"text": "रिपोर्ट में क्या लिखा है धीरे धीरे पढ़ो", "action": "read_screen", "slots": {}}
+{"text": "अक्षर बहुत छोटे हैं, पढ़ के बताओ", "action": "read_screen", "slots": {}}
+{"text": "इस रसीद पर कितने पैसे लिखे हैं", "action": "read_screen", "slots": {}}
+{"text": "ये मेल किसका है और क्या कह रहा है", "action": "read_screen", "slots": {}}
+{"text": "ये ओटीपी वाला मैसेज पढ़ के सुनाओ", "action": "read_screen", "slots": {}}
+{"text": "Ye message kiska hai bolo zara, dikh nahi raha.", "action": "read_screen", "slots": {}}
+{"text": "Insurance ka mail khula hai, kya likha hai.", "action": "read_screen", "slots": {}}
+{"text": "What is this dialog box saying about update.", "action": "read_screen", "slots": {}}
+{"text": "Ee message alli enu ide odu.", "action": "read_screen", "slots": {}}
+{"text": "idu enu bandide nodi helu", "action": "read_screen", "slots": {}}
+{"text": "Screen alli enu barediddare odi helu.", "action": "read_screen", "slots": {}}
+{"text": "ee mail alli enu ide anta odu", "action": "read_screen", "slots": {}}
+{"text": "Ee letter na odi helu.", "action": "read_screen", "slots": {}}
+{"text": "WhatsApp message alli enu bandide odu.", "action": "read_screen", "slots": {}}
+{"text": "ee popup enu helutte odi helu", "action": "read_screen", "slots": {}}
+{"text": "Idu enu message nodi heli.", "action": "read_screen", "slots": {}}
+{"text": "screen mele iruvudannu odi", "action": "read_screen", "slots": {}}
+{"text": "Ee form alli enu kelthide anta helu.", "action": "read_screen", "slots": {}}
+{"text": "ee notice na odi artha madisi", "action": "read_screen", "slots": {}}
+{"text": "Ee SMS enu helthide odu.", "action": "read_screen", "slots": {}}
+{"text": "nanage ee message odi helu please", "action": "read_screen", "slots": {}}
+{"text": "ee screen alli iro text odu", "action": "read_screen", "slots": {}}
+{"text": "Idu yaaru kalisiddu enu ide odi helu.", "action": "read_screen", "slots": {}}
+{"text": "ee email na jorage odu", "action": "read_screen", "slots": {}}
+{"text": "ee error message enu anta helu", "action": "read_screen", "slots": {}}
+{"text": "Ee page na modalinda odu.", "action": "read_screen", "slots": {}}
+{"text": "ee message enu hel tide odu.", "action": "read_screen", "slots": {}}
+{"text": "Ee mail ali enu ide odu.", "action": "read_screen", "slots": {}}
+{"text": "screen nalli enu kaanutide helu", "action": "read_screen", "slots": {}}
+{"text": "idanna odi heli", "action": "read_screen", "slots": {}}
+{"text": "Ee message na kannadadalli odi artha madisu.", "action": "read_screen", "slots": {}}
+{"text": "ee chat alli last message odu", "action": "read_screen", "slots": {}}
+{"text": "Ee news page alli enu ide odi helu.", "action": "read_screen", "slots": {}}
+{"text": "ee document na odi helu", "action": "read_screen", "slots": {}}
+{"text": "ee message ali enide odu", "action": "read_screen", "slots": {}}
+{"text": "Ithil enthanu ezhuthiyirikkunnathu vaayikku.", "action": "read_screen", "slots": {}}
+{"text": "ithil entha ezhuthiyirikkunne vaayichu tharu", "action": "read_screen", "slots": {}}
+{"text": "Ee message il enthaanu ullathu vaayikku.", "action": "read_screen", "slots": {}}
+{"text": "ee mail onnu vaayichu kelpikku", "action": "read_screen", "slots": {}}
+{"text": "Screenil enthaanu kaanunnathu paranju tharu.", "action": "read_screen", "slots": {}}
+{"text": "ee letter vaayichu tharamo", "action": "read_screen", "slots": {}}
+{"text": "Ithu enthaanu vannirikkunnathu nokki parayu.", "action": "read_screen", "slots": {}}
+{"text": "ee popup enthaanu parayunnathu vaayikku", "action": "read_screen", "slots": {}}
+{"text": "Ee page il ullathu vaayikku.", "action": "read_screen", "slots": {}}
+{"text": "whatsapp message il entha vannathu vaayikku", "action": "read_screen", "slots": {}}
+{"text": "Ee form il enthaanu chodikkunnathu paranju tharu.", "action": "read_screen", "slots": {}}
+{"text": "ee SMS onnu vaayikku", "action": "read_screen", "slots": {}}
+{"text": "Ithu aaru ayachathaanu enthaanu ezhuthiyathu vaayikku.", "action": "read_screen", "slots": {}}
+{"text": "ee bill il entha ullathu nokki parayu", "action": "read_screen", "slots": {}}
+{"text": "Ee error message enthaanu ennu vaayichu tharu.", "action": "read_screen", "slots": {}}
+{"text": "screen il ulla text vaayikku", "action": "read_screen", "slots": {}}
+{"text": "Ee email muzhuvan vaayikku.", "action": "read_screen", "slots": {}}
+{"text": "ithil enthanu ezhuthiyirikunathu vayikku.", "action": "read_screen", "slots": {}}
+{"text": "Ee notice vaayichu manasilakki tharu.", "action": "read_screen", "slots": {}}
+{"text": "ee chat ile last message vaayikku", "action": "read_screen", "slots": {}}
+{"text": "ee window il entha ezhuthiyirikkunne", "action": "read_screen", "slots": {}}
+{"text": "Ithonnu vaayichu tharu.", "action": "read_screen", "slots": {}}
+{"text": "ee document vaayichu kelpikku", "action": "read_screen", "slots": {}}
+{"text": "Ee message enthaanu parayunnathu vaayikku.", "action": "read_screen", "slots": {}}
+{"text": "screenil enthokke undu paranju tharu", "action": "read_screen", "slots": {}}
+{"text": "Ee page aadyam muthal vaayikku.", "action": "read_screen", "slots": {}}
+{"text": "ee message malayalathil vaayichu tharu", "action": "read_screen", "slots": {}}
+{"text": "Ithil entha ezhuthiyirikunnu nokku vaayikku.", "action": "read_screen", "slots": {}}
+{"text": "ee message onnu vayikku", "action": "read_screen", "slots": {}}
+{"text": "Ee mail il enthaanu ennu nokki parayu.", "action": "read_screen", "slots": {}}
+{"text": "ithentha vannathu onnu nokki parayu", "action": "read_screen", "slots": {}}
+{"text": "Ee screen vaayichu tharu.", "action": "read_screen", "slots": {}}
+{"text": "ee news enthaanu ezhuthiyathu vaayikku", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಮೆಸೇಜ್ ಅಲ್ಲಿ ಏನು ಇದೆ ಓದು", "action": "read_screen", "slots": {}}
+{"text": "ಇದು ಏನು ಬಂದಿದೆ ನೋಡಿ ಹೇಳು", "action": "read_screen", "slots": {}}
+{"text": "ಸ್ಕ್ರೀನ್ ಅಲ್ಲಿ ಏನು ಬರೆದಿದೆ ಓದಿ ಹೇಳು", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಇಮೇಲ್ ಓದು", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಪತ್ರ ಓದಿ ಹೇಳಿ", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಪಾಪ್‌ಅಪ್ ಏನು ಹೇಳುತ್ತಿದೆ ಓದು", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಪೇಜ್ ಅಲ್ಲಿ ಏನಿದೆ ಓದಿ ಹೇಳು", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಫಾರ್ಮ್ ಏನು ಕೇಳುತ್ತಿದೆ ಓದು", "action": "read_screen", "slots": {}}
+{"text": "ಪರದೆ ಮೇಲೆ ಇರುವುದನ್ನು ಓದು", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಬಿಲ್ ಅಲ್ಲಿ ಏನಿದೆ ನೋಡಿ ಹೇಳು", "action": "read_screen", "slots": {}}
+{"text": "ಈ ವಾಟ್ಸಾಪ್ ಮೆಸೇಜ್ ಓದು", "action": "read_screen", "slots": {}}
+{"text": "ಇದನ್ನು ಓದಿ ಅರ್ಥ ಮಾಡಿಸು", "action": "read_screen", "slots": {}}
+{"text": "ಈ ನೋಟಿಸ್ ಓದಿ ಹೇಳಿ", "action": "read_screen", "slots": {}}
+{"text": "ಈ ತಪ್ಪು ಸಂದೇಶ ಏನು ಅಂತ ಓದು", "action": "read_screen", "slots": {}}
+{"text": "ഈ മെസ്സേജിൽ എന്താണ് ഉള്ളത് വായിക്ക്", "action": "read_screen", "slots": {}}
+{"text": "ഈ മെയിൽ ഒന്ന് വായിച്ചു തരൂ", "action": "read_screen", "slots": {}}
+{"text": "സ്ക്രീനിൽ എന്താണ് കാണുന്നത് പറഞ്ഞു തരൂ", "action": "read_screen", "slots": {}}
+{"text": "ഈ കത്ത് വായിച്ചു കേൾപ്പിക്കൂ", "action": "read_screen", "slots": {}}
+{"text": "ഇത് എന്താണ് വന്നിരിക്കുന്നത് നോക്കി പറയൂ", "action": "read_screen", "slots": {}}
+{"text": "ഈ പോപ്പപ്പ് എന്താണ് പറയുന്നത് വായിക്കൂ", "action": "read_screen", "slots": {}}
+{"text": "ഈ പേജിൽ ഉള്ളത് വായിക്കൂ", "action": "read_screen", "slots": {}}
+{"text": "ഈ ഫോമിൽ എന്താണ് ചോദിക്കുന്നത് പറഞ്ഞു തരൂ", "action": "read_screen", "slots": {}}
+{"text": "ഈ എസ്എംഎസ് വായിക്ക്", "action": "read_screen", "slots": {}}
+{"text": "വാട്ട്സ്ആപ്പ് മെസ്സേജിൽ എന്താ വന്നത് വായിക്കൂ", "action": "read_screen", "slots": {}}
+{"text": "ഈ ബില്ലിൽ എന്താ ഉള്ളത് നോക്കി പറയൂ", "action": "read_screen", "slots": {}}
+{"text": "ഈ നോട്ടീസ് വായിച്ച് മനസ്സിലാക്കി തരൂ", "action": "read_screen", "slots": {}}
+{"text": "സ്ക്രീനിലെ എഴുത്ത് വായിക്കൂ", "action": "read_screen", "slots": {}}
+{"text": "ഇതൊന്ന് വായിച്ചു തരൂ", "action": "read_screen", "slots": {}}
+{"text": "ee message alli enu barede ode", "action": "read_screen", "slots": {}}
+{"text": "ee massage ali enu ide odhu", "action": "read_screen", "slots": {}}
+{"text": "ഇതിൽ എന്താണ് എഴുതിയിരിക്കുന്നത് വായിക്കൂ", "action": "read_screen", "slots": {}}
+{"text": "intha letter padichu sollu", "action": "read_screen", "slots": {}}
+{"text": "Screen la enna error varudhu nu sollu.", "action": "read_screen", "slots": {}}
+{"text": "indha email enna solludhu padichu kaattu", "action": "read_screen", "slots": {}}
+{"text": "Ee email lo em raasaru chaduvu.", "action": "read_screen", "slots": {}}
+{"text": "Intha bill la evvalavu amount nu padichu sollu.", "action": "read_screen", "slots": {}}
+{"text": "ee bill lo entha amount undi chadivi cheppu", "action": "read_screen", "slots": {}}
+{"text": "ee popup lo emundi cheppu", "action": "read_screen", "slots": {}}
+{"text": "Screen meedha vandha message ah padi.", "action": "read_screen", "slots": {}}
+{"text": "ee notice lo em rasi undi chadavandi", "action": "read_screen", "slots": {}}
+{"text": "Intha error message artham enna nu explain pannu.", "action": "read_screen", "slots": {}}
+{"text": "ee error ki ardham enti cheppu", "action": "read_screen", "slots": {}}
+{"text": "Whatsapp la vandha message ah padichu sollu.", "action": "read_screen", "slots": {}}
+{"text": "WhatsApp lo vachina message chadivi vinipinchu.", "action": "read_screen", "slots": {}}
+{"text": "Bank la irundhu vandha SMS padichu kaattu.", "action": "read_screen", "slots": {}}
+{"text": "bank nundi vachina message lo emundi chaduvu", "action": "read_screen", "slots": {}}
+{"text": "indha mail yaaru anupunaanga, enna solraanga padi", "action": "read_screen", "slots": {}}
+{"text": "Ee mail evaru pamparu, em cheptunnaru chaduvu.", "action": "read_screen", "slots": {}}
+{"text": "Screen la irukura letter ah full ah padi.", "action": "read_screen", "slots": {}}
+{"text": "Screen lo unna letter motham chadavu.", "action": "read_screen", "slots": {}}
+{"text": "Current bill details ah padichu sollunga.", "action": "read_screen", "slots": {}}
+{"text": "Current bill lo details chadivi cheppandi.", "action": "read_screen", "slots": {}}
+{"text": "Idhu enna warning nu konjam sollu.", "action": "read_screen", "slots": {}}
+{"text": "Idi emi warning cheppu konchem.", "action": "read_screen", "slots": {}}
+{"text": "Indha message tamil la purila, explain pannu.", "action": "read_screen", "slots": {}}
+{"text": "Ee message naaku ardham kaaledu, vivarinchu.", "action": "read_screen", "slots": {}}
+{"text": "Office la irundhu vandha email ah padichu sollu.", "action": "read_screen", "slots": {}}
+{"text": "Office nundi vachina email chaduvu.", "action": "read_screen", "slots": {}}
+{"text": "Indha letter la date enna nu padi.", "action": "read_screen", "slots": {}}
+{"text": "Pop up la enna kekkudhu, yes ah no ah nu sollu.", "action": "read_screen", "slots": {}}
+{"text": "Popup em adugutundi chaduvu.", "action": "read_screen", "slots": {}}
+{"text": "Ee eror emiti cheppu.", "action": "read_screen", "slots": {}}
+{"text": "Electricity bill la due date enna nu padichu sollu.", "action": "read_screen", "slots": {}}
+{"text": "Current bill due date eppudu undi chadivu.", "action": "read_screen", "slots": {}}
+{"text": "Gas booking message padichu kaattu.", "action": "read_screen", "slots": {}}
+{"text": "Gas booking message lo emundi chaduvu.", "action": "read_screen", "slots": {}}
+{"text": "Indha application form la enna fill pannanum nu sollu.", "action": "read_screen", "slots": {}}
+{"text": "Ee application form lo emi nimpali chaduvu.", "action": "read_screen", "slots": {}}
+{"text": "School notice enna solludhu padichu sollu.", "action": "read_screen", "slots": {}}
+{"text": "School nundi vachina notice chadivi cheppu.", "action": "read_screen", "slots": {}}
+{"text": "Paiyan anupuna message ah padichu kaattu.", "action": "read_screen", "slots": {}}
+{"text": "Abbayi pampina message chadivi vinipinchu.", "action": "read_screen", "slots": {}}
+{"text": "Amma anupuna message ah padi.", "action": "read_screen", "slots": {}}
+{"text": "Amma pampina message lo emundi cheppu.", "action": "read_screen", "slots": {}}
+{"text": "Last vandha message ah padi.", "action": "read_screen", "slots": {}}
+{"text": "Chivari message chaduvu.", "action": "read_screen", "slots": {}}
+{"text": "Indha OTP message padichu sollu.", "action": "read_screen", "slots": {}}
+{"text": "OTP message lo emundi chadivi cheppu.", "action": "read_screen", "slots": {}}
+{"text": "Indha installation error enna nu explain pannu.", "action": "read_screen", "slots": {}}
+{"text": "Ee installation error enti vivarinchu.", "action": "read_screen", "slots": {}}
+{"text": "Update popup enna solludhu padi.", "action": "read_screen", "slots": {}}
+{"text": "Update popup lo emundi chaduvu.", "action": "read_screen", "slots": {}}
+{"text": "Ration card form la enna kekkuraanga padichu sollu.", "action": "read_screen", "slots": {}}
+{"text": "Ration card form lo emi adugutunnaru cheppu.", "action": "read_screen", "slots": {}}
+{"text": "Intha meil la enna irukku.", "action": "read_screen", "slots": {}}
+{"text": "Indha invoice padichu total sollu.", "action": "read_screen", "slots": {}}
+{"text": "Ee invoice chadivi total cheppu.", "action": "read_screen", "slots": {}}
+{"text": "Screen la vandha alert ah padichu sollu.", "action": "read_screen", "slots": {}}
+{"text": "Screen meeda vachina alert chaduvu.", "action": "read_screen", "slots": {}}
+{"text": "Indha message saria puriyala, padichu explain pannu.", "action": "read_screen", "slots": {}}
+{"text": "Ee message sariga ardham kaledu, chadivi vivarinchu.", "action": "read_screen", "slots": {}}
+{"text": "Phone bill la enna charge pottirukaanga padi.", "action": "read_screen", "slots": {}}
+{"text": "Phone bill lo em charges unnayi chaduvu.", "action": "read_screen", "slots": {}}
+{"text": "Hospital report la enna ezhudhirukku padichu sollu.", "action": "read_screen", "slots": {}}
+{"text": "Hospital report lo emundi chadivi cheppu.", "action": "read_screen", "slots": {}}
+{"text": "Indha dialog box enna kekkudhu.", "action": "read_screen", "slots": {}}
+{"text": "Ee dialog box emi adugutundi chaduvu.", "action": "read_screen", "slots": {}}
+{"text": "Pension letter la enna solli irukaanga padi.", "action": "read_screen", "slots": {}}
+{"text": "Pension uttaram lo emundi chadivi cheppu.", "action": "read_screen", "slots": {}}
+{"text": "இந்த மெசேஜ் என்ன சொல்லுது படிச்சு சொல்லு", "action": "read_screen", "slots": {}}
+{"text": "இந்த லெட்டர் படிச்சு சொல்லு", "action": "read_screen", "slots": {}}
+{"text": "ஸ்கிரீன்ல என்ன எரர் வருது சொல்லு", "action": "read_screen", "slots": {}}
+{"text": "இந்த பில்ல எவ்வளவு அமௌண்ட் படிச்சு சொல்லு", "action": "read_screen", "slots": {}}
+{"text": "இந்த ஈமெயில் என்ன சொல்லுது படி", "action": "read_screen", "slots": {}}
+{"text": "இந்த பாப்அப் என்ன சொல்லுது சொல்லு", "action": "read_screen", "slots": {}}
+{"text": "இந்த நோட்டீஸ் படிச்சு காட்டு", "action": "read_screen", "slots": {}}
+{"text": "இந்த ஃபார்ம்ல என்ன கேக்குறாங்க சொல்லு", "action": "read_screen", "slots": {}}
+{"text": "ఈ మెసేజ్ లో ఏముంది చదువు", "action": "read_screen", "slots": {}}
+{"text": "ఈ లెటర్ చదివి చెప్పు", "action": "read_screen", "slots": {}}
+{"text": "స్క్రీన్ మీద ఏ ఎర్రర్ వస్తుంది చెప్పు", "action": "read_screen", "slots": {}}
+{"text": "ఈ బిల్లు లో ఎంత అమౌంట్ ఉంది చదువు", "action": "read_screen", "slots": {}}
+{"text": "ఈ ఈమెయిల్ లో ఏం రాశారు చదువు", "action": "read_screen", "slots": {}}
+{"text": "ఈ పాపప్ ఏమంటుంది చెప్పు", "action": "read_screen", "slots": {}}
+{"text": "ఈ నోటీసు చదివి వినిపించు", "action": "read_screen", "slots": {}}
+{"text": "ఈ ఫారం లో ఏమి అడుగుతున్నారు చదువు", "action": "read_screen", "slots": {}}
+{"text": "ఈ వార్నింగ్ అర్థం ఏంటి వివరించు", "action": "read_screen", "slots": {}}
+{"text": "Screen la open aagi irukura message enna nu padichu sollu.", "action": "read_screen", "slots": {}}
+{"text": "Ee screen lo open ayina message chadivi cheppu.", "action": "read_screen", "slots": {}}
+{"text": "Indha refund email padichu enna aachu nu sollu.", "action": "read_screen", "slots": {}}
+{"text": "Ee refund email chadivi emaindo cheppu.", "action": "read_screen", "slots": {}}
+{"text": "Aadhaar update notice la enna irukku padi.", "action": "read_screen", "slots": {}}
+{"text": "Aadhaar notice lo emundi chaduvu.", "action": "read_screen", "slots": {}}
+{"text": "Indha court summons letter la enna solli irukku padi.", "action": "read_screen", "slots": {}}
+{"text": "Ee insurance message lo emundo chadivi cheppu.", "action": "read_screen", "slots": {}}
+{"text": "bari naanu barthini", "action": "type_text", "slots": {"text": "naanu barthini"}}
+{"text": "Idralli baree naanu ivattu late aagi barthini.", "action": "type_text", "slots": {"text": "naanu ivattu late aagi barthini"}}
+{"text": "type maadi meeting mooru gantege ide", "action": "type_text", "slots": {"text": "meeting mooru gantege ide"}}
+{"text": "Bari ondu nimisha kaayi.", "action": "type_text", "slots": {"text": "ondu nimisha kaayi"}}
+{"text": "Type maadi happy birthday.", "action": "type_text", "slots": {"text": "happy birthday"}}
+{"text": "bari ella chennagide", "action": "type_text", "slots": {"text": "ella chennagide"}}
+{"text": "Barri naanu manege hogtha iddini.", "action": "type_text", "slots": {"text": "naanu manege hogtha iddini"}}
+{"text": "type maadi naavu nale bengaluru ge hogthivi", "action": "type_text", "slots": {"text": "naavu nale bengaluru ge hogthivi"}}
+{"text": "Idralli type maadi hesaru Ramesh Kumar.", "action": "type_text", "slots": {"text": "hesaru Ramesh Kumar"}}
+{"text": "bari ok sari", "action": "type_text", "slots": {"text": "ok sari"}}
+{"text": "Type maadi report naale kaltheeni.", "action": "type_text", "slots": {"text": "report naale kaltheeni"}}
+{"text": "bari oota aaytha", "action": "type_text", "slots": {"text": "oota aaytha"}}
+{"text": "Idralli bareyiri nanna vilaasa jayanagar naalkane block.", "action": "type_text", "slots": {"text": "nanna vilaasa jayanagar naalkane block"}}
+{"text": "type maadi shubhodaya", "action": "type_text", "slots": {"text": "shubhodaya"}}
+{"text": "type maadi exam result chennagi bandide.", "action": "type_text", "slots": {"text": "exam result chennagi bandide"}}
+{"text": "bari naanu office alli iddini", "action": "type_text", "slots": {"text": "naanu office alli iddini"}}
+{"text": "Type maadi dayavittu file kalisi.", "action": "type_text", "slots": {"text": "dayavittu file kalisi"}}
+{"text": "idralli baree bill payment aagide", "action": "type_text", "slots": {"text": "bill payment aagide"}}
+{"text": "Bari happy deepavali ellarigu.", "action": "type_text", "slots": {"text": "happy deepavali ellarigu"}}
+{"text": "type maadi naanu sanje aaru gantege free", "action": "type_text", "slots": {"text": "naanu sanje aaru gantege free"}}
+{"text": "Taip maadi nale bheti aagona.", "action": "type_text", "slots": {"text": "nale bheti aagona"}}
+{"text": "bari hosa varshada shubhashayagalu", "action": "type_text", "slots": {"text": "hosa varshada shubhashayagalu"}}
+{"text": "Idralli type maadi phone number aamele kodthini.", "action": "type_text", "slots": {"text": "phone number aamele kodthini"}}
+{"text": "type maadi naanu bus nalli iddini", "action": "type_text", "slots": {"text": "naanu bus nalli iddini"}}
+{"text": "Bari mane kelasa mugidide.", "action": "type_text", "slots": {"text": "mane kelasa mugidide"}}
+{"text": "type maadi ee vaara rajaa beku", "action": "type_text", "slots": {"text": "ee vaara rajaa beku"}}
+{"text": "bari thumba dhanyavaadagalu sir", "action": "type_text", "slots": {"text": "thumba dhanyavaadagalu sir"}}
+{"text": "Type maadi order confirm aagide.", "action": "type_text", "slots": {"text": "order confirm aagide"}}
+{"text": "idralli bari subject leave application", "action": "type_text", "slots": {"text": "subject leave application"}}
+{"text": "Bari nanage jvara ide, ivattu barolla.", "action": "type_text", "slots": {"text": "nanage jvara ide, ivattu barolla"}}
+{"text": "type maadi kshamisi tadavaagide", "action": "type_text", "slots": {"text": "kshamisi tadavaagide"}}
+{"text": "bari kaaryakrama bhaanuvaara ide", "action": "type_text", "slots": {"text": "kaaryakrama bhaanuvaara ide"}}
+{"text": "Type maadi hesaru Lakshmi, vayassu aravattu.", "action": "type_text", "slots": {"text": "hesaru Lakshmi, vayassu aravattu"}}
+{"text": "idralli bari mysore palace tumba sundara", "action": "type_text", "slots": {"text": "mysore palace tumba sundara"}}
+{"text": "Bari sari naanu nodtheeni.", "action": "type_text", "slots": {"text": "sari naanu nodtheeni"}}
+{"text": "type maadi amma ge aushadhi taralu marebeda", "action": "type_text", "slots": {"text": "amma ge aushadhi taralu marebeda"}}
+{"text": "Typ maadi nale beligge hattu gantege.", "action": "type_text", "slots": {"text": "nale beligge hattu gantege"}}
+{"text": "bari ella okay, chinte maadbedi", "action": "type_text", "slots": {"text": "ella okay, chinte maadbedi"}}
+{"text": "Idralli type maadi city bengaluru.", "action": "type_text", "slots": {"text": "city bengaluru"}}
+{"text": "type maadi ugadi habbada shubhashayagalu", "action": "type_text", "slots": {"text": "ugadi habbada shubhashayagalu"}}
+{"text": "Bari naanu bartha iddini, swalpa traffic ide.", "action": "type_text", "slots": {"text": "naanu bartha iddini, swalpa traffic ide"}}
+{"text": "type maadi ivattu male bartha ide", "action": "type_text", "slots": {"text": "ivattu male bartha ide"}}
+{"text": "bari hosa mobile thagondidini", "action": "type_text", "slots": {"text": "hosa mobile thagondidini"}}
+{"text": "Type maadi hello hegiddiya.", "action": "type_text", "slots": {"text": "hello hegiddiya"}}
+{"text": "idralli baree payment yashasviyaagide", "action": "type_text", "slots": {"text": "payment yashasviyaagide"}}
+{"text": "Bari dinner ge baa.", "action": "type_text", "slots": {"text": "dinner ge baa"}}
+{"text": "type maadi class nalli iddini aamele maathadthini", "action": "type_text", "slots": {"text": "class nalli iddini aamele maathadthini"}}
+{"text": "bari good night", "action": "type_text", "slots": {"text": "good night"}}
+{"text": "Type maadi ee document pariksheesi.", "action": "type_text", "slots": {"text": "ee document pariksheesi"}}
+{"text": "idralli bari pin code 560011", "action": "type_text", "slots": {"text": "pin code 560011"}}
+{"text": "Bari bahala santhoshavaaythu.", "action": "type_text", "slots": {"text": "bahala santhoshavaaythu"}}
+{"text": "Bari naanu reach aade.", "action": "type_text", "slots": {"text": "naanu reach aade"}}
+{"text": "type maadi shubha raatri", "action": "type_text", "slots": {"text": "shubha raatri"}}
+{"text": "Idralli type maadi deer sir.", "action": "type_text", "slots": {"text": "deer sir"}}
+{"text": "bari nanna hesaru Suresh", "action": "type_text", "slots": {"text": "nanna hesaru Suresh"}}
+{"text": "Type maadi rajaa arji anumodisi.", "action": "type_text", "slots": {"text": "rajaa arji anumodisi"}}
+{"text": "type maadi kelasa aaythu", "action": "type_text", "slots": {"text": "kelasa aaythu"}}
+{"text": "Baree naale nodona.", "action": "type_text", "slots": {"text": "naale nodona"}}
+{"text": "idralli bari nanna janma dinaanka hanneradu march", "action": "type_text", "slots": {"text": "nanna janma dinaanka hanneradu march"}}
+{"text": "Type maadi sabhege dhanyavaadagalu.", "action": "type_text", "slots": {"text": "sabhege dhanyavaadagalu"}}
+{"text": "bari haalu tharabeku", "action": "type_text", "slots": {"text": "haalu tharabeku"}}
+{"text": "Type maadi naanu manege thalupide.", "action": "type_text", "slots": {"text": "naanu manege thalupide"}}
+{"text": "type maadi bega baa", "action": "type_text", "slots": {"text": "bega baa"}}
+{"text": "Idralli type maadi ticket booking aagide.", "action": "type_text", "slots": {"text": "ticket booking aagide"}}
+{"text": "bari naanu sigthini sanje", "action": "type_text", "slots": {"text": "naanu sigthini sanje"}}
+{"text": "Type maadi ellarigu namaskaara.", "action": "type_text", "slots": {"text": "ellarigu namaskaara"}}
+{"text": "bari meeting cancel aagide", "action": "type_text", "slots": {"text": "meeting cancel aagide"}}
+{"text": "Type maadi naavu gelidevu.", "action": "type_text", "slots": {"text": "naavu gelidevu"}}
+{"text": "idralli bari kannada rajyotsavada shubhashayagalu", "action": "type_text", "slots": {"text": "kannada rajyotsavada shubhashayagalu"}}
+{"text": "Bari nanna kelasa innu mugidilla.", "action": "type_text", "slots": {"text": "nanna kelasa innu mugidilla"}}
+{"text": "type maadi recharge maadide", "action": "type_text", "slots": {"text": "recharge maadide"}}
+{"text": "Type maadi sari baruthe.", "action": "type_text", "slots": {"text": "sari baruthe"}}
+{"text": "bari parvaagilla", "action": "type_text", "slots": {"text": "parvaagilla"}}
+{"text": "Type maadi ee tingalu sambala bandide.", "action": "type_text", "slots": {"text": "ee tingalu sambala bandide"}}
+{"text": "idralli type maadi gramada hesaru hosahalli", "action": "type_text", "slots": {"text": "gramada hesaru hosahalli"}}
+{"text": "Bari ok thank you.", "action": "type_text", "slots": {"text": "ok thank you"}}
+{"text": "type maadi swalpa late aagutte", "action": "type_text", "slots": {"text": "swalpa late aagutte"}}
+{"text": "ಟೈಪ್ ಮಾಡಿ ನಾಳೆ ಶಾಲೆ ರಜಾ", "action": "type_text", "slots": {"text": "ನಾಳೆ ಶಾಲೆ ರಜಾ"}}
+{"text": "ಬರಿ ನಾನು ಬರ್ತೀನಿ", "action": "type_text", "slots": {"text": "ನಾನು ಬರ್ತೀನಿ"}}
+{"text": "ಇದರಲ್ಲಿ ಬರೆಯಿರಿ ಧನ್ಯವಾದಗಳು", "action": "type_text", "slots": {"text": "ಧನ್ಯವಾದಗಳು"}}
+{"text": "ಟೈಪ್ ಮಾಡಿ ಹುಟ್ಟುಹಬ್ಬದ ಶುಭಾಶಯಗಳು", "action": "type_text", "slots": {"text": "ಹುಟ್ಟುಹಬ್ಬದ ಶುಭಾಶಯಗಳು"}}
+{"text": "ಬರಿ ನಾನು ಆಫೀಸ್ ನಲ್ಲಿ ಇದ್ದೀನಿ", "action": "type_text", "slots": {"text": "ನಾನು ಆಫೀಸ್ ನಲ್ಲಿ ಇದ್ದೀನಿ"}}
+{"text": "ಟೈಪ್ ಮಾಡಿ ಸಭೆ ಮೂರು ಗಂಟೆಗೆ", "action": "type_text", "slots": {"text": "ಸಭೆ ಮೂರು ಗಂಟೆಗೆ"}}
+{"text": "ಇಲ್ಲಿ ಬರಿ ನನ್ನ ಹೆಸರು ರವಿ", "action": "type_text", "slots": {"text": "ನನ್ನ ಹೆಸರು ರವಿ"}}
+{"text": "ಟೈಪ್ ಮಾಡಿ ಶುಭೋದಯ", "action": "type_text", "slots": {"text": "ಶುಭೋದಯ"}}
+{"text": "ಬರಿ ಎಲ್ಲಾ ಚೆನ್ನಾಗಿದೆ", "action": "type_text", "slots": {"text": "ಎಲ್ಲಾ ಚೆನ್ನಾಗಿದೆ"}}
+{"text": "ಟೈಪ್ ಮಾಡಿ ನಾನು ನಾಳೆ ಬರೋಲ್ಲ", "action": "type_text", "slots": {"text": "ನಾನು ನಾಳೆ ಬರೋಲ್ಲ"}}
+{"text": "ಇದರಲ್ಲಿ ಟೈಪ್ ಮಾಡಿ ವಿಳಾಸ ಮೈಸೂರು", "action": "type_text", "slots": {"text": "ವಿಳಾಸ ಮೈಸೂರು"}}
+{"text": "ಬರಿ ಸರಿ ಆಯ್ತು", "action": "type_text", "slots": {"text": "ಸರಿ ಆಯ್ತು"}}
+{"text": "ಟೈಪ್ ಮಾಡಿ ಹಣ ಕಳಿಸಿದ್ದೀನಿ", "action": "type_text", "slots": {"text": "ಹಣ ಕಳಿಸಿದ್ದೀನಿ"}}
+{"text": "ಬರಿ ಊಟ ಆಯ್ತಾ", "action": "type_text", "slots": {"text": "ಊಟ ಆಯ್ತಾ"}}
+{"text": "ಟೈಪ್ ಮಾಡಿ ದಯವಿಟ್ಟು ಕರೆ ಮಾಡಿ", "action": "type_text", "slots": {"text": "ದಯವಿಟ್ಟು ಕರೆ ಮಾಡಿ"}}
+{"text": "ಬರಿ ಶುಭ ರಾತ್ರಿ", "action": "type_text", "slots": {"text": "ಶುಭ ರಾತ್ರಿ"}}
+{"text": "ಟೈಪ್ ಮಾಡಿ ಕೆಲಸ ಮುಗಿದಿದೆ", "action": "type_text", "slots": {"text": "ಕೆಲಸ ಮುಗಿದಿದೆ"}}
+{"text": "ಇದರಲ್ಲಿ ಬರಿ ರಜೆ ಅರ್ಜಿ", "action": "type_text", "slots": {"text": "ರಜೆ ಅರ್ಜಿ"}}
+{"text": "ಟೈಪ್ ಮಾಡಿ ನಾವು ಸಂಜೆ ಸಿಗೋಣ", "action": "type_text", "slots": {"text": "ನಾವು ಸಂಜೆ ಸಿಗೋಣ"}}
+{"text": "ಬರಿ ಕ್ಷಮಿಸಿ ತಡವಾಯಿತು", "action": "type_text", "slots": {"text": "ಕ್ಷಮಿಸಿ ತಡವಾಯಿತು"}}
+{"text": "ಟೈಪ್ ಮಾಡಿ ಮನೆಗೆ ತಲುಪಿದೆ", "action": "type_text", "slots": {"text": "ಮನೆಗೆ ತಲುಪಿದೆ"}}
+{"text": "ಬರಿ ದೀಪಾವಳಿ ಹಬ್ಬದ ಶುಭಾಶಯಗಳು", "action": "type_text", "slots": {"text": "ದೀಪಾವಳಿ ಹಬ್ಬದ ಶುಭಾಶಯಗಳು"}}
+{"text": "bari naanu barthini ok", "action": "type_text", "slots": {"text": "naanu barthini ok"}}
+{"text": "Idhralli bari Ramu kelsa aytu.", "action": "type_text", "slots": {"text": "Ramu kelsa aytu"}}
+{"text": "Type maadi hosa password beku antha.", "action": "type_text", "slots": {"text": "hosa password beku"}}
+{"text": "bari naanu naale kelasakke rajaa haakthini", "action": "type_text", "slots": {"text": "naanu naale kelasakke rajaa haakthini"}}
+{"text": "Type maadi parcel tagondu bandidini.", "action": "type_text", "slots": {"text": "parcel tagondu bandidini"}}
+{"text": "ಟೈಪ್ ಮಾಡಿ ನಾನು ಬಸ್ ನಲ್ಲಿ ಇದ್ದೀನಿ", "action": "type_text", "slots": {"text": "ನಾನು ಬಸ್ ನಲ್ಲಿ ಇದ್ದೀನಿ"}}
+{"text": "Naan naalaikku varuven nu type pannu.", "action": "type_text", "slots": {"text": "Naan naalaikku varuven"}}
+{"text": "Ezhudhu, inniku office leave.", "action": "type_text", "slots": {"text": "inniku office leave"}}
+{"text": "ezhudhu dear sir kindly grant me leave for two days", "action": "type_text", "slots": {"text": "dear sir kindly grant me leave for two days"}}
+{"text": "Idha type pannu, bill amount aayiram rupees.", "action": "type_text", "slots": {"text": "bill amount aayiram rupees"}}
+{"text": "Ingane ezhuthu, njan nale varum.", "action": "type_text", "slots": {"text": "njan nale varum"}}
+{"text": "ingane ezhuthu ente peru Suresh aanu", "action": "type_text", "slots": {"text": "ente peru Suresh aanu"}}
+{"text": "Type cheyyu, report innu vaikunneram ayakkam.", "action": "type_text", "slots": {"text": "report innu vaikunneram ayakkam"}}
+{"text": "type cheyyu thank you for your support", "action": "type_text", "slots": {"text": "thank you for your support"}}
+{"text": "Ezhuthu, shopping list paal mutta ari.", "action": "type_text", "slots": {"text": "shopping list paal mutta ari"}}
+{"text": "Inga type pannu en address Anna Nagar Chennai.", "action": "type_text", "slots": {"text": "en address Anna Nagar Chennai"}}
+{"text": "Ezhudhu happy birthday nu.", "action": "type_text", "slots": {"text": "happy birthday"}}
+{"text": "type pannu vanakkam ellarukkum", "action": "type_text", "slots": {"text": "vanakkam ellarukkum"}}
+{"text": "Box la type pannu Coimbatore.", "action": "type_text", "slots": {"text": "Coimbatore"}}
+{"text": "Search box il type cheyyu Kochi.", "action": "type_text", "slots": {"text": "Kochi"}}
+{"text": "Ingane ezhuthu, ellavarkkum onam ashamsakal.", "action": "type_text", "slots": {"text": "ellavarkkum onam ashamsakal"}}
+{"text": "Taip pannu naan veetla irukken.", "action": "type_text", "slots": {"text": "naan veetla irukken"}}
+{"text": "Ezhudu romba nandri sir.", "action": "type_text", "slots": {"text": "romba nandri sir"}}
+{"text": "inge ezhuthu kuttikalkku school avadhi aanu", "action": "type_text", "slots": {"text": "kuttikalkku school avadhi aanu"}}
+{"text": "Type pannu, payment mudinjidhu.", "action": "type_text", "slots": {"text": "payment mudinjidhu"}}
+{"text": "type cheyyu ente phone number thazhe kodukkunnu", "action": "type_text", "slots": {"text": "ente phone number thazhe kodukkunnu"}}
+{"text": "Idhu ezhudhu, rendu kilo thakkali vangu.", "action": "type_text", "slots": {"text": "rendu kilo thakkali vangu"}}
+{"text": "Ingane type cheyyu, sukhamano.", "action": "type_text", "slots": {"text": "sukhamano"}}
+{"text": "Ezhuthu ithu, class naale rendu manikku.", "action": "type_text", "slots": {"text": "class naale rendu manikku"}}
+{"text": "type pannu Pongal vazhthukkal", "action": "type_text", "slots": {"text": "Pongal vazhthukkal"}}
+{"text": "Dictate pannu, naan bus la irukken.", "action": "type_text", "slots": {"text": "naan bus la irukken"}}
+{"text": "Ezhudhu, dear team, please find the attachment.", "action": "type_text", "slots": {"text": "dear team, please find the attachment"}}
+{"text": "Type pannu ten thirty ku meeting.", "action": "type_text", "slots": {"text": "ten thirty ku meeting"}}
+{"text": "ingane ezhuthu nammal vijayichu", "action": "type_text", "slots": {"text": "nammal vijayichu"}}
+{"text": "Ezuthu, vellam kudikkan marakkaruthu.", "action": "type_text", "slots": {"text": "vellam kudikkan marakkaruthu"}}
+{"text": "Type pannu, saappadu ready.", "action": "type_text", "slots": {"text": "saappadu ready"}}
+{"text": "Ezhudhu en password maranthutten.", "action": "type_text", "slots": {"text": "en password maranthutten"}}
+{"text": "type cheyyu good morning", "action": "type_text", "slots": {"text": "good morning"}}
+{"text": "Ingane ezhuthu, vandi kedayi, late aakum.", "action": "type_text", "slots": {"text": "vandi kedayi, late aakum"}}
+{"text": "Indha line ah type pannu, thirukkural padikkanum.", "action": "type_text", "slots": {"text": "thirukkural padikkanum"}}
+{"text": "Ezhudhu, Madurai Meenakshi kovil.", "action": "type_text", "slots": {"text": "Madurai Meenakshi kovil"}}
+{"text": "Type pannu full stop.", "action": "type_text", "slots": {"text": "full stop"}}
+{"text": "ezhuthu Thiruvananthapuram", "action": "type_text", "slots": {"text": "Thiruvananthapuram"}}
+{"text": "Type panna, naalai vidumurai.", "action": "type_text", "slots": {"text": "naalai vidumurai"}}
+{"text": "Ezhudhu, amma ku udambu sari illa.", "action": "type_text", "slots": {"text": "amma ku udambu sari illa"}}
+{"text": "Ingane ezhuthu, ningalude sahayathinu nanni.", "action": "type_text", "slots": {"text": "ningalude sahayathinu nanni"}}
+{"text": "Type cheyyu, njan office il ethi.", "action": "type_text", "slots": {"text": "njan office il ethi"}}
+{"text": "type pannu order number 4521", "action": "type_text", "slots": {"text": "order number 4521"}}
+{"text": "Ezhudhu, rent anju thousand.", "action": "type_text", "slots": {"text": "rent anju thousand"}}
+{"text": "Ezhudhu indha varthai, sandhosham.", "action": "type_text", "slots": {"text": "sandhosham"}}
+{"text": "Ingane ezhudu, train ettu manikku.", "action": "type_text", "slots": {"text": "train ettu manikku"}}
+{"text": "Type pannu kalyanam June pathinanju.", "action": "type_text", "slots": {"text": "kalyanam June pathinanju"}}
+{"text": "type cheyyu vishu ashamsakal", "action": "type_text", "slots": {"text": "vishu ashamsakal"}}
+{"text": "Ezhudhu, marunthu kaalaila saapidu.", "action": "type_text", "slots": {"text": "marunthu kaalaila saapidu"}}
+{"text": "Comment la type pannu super video.", "action": "type_text", "slots": {"text": "super video"}}
+{"text": "Ingane ezhuthu, paisa account il ittu.", "action": "type_text", "slots": {"text": "paisa account il ittu"}}
+{"text": "Type pannu question mark.", "action": "type_text", "slots": {"text": "question mark"}}
+{"text": "ezhudhu naan kandippa varen", "action": "type_text", "slots": {"text": "naan kandippa varen"}}
+{"text": "Taip cheyyu, ente veedu Thrissur aanu.", "action": "type_text", "slots": {"text": "ente veedu Thrissur aanu"}}
+{"text": "Ezhudhu, subject leave application.", "action": "type_text", "slots": {"text": "subject leave application"}}
+{"text": "Type pannu, yours sincerely Karthik.", "action": "type_text", "slots": {"text": "yours sincerely Karthik"}}
+{"text": "Ingane ezhuthu, mazha kaaranam school illa.", "action": "type_text", "slots": {"text": "mazha kaaranam school illa"}}
+{"text": "Ezhudhu ippo vandhutten.", "action": "type_text", "slots": {"text": "ippo vandhutten"}}
+{"text": "type pannu meeting cancel aachu", "action": "type_text", "slots": {"text": "meeting cancel aachu"}}
+{"text": "Ezhuthu, ithu valare nalla idea aanu.", "action": "type_text", "slots": {"text": "ithu valare nalla idea aanu"}}
+{"text": "Type pannu, room number nooru irupathu.", "action": "type_text", "slots": {"text": "room number nooru irupathu"}}
+{"text": "Ezhudhu new line.", "action": "type_text", "slots": {"text": "new line"}}
+{"text": "Type cheyyu, onnum prashnam illa.", "action": "type_text", "slots": {"text": "onnum prashnam illa"}}
+{"text": "Type pannu, enakku oru doubt irukku.", "action": "type_text", "slots": {"text": "enakku oru doubt irukku"}}
+{"text": "Ingane ezhudhu, gas cylinder book cheythu.", "action": "type_text", "slots": {"text": "gas cylinder book cheythu"}}
+{"text": "Ezhudhu, invoice attach panniten.", "action": "type_text", "slots": {"text": "invoice attach panniten"}}
+{"text": "type pannu congratulations", "action": "type_text", "slots": {"text": "congratulations"}}
+{"text": "Ezhuthu, aduthu aazhcha kaanam.", "action": "type_text", "slots": {"text": "aduthu aazhcha kaanam"}}
+{"text": "Note la ezhudhu, current bill kattanum.", "action": "type_text", "slots": {"text": "current bill kattanum"}}
+{"text": "Type pannu Deepavali nalvazhthukkal.", "action": "type_text", "slots": {"text": "Deepavali nalvazhthukkal"}}
+{"text": "Ingane ezhuthu, njan sugamayi irikkunnu.", "action": "type_text", "slots": {"text": "njan sugamayi irikkunnu"}}
+{"text": "Ezhudhu, salem to chennai ticket.", "action": "type_text", "slots": {"text": "salem to chennai ticket"}}
+{"text": "Type cheyyu, ok sheri.", "action": "type_text", "slots": {"text": "ok sheri"}}
+{"text": "Tipe pannu naan konjam busy.", "action": "type_text", "slots": {"text": "naan konjam busy"}}
+{"text": "Ezhudhu, inniku vela mudinjidhu.", "action": "type_text", "slots": {"text": "inniku vela mudinjidhu"}}
+{"text": "ingane ezhuthu parcel kitti", "action": "type_text", "slots": {"text": "parcel kitti"}}
+{"text": "Type pannu, comma, appuram.", "action": "type_text", "slots": {"text": "comma, appuram"}}
+{"text": "Ezhuthu ithu, Kerala bhangiyulla naadu.", "action": "type_text", "slots": {"text": "Kerala bhangiyulla naadu"}}
+{"text": "Type pannu, PIN code six double zero zero four zero.", "action": "type_text", "slots": {"text": "PIN code six double zero zero four zero"}}
+{"text": "Ezhudhu, sorry thappu aayiduchu.", "action": "type_text", "slots": {"text": "sorry thappu aayiduchu"}}
+{"text": "Ingane type cheyyu, nale kanam.", "action": "type_text", "slots": {"text": "nale kanam"}}
+{"text": "Ezhudu nalla mazhai peiyudhu.", "action": "type_text", "slots": {"text": "nalla mazhai peiyudhu"}}
+{"text": "Type pannu, total moonu nooru.", "action": "type_text", "slots": {"text": "total moonu nooru"}}
+{"text": "Ingane ezuthu, ammaykku sukhamilla.", "action": "type_text", "slots": {"text": "ammaykku sukhamilla"}}
+{"text": "Ezhudhu naan Tirunelveli la porandhen.", "action": "type_text", "slots": {"text": "naan Tirunelveli la porandhen"}}
+{"text": "type cheyyu meeting postpone cheythu", "action": "type_text", "slots": {"text": "meeting postpone cheythu"}}
+{"text": "Type pannu, ok parkalam.", "action": "type_text", "slots": {"text": "ok parkalam"}}
+{"text": "Ezhuthu, ningal evide aanu.", "action": "type_text", "slots": {"text": "ningal evide aanu"}}
+{"text": "இதை டைப் பண்ணு, நான் வீட்டுக்கு வந்துட்டேன்.", "action": "type_text", "slots": {"text": "நான் வீட்டுக்கு வந்துட்டேன்"}}
+{"text": "டைப் பண்ணு இனிய புத்தாண்டு வாழ்த்துக்கள்", "action": "type_text", "slots": {"text": "இனிய புத்தாண்டு வாழ்த்துக்கள்"}}
+{"text": "எழுது, கூட்டம் பத்து மணிக்கு.", "action": "type_text", "slots": {"text": "கூட்டம் பத்து மணிக்கு"}}
+{"text": "இங்கே டைப் பண்ணு என் பெயர் லக்ஷ்மி", "action": "type_text", "slots": {"text": "என் பெயர் லக்ஷ்மி"}}
+{"text": "எழுது, மிக்க நன்றி ஐயா.", "action": "type_text", "slots": {"text": "மிக்க நன்றி ஐயா"}}
+{"text": "டைப் பண்ணு பால் வாங்கணும்", "action": "type_text", "slots": {"text": "பால் வாங்கணும்"}}
+{"text": "இങ്ങനെ എഴുതൂ, ഞാൻ നാളെ വരും.", "action": "type_text", "slots": {"text": "ഞാൻ നാളെ വരും"}}
+{"text": "ടൈപ്പ് ചെയ്യൂ സുപ്രഭാതം", "action": "type_text", "slots": {"text": "സുപ്രഭാതം"}}
+{"text": "എഴുതൂ, ഓണാശംസകൾ.", "action": "type_text", "slots": {"text": "ഓണാശംസകൾ"}}
+{"text": "ഇങ്ങനെ ടൈപ്പ് ചെയ്യൂ, എന്റെ വീട് കോട്ടയം ആണ്", "action": "type_text", "slots": {"text": "എന്റെ വീട് കോട്ടയം ആണ്"}}
+{"text": "എഴുതൂ ഇന്ന് ക്ലാസ് ഇല്ല", "action": "type_text", "slots": {"text": "ഇന്ന് ക്ലാസ് ഇല്ല"}}
+{"text": "ടൈപ്പ് ചെയ്യൂ, വളരെ നന്ദി.", "action": "type_text", "slots": {"text": "വളരെ നന്ദി"}}
+{"text": "இதை எழுது, வேலை முடிஞ்சது.", "action": "type_text", "slots": {"text": "வேலை முடிஞ்சது"}}
+{"text": "ഇങ്ങനെ എഴുതൂ, മീറ്റിംഗ് മാറ്റി വച്ചു", "action": "type_text", "slots": {"text": "മീറ്റിംഗ് മാറ്റി വച്ചു"}}
+{"text": "டைப் பண்ணு, ரூம் நம்பர் இருநூறு.", "action": "type_text", "slots": {"text": "ரூம் நம்பர் இருநூறு"}}
+{"text": "എഴുതൂ, ബിൽ അടച്ചു.", "action": "type_text", "slots": {"text": "ബിൽ അടച്ചു"}}
+{"text": "எழுது பொங்கல் வாழ்த்துக்கள்", "action": "type_text", "slots": {"text": "பொங்கல் வாழ்த்துக்கள்"}}
+{"text": "Ezhudhu, naan kovilukku poren.", "action": "type_text", "slots": {"text": "naan kovilukku poren"}}
+{"text": "Type cheyyu, train vaiki.", "action": "type_text", "slots": {"text": "train vaiki"}}
+{"text": "Type pannu, delivery address mathanum.", "action": "type_text", "slots": {"text": "delivery address mathanum"}}
+{"text": "Ikkada raayi naa peru Ramesh Kumar.", "action": "type_text", "slots": {"text": "naa peru Ramesh Kumar"}}
+{"text": "type cheyyi meeting repu udayam padi gantalaki", "action": "type_text", "slots": {"text": "meeting repu udayam padi gantalaki"}}
+{"text": "Rasi pettu, naa address flat number 302, Sai Residency, Madhapur, Hyderabad.", "action": "type_text", "slots": {"text": "naa address flat number 302, Sai Residency, Madhapur, Hyderabad"}}
+{"text": "ikkada raayi thank you for your support", "action": "type_text", "slots": {"text": "thank you for your support"}}
+{"text": "Type cheyyi phone number 9848012345.", "action": "type_text", "slots": {"text": "phone number 9848012345"}}
+{"text": "rasi pettu pin code 500081", "action": "type_text", "slots": {"text": "pin code 500081"}}
+{"text": "Ikkada raayi Dear Sir, naaku rendu rojulu selavu kavali.", "action": "type_text", "slots": {"text": "Dear Sir, naaku rendu rojulu selavu kavali"}}
+{"text": "type cheyyi ee roju chala bagundi", "action": "type_text", "slots": {"text": "ee roju chala bagundi"}}
+{"text": "Rasi pettu amma ki birthday wishes, happy birthday amma.", "action": "type_text", "slots": {"text": "happy birthday amma"}}
+{"text": "ikkada type cheyyi Venkateswara Rao, Guntur", "action": "type_text", "slots": {"text": "Venkateswara Rao, Guntur"}}
+{"text": "Type cheyyi invoice number INV 2045.", "action": "type_text", "slots": {"text": "invoice number INV 2045"}}
+{"text": "rasi pettu rent ఇరవై వేల rupayalu chellinchanu", "action": "type_text", "slots": {"text": "rent ఇరవై వేల rupayalu chellinchanu"}}
+{"text": "Ikkada raayi dhanyavadalu, mee sahayaniki.", "action": "type_text", "slots": {"text": "dhanyavadalu, mee sahayaniki"}}
+{"text": "Rasi pettu, door number 4-56, Gandhi Nagar, Vijayawada.", "action": "type_text", "slots": {"text": "door number 4-56, Gandhi Nagar, Vijayawada"}}
+{"text": "ikkada rayi project report submit chesanu", "action": "type_text", "slots": {"text": "project report submit chesanu"}}
+{"text": "Type cheyyi Sunday nundi Wednesday varaku office closed.", "action": "type_text", "slots": {"text": "Sunday nundi Wednesday varaku office closed"}}

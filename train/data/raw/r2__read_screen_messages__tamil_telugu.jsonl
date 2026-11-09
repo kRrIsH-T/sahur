@@ -1,0 +1,110 @@
+{"text": "Idhu enna message nu sollu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "intha letter padichu sollu", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Ee message lo emundi chaduvu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Screen la enna error varudhu nu sollu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "indha email enna solludhu padichu kaattu", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Ee email lo em raasaru chaduvu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Intha bill la evvalavu amount nu padichu sollu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "ee bill lo entha amount undi chadivi cheppu", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Indha popup enna solludhu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "ee popup lo emundi cheppu", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Screen meedha vandha message ah padi.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Intha notice la enna irukku nu padichu sollu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "ee notice lo em rasi undi chadavandi", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Indha form la enna kekkuraanga nu sollu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Ee form lo emi adugutunnaru chaduvu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Intha error message artham enna nu explain pannu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "ee error ki ardham enti cheppu", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Whatsapp la vandha message ah padichu sollu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "WhatsApp lo vachina message chadivi vinipinchu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Bank la irundhu vandha SMS padichu kaattu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "bank nundi vachina message lo emundi chaduvu", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "indha mail yaaru anupunaanga, enna solraanga padi", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Ee mail evaru pamparu, em cheptunnaru chaduvu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Screen la irukura letter ah full ah padi.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Screen lo unna letter motham chadavu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Current bill details ah padichu sollunga.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Current bill lo details chadivi cheppandi.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Idhu enna warning nu konjam sollu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Idi emi warning cheppu konchem.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Indha message tamil la purila, explain pannu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Ee message naaku ardham kaaledu, vivarinchu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Office la irundhu vandha email ah padichu sollu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Office nundi vachina email chaduvu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Indha letter la date enna nu padi.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "ee uttaram lo emundi chadivi cheppu", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Pop up la enna kekkudhu, yes ah no ah nu sollu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Popup em adugutundi chaduvu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Inda mesej enna solludhu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "ee mesej lo emundi chaduvu", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Idhu enna eror nu sollu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Ee eror emiti cheppu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Electricity bill la due date enna nu padichu sollu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Current bill due date eppudu undi chadivu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Gas booking message padichu kaattu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Gas booking message lo emundi chaduvu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Screen la enna ezhudhi irukku nu padi.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Screen meeda emi raasi undi chaduvu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Indha application form la enna fill pannanum nu sollu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Ee application form lo emi nimpali chaduvu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "School notice enna solludhu padichu sollu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "School nundi vachina notice chadivi cheppu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Paiyan anupuna message ah padichu kaattu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Abbayi pampina message chadivi vinipinchu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Amma anupuna message ah padi.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Amma pampina message lo emundi cheppu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Indha pdf la enna irukku nu padichu sollu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Ee PDF lo emundi chaduvu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Last vandha message ah padi.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Chivari message chaduvu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Indha OTP message padichu sollu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "OTP message lo emundi chadivi cheppu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Indha installation error enna nu explain pannu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Ee installation error enti vivarinchu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Update popup enna solludhu padi.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Update popup lo emundi chaduvu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Ration card form la enna kekkuraanga padichu sollu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Ration card form lo emi adugutunnaru cheppu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Intha meil la enna irukku.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Ee meil lo emundi chaduvu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Indha invoice padichu total sollu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Ee invoice chadivi total cheppu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Screen la vandha alert ah padichu sollu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Screen meeda vachina alert chaduvu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Indha message saria puriyala, padichu explain pannu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Ee message sariga ardham kaledu, chadivi vivarinchu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Phone bill la enna charge pottirukaanga padi.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Phone bill lo em charges unnayi chaduvu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Hospital report la enna ezhudhirukku padichu sollu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Hospital report lo emundi chadivi cheppu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Indha dialog box enna kekkudhu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Ee dialog box emi adugutundi chaduvu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "idhu enna message nu sollu", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "ee message lo emundi chaduvu", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Pension letter la enna solli irukaanga padi.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Pension uttaram lo emundi chadivi cheppu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "இந்த மெசேஜ் என்ன சொல்லுது படிச்சு சொல்லு", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "இந்த லெட்டர் படிச்சு சொல்லு", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "ஸ்கிரீன்ல என்ன எரர் வருது சொல்லு", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "இந்த பில்ல எவ்வளவு அமௌண்ட் படிச்சு சொல்லு", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "இந்த ஈமெயில் என்ன சொல்லுது படி", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "இந்த பாப்அப் என்ன சொல்லுது சொல்லு", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "இந்த நோட்டீஸ் படிச்சு காட்டு", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "இந்த ஃபார்ம்ல என்ன கேக்குறாங்க சொல்லு", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "ఈ మెసేజ్ లో ఏముంది చదువు", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "ఈ లెటర్ చదివి చెప్పు", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "స్క్రీన్ మీద ఏ ఎర్రర్ వస్తుంది చెప్పు", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "ఈ బిల్లు లో ఎంత అమౌంట్ ఉంది చదువు", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "ఈ ఈమెయిల్ లో ఏం రాశారు చదువు", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "ఈ పాపప్ ఏమంటుంది చెప్పు", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "ఈ నోటీసు చదివి వినిపించు", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "ఈ ఫారం లో ఏమి అడుగుతున్నారు చదువు", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "ఈ వార్నింగ్ అర్థం ఏంటి వివరించు", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Screen la open aagi irukura message enna nu padichu sollu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Ee screen lo open ayina message chadivi cheppu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Indha refund email padichu enna aachu nu sollu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Ee refund email chadivi emaindo cheppu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Aadhaar update notice la enna irukku padi.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Aadhaar notice lo emundi chaduvu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Indha court summons letter la enna solli irukku padi.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}
+{"text": "Ee insurance message lo emundo chadivi cheppu.", "action": "read_screen", "app": null, "group": "r2_read_screen_messages"}

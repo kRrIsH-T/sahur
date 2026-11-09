@@ -1,0 +1,645 @@
+{"text": "cancel it", "action": "cancel"}
+{"text": "stop stop", "action": "cancel"}
+{"text": "stop it", "action": "cancel"}
+{"text": "stop it please", "action": "cancel"}
+{"text": "nevermind yaar", "action": "cancel"}
+{"text": "leave it", "action": "cancel"}
+{"text": "leave it yaar", "action": "cancel"}
+{"text": "chhodo", "action": "cancel"}
+{"text": "chhodo yaar rehne do", "action": "cancel"}
+{"text": "rehne do na please", "action": "cancel"}
+{"text": "forget it", "action": "cancel"}
+{"text": "forget it yaar", "action": "cancel"}
+{"text": "no no leave it", "action": "cancel"}
+{"text": "no no cancel that", "action": "cancel"}
+{"text": "cancel that please", "action": "cancel"}
+{"text": "please cancel that", "action": "cancel"}
+{"text": "please cancel this request", "action": "cancel"}
+{"text": "cancel this request", "action": "cancel"}
+{"text": "cancel the request", "action": "cancel"}
+{"text": "cancel what I said", "action": "cancel"}
+{"text": "cancel whatever I just said", "action": "cancel"}
+{"text": "ignore what I said", "action": "cancel"}
+{"text": "ignore that", "action": "cancel"}
+{"text": "ignore that command", "action": "cancel"}
+{"text": "ignore my last command please", "action": "cancel"}
+{"text": "don't do it", "action": "cancel"}
+{"text": "don't do that", "action": "cancel"}
+{"text": "dont do anything", "action": "cancel"}
+{"text": "don't do anything now, leave it", "action": "cancel"}
+{"text": "no need", "action": "cancel"}
+{"text": "no need yaar", "action": "cancel"}
+{"text": "no need, leave it", "action": "cancel"}
+{"text": "no need for that now", "action": "cancel"}
+{"text": "it's ok no need", "action": "cancel"}
+{"text": "it's okay, leave it", "action": "cancel"}
+{"text": "okay leave it, I will do it myself", "action": "cancel"}
+{"text": "I will do it myself, cancel", "action": "cancel"}
+{"text": "I changed my mind", "action": "cancel"}
+{"text": "I changed my mind, cancel it", "action": "cancel"}
+{"text": "actually I changed my mind, don't do it", "action": "cancel"}
+{"text": "wait wait stop", "action": "cancel"}
+{"text": "hold on, cancel it", "action": "cancel"}
+{"text": "arre stop it", "action": "cancel"}
+{"text": "arre rehne do yaar", "action": "cancel"}
+{"text": "arre chhodo na", "action": "cancel"}
+{"text": "abort", "action": "cancel"}
+{"text": "abort it", "action": "cancel"}
+{"text": "abort the command", "action": "cancel"}
+{"text": "abort this please", "action": "cancel"}
+{"text": "stop the process", "action": "cancel"}
+{"text": "stop what you are doing", "action": "cancel"}
+{"text": "stop doing that", "action": "cancel"}
+{"text": "stop this right now", "action": "cancel"}
+{"text": "just stop", "action": "cancel"}
+{"text": "just cancel it", "action": "cancel"}
+{"text": "just leave it na", "action": "cancel"}
+{"text": "just forget about it", "action": "cancel"}
+{"text": "forget about it", "action": "cancel"}
+{"text": "forget what I told you", "action": "cancel"}
+{"text": "forget what I asked", "action": "cancel"}
+{"text": "drop it", "action": "cancel"}
+{"text": "drop it yaar", "action": "cancel"}
+{"text": "skip it", "action": "cancel"}
+{"text": "skip this one", "action": "cancel"}
+{"text": "not now", "action": "cancel"}
+{"text": "not now please, cancel", "action": "cancel"}
+{"text": "not now beta, later", "action": "cancel"}
+{"text": "later, cancel for now", "action": "cancel"}
+{"text": "cancel for now, I'll tell later", "action": "cancel"}
+{"text": "do one thing, cancel it", "action": "cancel"}
+{"text": "do one thing, just leave it", "action": "cancel"}
+{"text": "please stop, I don't want it", "action": "cancel"}
+{"text": "I don't want it, cancel", "action": "cancel"}
+{"text": "I don't want that anymore", "action": "cancel"}
+{"text": "I don't want to do this, stop", "action": "cancel"}
+{"text": "no thank you, cancel", "action": "cancel"}
+{"text": "no thanks, leave it", "action": "cancel"}
+{"text": "sorry sorry, cancel that", "action": "cancel"}
+{"text": "sorry wrong command, cancel", "action": "cancel"}
+{"text": "wrong one, cancel it", "action": "cancel"}
+{"text": "mistake, cancel that", "action": "cancel"}
+{"text": "that was a mistake, please cancel", "action": "cancel"}
+{"text": "by mistake I said, cancel it", "action": "cancel"}
+{"text": "galti se bola, cancel karo", "action": "cancel"}
+{"text": "cancel karo", "action": "cancel"}
+{"text": "cancel kar do", "action": "cancel"}
+{"text": "cancel kar do please", "action": "cancel"}
+{"text": "zara cancel kar do na", "action": "cancel"}
+{"text": "band karo, rehne do", "action": "cancel"}
+{"text": "it's fine, leave it ondu sari", "action": "cancel"}
+{"text": "konjam stop pannu, cancel", "action": "cancel"}
+{"text": "cancel it beda", "action": "cancel"}
+{"text": "vendam, cancel that", "action": "cancel"}
+{"text": "please beta, cancel this, I don't need it now", "action": "cancel"}
+{"text": "uncle here, please cancel whatever you are doing", "action": "cancel"}
+{"text": "madam please stop it, no need now", "action": "cancel"}
+{"text": "stop it, my son will do it later", "action": "cancel"}
+{"text": "cancel everything", "action": "cancel"}
+{"text": "cancel all of it", "action": "cancel"}
+{"text": "cancel the whole thing", "action": "cancel"}
+{"text": "call it off", "action": "cancel"}
+{"text": "call it off please", "action": "cancel"}
+{"text": "scratch that", "action": "cancel"}
+{"text": "undo that request, cancel", "action": "cancel"}
+{"text": "enough, stop", "action": "cancel"}
+{"text": "bas bas, cancel", "action": "cancel"}
+{"text": "bas karo", "action": "cancel"}
+{"text": "kancel it", "action": "cancel"}
+{"text": "cancle that", "action": "cancel"}
+{"text": "cancel dat", "action": "cancel"}
+{"text": "cansal it please", "action": "cancel"}
+{"text": "cancel maadu", "action": "cancel"}
+{"text": "beda", "action": "cancel"}
+{"text": "bidu bidu", "action": "cancel"}
+{"text": "beda bidi please", "action": "cancel"}
+{"text": "adu beda bidi", "action": "cancel"}
+{"text": "nillisu", "action": "cancel"}
+{"text": "nillisi please", "action": "cancel"}
+{"text": "stop maadu", "action": "cancel"}
+{"text": "stop maadi saaku", "action": "cancel"}
+{"text": "saaku bidu", "action": "cancel"}
+{"text": "saaku, beda", "action": "cancel"}
+{"text": "ondu nimisha, beda bidu", "action": "cancel"}
+{"text": "beda anta helde alla, bidu", "action": "cancel"}
+{"text": "ayyo beda beda", "action": "cancel"}
+{"text": "beda kano", "action": "cancel"}
+{"text": "beda kane", "action": "cancel"}
+{"text": "beda ri", "action": "cancel"}
+{"text": "beda swalpa bidi", "action": "cancel"}
+{"text": "please cancel maadi", "action": "cancel"}
+{"text": "dayavittu cancel maadi", "action": "cancel"}
+{"text": "dayavittu nillisi", "action": "cancel"}
+{"text": "adanna bidi, beda", "action": "cancel"}
+{"text": "aa kelsa beda bidu", "action": "cancel"}
+{"text": "haage bidu", "action": "cancel"}
+{"text": "haage bidi parvagilla", "action": "cancel"}
+{"text": "parvagilla beda", "action": "cancel"}
+{"text": "beda, nantara nodona", "action": "cancel"}
+{"text": "eega beda, aamele maadona", "action": "cancel"}
+{"text": "eega beda bidu yaar", "action": "cancel"}
+{"text": "mareyu, beda", "action": "cancel"}
+{"text": "adu mareto, beda", "action": "cancel"}
+{"text": "cancel maadbidu", "action": "cancel"}
+{"text": "cancel maadbidi please", "action": "cancel"}
+{"text": "cancel aagli", "action": "cancel"}
+{"text": "naanu helida request cancel maadi", "action": "cancel"}
+{"text": "hinde helidu beda", "action": "cancel"}
+{"text": "modlu helidu beda, cancel maadu", "action": "cancel"}
+{"text": "aa message kalsodu beda bidu", "action": "cancel"}
+{"text": "aa haadu haakodu beda, nillisu", "action": "cancel"}
+{"text": "app open maadodu beda bidu", "action": "cancel"}
+{"text": "search maadodu beda, cancel maadu", "action": "cancel"}
+{"text": "yenu maadbeda, bidu", "action": "cancel"}
+{"text": "enu beda", "action": "cancel"}
+{"text": "enoo beda bidi", "action": "cancel"}
+{"text": "hogli bidu", "action": "cancel"}
+{"text": "hogli beda", "action": "cancel"}
+{"text": "bittbidu", "action": "cancel"}
+{"text": "bittbidi", "action": "cancel"}
+{"text": "bittu bidu please", "action": "cancel"}
+{"text": "nanage beda adu", "action": "cancel"}
+{"text": "nange beda ri", "action": "cancel"}
+{"text": "idu beda", "action": "cancel"}
+{"text": "idella beda", "action": "cancel"}
+{"text": "bidappa", "action": "cancel"}
+{"text": "bidamma beda", "action": "cancel"}
+{"text": "bidi saar", "action": "cancel"}
+{"text": "saaku saaku nillisi", "action": "cancel"}
+{"text": "tadi beda", "action": "cancel"}
+{"text": "nillu nillu beda", "action": "cancel"}
+{"text": "ondu sala nillisi, beda", "action": "cancel"}
+{"text": "swalpa nillisi beda", "action": "cancel"}
+{"text": "zara cancel maadi", "action": "cancel"}
+{"text": "please beda bidi", "action": "cancel"}
+{"text": "sorry, beda bidi", "action": "cancel"}
+{"text": "beda yaar", "action": "cancel"}
+{"text": "beda guru", "action": "cancel"}
+{"text": "abba saaku, nillisu", "action": "cancel"}
+{"text": "beda anta helidini, cancel", "action": "cancel"}
+{"text": "bedaa", "action": "cancel"}
+{"text": "cancle maadu", "action": "cancel"}
+{"text": "cancel madu", "action": "cancel"}
+{"text": "kansal maadi", "action": "cancel"}
+{"text": "nilsu", "action": "cancel"}
+{"text": "nilisu beda", "action": "cancel"}
+{"text": "stap maadi", "action": "cancel"}
+{"text": "beda bidi bidi", "action": "cancel"}
+{"text": "ಕ್ಯಾನ್ಸಲ್ ಮಾಡು", "action": "cancel"}
+{"text": "ಬೇಡ", "action": "cancel"}
+{"text": "ನಿಲ್ಲಿಸು", "action": "cancel"}
+{"text": "ದಯವಿಟ್ಟು ನಿಲ್ಲಿಸಿ", "action": "cancel"}
+{"text": "ಬೇಡ ಬಿಡಿ ಪರವಾಗಿಲ್ಲ", "action": "cancel"}
+{"text": "ಸಾಕು ಬಿಡು", "action": "cancel"}
+{"text": "ಹಾಗೇ ಬಿಡು", "action": "cancel"}
+{"text": "ಅದು ಬೇಡ", "action": "cancel"}
+{"text": "ಈಗ ಬೇಡ, ಆಮೇಲೆ ನೋಡೋಣ", "action": "cancel"}
+{"text": "ಬಿಟ್ಟುಬಿಡು", "action": "cancel"}
+{"text": "ಹೋಗ್ಲಿ ಬಿಡು", "action": "cancel"}
+{"text": "ಏನೂ ಬೇಡ", "action": "cancel"}
+{"text": "ಕ್ಯಾನ್ಸಲ್ ಮಾಡಿ ಪ್ಲೀಸ್", "action": "cancel"}
+{"text": "ಸ್ಟಾಪ್ ಮಾಡು", "action": "cancel"}
+{"text": "ನಿಲ್ಲು ನಿಲ್ಲು ಬೇಡ", "action": "cancel"}
+{"text": "ಅಯ್ಯೋ ಬೇಡ ಬೇಡ", "action": "cancel"}
+{"text": "ಮೆಸೇಜ್ ಕಳಿಸೋದು ಬೇಡ ಬಿಡು", "action": "cancel"}
+{"text": "ನಾನು ಹೇಳಿದ್ದು ಕ್ಯಾನ್ಸಲ್ ಮಾಡಿ", "action": "cancel"}
+{"text": "ಬೇಡ ರೀ", "action": "cancel"}
+{"text": "ಸಾಕು ಸಾಕು ನಿಲ್ಲಿಸಿ", "action": "cancel"}
+{"text": "ಮರೆತುಬಿಡು ಅದನ್ನ", "action": "cancel"}
+{"text": "ದಯವಿಟ್ಟು ಕ್ಯಾನ್ಸಲ್ ಮಾಡಿ, ನನಗೆ ಅದು ಬೇಡ", "action": "cancel"}
+{"text": "ಬೇಡ ಕಣೋ", "action": "cancel"}
+{"text": "ಇದೆಲ್ಲ ಬೇಡ ಬಿಡಿ", "action": "cancel"}
+{"text": "ಬಿಡಪ್ಪ", "action": "cancel"}
+{"text": "ಸ್ವಲ್ಪ ನಿಲ್ಲಿಸಿ ಬೇಡ", "action": "cancel"}
+{"text": "ಹಾಡು ಹಾಕೋದು ಬೇಡ, ನಿಲ್ಲಿಸು", "action": "cancel"}
+{"text": "ಬೇಡ ಅಂತ ಹೇಳ್ದೆ ಅಲ್ವಾ, ಬಿಡು", "action": "cancel"}
+{"text": "ಬೇಡ ಬಿಡಿ ಸಾರ್", "action": "cancel"}
+{"text": "ಕ್ಯಾನ್ಸಲ್", "action": "cancel"}
+{"text": "nahi beta woh mat karo ab rehne do mujhe yaad aa gaya ki zaroorat nahi hai", "action": "cancel"}
+{"text": "please jo bhi chal raha hai usko cancel kar dijiye", "action": "cancel"}
+{"text": "uff band karo yaar", "action": "cancel"}
+{"text": "रहने दो बेटा बाद में देख लेंगे अभी कुछ मत करो", "action": "cancel"}
+{"text": "beda bidi, ondu nimisha yochane maadteeni", "action": "cancel"}
+{"text": "alla alla, beda bidi, naanu thappu helde", "action": "cancel"}
+{"text": "Nillisi saaku.", "action": "cancel"}
+{"text": "adi cancel cheyyandi please", "action": "cancel"}
+{"text": "oddu le aapeyi", "action": "cancel"}
+{"text": "inka vaddu, aapu", "action": "cancel"}
+{"text": "konchem aagu, vaddu idi", "action": "cancel"}
+{"text": "ee request cancel cheyyi ra", "action": "cancel"}
+{"text": "vaddhu ani cheppa kada stop cheyyi", "action": "cancel"}
+{"text": "please aapandi, naaku avasaram ledu", "action": "cancel"}
+{"text": "mundu cheppindi marchipo, vaddu", "action": "cancel"}
+{"text": "sare vaddu le, cancel", "action": "cancel"}
+{"text": "aapeyyandi babu, inka chalu", "action": "cancel"}
+{"text": "cheyyakandi, nenu tharvatha chusukuntanu", "action": "cancel"}
+{"text": "Vaddu.", "action": "cancel"}
+{"text": "stop cheyyi please", "action": "cancel"}
+{"text": "cancel chey", "action": "cancel"}
+{"text": "nakku vaddu andi idi cancel cheyandi", "action": "cancel"}
+{"text": "ade cheyyoddu, wait", "action": "cancel"}
+{"text": "inkemi cheyyakandi, aapandi please", "action": "cancel"}
+{"text": "radd kar", "action": "cancel"}
+{"text": "nako nako cancel kar", "action": "cancel"}
+{"text": "thamba, he nako", "action": "cancel"}
+{"text": "jau de re, cancel kar", "action": "cancel"}
+{"text": "nako mala he, band kar", "action": "cancel"}
+{"text": "aata nako, nantar baghu", "action": "cancel"}
+{"text": "krupaya cancel kara", "action": "cancel"}
+{"text": "thambva he sagla", "action": "cancel"}
+{"text": "he kaam radd kara please", "action": "cancel"}
+{"text": "nako re baba, sodun de", "action": "cancel"}
+{"text": "rahude, mi nantar sangto", "action": "cancel"}
+{"text": "band kar te, nako aahe", "action": "cancel"}
+{"text": "ruk ja, nako karu", "action": "cancel"}
+{"text": "cancel kara na zara", "action": "cancel"}
+{"text": "thamb thamb nako", "action": "cancel"}
+{"text": "Rahoo de.", "action": "cancel"}
+{"text": "thaak, cancel koro", "action": "cancel"}
+{"text": "thak, lagbe na", "action": "cancel"}
+{"text": "cancel kore dao please", "action": "cancel"}
+{"text": "na na thak, korte hobe na", "action": "cancel"}
+{"text": "bondho koro eta", "action": "cancel"}
+{"text": "eta cancel kore dao toh", "action": "cancel"}
+{"text": "chhere dao, dorkar nei", "action": "cancel"}
+{"text": "thamo, ar korte hobe na", "action": "cancel"}
+{"text": "ekhon na, pore korbo, thak", "action": "cancel"}
+{"text": "dada thak, cancel koro", "action": "cancel"}
+{"text": "ar lagbe na, bandho kore dao", "action": "cancel"}
+{"text": "bolchi to thak, cancel", "action": "cancel"}
+{"text": "thako thako", "action": "cancel"}
+{"text": "rehe dao baba, ar korte hobe na", "action": "cancel"}
+{"text": "Thak.", "action": "cancel"}
+{"text": "please oita cancel kore din", "action": "cancel"}
+{"text": "venda venda cancel cheyyu", "action": "cancel"}
+{"text": "athu venda, nirthu", "action": "cancel"}
+{"text": "cancel cheyyu please", "action": "cancel"}
+{"text": "ippo venda, pinne nokkam", "action": "cancel"}
+{"text": "nirthu, onnum cheyyanda", "action": "cancel"}
+{"text": "vendannu paranjille, cancel aakku", "action": "cancel"}
+{"text": "ithu venda chetta, nirthikko", "action": "cancel"}
+{"text": "mathi, nirtho", "action": "cancel"}
+{"text": "onnum venda, vittekku", "action": "cancel"}
+{"text": "cancel aakkikko please", "action": "cancel"}
+{"text": "venda, njan pinne parayam", "action": "cancel"}
+{"text": "nirthu nirthu", "action": "cancel"}
+{"text": "aa request venda, cancel", "action": "cancel"}
+{"text": "dayavayi cancel cheyyoo", "action": "cancel"}
+{"text": "Venta.", "action": "cancel"}
+{"text": "ninne kondu vendaa, nirthu", "action": "cancel"}
+{"text": "rehva do, cancel karo", "action": "cancel"}
+{"text": "nathi joitu, cancel kari do", "action": "cancel"}
+{"text": "bas, rehva de", "action": "cancel"}
+{"text": "cancel kari nakho please", "action": "cancel"}
+{"text": "aa kaam band karo", "action": "cancel"}
+{"text": "na na, nathi karvanu", "action": "cancel"}
+{"text": "mukki de, pachhi joishu", "action": "cancel"}
+{"text": "bas bhai, rehva do have", "action": "cancel"}
+{"text": "cancel karjo please", "action": "cancel"}
+{"text": "nai joie, rehva do", "action": "cancel"}
+{"text": "atkavi do aa", "action": "cancel"}
+{"text": "Rehva do.", "action": "cancel"}
+{"text": "mare nathi joitu, cancel karo zara", "action": "cancel"}
+{"text": "bas karo, have nahi", "action": "cancel"}
+{"text": "radd kari do aa request", "action": "cancel"}
+{"text": "rehan de, nahi chahida", "action": "cancel"}
+{"text": "cancel kar de please", "action": "cancel"}
+{"text": "bas kar, rehan de", "action": "cancel"}
+{"text": "nahi karna, chhad de", "action": "cancel"}
+{"text": "chhad yaar, cancel kar", "action": "cancel"}
+{"text": "ruk ja, nahi chahida hun", "action": "cancel"}
+{"text": "eh cancel kar dyo ji", "action": "cancel"}
+{"text": "rehan dyo, baad vich dekhange", "action": "cancel"}
+{"text": "na ji na, band karo", "action": "cancel"}
+{"text": "chad de, mainu nahi chahida", "action": "cancel"}
+{"text": "kirpa karke cancel kar do", "action": "cancel"}
+{"text": "Rehen de.", "action": "cancel"}
+{"text": "hun nahi, rehan de baaki", "action": "cancel"}
+{"text": "oye ruk, cancel kar", "action": "cancel"}
+{"text": "please never mind, vaddu", "action": "cancel"}
+{"text": "chhado chhado nako re", "action": "cancel"}
+{"text": "leave it yaar, venda", "action": "cancel"}
+{"text": "never mind, rehan de", "action": "cancel"}
+{"text": "stop it, thak", "action": "cancel"}
+{"text": "na thak, ami nijei korbo", "action": "cancel"}
+{"text": "canesl kar de", "action": "cancel"}
+{"text": "cancle cheyyi", "action": "cancel"}
+{"text": "kansal kari do", "action": "cancel"}
+{"text": "rahu dey naako", "action": "cancel"}
+{"text": "thaak koro na", "action": "cancel"}
+{"text": "vendaa nirthoo", "action": "cancel"}
+{"text": "bus kar rehnde", "action": "cancel"}
+{"text": "canshel kore dao", "action": "cancel"}
+{"text": "aunty ki cheppa kada, vaddu ani, please aapu ippude", "action": "cancel"}
+{"text": "amma ee message pampoddu, motham cancel cheyyandi", "action": "cancel"}
+{"text": "arre thamba, mala te nako aahe, sagla cancel kara aata", "action": "cancel"}
+{"text": "ki korcho, thamo, ami bolechi ar dorkar nei, cancel koro", "action": "cancel"}
+{"text": "ayyo venda, njan thettayi paranjathu, cancel aakku", "action": "cancel"}
+{"text": "na bhai na, aa khotu bolai gayu, cancel kari do", "action": "cancel"}
+{"text": "oho galat bol ditta, rehan de, cancel kar dyo ji", "action": "cancel"}
+{"text": "vendam", "action": "cancel"}
+{"text": "vendaam pa", "action": "cancel"}
+{"text": "cancel pannu", "action": "cancel"}
+{"text": "cancel pannidu please", "action": "cancel"}
+{"text": "venaam vidu", "action": "cancel"}
+{"text": "vidu pa", "action": "cancel"}
+{"text": "vidunga paravaala", "action": "cancel"}
+{"text": "paravaala vendam", "action": "cancel"}
+{"text": "stop pannu", "action": "cancel"}
+{"text": "nippattu", "action": "cancel"}
+{"text": "niruthu", "action": "cancel"}
+{"text": "niruthu pa podhum", "action": "cancel"}
+{"text": "podhum niruthu", "action": "cancel"}
+{"text": "konjam stop pannunga", "action": "cancel"}
+{"text": "ippo vendam vidunga", "action": "cancel"}
+{"text": "appuram paakalam ippo vendam", "action": "cancel"}
+{"text": "idhu ellam vendam cancel pannu", "action": "cancel"}
+{"text": "naan sonnadha cancel pannidu", "action": "cancel"}
+{"text": "munnadi sonnadhu vendam", "action": "cancel"}
+{"text": "andha request ah cancel pannunga please", "action": "cancel"}
+{"text": "ayyo vendam vendam", "action": "cancel"}
+{"text": "vendam da", "action": "cancel"}
+{"text": "summa iru vendam", "action": "cancel"}
+{"text": "le vidu da vendam", "action": "cancel"}
+{"text": "okay vendam cancel", "action": "cancel"}
+{"text": "illa illa vendam", "action": "cancel"}
+{"text": "illa vendam pa", "action": "cancel"}
+{"text": "vendaampa", "action": "cancel"}
+{"text": "vendaam cancal pannu", "action": "cancel"}
+{"text": "cansel pannu", "action": "cancel"}
+{"text": "cancle pannidu", "action": "cancel"}
+{"text": "vandam vidu", "action": "cancel"}
+{"text": "vendom", "action": "cancel"}
+{"text": "nirutthu", "action": "cancel"}
+{"text": "stap pannu", "action": "cancel"}
+{"text": "ventam vidunga", "action": "cancel"}
+{"text": "vidungo vendam", "action": "cancel"}
+{"text": "maranthudu adha", "action": "cancel"}
+{"text": "adha maranthudunga", "action": "cancel"}
+{"text": "adha vittudu", "action": "cancel"}
+{"text": "adha vittudunga please", "action": "cancel"}
+{"text": "naan maathi sollren ippo cancel pannu", "action": "cancel"}
+{"text": "thappa sonnen cancel pannu", "action": "cancel"}
+{"text": "thappa sollitten vendam", "action": "cancel"}
+{"text": "mistake ah sollitten adha cancel pannu", "action": "cancel"}
+{"text": "oru nimisham stop pannu vendam", "action": "cancel"}
+{"text": "konjam wait illa vendam cancel", "action": "cancel"}
+{"text": "sari sari vidunga", "action": "cancel"}
+{"text": "pochu vendam cancel", "action": "cancel"}
+{"text": "enakku adhu vendam", "action": "cancel"}
+{"text": "enakku idhu ippo thevai illa vidu", "action": "cancel"}
+{"text": "thevai illa", "action": "cancel"}
+{"text": "thevai illa cancel pannunga", "action": "cancel"}
+{"text": "onnum venam", "action": "cancel"}
+{"text": "onnum pannadha vidu", "action": "cancel"}
+{"text": "onnum pannavendam", "action": "cancel"}
+{"text": "edhuvum pannadhe", "action": "cancel"}
+{"text": "edhuvum pannaadheenga vidunga", "action": "cancel"}
+{"text": "nirutthunga please", "action": "cancel"}
+{"text": "please stop", "action": "cancel"}
+{"text": "please cancel pannunga thambi", "action": "cancel"}
+{"text": "kanna vendam pa vidu", "action": "cancel"}
+{"text": "amma solren vendam vidu", "action": "cancel"}
+{"text": "paati ku idhu vendam pa niruthu", "action": "cancel"}
+{"text": "thatha sonnadhu vendam cancel pannidu", "action": "cancel"}
+{"text": "ayyo romba late aagudhu vidu cancel", "action": "cancel"}
+{"text": "ippo time illa vendam vidu", "action": "cancel"}
+{"text": "naalaiku paakalam ippo cancel", "action": "cancel"}
+{"text": "cancel please", "action": "cancel"}
+{"text": "stop", "action": "cancel"}
+{"text": "leave it pa", "action": "cancel"}
+{"text": "leave it vendam", "action": "cancel"}
+{"text": "ok leave it cancel pannu", "action": "cancel"}
+{"text": "abort pannu", "action": "cancel"}
+{"text": "Stop pannunga.", "action": "cancel"}
+{"text": "Paravaala vidunga.", "action": "cancel"}
+{"text": "Naan sonnadhu vendam, cancel pannunga.", "action": "cancel"}
+{"text": "romba thanks aana ippo vendam vidunga", "action": "cancel"}
+{"text": "sorry ippo vendam cancel pannidunga", "action": "cancel"}
+{"text": "yo vendam nu sonnen la niruthu", "action": "cancel"}
+{"text": "nirutha sonnen la stop pannu", "action": "cancel"}
+{"text": "enna panra niruthu niruthu", "action": "cancel"}
+{"text": "dei niruthu da", "action": "cancel"}
+{"text": "podhum podhum vidu", "action": "cancel"}
+{"text": "seri adhu cancel", "action": "cancel"}
+{"text": "அதை கேன்சல் பண்ணு", "action": "cancel"}
+{"text": "வேண்டாம்", "action": "cancel"}
+{"text": "வேண்டாம் பா விடுங்க", "action": "cancel"}
+{"text": "நிறுத்து", "action": "cancel"}
+{"text": "நிறுத்துங்க ப்ளீஸ்", "action": "cancel"}
+{"text": "கேன்சல் பண்ணிடு", "action": "cancel"}
+{"text": "பரவாயில்லை வேண்டாம்", "action": "cancel"}
+{"text": "அதை விட்டுடு", "action": "cancel"}
+{"text": "விடுங்க வேண்டாம்", "action": "cancel"}
+{"text": "போதும் நிறுத்து", "action": "cancel"}
+{"text": "இப்போ வேண்டாம் அப்புறம் பாக்கலாம்", "action": "cancel"}
+{"text": "நான் சொன்னதை கேன்சல் பண்ணுங்க", "action": "cancel"}
+{"text": "தப்பா சொல்லிட்டேன் வேண்டாம்", "action": "cancel"}
+{"text": "ஒண்ணும் பண்ண வேண்டாம்", "action": "cancel"}
+{"text": "எதுவும் பண்ணாதே விடு", "action": "cancel"}
+{"text": "ஸ்டாப் பண்ணு", "action": "cancel"}
+{"text": "அய்யோ வேண்டாம் வேண்டாம்", "action": "cancel"}
+{"text": "சரி விடுங்க வேண்டாம்", "action": "cancel"}
+{"text": "தேவையில்லை கேன்சல் பண்ணு", "action": "cancel"}
+{"text": "முன்னாடி சொன்னது வேண்டாம் நிறுத்திடு", "action": "cancel"}
+{"text": "கொஞ்சம் நிறுத்துங்க அது வேண்டாம்", "action": "cancel"}
+{"text": "மறந்துடு அதை", "action": "cancel"}
+{"text": "click on submit", "action": "click"}
+{"text": "click OK", "action": "click"}
+{"text": "please click on the send button", "action": "click"}
+{"text": "press cancel button yaar", "action": "click"}
+{"text": "click on login", "action": "click"}
+{"text": "Can you click the sign in button for me", "action": "click"}
+{"text": "click download", "action": "click"}
+{"text": "go back, click the back button", "action": "click"}
+{"text": "close button pe click karo please", "action": "click"}
+{"text": "click yes", "action": "click"}
+{"text": "Press accept.", "action": "click"}
+{"text": "click the play button", "action": "click"}
+{"text": "press the search button na", "action": "click"}
+{"text": "click on the settings menu", "action": "click"}
+{"text": "open the inbox tab by clicking it", "action": "click"}
+{"text": "do one thing, click on continue", "action": "click"}
+{"text": "zara the proceed button press karo", "action": "click"}
+{"text": "click no", "action": "click"}
+{"text": "beta, just press that OK button for me please", "action": "click"}
+{"text": "click on the first link", "action": "click"}
+{"text": "Click the File menu.", "action": "click"}
+{"text": "click save", "action": "click"}
+{"text": "please press the pay now button", "action": "click"}
+{"text": "tap on log out", "action": "click"}
+{"text": "click the sign up link", "action": "click"}
+{"text": "press the I agree button", "action": "click"}
+{"text": "click on add to cart", "action": "click"}
+{"text": "Click buy now.", "action": "click"}
+{"text": "click on the home tab", "action": "click"}
+{"text": "press skip ad", "action": "click"}
+{"text": "click the skip button yaar, this ad is too long", "action": "click"}
+{"text": "click on reply", "action": "click"}
+{"text": "press forward button", "action": "click"}
+{"text": "click delete", "action": "click"}
+{"text": "kindly click on the verify button", "action": "click"}
+{"text": "click on resend OTP", "action": "click"}
+{"text": "press the get OTP button", "action": "click"}
+{"text": "Click on the Edit menu please.", "action": "click"}
+{"text": "click view", "action": "click"}
+{"text": "click the help menu", "action": "click"}
+{"text": "press refresh", "action": "click"}
+{"text": "click the reload button", "action": "click"}
+{"text": "click on the profile icon", "action": "click"}
+{"text": "click on my account", "action": "click"}
+{"text": "click like", "action": "click"}
+{"text": "click the share button", "action": "click"}
+{"text": "press pause", "action": "click"}
+{"text": "click on full screen", "action": "click"}
+{"text": "click mute button", "action": "click"}
+{"text": "Please click on the Downloads tab.", "action": "click"}
+{"text": "click on the images tab", "action": "click"}
+{"text": "click the news tab na", "action": "click"}
+{"text": "click on apply filters", "action": "click"}
+{"text": "click the confirm button", "action": "click"}
+{"text": "confirm button dabao please", "action": "click"}
+{"text": "click on place order", "action": "click"}
+{"text": "click on track order", "action": "click"}
+{"text": "click on compose", "action": "click"}
+{"text": "click the new chat button", "action": "click"}
+{"text": "click the minimize button", "action": "click"}
+{"text": "press maximize", "action": "click"}
+{"text": "click on the X to close this popup", "action": "click"}
+{"text": "click allow", "action": "click"}
+{"text": "press don't allow", "action": "click"}
+{"text": "click on block", "action": "click"}
+{"text": "click on remind me later", "action": "click"}
+{"text": "click the update now button", "action": "click"}
+{"text": "press install", "action": "click"}
+{"text": "click finish", "action": "click"}
+{"text": "click on the previous button", "action": "click"}
+{"text": "click next page", "action": "click"}
+{"text": "click on page two", "action": "click"}
+{"text": "click on read more", "action": "click"}
+{"text": "click show more", "action": "click"}
+{"text": "click on forgot password link", "action": "click"}
+{"text": "click on the contact us link at the bottom", "action": "click"}
+{"text": "click on the cart icon", "action": "click"}
+{"text": "click the menu button, the three lines one", "action": "click"}
+{"text": "click on the three dots", "action": "click"}
+{"text": "click on the video call button", "action": "click"}
+{"text": "press end call", "action": "click"}
+{"text": "click join meeting", "action": "click"}
+{"text": "click on the leave button", "action": "click"}
+{"text": "I am not able to find it, please click submit for me", "action": "click"}
+{"text": "my eyes are weak beta, just click on the green OK button", "action": "click"}
+{"text": "okay now click on next and then we will see", "action": "click"}
+{"text": "konjam click the login button", "action": "click"}
+{"text": "ondu click the continue button", "action": "click"}
+{"text": "the blue sign in button, click that one", "action": "click"}
+{"text": "send button press karo", "action": "click"}
+{"text": "Search button pe click kar do.", "action": "click"}
+{"text": "click on the cancel button not the OK", "action": "click"}
+{"text": "click on the Gmail tab at the top", "action": "click"}
+{"text": "click on the second video", "action": "click"}
+{"text": "click on check balance option", "action": "click"}
+{"text": "press the accept all cookies button", "action": "click"}
+{"text": "click got it", "action": "click"}
+{"text": "click on done", "action": "click"}
+{"text": "Clik on submit", "action": "click"}
+{"text": "click on the nexd button", "action": "click"}
+{"text": "click on log in buttan", "action": "click"}
+{"text": "click the dawnload button", "action": "click"}
+{"text": "Click on the excep button.", "action": "click"}
+{"text": "click on cancle", "action": "click"}
+{"text": "klick yes", "action": "click"}
+{"text": "click on the setting option", "action": "click"}
+{"text": "click on sub mit", "action": "click"}
+{"text": "click on the insert tab", "action": "click"}
+{"text": "click the history tab", "action": "click"}
+{"text": "press enter button on the screen", "action": "click"}
+{"text": "zara next button daba do", "action": "click"}
+{"text": "OK pe click kar do please", "action": "click"}
+{"text": "Sign in button dabana hai", "action": "click"}
+{"text": "back button dabao", "action": "click"}
+{"text": "close kar do wo button, close pe click karo", "action": "click"}
+{"text": "Accept button daba do please", "action": "click"}
+{"text": "play button dabao", "action": "click"}
+{"text": "search button pe click karo", "action": "click"}
+{"text": "settings wale menu pe click karo", "action": "click"}
+{"text": "home tab pe click kar do", "action": "click"}
+{"text": "beta zara wo neeche wala Next button daba do", "action": "click"}
+{"text": "continue button dabao", "action": "click"}
+{"text": "skip ad pe click karo", "action": "click"}
+{"text": "Skip pe click kar do na", "action": "click"}
+{"text": "Allow button dabao", "action": "click"}
+{"text": "Apply button daba do", "action": "click"}
+{"text": "File menu pe click karo", "action": "click"}
+{"text": "Edit menu kholo click karke", "action": "click"}
+{"text": "View tab pe click karo", "action": "click"}
+{"text": "Compose button dabao", "action": "click"}
+{"text": "reply button pe click karo", "action": "click"}
+{"text": "Delete button dabao", "action": "click"}
+{"text": "Finish button daba do", "action": "click"}
+{"text": "pay now button pe click karo", "action": "click"}
+{"text": "Add to cart pe click karo", "action": "click"}
+{"text": "Buy now button dabao", "action": "click"}
+{"text": "Log out pe click karo", "action": "click"}
+{"text": "Sign out button daba do please", "action": "click"}
+{"text": "Register button pe click karo", "action": "click"}
+{"text": "Verify button dabao", "action": "click"}
+{"text": "Get OTP pe click karo", "action": "click"}
+{"text": "Resend OTP pe click kar do", "action": "click"}
+{"text": "Confirm button daba do", "action": "click"}
+{"text": "I agree wale box pe click karo", "action": "click"}
+{"text": "Previous button dabao", "action": "click"}
+{"text": "Refresh button pe click karo", "action": "click"}
+{"text": "Contact us link pe click karo", "action": "click"}
+{"text": "More options wale teen dots pe click karo", "action": "click"}
+{"text": "Menu button dabao", "action": "click"}
+{"text": "Share button pe click karo", "action": "click"}
+{"text": "Like button daba do", "action": "click"}
+{"text": "Full screen button dabao", "action": "click"}
+{"text": "Pause button pe click karo", "action": "click"}
+{"text": "Unmute button daba do", "action": "click"}
+{"text": "Read more link pe click karo", "action": "click"}
+{"text": "Show more pe click kar do", "action": "click"}
+{"text": "Images tab pe click karo", "action": "click"}
+{"text": "News tab pe click karo", "action": "click"}
+{"text": "Videos wale tab pe click kar do", "action": "click"}
+{"text": "Print button dabao", "action": "click"}
+{"text": "Open button pe click karo", "action": "click"}
+{"text": "Update now button dabao", "action": "click"}
+{"text": "Remind me later pe click karo", "action": "click"}
+{"text": "Got it button daba do", "action": "click"}
+{"text": "Close wala cross pe click karo", "action": "click"}
+{"text": "Minimise button dabao", "action": "click"}
+{"text": "Try again button daba do", "action": "click"}
+{"text": "submitt butten pe klik karo", "action": "click"}
+{"text": "nekst pe clik kar do", "action": "click"}
+{"text": "sain in pe klik karo", "action": "click"}
+{"text": "canse button dabao", "action": "click"}
+{"text": "downlod pe klik karna", "action": "click"}
+{"text": "log in batan daba do zara", "action": "click"}
+{"text": "sabmit kar do button pe click karke", "action": "click"}
+{"text": "yaar jaldi se send pe click kar", "action": "click"}
+{"text": "arre wo blue wala Login button daba na", "action": "click"}
+{"text": "please mere liye OK button pe ek baar click kar dijiye", "action": "click"}
+{"text": "haan wo Continue button hai na, us pe click karo", "action": "click"}
+{"text": "सबमिट बटन दबाओ", "action": "click"}
+{"text": "ओके पर क्लिक कर दो", "action": "click"}
+{"text": "कैंसल वाला बटन दबाओ", "action": "click"}
+{"text": "लॉगिन पर क्लिक करो", "action": "click"}
+{"text": "Sign in बटन दबा दो", "action": "click"}
+{"text": "डाउनलोड पर क्लिक कर दीजिए", "action": "click"}
+{"text": "बैक बटन दबाओ ज़रा", "action": "click"}
+{"text": "yes पर क्लिक करो", "action": "click"}
+{"text": "एक्सेप्ट बटन दबा दो", "action": "click"}
+{"text": "सर्च बटन दबाओ", "action": "click"}
+{"text": "सेटिंग्स मेनू पर क्लिक करो", "action": "click"}
+{"text": "होम टैब पर क्लिक कर दो", "action": "click"}
+{"text": "कृपया सेव बटन दबा दीजिए", "action": "click"}
+{"text": "कन्फर्म पर क्लिक करो", "action": "click"}
+{"text": "आगे वाला बटन दबाओ", "action": "click"}
+{"text": "पीछे वाले बटन पर क्लिक करो", "action": "click"}
+{"text": "हाँ वाले बटन पर क्लिक करो", "action": "click"}
+{"text": "नहीं पर क्लिक कर दो", "action": "click"}
+{"text": "Skip ad पर क्लिक करो", "action": "click"}
+{"text": "OTP भेजें वाले बटन पर क्लिक करो", "action": "click"}
+{"text": "Images टैब पर क्लिक करो", "action": "click"}

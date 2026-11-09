@@ -1,0 +1,120 @@
+{"text": "रेशन कार्ड फॉर्म भरा", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "Aadhaar update sathi konti kagadpatre lagtat", "lang": "mr", "action": "web_search", "slots": {"query": "Aadhaar update sathi konti kagadpatre lagtat"}}
+{"text": "बँक केवायसी फॉर्म समजावा", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "hi PAN chi site khari aahe ka", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "what does this form need", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "help me fill this form", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "chala form bharuya", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "hi SBI chi khari website aahe ka", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "digilocker dot gov dot in ughad", "lang": "mr", "action": "open_website", "slots": {"site": "digilocker dot gov dot in"}}
+{"text": "ya form madhe kay bharaycha aahe", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "hya form chi mahiti sanga", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "majhya profile madhun ha form bhar", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "majhya mahitine ha form bharun tak", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "hach UPI cha page khara aahe na", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "maza Aadhaar update form bhara", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "insurance claim form mhanje kay samjava", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "maza pension form bharun de", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "school admission form che fields samjava", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "tell me what to fill in this form", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "upload button daba", "lang": "mr", "action": "click", "slots": {"target": "upload"}}
+{"text": "ya website var form bharna safe aahe ka", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "hi site fraud tar nahi na", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "IFSC code ya form madhe kuthun liha te samjava", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "Next war click kara", "lang": "mr", "action": "click", "slots": {"target": "Next"}}
+{"text": "mulacha school admission form bharun dya", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "scholarship form bharayla help kara", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "is it a genuine website", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "what is on the screen", "lang": "mr", "action": "read_screen", "slots": {}}
+{"text": "KYC kasa kartat", "lang": "mr", "action": "web_search", "slots": {"query": "KYC kasa kartat"}}
+{"text": "form bharayla madat kara", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "liha ki maza naav Ramesh Kumar aahe", "lang": "mr", "action": "type_text", "slots": {"text": "maza naav Ramesh Kumar aahe"}}
+{"text": "ha form kashasathi aahe samjava", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "bank KYC lavkar bhara", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "gas connection cha form bharun dya", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "ration card kasa kadhaycha", "lang": "mr", "action": "web_search", "slots": {"query": "ration card kasa kadhaycha"}}
+{"text": "fill this KYC form for me", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "PM-Kisan form madhe kay dyaycha aahe", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "माझा फॉर्म भर", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "रेशन कार्डचा फॉर्म काय मागतो", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "पॅन कार्डचा फॉर्म भरून द्या", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "scholarship form chi last date kay aahe sanga", "lang": "mr", "action": "web_search", "slots": {"query": "scholarship form chi last date kay aahe"}}
+{"text": "ha form bharaychya madhe majhi madat kar", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "hi site nakli tar nahi na", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "hi sarkari website khari aahe ka", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "ya form madhe nominee mhanje kay", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "आधार अपडेट फॉर्ममध्ये काय लिहायचे", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "पेन्शन फॉर्मबद्दल सांगा", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "ek ek karun form che prashna vichara", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "ha KYC form bhara", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "income tax chi website ughad", "lang": "mr", "action": "open_website", "slots": {"site": "income tax"}}
+{"text": "लिही मी उद्या येतो", "lang": "mr", "action": "type_text", "slots": {"text": "मी उद्या येतो"}}
+{"text": "ha form bharun taka na", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "PM-Kisan form bharaycha aahe madat kar", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "स्क्रीनवर काय लिहिले आहे", "lang": "mr", "action": "read_screen", "slots": {}}
+{"text": "ya page var mahiti takne safe aahe ka", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "hi KYC wali site barobar aahe ka", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "SBI chi website ughad", "lang": "mr", "action": "open_website", "slots": {"site": "SBI"}}
+{"text": "screen var kay liha aahe", "lang": "mr", "action": "read_screen", "slots": {}}
+{"text": "ha form majhyasathi bhar re", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "ही बँकेची साइट बरोबर आहे ना", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "या फॉर्ममध्ये काय भरायचे आहे", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "ha form kashasathi aahe re", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "hospital registration form bharun de", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "ya page var kay disat aahe", "lang": "mr", "action": "read_screen", "slots": {}}
+{"text": "फॉर्म भरायला मदत करा", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "ya form la konti kagadpatre lagtat", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "ya site var vishwas thevta yeil ka", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "type kar 9876543210", "lang": "mr", "action": "type_text", "slots": {"text": "9876543210"}}
+{"text": "PAN card kasa kadhtat", "lang": "mr", "action": "web_search", "slots": {"query": "PAN card kasa kadhtat"}}
+{"text": "job application form bharayla madat kara", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "what is this form asking for", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "job application form kay vichartoy", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "explain this KYC form to me", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "is this a fake site", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "PAN application form bharun dya", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "hi site kharach bank chi aahe ka", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "ही सरकारी साइट खरी आहे का", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "विमा क्लेम फॉर्म भरून दे", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "form madhe kiti goshti vicharlya aahet", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "ithe liha ramesh dot kumar at gmail dot com", "lang": "mr", "action": "type_text", "slots": {"text": "ramesh dot kumar at gmail dot com"}}
+{"text": "maza form bhar", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "mala ha form samajat nahi", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "ha bank cha site barobar aahe na", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "Aadhaar update form madhe kay kay liha", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "ही लिंक बनावट तर नाही ना", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "UIDAI chi site ughad", "lang": "mr", "action": "open_website", "slots": {"site": "UIDAI"}}
+{"text": "incometax dot gov dot in ughad", "lang": "mr", "action": "open_website", "slots": {"site": "incometax dot gov dot in"}}
+{"text": "ही वेबसाइट खरी आहे का", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "hi site safe aahe ka", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "screen var kay kay aahe vacha", "lang": "mr", "action": "read_screen", "slots": {}}
+{"text": "सबमिट बटन दाबा", "lang": "mr", "action": "click", "slots": {"target": "सबमिट"}}
+{"text": "ही साइट सुरक्षित आहे का", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "mala WhatsApp var hi link ali aahe ti khari aahe ka", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "ha form jara samjavun de na", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "hospital registration form madhe kay liha", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "is this site safe", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "continue war click kara", "lang": "mr", "action": "click", "slots": {"target": "continue"}}
+{"text": "mala ha form bharta yet nahi tu bhar", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "hi website khari aahe ka", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "type kar Gandhi Road Pune", "lang": "mr", "action": "type_text", "slots": {"text": "Gandhi Road Pune"}}
+{"text": "हा फॉर्म कशासाठी आहे समजावून सांगा", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "scholarship form sathi konte documents lagtil", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "please fill the form", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "form bharayla survat kara", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "gas connection cha form kasa bharaycha sanga", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "ha bank KYC form kay vichartoy", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "KYC form madhe kay kay dyave lagel", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "हा केवायसी फॉर्म भरा", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "ration card cha form kay magto", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "hi link khari aahe ki fake", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "voter ID form bharun ghya majhyakadun", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "voter ID form la kay kay lagta", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "पेन्शनचा फॉर्म भरायला मदत करा", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "submit daba", "lang": "mr", "action": "click", "slots": {"target": "submit"}}
+{"text": "pension form baddal sanga", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "PAN application form samjavun sanga", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "check kara hi website thik aahe ki nahi", "lang": "mr", "action": "check_site", "slots": {}}
+{"text": "insurance claim form bharayla madat pahije", "lang": "mr", "action": "fill_form", "slots": {}}
+{"text": "ya form madhe konti mahiti garjechi aahe", "lang": "mr", "action": "explain_form", "slots": {}}
+{"text": "ration card cha form bhar", "lang": "mr", "action": "fill_form", "slots": {}}

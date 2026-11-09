@@ -1,0 +1,460 @@
+{"text": "Spotify खोलो।", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "व्हाट्सएप खोल दो", "action": "open_app", "slots": {"app": "व्हाट्सएप"}}
+{"text": "क्रोम ब्राउज़र चालू करो", "action": "open_app", "slots": {"app": "क्रोम"}}
+{"text": "ज़रा नोटपैड खोलना", "action": "open_app", "slots": {"app": "नोटपैड"}}
+{"text": "कैलकुलेटर चालू करो।", "action": "open_app", "slots": {"app": "कैलकुलेटर"}}
+{"text": "VS Code खोलो भाई", "action": "open_app", "slots": {"app": "VS Code"}}
+{"text": "Microsoft Word शुरू करो", "action": "open_app", "slots": {"app": "Microsoft Word"}}
+{"text": "एक्सेल खोल दीजिए", "action": "open_app", "slots": {"app": "एक्सेल"}}
+{"text": "Zoom वाला ऐप खोलो", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "टेलीग्राम ओपन करो", "action": "open_app", "slots": {"app": "टेलीग्राम"}}
+{"text": "कृपया सेटिंग्स खोलिए", "action": "open_app", "slots": {"app": "सेटिंग्स"}}
+{"text": "फाइल एक्सप्लोरर खोलो", "action": "open_app", "slots": {"app": "फाइल एक्सप्लोरर"}}
+{"text": "Teams खोलो, मीटिंग है।", "action": "open_app", "slots": {"app": "Teams"}}
+{"text": "बच्चों के लिए पेंट खोल दो", "action": "open_app", "slots": {"app": "पेंट"}}
+{"text": "स्पॉटिफाई चालू कर दो", "action": "open_app", "slots": {"app": "स्पॉटिफाई"}}
+{"text": "Photoshop launch करो", "action": "open_app", "slots": {"app": "Photoshop"}}
+{"text": "यूट्यूब खोलो", "action": "open_app", "slots": {"app": "यूट्यूब"}}
+{"text": "Outlook खोलो, मेल देखना है", "action": "open_app", "slots": {"app": "Outlook"}}
+{"text": "VLC प्लेयर चलाओ", "action": "open_app", "slots": {"app": "VLC"}}
+{"text": "PowerPoint खोलिए ज़रा", "action": "open_app", "slots": {"app": "PowerPoint"}}
+{"text": "amazon.in खोलो", "action": "open_website", "slots": {"site": "amazon.in"}}
+{"text": "फ्लिपकार्ट की वेबसाइट खोलो", "action": "open_website", "slots": {"site": "फ्लिपकार्ट"}}
+{"text": "IRCTC की साइट खोल दो", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "विकिपीडिया की वेबसाइट खोलो।", "action": "open_website", "slots": {"site": "विकिपीडिया"}}
+{"text": "github डॉट कॉम खोलो", "action": "open_website", "slots": {"site": "github डॉट कॉम"}}
+{"text": "SBI की वेबसाइट खोलिए", "action": "open_website", "slots": {"site": "SBI"}}
+{"text": "ndtv.com पर जाओ", "action": "open_website", "slots": {"site": "ndtv.com"}}
+{"text": "मेकमायट्रिप डॉट कॉम खोल दो", "action": "open_website", "slots": {"site": "मेकमायट्रिप डॉट कॉम"}}
+{"text": "ChatGPT की वेबसाइट खोलो", "action": "open_website", "slots": {"site": "ChatGPT"}}
+{"text": "zomato की साइट खोलो प्लीज़", "action": "open_website", "slots": {"site": "zomato"}}
+{"text": "भारत के प्रधानमंत्री कौन हैं?", "action": "web_search", "slots": {"query": "भारत के प्रधानमंत्री कौन हैं"}}
+{"text": "दिल्ली का मौसम बताओ", "action": "web_search", "slots": {"query": "दिल्ली का मौसम"}}
+{"text": "शाहरुख खान के बारे में बताओ", "action": "web_search", "slots": {"query": "शाहरुख खान"}}
+{"text": "Radiohead कौन है?", "action": "web_search", "slots": {"query": "Radiohead कौन है"}}
+{"text": "सोने का भाव आज क्या है", "action": "web_search", "slots": {"query": "सोने का भाव आज क्या है"}}
+{"text": "आज की ताज़ा खबरें बताओ", "action": "web_search", "slots": {"query": "आज की ताज़ा खबरें"}}
+{"text": "Amazon पर जूते ढूंढो", "action": "web_search", "slots": {"site": "Amazon", "query": "जूते"}}
+{"text": "YouTube पर पनीर बटर मसाला की रेसिपी सर्च करो", "action": "web_search", "slots": {"site": "YouTube", "query": "पनीर बटर मसाला की रेसिपी"}}
+{"text": "समझाओ फोटोसिंथेसिस क्या है", "action": "web_search", "slots": {"query": "फोटोसिंथेसिस क्या है"}}
+{"text": "तुम ही हो गाना किसने गाया?", "action": "web_search", "slots": {"query": "तुम ही हो गाना किसने गाया"}}
+{"text": "Creep के लिरिक्स दिखाओ", "action": "web_search", "slots": {"query": "Creep के लिरिक्स"}}
+{"text": "मुंबई से पुणे कितनी दूर है", "action": "web_search", "slots": {"query": "मुंबई से पुणे कितनी दूर है"}}
+{"text": "विराट कोहली की उम्र कितनी है", "action": "web_search", "slots": {"query": "विराट कोहली की उम्र कितनी है"}}
+{"text": "गूगल करो पचास हज़ार के अंदर सबसे अच्छा लैपटॉप", "action": "web_search", "slots": {"query": "पचास हज़ार के अंदर सबसे अच्छा लैपटॉप"}}
+{"text": "ए आर रहमान के बारे में कुछ बताइए", "action": "web_search", "slots": {"query": "ए आर रहमान"}}
+{"text": "Flipkart पर iPhone 15 का दाम देखो", "action": "web_search", "slots": {"site": "Flipkart", "query": "iPhone 15 का दाम"}}
+{"text": "ताजमहल किसने बनवाया था?", "action": "web_search", "slots": {"query": "ताजमहल किसने बनवाया था"}}
+{"text": "पास में अच्छे रेस्टोरेंट ढूंढो", "action": "web_search", "slots": {"query": "पास में अच्छे रेस्टोरेंट"}}
+{"text": "Python में list कैसे sort करते हैं", "action": "web_search", "slots": {"query": "Python में list कैसे sort करते हैं"}}
+{"text": "कल लखनऊ में बारिश होगी क्या", "action": "web_search", "slots": {"query": "कल लखनऊ में बारिश होगी क्या"}}
+{"text": "अमिताभ बच्चन की नई फ़िल्म कौन सी है", "action": "web_search", "slots": {"query": "अमिताभ बच्चन की नई फ़िल्म कौन सी है"}}
+{"text": "Wikipedia पर चंद्रयान 3 सर्च करो", "action": "web_search", "slots": {"site": "Wikipedia", "query": "चंद्रयान 3"}}
+{"text": "मधुमेह के लक्षण क्या होते हैं", "action": "web_search", "slots": {"query": "मधुमेह के लक्षण क्या होते हैं"}}
+{"text": "Spotify पर Radiohead चलाओ", "action": "play_media", "slots": {"app": "Spotify", "query": "Radiohead"}}
+{"text": "अरिजीत सिंह के गाने चलाओ", "action": "play_media", "slots": {"query": "अरिजीत सिंह"}}
+{"text": "यूट्यूब पर कपिल शर्मा शो लगाओ", "action": "play_media", "slots": {"app": "यूट्यूब", "query": "कपिल शर्मा शो"}}
+{"text": "पुराने हिंदी गाने बजाओ", "action": "play_media", "slots": {"query": "पुराने हिंदी गाने"}}
+{"text": "कोई गाना चलाओ ना", "action": "play_media", "slots": {}}
+{"text": "JioSaavn पर किशोर कुमार चलाओ", "action": "play_media", "slots": {"app": "JioSaavn", "query": "किशोर कुमार"}}
+{"text": "lo-fi music लगा दो", "action": "play_media", "slots": {"query": "lo-fi music"}}
+{"text": "सुबह के भजन चला दो", "action": "play_media", "slots": {"query": "सुबह के भजन"}}
+{"text": "Tum Hi Ho बजाओ", "action": "play_media", "slots": {"query": "Tum Hi Ho"}}
+{"text": "स्पॉटिफाई पर Coldplay लगाओ", "action": "play_media", "slots": {"app": "स्पॉटिफाई", "query": "Coldplay"}}
+{"text": "Gaana ऐप पर हनी सिंह के गाने चलाओ", "action": "play_media", "slots": {"app": "Gaana", "query": "हनी सिंह"}}
+{"text": "YouTube Music पर Lata Mangeshkar चलाओ", "action": "play_media", "slots": {"app": "YouTube Music", "query": "Lata Mangeshkar"}}
+{"text": "Creep चलाओ Spotify पे", "action": "play_media", "slots": {"query": "Creep", "app": "Spotify"}}
+{"text": "बच्चों के लिए कविताएं चलाओ", "action": "play_media", "slots": {"query": "बच्चों के लिए कविताएं"}}
+{"text": "Wynk पर पंजाबी गाने चलाओ", "action": "play_media", "slots": {"app": "Wynk", "query": "पंजाबी गाने"}}
+{"text": "यूट्यूब पे मोटू पतलू का एपिसोड लगाओ", "action": "play_media", "slots": {"app": "यूट्यूब", "query": "मोटू पतलू का एपिसोड"}}
+{"text": "रेडियो हेड के गाने बजाओ", "action": "play_media", "slots": {"query": "रेडियो हेड"}}
+{"text": "Amazon Music पर रोमांटिक गाने चलाओ", "action": "play_media", "slots": {"app": "Amazon Music", "query": "रोमांटिक गाने"}}
+{"text": "The Ranveer Show पॉडकास्ट चलाओ", "action": "play_media", "slots": {"query": "The Ranveer Show"}}
+{"text": "ग़ज़लें सुनाओ", "action": "play_media", "slots": {"query": "ग़ज़लें"}}
+{"text": "गाना रोको", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "फिर से चलाओ", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "अगला गाना", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "पिछला गाना लगाओ", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "आवाज़ बढ़ाओ", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "वॉल्यूम थोड़ा कम करो", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "म्यूट कर दो", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "ये वाला छोड़ो, अगला चलाओ", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "आवाज़ थोड़ी धीमी करो", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "राजू को मैसेज करो कि मैं देर से आऊंगा", "action": "send_message", "slots": {"contact": "राजू", "text": "मैं देर से आऊंगा"}}
+{"text": "मम्मी को बोलो कि खाना खा लिया", "action": "send_message", "slots": {"contact": "मम्मी", "text": "खाना खा लिया"}}
+{"text": "WhatsApp पर प्रिया को भेजो कल मिलते हैं", "action": "send_message", "slots": {"contact": "प्रिया", "text": "कल मिलते हैं"}}
+{"text": "Ravi भाई को मैसेज भेजो मीटिंग पांच बजे है", "action": "send_message", "slots": {"contact": "Ravi भाई", "text": "मीटिंग पांच बजे है"}}
+{"text": "पापा को लिखो कि मैं घर पहुंच गया", "action": "send_message", "slots": {"contact": "पापा", "text": "मैं घर पहुंच गया"}}
+{"text": "सुनीता को व्हाट्सएप करो हैप्पी बर्थडे", "action": "send_message", "slots": {"contact": "सुनीता", "text": "हैप्पी बर्थडे"}}
+{"text": "अंकित को बोल दो कि नोट्स भेज दे", "action": "send_message", "slots": {"contact": "अंकित", "text": "नोट्स भेज दे"}}
+{"text": "दीदी को मैसेज करो कि ट्रेन लेट है", "action": "send_message", "slots": {"contact": "दीदी", "text": "ट्रेन लेट है"}}
+{"text": "Rahul को message करो ok done", "action": "send_message", "slots": {"contact": "Rahul", "text": "ok done"}}
+{"text": "भैया को बताओ कि गाड़ी ठीक हो गई", "action": "send_message", "slots": {"contact": "भैया", "text": "गाड़ी ठीक हो गई"}}
+{"text": "लिखो नमस्ते सब लोग", "action": "type_text", "slots": {"text": "नमस्ते सब लोग"}}
+{"text": "टाइप करो मेरा नाम अमित है", "action": "type_text", "slots": {"text": "मेरा नाम अमित है"}}
+{"text": "यहां लिख दो कल छुट्टी है", "action": "type_text", "slots": {"text": "कल छुट्टी है"}}
+{"text": "type करो thank you sir", "action": "type_text", "slots": {"text": "thank you sir"}}
+{"text": "इसमें लिखो प्रिय महोदय", "action": "type_text", "slots": {"text": "प्रिय महोदय"}}
+{"text": "सर्च बॉक्स में लिखो सस्ते फ्लाइट टिकट", "action": "type_text", "slots": {"text": "सस्ते फ्लाइट टिकट"}}
+{"text": "सबमिट बटन दबाओ", "action": "click", "slots": {"target": "सबमिट"}}
+{"text": "Next पर क्लिक करो", "action": "click", "slots": {"target": "Next"}}
+{"text": "लॉगिन पर क्लिक करो", "action": "click", "slots": {"target": "लॉगिन"}}
+{"text": "Download वाले बटन पे क्लिक करो", "action": "click", "slots": {"target": "Download"}}
+{"text": "Skip Ad दबाओ", "action": "click", "slots": {"target": "Skip Ad"}}
+{"text": "स्क्रीन पर क्या लिखा है पढ़ो", "action": "read_screen", "slots": {}}
+{"text": "ये पेज किस बारे में है?", "action": "read_screen", "slots": {}}
+{"text": "इस पेज पर जो लिखा है पढ़ के सुनाओ", "action": "read_screen", "slots": {}}
+{"text": "रहने दो", "action": "cancel", "slots": {}}
+{"text": "छोड़ो, कुछ मत करो", "action": "cancel", "slots": {}}
+{"text": "स्क्रीन की ब्राइटनेस बढ़ाओ", "action": "unknown", "slots": {}}
+{"text": "सुबह छह बजे का अलार्म लगाओ", "action": "unknown", "slots": {}}
+{"text": "कंप्यूटर बंद कर दो", "action": "unknown", "slots": {}}
+{"text": "मम्मी को फोन लगाओ", "action": "unknown", "slots": {}}
+{"text": "अरे यार आज बहुत गर्मी है", "action": "unknown", "slots": {}}
+{"text": "व्हॉट्सॲप उघड", "action": "open_app", "slots": {"app": "व्हॉट्सॲप"}}
+{"text": "Chrome उघडा", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "कॅल्क्युलेटर सुरू कर", "action": "open_app", "slots": {"app": "कॅल्क्युलेटर"}}
+{"text": "स्पॉटिफाय उघड ना", "action": "open_app", "slots": {"app": "स्पॉटिफाय"}}
+{"text": "नोटपॅड उघडून दे", "action": "open_app", "slots": {"app": "नोटपॅड"}}
+{"text": "Excel चालू करा", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "झूम ॲप उघडा, मीटिंग आहे", "action": "open_app", "slots": {"app": "झूम"}}
+{"text": "युट्युब उघड रे", "action": "open_app", "slots": {"app": "युट्युब"}}
+{"text": "flipkart.com उघड", "action": "open_website", "slots": {"site": "flipkart.com"}}
+{"text": "IRCTC ची वेबसाइट उघडा", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "लोकसत्ता ची साईट उघड", "action": "open_website", "slots": {"site": "लोकसत्ता"}}
+{"text": "Amazon ची वेबसाईट उघडून दे", "action": "open_website", "slots": {"site": "Amazon"}}
+{"text": "पुण्याचं हवामान सांग", "action": "web_search", "slots": {"query": "पुण्याचं हवामान"}}
+{"text": "सचिन तेंडुलकर कोण आहे?", "action": "web_search", "slots": {"query": "सचिन तेंडुलकर कोण आहे"}}
+{"text": "शिवाजी महाराजांची माहिती सांगा", "action": "web_search", "slots": {"query": "शिवाजी महाराजांची माहिती"}}
+{"text": "आजच्या बातम्या सांग", "action": "web_search", "slots": {"query": "आजच्या बातम्या"}}
+{"text": "Amazon वर हेडफोन शोध", "action": "web_search", "slots": {"site": "Amazon", "query": "हेडफोन"}}
+{"text": "आज सोन्याचा भाव किती आहे", "action": "web_search", "slots": {"query": "आज सोन्याचा भाव किती आहे"}}
+{"text": "सुखकर्ता दुखहर्ता आरती कोणी लिहिली", "action": "web_search", "slots": {"query": "सुखकर्ता दुखहर्ता आरती कोणी लिहिली"}}
+{"text": "YouTube वर पुरणपोळी रेसिपी शोधा", "action": "web_search", "slots": {"site": "YouTube", "query": "पुरणपोळी रेसिपी"}}
+{"text": "नागपूर ते मुंबई अंतर किती", "action": "web_search", "slots": {"query": "नागपूर ते मुंबई अंतर किती"}}
+{"text": "Spotify वर अजय अतुल ची गाणी लाव", "action": "play_media", "slots": {"app": "Spotify", "query": "अजय अतुल"}}
+{"text": "लता मंगेशकर ची गाणी लाव", "action": "play_media", "slots": {"query": "लता मंगेशकर"}}
+{"text": "मराठी भक्तिगीते लावा", "action": "play_media", "slots": {"query": "मराठी भक्तिगीते"}}
+{"text": "गाणं लाव ना", "action": "play_media", "slots": {}}
+{"text": "युट्युब वर झिंगाट लाव", "action": "play_media", "slots": {"app": "युट्युब", "query": "झिंगाट"}}
+{"text": "Radiohead वाजव", "action": "play_media", "slots": {"query": "Radiohead"}}
+{"text": "JioSaavn वर अभंग लाव", "action": "play_media", "slots": {"app": "JioSaavn", "query": "अभंग"}}
+{"text": "Coldplay चं Yellow लाव", "action": "play_media", "slots": {"query": "Coldplay चं Yellow"}}
+{"text": "गाणं थांबव", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "पुढचं गाणं लाव", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "मागचं गाणं", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "आवाज वाढव", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "आवाज कमी कर", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "पुन्हा सुरू कर", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "आईला मेसेज कर की मी उशिरा येणार", "action": "send_message", "slots": {"contact": "आई", "text": "मी उशिरा येणार"}}
+{"text": "राहुलला सांग की मीटिंग रद्द झाली", "action": "send_message", "slots": {"contact": "राहुल", "text": "मीटिंग रद्द झाली"}}
+{"text": "WhatsApp वर स्नेहा ला पाठव उद्या भेटू", "action": "send_message", "slots": {"contact": "स्नेहा", "text": "उद्या भेटू"}}
+{"text": "बाबांना मेसेज कर मी पोहोचलो", "action": "send_message", "slots": {"contact": "बाबा", "text": "मी पोहोचलो"}}
+{"text": "प्रिया ला लिही की नोट्स पाठव", "action": "send_message", "slots": {"contact": "प्रिया", "text": "नोट्स पाठव"}}
+{"text": "लिही शुभ सकाळ", "action": "type_text", "slots": {"text": "शुभ सकाळ"}}
+{"text": "टाइप कर माझं नाव सुरेश आहे", "action": "type_text", "slots": {"text": "माझं नाव सुरेश आहे"}}
+{"text": "सबमिट बटण दाब", "action": "click", "slots": {"target": "सबमिट"}}
+{"text": "पुढे वर क्लिक कर", "action": "click", "slots": {"target": "पुढे"}}
+{"text": "स्क्रीनवर काय लिहिलंय ते वाच", "action": "read_screen", "slots": {}}
+{"text": "राहू दे", "action": "cancel", "slots": {}}
+{"text": "ब्राइटनेस कमी कर", "action": "unknown", "slots": {}}
+{"text": "उद्या सकाळी सात चा अलार्म लाव", "action": "unknown", "slots": {}}
+{"text": "ವಾಟ್ಸಾಪ್ ತೆರೆ", "action": "open_app", "slots": {"app": "ವಾಟ್ಸಾಪ್"}}
+{"text": "ಯೂಟ್ಯೂಬ್ ತೆರೆ", "action": "open_app", "slots": {"app": "ಯೂಟ್ಯೂಬ್"}}
+{"text": "Chrome ಓಪನ್ ಮಾಡು", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "ಕ್ಯಾಲ್ಕುಲೇಟರ್ ಓಪನ್ ಮಾಡಿ", "action": "open_app", "slots": {"app": "ಕ್ಯಾಲ್ಕುಲೇಟರ್"}}
+{"text": "ಸ್ಪಾಟಿಫೈ ಶುರು ಮಾಡು", "action": "open_app", "slots": {"app": "ಸ್ಪಾಟಿಫೈ"}}
+{"text": "ನೋಟ್ ಪ್ಯಾಡ್ ತೆಗಿ", "action": "open_app", "slots": {"app": "ನೋಟ್ ಪ್ಯಾಡ್"}}
+{"text": "VS Code ಓಪನ್ ಮಾಡಪ್ಪ", "action": "open_app", "slots": {"app": "VS Code"}}
+{"text": "Word ಆಪ್ ತೆರೆಯಿರಿ", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "ಟೆಲಿಗ್ರಾಮ್ ಓಪನ್ ಮಾಡು", "action": "open_app", "slots": {"app": "ಟೆಲಿಗ್ರಾಮ್"}}
+{"text": "ಸೆಟ್ಟಿಂಗ್ಸ್ ತೆರೆ", "action": "open_app", "slots": {"app": "ಸೆಟ್ಟಿಂಗ್ಸ್"}}
+{"text": "Zoom ಶುರು ಮಾಡಿ, ಮೀಟಿಂಗ್ ಇದೆ", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "ಫೈಲ್ ಎಕ್ಸ್ಪ್ಲೋರರ್ ತೆರೆ", "action": "open_app", "slots": {"app": "ಫೈಲ್ ಎಕ್ಸ್ಪ್ಲೋರರ್"}}
+{"text": "flipkart.com ತೆರೆ", "action": "open_website", "slots": {"site": "flipkart.com"}}
+{"text": "ಅಮೆಜಾನ್ ವೆಬ್ಸೈಟ್ ಓಪನ್ ಮಾಡು", "action": "open_website", "slots": {"site": "ಅಮೆಜಾನ್"}}
+{"text": "IRCTC ಸೈಟ್ ತೆರೆ", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "ವಿಕಿಪೀಡಿಯಾ ಸೈಟ್ ಓಪನ್ ಮಾಡಿ", "action": "open_website", "slots": {"site": "ವಿಕಿಪೀಡಿಯಾ"}}
+{"text": "github ಡಾಟ್ ಕಾಮ್ ಓಪನ್ ಮಾಡು", "action": "open_website", "slots": {"site": "github ಡಾಟ್ ಕಾಮ್"}}
+{"text": "ಪ್ರಜಾವಾಣಿ ವೆಬ್ಸೈಟ್ ತೆರೆ", "action": "open_website", "slots": {"site": "ಪ್ರಜಾವಾಣಿ"}}
+{"text": "Swiggy ವೆಬ್ಸೈಟ್ ಓಪನ್ ಮಾಡು", "action": "open_website", "slots": {"site": "Swiggy"}}
+{"text": "ಬೆಂಗಳೂರು ಹವಾಮಾನ ಹೇಳು", "action": "web_search", "slots": {"query": "ಬೆಂಗಳೂರು ಹವಾಮಾನ"}}
+{"text": "ಪುನೀತ್ ರಾಜಕುಮಾರ್ ಬಗ್ಗೆ ಹೇಳು", "action": "web_search", "slots": {"query": "ಪುನೀತ್ ರಾಜಕುಮಾರ್"}}
+{"text": "Radiohead ಯಾರು?", "action": "web_search", "slots": {"query": "Radiohead ಯಾರು"}}
+{"text": "ಭಾರತದ ಪ್ರಧಾನಿ ಯಾರು?", "action": "web_search", "slots": {"query": "ಭಾರತದ ಪ್ರಧಾನಿ ಯಾರು"}}
+{"text": "ಇವತ್ತಿನ ಸುದ್ದಿ ಹೇಳು", "action": "web_search", "slots": {"query": "ಇವತ್ತಿನ ಸುದ್ದಿ"}}
+{"text": "Amazon ಅಲ್ಲಿ ಶೂಸ್ ಹುಡುಕು", "action": "web_search", "slots": {"site": "Amazon", "query": "ಶೂಸ್"}}
+{"text": "ಇವತ್ತು ಚಿನ್ನದ ಬೆಲೆ ಎಷ್ಟು", "action": "web_search", "slots": {"query": "ಇವತ್ತು ಚಿನ್ನದ ಬೆಲೆ ಎಷ್ಟು"}}
+{"text": "YouTube ಅಲ್ಲಿ ಬಿಸಿಬೇಳೆಬಾತ್ ರೆಸಿಪಿ ಹುಡುಕು", "action": "web_search", "slots": {"site": "YouTube", "query": "ಬಿಸಿಬೇಳೆಬಾತ್ ರೆಸಿಪಿ"}}
+{"text": "ಮೈಸೂರು ಅರಮನೆ ಯಾರು ಕಟ್ಟಿಸಿದರು", "action": "web_search", "slots": {"query": "ಮೈಸೂರು ಅರಮನೆ ಯಾರು ಕಟ್ಟಿಸಿದರು"}}
+{"text": "ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆ ಅಂದರೆ ಏನು ವಿವರಿಸು", "action": "web_search", "slots": {"query": "ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆ ಅಂದರೆ ಏನು"}}
+{"text": "ಕುವೆಂಪು ಬಗ್ಗೆ ಹೇಳಿ", "action": "web_search", "slots": {"query": "ಕುವೆಂಪು"}}
+{"text": "ಹತ್ತಿರದ ಆಸ್ಪತ್ರೆ ಹುಡುಕು", "action": "web_search", "slots": {"query": "ಹತ್ತಿರದ ಆಸ್ಪತ್ರೆ"}}
+{"text": "Creep ಹಾಡು ಯಾರು ಹಾಡಿದ್ದು", "action": "web_search", "slots": {"query": "Creep ಹಾಡು ಯಾರು ಹಾಡಿದ್ದು"}}
+{"text": "Spotify ಅಲ್ಲಿ Radiohead ಹಾಕು", "action": "play_media", "slots": {"app": "Spotify", "query": "Radiohead"}}
+{"text": "ಅಣ್ಣಾವ್ರ ಹಾಡುಗಳು ಹಾಕು", "action": "play_media", "slots": {"query": "ಅಣ್ಣಾವ್ರ"}}
+{"text": "ಯೂಟ್ಯೂಬ್ ಅಲ್ಲಿ ಕಾಂತಾರ ಹಾಡು ಪ್ಲೇ ಮಾಡು", "action": "play_media", "slots": {"app": "ಯೂಟ್ಯೂಬ್", "query": "ಕಾಂತಾರ"}}
+{"text": "ಹಳೆ ಕನ್ನಡ ಹಾಡುಗಳು ಹಾಕು", "action": "play_media", "slots": {"query": "ಹಳೆ ಕನ್ನಡ ಹಾಡುಗಳು"}}
+{"text": "ಯಾವುದಾದರೂ ಹಾಡು ಹಾಕು", "action": "play_media", "slots": {}}
+{"text": "ಎಸ್ ಪಿ ಬಾಲಸುಬ್ರಹ್ಮಣ್ಯಂ ಹಾಡು ಹಾಕಿ", "action": "play_media", "slots": {"query": "ಎಸ್ ಪಿ ಬಾಲಸುಬ್ರಹ್ಮಣ್ಯಂ"}}
+{"text": "JioSaavn ಅಲ್ಲಿ ಭಕ್ತಿಗೀತೆ ಹಾಕು", "action": "play_media", "slots": {"app": "JioSaavn", "query": "ಭಕ್ತಿಗೀತೆ"}}
+{"text": "lo-fi music ಪ್ಲೇ ಮಾಡು", "action": "play_media", "slots": {"query": "lo-fi music"}}
+{"text": "ಸ್ಪಾಟಿಫೈ ಅಲ್ಲಿ ಅರಿಜಿತ್ ಸಿಂಗ್ ಹಾಕು", "action": "play_media", "slots": {"app": "ಸ್ಪಾಟಿಫೈ", "query": "ಅರಿಜಿತ್ ಸಿಂಗ್"}}
+{"text": "Gaana ಅಲ್ಲಿ ವಿಜಯ್ ಪ್ರಕಾಶ್ ಹಾಡುಗಳು ಹಾಕು", "action": "play_media", "slots": {"app": "Gaana", "query": "ವಿಜಯ್ ಪ್ರಕಾಶ್"}}
+{"text": "ಮಕ್ಕಳ ಕಥೆ ವಿಡಿಯೋ ಹಾಕು", "action": "play_media", "slots": {"query": "ಮಕ್ಕಳ ಕಥೆ"}}
+{"text": "ಹಾಡು ನಿಲ್ಲಿಸು", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "ಮುಂದಿನ ಹಾಡು ಹಾಕು", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "ಹಿಂದಿನ ಹಾಡು", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "ಸೌಂಡ್ ಜಾಸ್ತಿ ಮಾಡು", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "ವಾಲ್ಯೂಮ್ ಕಡಿಮೆ ಮಾಡು", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "ಮ್ಯೂಟ್ ಮಾಡು", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "ಮತ್ತೆ ಪ್ಲೇ ಮಾಡು", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "ಅಮ್ಮಂಗೆ ಮೆಸೇಜ್ ಮಾಡು ನಾನು ಬರ್ತಾ ಇದೀನಿ ಅಂತ", "action": "send_message", "slots": {"contact": "ಅಮ್ಮ", "text": "ನಾನು ಬರ್ತಾ ಇದೀನಿ"}}
+{"text": "ರವಿಗೆ ಹೇಳು ಮೀಟಿಂಗ್ ಐದು ಗಂಟೆಗೆ", "action": "send_message", "slots": {"contact": "ರವಿ", "text": "ಮೀಟಿಂಗ್ ಐದು ಗಂಟೆಗೆ"}}
+{"text": "WhatsApp ಅಲ್ಲಿ ಸುಮಾಗೆ ಕಳಿಸು ನಾಳೆ ಸಿಗೋಣ", "action": "send_message", "slots": {"contact": "ಸುಮಾ", "text": "ನಾಳೆ ಸಿಗೋಣ"}}
+{"text": "ಅಪ್ಪನಿಗೆ ಮೆಸೇಜ್ ಕಳಿಸು ಊಟ ಆಯ್ತು", "action": "send_message", "slots": {"contact": "ಅಪ್ಪ", "text": "ಊಟ ಆಯ್ತು"}}
+{"text": "ಕಿರಣ್ ಗೆ ಮೆಸೇಜ್ ಮಾಡು ಹ್ಯಾಪಿ ಬರ್ತಡೇ", "action": "send_message", "slots": {"contact": "ಕಿರಣ್", "text": "ಹ್ಯಾಪಿ ಬರ್ತಡೇ"}}
+{"text": "ಅಕ್ಕಂಗೆ ಹೇಳು ನಾನು ಲೇಟ್ ಆಗ್ತೀನಿ ಅಂತ", "action": "send_message", "slots": {"contact": "ಅಕ್ಕ", "text": "ನಾನು ಲೇಟ್ ಆಗ್ತೀನಿ"}}
+{"text": "ಬರಿ ನಮಸ್ಕಾರ ಎಲ್ಲರಿಗೂ", "action": "type_text", "slots": {"text": "ನಮಸ್ಕಾರ ಎಲ್ಲರಿಗೂ"}}
+{"text": "ಟೈಪ್ ಮಾಡು ನನ್ನ ಹೆಸರು ಅನಿಲ್", "action": "type_text", "slots": {"text": "ನನ್ನ ಹೆಸರು ಅನಿಲ್"}}
+{"text": "ಇಲ್ಲಿ ಬರಿ ನಾಳೆ ರಜೆ ಇದೆ", "action": "type_text", "slots": {"text": "ನಾಳೆ ರಜೆ ಇದೆ"}}
+{"text": "type ಮಾಡು thank you", "action": "type_text", "slots": {"text": "thank you"}}
+{"text": "ಸಬ್ಮಿಟ್ ಬಟನ್ ಒತ್ತು", "action": "click", "slots": {"target": "ಸಬ್ಮಿಟ್"}}
+{"text": "Next ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡು", "action": "click", "slots": {"target": "Next"}}
+{"text": "ಲಾಗಿನ್ ಕ್ಲಿಕ್ ಮಾಡಿ", "action": "click", "slots": {"target": "ಲಾಗಿನ್"}}
+{"text": "ಸ್ಕ್ರೀನ್ ಮೇಲೆ ಏನಿದೆ ಓದು", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಪೇಜ್ ಅಲ್ಲಿ ಏನು ಬರೆದಿದೆ ಓದಿ ಹೇಳು", "action": "read_screen", "slots": {}}
+{"text": "ಬೇಡ ಬಿಡು", "action": "cancel", "slots": {}}
+{"text": "ಬ್ರೈಟ್ನೆಸ್ ಜಾಸ್ತಿ ಮಾಡು", "action": "unknown", "slots": {}}
+{"text": "ಕಂಪ್ಯೂಟರ್ ಆಫ್ ಮಾಡು", "action": "unknown", "slots": {}}
+{"text": "ಊಟ ಆಯ್ತಾ ನಿಂದು", "action": "unknown", "slots": {}}
+{"text": "வாட்ஸ்அப் திற", "action": "open_app", "slots": {"app": "வாட்ஸ்அப்"}}
+{"text": "யூடியூப் ஓபன் பண்ணு", "action": "open_app", "slots": {"app": "யூடியூப்"}}
+{"text": "Chrome திறங்க", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "கால்குலேட்டர் ஓபன் பண்ணு", "action": "open_app", "slots": {"app": "கால்குலேட்டர்"}}
+{"text": "ஸ்பாட்டிஃபை திற", "action": "open_app", "slots": {"app": "ஸ்பாட்டிஃபை"}}
+{"text": "நோட்பேட் ஓபன் பண்ணுங்க", "action": "open_app", "slots": {"app": "நோட்பேட்"}}
+{"text": "VS Code ஸ்டார்ட் பண்ணு", "action": "open_app", "slots": {"app": "VS Code"}}
+{"text": "Excel திறந்து வை", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "டெலிகிராம் ஓபன் பண்ணு", "action": "open_app", "slots": {"app": "டெலிகிராம்"}}
+{"text": "செட்டிங்ஸ் திற", "action": "open_app", "slots": {"app": "செட்டிங்ஸ்"}}
+{"text": "Teams ஆப் ஓபன் பண்ணு", "action": "open_app", "slots": {"app": "Teams"}}
+{"text": "amazon.in ஓபன் பண்ணு", "action": "open_website", "slots": {"site": "amazon.in"}}
+{"text": "ஃப்ளிப்கார்ட் வெப்சைட் திற", "action": "open_website", "slots": {"site": "ஃப்ளிப்கார்ட்"}}
+{"text": "IRCTC சைட் ஓபன் பண்ணு", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "விக்கிப்பீடியா வெப்சைட் திறங்க", "action": "open_website", "slots": {"site": "விக்கிப்பீடியா"}}
+{"text": "github டாட் காம் திற", "action": "open_website", "slots": {"site": "github டாட் காம்"}}
+{"text": "தினமலர் சைட் ஓபன் பண்ணு", "action": "open_website", "slots": {"site": "தினமலர்"}}
+{"text": "Zomato வெப்சைட் ஓபன் பண்ணு", "action": "open_website", "slots": {"site": "Zomato"}}
+{"text": "சென்னை வானிலை சொல்லு", "action": "web_search", "slots": {"query": "சென்னை வானிலை"}}
+{"text": "ரஜினிகாந்த் பற்றி சொல்லு", "action": "web_search", "slots": {"query": "ரஜினிகாந்த்"}}
+{"text": "Radiohead யாரு?", "action": "web_search", "slots": {"query": "Radiohead யாரு"}}
+{"text": "இந்தியாவின் பிரதமர் யார்?", "action": "web_search", "slots": {"query": "இந்தியாவின் பிரதமர் யார்"}}
+{"text": "இன்றைய செய்திகள் சொல்லு", "action": "web_search", "slots": {"query": "இன்றைய செய்திகள்"}}
+{"text": "Amazon-ல ஷூஸ் தேடு", "action": "web_search", "slots": {"site": "Amazon", "query": "ஷூஸ்"}}
+{"text": "தங்கம் விலை இன்னைக்கு எவ்வளவு", "action": "web_search", "slots": {"query": "தங்கம் விலை இன்னைக்கு எவ்வளவு"}}
+{"text": "YouTube-ல சாம்பார் ரெசிபி தேடு", "action": "web_search", "slots": {"site": "YouTube", "query": "சாம்பார் ரெசிபி"}}
+{"text": "தஞ்சை பெரிய கோவில் யார் கட்டினார்", "action": "web_search", "slots": {"query": "தஞ்சை பெரிய கோவில் யார் கட்டினார்"}}
+{"text": "ஒளிச்சேர்க்கை என்றால் என்ன விளக்கு", "action": "web_search", "slots": {"query": "ஒளிச்சேர்க்கை என்றால் என்ன"}}
+{"text": "இளையராஜா பற்றி சொல்லுங்க", "action": "web_search", "slots": {"query": "இளையராஜா"}}
+{"text": "பக்கத்துல நல்ல ஹோட்டல் தேடு", "action": "web_search", "slots": {"query": "பக்கத்துல நல்ல ஹோட்டல்"}}
+{"text": "Why This Kolaveri பாட்டு யார் பாடினது", "action": "web_search", "slots": {"query": "Why This Kolaveri பாட்டு யார் பாடினது"}}
+{"text": "ஸ்பாட்டிஃபை-ல பாட்டு போடு", "action": "play_media", "slots": {"app": "ஸ்பாட்டிஃபை"}}
+{"text": "Spotify-ல Radiohead போடு", "action": "play_media", "slots": {"app": "Spotify", "query": "Radiohead"}}
+{"text": "இளையராஜா பாட்டு போடு", "action": "play_media", "slots": {"query": "இளையராஜா"}}
+{"text": "யூடியூப்ல விஜய் பாட்டு போடு", "action": "play_media", "slots": {"app": "யூடியூப்", "query": "விஜய்"}}
+{"text": "பழைய தமிழ் பாடல்கள் போடு", "action": "play_media", "slots": {"query": "பழைய தமிழ் பாடல்கள்"}}
+{"text": "ஏதாவது பாட்டு போடு", "action": "play_media", "slots": {}}
+{"text": "ஏ ஆர் ரஹ்மான் பாட்டு ப்ளே பண்ணு", "action": "play_media", "slots": {"query": "ஏ ஆர் ரஹ்மான்"}}
+{"text": "JioSaavn-ல பக்தி பாடல்கள் போடு", "action": "play_media", "slots": {"app": "JioSaavn", "query": "பக்தி பாடல்கள்"}}
+{"text": "lo-fi music போடு", "action": "play_media", "slots": {"query": "lo-fi music"}}
+{"text": "அனிருத் பாட்டு Spotify-ல போடு", "action": "play_media", "slots": {"query": "அனிருத்", "app": "Spotify"}}
+{"text": "Wynk-ல மெலடி பாட்டு போடு", "action": "play_media", "slots": {"app": "Wynk", "query": "மெலடி பாட்டு"}}
+{"text": "சின்ன குழந்தைகள் ரைம்ஸ் போடு", "action": "play_media", "slots": {"query": "சின்ன குழந்தைகள் ரைம்ஸ்"}}
+{"text": "பாட்டை நிறுத்து", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "அடுத்த பாட்டு", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "முந்தைய பாட்டு போடு", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "சவுண்ட் அதிகமா வை", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "வால்யூம் குறை", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "மியூட் பண்ணு", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "மறுபடியும் ப்ளே பண்ணு", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "அம்மாவுக்கு மெசேஜ் பண்ணு நான் வந்துட்டு இருக்கேன்", "action": "send_message", "slots": {"contact": "அம்மா", "text": "நான் வந்துட்டு இருக்கேன்"}}
+{"text": "ரவிக்கு சொல்லு மீட்டிங் ஐந்து மணிக்கு", "action": "send_message", "slots": {"contact": "ரவி", "text": "மீட்டிங் ஐந்து மணிக்கு"}}
+{"text": "WhatsApp-ல பிரியாவுக்கு அனுப்பு நாளைக்கு பார்க்கலாம்", "action": "send_message", "slots": {"contact": "பிரியா", "text": "நாளைக்கு பார்க்கலாம்"}}
+{"text": "அப்பாவுக்கு மெசேஜ் அனுப்பு சாப்பிட்டேன்", "action": "send_message", "slots": {"contact": "அப்பா", "text": "சாப்பிட்டேன்"}}
+{"text": "கார்த்திக்கு ஹேப்பி பர்த்டே னு மெசேஜ் பண்ணு", "action": "send_message", "slots": {"contact": "கார்த்திக்", "text": "ஹேப்பி பர்த்டே"}}
+{"text": "அக்காவுக்கு சொல்லு நான் லேட் ஆகும்னு", "action": "send_message", "slots": {"contact": "அக்கா", "text": "நான் லேட் ஆகும்"}}
+{"text": "எழுது வணக்கம் எல்லாருக்கும்", "action": "type_text", "slots": {"text": "வணக்கம் எல்லாருக்கும்"}}
+{"text": "டைப் பண்ணு என் பெயர் முருகன்", "action": "type_text", "slots": {"text": "என் பெயர் முருகன்"}}
+{"text": "இங்க எழுது நாளை விடுமுறை", "action": "type_text", "slots": {"text": "நாளை விடுமுறை"}}
+{"text": "type பண்ணு see you soon", "action": "type_text", "slots": {"text": "see you soon"}}
+{"text": "சப்மிட் பட்டனை அழுத்து", "action": "click", "slots": {"target": "சப்மிட்"}}
+{"text": "Next மேல கிளிக் பண்ணு", "action": "click", "slots": {"target": "Next"}}
+{"text": "லாகின் கிளிக் பண்ணுங்க", "action": "click", "slots": {"target": "லாகின்"}}
+{"text": "ஸ்கிரீன்ல என்ன இருக்குனு படி", "action": "read_screen", "slots": {}}
+{"text": "இந்த பக்கத்துல என்ன எழுதி இருக்கு படிச்சு சொல்லு", "action": "read_screen", "slots": {}}
+{"text": "வேண்டாம் விடு", "action": "cancel", "slots": {}}
+{"text": "பிரைட்னஸ் கூட்டு", "action": "unknown", "slots": {}}
+{"text": "காலைல ஆறு மணிக்கு அலாரம் வை", "action": "unknown", "slots": {}}
+{"text": "சாப்டியா?", "action": "unknown", "slots": {}}
+{"text": "వాట్సాప్ తెరువు", "action": "open_app", "slots": {"app": "వాట్సాప్"}}
+{"text": "యూట్యూబ్ ఓపెన్ చెయ్యి", "action": "open_app", "slots": {"app": "యూట్యూబ్"}}
+{"text": "Chrome ఓపెన్ చేయండి", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "కాలిక్యులేటర్ తెరువు", "action": "open_app", "slots": {"app": "కాలిక్యులేటర్"}}
+{"text": "స్పాటిఫై స్టార్ట్ చెయ్యి", "action": "open_app", "slots": {"app": "స్పాటిఫై"}}
+{"text": "నోట్ప్యాడ్ ఓపెన్ చెయ్", "action": "open_app", "slots": {"app": "నోట్ప్యాడ్"}}
+{"text": "VS Code ఓపెన్ చెయ్యి", "action": "open_app", "slots": {"app": "VS Code"}}
+{"text": "PowerPoint తెరవండి", "action": "open_app", "slots": {"app": "PowerPoint"}}
+{"text": "టెలిగ్రామ్ ఓపెన్ చెయ్యి", "action": "open_app", "slots": {"app": "టెలిగ్రామ్"}}
+{"text": "సెట్టింగ్స్ తెరువు", "action": "open_app", "slots": {"app": "సెట్టింగ్స్"}}
+{"text": "Zoom యాప్ ఓపెన్ చెయ్యి", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "ఫైల్ ఎక్స్ప్లోరర్ తెరువు", "action": "open_app", "slots": {"app": "ఫైల్ ఎక్స్ప్లోరర్"}}
+{"text": "flipkart.com ఓపెన్ చెయ్యి", "action": "open_website", "slots": {"site": "flipkart.com"}}
+{"text": "అమెజాన్ వెబ్సైట్ తెరువు", "action": "open_website", "slots": {"site": "అమెజాన్"}}
+{"text": "IRCTC సైట్ ఓపెన్ చెయ్యి", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "వికీపీడియా వెబ్సైట్ ఓపెన్ చేయండి", "action": "open_website", "slots": {"site": "వికీపీడియా"}}
+{"text": "github డాట్ కామ్ ఓపెన్ చెయ్యి", "action": "open_website", "slots": {"site": "github డాట్ కామ్"}}
+{"text": "ఈనాడు వెబ్సైట్ తెరువు", "action": "open_website", "slots": {"site": "ఈనాడు"}}
+{"text": "Swiggy సైట్ ఓపెన్ చెయ్యి", "action": "open_website", "slots": {"site": "Swiggy"}}
+{"text": "హైదరాబాద్ వాతావరణం చెప్పు", "action": "web_search", "slots": {"query": "హైదరాబాద్ వాతావరణం"}}
+{"text": "చిరంజీవి గురించి చెప్పు", "action": "web_search", "slots": {"query": "చిరంజీవి"}}
+{"text": "Radiohead ఎవరు?", "action": "web_search", "slots": {"query": "Radiohead ఎవరు"}}
+{"text": "భారత ప్రధాన మంత్రి ఎవరు?", "action": "web_search", "slots": {"query": "భారత ప్రధాన మంత్రి ఎవరు"}}
+{"text": "ఈ రోజు వార్తలు చెప్పు", "action": "web_search", "slots": {"query": "ఈ రోజు వార్తలు"}}
+{"text": "Amazon లో షూస్ వెతుకు", "action": "web_search", "slots": {"site": "Amazon", "query": "షూస్"}}
+{"text": "ఈ రోజు బంగారం ధర ఎంత", "action": "web_search", "slots": {"query": "ఈ రోజు బంగారం ధర ఎంత"}}
+{"text": "YouTube లో బిర్యానీ రెసిపీ వెతుకు", "action": "web_search", "slots": {"site": "YouTube", "query": "బిర్యానీ రెసిపీ"}}
+{"text": "చార్మినార్ ఎవరు కట్టించారు", "action": "web_search", "slots": {"query": "చార్మినార్ ఎవరు కట్టించారు"}}
+{"text": "కిరణజన్య సంయోగక్రియ అంటే ఏమిటి వివరించు", "action": "web_search", "slots": {"query": "కిరణజన్య సంయోగక్రియ అంటే ఏమిటి"}}
+{"text": "ఎస్ పి బాలు గురించి చెప్పండి", "action": "web_search", "slots": {"query": "ఎస్ పి బాలు"}}
+{"text": "దగ్గరలో మంచి హాస్పిటల్ వెతుకు", "action": "web_search", "slots": {"query": "దగ్గరలో మంచి హాస్పిటల్"}}
+{"text": "Naatu Naatu పాట ఎవరు పాడారు", "action": "web_search", "slots": {"query": "Naatu Naatu పాట ఎవరు పాడారు"}}
+{"text": "Spotify లో Radiohead ప్లే చెయ్యి", "action": "play_media", "slots": {"app": "Spotify", "query": "Radiohead"}}
+{"text": "ఇళయరాజా పాటలు పెట్టు", "action": "play_media", "slots": {"query": "ఇళయరాజా"}}
+{"text": "యూట్యూబ్ లో పుష్ప పాటలు ప్లే చెయ్యి", "action": "play_media", "slots": {"app": "యూట్యూబ్", "query": "పుష్ప"}}
+{"text": "పాత తెలుగు పాటలు పెట్టు", "action": "play_media", "slots": {"query": "పాత తెలుగు పాటలు"}}
+{"text": "ఏదైనా పాట పెట్టు", "action": "play_media", "slots": {}}
+{"text": "సిద్ శ్రీరామ్ పాటలు ప్లే చెయ్యి", "action": "play_media", "slots": {"query": "సిద్ శ్రీరామ్"}}
+{"text": "JioSaavn లో భక్తి పాటలు పెట్టు", "action": "play_media", "slots": {"app": "JioSaavn", "query": "భక్తి పాటలు"}}
+{"text": "lo-fi music పెట్టు", "action": "play_media", "slots": {"query": "lo-fi music"}}
+{"text": "స్పాటిఫై లో దేవి శ్రీ ప్రసాద్ పెట్టు", "action": "play_media", "slots": {"app": "స్పాటిఫై", "query": "దేవి శ్రీ ప్రసాద్"}}
+{"text": "Gaana లో తమన్ పాటలు ప్లే చెయ్యి", "action": "play_media", "slots": {"app": "Gaana", "query": "తమన్"}}
+{"text": "పిల్లల కథలు పెట్టు", "action": "play_media", "slots": {"query": "పిల్లల కథలు"}}
+{"text": "పాట ఆపు", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "తర్వాత పాట", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "మునుపటి పాట పెట్టు", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "సౌండ్ పెంచు", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "వాల్యూమ్ తగ్గించు", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "మ్యూట్ చెయ్యి", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "మళ్ళీ ప్లే చెయ్యి", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "అమ్మకి మెసేజ్ చెయ్యి నేను వస్తున్నాను అని", "action": "send_message", "slots": {"contact": "అమ్మ", "text": "నేను వస్తున్నాను"}}
+{"text": "రవికి చెప్పు మీటింగ్ ఐదు గంటలకి", "action": "send_message", "slots": {"contact": "రవి", "text": "మీటింగ్ ఐదు గంటలకి"}}
+{"text": "WhatsApp లో ప్రియకి పంపు రేపు కలుద్దాం", "action": "send_message", "slots": {"contact": "ప్రియ", "text": "రేపు కలుద్దాం"}}
+{"text": "నాన్నకి మెసేజ్ పంపు భోజనం అయింది", "action": "send_message", "slots": {"contact": "నాన్న", "text": "భోజనం అయింది"}}
+{"text": "సురేష్ కి హ్యాపీ బర్త్డే అని మెసేజ్ చెయ్యి", "action": "send_message", "slots": {"contact": "సురేష్", "text": "హ్యాపీ బర్త్డే"}}
+{"text": "అక్కకి చెప్పు నేను లేట్ అవుతాను అని", "action": "send_message", "slots": {"contact": "అక్క", "text": "నేను లేట్ అవుతాను"}}
+{"text": "రాయి నమస్కారం అందరికీ", "action": "type_text", "slots": {"text": "నమస్కారం అందరికీ"}}
+{"text": "టైప్ చెయ్యి నా పేరు రాము", "action": "type_text", "slots": {"text": "నా పేరు రాము"}}
+{"text": "ఇక్కడ రాయి రేపు సెలవు", "action": "type_text", "slots": {"text": "రేపు సెలవు"}}
+{"text": "type చెయ్యి thanks a lot", "action": "type_text", "slots": {"text": "thanks a lot"}}
+{"text": "సబ్మిట్ బటన్ నొక్కు", "action": "click", "slots": {"target": "సబ్మిట్"}}
+{"text": "Next మీద క్లిక్ చెయ్యి", "action": "click", "slots": {"target": "Next"}}
+{"text": "లాగిన్ క్లిక్ చేయండి", "action": "click", "slots": {"target": "లాగిన్"}}
+{"text": "స్క్రీన్ మీద ఏముందో చదువు", "action": "read_screen", "slots": {}}
+{"text": "ఈ పేజీలో ఏం రాసి ఉందో చదివి చెప్పు", "action": "read_screen", "slots": {}}
+{"text": "వద్దు వదిలేయ్", "action": "cancel", "slots": {}}
+{"text": "బ్రైట్నెస్ పెంచు", "action": "unknown", "slots": {}}
+{"text": "కంప్యూటర్ ఆఫ్ చెయ్యి", "action": "unknown", "slots": {}}
+{"text": "భోజనం చేశావా?", "action": "unknown", "slots": {}}
+{"text": "വാട്സ്ആപ്പ് തുറക്ക്", "action": "open_app", "slots": {"app": "വാട്സ്ആപ്പ്"}}
+{"text": "യൂട്യൂബ് തുറക്കൂ", "action": "open_app", "slots": {"app": "യൂട്യൂബ്"}}
+{"text": "Chrome ഓപ്പൺ ചെയ്യ്", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "കാൽക്കുലേറ്റർ തുറക്ക്", "action": "open_app", "slots": {"app": "കാൽക്കുലേറ്റർ"}}
+{"text": "സ്പോട്ടിഫൈ ഓപ്പൺ ചെയ്യൂ", "action": "open_app", "slots": {"app": "സ്പോട്ടിഫൈ"}}
+{"text": "Excel തുറക്കാമോ?", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "നോട്ട്പാഡ് ഓപ്പൺ ചെയ്യ്", "action": "open_app", "slots": {"app": "നോട്ട്പാഡ്"}}
+{"text": "Zoom ആപ്പ് തുറക്ക്", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "amazon.in തുറക്ക്", "action": "open_website", "slots": {"site": "amazon.in"}}
+{"text": "ഫ്ലിപ്കാർട്ട് വെബ്സൈറ്റ് തുറക്ക്", "action": "open_website", "slots": {"site": "ഫ്ലിപ്കാർട്ട്"}}
+{"text": "മനോരമ സൈറ്റ് ഓപ്പൺ ചെയ്യ്", "action": "open_website", "slots": {"site": "മനോരമ"}}
+{"text": "IRCTC വെബ്സൈറ്റ് തുറക്കൂ", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "കൊച്ചിയിലെ കാലാവസ്ഥ പറ", "action": "web_search", "slots": {"query": "കൊച്ചിയിലെ കാലാവസ്ഥ"}}
+{"text": "മോഹൻലാൽ ആരാണ്?", "action": "web_search", "slots": {"query": "മോഹൻലാൽ ആരാണ്"}}
+{"text": "Radiohead ആരാണ്", "action": "web_search", "slots": {"query": "Radiohead ആരാണ്"}}
+{"text": "ഇന്നത്തെ വാർത്തകൾ പറയൂ", "action": "web_search", "slots": {"query": "ഇന്നത്തെ വാർത്തകൾ"}}
+{"text": "Amazon-ൽ ഹെഡ്ഫോൺ തിരയ്", "action": "web_search", "slots": {"site": "Amazon", "query": "ഹെഡ്ഫോൺ"}}
+{"text": "ഇന്ന് സ്വർണ്ണ വില എത്രയാണ്", "action": "web_search", "slots": {"query": "ഇന്ന് സ്വർണ്ണ വില എത്രയാണ്"}}
+{"text": "YouTube-ൽ അവിയൽ റെസിപ്പി തിരയൂ", "action": "web_search", "slots": {"site": "YouTube", "query": "അവിയൽ റെസിപ്പി"}}
+{"text": "ഇന്ത്യയുടെ പ്രധാനമന്ത്രി ആരാണ്?", "action": "web_search", "slots": {"query": "ഇന്ത്യയുടെ പ്രധാനമന്ത്രി ആരാണ്"}}
+{"text": "കെ എസ് ചിത്ര ആരാണ്", "action": "web_search", "slots": {"query": "കെ എസ് ചിത്ര ആരാണ്"}}
+{"text": "Spotify-ൽ Radiohead പ്ലേ ചെയ്യ്", "action": "play_media", "slots": {"app": "Spotify", "query": "Radiohead"}}
+{"text": "യേശുദാസ് പാട്ടുകൾ വെക്ക്", "action": "play_media", "slots": {"query": "യേശുദാസ്"}}
+{"text": "YouTube-ൽ പ്രേമം പാട്ടുകൾ വെക്ക്", "action": "play_media", "slots": {"app": "YouTube", "query": "പ്രേമം"}}
+{"text": "പഴയ മലയാളം പാട്ടുകൾ വെക്ക്", "action": "play_media", "slots": {"query": "പഴയ മലയാളം പാട്ടുകൾ"}}
+{"text": "എന്തെങ്കിലും പാട്ട് വെക്ക്", "action": "play_media", "slots": {}}
+{"text": "JioSaavn-ൽ ഭക്തിഗാനങ്ങൾ വെക്ക്", "action": "play_media", "slots": {"app": "JioSaavn", "query": "ഭക്തിഗാനങ്ങൾ"}}
+{"text": "സ്പോട്ടിഫൈയിൽ ഇളയരാജ വെക്ക്", "action": "play_media", "slots": {"app": "സ്പോട്ടിഫൈ", "query": "ഇളയരാജ"}}
+{"text": "പാട്ട് നിർത്ത്", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "അടുത്ത പാട്ട്", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "മുമ്പത്തെ പാട്ട് വെക്ക്", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "ശബ്ദം കൂട്ട്", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "വോളിയം കുറയ്ക്ക്", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "അമ്മയ്ക്ക് മെസേജ് അയക്ക് ഞാൻ വരുന്നു എന്ന്", "action": "send_message", "slots": {"contact": "അമ്മ", "text": "ഞാൻ വരുന്നു"}}
+{"text": "അനുവിന് മെസേജ് അയക്ക് മീറ്റിംഗ് അഞ്ച് മണിക്ക്", "action": "send_message", "slots": {"contact": "അനു", "text": "മീറ്റിംഗ് അഞ്ച് മണിക്ക്"}}
+{"text": "WhatsApp-ൽ ചേച്ചിക്ക് അയക്ക് നാളെ കാണാം", "action": "send_message", "slots": {"contact": "ചേച്ചി", "text": "നാളെ കാണാം"}}
+{"text": "Rahul-ന് മെസേജ് അയക്ക് ഭക്ഷണം കഴിച്ചു", "action": "send_message", "slots": {"contact": "Rahul", "text": "ഭക്ഷണം കഴിച്ചു"}}
+{"text": "എഴുത് നമസ്കാരം എല്ലാവർക്കും", "action": "type_text", "slots": {"text": "നമസ്കാരം എല്ലാവർക്കും"}}
+{"text": "ടൈപ്പ് ചെയ്യ് എന്റെ പേര് ബിനു", "action": "type_text", "slots": {"text": "എന്റെ പേര് ബിനു"}}
+{"text": "type ചെയ്യ് see you tomorrow", "action": "type_text", "slots": {"text": "see you tomorrow"}}
+{"text": "സബ്മിറ്റ് ബട്ടൺ അമർത്ത്", "action": "click", "slots": {"target": "സബ്മിറ്റ്"}}
+{"text": "Next-ൽ ക്ലിക്ക് ചെയ്യ്", "action": "click", "slots": {"target": "Next"}}
+{"text": "സ്ക്രീനിൽ എന്താണ് ഉള്ളത് വായിക്ക്", "action": "read_screen", "slots": {}}
+{"text": "വേണ്ട, വിട്ടേക്ക്", "action": "cancel", "slots": {}}
+{"text": "ബ്രൈറ്റ്നസ് കൂട്ട്", "action": "unknown", "slots": {}}
+{"text": "ചായ കുടിച്ചോ?", "action": "unknown", "slots": {}}
+{"text": "হোয়াটসঅ্যাপ খোলো", "action": "open_app", "slots": {"app": "হোয়াটসঅ্যাপ"}}
+{"text": "ইউটিউব খোলো", "action": "open_app", "slots": {"app": "ইউটিউব"}}
+{"text": "Chrome খুলে দাও", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "ক্যালকুলেটর চালু করো", "action": "open_app", "slots": {"app": "ক্যালকুলেটর"}}
+{"text": "স্পটিফাই খোলো", "action": "open_app", "slots": {"app": "স্পটিফাই"}}
+{"text": "Word খোলো তো", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "নোটপ্যাড খুলে দাও", "action": "open_app", "slots": {"app": "নোটপ্যাড"}}
+{"text": "Zoom অ্যাপ চালু করো", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "amazon.in খোলো", "action": "open_website", "slots": {"site": "amazon.in"}}
+{"text": "ফ্লিপকার্টের ওয়েবসাইট খোলো", "action": "open_website", "slots": {"site": "ফ্লিপকার্ট"}}
+{"text": "আনন্দবাজার সাইট খোলো", "action": "open_website", "slots": {"site": "আনন্দবাজার"}}
+{"text": "IRCTC ওয়েবসাইট খুলে দাও", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "কলকাতার আবহাওয়া বলো", "action": "web_search", "slots": {"query": "কলকাতার আবহাওয়া"}}
+{"text": "রবীন্দ্রনাথ ঠাকুর সম্পর্কে বলো", "action": "web_search", "slots": {"query": "রবীন্দ্রনাথ ঠাকুর"}}
+{"text": "Radiohead কে?", "action": "web_search", "slots": {"query": "Radiohead কে"}}
+{"text": "আজকের খবর বলো", "action": "web_search", "slots": {"query": "আজকের খবর"}}
+{"text": "Amazon-এ জুতো খোঁজো", "action": "web_search", "slots": {"site": "Amazon", "query": "জুতো"}}
+{"text": "YouTube-এ মাছের ঝোল রেসিপি খোঁজো", "action": "web_search", "slots": {"site": "YouTube", "query": "মাছের ঝোল রেসিপি"}}
+{"text": "ভারতের প্রধানমন্ত্রী কে?", "action": "web_search", "slots": {"query": "ভারতের প্রধানমন্ত্রী কে"}}
+{"text": "সত্যজিৎ রায়ের সিনেমা কোনগুলো", "action": "web_search", "slots": {"query": "সত্যজিৎ রায়ের সিনেমা কোনগুলো"}}
+{"text": "Spotify-তে Radiohead চালাও", "action": "play_media", "slots": {"app": "Spotify", "query": "Radiohead"}}
+{"text": "রবীন্দ্রসংগীত চালাও", "action": "play_media", "slots": {"query": "রবীন্দ্রসংগীত"}}
+{"text": "ইউটিউবে অরিজিৎ সিং এর গান চালাও", "action": "play_media", "slots": {"app": "ইউটিউব", "query": "অরিজিৎ সিং"}}
+{"text": "পুরনো বাংলা গান চালাও", "action": "play_media", "slots": {"query": "পুরনো বাংলা গান"}}
+{"text": "একটা গান চালাও", "action": "play_media", "slots": {}}
+{"text": "কিশোর কুমারের গান বাজাও", "action": "play_media", "slots": {"query": "কিশোর কুমার"}}
+{"text": "JioSaavn-এ বাউল গান চালাও", "action": "play_media", "slots": {"app": "JioSaavn", "query": "বাউল গান"}}
+{"text": "স্পটিফাইতে Coldplay চালাও", "action": "play_media", "slots": {"app": "স্পটিফাই", "query": "Coldplay"}}
+{"text": "গান থামাও", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "পরের গান", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "আগের গানটা চালাও", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "আওয়াজ বাড়াও", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "ভলিউম কমাও", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "মিউট করো", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "মাকে মেসেজ করো আমি আসছি", "action": "send_message", "slots": {"contact": "মা", "text": "আমি আসছি"}}
+{"text": "রাহুলকে বলো মিটিং পাঁচটায়", "action": "send_message", "slots": {"contact": "রাহুল", "text": "মিটিং পাঁচটায়"}}
+{"text": "WhatsApp-এ দিদিকে পাঠাও কাল দেখা হবে", "action": "send_message", "slots": {"contact": "দিদি", "text": "কাল দেখা হবে"}}
+{"text": "বাবাকে মেসেজ পাঠাও খাওয়া হয়ে গেছে", "action": "send_message", "slots": {"contact": "বাবা", "text": "খাওয়া হয়ে গেছে"}}
+{"text": "লেখো নমস্কার সবাইকে", "action": "type_text", "slots": {"text": "নমস্কার সবাইকে"}}
+{"text": "টাইপ করো আমার নাম সৌরভ", "action": "type_text", "slots": {"text": "আমার নাম সৌরভ"}}
+{"text": "সাবমিট বাটনে ক্লিক করো", "action": "click", "slots": {"target": "সাবমিট"}}
+{"text": "Next-এ ক্লিক করো", "action": "click", "slots": {"target": "Next"}}
+{"text": "স্ক্রিনে কী লেখা আছে পড়ো", "action": "read_screen", "slots": {}}
+{"text": "থাক, দরকার নেই", "action": "cancel", "slots": {}}
+{"text": "ব্রাইটনেস বাড়াও", "action": "unknown", "slots": {}}
+{"text": "কাল সকাল ছটায় অ্যালার্ম দাও", "action": "unknown", "slots": {}}

@@ -1,0 +1,120 @@
+{"text": "राशन कार्ड फॉर्म भरो", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "Aadhaar update ke liye kya documents chahiye", "lang": "hi", "action": "web_search", "slots": {"query": "Aadhaar update ke liye kya documents chahiye"}}
+{"text": "बैंक केवाईसी फॉर्म समझाओ", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "ye PAN wali site asli hai kya", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "is form ke baare mein batao", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "help me fill this form", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "chalo form bharte hain", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "kya yeh SBI ki asli website hai", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "digilocker dot gov dot in kholo", "lang": "hi", "action": "open_website", "slots": {"site": "digilocker dot gov dot in"}}
+{"text": "is form mein kya bharna hai", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "ye form kis cheez ka hai samjhao", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "meri profile se ye form bhar do", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "apni jaankari se ye form bhar do", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "ye UPI ka page asli hai na", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "mera Aadhaar update form bhar do", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "insurance claim form kya hota hai samjhao", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "pension form bhar do mera", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "school admission form ke fields samjhao", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "tell me what to fill in this form", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "upload button dabao", "lang": "hi", "action": "click", "slots": {"target": "upload"}}
+{"text": "is website pe form bharna safe hai", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "ye site fraud to nahi hai", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "is form mein IFSC kahan se likhna hai samjhao", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "Next button pe click karo", "lang": "hi", "action": "click", "slots": {"target": "Next"}}
+{"text": "bacche ka school admission form bhar do", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "scholarship form bharne mein help karo", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "is it a genuine website", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "what is on the screen", "lang": "hi", "action": "read_screen", "slots": {}}
+{"text": "KYC kaise karte hain", "lang": "hi", "action": "web_search", "slots": {"query": "KYC kaise karte hain"}}
+{"text": "form bharne mein madad karo", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "likho ki mera naam Ramesh Kumar hai", "lang": "hi", "action": "type_text", "slots": {"text": "mera naam Ramesh Kumar hai"}}
+{"text": "what does this form need", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "bank KYC bhar do jaldi", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "gas connection ka form bhar do", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "ration card kaise banwayein", "lang": "hi", "action": "web_search", "slots": {"query": "ration card kaise banwayein"}}
+{"text": "fill this KYC form for me", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "PM-Kisan form mein kya dena hai", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "मेरा फॉर्म भर दो", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "राशन कार्ड का फॉर्म क्या मांग रहा है", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "पैन कार्ड का फॉर्म भरवा दो", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "scholarship form ki last date kya hai batao", "lang": "hi", "action": "web_search", "slots": {"query": "scholarship form ki last date kya hai"}}
+{"text": "is form ko bharne mein meri madad karo", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "kahin ye site nakli to nahi", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "kya ye government ki asli site hai", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "is form mein nominee ka matlab kya hai", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "आधार अपडेट फॉर्म में क्या लिखना है", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "पेंशन फॉर्म के बारे में बताओ", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "ek ek karke form ke sawaal pucho", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "ye KYC form bhar do", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "income tax ki website kholo", "lang": "hi", "action": "open_website", "slots": {"site": "income tax"}}
+{"text": "लिखो मैं कल आऊंगा", "lang": "hi", "action": "type_text", "slots": {"text": "मैं कल आऊंगा"}}
+{"text": "umm is form ko bhar do na", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "PM-Kisan form bharna hai madad karo", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "स्क्रीन पर क्या लिखा है", "lang": "hi", "action": "read_screen", "slots": {}}
+{"text": "kya is page par apni details dalna safe hai", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "ye KYC wali site sahi hai kya", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "SBI ki website kholo", "lang": "hi", "action": "open_website", "slots": {"site": "SBI"}}
+{"text": "screen pe kya likha hai", "lang": "hi", "action": "read_screen", "slots": {}}
+{"text": "ye form mere liye bhar do yaar", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "क्या ये साइट सेफ है", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "इस फॉर्म में क्या भरना है", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "ye form kisliye hai bhai", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "hospital registration form bhar do", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "ye page pe kya dikh raha hai", "lang": "hi", "action": "read_screen", "slots": {}}
+{"text": "फॉर्म भरने में मदद करो", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "umm is form mein kya documents lagte hain", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "क्या ये वेबसाइट असली है", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "type karo 9876543210", "lang": "hi", "action": "type_text", "slots": {"text": "9876543210"}}
+{"text": "PAN card kaise banta hai", "lang": "hi", "action": "web_search", "slots": {"query": "PAN card kaise banta hai"}}
+{"text": "job application form bharne mein madad karo", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "what is this form asking for", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "job application form kya maang raha hai", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "explain this KYC form to me", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "is this a fake site", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "PAN application form bharwa do", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "ye site sach mein bank ki hai kya", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "yaar ye site pe bharosa kar sakte hain kya", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "बीमा क्लेम फॉर्म भर दो", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "form mein kitni cheezein poochi hain", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "yahan likho ramesh dot kumar at gmail dot com", "lang": "hi", "action": "type_text", "slots": {"text": "ramesh dot kumar at gmail dot com"}}
+{"text": "mera form bhar do", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "mujhe ye form samajh nahi aa raha", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "ye bank ki site sahi hai na", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "Aadhaar update form mein kya kya likhna hai", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "ये सरकारी साइट असली है क्या", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "UIDAI ki site kholo", "lang": "hi", "action": "open_website", "slots": {"site": "UIDAI"}}
+{"text": "incometax dot gov dot in kholo", "lang": "hi", "action": "open_website", "slots": {"site": "incometax dot gov dot in"}}
+{"text": "ये बैंक की साइट सही है ना", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "kya ye site safe hai", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "screen padh ke sunao", "lang": "hi", "action": "read_screen", "slots": {}}
+{"text": "सबमिट बटन दबा दो", "lang": "hi", "action": "click", "slots": {"target": "सबमिट"}}
+{"text": "ये लिंक नकली तो नहीं", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "mujhe WhatsApp pe ye link aaya hai kya ye asli hai", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "ye wala form zara samjha do", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "hospital registration form mein kya likhna hai", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "is this site safe", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "continue pe click karo", "lang": "hi", "action": "click", "slots": {"target": "continue"}}
+{"text": "mujhse ye form nahi bhara jaa raha bhar do", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "kya ye website asli hai", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "type karo Gandhi Road Pune", "lang": "hi", "action": "type_text", "slots": {"text": "Gandhi Road Pune"}}
+{"text": "ये फॉर्म किस चीज़ का है समझाओ", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "scholarship form mein kaun kaun se documents lagenge", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "please fill the form", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "form bharna shuru karo", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "gas connection ka form kaise bharna hai batao", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "ye bank KYC form kya maang raha hai", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "KYC form mein kya kya dena padega", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "ये केवाईसी फॉर्म भर दो", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "ration card ka form kya puchh raha hai", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "ye link asli hai ya fake", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "voter ID form bharwao mujhse", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "voter ID form mein kya kya chahiye", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "पेंशन का फॉर्म भरने में मदद करो", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "submit dabao", "lang": "hi", "action": "click", "slots": {"target": "submit"}}
+{"text": "pension form ke baare mein samjhao", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "PAN application form samjhao", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "check karo ye website theek hai ya nahi", "lang": "hi", "action": "check_site", "slots": {}}
+{"text": "insurance claim form bharne mein madad chahiye", "lang": "hi", "action": "fill_form", "slots": {}}
+{"text": "is form mein kaun si cheezein zaroori hain", "lang": "hi", "action": "explain_form", "slots": {}}
+{"text": "ration card ka form bharo", "lang": "hi", "action": "fill_form", "slots": {}}

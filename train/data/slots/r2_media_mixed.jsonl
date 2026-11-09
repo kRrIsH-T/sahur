@@ -1,0 +1,220 @@
+{"text": "Can you hold the music for a sec?", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Hold the music for a second please.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Could you pause this for a moment.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Just stop the song for a bit, I'm on a call.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Pause it, someone is at the door.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Wait wait, pause the you tube video.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Stop the music for now.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Freeze the video for a minute.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Give me a sec, pause the track.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Gaana thamb.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "গানটা একটু থামাও তো", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Jara gaana thambva na.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Video pause kar re.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Music thambav, phone aala aahe.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Gaan thamao na please.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Gaan ta ektu thamao to.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Video ta pause koro.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Ektu thamao, ami aschi.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Music bondho koro ektu.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Bhai gaana zara hold karo.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Song ko ek minute ke liye pause kar do please.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Yaar music roko jara, bahar kuch sunai nahi de raha.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Ek second hold kar na video.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Please put the song on hold.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Stop playing for a while.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "गाणं थांबव.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "গান থামাও.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Pause please, I need to take this.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Carry on playing.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "You can continue the song now.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Okay, resume the music.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Play it from where it stopped earlier.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Start the video again please.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Unpause it.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Go on, keep playing.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Alright, I'm back, continue the track.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Gaana punha chalu kar na re.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Parat chalu kar video.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Thambavlela gaana chalu kar na.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Abar chalao.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Gaan ta abar shuru koro.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Video ta continue koro.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Jekhane themechilo sekhan theke chalao.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Music wapas chalu karo bhai.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Ab song continue kar do bhai.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Resume kar de yaar.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "गाणं पुन्हा सुरू कर.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "আবার চালাও গানটা.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Play the paused song.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Let it play now.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Please continue, I'm done with the call.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Resume karo video ko.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Skip this track.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Go to the next song please.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "I don't like this one, play the next.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Can you skip this song?", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Next one please.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Move on to the next track.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "This song is boring, change it.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Skip it.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Pudhcha gaana lav jara.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "पुढचं गाणं वाजव", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "He gaana nako, pudhe ja.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Next gaana lav re.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Gaana skip kar.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Porer gaan chalao to.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Porer gaan ta dao.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Ei gaan ta bhalo lagche na, porer ta chalao.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Skip koro.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Next song e jao.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Agla gaana lagao yaar.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Ye wala skip karo, next chalao.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Next track pe jao please.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "पुढचं गाणं लाव.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "পরের গান চালাও.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Play the next video.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Next song chalavo.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Can you go forward one song.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Forward to the next track.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Pudhcha video lav na.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Go back one song.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Play the previous track.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Can you play the last song again?", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Go back to the song before this.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Previous one please.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Take me back to the earlier song.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Back one track.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Magcha gaana lav.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Magcha gaana parat lav.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Mage ja, aadhicha gaana.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Aager gaan.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Aager gaan ta chalao.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Ager gaan e fire jao.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Previous song e jao.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Pichla gaana lagao.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Pichhe wala song chala do.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Ek gaana peeche jao please.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "मागचं गाणं लाव.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "আগের গান চালাও.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Play the previous video.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Previous video chalao.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Previous track please.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Aadhicha video lav.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Agla nahi, pichla wala chalao.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Can you turn it up a bit?", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "I can barely hear it.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "It's too soft, make it louder.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "A bit louder please.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Pump the volume up a little.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Increase the sound a little.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Could you raise the volume?", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "I can't hear anything, turn it up.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Awaj vadhav.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Awaj jara vadhav na.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Aawaz vadhva thoda.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Kahi aikayla yet nahi, volume vadhav.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Awaj barao.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "আওয়াজটা একটু বাড়িয়ে দাও", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Volume ta barie dao.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Kichu shona jachhe na, awaj barao.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Thoda volume badha do na.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Sound thoda tez karo please.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Aawaz kam hai, badhao.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "आवाज वाढव.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "আওয়াজ বাড়াও.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Volume full kar de.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Turn the volume up two notches.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Volume up koro.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Increase kar volume.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "It is too loud, reduce it.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Turn it down a little please.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Lower the volume.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "That's way too loud.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Can you make it softer?", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Bring the volume down a bit.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Reduce the sound, baby is sleeping.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Not so loud please.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Awaj kami kar, khup jasta aahe.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "आवाज जरा कमी कर ना", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Khup motha awaj aahe, kami kar.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Volume kami kar re.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Awaj komao.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Awaj ta ektu kom koro.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Khub jore bajche, komiye dao.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Volume ta komao.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Aawaz thoda kam karo please.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Bahut loud hai, kam kar do.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Volume down karo yaar.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "आवाज कमी कर.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "আওয়াজ কমাও.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Lower it a bit, neighbours are complaining.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Too loud, volume kam kar.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Volume down koro.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Sound halka kar de.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Mute it.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Silence the sound for now.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Turn off the sound completely.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Can you mute the audio?", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Awaj band kar.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Pura awaj band kar.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Mute kar re.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Awaj bondho koro.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Sound ta mute kore dao.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Ekdom chup koro, mute.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Sound mute kar do please.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Aawaz bilkul band karo.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "आवाज बंद कर.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "সাউন্ড মিউট করো.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Mute koro.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Volume zero kar do.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Chhodo rehne do.", "action": "cancel", "slots": {}}
+{"text": "Nothing, forget it.", "action": "cancel", "slots": {}}
+{"text": "Never mind, leave it.", "action": "cancel", "slots": {}}
+{"text": "Rahu de, kahi nako.", "action": "cancel", "slots": {}}
+{"text": "Kahi nahi, sod.", "action": "cancel", "slots": {}}
+{"text": "Thak, dorkar nei.", "action": "cancel", "slots": {}}
+{"text": "Chhere dao, kichu korte hobe na.", "action": "cancel", "slots": {}}
+{"text": "Cancel kar de yaar, galti se bola.", "action": "cancel", "slots": {}}
+{"text": "Just forget what I said.", "action": "cancel", "slots": {}}
+{"text": "No no, don't do anything.", "action": "cancel", "slots": {}}
+{"text": "राहू दे.", "action": "cancel", "slots": {}}
+{"text": "থাক, দরকার নেই.", "action": "cancel", "slots": {}}
+{"text": "Can you increase the screen brightness?", "action": "unknown", "slots": {}}
+{"text": "Screen thoda bright karo.", "action": "unknown", "slots": {}}
+{"text": "Screen chi brightness kami kar.", "action": "unknown", "slots": {}}
+{"text": "Turn on the wifi.", "action": "unknown", "slots": {}}
+{"text": "Wifi band kar re.", "action": "unknown", "slots": {}}
+{"text": "Bluetooth on koro.", "action": "unknown", "slots": {}}
+{"text": "Connect my bluetooth headphones.", "action": "unknown", "slots": {}}
+{"text": "Turn on battery saver.", "action": "unknown", "slots": {}}
+{"text": "Battery saver chalu kar.", "action": "unknown", "slots": {}}
+{"text": "Set an alarm for 6 am.", "action": "unknown", "slots": {}}
+{"text": "Udya sakali saha vajta alarm lav.", "action": "unknown", "slots": {}}
+{"text": "Kal shokal saat tay alarm dao.", "action": "unknown", "slots": {}}
+{"text": "Call Rahul.", "action": "unknown", "slots": {}}
+{"text": "Mummy la phone kar.", "action": "unknown", "slots": {}}
+{"text": "Maa ke ekta phone koro.", "action": "unknown", "slots": {}}
+{"text": "Shut down the computer.", "action": "unknown", "slots": {}}
+{"text": "Computer band kar de.", "action": "unknown", "slots": {}}
+{"text": "Laptop ta shut down koro.", "action": "unknown", "slots": {}}
+{"text": "Restart the PC please.", "action": "unknown", "slots": {}}
+{"text": "Restart kar re system.", "action": "unknown", "slots": {}}
+{"text": "Computer restart koro.", "action": "unknown", "slots": {}}
+{"text": "Make the screen dimmer, it's hurting my eyes.", "action": "unknown", "slots": {}}
+{"text": "Is the wifi connected?", "action": "unknown", "slots": {}}
+{"text": "Hotspot on kar.", "action": "unknown", "slots": {}}
+{"text": "स्क्रीन ब्राइटनेस वाढव.", "action": "unknown", "slots": {}}
+{"text": "ওয়াইফাই চালু করো.", "action": "unknown", "slots": {}}
+{"text": "pause button pe click karo", "action": "click", "slots": {"target": "pause"}}
+{"text": "Click the play button.", "action": "click", "slots": {"target": "play"}}
+{"text": "Press the next button.", "action": "click", "slots": {"target": "next"}}
+{"text": "Mute button dabao.", "action": "click", "slots": {"target": "Mute"}}
+{"text": "Skip Ad pe click karo.", "action": "click", "slots": {"target": "Skip Ad"}}
+{"text": "Click on skip ad.", "action": "click", "slots": {"target": "skip ad"}}
+{"text": "Pause button var click kar.", "action": "click", "slots": {"target": "Pause"}}
+{"text": "Next button e click koro.", "action": "click", "slots": {"target": "Next"}}
+{"text": "Volume icon pe click kar do.", "action": "click", "slots": {"target": "Volume"}}
+{"text": "Can you click the subscribe button?", "action": "click", "slots": {"target": "subscribe"}}
+{"text": "पॉज बटणावर क्लिक कर.", "action": "click", "slots": {"target": "पॉज"}}
+{"text": "Resume button dabao please.", "action": "click", "slots": {"target": "Resume"}}

@@ -1,0 +1,101 @@
+id,lang,command,action,app,contact,text,query,target,typed
+1,hi-en,Raju ko WhatsApp karo ki paanch minutes lagenge.,send_message,,Raju,5 minute lagenge,,,Raju ko WhatsApp karo ki 5 minute lagenge
+2,hi-en,Mummy ko message bhej do ki main ghar aa raha hoon.,send_message,,Mummy,main ghar aa raha hoon,,,Mummy ko message bhejo ki main ghar aa raha hoon
+3,hi,Raju ko WhatsApp par bolo ki main late ho jaunga.,send_message,,राजू,मैं लेट हो जाऊंगा,,,राजू को व्हाट्सएप पर बोलो कि मैं लेट हो जाऊंगा
+4,hi-en,Priya ko bolo meeting cancel ho gayi.,send_message,,Priya,meeting cancel ho gayi,,,Priya ko bolo meeting cancel ho gayi
+5,hi-en,"Raju bhai ko text karo, kal milte hain.",send_message,,Raju bhai,kal milte hain,,,Raju bhai ko text karo kal milte hain
+6,en,"Send a WhatsApp to Priya saying, ""I will call her later.""",send_message,,Priya,I will call her later,,,Send a WhatsApp to Priya saying I will call her later
+7,en,Message Amma that I reached safely.,send_message,,Amma,I reached safely,,,Message Amma that I reached safely
+8,kn,"Raju ge WhatsApp madu, naanu aidu nimishadalli bartini anta.",send_message,,ರಾಜು,ನಾನು ಐದು ನಿಮಿಷದಲ್ಲಿ ಬರ್ತೀನಿ,,,ರಾಜು ಗೆ ವಾಟ್ಸಾಪ್ ಮಾಡು ನಾನು ಐದು ನಿಮಿಷದಲ್ಲಿ ಬರ್ತೀನಿ ಅಂತ
+9,kn-en,"Amma, ge message kalisu utha, aytu anta.",send_message,,Amma,oota aaytu,,,Amma ge message kalsu oota aaytu anta
+10,ta,"Amma-ku message anuppu, naan veetuku vare.",send_message,,அம்மா,நான் வீட்டுக்கு வரேன்,,,அம்மா க்கு மெசேஜ் அனுப்பு நான் வீட்டுக்கு வரேன்
+11,ta-en,Priya ku WhatsApp pannunnal late aguve.,send_message,,Priya,naan late aaguven,,,Priya ku WhatsApp pannu naan late aaguven
+12,hi-en,Raju ko bata do ki party Saturday ko hai.,send_message,,Raju,party Saturday ko hai,,,Raju ko bata do ki party Saturday ko hai
+13,hi-en,"mummy ko whatsapp pe likh do, khana maa banana.",send_message,,mummy,khana mat banana,,,mummy ko whatsapp pe likh do khana mat banana
+14,hi,"Priya ko message karo, kal college nahi aavange.",send_message,,प्रिया,कल कॉलेज नहीं आऊंगी,,,प्रिया को मैसेज करो कल कॉलेज नहीं आऊंगी
+15,hi-en,"Raju ko reply karo, okay then.",send_message,,Raju,ok done,,,Raju ko reply karo ok done
+16,hi-en,WhatsApp kholu,open_app,whatsapp,,,,,WhatsApp kholo
+17,hi-en,Chrome kholdu?,open_app,chrome,,,,,Chrome khol do
+18,hi,Chrome kholo,open_app,chrome,,,,,क्रोम खोलो
+19,en,Open Notepad.,open_app,notepad,,,,,Open notepad
+20,hi-en,Calculator chalu karo.,open_app,calculator,,,,,calculator chalu karo
+21,hi-en,Settings open karo.,open_app,settings,,,,,settings open karo
+22,kn-en,Chrome open mado.,open_app,chrome,,,,,Chrome open maadu
+23,kn,Calculator tere.,open_app,calculator,,,,,ಕ್ಯಾಲ್ಕುಲೇಟರ್ ತೆರೆ
+24,ta-en,Notepad open pannu.,open_app,notepad,,,,,Notepad open pannu
+25,ta,WhatsApp kare.,open_app,whatsapp,,,,,வாட்ஸ்அப் திற
+26,hi-en,File Explorer kholu.,open_app,file_explorer,,,,,file explorer kholo
+27,en,Launch Microsoft Word.,open_app,word,,,,,Launch Microsoft Word
+28,hi-en,Excel kholna sara.,open_app,excel,,,,,Excel kholna zara
+29,hi-en,Camera on karo.,open_app,camera,,,,,camera on karo
+30,hi-en,Spotify start karo.,open_app,spotify,,,,,Spotify start karo
+31,en,Open my files,open_app,file_explorer,,,,,Open my files
+32,hi-en,VLC player kholu.,open_app,other,,,,,VLC player kholo
+33,hi-en,Zoom app open karo.,open_app,other,,,,,Zoom app open karo
+34,hi-en,Bangalore ka weather batao.,web_search,,,,Bangalore weather,,Bangalore ka weather batao
+35,hi-en,Google pe search karo best biryani near me.,web_search,,,,best biryani near me,,Google pe search karo best biryani near me
+36,hi,Aaj ka mausam kaisa hai?,web_search,,,,आज का मौसम,,आज का मौसम कैसा है
+37,en,Search for train tickets from Bangalore to Chennai.,web_search,,,,train tickets Bangalore to Chennai,,Search for train tickets from Bangalore to Chennai
+38,hi-en,India ka cricket score kya hai?,web_search,,,,India cricket score,,India ka cricket score kya hai
+39,kn-en,"Mysore weather, Hudukku.",web_search,,,,Mysore weather,,Mysore weather hudukku
+40,kn,Ivattina havaamana huduku.,web_search,,,,ಇವತ್ತಿನ ಹವಾಮಾನ,,ಇವತ್ತಿನ ಹವಾಮಾನ ಹುಡುಕು
+41,ta-en,chemai re-new search pannu.,web_search,,,,Chennai rain news,,Chennai rain news search pannu
+42,ta,Indraya thangam vilai theedu.,web_search,,,,இன்றைய தங்கம் விலை,,இன்றைய தங்கம் விலை தேடு
+43,hi-en,PM Kisan ka status kaise check karein?,web_search,,,,PM Kisan status check,,PM Kisan ka status kaise check kare
+44,en,Who won the last IPL?,web_search,,,,last IPL winner,,Who won the last IPL
+45,hi-en,petrol ka rate kya chal raha hai aaj?,web_search,,,,petrol rate today,,petrol ka rate kya chal raha hai aaj
+46,hi-en,"Google, karo nearest hospital.",web_search,,,,nearest hospital,,Google karo nearest hospital
+47,hi-en,Dollar ka rate dekhvo.,web_search,,,,dollar rate,,dollar ka rate dekho
+48,hi-en,YouTube pe Arijit ke gaane chalao.,play_media,,,,Arijit Singh songs,,YouTube pe Arijit ke gaane chalao
+49,hi-en,koi achha bhajan lagao.,play_media,,,,bhajan,,koi accha bhajan lagao
+50,hi,Lata Mangeshkar ke gaane bajao.,play_media,,,,लता मंगेशकर के गाने,,लता मंगेशकर के गाने बजाओ
+51,en,Play the latest cold play song.,play_media,,,,latest Coldplay song,,Play the latest Coldplay song
+52,kn-en,"Puneeth Rajkumar songs play, Madu.",play_media,,,,Puneeth Rajkumar songs,,Puneeth Rajkumar songs play maadu
+53,kn,Kannada hadu haku.,play_media,,,,ಕನ್ನಡ ಹಾಡು,,ಕನ್ನಡ ಹಾಡು ಹಾಕು
+54,ta-en,Aniruddha songs podu.,play_media,,,,Anirudh songs,,Anirudh songs podu
+55,ta,"Ilayaraja, paattu podu.",play_media,,,,இளையராஜா பாட்டு,,இளையராஜா பாட்டு போடு
+56,hi-en,YouTube pe cooking video dikhao paneer ka.,play_media,,,,paneer cooking video,,YouTube pe cooking video dikhao paneer ka
+57,hi-en,News chaladu.,play_media,,,,news,,news chala do
+58,hi-en,Kishore Kumar ke purane gaane sunaao.,play_media,,,,Kishore Kumar old songs,,Kishore Kumar ke purane gaane sunao
+59,en,Play a meditation video.,play_media,,,,meditation video,,Play a meditation video
+60,hi-en,Likhun ki meeting kal subah das baje hai.,type_text,,,meeting kal subah das baje hai,,,likho ki meeting kal subah das baje hai
+61,hi-en,"Type karo dear sir, I am writing to inform you.",type_text,,,dear sir I am writing to inform you,,,type karo dear sir I am writing to inform you
+62,hi,"Likhon, aaj maine davai lai layi.",type_text,,,आज मैंने दवाई ले ली,,,लिखो आज मैंने दवाई ले ली
+63,en,"Type. Hello, how are you?",type_text,,,hello how are you,,,Type hello how are you
+64,en,"Right, my address is twelve MG Road.",type_text,,,my address is 12 MG Road,,,Write my address is 12 MG Road
+65,kn-en,bari nalee raja ide.,type_text,,,naale raja ide,,,bari naale raja ide
+66,kn,Bare nale shalekge raje.,type_text,,,ನಾಳೆ ಶಾಲೆಗೆ ರಜೆ,,,ಬರೆ ನಾಳೆ ಶಾಲೆಗೆ ರಜೆ
+67,ta-en,"type pannu, thank you for the help.",type_text,,,thank you for the help,,,type pannu thank you for the help
+68,ta,Ezhudunale vidumurai.,type_text,,,நாளை விடுமுறை,,,எழுது நாளை விடுமுறை
+69,hi-en,"Isme likh do, mera naam Priya hai.",type_text,,,mera naam Sriya hai,,,isme likh do mera naam Sriya hai
+70,hi-en,"Search box me likho ""blue shirt"".",type_text,,,blue shirt,,,search box mein likho blue shirt
+71,hi-en,screen pe kya likha hai padh ke batao.,read_screen,,,,,,screen pe kya likha hai padh ke batao
+72,hi,screen par kya hai batao?,read_screen,,,,,,स्क्रीन पर क्या है बताओ
+73,en,Read the screen for me.,read_screen,,,,,,Read the screen for me
+74,en,What is on my screen?,read_screen,,,,,,What is on my screen
+75,kn,screen alli enide helu.,read_screen,,,,,,ಸ್ಕ್ರೀನ್ ಅಲ್ಲಿ ಏನಿದೆ ಹೇಳು
+76,kn-en,ee screen alli enu ide helu?,read_screen,,,,,,Ee screen alli enu ide heLu
+77,ta,thiraayila enna irukkudhu sollu.,read_screen,,,,,,திரையில் என்ன இருக்கு சொல்லு
+78,ta-en,screen la enna irukkupadi?,read_screen,,,,,,screen la enna irukku padi
+79,hi-en,ye page pad ke sunaao.,read_screen,,,,,,ye page padh ke sunao
+80,hi-en,ye email kya bol raha hai?,read_screen,,,,,,ye email kya bol raha hai
+81,hi-en,Submit button dabavu.,click,,,,,Submit,submit button dabao
+82,hi-en,Settings click karo.,click,,,,,Send,send pe click karo
+83,en,Click on sign in.,click,,,,,Sign in,Click on sign in
+84,en,Press the next button.,click,,,,,Next,Press the next button
+85,kn-en,Okay button uttu,click,,,,,OK,OK button otthu
+86,ta-en,Login click pannu.,click,,,,,Login,login click pannu
+87,hi-en,Cancel valla button dabavu.,click,,,,,Cancel,cancel wala button dabao
+88,hi,Save button par click karo.,click,,,,,Save,सेव बटन पर क्लिक करो
+89,hi-en,Raju bhai.,cancel,,,,,,rehne do
+90,hi,Kuch nahi rehne do.,cancel,,,,,,कुछ नहीं रहने दो
+91,en,Never mind,cancel,,,,,,Never mind
+92,en,"Stop, stop, cancel that",cancel,,,,,,Stop stop cancel that
+93,kn,beda bidu,cancel,,,,,,ಬೇಡ ಬಿಡು
+94,ta,venda vidu,cancel,,,,,,வேண்டாம் விடு
+95,hi-en,chodo kuch nahi,cancel,,,,,,chhodo kuch nahi
+96,hi-en,Aaj mera mood acche hai.,unknown,,,,,,aaj mera mood accha hai
+97,en,The sky is blue.,unknown,,,,,,The sky is blue
+98,hi-en,"Haan, matlab vo.",unknown,,,,,,hmm haan matlab woh
+99,kn,Naanu oota madide.,unknown,,,,,,ನಾನು ಊಟ ಮಾಡಿದೆ
+100,ta-en,Naanu inniki busy.,unknown,,,,,,naan inniki busy

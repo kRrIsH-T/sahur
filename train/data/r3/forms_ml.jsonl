@@ -1,0 +1,120 @@
+{"text": "ee form il enthaanu poorippikkendath", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "ee form entinulladhaanu onnu parayamo", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "ee KYC form il enthokke venam", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "ee form enthokke chodikkunnu ennu paranju tharu", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "ee form ne kurich onnu vivarikku", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "ee application form entha ennu parayamo", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "bank KYC form il enthaanu ezhuthendath", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "Aadhaar update form il enthokke vendi varum", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "PAN application form il enthaanu chodikkunnath", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "ration card form entinaanu ennu paranju tharu", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "scholarship form il enthokke kodukkanam", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "pension form il enthaanu poorippikkendath", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "PM Kisan form entha ennu vishadeekarikku", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "gas connection form il enthokke venam", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "voter ID form entinu vendiyaanu", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "job application form il enthokke chodikkunnu", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "school admission form il enthu ezhuthanam", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "hospital registration form il enthokke venam", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "insurance claim form il enthaanu cheyyendath", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "what does this form need", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "tell me what this form is for", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "ee form enikku manassilaavunnilla onnu vishadeekarikku", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "ee form il ethokke documents venam", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "ee form il ethra chodyangal undu", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "ee form nte karyam alppam simple aayi parayu", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "explain this form please", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "ee form explain cheyyamo", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "ഈ ഫോമിൽ എന്താണ് പൂരിപ്പിക്കേണ്ടത്", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "ഈ ഫോം എന്തിനുള്ളതാണെന്ന് പറഞ്ഞു തരൂ", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "ഈ KYC ഫോമിൽ എന്തൊക്കെ വേണം", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "ഈ ഫോമിനെക്കുറിച്ച് വിശദീകരിക്കൂ", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "ഈ അപേക്ഷാ ഫോം എന്താണെന്ന് പറയാമോ", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "ബാങ്ക് ഫോമിൽ എന്താണ് ചോദിക്കുന്നത്", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "ആധാർ അപ്ഡേറ്റ് ഫോമിൽ എന്തൊക്കെ വേണം", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "ഈ ഫോമിൽ ഏതൊക്കെ രേഖകൾ വേണം", "lang": "ml", "action": "explain_form", "slots": {}}
+{"text": "form poorippikkan sahayikku", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "ee KYC form poorippikkuka", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "ente form poorippichu tharamo", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "ee form ente vivarangal vechu nirakku", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "form fill cheythu tharu", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "form nirakkan help cheyyu", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "ee form onnu poorippikku", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "Aadhaar update form poorippikkan sahayikku", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "PAN form fill cheyyu", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "ration card form nirakkan help venam", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "scholarship form poorippichu tharamo", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "pension form poorippikkan sahayikku", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "PM Kisan form fill cheythu tharu", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "gas connection form nirakku", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "voter ID form poorippikku", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "job application form fill cheyyan help cheyyu", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "school admission form poorippikkan sahayikku", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "hospital registration form nirakkuka", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "insurance claim form poorippichu tharu", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "help me fill this form", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "fill this form for me", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "please fill my KYC form", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "form fill cheyyanam", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "bank KYC form ente koode irunn poorippikku", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "ee form nirakkunnathil enne sahayikkamo", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "njan parayunnath vechu form ezhuthu", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "form onnu fill aakku", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "ഫോം പൂരിപ്പിക്കാൻ സഹായിക്കൂ", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "ഈ KYC ഫോം പൂരിപ്പിക്കൂ", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "എന്റെ ഫോം പൂരിപ്പിച്ചു തരൂ", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "ഈ ഫോം നിറയ്ക്കാൻ സഹായിക്കൂ", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "ബാങ്ക് ഫോം പൂരിപ്പിച്ചു തരാമോ", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "ആധാർ ഫോം പൂരിപ്പിക്കാൻ സഹായിക്കൂ", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "ഈ അപേക്ഷ പൂരിപ്പിക്കൂ", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "ഫോം ഒന്ന് ഫിൽ ചെയ്യൂ", "lang": "ml", "action": "fill_form", "slots": {}}
+{"text": "ee website asal aano", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "ee site safe aano", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "ithu bank inte sheriyaaya site aano", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "is this site safe", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "is this website real", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "ee link thattippaano", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "ee site vyaajamaano", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "ithu SBI inte site aano", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "ee KYC site sheriyaano", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "ithu fake site aano", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "ee page vishwasikkamo", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "ee Aadhaar site asal aano", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "ee payment site safe aano", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "is this a genuine bank website", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "ee site il ente vivarangal kodukkamo", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "ee website sheriyaano ennu nokkamo", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "ithu government site thanneyaano", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "ee site oru scam aano", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "check cheyyu ee site safe aano", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "ee bank site sheriyaano", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "ഈ വെബ്സൈറ്റ് ശരിയാണോ", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "ഈ സൈറ്റ് സുരക്ഷിതമാണോ", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "ഇത് വ്യാജ സൈറ്റാണോ", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "ഇത് ബാങ്കിന്റെ യഥാർത്ഥ സൈറ്റാണോ", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "ഈ ലിങ്ക് വിശ്വസിക്കാമോ", "lang": "ml", "action": "check_site", "slots": {}}
+{"text": "screen il enthaanu ezhuthiyirikkunnath", "lang": "ml", "action": "read_screen", "slots": {}}
+{"text": "ee screen vaayichu tharu", "lang": "ml", "action": "read_screen", "slots": {}}
+{"text": "ivide enthaanu kaanunnath parayu", "lang": "ml", "action": "read_screen", "slots": {}}
+{"text": "സ്ക്രീനിൽ എന്താണ് എഴുതിയിരിക്കുന്നത്", "lang": "ml", "action": "read_screen", "slots": {}}
+{"text": "ee page il enthaanu ennu vaayikku", "lang": "ml", "action": "read_screen", "slots": {}}
+{"text": "ee screen onnu vaayichu kelppikku", "lang": "ml", "action": "read_screen", "slots": {}}
+{"text": "ente peru Ramesh Kumar enn ezhuthu", "lang": "ml", "action": "type_text", "slots": {"text": "ente peru Ramesh Kumar"}}
+{"text": "mobile number 9876543210 enn type cheyyu", "lang": "ml", "action": "type_text", "slots": {"text": "mobile number 9876543210"}}
+{"text": "ivide Kozhikode ennu ezhuthu", "lang": "ml", "action": "type_text", "slots": {"text": "Kozhikode"}}
+{"text": "address 12 Temple Road Thrissur enn ezhuthu", "lang": "ml", "action": "type_text", "slots": {"text": "address 12 Temple Road Thrissur"}}
+{"text": "ഇവിടെ എന്റെ പേര് സുരേഷ് എന്ന് എഴുതൂ", "lang": "ml", "action": "type_text", "slots": {"text": "എന്റെ പേര് സുരേഷ്"}}
+{"text": "ezhuthu njan nalaekku varum", "lang": "ml", "action": "type_text", "slots": {"text": "njan nalaekku varum"}}
+{"text": "submit button amarthu", "lang": "ml", "action": "click", "slots": {"target": "submit"}}
+{"text": "next il click cheyyu", "lang": "ml", "action": "click", "slots": {"target": "next"}}
+{"text": "continue ennathil click cheyyu", "lang": "ml", "action": "click", "slots": {"target": "continue"}}
+{"text": "upload button click cheyyu", "lang": "ml", "action": "click", "slots": {"target": "upload"}}
+{"text": "ഓക്കെ ബട്ടൺ ക്ലിക്ക് ചെയ്യൂ", "lang": "ml", "action": "click", "slots": {"target": "ഓക്കെ"}}
+{"text": "KYC engane cheyyam ennu google cheyyu", "lang": "ml", "action": "web_search", "slots": {"query": "KYC engane cheyyam"}}
+{"text": "Aadhaar address engane maattam ennu search cheyyu", "lang": "ml", "action": "web_search", "slots": {"query": "Aadhaar address engane maattam"}}
+{"text": "ration card engane edukkam google cheyyu", "lang": "ml", "action": "web_search", "slots": {"query": "ration card engane edukkam"}}
+{"text": "PAN card apply cheyyaan enthokke venam ennu serch cheyyu", "lang": "ml", "action": "web_search", "slots": {"query": "PAN card apply cheyyaan enthokke venam"}}
+{"text": "UIDAI site thurakku", "lang": "ml", "action": "open_website", "slots": {"site": "UIDAI"}}
+{"text": "SBI website onnu thurakku", "lang": "ml", "action": "open_website", "slots": {"site": "SBI"}}
+{"text": "incometax website thura", "lang": "ml", "action": "open_website", "slots": {"site": "incometax"}}
+{"text": "DigiLocker site thurakku", "lang": "ml", "action": "open_website", "slots": {"site": "DigiLocker"}}

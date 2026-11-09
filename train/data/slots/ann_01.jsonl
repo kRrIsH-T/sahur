@@ -1,0 +1,645 @@
+{"text": "बेटा ज़रा Pay Now बटन दबा दो", "action": "click", "slots": {"target": "Pay Now"}}
+{"text": "लॉग आउट पर क्लिक कर दो", "action": "click", "slots": {"target": "लॉग आउट"}}
+{"text": "सबमिट पे किलिक करो", "action": "click", "slots": {"target": "सबमिट"}}
+{"text": "Profile tab pe click karo", "action": "click", "slots": {"target": "Profile"}}
+{"text": "नेक्स्ट पे क्लिक करो जी", "action": "click", "slots": {"target": "नेक्स्ट"}}
+{"text": "send button press maadu please", "action": "click", "slots": {"target": "send"}}
+{"text": "cancel button click maadi", "action": "click", "slots": {"target": "cancel"}}
+{"text": "download button click maadi please", "action": "click", "slots": {"target": "download"}}
+{"text": "back button otti", "action": "click", "slots": {"target": "back"}}
+{"text": "accept button otti zara", "action": "click", "slots": {"target": "accept"}}
+{"text": "search button press maadi", "action": "click", "slots": {"target": "search"}}
+{"text": "aa next annodu otti", "action": "click", "slots": {"target": "next"}}
+{"text": "OK annodu click maadu beka", "action": "click", "slots": {"target": "OK"}}
+{"text": "menu mele click maadu", "action": "click", "slots": {"target": "menu"}}
+{"text": "settings tab mele click maadi", "action": "click", "slots": {"target": "settings"}}
+{"text": "home tab otti", "action": "click", "slots": {"target": "home"}}
+{"text": "profile icon mele click maadu", "action": "click", "slots": {"target": "profile"}}
+{"text": "inbox tab click maadi please", "action": "click", "slots": {"target": "inbox"}}
+{"text": "logout button otti", "action": "click", "slots": {"target": "logout"}}
+{"text": "skip button click maadi", "action": "click", "slots": {"target": "skip"}}
+{"text": "agree button otti", "action": "click", "slots": {"target": "agree"}}
+{"text": "save button mele click maadi", "action": "click", "slots": {"target": "save"}}
+{"text": "print button click maadu", "action": "click", "slots": {"target": "print"}}
+{"text": "reply button otti", "action": "click", "slots": {"target": "reply"}}
+{"text": "forward option mele click maadi", "action": "click", "slots": {"target": "forward"}}
+{"text": "delete button click maadu", "action": "click", "slots": {"target": "delete"}}
+{"text": "edit option mele click maadi", "action": "click", "slots": {"target": "edit"}}
+{"text": "share button otti please", "action": "click", "slots": {"target": "share"}}
+{"text": "subscribe button click maadi", "action": "click", "slots": {"target": "subscribe"}}
+{"text": "file menu mele click maadu", "action": "click", "slots": {"target": "file"}}
+{"text": "view tab otti", "action": "click", "slots": {"target": "view"}}
+{"text": "insert tab mele click maadi", "action": "click", "slots": {"target": "insert"}}
+{"text": "help menu click maadu", "action": "click", "slots": {"target": "help"}}
+{"text": "update now button otti", "action": "click", "slots": {"target": "update now"}}
+{"text": "install button mele click maadi", "action": "click", "slots": {"target": "install"}}
+{"text": "open button click maadu", "action": "click", "slots": {"target": "open"}}
+{"text": "register button otti", "action": "click", "slots": {"target": "register"}}
+{"text": "forgot password link mele click maadi", "action": "click", "slots": {"target": "forgot password"}}
+{"text": "read more link click maadu", "action": "click", "slots": {"target": "read more"}}
+{"text": "show more otti", "action": "click", "slots": {"target": "show more"}}
+{"text": "see all mele click maadi", "action": "click", "slots": {"target": "see all"}}
+{"text": "add to cart button otti", "action": "click", "slots": {"target": "add to cart"}}
+{"text": "buy now click maadu", "action": "click", "slots": {"target": "buy now"}}
+{"text": "pay button mele click maadi", "action": "click", "slots": {"target": "pay"}}
+{"text": "confirm button otti", "action": "click", "slots": {"target": "confirm"}}
+{"text": "apply button click maadu", "action": "click", "slots": {"target": "apply"}}
+{"text": "done button mele click maadi", "action": "click", "slots": {"target": "done"}}
+{"text": "finish click maadu", "action": "click", "slots": {"target": "finish"}}
+{"text": "retry button otti", "action": "click", "slots": {"target": "retry"}}
+{"text": "refresh button mele click maadi", "action": "click", "slots": {"target": "refresh"}}
+{"text": "allow button click maadu", "action": "click", "slots": {"target": "allow"}}
+{"text": "deny otti", "action": "click", "slots": {"target": "deny"}}
+{"text": "no button mele click maadi", "action": "click", "slots": {"target": "no"}}
+{"text": "upload button click maadu", "action": "click", "slots": {"target": "upload"}}
+{"text": "attach button otti", "action": "click", "slots": {"target": "attach"}}
+{"text": "first link mele click maadi", "action": "click", "slots": {"target": "first link"}}
+{"text": "images tab click maadu", "action": "click", "slots": {"target": "images"}}
+{"text": "videos tab otti", "action": "click", "slots": {"target": "videos"}}
+{"text": "news tab mele click maadi", "action": "click", "slots": {"target": "news"}}
+{"text": "akka submit button otti bidu", "action": "click", "slots": {"target": "submit"}}
+{"text": "appa ge ondu sahaya maadi, login mele click maadu", "action": "click", "slots": {"target": "login"}}
+{"text": "dayavittu next button otti", "action": "click", "slots": {"target": "next"}}
+{"text": "please send mele click maadi", "action": "click", "slots": {"target": "send"}}
+{"text": "swalpa cancel button otti", "action": "click", "slots": {"target": "cancel"}}
+{"text": "konjam OK click maadu", "action": "click", "slots": {"target": "OK"}}
+{"text": "neevu yes annodu otti bidi", "action": "click", "slots": {"target": "yes"}}
+{"text": "nodu, download annodu mele click maadu", "action": "click", "slots": {"target": "download"}}
+{"text": "aa blue button submit otti", "action": "click", "slots": {"target": "submit"}}
+{"text": "kelage iro next button click maadi", "action": "click", "slots": {"target": "next"}}
+{"text": "mele iro close button otti", "action": "click", "slots": {"target": "close"}}
+{"text": "right side alli iro menu click maadu", "action": "click", "slots": {"target": "menu"}}
+{"text": "sabmit batan click maadi", "action": "click", "slots": {"target": "sabmit"}}
+{"text": "nekst baton otti", "action": "click", "slots": {"target": "nekst"}}
+{"text": "okay button klik maadu", "action": "click", "slots": {"target": "okay"}}
+{"text": "sain in mele klik maadi", "action": "click", "slots": {"target": "sain in"}}
+{"text": "daunlod button otti", "action": "click", "slots": {"target": "daunlod"}}
+{"text": "kyansal button click maadu", "action": "click", "slots": {"target": "kyansal"}}
+{"text": "logn button mele click maadi", "action": "click", "slots": {"target": "logn"}}
+{"text": "serch button otti", "action": "click", "slots": {"target": "serch"}}
+{"text": "acsept click madu", "action": "click", "slots": {"target": "acsept"}}
+{"text": "click madi send button", "action": "click", "slots": {"target": "send"}}
+{"text": "press madi play button", "action": "click", "slots": {"target": "play"}}
+{"text": "otti bidu ok", "action": "click", "slots": {"target": "ok"}}
+{"text": "ಸಬ್ಮಿಟ್ ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ", "action": "click", "slots": {"target": "ಸಬ್ಮಿಟ್"}}
+{"text": "ನೆಕ್ಸ್ಟ್ ಬಟನ್ ಒತ್ತಿ", "action": "click", "slots": {"target": "ನೆಕ್ಸ್ಟ್"}}
+{"text": "ಓಕೆ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡು", "action": "click", "slots": {"target": "ಓಕೆ"}}
+{"text": "ಸೆಂಡ್ ಬಟನ್ ಒತ್ತು", "action": "click", "slots": {"target": "ಸೆಂಡ್"}}
+{"text": "ಕ್ಯಾನ್ಸಲ್ ಬಟನ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ", "action": "click", "slots": {"target": "ಕ್ಯಾನ್ಸಲ್"}}
+{"text": "ಲಾಗಿನ್ ಬಟನ್ ಒತ್ತಿ", "action": "click", "slots": {"target": "ಲಾಗಿನ್"}}
+{"text": "ಸೈನ್ ಇನ್ ಕ್ಲಿಕ್ ಮಾಡು", "action": "click", "slots": {"target": "ಸೈನ್ ಇನ್"}}
+{"text": "ಡೌನ್‌ಲೋಡ್ ಬಟನ್ ಮೇಲೆ ಒತ್ತಿ", "action": "click", "slots": {"target": "ಡೌನ್‌ಲೋಡ್"}}
+{"text": "ಬ್ಯಾಕ್ ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ", "action": "click", "slots": {"target": "ಬ್ಯಾಕ್"}}
+{"text": "ಕ್ಲೋಸ್ ಬಟನ್ ಒತ್ತು", "action": "click", "slots": {"target": "ಕ್ಲೋಸ್"}}
+{"text": "ಯೆಸ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ", "action": "click", "slots": {"target": "ಯೆಸ್"}}
+{"text": "ಅಕ್ಸೆಪ್ಟ್ ಬಟನ್ ಒತ್ತಿ", "action": "click", "slots": {"target": "ಅಕ್ಸೆಪ್ಟ್"}}
+{"text": "ಸರ್ಚ್ ಬಟನ್ ಒತ್ತಿ", "action": "click", "slots": {"target": "ಸರ್ಚ್"}}
+{"text": "ದಯವಿಟ್ಟು ಸೇವ್ ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ", "action": "click", "slots": {"target": "ಸೇವ್"}}
+{"text": "ಮೆನು ಮೇಲೆ ಒತ್ತಿ", "action": "click", "slots": {"target": "ಮೆನು"}}
+{"text": "ಸೆಟ್ಟಿಂಗ್ಸ್ ಟ್ಯಾಬ್ ಕ್ಲಿಕ್ ಮಾಡಿ", "action": "click", "slots": {"target": "ಸೆಟ್ಟಿಂಗ್ಸ್"}}
+{"text": "ಸ್ವಲ್ಪ ಕಂಟಿನ್ಯೂ ಬಟನ್ ಒತ್ತಿ", "action": "click", "slots": {"target": "ಕಂಟಿನ್ಯೂ"}}
+{"text": "ಆ ಡಿಲೀಟ್ ಬಟನ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡು", "action": "click", "slots": {"target": "ಡಿಲೀಟ್"}}
+{"text": "ರಿಪ್ಲೈ ಬಟನ್ ಒತ್ತಿ ಬಿಡು", "action": "click", "slots": {"target": "ರಿಪ್ಲೈ"}}
+{"text": "ಲಾಗೌಟ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ", "action": "click", "slots": {"target": "ಲಾಗೌಟ್"}}
+{"text": "ಕೆಳಗೆ ಇರೋ ಓಕೆ ಬಟನ್ ಒತ್ತಿ", "action": "click", "slots": {"target": "ಓಕೆ"}}
+{"text": "ಫೈಲ್ ಮೆನು ಕ್ಲಿಕ್ ಮಾಡು", "action": "click", "slots": {"target": "ಫೈಲ್"}}
+{"text": "ಇನ್‌ಸ್ಟಾಲ್ ಬಟನ್ ಮೇಲೆ ಒತ್ತಿ", "action": "click", "slots": {"target": "ಇನ್‌ಸ್ಟಾಲ್"}}
+{"text": "ಮೊದಲನೇ ಲಿಂಕ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ", "action": "click", "slots": {"target": "ಮೊದಲನೇ ಲಿಂಕ್"}}
+{"text": "ಅಪ್ಲೈ ಬಟನ್ ಒತ್ತು", "action": "click", "slots": {"target": "ಅಪ್ಲೈ"}}
+{"text": "ಸ್ಕಿಪ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ ಬೇಗ", "action": "click", "slots": {"target": "ಸ್ಕಿಪ್"}}
+{"text": "ಕನ್ಫರ್ಮ್ ಬಟನ್ ಒತ್ತಿ", "action": "click", "slots": {"target": "ಕನ್ಫರ್ಮ್"}}
+{"text": "ನೋ ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡು", "action": "click", "slots": {"target": "ನೋ"}}
+{"text": "ಹೋಮ್ ಟ್ಯಾಬ್ ಮೇಲೆ ಒತ್ತಿ", "action": "click", "slots": {"target": "ಹೋಮ್"}}
+{"text": "pop up alli iro OK annodu otti bidu yaar", "action": "click", "slots": {"target": "OK"}}
+{"text": "Next button nokku", "action": "click", "slots": {"target": "Next"}}
+{"text": "Send button press cheyyandi", "action": "click", "slots": {"target": "Send"}}
+{"text": "Cancel button meeda click cheyyi ra", "action": "click", "slots": {"target": "Cancel"}}
+{"text": "Login button nokku konjam", "action": "click", "slots": {"target": "Login"}}
+{"text": "Sign in meeda click cheyandi.", "action": "click", "slots": {"target": "Sign in"}}
+{"text": "Download link meeda klik cheyyi", "action": "click", "slots": {"target": "Download"}}
+{"text": "Back button nokkandi amma ki chupinchali", "action": "click", "slots": {"target": "Back"}}
+{"text": "Close button meeda okka click", "action": "click", "slots": {"target": "Close"}}
+{"text": "Yes ani unna button nokku", "action": "click", "slots": {"target": "Yes"}}
+{"text": "Accept meeda click cheyyi babu", "action": "click", "slots": {"target": "Accept"}}
+{"text": "Play button nokkandi", "action": "click", "slots": {"target": "Play"}}
+{"text": "File menu open cheyyi click chesi", "action": "click", "slots": {"target": "File"}}
+{"text": "Settings tab meeda click cheyandi please", "action": "click", "slots": {"target": "Settings"}}
+{"text": "Submit buton mida clik cheyi", "action": "click", "slots": {"target": "Submit"}}
+{"text": "Continue ani rasi undi kada, adi nokku", "action": "click", "slots": {"target": "Continue"}}
+{"text": "Add to cart button meeda click cheyyi", "action": "click", "slots": {"target": "Add to cart"}}
+{"text": "Pay now button nokkandi garu", "action": "click", "slots": {"target": "Pay now"}}
+{"text": "Next var click kar na", "action": "click", "slots": {"target": "Next"}}
+{"text": "OK button daba", "action": "click", "slots": {"target": "OK"}}
+{"text": "Send var click kara please", "action": "click", "slots": {"target": "Send"}}
+{"text": "Cancel button dabav", "action": "click", "slots": {"target": "Cancel"}}
+{"text": "Login var click kar re", "action": "click", "slots": {"target": "Login"}}
+{"text": "Sign in button var click kara.", "action": "click", "slots": {"target": "Sign in"}}
+{"text": "Download button dabaa ki", "action": "click", "slots": {"target": "Download"}}
+{"text": "Back button var click kara zara", "action": "click", "slots": {"target": "Back"}}
+{"text": "Te close wala button daba", "action": "click", "slots": {"target": "close"}}
+{"text": "Accept all var click kar", "action": "click", "slots": {"target": "Accept all"}}
+{"text": "Play var click kar baba", "action": "click", "slots": {"target": "Play"}}
+{"text": "Home tab var click kara", "action": "click", "slots": {"target": "Home"}}
+{"text": "Edit menu var klik kar", "action": "click", "slots": {"target": "Edit"}}
+{"text": "Sabmit var kilk kara", "action": "click", "slots": {"target": "Sabmit"}}
+{"text": "Arey te Register button dabav na lavkar", "action": "click", "slots": {"target": "Register"}}
+{"text": "Skip ad button var click kar", "action": "click", "slots": {"target": "Skip ad"}}
+{"text": "Submit button e click koro", "action": "click", "slots": {"target": "Submit"}}
+{"text": "Next e click koro", "action": "click", "slots": {"target": "Next"}}
+{"text": "Send button e ektu click koro to", "action": "click", "slots": {"target": "Send"}}
+{"text": "Cancel button ta tipe dao", "action": "click", "slots": {"target": "Cancel"}}
+{"text": "Login e click koro please", "action": "click", "slots": {"target": "Login"}}
+{"text": "Sign in button e click kore dao.", "action": "click", "slots": {"target": "Sign in"}}
+{"text": "Download e click koro", "action": "click", "slots": {"target": "Download"}}
+{"text": "Back button ta tipo na", "action": "click", "slots": {"target": "Back"}}
+{"text": "Close e click koro", "action": "click", "slots": {"target": "Close"}}
+{"text": "Haan Yes button e click koro", "action": "click", "slots": {"target": "Yes"}}
+{"text": "Play button e click koro to baba", "action": "click", "slots": {"target": "Play"}}
+{"text": "Search button ta tipe dao", "action": "click", "slots": {"target": "Search"}}
+{"text": "View menu te click koro", "action": "click", "slots": {"target": "View"}}
+{"text": "Profile tab e click koro", "action": "click", "slots": {"target": "Profile"}}
+{"text": "Sabmit botam e clik koro", "action": "click", "slots": {"target": "Sabmit"}}
+{"text": "Oi je Proceed button ache, okhane click koro", "action": "click", "slots": {"target": "Proceed"}}
+{"text": "Forgot password link e click koro", "action": "click", "slots": {"target": "Forgot password"}}
+{"text": "Confirm button ta tipe dao ektu", "action": "click", "slots": {"target": "Confirm"}}
+{"text": "Submit button il click cheyyu", "action": "click", "slots": {"target": "Submit"}}
+{"text": "Next il njekku", "action": "click", "slots": {"target": "Next"}}
+{"text": "OK button amarthu", "action": "click", "slots": {"target": "OK"}}
+{"text": "Send il click cheyyu mone", "action": "click", "slots": {"target": "Send"}}
+{"text": "Cancel button il onnu njekku", "action": "click", "slots": {"target": "Cancel"}}
+{"text": "Login il click cheyyamo", "action": "click", "slots": {"target": "Login"}}
+{"text": "Sign in button amarthu.", "action": "click", "slots": {"target": "Sign in"}}
+{"text": "Back il njekku", "action": "click", "slots": {"target": "Back"}}
+{"text": "Close button il click cheyyu please", "action": "click", "slots": {"target": "Close"}}
+{"text": "Yes ennu ulla button il njekku", "action": "click", "slots": {"target": "Yes"}}
+{"text": "Accept il onnu click cheyyu", "action": "click", "slots": {"target": "Accept"}}
+{"text": "Play button amarthu mole", "action": "click", "slots": {"target": "Play"}}
+{"text": "Search button il click cheyyu", "action": "click", "slots": {"target": "Search"}}
+{"text": "Insert menu il click cheyyu", "action": "click", "slots": {"target": "Insert"}}
+{"text": "Downloads tab il njekku", "action": "click", "slots": {"target": "Downloads"}}
+{"text": "Sabmitt il klik cheyu", "action": "click", "slots": {"target": "Sabmitt"}}
+{"text": "Aa thazhe ulla Agree button il onnu click cheythe", "action": "click", "slots": {"target": "Agree"}}
+{"text": "Subscribe button il njekku", "action": "click", "slots": {"target": "Subscribe"}}
+{"text": "Save button il click cheyyu vegam", "action": "click", "slots": {"target": "Save"}}
+{"text": "Next par click karo ne", "action": "click", "slots": {"target": "Next"}}
+{"text": "OK button dabavo", "action": "click", "slots": {"target": "OK"}}
+{"text": "Send button par click kari do", "action": "click", "slots": {"target": "Send"}}
+{"text": "Cancel button dabavi do bhai", "action": "click", "slots": {"target": "Cancel"}}
+{"text": "Login par click karo jara", "action": "click", "slots": {"target": "Login"}}
+{"text": "Sign in button par click karo.", "action": "click", "slots": {"target": "Sign in"}}
+{"text": "Download par click kari do", "action": "click", "slots": {"target": "Download"}}
+{"text": "Back button dabavo", "action": "click", "slots": {"target": "Back"}}
+{"text": "Close par click karo", "action": "click", "slots": {"target": "Close"}}
+{"text": "Haa Yes button par click karo", "action": "click", "slots": {"target": "Yes"}}
+{"text": "Accept par click kari do please", "action": "click", "slots": {"target": "Accept"}}
+{"text": "Play button dabavo ne", "action": "click", "slots": {"target": "Play"}}
+{"text": "Format menu par click karo", "action": "click", "slots": {"target": "Format"}}
+{"text": "Sent tab par click karo", "action": "click", "slots": {"target": "Sent"}}
+{"text": "Sabmit batan par klik karo", "action": "click", "slots": {"target": "Sabmit"}}
+{"text": "Aa niche je Book now button che ene dabavo", "action": "click", "slots": {"target": "Book now"}}
+{"text": "Print button dabavi do kem", "action": "click", "slots": {"target": "Print"}}
+{"text": "Submit button te click karo", "action": "click", "slots": {"target": "Submit"}}
+{"text": "Next te click kar de", "action": "click", "slots": {"target": "Next"}}
+{"text": "OK button dabba de", "action": "click", "slots": {"target": "OK"}}
+{"text": "Send te click kar do ji", "action": "click", "slots": {"target": "Send"}}
+{"text": "Login te click kar yaar", "action": "click", "slots": {"target": "Login"}}
+{"text": "Sign in button te click karo ji.", "action": "click", "slots": {"target": "Sign in"}}
+{"text": "Download te click kar de puttar", "action": "click", "slots": {"target": "Download"}}
+{"text": "Back button dabba", "action": "click", "slots": {"target": "Back"}}
+{"text": "Close te click kar do", "action": "click", "slots": {"target": "Close"}}
+{"text": "Haanji Yes button te click kar do", "action": "click", "slots": {"target": "Yes"}}
+{"text": "Accept te click karo please", "action": "click", "slots": {"target": "Accept"}}
+{"text": "Play button te click kar de", "action": "click", "slots": {"target": "Play"}}
+{"text": "Search button dabba de veere", "action": "click", "slots": {"target": "Search"}}
+{"text": "Tools menu te click karo", "action": "click", "slots": {"target": "Tools"}}
+{"text": "Videos tab te click kar", "action": "click", "slots": {"target": "Videos"}}
+{"text": "Sabmit batan te kalik kar", "action": "click", "slots": {"target": "Sabmit"}}
+{"text": "Oh jehda thalle Verify OTP button hai ohnu dabba do ji", "action": "click", "slots": {"target": "Verify OTP"}}
+{"text": "Delete button te click karo", "action": "click", "slots": {"target": "Delete"}}
+{"text": "Open ni button te click kar", "action": "click", "slots": {"target": "Open"}}
+{"text": "Submit button click pannu", "action": "click", "slots": {"target": "Submit"}}
+{"text": "submit button ah click pannunga please", "action": "click", "slots": {"target": "submit"}}
+{"text": "next ah amukku", "action": "click", "slots": {"target": "next"}}
+{"text": "konjam next button ah thattunga", "action": "click", "slots": {"target": "next"}}
+{"text": "ok ah press pannu da", "action": "click", "slots": {"target": "ok"}}
+{"text": "Send button mela click pannu", "action": "click", "slots": {"target": "Send"}}
+{"text": "send ah amuthu", "action": "click", "slots": {"target": "send"}}
+{"text": "cancel nu irukura button ah press pannunga", "action": "click", "slots": {"target": "cancel"}}
+{"text": "Sign in button ah amukku", "action": "click", "slots": {"target": "Sign in"}}
+{"text": "sign in ah click pannunga amma", "action": "click", "slots": {"target": "sign in"}}
+{"text": "Download button ah click pannu", "action": "click", "slots": {"target": "Download"}}
+{"text": "download link mela click pannu", "action": "click", "slots": {"target": "download"}}
+{"text": "back ah click pannu konjam", "action": "click", "slots": {"target": "back"}}
+{"text": "Close button ah click pannu", "action": "click", "slots": {"target": "Close"}}
+{"text": "close mela amukku", "action": "click", "slots": {"target": "close"}}
+{"text": "Yes button ah press pannu", "action": "click", "slots": {"target": "Yes"}}
+{"text": "yes nu click pannu", "action": "click", "slots": {"target": "yes"}}
+{"text": "Accept button ah click pannunga", "action": "click", "slots": {"target": "Accept"}}
+{"text": "accept ah amukku please", "action": "click", "slots": {"target": "accept"}}
+{"text": "Play button mela click pannu", "action": "click", "slots": {"target": "Play"}}
+{"text": "play button ah thattu", "action": "click", "slots": {"target": "play"}}
+{"text": "Search button ah click pannu", "action": "click", "slots": {"target": "Search"}}
+{"text": "search button mela press pannu da", "action": "click", "slots": {"target": "search"}}
+{"text": "File menu ah click pannu", "action": "click", "slots": {"target": "File"}}
+{"text": "Edit menu click pannunga", "action": "click", "slots": {"target": "Edit"}}
+{"text": "Settings tab mela click pannu", "action": "click", "slots": {"target": "Settings"}}
+{"text": "Home tab ah click pannu", "action": "click", "slots": {"target": "Home"}}
+{"text": "Images tab ku click pannu", "action": "click", "slots": {"target": "Images"}}
+{"text": "News tab mela click pannunga", "action": "click", "slots": {"target": "News"}}
+{"text": "Shorts tab ah click pannu", "action": "click", "slots": {"target": "Shorts"}}
+{"text": "Continue button ah click pannu", "action": "click", "slots": {"target": "Continue"}}
+{"text": "continue nu irukura button press pannu", "action": "click", "slots": {"target": "continue"}}
+{"text": "Skip button ah amukku", "action": "click", "slots": {"target": "Skip"}}
+{"text": "skip ad mela click pannu", "action": "click", "slots": {"target": "skip ad"}}
+{"text": "Save button click pannu", "action": "click", "slots": {"target": "Save"}}
+{"text": "save ah press pannunga konjam", "action": "click", "slots": {"target": "save"}}
+{"text": "Delete button ah click pannu", "action": "click", "slots": {"target": "Delete"}}
+{"text": "No button mela click pannu", "action": "click", "slots": {"target": "No"}}
+{"text": "Allow button ah click pannu", "action": "click", "slots": {"target": "Allow"}}
+{"text": "allow ah amukku pa", "action": "click", "slots": {"target": "allow"}}
+{"text": "Register button ah click pannunga", "action": "click", "slots": {"target": "Register"}}
+{"text": "Verify button click pannu", "action": "click", "slots": {"target": "Verify"}}
+{"text": "Proceed to pay button mela click pannu", "action": "click", "slots": {"target": "Proceed to pay"}}
+{"text": "Add to cart button ah click pannu", "action": "click", "slots": {"target": "Add to cart"}}
+{"text": "Buy now mela click pannu", "action": "click", "slots": {"target": "Buy now"}}
+{"text": "Read more link mela click pannu", "action": "click", "slots": {"target": "Read more"}}
+{"text": "forgot password link ah click pannu", "action": "click", "slots": {"target": "forgot password"}}
+{"text": "Subscribe button ah press pannu", "action": "click", "slots": {"target": "Subscribe"}}
+{"text": "Like button ah click pannunga", "action": "click", "slots": {"target": "Like"}}
+{"text": "Share button mela click pannu", "action": "click", "slots": {"target": "Share"}}
+{"text": "Reply button ah click pannu", "action": "click", "slots": {"target": "Reply"}}
+{"text": "Attach button mela click pannu", "action": "click", "slots": {"target": "Attach"}}
+{"text": "Print button ah click pannu", "action": "click", "slots": {"target": "Print"}}
+{"text": "Open button click pannunga", "action": "click", "slots": {"target": "Open"}}
+{"text": "Upload button ah amukku", "action": "click", "slots": {"target": "Upload"}}
+{"text": "Apply button mela click pannu", "action": "click", "slots": {"target": "Apply"}}
+{"text": "Done button ah click pannu", "action": "click", "slots": {"target": "Done"}}
+{"text": "Install button ah click pannu", "action": "click", "slots": {"target": "Install"}}
+{"text": "Update now button mela click pannu", "action": "click", "slots": {"target": "Update now"}}
+{"text": "Refresh button ah click pannu", "action": "click", "slots": {"target": "Refresh"}}
+{"text": "Menu button ah click pannu", "action": "click", "slots": {"target": "Menu"}}
+{"text": "three dots menu mela click pannu", "action": "click", "slots": {"target": "three dots"}}
+{"text": "Help menu ah click pannunga", "action": "click", "slots": {"target": "Help"}}
+{"text": "Start button ah click pannu", "action": "click", "slots": {"target": "Start"}}
+{"text": "Pause button ah amukku", "action": "click", "slots": {"target": "Pause"}}
+{"text": "Full screen button mela click pannu", "action": "click", "slots": {"target": "Full screen"}}
+{"text": "Mute button ah click pannu", "action": "click", "slots": {"target": "Mute"}}
+{"text": "konjam andha blue colour Submit button ah click pannunga please", "action": "click", "slots": {"target": "Submit"}}
+{"text": "thambi andha OK button ah oru thadava press pannu", "action": "click", "slots": {"target": "OK"}}
+{"text": "ennoda paati solranga next button ah click pannu", "action": "click", "slots": {"target": "next"}}
+{"text": "ayyo andha close button ah seekiram click pannu", "action": "click", "slots": {"target": "close"}}
+{"text": "paaru andha Yes button mela click pannu da", "action": "click", "slots": {"target": "Yes"}}
+{"text": "sabmit batton ah klik pannu", "action": "click", "slots": {"target": "sabmit"}}
+{"text": "nexxt button amuku", "action": "click", "slots": {"target": "nexxt"}}
+{"text": "logn button ah clik pannu", "action": "click", "slots": {"target": "logn"}}
+{"text": "kancel button mela klick pannu", "action": "click", "slots": {"target": "kancel"}}
+{"text": "donload button ah amukku", "action": "click", "slots": {"target": "donload"}}
+{"text": "saine in button press panu", "action": "click", "slots": {"target": "saine in"}}
+{"text": "okey button ah kilik pannu", "action": "click", "slots": {"target": "okey"}}
+{"text": "accep button mela clik pannunga", "action": "click", "slots": {"target": "accep"}}
+{"text": "play baton ah amukku", "action": "click", "slots": {"target": "play"}}
+{"text": "saerch button ah klik pannu", "action": "click", "slots": {"target": "saerch"}}
+{"text": "clos button mela click panu", "action": "click", "slots": {"target": "clos"}}
+{"text": "சப்மிட் பட்டன் கிளிக் பண்ணு", "action": "click", "slots": {"target": "சப்மிட்"}}
+{"text": "நெக்ஸ்ட் பட்டன அமுக்கு", "action": "click", "slots": {"target": "நெக்ஸ்ட்"}}
+{"text": "ஓகே பட்டன் மேல கிளிக் பண்ணுங்க", "action": "click", "slots": {"target": "ஓகே"}}
+{"text": "சென்ட் பட்டன கிளிக் பண்ணு", "action": "click", "slots": {"target": "சென்ட்"}}
+{"text": "கேன்சல் பட்டன அழுத்து", "action": "click", "slots": {"target": "கேன்சல்"}}
+{"text": "லாகின் பட்டன் மேல கிளிக் பண்ணு", "action": "click", "slots": {"target": "லாகின்"}}
+{"text": "சைன் இன் பட்டன அமுக்குங்க", "action": "click", "slots": {"target": "சைன் இன்"}}
+{"text": "டவுன்லோட் பட்டன கிளிக் பண்ணு", "action": "click", "slots": {"target": "டவுன்லோட்"}}
+{"text": "பேக் பட்டன அழுத்து", "action": "click", "slots": {"target": "பேக்"}}
+{"text": "குளோஸ் பட்டன் மேல கிளிக் பண்ணு", "action": "click", "slots": {"target": "குளோஸ்"}}
+{"text": "எஸ் பட்டன கிளிக் பண்ணுங்க", "action": "click", "slots": {"target": "எஸ்"}}
+{"text": "அக்செப்ட் பட்டன அமுக்கு", "action": "click", "slots": {"target": "அக்செப்ட்"}}
+{"text": "ப்ளே பட்டன் மேல கிளிக் பண்ணு", "action": "click", "slots": {"target": "ப்ளே"}}
+{"text": "சர்ச் பட்டன கிளிக் பண்ணு", "action": "click", "slots": {"target": "சர்ச்"}}
+{"text": "ஃபைல் மெனுவ கிளிக் பண்ணு", "action": "click", "slots": {"target": "ஃபைல்"}}
+{"text": "செட்டிங்ஸ் டேப் மேல கிளிக் பண்ணு", "action": "click", "slots": {"target": "செட்டிங்ஸ்"}}
+{"text": "கன்டின்யூ பட்டன அழுத்துங்க", "action": "click", "slots": {"target": "கன்டின்யூ"}}
+{"text": "சேவ் பட்டன கொஞ்சம் கிளிக் பண்ணு", "action": "click", "slots": {"target": "சேவ்"}}
+{"text": "அந்த நீல கலர் சப்மிட் பட்டன கிளிக் பண்ணுங்க ப்ளீஸ்", "action": "click", "slots": {"target": "சப்மிட்"}}
+{"text": "ஸ்கிப் ஆட் மேல கிளிக் பண்ணு", "action": "click", "slots": {"target": "ஸ்கிப் ஆட்"}}
+{"text": "ரிப்ளை பட்டன அமுக்கு", "action": "click", "slots": {"target": "ரிப்ளை"}}
+{"text": "அலவ் பட்டன கிளிக் பண்ணு", "action": "click", "slots": {"target": "அலவ்"}}
+{"text": "டன் பட்டன் மேல அழுத்து", "action": "click", "slots": {"target": "டன்"}}
+{"text": "இன்ஸ்டால் பட்டன கிளிக் பண்ணுங்க", "action": "click", "slots": {"target": "இன்ஸ்டால்"}}
+{"text": "Ok button ah click pannu.", "action": "click", "slots": {"target": "Ok"}}
+{"text": "Sign up button mela click pannunga", "action": "click", "slots": {"target": "Sign up"}}
+{"text": "andha Log out link ah click pannu", "action": "click", "slots": {"target": "Log out"}}
+{"text": "அடுத்த பக்கம் லிங்க கிளிக் பண்ணு", "action": "click", "slots": {"target": "அடுத்த பக்கம்"}}
+{"text": "Cancel button pe click karo.", "action": "click", "slots": {"target": "Cancel"}}
+{"text": "close button pe click kar do", "action": "click", "slots": {"target": "close"}}
+{"text": "stop recording wale button ko dabao", "action": "click", "slots": {"target": "stop recording"}}
+{"text": "Cancel pe tap karo", "action": "click", "slots": {"target": "Cancel"}}
+{"text": "cross wala close button daba do", "action": "click", "slots": {"target": "close"}}
+{"text": "popup mein cancel dabao", "action": "click", "slots": {"target": "cancel"}}
+{"text": "dialog box ka cancel button press karo", "action": "click", "slots": {"target": "cancel"}}
+{"text": "upar right mein close pe click karo", "action": "click", "slots": {"target": "close"}}
+{"text": "Stop button dabao video ka", "action": "click", "slots": {"target": "Stop"}}
+{"text": "abort button pe click karo", "action": "click", "slots": {"target": "abort"}}
+{"text": "cancel subscription pe click karo", "action": "click", "slots": {"target": "cancel subscription"}}
+{"text": "discard button daba do", "action": "click", "slots": {"target": "discard"}}
+{"text": "Don't save pe click karo", "action": "click", "slots": {"target": "Don't save"}}
+{"text": "No thanks button dabao", "action": "click", "slots": {"target": "No thanks"}}
+{"text": "close tab wale button pe click karo", "action": "click", "slots": {"target": "close tab"}}
+{"text": "Not now button dabao", "action": "click", "slots": {"target": "Not now"}}
+{"text": "stop sharing button dabao", "action": "click", "slots": {"target": "stop sharing"}}
+{"text": "end call pe click karo", "action": "click", "slots": {"target": "end call"}}
+{"text": "leave meeting wala button dabao", "action": "click", "slots": {"target": "leave meeting"}}
+{"text": "Exit button daba do", "action": "click", "slots": {"target": "Exit"}}
+{"text": "Cancel booking button pe click karo", "action": "click", "slots": {"target": "Cancel booking"}}
+{"text": "clear all button dabao", "action": "click", "slots": {"target": "clear all"}}
+{"text": "reset button pe click karo", "action": "click", "slots": {"target": "reset"}}
+{"text": "close pe klik karo", "action": "click", "slots": {"target": "close"}}
+{"text": "cancle button dabao", "action": "click", "slots": {"target": "cancle"}}
+{"text": "Kensal button pe click karo", "action": "click", "slots": {"target": "Kensal"}}
+{"text": "neeche jo cancel button hai usko dabao", "action": "click", "slots": {"target": "cancel"}}
+{"text": "Cancel aur OK mein se Cancel pe click karo", "action": "click", "slots": {"target": "Cancel"}}
+{"text": "haan, cancel pe hi click karo", "action": "click", "slots": {"target": "cancel"}}
+{"text": "cancel button ko press karna hai", "action": "click", "slots": {"target": "cancel"}}
+{"text": "pause button dabao", "action": "click", "slots": {"target": "pause"}}
+{"text": "mute button pe click karo", "action": "click", "slots": {"target": "mute"}}
+{"text": "sign out button dabao", "action": "click", "slots": {"target": "sign out"}}
+{"text": "cancel button otti", "action": "click", "slots": {"target": "cancel"}}
+{"text": "close button mele click maadi", "action": "click", "slots": {"target": "close"}}
+{"text": "cancel mele click maadu", "action": "click", "slots": {"target": "cancel"}}
+{"text": "stop button otthu", "action": "click", "slots": {"target": "stop"}}
+{"text": "No button otti", "action": "click", "slots": {"target": "No"}}
+{"text": "skip ad mele click maadi", "action": "click", "slots": {"target": "skip ad"}}
+{"text": "ಕ್ಯಾನ್ಸಲ್ ಬಟನ್ ಒತ್ತು", "action": "click", "slots": {"target": "ಕ್ಯಾನ್ಸಲ್"}}
+{"text": "close button amukku", "action": "click", "slots": {"target": "close"}}
+{"text": "cancel mela click pannunga", "action": "click", "slots": {"target": "cancel"}}
+{"text": "send button click pannu", "action": "click", "slots": {"target": "send"}}
+{"text": "ரத்து பட்டனை அழுத்து", "action": "click", "slots": {"target": "ரத்து"}}
+{"text": "கேன்சல் பட்டனை கிளிக் பண்ணு", "action": "click", "slots": {"target": "கேன்சல்"}}
+{"text": "कैंसल बटन दबाओ", "action": "click", "slots": {"target": "कैंसल"}}
+{"text": "क्लोज़ पर क्लिक करो", "action": "click", "slots": {"target": "क्लोज़"}}
+{"text": "रद्द करें वाले बटन पर क्लिक करो", "action": "click", "slots": {"target": "रद्द करें"}}
+{"text": "Click on cancel.", "action": "click", "slots": {"target": "cancel"}}
+{"text": "hit the stop button on the timer", "action": "click", "slots": {"target": "stop"}}
+{"text": "click the cancel button in the popup", "action": "click", "slots": {"target": "cancel"}}
+{"text": "tap on cancel order", "action": "click", "slots": {"target": "cancel order"}}
+{"text": "click the cancel my request button", "action": "click", "slots": {"target": "cancel my request"}}
+{"text": "press the X to close this popup", "action": "click", "slots": {"target": "X"}}
+{"text": "Click on discard changes.", "action": "click", "slots": {"target": "discard changes"}}
+{"text": "click the button that says never mind", "action": "click", "slots": {"target": "never mind"}}
+{"text": "close all tabs wale button pe click karo", "action": "click", "slots": {"target": "close all tabs"}}
+{"text": "cancel transaction pe click karo", "action": "click", "slots": {"target": "cancel transaction"}}
+{"text": "close ad pe click karo", "action": "click", "slots": {"target": "close ad"}}
+{"text": "end button dabao call katne ke liye", "action": "click", "slots": {"target": "end"}}
+{"text": "cancel button dabana hai jaldi", "action": "click", "slots": {"target": "cancel"}}
+{"text": "Stop pe click karo, gaana band karna hai", "action": "click", "slots": {"target": "Stop"}}
+{"text": "rehne do, koi button mat dabao", "action": "cancel", "slots": {}}
+{"text": "chhodo, click karne ki zarurat nahi", "action": "cancel", "slots": {}}
+{"text": "nahi nahi, send mat karo, cancel", "action": "cancel", "slots": {}}
+{"text": "cancel karo, galat bol diya", "action": "cancel", "slots": {}}
+{"text": "ruko ruko, kuch mat dabao", "action": "cancel", "slots": {}}
+{"text": "rehne do, screen pe kuch nahi karna", "action": "cancel", "slots": {}}
+{"text": "never mind, button nahi dabana", "action": "cancel", "slots": {}}
+{"text": "chhod do ye sab", "action": "cancel", "slots": {}}
+{"text": "bas, ruk jao, mat karo", "action": "cancel", "slots": {}}
+{"text": "cancel cancel, kuch nahi chahiye", "action": "cancel", "slots": {}}
+{"text": "nahi chahiye, cancel kar do ye request", "action": "cancel", "slots": {}}
+{"text": "mujhe click nahi karna, rehne do", "action": "cancel", "slots": {}}
+{"text": "abhi nahi, baad mein karenge, rehne do", "action": "cancel", "slots": {}}
+{"text": "stop, ye nahi karna", "action": "cancel", "slots": {}}
+{"text": "rehne do bhai, cancel button bhi mat dabana", "action": "cancel", "slots": {}}
+{"text": "chhodo, close button dhoondhne ki zarurat nahi", "action": "cancel", "slots": {}}
+{"text": "jo bola tha woh cancel karo", "action": "cancel", "slots": {}}
+{"text": "pichla command cancel karo", "action": "cancel", "slots": {}}
+{"text": "submit mat dabao, rehne do", "action": "cancel", "slots": {}}
+{"text": "ruk jaiye, abhi kuch click mat kijiye", "action": "cancel", "slots": {}}
+{"text": "Stop stop, galat button hai, rehne do", "action": "cancel", "slots": {}}
+{"text": "nahi, OK pe mat click karna, chhodo", "action": "cancel", "slots": {}}
+{"text": "cancel kar", "action": "cancel", "slots": {}}
+{"text": "kensal karo", "action": "cancel", "slots": {}}
+{"text": "rehen do", "action": "cancel", "slots": {}}
+{"text": "leave it, mat karo", "action": "cancel", "slots": {}}
+{"text": "bas karo, aur kuch mat dabana", "action": "cancel", "slots": {}}
+{"text": "ye wala kaam cancel kar do", "action": "cancel", "slots": {}}
+{"text": "jaane do, click wala kaam nahi karna", "action": "cancel", "slots": {}}
+{"text": "rehne do, screen padhne ki zarurat nahi", "action": "cancel", "slots": {}}
+{"text": "abhi mat karo, ruk jao", "action": "cancel", "slots": {}}
+{"text": "Stop karo ye sab, kuch nahi chahiye.", "action": "cancel", "slots": {}}
+{"text": "mera matlab ye nahi tha, cancel karo", "action": "cancel", "slots": {}}
+{"text": "chalo chhodo, delete button mat dabana", "action": "cancel", "slots": {}}
+{"text": "button wala rehne do, main khud kar lunga", "action": "cancel", "slots": {}}
+{"text": "nahi rehne do, main khud click kar lunga", "action": "cancel", "slots": {}}
+{"text": "cancel kar do, main haath se kar lungi", "action": "cancel", "slots": {}}
+{"text": "cancel that", "action": "cancel", "slots": {}}
+{"text": "stop, don't click anything", "action": "cancel", "slots": {}}
+{"text": "forget it, I'll press the button myself", "action": "cancel", "slots": {}}
+{"text": "no wait, don't hit send, cancel it", "action": "cancel", "slots": {}}
+{"text": "cancel the last command", "action": "cancel", "slots": {}}
+{"text": "leave it, no need to close anything", "action": "cancel", "slots": {}}
+{"text": "Never mind, I don't want to click it.", "action": "cancel", "slots": {}}
+{"text": "Stop. Don't do that.", "action": "cancel", "slots": {}}
+{"text": "oh no, cancel, wrong button", "action": "cancel", "slots": {}}
+{"text": "hold on, don't press anything, forget it", "action": "cancel", "slots": {}}
+{"text": "beda, button otthabedi", "action": "cancel", "slots": {}}
+{"text": "bidu, click maadodu beda", "action": "cancel", "slots": {}}
+{"text": "cancel maadu, tappu helde", "action": "cancel", "slots": {}}
+{"text": "beda beda, send maadbeda", "action": "cancel", "slots": {}}
+{"text": "nillisu, enu maadbeda", "action": "cancel", "slots": {}}
+{"text": "bidi, naane click maadtini", "action": "cancel", "slots": {}}
+{"text": "ಬೇಡ, ಯಾವುದೇ ಬಟನ್ ಒತ್ತಬೇಡ", "action": "cancel", "slots": {}}
+{"text": "beda, close button hudukbeda", "action": "cancel", "slots": {}}
+{"text": "vendam, button amukka vendam", "action": "cancel", "slots": {}}
+{"text": "vidu, click panna vendam", "action": "cancel", "slots": {}}
+{"text": "cancel pannu, thappa sonnen", "action": "cancel", "slots": {}}
+{"text": "vendam vendam, send pannadhe", "action": "cancel", "slots": {}}
+{"text": "niruthu, onnum pannadhe", "action": "cancel", "slots": {}}
+{"text": "paravala vidu, naane click panren", "action": "cancel", "slots": {}}
+{"text": "வேண்டாம், எந்த பட்டனையும் அழுத்தாதே", "action": "cancel", "slots": {}}
+{"text": "रहने दो", "action": "cancel", "slots": {}}
+{"text": "रहने दो, कोई बटन मत दबाओ", "action": "cancel", "slots": {}}
+{"text": "छोड़ो, क्लिक नहीं करना", "action": "cancel", "slots": {}}
+{"text": "कैंसल करो, गलत बोल दिया", "action": "cancel", "slots": {}}
+{"text": "रुको, सेंड मत करना", "action": "cancel", "slots": {}}
+{"text": "arey nahi, cancel karo, close nahi karna tha", "action": "cancel", "slots": {}}
+{"text": "Rehne do. Stop kar do.", "action": "cancel", "slots": {}}
+{"text": "button dabane wala kaam mat karo, rehne do", "action": "cancel", "slots": {}}
+{"text": "Chhodo yaar, kuch mat dabao.", "action": "cancel", "slots": {}}
+{"text": "YouTube kholo zara", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "youtube open karo bas, kuch chalana nahi", "action": "open_app", "slots": {"app": "youtube"}}
+{"text": "Spotify khol do.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "YouTube khol do, gaana main khud dhoond lunga", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "bas youtube kholna hai, play kuch mat karna", "action": "open_app", "slots": {"app": "youtube"}}
+{"text": "Spotify open karo please", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "gaane sunne wala app Spotify kholo", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "YouTube app launch karo", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "vlc open karo.", "action": "open_app", "slots": {"app": "vlc"}}
+{"text": "Windows media player kholo", "action": "open_app", "slots": {"app": "Windows media player"}}
+{"text": "JioSaavn app kholo", "action": "open_app", "slots": {"app": "JioSaavn"}}
+{"text": "wynk music kholo", "action": "open_app", "slots": {"app": "wynk music"}}
+{"text": "Netflix kholo", "action": "open_app", "slots": {"app": "Netflix"}}
+{"text": "Hotstar open karo", "action": "open_app", "slots": {"app": "Hotstar"}}
+{"text": "Amazon Prime Video app kholo", "action": "open_app", "slots": {"app": "Amazon Prime Video"}}
+{"text": "YouTube chalu karo", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "Spotify chalu kar do bas", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Media player open karo", "action": "open_app", "slots": {"app": "Media player"}}
+{"text": "Chrome kholo, YouTube nahi", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "Spotify ko open kar do, gaana baad mein chunenge", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "YouTube open maadi", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "youtube tegi", "action": "open_app", "slots": {"app": "youtube"}}
+{"text": "VLC player tegiri", "action": "open_app", "slots": {"app": "VLC player"}}
+{"text": "Spotify app shuru maadi", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Spotify thira", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "YouTube app ah thirandhu vidu", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "VLC open pannunga", "action": "open_app", "slots": {"app": "VLC"}}
+{"text": "Open YouTube.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "Launch Spotify", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Can you open the YouTube app", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "Just open Spotify, don't play anything", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Start VLC media player", "action": "open_app", "slots": {"app": "VLC media player"}}
+{"text": "Open the Netflix app", "action": "open_app", "slots": {"app": "Netflix"}}
+{"text": "यूट्यूब खोलो", "action": "open_app", "slots": {"app": "यूट्यूब"}}
+{"text": "स्पॉटिफाई खोल दो", "action": "open_app", "slots": {"app": "स्पॉटिफाई"}}
+{"text": "वीएलसी प्लेयर खोलो", "action": "open_app", "slots": {"app": "वीएलसी प्लेयर"}}
+{"text": "ಯೂಟ್ಯೂಬ್ ತೆಗಿ", "action": "open_app", "slots": {"app": "ಯೂಟ್ಯೂಬ್"}}
+{"text": "ಸ್ಪಾಟಿಫೈ ಓಪನ್ ಮಾಡಿ", "action": "open_app", "slots": {"app": "ಸ್ಪಾಟಿಫೈ"}}
+{"text": "யூடியூப் திற", "action": "open_app", "slots": {"app": "யூடியூப்"}}
+{"text": "ஸ்பாட்டிஃபை ஓபன் பண்ணு", "action": "open_app", "slots": {"app": "ஸ்பாட்டிஃபை"}}
+{"text": "you tube kholo", "action": "open_app", "slots": {"app": "you tube"}}
+{"text": "spot ify open karo", "action": "open_app", "slots": {"app": "spot ify"}}
+{"text": "utube khol do", "action": "open_app", "slots": {"app": "utube"}}
+{"text": "youtub open kar", "action": "open_app", "slots": {"app": "youtub"}}
+{"text": "Spotfy kholo.", "action": "open_app", "slots": {"app": "Spotfy"}}
+{"text": "YouTube kholo, mummy ko kuch dikhana hai", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "Spotify kholo, playlist main khud select karunga", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "start menu mein Spotify dhoondh ke khol do", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "computer mein VLC dhoondo aur open karo", "action": "open_app", "slots": {"app": "VLC"}}
+{"text": "YouTube app search karke khol do", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "radio app kholo", "action": "open_app", "slots": {"app": "radio"}}
+{"text": "FM radio wala app open karo", "action": "open_app", "slots": {"app": "FM radio"}}
+{"text": "Audible app kholo", "action": "open_app", "slots": {"app": "Audible"}}
+{"text": "JioCinema kholo", "action": "open_app", "slots": {"app": "JioCinema"}}
+{"text": "MX Player open karo", "action": "open_app", "slots": {"app": "MX Player"}}
+{"text": "YouTube wapas kholo, band ho gaya", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "Spotify fir se kholo", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "youtube ka app kholna", "action": "open_app", "slots": {"app": "youtube"}}
+{"text": "Netflix open maadi", "action": "open_app", "slots": {"app": "Netflix"}}
+{"text": "JioSaavn tegi", "action": "open_app", "slots": {"app": "JioSaavn"}}
+{"text": "Netflix open pannu", "action": "open_app", "slots": {"app": "Netflix"}}
+{"text": "Gaana app thira", "action": "open_app", "slots": {"app": "Gaana"}}
+{"text": "spotify khol", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "YouTube kholiye", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "Spotify kholiye ji", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Open Windows Media Player", "action": "open_app", "slots": {"app": "Windows Media Player"}}
+{"text": "Chrome mein YouTube kholo", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "Spotify app ko chalu karo bas", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "bhajan wala app JioSaavn kholo", "action": "open_app", "slots": {"app": "JioSaavn"}}
+{"text": "Photos app kholo", "action": "open_app", "slots": {"app": "Photos"}}
+{"text": "camera kholo, video banana hai", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "Spotify app ellide hudki open maadi", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "YouTube app ah thedi open pannu", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "Please open YouTube, I will choose the video myself", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "पहले स्पॉटिफाई ऐप खोलो, गाना मैं चुनूंगा", "action": "open_app", "slots": {"app": "स्पॉटिफाई"}}
+{"text": "Spotify pe Kishore Kumar bajao", "action": "play_media", "slots": {"query": "Kishore Kumar", "app": "Spotify"}}
+{"text": "YouTube par Hanuman Chalisa lagao", "action": "play_media", "slots": {"query": "Hanuman Chalisa", "app": "YouTube"}}
+{"text": "Spotify mein meri playlist chalao", "action": "play_media", "slots": {"query": "meri playlist", "app": "Spotify"}}
+{"text": "youtube pe comedy video chala do", "action": "play_media", "slots": {"query": "comedy video", "app": "youtube"}}
+{"text": "VLC mein movie chalao", "action": "play_media", "slots": {"app": "VLC"}}
+{"text": "VLC player mein Sholay chalao", "action": "play_media", "slots": {"query": "Sholay", "app": "VLC player"}}
+{"text": "JioSaavn pe bhajan sunao", "action": "play_media", "slots": {"query": "bhajan", "app": "JioSaavn"}}
+{"text": "Gaana app pe Punjabi gaane bajao", "action": "play_media", "slots": {"query": "Punjabi gaane", "app": "Gaana"}}
+{"text": "Netflix pe Panchayat chalao", "action": "play_media", "slots": {"query": "Panchayat", "app": "Netflix"}}
+{"text": "YouTube kholke Krishna bhajan chalao", "action": "play_media", "slots": {"query": "Krishna bhajan", "app": "YouTube"}}
+{"text": "Spotify kholo aur lofi songs bajao", "action": "play_media", "slots": {"query": "lofi songs", "app": "Spotify"}}
+{"text": "YouTube pe news chalao", "action": "play_media", "slots": {"query": "news", "app": "YouTube"}}
+{"text": "YouTube par khana banane ka video lagao", "action": "play_media", "slots": {"query": "khana banane ka video", "app": "YouTube"}}
+{"text": "Spotify pe koi podcast chalao", "action": "play_media", "slots": {"query": "podcast", "app": "Spotify"}}
+{"text": "radio chalao", "action": "play_media", "slots": {"query": "radio"}}
+{"text": "FM radio lagao.", "action": "play_media", "slots": {"query": "FM radio"}}
+{"text": "Spotify pe koi bhi gaana bajao", "action": "play_media", "slots": {"app": "Spotify"}}
+{"text": "YouTube pe kuch bhi chala do", "action": "play_media", "slots": {"app": "YouTube"}}
+{"text": "Spotify par Liked Songs chalao", "action": "play_media", "slots": {"query": "Liked Songs", "app": "Spotify"}}
+{"text": "Spotify alli Kannada songs play maadi", "action": "play_media", "slots": {"query": "Kannada songs", "app": "Spotify"}}
+{"text": "YouTube nalli bhakti geethe haaku", "action": "play_media", "slots": {"query": "bhakti geethe", "app": "YouTube"}}
+{"text": "Rajkumar cinema haadu play maadu", "action": "play_media", "slots": {"query": "Rajkumar"}}
+{"text": "Spotify la AR Rahman songs podu", "action": "play_media", "slots": {"query": "AR Rahman", "app": "Spotify"}}
+{"text": "Rajini padam YouTube la podu", "action": "play_media", "slots": {"query": "Rajini", "app": "YouTube"}}
+{"text": "Netflix la oru movie podu", "action": "play_media", "slots": {"app": "Netflix"}}
+{"text": "Play Arijit Singh on Spotify", "action": "play_media", "slots": {"query": "Arijit Singh", "app": "Spotify"}}
+{"text": "Play bhajans on YouTube.", "action": "play_media", "slots": {"query": "bhajans", "app": "YouTube"}}
+{"text": "Put on some old Hindi songs on YouTube", "action": "play_media", "slots": {"query": "old Hindi songs", "app": "YouTube"}}
+{"text": "Play my workout playlist on Spotify", "action": "play_media", "slots": {"query": "my workout playlist", "app": "Spotify"}}
+{"text": "Play the news on YouTube", "action": "play_media", "slots": {"query": "news", "app": "YouTube"}}
+{"text": "यूट्यूब पर भजन चलाओ", "action": "play_media", "slots": {"query": "भजन", "app": "यूट्यूब"}}
+{"text": "स्पॉटिफाई पर किशोर कुमार के गाने बजाओ", "action": "play_media", "slots": {"query": "किशोर कुमार", "app": "स्पॉटिफाई"}}
+{"text": "वीएलसी में फिल्म चलाओ", "action": "play_media", "slots": {"app": "वीएलसी"}}
+{"text": "ಯೂಟ್ಯೂಬ್ ನಲ್ಲಿ ಭಕ್ತಿ ಗೀತೆ ಹಾಕು", "action": "play_media", "slots": {"query": "ಭಕ್ತಿ ಗೀತೆ", "app": "ಯೂಟ್ಯೂಬ್"}}
+{"text": "ಸ್ಪಾಟಿಫೈ ನಲ್ಲಿ ಹಾಡು ಪ್ಲೇ ಮಾಡು", "action": "play_media", "slots": {"app": "ಸ್ಪಾಟಿಫೈ"}}
+{"text": "ஸ்பாட்டிஃபைல ரஹ்மான் பாட்டு போடு", "action": "play_media", "slots": {"query": "ரஹ்மான்", "app": "ஸ்பாட்டிஃபை"}}
+{"text": "you tube pe gana chalao", "action": "play_media", "slots": {"app": "you tube"}}
+{"text": "spot ify pe songs bajao", "action": "play_media", "slots": {"app": "spot ify"}}
+{"text": "utube par bhajan laga do", "action": "play_media", "slots": {"query": "bhajan", "app": "utube"}}
+{"text": "YouTube kholo aur Gayatri mantra chalao", "action": "play_media", "slots": {"query": "Gayatri mantra", "app": "YouTube"}}
+{"text": "Spotify open karke meri playlist play karo", "action": "play_media", "slots": {"query": "meri playlist", "app": "Spotify"}}
+{"text": "VLC kholo aur Downloads wali movie chalao", "action": "play_media", "slots": {"query": "Downloads wali movie", "app": "VLC"}}
+{"text": "MX Player mein video chalao", "action": "play_media", "slots": {"app": "MX Player"}}
+{"text": "jo gaana kal Spotify pe suna tha wo bajao", "action": "play_media", "slots": {"app": "Spotify"}}
+{"text": "YouTube par bachchon ki kavita lagao", "action": "play_media", "slots": {"query": "bachchon ki kavita", "app": "YouTube"}}
+{"text": "YouTube pe Mann ki Baat sunao", "action": "play_media", "slots": {"query": "Mann ki Baat", "app": "YouTube"}}
+{"text": "Spotify par neend wala music lagao", "action": "play_media", "slots": {"query": "neend wala music", "app": "Spotify"}}
+{"text": "Prime Video pe Mirzapur lagao", "action": "play_media", "slots": {"query": "Mirzapur", "app": "Prime Video"}}
+{"text": "YouTube pe Sandeep Maheshwari ka video chalao", "action": "play_media", "slots": {"query": "Sandeep Maheshwari", "app": "YouTube"}}
+{"text": "Spotify pe Bhagavad Gita podcast chalao", "action": "play_media", "slots": {"query": "Bhagavad Gita podcast", "app": "Spotify"}}
+{"text": "radio mirchi chalao", "action": "play_media", "slots": {"query": "radio mirchi"}}
+{"text": "Vividh Bharati lagao", "action": "play_media", "slots": {"query": "Vividh Bharati"}}
+{"text": "radio haaku", "action": "play_media", "slots": {"query": "radio"}}
+{"text": "FM podu", "action": "play_media", "slots": {"query": "FM"}}
+{"text": "Spotify alli old songs haaku", "action": "play_media", "slots": {"query": "old songs", "app": "Spotify"}}
+{"text": "YouTube la comedy video podu", "action": "play_media", "slots": {"query": "comedy video", "app": "YouTube"}}
+{"text": "YouTube open maadi Rajkumar haadu haaku", "action": "play_media", "slots": {"query": "Rajkumar", "app": "YouTube"}}
+{"text": "Play something on Spotify", "action": "play_media", "slots": {"app": "Spotify"}}
+{"text": "Open YouTube and play Hanuman Chalisa", "action": "play_media", "slots": {"query": "Hanuman Chalisa", "app": "YouTube"}}
+{"text": "Start a movie in VLC", "action": "play_media", "slots": {"app": "VLC"}}
+{"text": "YouTube pe trending gaane chalao", "action": "play_media", "slots": {"query": "trending gaane", "app": "YouTube"}}
+{"text": "Spotify pe Arijit Singh radio chalao", "action": "play_media", "slots": {"query": "Arijit Singh radio", "app": "Spotify"}}
+{"text": "YouTube par Ramayan serial chalao", "action": "play_media", "slots": {"query": "Ramayan serial", "app": "YouTube"}}
+{"text": "Gaana app pe Honey Singh sunao", "action": "play_media", "slots": {"query": "Honey Singh", "app": "Gaana"}}
+{"text": "Wynk pe Diljit ke gaane lagao", "action": "play_media", "slots": {"query": "Diljit", "app": "Wynk"}}
+{"text": "YouTube pe yoga wala video lagao.", "action": "play_media", "slots": {"query": "yoga wala video", "app": "YouTube"}}
+{"text": "Spotify mein Sonu Nigam search karke bajao", "action": "play_media", "slots": {"query": "Sonu Nigam", "app": "Spotify"}}
+{"text": "YouTube alli Dr Bro video hudki play maadi", "action": "play_media", "slots": {"query": "Dr Bro", "app": "YouTube"}}
+{"text": "YouTube la Vadivelu comedy thedi podu", "action": "play_media", "slots": {"query": "Vadivelu comedy", "app": "YouTube"}}
+{"text": "Search for Kishore Kumar songs on YouTube and play them", "action": "play_media", "slots": {"query": "Kishore Kumar", "app": "YouTube"}}
+{"text": "पहले यूट्यूब खोलो फिर गायत्री मंत्र चलाओ", "action": "play_media", "slots": {"query": "गायत्री मंत्र", "app": "यूट्यूब"}}
+{"text": "Netflix kholke Kota Factory chala do", "action": "play_media", "slots": {"query": "Kota Factory", "app": "Netflix"}}
+{"text": "JioCinema pe IPL ka match chalao", "action": "play_media", "slots": {"query": "IPL ka match", "app": "JioCinema"}}
+{"text": "is email mein kya likha hai", "action": "read_screen", "slots": {}}
+{"text": "ye message kisne bheja aur kya likha hai padho", "action": "read_screen", "slots": {}}
+{"text": "is page pe petrol ka rate kitna dikha raha hai", "action": "read_screen", "slots": {}}
+{"text": "screen pe jo weather dikh raha hai wo batao", "action": "read_screen", "slots": {}}
+{"text": "ye khabar jo khuli hai uska matlab samjhao", "action": "read_screen", "slots": {}}
+{"text": "is article mein kya bataya hai padh do", "action": "read_screen", "slots": {}}
+{"text": "bank ka jo sms screen pe khula hai usme kitna paisa likha hai", "action": "read_screen", "slots": {}}
+{"text": "is bill mein total kitna likha hai", "action": "read_screen", "slots": {}}
+{"text": "ye form mein kya kya bharna hai batao", "action": "read_screen", "slots": {}}
+{"text": "Screen pe jo error aaya hai wo kya keh raha hai.", "action": "read_screen", "slots": {}}
+{"text": "is website pe train ka time kya likha hai", "action": "read_screen", "slots": {}}
+{"text": "scorecard jo khula hai usme score kya dikha raha hai", "action": "read_screen", "slots": {}}
+{"text": "yahan pe jo recipe khuli hai wo padh ke sunao", "action": "read_screen", "slots": {}}
+{"text": "is document ka pehla paragraph padho", "action": "read_screen", "slots": {}}
+{"text": "mere saamne jo likha hai wo samajh nahi aa raha, batao kya hai", "action": "read_screen", "slots": {}}
+{"text": "ye wala notice kya keh raha hai", "action": "read_screen", "slots": {}}
+{"text": "ispe jo naam likha hai wo padho", "action": "read_screen", "slots": {}}
+{"text": "inbox mein sabse upar wala mail padh do", "action": "read_screen", "slots": {}}
+{"text": "ye chitthi mein kya likha hai", "action": "read_screen", "slots": {}}
+{"text": "is screen par dawai ka naam kya likha hai", "action": "read_screen", "slots": {}}
+{"text": "is page ka heading kya hai", "action": "read_screen", "slots": {}}
+{"text": "ye jo table khula hai usme kya hai samjhao", "action": "read_screen", "slots": {}}
+{"text": "ye jo page khula hai wo kis baare mein hai", "action": "read_screen", "slots": {}}
+{"text": "ye ticket pe seat number kya likha hai", "action": "read_screen", "slots": {}}
+{"text": "ye scheme wala page jo khula hai usme eligibility kya likhi hai", "action": "read_screen", "slots": {}}
+{"text": "Screen pe jo news dikh rahi hai usko padho.", "action": "read_screen", "slots": {}}
+{"text": "ye video ke neeche jo likha hai wo padho", "action": "read_screen", "slots": {}}
+{"text": "abhi jo whatsapp message khula hai wo sunao", "action": "read_screen", "slots": {}}
+{"text": "is result page pe mere marks kitne likhe hain", "action": "read_screen", "slots": {}}
+{"text": "ye jo rate list dikh rahi hai usme tamatar ka bhav kya hai", "action": "read_screen", "slots": {}}
+{"text": "ispe kya likha hai zara bolo", "action": "read_screen", "slots": {}}
+{"text": "ye button ke upar kya likha hai", "action": "read_screen", "slots": {}}
+{"text": "ye jo khula hai usme last date kya likhi hai", "action": "read_screen", "slots": {}}
+{"text": "ee message alli enu barediddare odi", "action": "read_screen", "slots": {}}

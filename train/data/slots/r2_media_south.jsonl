@@ -1,0 +1,260 @@
+{"text": "sound jasti maadi", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Sound jasti maadi.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Volume swalpa jasti maadu.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "sound innu swalpa jasti maadi", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "saundu jaasti maadi", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Volume increase maadi.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "aavaaz jasti maadi please", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Spotify alli sound jasti maadi.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "ವಾಲ್ಯೂಮ್ ಸ್ವಲ್ಪ ಜಾಸ್ತಿ ಮಾಡು.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Sound swalpa jaasti maadi please.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "sound swalpa kammi maadi", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Sound swalpa kammi maadi.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "volume kammi maadu", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "sound tumba jor ide swalpa kammi maadi", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Volume decrease maadi.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "saundu swalpa kammi maadi", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "you tube alli sound kammi maadi", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "ಸೌಂಡ್ ಸ್ವಲ್ಪ ಕಮ್ಮಿ ಮಾಡಿ", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Sound kammi maadu.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "ವಾಲ್ಯೂಮ್ ಸ್ವಲ್ಪ ಕಮ್ಮಿ ಮಾಡು", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "haadu nilsi", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Song nillisi.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "music nilsi", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Pause maadi.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "haadu stop maadi", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Spotify alli haadu nilsi.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "ಹಾಡು ನಿಲ್ಸಿ", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Haadu nilsi swalpa.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "ಹಾಡು ಸ್ವಲ್ಪ ನಿಲ್ಸು", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "ee haadu nilsi", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "matte shuru maadi", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Matte shuru maadi.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Matte play maadi.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "nilsida haadu matte shuru maadi", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Song continue maadi.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "matte suru maadi", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Resume maadi.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "ಮತ್ತೆ ಶುರು ಮಾಡಿ", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Haadu matte shuru maadu.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "ಹಾಡು ಮತ್ತೆ ಶುರು ಮಾಡಿ", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "mundina haadu", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "mundina haadu haaku", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Next song haaku.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Mundina haadige hogi.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "ee haadu beda mundinadu haaku", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "mundhina haadu play maadi", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "you tube alli mundina video haaku", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Mundina haadu haaku please.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "ಮುಂದಿನ ಹಾಡು", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "hindina haadu", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Hindina haadu.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "hindina haadu haaku", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Hindina song play maadi.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "hindhina haadu matte haaku", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "hindina song", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Hindina haadu matte haaku please.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "mute maadi", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Mute maadi.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "sound mute maadu", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Volume mute maadi.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "myoot maadi", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "swalpa sound mute maadi", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Spotify mute maadi.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Sound mute maadu.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "ಸೌಂಡ್ ಮ್ಯೂಟ್ ಮಾಡು", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Sound adhigam pannu.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "volume adhigama vei", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Volume konjam adhigam pannunga.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "sound innum konjam adhigam pannu", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "saththam adhigam pannu", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Volume increase pannu.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Spotify la sound adhigam pannu", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "சவுண்ட் அதிகம் பண்ணு", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "வால்யூம் அதிகமா வை.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Sound adhigam pannunga.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "sound koraichidu", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Sound koraichidu.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "volume konjam korai", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Volume kammi pannu.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "saththam koraingga", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "sound romba irukku koraichidu", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Volume decrease pannu.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Konjam sound korachidu.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "சவுண்ட் குறைச்சிடு", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Sound konjam koraichidu.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "paattu niruthu", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "song ah niruthu", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "paatta konjam niruthunga", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Music niruthu.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Pause pannu.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "paattu stop pannu", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "you tube la video niruthu", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "பாட்டு நிறுத்து", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Paattu konjam niruthu.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "பாட்டை நிறுத்துங்க", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "thirumba play pannu", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Thirumba play pannu.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "paatta thirumba play pannu", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Thirumba start pannu.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "song continue pannu", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Resume pannu.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "niruthuna paatta thirumba podu", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "thrumba play pannu", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "திரும்ப ப்ளே பண்ணு", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Paatta thirumba play pannu.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "adutha paattu", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Adutha paattu.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "adutha paattu podu", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Next song podu.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Adutha song play pannu.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "indha paattu vendam adutha paattu podu", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "aduttha paattu", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Spotify la adutha paattu podu.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "munnadi paattu", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Munnadi paattu.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "munnadi paattu podu", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Previous song podu.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Munnadi vandha paatta thirumba podu.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "munnaadi song play pannu", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "munnadi video podu", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "முன்னாடி பாட்டு போடு", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Munnadi paattu podunga.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "mute pannu", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "sound ah mute pannu", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Volume mute pannunga.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "myoot pannu", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "konjam mute pannu", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Spotify ah mute pannu.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Sound ah mute pannu.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "சவுண்ட் மியூட் பண்ணு", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "volume penchu", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "sound penchu", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Volume konchem penchandi.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "sound inka penchu", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "volume ekkuva cheyyi", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Volume increase cheyyi.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Spotify lo volume penchu", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "సౌండ్ కొంచెం పెంచు.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Sound penchandi.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "volume inka konchem penchu", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "volume tagginchu", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Volume tagginchu.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "sound tagginchu", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Volume konchem tagginchandi.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "sound chala ekkuva undi tagginchu", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Volume decrease cheyyi.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "volume takkuva cheyyi", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "you tube lo sound tagginchu", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Sound tagginchandi.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "సౌండ్ కొంచెం తగ్గించు", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "aapu", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Aapu.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "paata aapu", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Song aapandi.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "music aapu", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Pause cheyyi.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "paata konchem aapu", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Spotify lo paata aapu.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "పాట కొంచెం ఆపు", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "malli play cheyyi", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Malli play cheyyi.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "paata malli play cheyyi", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Malli start cheyyi.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Song continue cheyyi.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "resume cheyyi", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "aapina paata malli pettu", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "mali play cheyi", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Paata malli play cheyyandi.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "next paata", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Next paata.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "next paata pettu", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "tarvata paata pettu", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Taruvaati song play cheyyi.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "ee paata vaddu next paata pettu", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "nekst paata", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "you tube lo next video pettu", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Next paata pettandi.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "previous paata", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Previous paata.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "previous paata pettu", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "intaku mundu paata pettu", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Venakati paata pettu.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "previous song play cheyyi", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Previous video pettu.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Previous paata pettandi.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "వెనకటి పాట పెట్టు", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "mute cheyyi", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Mute cheyyi.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "sound mute cheyyi", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Volume mute cheyyandi.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "myoot cheyyi", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "konchem mute cheyyi", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Spotify ni mute cheyyi.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Sound mute cheyyandi.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "సౌండ్ మ్యూట్ చెయ్యి", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "sound koottu", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Sound koottu.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "volume koottu", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Volume kurachu koottu.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "sound onnu koottu", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Volume increase cheyyu.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "shabdam koottu", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Spotify il sound koottu", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "സൗണ്ട് കൂട്ട്", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "വോളിയം കുറച്ച് കൂട്ട്.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "sound kurakku", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "volume kurakku", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Volume kurachu kurakku.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "sound onnu kurakku", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Volume decrease cheyyu.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "shabdam kurakku", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "you tube il sound kurakku", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "സൗണ്ട് കുറയ്ക്ക്", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Sound onnu kurakku.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "sound kurachu kurakku", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "nirthu", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Nirthu.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "paattu nirthu", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Song onnu nirthu.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "music nirthu", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Pause cheyyu.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "paattu stop cheyyu", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "you tube il video nirthu", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Paattu onnu nirthu.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "veendum play cheyyu", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Veendum play cheyyu.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "paattu veendum play cheyyu", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Veendum start cheyyu.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Song continue cheyyu.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "resume cheyyu", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "nirthiya paattu veendum idu", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "veendum plei cheyyu", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "വീണ്ടും പ്ലേ ചെയ്യ്", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "adutha paattu idu", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Adutha song idu.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "ee paattu venda adutha paattu idu", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "next paattu idu", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "aduththa paattu play cheyyu", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Spotify il adutha paattu idu", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "അടുത്ത പാട്ട് ഇട്", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "adutha paattu play cheyyu", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "next song idu", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "munpathe paattu", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Munpathe paattu.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "munpathe paattu idu", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Previous song idu.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Munpathe song play cheyyu.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "mumbathe paattu", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "munpathe video idu", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "മുൻപത്തെ പാട്ട്", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "മുൻപത്തെ പാട്ട് ഇട്", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Mute aakku.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "sound mute aakku", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Volume mute aakkoo.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "myoot aakku", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "sound onnu mute aakku", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Spotify mute aakku.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "മ്യൂട്ട് ആക്ക്", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Sound mute aakku.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "സൗണ്ട് മ്യൂട്ട് ആക്ക്", "action": "media_control", "slots": {}, "control": "mute"}

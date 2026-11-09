@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Re-KYC Update - Demo Grameen Bank</title>
+<link rel="stylesheet" href="form.css">
+</head>
+<!--
+  Bol OS demo page: a realistic bank re-KYC form for testing the form assistant (bolos/forms). The bank is
+  fictional and nothing typed here leaves this PC: serve.py discards every submission. It deliberately uses
+  the label styles real sites use (label for, aria-label, aria-labelledby, placeholder only), dropdowns,
+  radio buttons, checkboxes, a date input, required markers, inline errors, a CAPTCHA and an OTP field.
+-->
+<body
+  data-msg-required="This field is required."
+  data-msg-pattern="Please enter a valid value."
+  data-msg-summary="Please correct the {n} errors below."
+  data-msg-summary-one="Please correct the error below."
+  data-msg-otp-demo="Demo page: no OTP is sent.">
+<header class="bank">
+  <span class="brand">Demo Grameen Bank</span>
+  <span class="tag">Fictional bank for testing Bol OS. Do not enter real details.</span>
+</header>
+<main>
+  <h1>Update your KYC details</h1>
+  <p class="lead">Periodic re-KYC for savings account holders. Fields marked <span class="req">*</span> are required.</p>
+  <p class="demo-note">This is a demo form. Use only made-up test values.</p>
+  <div id="summary" role="alert" hidden></div>
+
+  <form data-demo action="/submit" method="post" novalidate>
+    <fieldset>
+      <legend>Personal details</legend>
+      <div class="row">
+        <label for="full_name">Full name (as on Aadhaar)<span class="req">*</span></label>
+        <input id="full_name" name="full_name" type="text" required autocomplete="name"
+               aria-describedby="full_name-help full_name-error">
+        <span class="help" id="full_name-help">Write your name exactly as printed on your Aadhaar card.</span>
+        <span class="error" id="full_name-error"></span>
+      </div>
+      <div class="row">
+        <label for="father_name">Father's / Spouse's name<span class="req">*</span></label>
+        <input id="father_name" name="father_name" type="text" required aria-describedby="father_name-error">
+        <span class="error" id="father_name-error"></span>
+      </div>
+      <div class="row">
+        <label for="dob">Date of birth<span class="req">*</span></label>
+        <input id="dob" name="dob" type="date" required min="1900-01-01" max="2008-12-31"
+               aria-describedby="dob-error" data-msg-pattern="You must be at least 18 years old.">
+        <span class="error" id="dob-error"></span>
+      </div>
+      <div class="row">
+        <fieldset class="choices-group" style="border:0;padding:0;margin:0">
+          <legend class="label" style="padding:0;font-weight:500">Gender<span class="req">*</span></legend>
+          <div class="choices">
+            <label><input type="radio" name="gender" value="male" required aria-describedby="gender-error"> Male</label>
+            <label><input type="radio" name="gender" value="female" required> Female</label>
+            <label><input type="radio" name="gender" value="transgender" required> Transgender</label>
+          </div>
+        </fieldset>
+        <span class="error" id="gender-error"></span>
+      </div>
+      <div class="row">
+        <label for="marital">Marital status</label>
+        <select id="marital" name="marital">
+          <option value="">Select</option>
+          <option>Single</option>
+          <option>Married</option>
+          <option>Widowed</option>
+          <option>Divorced</option>
+        </select>
+      </div>
+      <div class="row">
+        <label for="mobile">Mobile number<span class="req">*</span></label>
+        <input id="mobile" name="mobile" type="tel" required inputmode="numeric" maxlength="10"
+               placeholder="10-digit mobile number" data-pattern="[6-9][0-9]{9}"
+               data-msg-pattern="Enter a valid 10-digit mobile number." aria-describedby="mobile-error">
+        <span class="error" id="mobile-error"></span>
+      </div>
+      <div class="row">
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" placeholder="name@example.com"
+               data-pattern="[^@\s]+@[^@\s]+\.[^@\s]+" data-msg-pattern="Enter a valid email address."
+               aria-describedby="email-error">
+        <span class="error" id="email-error"></span>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Identity documents</legend>
+      <div class="row">
+        <label for="aadhaar">Aadhaar number<span class="req">*</span></label>
+        <input id="aadhaar" name="aadhaar" type="text" required inputmode="numeric" maxlength="14"
+               data-pattern="[0-9]{4} ?[0-9]{4} ?[0-9]{4}" data-msg-pattern="Aadhaar number must have 12 digits."
+               aria-describedby="aadhaar-help aadhaar-error">
+        <span class="help" id="aadhaar-help">12-digit number printed on the front of your Aadhaar card.</span>
+        <span class="error" id="aadhaar-error"></span>
+      </div>
+      <div class="row">
+        <label for="pan">PAN<span class="req">*</span></label>
+        <input id="pan" name="pan" type="text" required maxlength="10" placeholder="ABCDE1234F"
+               data-pattern="[A-Za-z]{5}[0-9]{4}[A-Za-z]" data-msg-pattern="Invalid PAN format."
+               aria-describedby="pan-error">
+        <span class="error" id="pan-error"></span>
+      </div>
+      <div class="row">
+        <span class="label">CKYC number</span>
+        <input id="ckyc" name="ckyc" type="text" aria-label="CKYC number (optional)" placeholder="14 digits, if you have one">
+      </div>
+      <div class="row">
+        <label for="aadhaar_photo">Upload Aadhaar (front side)</label>
+        <input id="aadhaar_photo" name="aadhaar_photo" type="file" accept="image/*,.pdf">
+        <span class="help">JPG, PNG or PDF, up to 2 MB.</span>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Address</legend>
+      <div class="row">
+        <label for="address">Permanent address<span class="req">*</span></label>
+        <textarea id="address" name="address" required aria-describedby="address-error"></textarea>
+        <span class="error" id="address-error"></span>
+      </div>
+      <div class="row">
+        <label for="city">City / Town / Village<span class="req">*</span></label>
+        <input id="city" name="city" type="text" required aria-describedby="city-error">
+        <span class="error" id="city-error"></span>
+      </div>
+      <div class="row">
+        <label for="state">State<span class="req">*</span></label>
+        <select id="state" name="state" required aria-describedby="state-error">
+          <option value="">Select state</option>
+          <option>Andhra Pradesh</option>
+          <option>Bihar</option>
+          <option>Gujarat</option>
+          <option>Karnataka</option>
+          <option>Kerala</option>
+          <option>Madhya Pradesh</option>
+          <option>Maharashtra</option>
+          <option>Punjab</option>
+          <option>Rajasthan</option>
+          <option>Tamil Nadu</option>
+          <option>Telangana</option>
+          <option>Uttar Pradesh</option>
+          <option>West Bengal</option>
+        </select>
+        <span class="error" id="state-error"></span>
+      </div>
+      <div class="row">
+        <label for="pin">PIN code<span class="req">*</span></label>
+        <input id="pin" name="pin" type="text" required inputmode="numeric" maxlength="6"
+               data-pattern="[1-9][0-9]{5}" data-msg-pattern="PIN code must have 6 digits."
+               aria-describedby="pin-error">
+        <span class="error" id="pin-error"></span>
+      </div>
+      <div class="row check">
+        <label><input id="same_address" name="same_address" type="checkbox" checked>
+          Correspondence address is the same as permanent address</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Bank and occupation</legend>
+      <div class="row">
+        <span class="label" id="account-label">Savings account number<span class="req">*</span></span>
+        <input id="account" name="account" type="text" required inputmode="numeric"
+               aria-labelledby="account-label" data-pattern="[0-9]{9,18}"
+               data-msg-pattern="Account number must have 9 to 18 digits." aria-describedby="account-error">
+        <span class="error" id="account-error"></span>
+      </div>
+      <div class="row">
+        <label for="ifsc">IFSC code<span class="req">*</span></label>
+        <input id="ifsc" name="ifsc" type="text" required maxlength="11"
+               data-pattern="[A-Za-z]{4}0[A-Za-z0-9]{6}" data-msg-pattern="Invalid IFSC code."
+               aria-describedby="ifsc-help ifsc-error">
+        <span class="help" id="ifsc-help">11 characters, printed on your passbook and cheque book.</span>
+        <span class="error" id="ifsc-error"></span>
+      </div>
+      <div class="row">
+        <label for="occupation">Occupation</label>
+        <select id="occupation" name="occupation">
+          <option value="">Select</option>
+          <option>Salaried</option>
+          <option>Self-employed</option>
+          <option>Farmer</option>
+          <option>Student</option>
+          <option>Homemaker</option>
+          <option>Retired</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="row">
+        <label for="income">Annual income</label>
+        <select id="income" name="income">
+          <option value="">Select</option>
+          <option>Below 1 lakh</option>
+          <option>1 to 5 lakh</option>
+          <option>5 to 10 lakh</option>
+          <option>Above 10 lakh</option>
+        </select>
+      </div>
+      <div class="row">
+        <input id="nominee" name="nominee" type="text" placeholder="Nominee name (optional)">
+      </div>
+      <div class="row">
+        <fieldset style="border:0;padding:0;margin:0">
+          <legend class="label" style="padding:0;font-weight:500">Are you a politically exposed person (PEP)?</legend>
+          <div class="choices">
+            <label><input type="radio" name="pep" value="yes"> Yes</label>
+            <label><input type="radio" name="pep" value="no" checked> No</label>
+          </div>
+        </fieldset>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Verification</legend>
+      <div class="row captcha">
+        <img src="captcha.svg" width="140" height="44" alt="CAPTCHA image">
+        <div>
+          <label for="captcha">Enter the characters shown in the image</label>
+          <input id="captcha" name="captcha" type="text" autocomplete="off">
+        </div>
+      </div>
+      <div class="row">
+        <label for="otp">Enter OTP sent to your mobile</label>
+        <div class="otp">
+          <input id="otp" name="otp" type="text" inputmode="numeric" maxlength="6" autocomplete="one-time-code">
+          <button type="button" id="send-otp">Send OTP</button>
+          <span id="otp-status" class="help"></span>
+        </div>
+      </div>
+      <div class="row check">
+        <label><input id="declare" name="declare" type="checkbox" required aria-describedby="declare-error">
+          I declare that the information given above is true<span class="req">*</span></label>
+        <span class="error" id="declare-error"></span>
+      </div>
+    </fieldset>
+
+    <div class="actions">
+      <button type="reset">Reset</button>
+      <button type="submit" class="primary">Submit</button>
+    </div>
+  </form>
+</main>
+<footer>Demo Grameen Bank is fictional. Page made for testing Bol OS.</footer>
+<script src="form.js"></script>
+</body>
+</html>

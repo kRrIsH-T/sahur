@@ -1,0 +1,200 @@
+{"text": "Kripya Microsoft Teams application shuru kar dijiye.", "action": "open_app", "slots": {"app": "Microsoft Teams"}}
+{"text": "Zara Adobe Photoshop khol dijiye na.", "action": "open_app", "slots": {"app": "Adobe Photoshop"}}
+{"text": "Aap meherbani karke Google Chrome browser chalu kar dijiye.", "action": "open_app", "slots": {"app": "Google Chrome"}}
+{"text": "Microsoft Word wala app kholiye please.", "action": "open_app", "slots": {"app": "Microsoft Word"}}
+{"text": "Microsoft PowerPoint kholna hai, khol dijiye.", "action": "open_app", "slots": {"app": "Microsoft PowerPoint"}}
+{"text": "Kripya karke Microsoft Outlook chalu kijiye.", "action": "open_app", "slots": {"app": "Microsoft Outlook"}}
+{"text": "Mozilla Firefox browser ko start kar dijiye zara.", "action": "open_app", "slots": {"app": "Mozilla Firefox"}}
+{"text": "Adobe Acrobat Reader khol do bhaiya.", "action": "open_app", "slots": {"app": "Adobe Acrobat Reader"}}
+{"text": "Visual Studio Code editor chalu karo jaldi.", "action": "open_app", "slots": {"app": "Visual Studio Code"}}
+{"text": "Aap Microsoft Edge ko open kar dijiye.", "action": "open_app", "slots": {"app": "Microsoft Edge"}}
+{"text": "Kripya WhatsApp Desktop application chalu kar dijiye.", "action": "open_app", "slots": {"app": "WhatsApp Desktop"}}
+{"text": "Sir, Microsoft Store ko ek baar khol dijiye.", "action": "open_app", "slots": {"app": "Microsoft Store"}}
+{"text": "Mujhe Spotify app kholna hai, khol dijiye please.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Aap zara Android Studio chalu kar sakte hain kya?", "action": "open_app", "slots": {"app": "Android Studio"}}
+{"text": "Kripya karke Tally Prime software kholiye.", "action": "open_app", "slots": {"app": "Tally Prime"}}
+{"text": "Telegram Desktop app khol dijiye ji.", "action": "open_app", "slots": {"app": "Telegram Desktop"}}
+{"text": "Zara Windows Security wala app khol dijiye.", "action": "open_app", "slots": {"app": "Windows Security"}}
+{"text": "Microsoft Paint 3D chalu karo bhai.", "action": "open_app", "slots": {"app": "Microsoft Paint 3D"}}
+{"text": "Kripya Xbox Game Bar ko chalu kijiye.", "action": "open_app", "slots": {"app": "Xbox Game Bar"}}
+{"text": "OBS Studio recording software khol do please.", "action": "open_app", "slots": {"app": "OBS Studio"}}
+{"text": "Google Meet app kholiye zara, meeting hai.", "action": "open_app", "slots": {"app": "Google Meet"}}
+{"text": "Microsoft ex cell chalu karo.", "action": "open_app", "slots": {"app": "Microsoft ex cell"}}
+{"text": "Google chrom browser kholiye.", "action": "open_app", "slots": {"app": "Google chrom"}}
+{"text": "Kripya power bi desktop khol dijiye.", "action": "open_app", "slots": {"app": "power bi desktop"}}
+{"text": "Bhaiya, Adobe Reader wala app chalu kar do.", "action": "open_app", "slots": {"app": "Adobe Reader"}}
+{"text": "Dayavittu Microsoft Excel open maadi.", "action": "open_app", "slots": {"app": "Microsoft Excel"}}
+{"text": "Google Chrome browser-annu swalpa open maadi.", "action": "open_app", "slots": {"app": "Google Chrome"}}
+{"text": "Microsoft Teams app-na start maadri please.", "action": "open_app", "slots": {"app": "Microsoft Teams"}}
+{"text": "Dayavittu Adobe Premiere Pro open maadtira?", "action": "open_app", "slots": {"app": "Adobe Premiere Pro"}}
+{"text": "Zoom app-annu shuru maadi sir.", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "Photoshop app-na dayavittu open maadi.", "action": "open_app", "slots": {"app": "Photoshop"}}
+{"text": "Microsoft Word-nalli kelsa ide, adanna open maadi.", "action": "open_app", "slots": {"app": "Microsoft Word"}}
+{"text": "Konjam Microsoft Word-a open pannunga.", "action": "open_app", "slots": {"app": "Microsoft Word"}}
+{"text": "Google Chrome browser-ah thiranga please.", "action": "open_app", "slots": {"app": "Google Chrome"}}
+{"text": "Dayavu senju Microsoft Teams app open pannunga.", "action": "open_app", "slots": {"app": "Microsoft Teams"}}
+{"text": "VLC media player-ai start pannunga.", "action": "open_app", "slots": {"app": "VLC media player"}}
+{"text": "Adobe Illustrator-a konjam open panni kudunga.", "action": "open_app", "slots": {"app": "Adobe Illustrator"}}
+{"text": "Notepad plus plus-a thiranga.", "action": "open_app", "slots": {"app": "Notepad plus plus"}}
+{"text": "Dayachesi Microsoft Excel open cheyyandi.", "action": "open_app", "slots": {"app": "Microsoft Excel"}}
+{"text": "Google Chrome browser ni open cheyyandi andi.", "action": "open_app", "slots": {"app": "Google Chrome"}}
+{"text": "Konchem Microsoft Outlook teravandi.", "action": "open_app", "slots": {"app": "Microsoft Outlook"}}
+{"text": "Zoom app ni start cheyyi ra.", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "Adobe Photoshop ni konchem open cheyyandi.", "action": "open_app", "slots": {"app": "Adobe Photoshop"}}
+{"text": "Dayavayi Microsoft Word onnu thurakkamo?", "action": "open_app", "slots": {"app": "Microsoft Word"}}
+{"text": "Google Chrome browser onnu open cheyyu.", "action": "open_app", "slots": {"app": "Google Chrome"}}
+{"text": "Microsoft Teams app onnu thurannu tharumo?", "action": "open_app", "slots": {"app": "Microsoft Teams"}}
+{"text": "VLC player onnu thurakku.", "action": "open_app", "slots": {"app": "VLC player"}}
+{"text": "Krupaya Microsoft PowerPoint suru kara.", "action": "open_app", "slots": {"app": "Microsoft PowerPoint"}}
+{"text": "Google Chrome browser ughada na please.", "action": "open_app", "slots": {"app": "Google Chrome"}}
+{"text": "Microsoft Excel chalu karun dya.", "action": "open_app", "slots": {"app": "Microsoft Excel"}}
+{"text": "Zoom app chalu kara jara.", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "Microsoft Teams la chalu kara, meeting aahe.", "action": "open_app", "slots": {"app": "Microsoft Teams"}}
+{"text": "Doya kore Microsoft Word ta khulun.", "action": "open_app", "slots": {"app": "Microsoft Word"}}
+{"text": "Google Chrome browser ta chalu koro.", "action": "open_app", "slots": {"app": "Google Chrome"}}
+{"text": "Microsoft Teams app ta open kore din.", "action": "open_app", "slots": {"app": "Microsoft Teams"}}
+{"text": "Zoom ta ektu chalu kore dao.", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "Could you please launch Microsoft OneNote for me?", "action": "open_app", "slots": {"app": "Microsoft OneNote"}}
+{"text": "Kindly open Adobe Lightroom Classic.", "action": "open_app", "slots": {"app": "Adobe Lightroom Classic"}}
+{"text": "Please start the Windows Media Player application.", "action": "open_app", "slots": {"app": "Windows Media Player"}}
+{"text": "Would you mind opening Microsoft To Do.", "action": "open_app", "slots": {"app": "Microsoft To Do"}}
+{"text": "कृपया Microsoft Word खोल दीजिए।", "action": "open_app", "slots": {"app": "Microsoft Word"}}
+{"text": "गूगल क्रोम ब्राउज़र चालू कर दीजिए।", "action": "open_app", "slots": {"app": "गूगल क्रोम"}}
+{"text": "ದಯವಿಟ್ಟು Zoom ಆಪ್ ಓಪನ್ ಮಾಡಿ.", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "தயவுசெய்து Microsoft Teams-ஐ திறங்க.", "action": "open_app", "slots": {"app": "Microsoft Teams"}}
+{"text": "దయచేసి Google Chrome ఓపెన్ చేయండి.", "action": "open_app", "slots": {"app": "Google Chrome"}}
+{"text": "ദയവായി Microsoft Excel ഒന്ന് തുറക്കൂ.", "action": "open_app", "slots": {"app": "Microsoft Excel"}}
+{"text": "कृपया Microsoft PowerPoint सुरू करा.", "action": "open_app", "slots": {"app": "Microsoft PowerPoint"}}
+{"text": "দয়া করে Microsoft Outlook টা খুলুন।", "action": "open_app", "slots": {"app": "Microsoft Outlook"}}
+{"text": "Mujhe State Bank of India ki website pe le chaliye.", "action": "open_website", "slots": {"site": "State Bank of India"}}
+{"text": "Kripya Punjab National Bank ki site khol dijiye.", "action": "open_website", "slots": {"site": "Punjab National Bank"}}
+{"text": "Indian Railways ki official website kholiye.", "action": "open_website", "slots": {"site": "Indian Railways"}}
+{"text": "Zara IRCTC ki site pe le jaiye, ticket book karni hai.", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "Aap Union Bank of India ki website open kar dijiye.", "action": "open_website", "slots": {"site": "Union Bank of India"}}
+{"text": "Mujhe Times of India ki site dikhaiye.", "action": "open_website", "slots": {"site": "Times of India"}}
+{"text": "Kripya karke ICICI Bank netbanking khol dijiye.", "action": "open_website", "slots": {"site": "ICICI Bank netbanking"}}
+{"text": "Axis Bank ki website par le jao bhai.", "action": "open_website", "slots": {"site": "Axis Bank"}}
+{"text": "Bank of India ki site kholna zara.", "action": "open_website", "slots": {"site": "Bank of India"}}
+{"text": "Flipkart ki shopping site khol dijiye.", "action": "open_website", "slots": {"site": "Flipkart"}}
+{"text": "Hindustan Times ki website pe chalo.", "action": "open_website", "slots": {"site": "Hindustan Times"}}
+{"text": "Kripya Life Insurance Corporation ki website kholiye.", "action": "open_website", "slots": {"site": "Life Insurance Corporation"}}
+{"text": "Mujhe Employees Provident Fund ki site pe le jaiye.", "action": "open_website", "slots": {"site": "Employees Provident Fund"}}
+{"text": "Passport Seva ki website kholiye, appointment lena hai.", "action": "open_website", "slots": {"site": "Passport Seva"}}
+{"text": "DigiLocker ki site khol dijiye please.", "action": "open_website", "slots": {"site": "DigiLocker"}}
+{"text": "Aadhaar ki official site pe le chalo.", "action": "open_website", "slots": {"site": "Aadhaar"}}
+{"text": "Kripya irctc dot co dot in khol dijiye.", "action": "open_website", "slots": {"site": "irctc dot co dot in"}}
+{"text": "onlinesbi dot sbi kholo.", "action": "open_website", "slots": {"site": "onlinesbi dot sbi"}}
+{"text": "you tube ki website kholiye.", "action": "open_website", "slots": {"site": "you tube"}}
+{"text": "Flip cart ki site pe le jao.", "action": "open_website", "slots": {"site": "Flip cart"}}
+{"text": "Mujhe Make My Trip ki website pe le jaiye.", "action": "open_website", "slots": {"site": "Make My Trip"}}
+{"text": "Book My Show ki site kholiye please.", "action": "open_website", "slots": {"site": "Book My Show"}}
+{"text": "Zara Paisa Bazaar website khol dijiye.", "action": "open_website", "slots": {"site": "Paisa Bazaar"}}
+{"text": "Kripya Policy Bazaar ki site pe le chaliye.", "action": "open_website", "slots": {"site": "Policy Bazaar"}}
+{"text": "Mujhe Indian Bank ki site par le jaiye.", "action": "open_website", "slots": {"site": "Indian Bank"}}
+{"text": "Aap Central Bank of India ki website khol dijiye.", "action": "open_website", "slots": {"site": "Central Bank of India"}}
+{"text": "IDFC First Bank ki site kholo.", "action": "open_website", "slots": {"site": "IDFC First Bank"}}
+{"text": "Yes Bank netbanking khol do.", "action": "open_website", "slots": {"site": "Yes Bank netbanking"}}
+{"text": "Swiggy ki website kholiye, app nahi.", "action": "open_website", "slots": {"site": "Swiggy"}}
+{"text": "National Scholarship Portal ki site kholiye.", "action": "open_website", "slots": {"site": "National Scholarship Portal"}}
+{"text": "Kripya Bharat Sanchar Nigam Limited ki site kholiye.", "action": "open_website", "slots": {"site": "Bharat Sanchar Nigam Limited"}}
+{"text": "Jio ki website pe le jao, recharge karna hai.", "action": "open_website", "slots": {"site": "Jio"}}
+{"text": "Canara Bank website-ge hogi.", "action": "open_website", "slots": {"site": "Canara Bank"}}
+{"text": "Karnataka Bank site-annu open maadi.", "action": "open_website", "slots": {"site": "Karnataka Bank"}}
+{"text": "Dayavittu Seva Sindhu website open maadi.", "action": "open_website", "slots": {"site": "Seva Sindhu"}}
+{"text": "Bangalore One site open maadi.", "action": "open_website", "slots": {"site": "Bangalore One"}}
+{"text": "Prajavani website swalpa open maadi.", "action": "open_website", "slots": {"site": "Prajavani"}}
+{"text": "Myntra-da website open maadi.", "action": "open_website", "slots": {"site": "Myntra"}}
+{"text": "Kotak Mahindra Bank netbanking open maadi please.", "action": "open_website", "slots": {"site": "Kotak Mahindra Bank netbanking"}}
+{"text": "w w w dot hdfcbank dot com open maadi.", "action": "open_website", "slots": {"site": "w w w dot hdfcbank dot com"}}
+{"text": "Ajio-da site open maadi.", "action": "open_website", "slots": {"site": "Ajio"}}
+{"text": "Airtel website-ge hogi.", "action": "open_website", "slots": {"site": "Airtel"}}
+{"text": "Indian Overseas Bank website-ah open pannunga.", "action": "open_website", "slots": {"site": "Indian Overseas Bank"}}
+{"text": "TNPSC site-ku poganum, open pannunga.", "action": "open_website", "slots": {"site": "TNPSC"}}
+{"text": "Dayavu senju Income Tax e-filing site open pannunga.", "action": "open_website", "slots": {"site": "Income Tax e-filing"}}
+{"text": "Dinamalar website-a konjam thiranga.", "action": "open_website", "slots": {"site": "Dinamalar"}}
+{"text": "Amazon-oda website open pannu.", "action": "open_website", "slots": {"site": "Amazon"}}
+{"text": "Tamil Nadu Electricity Board site-ah open pannunga.", "action": "open_website", "slots": {"site": "Tamil Nadu Electricity Board"}}
+{"text": "City Union Bank netbanking open pannunga.", "action": "open_website", "slots": {"site": "City Union Bank netbanking"}}
+{"text": "incometax dot gov dot in open pannunga.", "action": "open_website", "slots": {"site": "incometax dot gov dot in"}}
+{"text": "Nykaa site-ku kootitu po.", "action": "open_website", "slots": {"site": "Nykaa"}}
+{"text": "Times Now website open pannunga.", "action": "open_website", "slots": {"site": "Times Now"}}
+{"text": "State Bank of India website open cheyyandi.", "action": "open_website", "slots": {"site": "State Bank of India"}}
+{"text": "Eenadu website ki teesukellu.", "action": "open_website", "slots": {"site": "Eenadu"}}
+{"text": "Dayachesi APSRTC site open cheyyandi, bus ticket kavali.", "action": "open_website", "slots": {"site": "APSRTC"}}
+{"text": "Flipkart website ni teravandi.", "action": "open_website", "slots": {"site": "Flipkart"}}
+{"text": "Andhra Bank website open cheyyi.", "action": "open_website", "slots": {"site": "Andhra Bank"}}
+{"text": "Meeseva portal open cheyyandi.", "action": "open_website", "slots": {"site": "Meeseva"}}
+{"text": "Meesho website open cheyyandi.", "action": "open_website", "slots": {"site": "Meesho"}}
+{"text": "Federal Bank website onnu thurakku.", "action": "open_website", "slots": {"site": "Federal Bank"}}
+{"text": "Kerala PSC site onnu open cheyyamo?", "action": "open_website", "slots": {"site": "Kerala PSC"}}
+{"text": "Mathrubhumi website thurakkoo.", "action": "open_website", "slots": {"site": "Mathrubhumi"}}
+{"text": "South Indian Bank netbanking onnu open cheyyu.", "action": "open_website", "slots": {"site": "South Indian Bank netbanking"}}
+{"text": "KSRTC-yude website open cheyyu.", "action": "open_website", "slots": {"site": "KSRTC"}}
+{"text": "Manorama Online website onnu thurakku.", "action": "open_website", "slots": {"site": "Manorama Online"}}
+{"text": "Myntrachi website ughad.", "action": "open_website", "slots": {"site": "Myntra"}}
+{"text": "Bank of Maharashtra chi site ughada.", "action": "open_website", "slots": {"site": "Bank of Maharashtra"}}
+{"text": "Krupaya Maharashtra Times chi website ughada.", "action": "open_website", "slots": {"site": "Maharashtra Times"}}
+{"text": "MSRTC chya website var ja.", "action": "open_website", "slots": {"site": "MSRTC"}}
+{"text": "Lokmat chi site chalu kara.", "action": "open_website", "slots": {"site": "Lokmat"}}
+{"text": "Flipkart-chi website ughadun dya.", "action": "open_website", "slots": {"site": "Flipkart"}}
+{"text": "Amazon-er site ta khule dao.", "action": "open_website", "slots": {"site": "Amazon"}}
+{"text": "Anandabazar Patrika-r website kholo.", "action": "open_website", "slots": {"site": "Anandabazar Patrika"}}
+{"text": "Doya kore UCO Bank-er site ta khulun.", "action": "open_website", "slots": {"site": "UCO Bank"}}
+{"text": "Indian Railways-er website e niye cholo.", "action": "open_website", "slots": {"site": "Indian Railways"}}
+{"text": "West Bengal Board-er site ta open koro.", "action": "open_website", "slots": {"site": "West Bengal Board"}}
+{"text": "Kindly take me to the HDFC Life website.", "action": "open_website", "slots": {"site": "HDFC Life"}}
+{"text": "Please open the Reserve Bank of India website.", "action": "open_website", "slots": {"site": "Reserve Bank of India"}}
+{"text": "Take me to the official site of Indian Oil.", "action": "open_website", "slots": {"site": "Indian Oil"}}
+{"text": "Open the Wikipedia site please.", "action": "open_website", "slots": {"site": "Wikipedia"}}
+{"text": "Can you go to the National Stock Exchange website.", "action": "open_website", "slots": {"site": "National Stock Exchange"}}
+{"text": "कृपया पंजाब नेशनल बैंक की वेबसाइट खोलिए।", "action": "open_website", "slots": {"site": "पंजाब नेशनल बैंक"}}
+{"text": "मुझे IRCTC की साइट पर ले चलो।", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "ದಯವಿಟ್ಟು ಕೆನರಾ ಬ್ಯಾಂಕ್ ವೆಬ್ಸೈಟ್ ಓಪನ್ ಮಾಡಿ.", "action": "open_website", "slots": {"site": "ಕೆನರಾ ಬ್ಯಾಂಕ್"}}
+{"text": "இந்தியன் ஓவர்சீஸ் வங்கி வெப்சைட் திறங்க.", "action": "open_website", "slots": {"site": "இந்தியன் ஓவர்சீஸ் வங்கி"}}
+{"text": "దయచేసి Flipkart వెబ్సైట్ ఓపెన్ చేయండి.", "action": "open_website", "slots": {"site": "Flipkart"}}
+{"text": "Federal Bank വെബ്സൈറ്റ് ഒന്ന് തുറക്കൂ.", "action": "open_website", "slots": {"site": "Federal Bank"}}
+{"text": "कृपया बँक ऑफ महाराष्ट्र ची वेबसाइट उघडा.", "action": "open_website", "slots": {"site": "बँक ऑफ महाराष्ट्र"}}
+{"text": "আমাজনের ওয়েবসাইট খুলে দাও।", "action": "open_website", "slots": {"site": "আমাজন"}}
+{"text": "स्टेट बैंक ऑफ इंडिया की वेबसाइट पर ले चलिए।", "action": "open_website", "slots": {"site": "स्टेट बैंक ऑफ इंडिया"}}
+{"text": "Bhai VS Code chalu kar de.", "action": "open_app", "slots": {"app": "VS Code"}}
+{"text": "vs code open maadi.", "action": "open_app", "slots": {"app": "vs code"}}
+{"text": "V S Code-a open pannunga.", "action": "open_app", "slots": {"app": "V S Code"}}
+{"text": "VS Code ni open cheyyi.", "action": "open_app", "slots": {"app": "VS Code"}}
+{"text": "Power point kholo, presentation banana hai.", "action": "open_app", "slots": {"app": "Power point"}}
+{"text": "powerpoint open pannunga konjam.", "action": "open_app", "slots": {"app": "powerpoint"}}
+{"text": "Power point-annu open maadi.", "action": "open_app", "slots": {"app": "Power point"}}
+{"text": "power point ta khulun.", "action": "open_app", "slots": {"app": "power point"}}
+{"text": "File manager kholiye zara.", "action": "open_app", "slots": {"app": "File manager"}}
+{"text": "file manager open maadi.", "action": "open_app", "slots": {"app": "file manager"}}
+{"text": "File manager onnu thurakku.", "action": "open_app", "slots": {"app": "File manager"}}
+{"text": "File explorer ughada.", "action": "open_app", "slots": {"app": "File explorer"}}
+{"text": "Task manager kholo, computer hang ho gaya.", "action": "open_app", "slots": {"app": "Task manager"}}
+{"text": "task manager-a open pannunga, system slow-a irukku.", "action": "open_app", "slots": {"app": "task manager"}}
+{"text": "Task manager open cheyyandi.", "action": "open_app", "slots": {"app": "Task manager"}}
+{"text": "task manager ta open koro.", "action": "open_app", "slots": {"app": "task manager"}}
+{"text": "Control panel kholiye please.", "action": "open_app", "slots": {"app": "Control panel"}}
+{"text": "control panel open maadi swalpa.", "action": "open_app", "slots": {"app": "control panel"}}
+{"text": "Control panel ughada jara.", "action": "open_app", "slots": {"app": "Control panel"}}
+{"text": "Control panel onnu open cheyyu.", "action": "open_app", "slots": {"app": "Control panel"}}
+{"text": "Command prompt chalu karo.", "action": "open_app", "slots": {"app": "Command prompt"}}
+{"text": "command prompt-a open pannu.", "action": "open_app", "slots": {"app": "command prompt"}}
+{"text": "Open command prompt please.", "action": "open_app", "slots": {"app": "command prompt"}}
+{"text": "CMD open cheyyi.", "action": "open_app", "slots": {"app": "CMD"}}
+{"text": "Snipping tool kholo, screenshot lena hai.", "action": "open_app", "slots": {"app": "Snipping tool"}}
+{"text": "snipping tool open maadi.", "action": "open_app", "slots": {"app": "snipping tool"}}
+{"text": "Snipping tool ta chalu koro.", "action": "open_app", "slots": {"app": "Snipping tool"}}
+{"text": "Snipping tool open pannunga.", "action": "open_app", "slots": {"app": "Snipping tool"}}
+{"text": "Paint kholo bacchon ke liye.", "action": "open_app", "slots": {"app": "Paint"}}
+{"text": "paint app onnu thurakku.", "action": "open_app", "slots": {"app": "paint"}}
+{"text": "Paint open cheyyandi.", "action": "open_app", "slots": {"app": "Paint"}}
+{"text": "MS Paint ughad.", "action": "open_app", "slots": {"app": "MS Paint"}}
+{"text": "Sticky notes kholiye, kuch likhna hai.", "action": "open_app", "slots": {"app": "Sticky notes"}}
+{"text": "sticky notes open maadi.", "action": "open_app", "slots": {"app": "sticky notes"}}
+{"text": "Sticky notes-a open pannunga.", "action": "open_app", "slots": {"app": "Sticky notes"}}
+{"text": "Sticky notes ta kholo.", "action": "open_app", "slots": {"app": "Sticky notes"}}
+{"text": "Launch task manager.", "action": "open_app", "slots": {"app": "task manager"}}
+{"text": "MS Word kholiye.", "action": "open_app", "slots": {"app": "MS Word"}}
+{"text": "ज़रा टास्क मैनेजर खोल दो।", "action": "open_app", "slots": {"app": "टास्क मैनेजर"}}
+{"text": "ಕಂಟ್ರೋಲ್ ಪ್ಯಾನಲ್ ಓಪನ್ ಮಾಡಿ.", "action": "open_app", "slots": {"app": "ಕಂಟ್ರೋಲ್ ಪ್ಯಾನಲ್"}}
+{"text": "ஸ்டிக்கி நோட்ஸ் திறங்க.", "action": "open_app", "slots": {"app": "ஸ்டிக்கி நோட்ஸ்"}}
+{"text": "కమాండ్ ప్రాంప్ట్ ఓపెన్ చేయి.", "action": "open_app", "slots": {"app": "కమాండ్ ప్రాంప్ట్"}}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="44" viewBox="0 0 140 44">
+  <!-- Demo CAPTCHA placeholder: Bol OS must never read or solve it, the user types it. -->
+  <rect width="140" height="44" fill="#e8edf5"/>
+  <path d="M0 30 C30 10 60 40 90 18 S130 30 140 12" stroke="#9aa7bd" stroke-width="2" fill="none"/>
+  <path d="M0 12 C40 34 70 6 100 30 S130 8 140 26" stroke="#b9c3d4" stroke-width="1.5" fill="none"/>
+  <g font-family="Georgia, serif" font-size="24" fill="#2b3a55">
+    <text x="12" y="31" transform="rotate(-8 20 30)">7</text>
+    <text x="34" y="29" transform="rotate(10 40 28)">k</text>
+    <text x="56" y="33" transform="rotate(-12 62 30)">Q</text>
+    <text x="82" y="28" transform="rotate(6 88 28)">2</text>
+    <text x="104" y="32" transform="rotate(-6 110 30)">p</text>
+  </g>
+</svg>

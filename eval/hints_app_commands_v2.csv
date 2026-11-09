@@ -1,0 +1,241 @@
+id,lang,command,action,app,contact,text,query,target,typed
+1,hi-en,"Bhai, zara Zoom wala khol do, meeting hai.",open_app,other,,,,,"Bhai zara Zoom wala khol do, meeting hai."
+2,hi-en,Notepad kholna zara.,open_app,notepad,,,,,notepad kholna jara
+3,hi-en,Calculator chalu karo hisab lagana hai.,open_app,calculator,,,,,Calculater chalu karo hisab lagana hai.
+4,hi-en,Excel valla program shuru karo.,open_app,excel,,,,,excel wala program shuru karo
+5,hi-en,"Settings khol do na, awaaz vali.",open_app,settings,,,,,settings khol do na awaaz wali
+6,kn,WhatsApp open madi,open_app,whatsapp,,,,,whats app open maadi
+7,kn,"Camera on maa, adu photo tegebeku.",open_app,camera,,,,,Kamera on maadu photo tegibeku
+8,kn,Spotify app tegge.,open_app,spotify,,,,,Spotify app tegi
+9,ta-en,YouTube open pannu,open_app,youtube,,,,,YouTube open pannu
+10,ta-en,Word tharandhu koodu letter adakkanu.,open_app,word,,,,,Word thirandhu kudu letter adikkanum
+11,ta-en,"Files pakkanu, File Explorer khiravu.",open_app,file_explorer,,,,,files paakanum file explorer thiravu
+12,en,Open the Paint application please.,open_app,other,,,,,Open the paint application please.
+13,en,Start Chrome,open_app,chrome,,,,,Start crome.
+14,te-en,Telegram open cheyandi?,open_app,other,,,,,Telegram open cheyyandi
+15,hi-en,Mummy ko message karo ki main shaam tak aa jauanga.,send_message,,,,,,Mummy ko message karo ki main shaam tak aa jaunga.
+16,hi-en,"Bittu ko WhatsApp pe bolo, dawai leta hai.",send_message,,,,,,Bittu ko WhatsApp pe bolo dawai leta aaye
+17,hi-en,"Sharma ji ko likh ke bhej do, kal ki meeting cancel hai.",send_message,,,,,,sharma ji ko likh ke bhej do kal ki meeting cancel hai
+18,hi-en,Bahu ko bata do ki khana garam kar le.,send_message,,,,,,bahu ko bata do ki khana garam kar le
+19,hi-en,"Ramesh bhaiyako reply karo, haan theek hai.",send_message,,,,,,Ramesh bhaiya ko reply karo haan theek hai.
+20,hi-en,"Nani ko message bhejo, Happy Diwali.",send_message,,,,,,nani ko message bhejo happy diwali
+21,kn,"Akka ge message kalsu, naanu nale baruttini anta.",send_message,,,,,,akka ge message kalsu naanu naale baruttini antha
+22,kn,Appage WhatsApp alli hello bas message aytu?,send_message,,,,,,Appa ge WhatsApp alli helu bus miss aaytu
+23,kn,Suresh ke happy birthday anta kalisi.,send_message,,,,,,Suresh ge happy birthday antha kalsi
+24,ta-en,"Thambikku message anupunaan, veetla irukkenu.",send_message,,,,,,Thambi ku message anuppu naan veetla irukken nu
+25,ta-en,"Amma ku WhatsApp la sollu, saapadu vendamnu.",send_message,,,,,,Amma ku whatsapp la sollu saapadu vendam nu
+26,ta-en,"Kavita ku text pannu, meeting late agum.",send_message,,,,,,Kavitha ku text pannu meeting late aagum
+27,en,Send a message to doctor mehta that I will come tomorrow.,send_message,,,,,,Send a message to Doctor Mehta that I will come tomorrow.
+28,mr-en,Aila message karmi ghari pahunch le.,send_message,,,,,,Aai la message kar mi ghari pohochle
+29,hi-en,Aaj Lucknow mein barish hogi kya?,web_search,,,,,,aaj lucknow mein barish hogi kya
+30,hi-en,Sone ka bhav kya chal raha hai aaj?,web_search,,,,,,sone ka bhav kya chal raha hai aaj
+31,hi-en,PM Kisan ki kishht kab aayegi?,web_search,,,,,,PM kisan ki kisht kab aayegi
+32,hi-en,"Google karo, Ayushman card kaise banata hai?",web_search,,,,,,Google karo ayushman card kaise banta hai.
+33,hi-en,Kal India ka match kaun jeeta?,web_search,,,,,,kal India ka match kaun jeeta
+34,kn,Mysorege train yavaga ide?,web_search,,,,,,Mysore ge train yaavaga ide
+35,kn,ivattu tomato rate eshtu ide?,web_search,,,,,,ivattu tomato rate eshtu ide
+36,kn,Sugar jaasti aadre enu tinnabardu.,web_search,,,,,,sugar jaasti aadre enu tinbaardu
+37,ta-en,Chennai-lanna lake-ku mazhai varuma?,web_search,,,,,,Chennai la naalaikku mazhai varuma
+38,ta-en,"Muthyavaru pension eppadi apply pannu? Raju, Google na thedu.",web_search,,,,,,muthiyor pension eppadi apply pannuradhu Google la thedu
+39,ta-en,Petrol vilai in Naiku Evalavu.,web_search,,,,,,petrol vilai innaiku evvalavu
+40,en,Who won the election in Bihar?,web_search,,,,,,Who won the election in Bihar.
+41,gu-en,Aaj Ahmedabad ma varshat padse ke?,web_search,,,,,,aaj Ahmedabad ma varsad padse ke
+42,hi-en,Kishore Kumar ke purane gaane bajao.,play_media,,,,,,Kishore Kumar ke purane gaane bajao
+43,hi-en,Hanuman chalisa laga do.,play_media,,,,,,Hanuman chalisa laga do.
+44,hi-en,Shule picture chalavo.,play_media,,,,,,Sholay picture chalao
+45,hi-en,Aaj tak ki khabar video mein chala do.,play_media,,,,,,Aaj Tak ki khabar video mein chala do
+46,hi-en,Radio mirche suna suna.,play_media,,,,,,radio mirchi sunao
+47,kn,"Rajkumar, haadu haaku.",play_media,,,,,,Rajkumar haadu haaku
+48,kn,Punit movie play madu.,play_media,,,,,,Puneeth movie play maadu
+49,kn,Purandara Dasara devara nama hake.,play_media,,,,,,Purandara dasara devaranama haaki
+50,ta-en,S P B hits podu.,play_media,,,,,,SPB hits podu
+51,ta-en,Kandha Shashthi Kavasam podunga.,play_media,,,,,,Kandha sashti kavasam podunga
+52,ta-en,avadivele comedy video podu.,play_media,,,,,,Vadivelu comedy video podu
+53,en,Play Arijit Singh songs on YouTube.,play_media,,,,,,Play Arijit Singh songs on YouTube.
+54,te-en,ghankasala pathalu pettu.,play_media,,,,,,Ghantasala patalu pettu
+55,hi-en,Likhon aaj ki tareekh teen November.,type_text,,,,,,likho aaj ki tarikh teen november
+56,hi-en,"Isme likh do, mera naam Ram Prasad Verma.",type_text,,,,,,Isme likh do mera naam Ramprasad Verma.
+57,hi-en,type karo paracetamol aur Crocin.,type_text,,,,,,type karo paracetamol aur crocin
+58,hi-en,Yahan pe likho pin code do do che zero ek zero.,type_text,,,,,,yahan pe likho pin code do do chhe zero ek zero
+59,hi-en,"Respected sir, likhe main chuti chahata hoon.",type_text,,,,,,Respected sir likhiye main chhutti chahta hoon
+60,kn,E library nanna hesaru Lakshmaamma.,type_text,,,,,,illi bari nanna hesaru Lakshmamma
+61,kn,"Address baraha number edu, Gandhinagar.",type_text,,,,,,address baraha number aidu Gandhi nagar
+62,kn,Deepmaadi nale shale Raju.,type_text,,,,,,type maadi naale shaale rajaa
+63,ta-en,inga ezhudhu a par murugan.,type_text,,,,,,inga ezhudhu en per Murugan
+64,ta-en,"Type Pannupal, rendu litre sakkarayi, oru kilo.",type_text,,,,,,type pannu paal rendu litre sakkarai oru kilo
+65,en,"Right, dear sir, I am not well today.",type_text,,,,,,Write dear sir I am not well today.
+66,en,"Type, thank you for your help in the box.",type_text,,,,,,Type thank you for your help in the box.
+67,te-en,Ikkada Rai Venkatesh Rao.,type_text,,,,,,ikkada raayi Venkatesh Rao
+68,hi-en,"screen pe kya likha hai, padh ke suna.",read_screen,,,,,,screen pe kya likha hai padh ke sunao
+69,hi-en,ye jo email aaya hai zara padh do.,read_screen,,,,,,ye jo email aaya hai zara padh do
+70,hi-en,Is page ka matlab samjhaao.,read_screen,,,,,,Is page ka matlab samjhao.
+71,hi-en,"bajli ka bill khula hai, kitna likha hai batao.",read_screen,,,,,,bijli ka bill khula hai kitna likha hai batao
+72,hi-en,"Mujhe dikhta nahi kya aaya hai, padh do.",read_screen,,,,,,mujhe dikhta nahi kya aaya hai padh do
+73,kn,ee message odi heli,read_screen,,,,,,ee message odi heli
+74,kn,Ee page alli enu bardire artham adi heli.,read_screen,,,,,,ee page alli enu bardide artha maadi heli
+75,ta-en,screenla enna irukkupadi choosollu.,read_screen,,,,,,screen la enna irukku padichu sollu
+76,ta,Inha letter a vaasi chukattu.,read_screen,,,,,,indha letter-a vaasichu kaattu
+77,ta-en,idu enna message nu sollloo.,read_screen,,,,,,idhu enna message nu sollu
+78,en,Read out what is written here.,read_screen,,,,,,Read out what is written here.
+79,te-en,screen meera EMI ondu chaduvu.,read_screen,,,,,,screen meeda emi undi chaduvu
+80,bn-en,Ee lekha to poore sonao.,read_screen,,,,,,ei lekha ta pore shonao
+81,hi-en,"Okay, valla button dabavu.",click,,,,,,OK wala button dabao
+82,hi-en,neeche wala submit dabai dijiye.,click,,,,,,neeche wala Submit daba dijiye
+83,hi-en,Download pe click kar do.,click,,,,,,Download pe click kar do
+84,hi-en,Cancel likha hai na usko dabao.,click,,,,,,Cancel likha hai na usko dabao
+85,hi-en,Next whale park click karna.,click,,,,,,Next wale par click karna.
+86,hi-en,hara valla send button daba do.,click,,,,,,hara wala Send button daba do
+87,kn,Login button otte,click,,,,,,Login button otti
+88,kn,"Yes, mail click maadi.",click,,,,,,Yes mele click maadi
+89,ta-en,Allow button e ammu.,click,,,,,,Allow button-a amukku
+90,ta-en,Reply mela click pannu.,click,,,,,,Reply mela click pannu
+91,en,Click on the pay bill link.,click,,,,,,Click on the Pay Bill link.
+92,ml-en,"Continue button, Amarthu.",click,,,,,,Continue button amarthu
+93,mr-en,Search button var click kara.,click,,,,,,Search button var click kara
+94,hi-en,Rhane do beta,cancel,,,,,,rehne do beta
+95,hi-en,"nahi nahi galat bol diya, band karo.",cancel,,,,,,"nahi nahi galat bol diya, band karo"
+96,hi-en,chodoo abhi mat karo,cancel,,,,,,chhodo abhi mat karo
+97,hi-en,"Ruko ruko, cancel",cancel,,,,,,"Ruko ruko, cancel."
+98,hi-en,"Kuch nahi karna, jaane do.",cancel,,,,,,"kuch nahi karna, jaane do"
+99,kn,beda beda news,cancel,,,,,,beda beda nilsu
+100,kn,"illa, adu beda bhai, idu.",cancel,,,,,,illa adu beda bidu
+101,ta,vendum vidhu,cancel,,,,,,vendam vidu
+102,ta,miritu appuram pathukalam.,cancel,,,,,,"niruthu, apram paathukalam"
+103,en,"Never mind, leave it",cancel,,,,,,"Never mind, leave it."
+104,en,"No, no, stop it.",cancel,,,,,,No no stop it.
+105,te-en,Worddu appe.,cancel,,,,,,vaddu aapeyi
+106,mr-en,Naaku Raju bhai.,cancel,,,,,,nako rahu de
+107,hi-en,"Are suno, ek cup chai bana do.",unknown,,,,,,"Arre suno, ek cup chai bana do."
+108,hi-en,"haan haan, main sun raha hoon.",unknown,,,,,,haan haan main sun raha hoon
+109,hi-en,Aaj toh bahut garmi hai.,unknown,,,,,,aaj to bahut garmi hai
+110,hi-en,"vo na, jo kalvala tha.",unknown,,,,,,woh na jo kal wala tha
+111,hi-en,Mera beta Delhi mein naukri karta hai.,unknown,,,,,,mera beta Delhi mein naukri karta hai
+112,hi-en,"Hello hello, awaaz aa rahi hai?",unknown,,,,,,Hello hello awaaz aa rahi hai
+113,kn,ota ayithe nimdu,unknown,,,,,,oota aytha nimdu
+114,kn,ivattu thumba sasta agide.,unknown,,,,,,ivattu tumba sustaagide
+115,kn,aa adu andare?,unknown,,,,,,aa adu andre
+116,ta-en,Another Panra.,unknown,,,,,,enna da panra
+117,ta,Naan Nehru Kovilku poyirundhen.,unknown,,,,,,naan nethu kovil ku poyirundhen
+118,ta,And parents schoolku poyta?,unknown,,,,,,en peran school ku poitan
+119,en,Testing one two three,unknown,,,,,,Testing one two three.
+120,te-en,"Amma inka raledu, Raju.",unknown,,,,,,ammo inka raledu vaadu
+121,hi-en,"bhai jaldi se zoom khol de, meeting start ho gayi.",open_app,other,,,,,"Bhai jaldi se Zoom khol de, meeting start ho gayi."
+122,hi-en,Insta chalu karna yaar,open_app,other,,,,,insta chalu kar na yaar
+123,hi-en,"Excel open karo, budget banana hai.",open_app,excel,,,,,"Excel open karo, budget banana hai"
+124,hi,Calculator kholu zara.,open_app,calculator,,,,,कैलकुलेटर खोलो ज़रा
+125,hi-en,"Settings mein jaana hai, open kar do.",open_app,settings,,,,,"settings mein jaana hai, open kar do"
+126,kn-en,File Explorer open maadi.,open_app,file_explorer,,,,,file explorer open maadi
+127,kn,Spotify na open madu.,open_app,spotify,,,,,Spotify ನ ಓಪನ್ ಮಾಡು
+128,ta-en,"Camera on pannu, selfie edukkanam.",open_app,camera,,,,,"camera on pannu, selfie edukkanum"
+129,ta-en,Chrome dhara konjam faster.,open_app,chrome,,,,,"Chrome thira, konjam fast ah"
+130,ta-en,WhatsApp open pannuda?,open_app,whatsapp,,,,,WhatsApp open pannu da
+131,ta,Notepad tere,open_app,notepad,,,,,நோட்பேட் திற
+132,en,Can you fire up Word for me?,open_app,word,,,,,Can you fire up Word for me
+133,te-en,YouTube teravo,open_app,youtube,,,,,YouTube teruvu
+134,hi-en,"Rohit ko bol de, main das minutes mein pahunch raha hoon.",send_message,,,,,,Rohit ko bol de main 10 min mein pahunch raha hoon
+135,hi-en,mummy ko WhatsApp kar do ki aaj khana mat banana.,send_message,,,,,,mummy ko WhatsApp kar do ki aaj khana mat banana
+136,hi-en,"Didi ko reply karo ki haan, done.",send_message,,,,,,Didi ko reply karo ki haan done.
+137,hi,bhaiya ko message bhejo ki gaadi ki chabi table par hai.,send_message,,,,,,भैया को मैसेज भेजो कि गाड़ी की चाबी टेबल पर है
+138,hi-en,"Sneha ku text maaru, party cancel.",send_message,,,,,,"Sneha ko text maar, party cancel"
+139,kn-en,Amma ge message kalisu late agatte.,send_message,,,,,,"appa ge message kalsu, late aagatte"
+140,kn-en,"Kavyage hello, naale class illa anta.",send_message,,,,,,Kavya ge helu naale class illa anta
+141,kn,"Akkanige message kazhisu, oota aytanta?",send_message,,,,,,ಅಕ್ಕನಿಗೆ ಮೆಸೇಜ್ ಕಳುಹಿಸು ಊಟ ಆಯ್ತಾ ಅಂತ
+142,ta-en,"Karthikku, Anupu trafficla maatrikitte.",send_message,,,,,,"Karthik ku anuppu, traffic la maatikitten"
+143,ta-en,"Amma, kittu sollu. Naanu varenu WhatsApp la.",send_message,,,,,,"amma kitta sollu naan varen nu, WhatsApp la"
+144,en,Ping Arjun that the cab is downstairs.,send_message,,,,,,Ping Arjun that the cab is downstairs
+145,te-en,"Amma ku message pampoo, nenu vachistunna.",send_message,,,,,,"Ammaku message pampu, nenu vachestunna"
+146,hi-en,papa ko bata do ki doai main le aaunga.,send_message,,,,,,Papa ko bata do ki dawai main le aaunga
+147,hi-en,Aaj Bangalore mein baarish hogi kya?,web_search,,,,,,aaj Bangalore mein baarish hogi kya
+148,hi-en,petrol ka rate kitna chal raha hai Delhi mein?,web_search,,,,,,petrol ka rate kitna chal raha hai Delhi mein
+149,hi-en,India ka math score kya hua?,web_search,,,,,,India ka match score kya hua
+150,hi-en,PM Kisan ki agli kisht kab aayegi?,web_search,,,,,,PM Kisan ki agli kist kab aayegi
+151,hi-en,Google karo nearest Aadhaar seva kendra.,web_search,,,,,,Google karo nearest Aadhaar seva kendra
+152,hi,Passport renew kaise karte hain?,web_search,,,,,,पासपोर्ट रिन्यू कैसे करते हैं
+153,kn-en,Ivattu gold rate eshtu ide?,web_search,,,,,,ivattu gold rate eshtu ide
+154,ta-en,Madurai bus timing paaru Google la.,web_search,,,,,,Madurai bus timing paaru Google la
+155,kn,Naale Bengaluru alli male barutta?,web_search,,,,,,ನಾಳೆ ಬೆಂಗಳೂರಲ್ಲಿ ಮಳೆ ಬರುತ್ತಾ
+156,ta-en,Chennai-la innaiku weather eppadi?,web_search,,,,,,Chennai la innaiku weather epdi
+157,ta-en,"Briyani appude sare, adhunoo thadhu.",web_search,,,,,,biryani eppadi seiyradhu nu theadu
+158,en,What's the cheapest flight to Goa this weekend?,web_search,,,,,,what's the cheapest flight to Goa this weekend
+159,te-en,Hyderabad lo metro timings enti?,web_search,,,,,,Hyderabad lo metro timings enti
+160,en,Is the metro running on Diwali day?,web_search,,,,,,is the metro running on Diwali day
+161,hi-en,YouTube pe Arijit ke sad songs laga de.,play_media,,,,,,YouTube pe Arijit ke sad songs laga de
+162,hi-en,Kuch lo-fi bajao padhte time ke liye.,play_media,,,,,,kuch lo-fi bajao padhte time ke liye
+163,hi-en,Hanuman chalisa sunaavu.,play_media,,,,,,Hanuman Chalisa sunao.
+164,hi,Aaj tak live news chalavo.,play_media,,,,,,आज तक लाइव न्यूज़ चलाओ
+165,hi-en,Panchayat ka next episode chala do.,play_media,,,,,,Panchayat ka next episode chala do
+166,kn-en,"Punit Rajkumar, haadu haaku.",play_media,,,,,,Puneeth Rajkumar haadu haaku
+167,kn,bhakti geete play madu.,play_media,,,,,,ಭಕ್ತಿ ಗೀತೆ ಪ್ಲೇ ಮಾಡು
+168,kn-en,Raju mirchi haku swalpa.,play_media,,,,,,Radio Mirchi haaku swalpa
+169,ta-en,Anirudh hits poduda?,play_media,,,,,,Anirudh hits podu da
+170,ta-en,Vikram Padam trailer play pannu.,play_media,,,,,,Vikram padam trailer play pannu
+171,en,"Play that ""Priya"" kohad song, cold mess.",play_media,,,,,,"Play that Prateek Kuhad song, cold mess"
+172,te-en,"Sir, Shriram pathulu pettu.",play_media,,,,,,Sid Sriram paatalu pettu
+173,pa-en,"Jagjeet Singh, di ghazal lagaao.",play_media,,,,,,Jagjit Singh di ghazal lagao
+174,hi-en,"Likhon, kal subah nau baje meeting hai.",type_text,,,,,,likho kal subah 9 baje meeting hai
+175,hi-en,"search box mein likho, ""running shoes under do hazar"".",type_text,,,,,,search box mein likho running shoes under 2000
+176,hi-en,"type kardho dear sir, i am writing to inform you.",type_text,,,,,,"type kar do Dear sir, I am writing to inform you"
+177,hi,"Yahan likho, mera pata Bara Gandhinagar.",type_text,,,,,,यहाँ लिखो मेरा पता 12 गांधी नगर
+178,hi-en,Subject: Mein dal do leave application.,type_text,,,,,,subject mein daal do leave application
+179,kn-en,"Idannu type, Maa, adu naanu naale baruttene.",type_text,,,,,,"idannu type maadu, naanu naale baruttene"
+180,kn,bari dhanyavadagalu.,type_text,,,,,,ಬರಿ ಧನ್ಯವಾದಗಳು
+181,kn-en,"Notes: alibara, milk, eggs, bread.",type_text,,,,,,"notes alli baraha milk, eggs, bread"
+182,ta-en,"Ezhuh, project deadline Friday.",type_text,,,,,,"ezhudhu, project deadline Friday"
+183,ta,"Enga type pannu. Nandi, Vanakkam.",type_text,,,,,,இங்க டைப் பண்ணு நன்றி வணக்கம்
+184,ta-en,type pannu enoda email id ramesh at gmail dot com.,type_text,,,,,,type pannu ennoda email id ramesh at gmail dot com
+185,en,"Write down ""call the plumber"" at five.",type_text,,,,,,Write down call the plumber at 5
+186,te-en,"Idi Raju, rent paid for November.",type_text,,,,,,idi raayu rent paid for November
+187,hi-en,"screen pe kya likha hai, padh ke suna.",read_screen,,,,,,screen pe kya likha hai padh ke sunao
+188,hi-en,ye email kya bol raha hai samajha do.,read_screen,,,,,,ye email kya bol raha hai samjha do
+189,hi-en,"Is page ka matlab kya hai bhai, bata?",read_screen,,,,,,"is page ka matlab kya hai bhai, bata"
+190,hi,screen par jo hai vo padho.,read_screen,,,,,,स्क्रीन पर जो है वो पढ़ो
+191,hi-en,"Is PDF mein kya likha hai, zor se parh.",read_screen,,,,,,is PDF mein kya likha hai zor se padh
+192,kn-en,Ee page alli enu baradida odu?,read_screen,,,,,,ee page alli enu bardide odu
+193,kn,ee message oodi helu.,read_screen,,,,,,ಈ ಮೆಸೇಜ್ ಓದಿ ಹೇಳು
+194,kn-en,"idu enu error, swalpa explain madu.",read_screen,,,,,,"idu enu error, swalpa explain maadu"
+195,ta-en,screenla enna irukunupadichu sollu.,read_screen,,,,,,screen la enna irukku nu padichu sollu
+196,ta-en,Intha mele na solludhu.,read_screen,,,,,,intha mail enna solludhu
+197,en,Read out whatever's on this page.,read_screen,,,,,,Read out whatever's on this page
+198,te-en,Ee screen lo emundi chadivi cheppu.,read_screen,,,,,,ee screen lo emundi chadivi cheppu
+199,hi-en,"ye error kya aa raha hai, padho zara.",read_screen,,,,,,ye error kya aa raha hai padho zara
+200,hi-en,Cancel valla button dabadu.,click,,,,,,cancel wala button daba do
+201,hi-en,Send the bow.,click,,,,,,Send dabao.
+202,hi-en,Next page tap kar.,click,,,,,,Next pe tap kar
+203,hi-en,Download step pe click kar.,click,,,,,,Downloads tab pe click kar
+204,hi,Login button dabavu.,click,,,,,,लॉगिन बटन दबाओ
+205,kn-en,Submit button ootu.,click,,,,,,Submit button ottu
+206,kn,Search button mele click madu.,click,,,,,,ಸರ್ಚ್ ಬಟನ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡು
+207,kn-en,Skip ad click madu.,click,,,,,,Skip ad click maadu
+208,ta-en,"Okay, button ammukku.",click,,,,,,OK button amukku
+209,ta-en,"Excel nu, irukura button aa click pannu.",click,,,,,,Accept nu irukura button ah click pannu
+210,en,Hit the reply all button.,click,,,,,,Hit the Reply All button
+211,te-en,Continue media click che.,click,,,,,,Continue meeda click cheyyi
+212,bn-en,Download button ta tipu.,click,,,,,,Download button ta tipo
+213,hi-en,Rhane de yaar,cancel,,,,,,rehne de yaar
+214,hi-en,"chod na, baad mein karte hain.",cancel,,,,,,"chhod na, baad mein karte hain"
+215,hi-en,"nahi nahi, ruk ja, math bhejo.",cancel,,,,,,"nahi nahi ruk ja, mat bhej"
+216,hi,raddu karo.,cancel,,,,,,रद्द करो
+217,en,Cancel,cancel,,,,,,Cancel.
+218,hi-en,"Are galati se bola, ignore kar.",cancel,,,,,,"arre galti se bola, ignore kar"
+219,kn-en,beda keno? vidu vidu.,cancel,,,,,,"beda kano, bitbidu"
+220,kn,beda nelsu,cancel,,,,,,ಬೇಡ ನಿಲ್ಸು
+221,kn-en,"Aytu, ignore maaadu adanna.",cancel,,,,,,"aitu, ignore maadu adanna"
+222,ta-en,vendaamda vittudu.,cancel,,,,,,"vendaam da, vittudu"
+223,ta,"Niruthu, vendam.",cancel,,,,,,"நிறுத்து, வேண்டாம்"
+224,en,Scratch that? Never mind,cancel,,,,,,"Scratch that, never mind"
+225,te-en,Worddule appu.,cancel,,,,,,"vaddu le, aapu"
+226,mr-en,Java dekha?,cancel,,,,,,"jau de, nako"
+227,hi-en,"haan haan, main sun raha hoon mummy, ek minute.",unknown,,,,,,"haan haan main sun raha hoon mummy, ek minute"
+228,hi-en,"yaar, aaj bahut garmi hai.",unknown,,,,,,yaar aaj bahut garmi hai
+229,hi-en,Vojoo kalvala.,unknown,,,,,,wo jo kal wala... umm
+230,hi,Mujhe bhukh lagi hai.,unknown,,,,,,मुझे भूख लगी है
+231,hi-en,Rahul ne message kiya tha kal.,unknown,,,,,,Rahul ne message kiya tha kal
+232,kn-en,naanu ivattu office ge hogalla.,unknown,,,,,,naanu ivattu office ge hogalla
+233,kn,"Ayyo, maratoytu! Ayyo, maratoytu!",unknown,,,,,,ಅಯ್ಯೋ ಮರೆತೋಯ್ತು
+234,ta-en,"The machine, Saapriya.",unknown,,,,,,dei machan saaptiya?
+235,ta-en,"In Notepad, the Maa bore.",unknown,,,,,,"ennada idhu, semma bore"
+236,ta-en,Naan nethe YouTube la avaru video pathini.,unknown,,,,,,naan nethu YouTube la oru video paathen
+237,ta,Amma vandhuttangala?,unknown,,,,,,அம்மா வந்துட்டாங்களா
+238,en,My phone battery is dying.,unknown,,,,,,My phone battery is dying
+239,te-en,Ee roju chala busy ga undi.,unknown,,,,,,ee roju chala busy ga undi
+240,en,This laptop is so slow today.,unknown,,,,,,ugh this laptop is so slow today

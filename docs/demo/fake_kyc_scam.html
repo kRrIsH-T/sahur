@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demo Grameen Bank - KYC Update - Account Blocked</title>
+<link rel="stylesheet" href="form.css">
+<style>
+  /* Lookalike styling: the colours and name of the real (fictional) demo bank, with the usual scam tells. */
+  header.bank { background: #1f4e8c; }
+  .urgent {
+    background: #b3261e; color: #fff; border-radius: 4px; padding: 10px 14px; margin: 0 0 16px; font-weight: 600;
+  }
+  .timer { font-variant-numeric: tabular-nums; }
+  .seal { color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<!--
+  Bol OS demo page: a deliberately FAKE "KYC update" page of the kind sent in SMS/WhatsApp scams, used to test the
+  form assistant's safety guard. It copies the fictional demo bank's look, adds urgency ("account blocked in 24
+  hours") and asks for what no bank ever asks on a web form: debit card number with expiry, CVV, ATM PIN, net-banking
+  password and an OTP. Served only on 127.0.0.1 by serve.py, which discards anything submitted and then explains
+  that it was a scam page.
+-->
+<body
+  data-msg-required="This field is required."
+  data-msg-pattern="Please enter a valid value."
+  data-msg-summary="Please correct the {n} errors below."
+  data-msg-summary-one="Please correct the error below."
+  data-msg-otp-demo="OTP sent to your registered mobile number.">
+<header class="bank">
+  <span class="brand">Demo Grameen Bank</span>
+  <span class="tag">KYC Verification Centre</span>
+</header>
+<main>
+  <p class="demo-note">Bol OS test page: this is a FAKE scam page made for testing. Never type real details here.</p>
+  <div class="urgent">Your KYC has EXPIRED. Your account will be BLOCKED in
+    <span class="timer" id="timer">23:59:59</span>. Update now to avoid suspension.</div>
+  <h1>Instant KYC Update</h1>
+  <p class="lead">As per RBI guidelines, complete your KYC within 24 hours to continue using your account and
+    receive your pending reward of Rs. 5,000.</p>
+  <div id="summary" role="alert" hidden></div>
+
+  <form data-demo action="/submit" method="post" novalidate>
+    <fieldset>
+      <legend>Customer verification</legend>
+      <div class="row">
+        <label for="name">Account holder name<span class="req">*</span></label>
+        <input id="name" name="name" type="text" required aria-describedby="name-error">
+        <span class="error" id="name-error"></span>
+      </div>
+      <div class="row">
+        <label for="mobile">Registered mobile number<span class="req">*</span></label>
+        <input id="mobile" name="mobile" type="tel" required inputmode="numeric" maxlength="10"
+               data-pattern="[6-9][0-9]{9}" data-msg-pattern="Enter a valid 10-digit mobile number."
+               aria-describedby="mobile-error">
+        <span class="error" id="mobile-error"></span>
+      </div>
+      <div class="row">
+        <label for="userid">Net banking user ID<span class="req">*</span></label>
+        <input id="userid" name="userid" type="text" required aria-describedby="userid-error">
+        <span class="error" id="userid-error"></span>
+      </div>
+      <div class="row">
+        <label for="password">Net banking password<span class="req">*</span></label>
+        <input id="password" name="password" type="password" required aria-describedby="password-error">
+        <span class="error" id="password-error"></span>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Debit card verification</legend>
+      <div class="row">
+        <label for="card">Debit card number<span class="req">*</span></label>
+        <input id="card" name="card" type="text" required inputmode="numeric" maxlength="19"
+               placeholder="16-digit card number" aria-describedby="card-error">
+        <span class="error" id="card-error"></span>
+      </div>
+      <div class="row">
+        <label for="expiry">Card expiry (MM/YY)<span class="req">*</span></label>
+        <input id="expiry" name="expiry" type="text" required maxlength="5" placeholder="MM/YY"
+               aria-describedby="expiry-error">
+        <span class="error" id="expiry-error"></span>
+      </div>
+      <div class="row">
+        <label for="cvv">CVV<span class="req">*</span></label>
+        <input id="cvv" name="cvv" type="password" required inputmode="numeric" maxlength="3"
+               aria-describedby="cvv-error">
+        <span class="error" id="cvv-error"></span>
+      </div>
+      <div class="row">
+        <label for="atm_pin">ATM PIN<span class="req">*</span></label>
+        <input id="atm_pin" name="atm_pin" type="password" required inputmode="numeric" maxlength="4"
+               aria-describedby="atm_pin-error">
+        <span class="error" id="atm_pin-error"></span>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>OTP verification</legend>
+      <div class="row">
+        <label for="otp">Enter the OTP sent to your mobile<span class="req">*</span></label>
+        <div class="otp">
+          <input id="otp" name="otp" type="text" required inputmode="numeric" maxlength="6"
+                 autocomplete="one-time-code" aria-describedby="otp-error">
+          <button type="button" id="send-otp">Resend OTP</button>
+          <span id="otp-status" class="help"></span>
+        </div>
+        <span class="error" id="otp-error"></span>
+      </div>
+    </fieldset>
+
+    <div class="actions">
+      <button type="submit" class="primary">Verify and unblock account</button>
+    </div>
+    <p class="seal">Secured by 256-bit SSL. RBI approved KYC partner.</p>
+  </form>
+</main>
+<footer>Fake page for testing Bol OS. Demo Grameen Bank is fictional.</footer>
+<script src="form.js"></script>
+<script>
+  // The countdown is part of the scam: pressure makes people skip checking the address bar.
+  (function () {
+    var left = 24 * 3600 - 1;
+    var el = document.getElementById("timer");
+    setInterval(function () {
+      left = Math.max(0, left - 1);
+      var h = Math.floor(left / 3600), m = Math.floor(left / 60) % 60, s = left % 60;
+      el.textContent = [h, m, s].map(function (n) { return (n < 10 ? "0" : "") + n; }).join(":");
+    }, 1000);
+  })();
+</script>
+</body>
+</html>

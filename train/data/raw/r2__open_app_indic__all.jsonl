@@ -1,0 +1,110 @@
+{"text": "YouTube teruvu.", "action": "open_app", "app": "youtube", "group": "r2_open_app_indic"}
+{"text": "WhatsApp tura.", "action": "open_app", "app": "whatsapp", "group": "r2_open_app_indic"}
+{"text": "Chrome kholun de", "action": "open_app", "app": "chrome", "group": "r2_open_app_indic"}
+{"text": "calculator ugadun de", "action": "open_app", "app": "calculator", "group": "r2_open_app_indic"}
+{"text": "whatsapp open cheyyi", "action": "open_app", "app": "whatsapp", "group": "r2_open_app_indic"}
+{"text": "Chrome open cheyyandi.", "action": "open_app", "app": "chrome", "group": "r2_open_app_indic"}
+{"text": "notepad teruvu", "action": "open_app", "app": "notepad", "group": "r2_open_app_indic"}
+{"text": "Calculator open chey.", "action": "open_app", "app": "calculator", "group": "r2_open_app_indic"}
+{"text": "file explorer teruvandi", "action": "open_app", "app": "file_explorer", "group": "r2_open_app_indic"}
+{"text": "Settings open cheyyi.", "action": "open_app", "app": "settings", "group": "r2_open_app_indic"}
+{"text": "camera teruvu", "action": "open_app", "app": "camera", "group": "r2_open_app_indic"}
+{"text": "Word open cheyyandi please", "action": "open_app", "app": "word", "group": "r2_open_app_indic"}
+{"text": "Excel teruvu.", "action": "open_app", "app": "excel", "group": "r2_open_app_indic"}
+{"text": "spotify open chey", "action": "open_app", "app": "spotify", "group": "r2_open_app_indic"}
+{"text": "VLC player open cheyyi", "action": "open_app", "app": "other", "group": "r2_open_app_indic"}
+{"text": "Teams teruvu.", "action": "open_app", "app": "other", "group": "r2_open_app_indic"}
+{"text": "యూట్యూబ్ తెరువు", "action": "open_app", "app": "youtube", "group": "r2_open_app_indic"}
+{"text": "వాట్సాప్ ఓపెన్ చెయ్యి", "action": "open_app", "app": "whatsapp", "group": "r2_open_app_indic"}
+{"text": "కాలిక్యులేటర్ తెరవండి", "action": "open_app", "app": "calculator", "group": "r2_open_app_indic"}
+{"text": "కెమెరా ఓపెన్ చేయి", "action": "open_app", "app": "camera", "group": "r2_open_app_indic"}
+{"text": "YouTube thurakku.", "action": "open_app", "app": "youtube", "group": "r2_open_app_indic"}
+{"text": "WhatsApp thurakkoo", "action": "open_app", "app": "whatsapp", "group": "r2_open_app_indic"}
+{"text": "Chrome open aakku.", "action": "open_app", "app": "chrome", "group": "r2_open_app_indic"}
+{"text": "notepad thurannu tharu", "action": "open_app", "app": "notepad", "group": "r2_open_app_indic"}
+{"text": "calculator thurakku", "action": "open_app", "app": "calculator", "group": "r2_open_app_indic"}
+{"text": "Settings thurakkanam.", "action": "open_app", "app": "settings", "group": "r2_open_app_indic"}
+{"text": "camera open cheyyu", "action": "open_app", "app": "camera", "group": "r2_open_app_indic"}
+{"text": "Excel thurakku", "action": "open_app", "app": "excel", "group": "r2_open_app_indic"}
+{"text": "file explorer thurakkoo.", "action": "open_app", "app": "file_explorer", "group": "r2_open_app_indic"}
+{"text": "Spotify thurakku.", "action": "open_app", "app": "spotify", "group": "r2_open_app_indic"}
+{"text": "Word thurakkamo", "action": "open_app", "app": "word", "group": "r2_open_app_indic"}
+{"text": "Zoom thurakku", "action": "open_app", "app": "other", "group": "r2_open_app_indic"}
+{"text": "യൂട്യൂബ് തുറക്കൂ", "action": "open_app", "app": "youtube", "group": "r2_open_app_indic"}
+{"text": "വാട്സാപ്പ് തുറക്കുക", "action": "open_app", "app": "whatsapp", "group": "r2_open_app_indic"}
+{"text": "ക്രോം ഓപ്പൺ ചെയ്യൂ", "action": "open_app", "app": "chrome", "group": "r2_open_app_indic"}
+{"text": "സെറ്റിങ്സ് തുറക്കൂ", "action": "open_app", "app": "settings", "group": "r2_open_app_indic"}
+{"text": "YouTube kholo to.", "action": "open_app", "app": "youtube", "group": "r2_open_app_indic"}
+{"text": "WhatsApp khulo", "action": "open_app", "app": "whatsapp", "group": "r2_open_app_indic"}
+{"text": "Chrome ta kholo.", "action": "open_app", "app": "chrome", "group": "r2_open_app_indic"}
+{"text": "calculator ta khule dao", "action": "open_app", "app": "calculator", "group": "r2_open_app_indic"}
+{"text": "notepad khulo", "action": "open_app", "app": "notepad", "group": "r2_open_app_indic"}
+{"text": "Settings khule dao.", "action": "open_app", "app": "settings", "group": "r2_open_app_indic"}
+{"text": "camera chalu koro", "action": "open_app", "app": "camera", "group": "r2_open_app_indic"}
+{"text": "Word ta khulo.", "action": "open_app", "app": "word", "group": "r2_open_app_indic"}
+{"text": "Excel khule dao", "action": "open_app", "app": "excel", "group": "r2_open_app_indic"}
+{"text": "spotify khulo.", "action": "open_app", "app": "spotify", "group": "r2_open_app_indic"}
+{"text": "file explorer ta khulo", "action": "open_app", "app": "file_explorer", "group": "r2_open_app_indic"}
+{"text": "Paint ta khulo", "action": "open_app", "app": "other", "group": "r2_open_app_indic"}
+{"text": "ইউটিউব খোলো", "action": "open_app", "app": "youtube", "group": "r2_open_app_indic"}
+{"text": "হোয়াটসঅ্যাপ খুলে দাও", "action": "open_app", "app": "whatsapp", "group": "r2_open_app_indic"}
+{"text": "ক্যালকুলেটর খোলো", "action": "open_app", "app": "calculator", "group": "r2_open_app_indic"}
+{"text": "ক্যামেরা চালু করো", "action": "open_app", "app": "camera", "group": "r2_open_app_indic"}
+{"text": "YouTube ughad.", "action": "open_app", "app": "youtube", "group": "r2_open_app_indic"}
+{"text": "WhatsApp ughada", "action": "open_app", "app": "whatsapp", "group": "r2_open_app_indic"}
+{"text": "Chrome ughadun de.", "action": "open_app", "app": "chrome", "group": "r2_open_app_indic"}
+{"text": "notepad ughad", "action": "open_app", "app": "notepad", "group": "r2_open_app_indic"}
+{"text": "Settings ughada.", "action": "open_app", "app": "settings", "group": "r2_open_app_indic"}
+{"text": "camera chalu kar", "action": "open_app", "app": "camera", "group": "r2_open_app_indic"}
+{"text": "Word ughadun dya", "action": "open_app", "app": "word", "group": "r2_open_app_indic"}
+{"text": "Excel ughad.", "action": "open_app", "app": "excel", "group": "r2_open_app_indic"}
+{"text": "file explorer ughada", "action": "open_app", "app": "file_explorer", "group": "r2_open_app_indic"}
+{"text": "Spotify ughad na.", "action": "open_app", "app": "spotify", "group": "r2_open_app_indic"}
+{"text": "calculater ugadun de", "action": "open_app", "app": "calculator", "group": "r2_open_app_indic"}
+{"text": "Telegram ughad", "action": "open_app", "app": "other", "group": "r2_open_app_indic"}
+{"text": "युट्यूब उघड", "action": "open_app", "app": "youtube", "group": "r2_open_app_indic"}
+{"text": "व्हॉट्सॲप उघडा", "action": "open_app", "app": "whatsapp", "group": "r2_open_app_indic"}
+{"text": "क्रोम उघडून दे", "action": "open_app", "app": "chrome", "group": "r2_open_app_indic"}
+{"text": "नोटपॅड उघड", "action": "open_app", "app": "notepad", "group": "r2_open_app_indic"}
+{"text": "YouTube kholo.", "action": "open_app", "app": "youtube", "group": "r2_open_app_indic"}
+{"text": "WhatsApp kholi do", "action": "open_app", "app": "whatsapp", "group": "r2_open_app_indic"}
+{"text": "Chrome kholo ne.", "action": "open_app", "app": "chrome", "group": "r2_open_app_indic"}
+{"text": "calculator kholo", "action": "open_app", "app": "calculator", "group": "r2_open_app_indic"}
+{"text": "notepad kholi aapo.", "action": "open_app", "app": "notepad", "group": "r2_open_app_indic"}
+{"text": "Settings kholo", "action": "open_app", "app": "settings", "group": "r2_open_app_indic"}
+{"text": "camera chalu karo.", "action": "open_app", "app": "camera", "group": "r2_open_app_indic"}
+{"text": "Word kholi do", "action": "open_app", "app": "word", "group": "r2_open_app_indic"}
+{"text": "Excel kholo ne", "action": "open_app", "app": "excel", "group": "r2_open_app_indic"}
+{"text": "Spotify chalu karo.", "action": "open_app", "app": "spotify", "group": "r2_open_app_indic"}
+{"text": "file explorer kholo", "action": "open_app", "app": "file_explorer", "group": "r2_open_app_indic"}
+{"text": "Edge browser kholo", "action": "open_app", "app": "other", "group": "r2_open_app_indic"}
+{"text": "યુટ્યુબ ખોલો", "action": "open_app", "app": "youtube", "group": "r2_open_app_indic"}
+{"text": "વોટ્સએપ ખોલી દો", "action": "open_app", "app": "whatsapp", "group": "r2_open_app_indic"}
+{"text": "કેલ્ક્યુલેટર ખોલો", "action": "open_app", "app": "calculator", "group": "r2_open_app_indic"}
+{"text": "એક્સેલ ખોલો", "action": "open_app", "app": "excel", "group": "r2_open_app_indic"}
+{"text": "YouTube khol de.", "action": "open_app", "app": "youtube", "group": "r2_open_app_indic"}
+{"text": "WhatsApp khol do ji", "action": "open_app", "app": "whatsapp", "group": "r2_open_app_indic"}
+{"text": "Chrome khol deyo.", "action": "open_app", "app": "chrome", "group": "r2_open_app_indic"}
+{"text": "calculator khol", "action": "open_app", "app": "calculator", "group": "r2_open_app_indic"}
+{"text": "notepad khol de", "action": "open_app", "app": "notepad", "group": "r2_open_app_indic"}
+{"text": "Settings khol deo.", "action": "open_app", "app": "settings", "group": "r2_open_app_indic"}
+{"text": "camera chalu kar de", "action": "open_app", "app": "camera", "group": "r2_open_app_indic"}
+{"text": "Word khol de.", "action": "open_app", "app": "word", "group": "r2_open_app_indic"}
+{"text": "Excel khol do ji", "action": "open_app", "app": "excel", "group": "r2_open_app_indic"}
+{"text": "Spotify khol de", "action": "open_app", "app": "spotify", "group": "r2_open_app_indic"}
+{"text": "file explorer khol de.", "action": "open_app", "app": "file_explorer", "group": "r2_open_app_indic"}
+{"text": "Instagram khol de", "action": "open_app", "app": "other", "group": "r2_open_app_indic"}
+{"text": "ਯੂਟਿਊਬ ਖੋਲ੍ਹ ਦੇ", "action": "open_app", "app": "youtube", "group": "r2_open_app_indic"}
+{"text": "ਵਟਸਐਪ ਖੋਲ੍ਹੋ", "action": "open_app", "app": "whatsapp", "group": "r2_open_app_indic"}
+{"text": "ਕ੍ਰੋਮ ਖੋਲ੍ਹ ਦਿਓ", "action": "open_app", "app": "chrome", "group": "r2_open_app_indic"}
+{"text": "ਕੈਮਰਾ ਚਾਲੂ ਕਰੋ", "action": "open_app", "app": "camera", "group": "r2_open_app_indic"}
+{"text": "You tube teruvu", "action": "open_app", "app": "youtube", "group": "r2_open_app_indic"}
+{"text": "Whats up open cheyyi.", "action": "open_app", "app": "whatsapp", "group": "r2_open_app_indic"}
+{"text": "Krome ughad", "action": "open_app", "app": "chrome", "group": "r2_open_app_indic"}
+{"text": "excel teruvandi.", "action": "open_app", "app": "excel", "group": "r2_open_app_indic"}
+{"text": "Note pad khulo", "action": "open_app", "app": "notepad", "group": "r2_open_app_indic"}
+{"text": "spot ify thurakku", "action": "open_app", "app": "spotify", "group": "r2_open_app_indic"}
+{"text": "files folder kholo", "action": "open_app", "app": "file_explorer", "group": "r2_open_app_indic"}
+{"text": "setting ughad na", "action": "open_app", "app": "settings", "group": "r2_open_app_indic"}
+{"text": "Word file kholo ne.", "action": "open_app", "app": "word", "group": "r2_open_app_indic"}
+{"text": "Camera thurakkoo", "action": "open_app", "app": "camera", "group": "r2_open_app_indic"}

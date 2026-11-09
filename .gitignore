@@ -1,0 +1,35 @@
+# Local secrets and user data
+.env
+contacts.json
+preferences.json
+settings.json
+history.jsonl
+*.log
+
+# Python environments and caches
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.cache/
+
+# Generated local reports and evaluation artifacts
+graphify-out/
+.pytest-*.txt
+eval/results/
+eval/audio_cache/
+eval/recordings/
+eval/drafts/
+eval/v6_work/
+
+# Personal wake-word recordings and generated training checkpoints
+train/wake/audio/
+train/wake/work/
+train/candidates/
+train/data/dataset.jsonl
+train/data/build_*.log
+
+# Local artifacts
+.bolos-welcomed
+
+docs/CLICKY_TEARDOWN.md

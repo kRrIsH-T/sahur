@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bol OS dashboard</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/app.css">
+<script src="/app.js" defer></script>
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <svg class="mark" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="9" width="3" height="6" rx="1.5"/><rect x="8" y="5" width="3" height="14" rx="1.5"/><rect x="13" y="7" width="3" height="10" rx="1.5"/><rect x="18" y="10" width="3" height="4" rx="1.5"/></svg>
+    <h1>Bol OS</h1>
+  </div>
+  <p class="state" id="state" role="status"><span class="dot" aria-hidden="true"></span><span id="state-text">Connecting</span></p>
+</header>
+
+<main>
+  <div class="banner" id="offline" hidden>The dashboard lost its connection. Is Bol OS still running? Retrying.</div>
+  <div class="banner warn" id="restart" hidden></div>
+
+  <section class="setup" aria-labelledby="setup-title">
+    <div class="live">
+      <h2 id="setup-title">Microphone check</h2>
+      <p class="lede" id="meter-hint">Say something. The bars follow your voice.</p>
+      <div class="meter" id="meter" role="meter" aria-label="Microphone level" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+      <p class="device-line"><span id="mic-name">Microphone</span><span id="spk-name">Speaker</span></p>
+      <div class="tests">
+        <button type="button" class="btn primary" data-test="speaker">Play a test sentence</button>
+        <button type="button" class="btn" data-test="chime">Play the chime</button>
+        <button type="button" class="btn" data-test="welcome" id="test-welcome">Preview Sahur</button>
+      </div>
+      <p class="said" id="said" aria-live="polite"></p>
+    </div>
+    <div class="checks">
+      <h2>Before you record</h2>
+      <ul id="checks"></ul>
+      <div class="last" id="last" hidden>
+        <p class="label">Last heard</p>
+        <p class="heard" id="last-heard"></p>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="settings-title">
+    <div class="section-head">
+      <h2 id="settings-title">Settings</h2>
+      <button type="button" class="btn quiet" id="reset">Reset all to defaults</button>
+    </div>
+    <p class="note" id="settings-note">Changes apply straight away and are saved for next time.</p>
+    <div class="groups" id="groups"></div>
+  </section>
+
+  <section aria-labelledby="stats-title">
+    <div class="section-head">
+      <h2 id="stats-title">Statistics</h2>
+      <button type="button" class="btn quiet" id="archive">Start fresh statistics</button>
+    </div>
+    <p class="note" id="stats-note"></p>
+    <div id="stats-empty" class="empty" hidden>No commands yet. Press the hotkey and say something, then come back.</div>
+    <div id="stats-body">
+      <dl class="kpis" id="kpis"></dl>
+      <div class="charts">
+        <figure class="chart wide">
+          <figcaption id="per-day-title">Commands per day</figcaption>
+          <div class="legend" aria-hidden="true"><span><i class="sw ok"></i>Worked</span><span><i class="sw bad"></i>Didn't work</span></div>
+          <div id="per-day" class="plot"></div>
+        </figure>
+        <figure class="chart">
+          <figcaption>Who decided, with median time</figcaption>
+          <div id="sources" class="bars"></div>
+        </figure>
+        <figure class="chart">
+          <figcaption>Most used commands</figcaption>
+          <div id="actions" class="bars"></div>
+        </figure>
+        <figure class="chart">
+          <figcaption>Languages</figcaption>
+          <div id="languages" class="bars"></div>
+        </figure>
+        <figure class="chart">
+          <figcaption>How commands started</figcaption>
+          <div id="triggers" class="bars"></div>
+        </figure>
+      </div>
+      <h3>Recent commands</h3>
+      <div class="table-wrap">
+        <table id="recent">
+          <thead><tr><th scope="col">When</th><th scope="col">What you said</th><th scope="col">Did</th><th scope="col">Decided by</th><th scope="col" class="num">Time</th><th scope="col">Result</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</main>
+<div class="tip" id="tip" role="tooltip" hidden></div>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

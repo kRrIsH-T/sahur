@@ -1,0 +1,426 @@
+{"text": "chrome kholo", "lang": "bn", "action": "open_app", "slots": {"app": "chrome"}}
+{"text": "notepad ta khule dao", "lang": "bn", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "amar jonno calculator ta chalu koro", "lang": "bn", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "whatsapp khulo ektu", "lang": "bn", "action": "open_app", "slots": {"app": "whatsapp"}}
+{"text": "Microsoft Word open koro", "lang": "bn", "action": "open_app", "slots": {"app": "Microsoft Word"}}
+{"text": "excel ta khul to", "lang": "bn", "action": "open_app", "slots": {"app": "excel"}}
+{"text": "ei je spotify ta kholo na", "lang": "bn", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "vs code chalu kore dao", "lang": "bn", "action": "open_app", "slots": {"app": "vs code"}}
+{"text": "Zoom er app ta kholo", "lang": "bn", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "paint khule dao", "lang": "bn", "action": "open_app", "slots": {"app": "paint"}}
+{"text": "file explorer ta open koro", "lang": "bn", "action": "open_app", "slots": {"app": "file explorer"}}
+{"text": "settings khulo", "lang": "bn", "action": "open_app", "slots": {"app": "settings"}}
+{"text": "telegram ta chalao", "lang": "bn", "action": "open_app", "slots": {"app": "telegram"}}
+{"text": "achha teams ta ektu khule dao", "lang": "bn", "action": "open_app", "slots": {"app": "teams"}}
+{"text": "task manager ta khule dao", "lang": "bn", "action": "open_app", "slots": {"app": "task manager"}}
+{"text": "camera ta on koro", "lang": "bn", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "browser ta kholo", "lang": "bn", "action": "open_app", "slots": {"app": "browser"}}
+{"text": "firefox open koro", "lang": "bn", "action": "open_app", "slots": {"app": "firefox"}}
+{"text": "powerpoint ta shuru koro", "lang": "bn", "action": "open_app", "slots": {"app": "powerpoint"}}
+{"text": "VLC player ta chalu koro", "lang": "bn", "action": "open_app", "slots": {"app": "VLC player"}}
+{"text": "snipping tool ta khulo", "lang": "bn", "action": "open_app", "slots": {"app": "snipping tool"}}
+{"text": "edge khule dao", "lang": "bn", "action": "open_app", "slots": {"app": "edge"}}
+{"text": "hey bhai discord ta khulo", "lang": "bn", "action": "open_app", "slots": {"app": "discord"}}
+{"text": "ক্রোম খোলো", "lang": "bn", "action": "open_app", "slots": {"app": "ক্রোম"}}
+{"text": "নোটপ্যাড চালু করো", "lang": "bn", "action": "open_app", "slots": {"app": "নোটপ্যাড"}}
+{"text": "হোয়াটসঅ্যাপ খুলে দাও", "lang": "bn", "action": "open_app", "slots": {"app": "হোয়াটসঅ্যাপ"}}
+{"text": "ক্যালকুলেটরটা খোলো", "lang": "bn", "action": "open_app", "slots": {"app": "ক্যালকুলেটর"}}
+{"text": "Notepad", "lang": "none", "action": "open_app", "slots": {"app": "Notepad"}}
+{"text": "WhatsApp", "lang": "none", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "flipkart er website ta kholo", "lang": "bn", "action": "open_website", "slots": {"site": "flipkart"}}
+{"text": "irctc dot co dot in kholo", "lang": "bn", "action": "open_website", "slots": {"site": "irctc dot co dot in"}}
+{"text": "youtube dot com e jao", "lang": "bn", "action": "open_website", "slots": {"site": "youtube dot com"}}
+{"text": "amazon site ta khule dao", "lang": "bn", "action": "open_website", "slots": {"site": "amazon"}}
+{"text": "anandabazar patrika er website khulo", "lang": "bn", "action": "open_website", "slots": {"site": "anandabazar patrika"}}
+{"text": "gmail dot com kholo", "lang": "bn", "action": "open_website", "slots": {"site": "gmail dot com"}}
+{"text": "github dot com open koro", "lang": "bn", "action": "open_website", "slots": {"site": "github dot com"}}
+{"text": "wikipedia er site e jao", "lang": "bn", "action": "open_website", "slots": {"site": "wikipedia"}}
+{"text": "eisamay dot com khulo", "lang": "bn", "action": "open_website", "slots": {"site": "eisamay dot com"}}
+{"text": "zomato er website kholo", "lang": "bn", "action": "open_website", "slots": {"site": "zomato"}}
+{"text": "facebook dot com e jao", "lang": "bn", "action": "open_website", "slots": {"site": "facebook dot com"}}
+{"text": "myntra website ta khule dao", "lang": "bn", "action": "open_website", "slots": {"site": "myntra"}}
+{"text": "wbjee dot nic dot in website khulo", "lang": "bn", "action": "open_website", "slots": {"site": "wbjee dot nic dot in"}}
+{"text": "bookmyshow er site ta kholo", "lang": "bn", "action": "open_website", "slots": {"site": "bookmyshow"}}
+{"text": "আনন্দবাজার ওয়েবসাইট খোলো", "lang": "bn", "action": "open_website", "slots": {"site": "আনন্দবাজার"}}
+{"text": "গুগল ডট কম খোলো", "lang": "bn", "action": "open_website", "slots": {"site": "গুগল ডট কম"}}
+{"text": "ফ্লিপকার্ট সাইটটা খুলে দাও", "lang": "bn", "action": "open_website", "slots": {"site": "ফ্লিপকার্ট"}}
+{"text": "kolkatar aajker weather ki", "lang": "bn", "action": "web_search", "slots": {"query": "kolkatar aajker weather ki"}}
+{"text": "aaj kolkata te brishti hobe ki", "lang": "bn", "action": "web_search", "slots": {"query": "aaj kolkata te brishti hobe ki"}}
+{"text": "sourav ganguly ke bolo to", "lang": "bn", "action": "web_search", "slots": {"query": "sourav ganguly ke"}}
+{"text": "satyajit ray er shob cheye bhalo film gulo ki ki search koro", "lang": "bn", "action": "web_search", "slots": {"query": "satyajit ray er shob cheye bhalo film gulo ki ki"}}
+{"text": "pather panchali film ta kar bolo", "lang": "bn", "action": "web_search", "slots": {"query": "pather panchali film ta kar"}}
+{"text": "rabindranath thakur kobe jonmechhilen janao", "lang": "bn", "action": "web_search", "slots": {"query": "rabindranath thakur kobe jonmechhilen"}}
+{"text": "howrah theke sealdah jabo kibhabe google koro", "lang": "bn", "action": "web_search", "slots": {"query": "howrah theke sealdah jabo kibhabe"}}
+{"text": "amazon e bata r juto khojo", "lang": "bn", "action": "web_search", "slots": {"query": "bata r juto", "site": "amazon"}}
+{"text": "flipkart e iphone er dam koto dekho", "lang": "bn", "action": "web_search", "slots": {"query": "iphone er dam koto", "site": "flipkart"}}
+{"text": "youtube e macher jhol recipe search koro", "lang": "bn", "action": "web_search", "slots": {"query": "macher jhol recipe", "site": "youtube"}}
+{"text": "bangladesh er prime minister ke", "lang": "bn", "action": "web_search", "slots": {"query": "bangladesh er prime minister ke"}}
+{"text": "petrol er dam aj koto", "lang": "bn", "action": "web_search", "slots": {"query": "petrol er dam aj koto"}}
+{"text": "durga puja kobe ei bochor", "lang": "bn", "action": "web_search", "slots": {"query": "durga puja kobe ei bochor"}}
+{"text": "uttam kumar er sob cheye hit film ki ki bolo", "lang": "bn", "action": "web_search", "slots": {"query": "uttam kumar er sob cheye hit film ki ki"}}
+{"text": "feluda er lekhok ke", "lang": "bn", "action": "web_search", "slots": {"query": "feluda er lekhok ke"}}
+{"text": "IPL er points table dekhao", "lang": "bn", "action": "web_search", "slots": {"query": "IPL er points table"}}
+{"text": "mohun bagan er porer match kobe", "lang": "bn", "action": "web_search", "slots": {"query": "mohun bagan er porer match kobe"}}
+{"text": "how to make rosogolla search koro", "lang": "bn", "action": "web_search", "slots": {"query": "how to make rosogolla"}}
+{"text": "photosynthesis ki bujhiye bolo", "lang": "bn", "action": "web_search", "slots": {"query": "photosynthesis ki"}}
+{"text": "tell me about Rabindranath Tagore", "lang": "bn", "action": "web_search", "slots": {"query": "Rabindranath Tagore"}}
+{"text": "bhalo biryani restaurant near me khojo", "lang": "bn", "action": "web_search", "slots": {"query": "bhalo biryani restaurant near me"}}
+{"text": "anupam roy er notun gaan er lyrics ta dekhao", "lang": "bn", "action": "web_search", "slots": {"query": "anupam roy er notun gaan er lyrics"}}
+{"text": "ekla cholo re gaan ta ke likhechhen", "lang": "bn", "action": "web_search", "slots": {"query": "ekla cholo re gaan ta ke likhechhen"}}
+{"text": "shyamoli film er director ke", "lang": "bn", "action": "web_search", "slots": {"query": "shyamoli film er director ke"}}
+{"text": "amar sonar bangla er lyrics bolo", "lang": "bn", "action": "web_search", "slots": {"query": "amar sonar bangla er lyrics"}}
+{"text": "myntra te saree dhundo", "lang": "bn", "action": "web_search", "slots": {"query": "saree", "site": "myntra"}}
+{"text": "কলকাতার আজকের আবহাওয়া কেমন", "lang": "bn", "action": "web_search", "slots": {"query": "কলকাতার আজকের আবহাওয়া কেমন"}}
+{"text": "সৌরভ গাঙ্গুলী কে", "lang": "bn", "action": "web_search", "slots": {"query": "সৌরভ গাঙ্গুলী কে"}}
+{"text": "ফ্লিপকার্টে জুতো খোঁজো", "lang": "bn", "action": "web_search", "slots": {"query": "জুতো", "site": "ফ্লিপকার্ট"}}
+{"text": "সত্যজিৎ রায়ের সেরা সিনেমা কোনগুলো", "lang": "bn", "action": "web_search", "slots": {"query": "সত্যজিৎ রায়ের সেরা সিনেমা কোনগুলো"}}
+{"text": "রবীন্দ্রনাথ ঠাকুর সম্পর্কে বলো", "lang": "bn", "action": "web_search", "slots": {"query": "রবীন্দ্রনাথ ঠাকুর"}}
+{"text": "আজ অষ্টমীর পুষ্পাঞ্জলি কখন", "lang": "bn", "action": "web_search", "slots": {"query": "আজ অষ্টমীর পুষ্পাঞ্জলি কখন"}}
+{"text": "arijit singh er gaan chalao", "lang": "bn", "action": "play_media", "slots": {"query": "arijit singh"}}
+{"text": "rabindra sangeet chalao", "lang": "bn", "action": "play_media", "slots": {"query": "rabindra sangeet"}}
+{"text": "spotify e anupam roy er gaan bajao", "lang": "bn", "action": "play_media", "slots": {"query": "anupam roy", "app": "spotify"}}
+{"text": "youtube e kishore kumar er gaan chalao", "lang": "bn", "action": "play_media", "slots": {"query": "kishore kumar", "app": "youtube"}}
+{"text": "ekta gaan chalao", "lang": "bn", "action": "play_media", "slots": {}}
+{"text": "gaan shunbo", "lang": "bn", "action": "play_media", "slots": {}}
+{"text": "gaan chalu koro", "lang": "bn", "action": "play_media", "slots": {}}
+{"text": "hemanta mukherjee er gaan bajao", "lang": "bn", "action": "play_media", "slots": {"query": "hemanta mukherjee"}}
+{"text": "bengali romantic songs chalao", "lang": "bn", "action": "play_media", "slots": {"query": "bengali romantic songs"}}
+{"text": "jiosaavn e shreya ghoshal er gaan chalao", "lang": "bn", "action": "play_media", "slots": {"query": "shreya ghoshal", "app": "jiosaavn"}}
+{"text": "gaana te nachiketa er gaan chalao", "lang": "bn", "action": "play_media", "slots": {"query": "nachiketa", "app": "gaana"}}
+{"text": "wynk e fossils er gaan shuno", "lang": "bn", "action": "play_media", "slots": {"query": "fossils", "app": "wynk"}}
+{"text": "youtube music e lofi bangla gaan bajao", "lang": "bn", "action": "play_media", "slots": {"query": "lofi bangla gaan", "app": "youtube music"}}
+{"text": "apple music e cactus band er gaan chalao", "lang": "bn", "action": "play_media", "slots": {"query": "cactus", "app": "apple music"}}
+{"text": "tumi jake bhalobaso gaan ta bajao", "lang": "bn", "action": "play_media", "slots": {"query": "tumi jake bhalobaso"}}
+{"text": "ekla cholo re chalao", "lang": "bn", "action": "play_media", "slots": {"query": "ekla cholo re"}}
+{"text": "mahalaya chalao", "lang": "bn", "action": "play_media", "slots": {"query": "mahalaya"}}
+{"text": "chandrabindoo er gaan shunbo", "lang": "bn", "action": "play_media", "slots": {"query": "chandrabindoo"}}
+{"text": "youtube e feluda er cartoon dekhao", "lang": "bn", "action": "play_media", "slots": {"query": "feluda er cartoon", "app": "youtube"}}
+{"text": "youtube e byomkesh er natok chalao", "lang": "bn", "action": "play_media", "slots": {"query": "byomkesh er natok", "app": "youtube"}}
+{"text": "ar rahman er gaan shunte chai", "lang": "bn", "action": "play_media", "slots": {"query": "ar rahman"}}
+{"text": "amazon music e kumar sanu er gaan chalao", "lang": "bn", "action": "play_media", "slots": {"query": "kumar sanu", "app": "amazon music"}}
+{"text": "old bengali songs chalao", "lang": "bn", "action": "play_media", "slots": {"query": "old bengali songs"}}
+{"text": "manna dey er purono gaan chaliye dao", "lang": "bn", "action": "play_media", "slots": {"query": "manna dey"}}
+{"text": "spotify te bangla band er gaan chalao", "lang": "bn", "action": "play_media", "slots": {"query": "bangla band", "app": "spotify"}}
+{"text": "youtube e sandesh er video chalao", "lang": "bn", "action": "play_media", "slots": {"query": "sandesh er video", "app": "youtube"}}
+{"text": "spotify e ektu gaan chalao", "lang": "bn", "action": "play_media", "slots": {"app": "spotify"}}
+{"text": "youtube e kichu bajao", "lang": "bn", "action": "play_media", "slots": {"app": "youtube"}}
+{"text": "অরিজিৎ সিংয়ের গান চালাও", "lang": "bn", "action": "play_media", "slots": {"query": "অরিজিৎ সিং"}}
+{"text": "রবীন্দ্রসঙ্গীত বাজাও", "lang": "bn", "action": "play_media", "slots": {"query": "রবীন্দ্রসঙ্গীত"}}
+{"text": "স্পটিফাইতে অনুপম রায়ের গান বাজাও", "lang": "bn", "action": "play_media", "slots": {"query": "অনুপম রায়", "app": "স্পটিফাই"}}
+{"text": "ইউটিউবে কিশোর কুমারের গান চালাও", "lang": "bn", "action": "play_media", "slots": {"query": "কিশোর কুমার", "app": "ইউটিউব"}}
+{"text": "একটা গান চালাও", "lang": "bn", "action": "play_media", "slots": {}}
+{"text": "মহালয়া শুনব", "lang": "bn", "action": "play_media", "slots": {"query": "মহালয়া"}}
+{"text": "বাংলা গান চালাও", "lang": "bn", "action": "play_media", "slots": {"query": "বাংলা গান"}}
+{"text": "ইউটিউবে সন্দেশের ভিডিও চালাও", "lang": "bn", "action": "play_media", "slots": {"query": "সন্দেশের ভিডিও", "app": "ইউটিউব"}}
+{"text": "gaan ta thamao", "lang": "bn", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "pause koro", "lang": "bn", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "ektu thamo", "lang": "bn", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "gaan bondho koro", "lang": "bn", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "gaan ta abar chalu koro", "lang": "bn", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "resume koro", "lang": "bn", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "porer gaan ta bajao", "lang": "bn", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "ei gaan ta skip koro", "lang": "bn", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "porer ta chalao", "lang": "bn", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "ager gaan ta chalao", "lang": "bn", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "ager gaan e fire jao", "lang": "bn", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "awaj barao", "lang": "bn", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "volume ektu barao", "lang": "bn", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "sound ta jore koro", "lang": "bn", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "awaj komao", "lang": "bn", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "volume kom koro", "lang": "bn", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "aste koro ektu", "lang": "bn", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "mute koro", "lang": "bn", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "awaj ta bondho kore dao", "lang": "bn", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "গান থামাও", "lang": "bn", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "পরের গানটা বাজাও", "lang": "bn", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "আওয়াজ বাড়াও", "lang": "bn", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "আওয়াজ কমাও", "lang": "bn", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "মিউট করো", "lang": "bn", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "আগের গানটা দাও", "lang": "bn", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "next", "lang": "none", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "pause", "lang": "none", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "mute", "lang": "none", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "ma ke bolo je ami ektu der e ashchi", "lang": "bn", "action": "send_message", "slots": {"contact": "ma", "text": "ami ektu der e ashchi"}}
+{"text": "baba ke message koro je gari pathiye dao", "lang": "bn", "action": "send_message", "slots": {"contact": "baba", "text": "gari pathiye dao"}}
+{"text": "rahul ke whatsapp koro kal match dekhte jabo ki", "lang": "bn", "action": "send_message", "slots": {"contact": "rahul", "text": "kal match dekhte jabo ki"}}
+{"text": "didi ke bole dao je ami pouchhe gechhi", "lang": "bn", "action": "send_message", "slots": {"contact": "didi", "text": "ami pouchhe gechhi"}}
+{"text": "dadabhai ke likhe pathao je meeting ta kal", "lang": "bn", "action": "send_message", "slots": {"contact": "dadabhai", "text": "meeting ta kal"}}
+{"text": "Soumya ke bolo birthday te kobe asbe", "lang": "bn", "action": "send_message", "slots": {"contact": "Soumya", "text": "birthday te kobe asbe"}}
+{"text": "boss ke message koro ami aaj office jete parbo na sorry", "lang": "bn", "action": "send_message", "slots": {"contact": "boss", "text": "ami aaj office jete parbo na sorry"}}
+{"text": "mashi ke pathao shubho nobo borsho", "lang": "bn", "action": "send_message", "slots": {"contact": "mashi", "text": "shubho nobo borsho"}}
+{"text": "thakurma ke bolo ami raate khabo na", "lang": "bn", "action": "send_message", "slots": {"contact": "thakurma", "text": "ami raate khabo na"}}
+{"text": "Subho ke whatsapp koro je cholo cha khete jai", "lang": "bn", "action": "send_message", "slots": {"contact": "Subho", "text": "cholo cha khete jai"}}
+{"text": "Priya boudi ke bolo je recipe ta pathiye dite", "lang": "bn", "action": "send_message", "slots": {"contact": "Priya boudi", "text": "recipe ta pathiye dite"}}
+{"text": "Anirban da ke janiye dao ami 10 minute e pouchhachhi", "lang": "bn", "action": "send_message", "slots": {"contact": "Anirban da", "text": "ami 10 minute e pouchhachhi"}}
+{"text": "Sneha ke ekta message koro", "lang": "bn", "action": "send_message", "slots": {"contact": "Sneha"}, "incomplete": true}
+{"text": "Tinku ke whatsapp pathao", "lang": "bn", "action": "send_message", "slots": {"contact": "Tinku"}, "incomplete": true}
+{"text": "মাকে বলো আমি একটু দেরিতে আসছি", "lang": "bn", "action": "send_message", "slots": {"contact": "মা", "text": "আমি একটু দেরিতে আসছি"}}
+{"text": "বাবাকে মেসেজ করো গাড়িটা পাঠিয়ে দাও", "lang": "bn", "action": "send_message", "slots": {"contact": "বাবা", "text": "গাড়িটা পাঠিয়ে দাও"}}
+{"text": "দিদিকে হোয়াটসঅ্যাপ করো কাল দেখা হবে", "lang": "bn", "action": "send_message", "slots": {"contact": "দিদি", "text": "কাল দেখা হবে"}}
+{"text": "অনিন্দ্যকে বলো মিটিং কাল সকাল দশটায়", "lang": "bn", "action": "send_message", "slots": {"contact": "অনিন্দ্য", "text": "মিটিং কাল সকাল দশটায়"}}
+{"text": "likho ami kal office jabo na", "lang": "bn", "action": "type_text", "slots": {"text": "ami kal office jabo na"}}
+{"text": "type koro dhonnobad apnar sahajyer jonno", "lang": "bn", "action": "type_text", "slots": {"text": "dhonnobad apnar sahajyer jonno"}}
+{"text": "likhe dao amar nam Rahul Banerjee", "lang": "bn", "action": "type_text", "slots": {"text": "amar nam Rahul Banerjee"}}
+{"text": "type koro good morning sir please find the attached file", "lang": "bn", "action": "type_text", "slots": {"text": "good morning sir please find the attached file"}}
+{"text": "likho ami ei kajta kal shesh kore dibo", "lang": "bn", "action": "type_text", "slots": {"text": "ami ei kajta kal shesh kore dibo"}}
+{"text": "ekhane likho meeting kal sokal dosta ye", "lang": "bn", "action": "type_text", "slots": {"text": "meeting kal sokal dosta ye"}}
+{"text": "type kore dao hello everyone welcome to the class", "lang": "bn", "action": "type_text", "slots": {"text": "hello everyone welcome to the class"}}
+{"text": "লেখো আমি কাল অফিসে যাব না", "lang": "bn", "action": "type_text", "slots": {"text": "আমি কাল অফিসে যাব না"}}
+{"text": "টাইপ করো শুভ জন্মদিন", "lang": "bn", "action": "type_text", "slots": {"text": "শুভ জন্মদিন"}}
+{"text": "submit e click koro", "lang": "bn", "action": "click", "slots": {"target": "submit"}}
+{"text": "next e chap dao", "lang": "bn", "action": "click", "slots": {"target": "next"}}
+{"text": "login button ta chapo", "lang": "bn", "action": "click", "slots": {"target": "login"}}
+{"text": "ok te click koro", "lang": "bn", "action": "click", "slots": {"target": "ok"}}
+{"text": "cancel button e click koro", "lang": "bn", "action": "click", "slots": {"target": "cancel"}}
+{"text": "search e tip dao", "lang": "bn", "action": "click", "slots": {"target": "search"}}
+{"text": "download button ta chap", "lang": "bn", "action": "click", "slots": {"target": "download"}}
+{"text": "sign in e click koro", "lang": "bn", "action": "click", "slots": {"target": "sign in"}}
+{"text": "send button e chap dao", "lang": "bn", "action": "click", "slots": {"target": "send"}}
+{"text": "সাবমিট বোতামে ক্লিক করো", "lang": "bn", "action": "click", "slots": {"target": "সাবমিট"}}
+{"text": "লগইনে ক্লিক করো", "lang": "bn", "action": "click", "slots": {"target": "লগইন"}}
+{"text": "screen e ki ache portho", "lang": "bn", "action": "read_screen", "slots": {}}
+{"text": "screen ta poro shonao", "lang": "bn", "action": "read_screen", "slots": {}}
+{"text": "ei page e ki lekha ache bolo to", "lang": "bn", "action": "read_screen", "slots": {}}
+{"text": "screen e ki dekha jachhe bolo", "lang": "bn", "action": "read_screen", "slots": {}}
+{"text": "ami ki dekhchi screen e bolo", "lang": "bn", "action": "read_screen", "slots": {}}
+{"text": "স্ক্রিনে কী আছে পড়ে শোনাও", "lang": "bn", "action": "read_screen", "slots": {}}
+{"text": "thak", "lang": "bn", "action": "cancel", "slots": {}}
+{"text": "thak thak rakho", "lang": "bn", "action": "cancel", "slots": {}}
+{"text": "cancel koro", "lang": "bn", "action": "cancel", "slots": {}}
+{"text": "chhere dao", "lang": "bn", "action": "cancel", "slots": {}}
+{"text": "lagbe na rakho", "lang": "bn", "action": "cancel", "slots": {}}
+{"text": "থাক ছেড়ে দাও", "lang": "bn", "action": "cancel", "slots": {}}
+{"text": "cancel", "lang": "none", "action": "cancel", "slots": {}}
+{"text": "brightness ektu barao", "lang": "bn", "action": "unknown", "slots": {}}
+{"text": "alarm set koro sokal 6 tay", "lang": "bn", "action": "unknown", "slots": {}}
+{"text": "mayer ke phone koro", "lang": "bn", "action": "unknown", "slots": {}}
+{"text": "computer ta bondho koro", "lang": "bn", "action": "unknown", "slots": {}}
+{"text": "ajke ki ranna korbo bolo to", "lang": "bn", "action": "unknown", "slots": {}}
+{"text": "tumi kemon acho", "lang": "bn", "action": "unknown", "slots": {}}
+{"text": "ami khub klanto", "lang": "bn", "action": "unknown", "slots": {}}
+{"text": "bhai tui kothay", "lang": "bn", "action": "unknown", "slots": {}}
+{"text": "ekta joke bolo", "lang": "bn", "action": "unknown", "slots": {}}
+{"text": "taka pathao ma ke", "lang": "bn", "action": "unknown", "slots": {}}
+{"text": "আমার খুব ঘুম পাচ্ছে", "lang": "bn", "action": "unknown", "slots": {}}
+{"text": "অ্যালার্ম সেট করো সকাল ছটায়", "lang": "bn", "action": "unknown", "slots": {}}
+{"text": "tom and jerry chalao", "lang": "bn", "action": "play_media", "slots": {"query": "tom and jerry"}}
+{"text": "ami ar tumi gaan ta chalao", "lang": "bn", "action": "play_media", "slots": {"query": "ami ar tumi"}}
+{"text": "spotify e simon and garfunkel er gaan chalao", "lang": "bn", "action": "play_media", "slots": {"query": "simon and garfunkel", "app": "spotify"}}
+{"text": "tumi ebong ami gaan ta shunbo", "lang": "bn", "action": "play_media", "slots": {"query": "tumi ebong ami"}}
+{"text": "tarpor ki hobe gaan ta chalao", "lang": "bn", "action": "play_media", "slots": {"query": "tarpor ki hobe"}}
+{"text": "bonnie and clyde er gaan bajao", "lang": "bn", "action": "play_media", "slots": {"query": "bonnie and clyde"}}
+{"text": "pitbull ar shakira er gaan chalao", "lang": "bn", "action": "play_media", "slots": {"query": "pitbull ar shakira"}}
+{"text": "youtube e beauty and the beast chalao", "lang": "bn", "action": "play_media", "slots": {"query": "beauty and the beast", "app": "youtube"}}
+{"text": "youtube e chhoto ebong boro natok chalao", "lang": "bn", "action": "play_media", "slots": {"query": "chhoto ebong boro natok", "app": "youtube"}}
+{"text": "ami tumi ar sei raat gaan ta bajao", "lang": "bn", "action": "play_media", "slots": {"query": "ami tumi ar sei raat"}}
+{"text": "jiosaavn e ram and shyam er gaan chalao", "lang": "bn", "action": "play_media", "slots": {"query": "ram and shyam", "app": "jiosaavn"}}
+{"text": "salt and pepper chicken recipe search koro", "lang": "bn", "action": "web_search", "slots": {"query": "salt and pepper chicken recipe"}}
+{"text": "rosogolla ar sandesh er moddhe parthokyo ki", "lang": "bn", "action": "web_search", "slots": {"query": "rosogolla ar sandesh er moddhe parthokyo ki"}}
+{"text": "satyajit ray ebong mrinal sen er film khojo", "lang": "bn", "action": "web_search", "slots": {"query": "satyajit ray ebong mrinal sen er film"}}
+{"text": "bhat ar dal er recipe khojo", "lang": "bn", "action": "web_search", "slots": {"query": "bhat ar dal er recipe"}}
+{"text": "mohun bagan ar east bengal er match kobe", "lang": "bn", "action": "web_search", "slots": {"query": "mohun bagan ar east bengal er match kobe"}}
+{"text": "tom and jerry kon sal e toiri hoyechhe", "lang": "bn", "action": "web_search", "slots": {"query": "tom and jerry kon sal e toiri hoyechhe"}}
+{"text": "kolkata ar howrah r moddhe doori koto", "lang": "bn", "action": "web_search", "slots": {"query": "kolkata ar howrah r moddhe doori koto"}}
+{"text": "sourav ar dhoni r moddhe ke bhalo captain", "lang": "bn", "action": "web_search", "slots": {"query": "sourav ar dhoni r moddhe ke bhalo captain"}}
+{"text": "pather panchali ar aparajito film dutor story bolo", "lang": "bn", "action": "web_search", "slots": {"query": "pather panchali ar aparajito film dutor story"}}
+{"text": "flipkart e salt and pepper grinder khojo", "lang": "bn", "action": "web_search", "slots": {"query": "salt and pepper grinder", "site": "flipkart"}}
+{"text": "amazon e mouse ar keyboard set er dam dekho", "lang": "bn", "action": "web_search", "slots": {"query": "mouse ar keyboard set er dam", "site": "amazon"}}
+{"text": "youtube e dal ar bhat recipe search koro", "lang": "bn", "action": "web_search", "slots": {"query": "dal ar bhat recipe", "site": "youtube"}}
+{"text": "romeo and juliet er writer ke", "lang": "bn", "action": "web_search", "slots": {"query": "romeo and juliet er writer ke"}}
+{"text": "chai ar coffee r moddhe kon ta shasthyokor", "lang": "bn", "action": "web_search", "slots": {"query": "chai ar coffee r moddhe kon ta shasthyokor"}}
+{"text": "ma ke bolo je ami ar baba ektu pore ashchi", "lang": "bn", "action": "send_message", "slots": {"contact": "ma", "text": "ami ar baba ektu pore ashchi"}}
+{"text": "rahul ke bolo ki aj ami ar tumi cinema jabo", "lang": "bn", "action": "send_message", "slots": {"contact": "rahul", "text": "aj ami ar tumi cinema jabo"}}
+{"text": "didi ke message koro je cha ar singara ready rakhis", "lang": "bn", "action": "send_message", "slots": {"contact": "didi", "text": "cha ar singara ready rakhis"}}
+{"text": "baba ke bolo je bajar theke dal ar chal niye esho", "lang": "bn", "action": "send_message", "slots": {"contact": "baba", "text": "bajar theke dal ar chal niye esho"}}
+{"text": "Ritu ke whatsapp koro je khabar kheye tarpor ghumiye poro", "lang": "bn", "action": "send_message", "slots": {"contact": "Ritu", "text": "khabar kheye tarpor ghumiye poro"}}
+{"text": "boss ke bolo je report ta ami kal ebong porshu pathabo", "lang": "bn", "action": "send_message", "slots": {"contact": "boss", "text": "report ta ami kal ebong porshu pathabo"}}
+{"text": "mashi ke pathao je ami ebong tinku kal jabo", "lang": "bn", "action": "send_message", "slots": {"contact": "mashi", "text": "ami ebong tinku kal jabo"}}
+{"text": "thakurma ke bolo ami ar kakima aaj jabo", "lang": "bn", "action": "send_message", "slots": {"contact": "thakurma", "text": "ami ar kakima aaj jabo"}}
+{"text": "Soumik ke bolo dhaka ar chittagong er ticket kora hoye gechhe", "lang": "bn", "action": "send_message", "slots": {"contact": "Soumik", "text": "dhaka ar chittagong er ticket kora hoye gechhe"}}
+{"text": "pishi ke likhe pathao je aj luchi ar alur dom korbo", "lang": "bn", "action": "send_message", "slots": {"contact": "pishi", "text": "aj luchi ar alur dom korbo"}}
+{"text": "likho ami ar tumi kal dekha korbo", "lang": "bn", "action": "type_text", "slots": {"text": "ami ar tumi kal dekha korbo"}}
+{"text": "type koro dear sir ebong madam", "lang": "bn", "action": "type_text", "slots": {"text": "dear sir ebong madam"}}
+{"text": "likho salt and pepper", "lang": "bn", "action": "type_text", "slots": {"text": "salt and pepper"}}
+{"text": "likho cha ar biscuit anbo", "lang": "bn", "action": "type_text", "slots": {"text": "cha ar biscuit anbo"}}
+{"text": "likhe dao ami office jabo tarpor bari ashbo", "lang": "bn", "action": "type_text", "slots": {"text": "ami office jabo tarpor bari ashbo"}}
+{"text": "type koro thank you and best regards", "lang": "bn", "action": "type_text", "slots": {"text": "thank you and best regards"}}
+{"text": "likho amar kache pen ar khata dutoi ache", "lang": "bn", "action": "type_text", "slots": {"text": "amar kache pen ar khata dutoi ache"}}
+{"text": "lekho kal sokale uthe snan kore tarpor office jabo", "lang": "bn", "action": "type_text", "slots": {"text": "kal sokale uthe snan kore tarpor office jabo"}}
+{"text": "terms ar conditions e click koro", "lang": "bn", "action": "click", "slots": {"target": "terms ar conditions"}}
+{"text": "save and continue e click koro", "lang": "bn", "action": "click", "slots": {"target": "save and continue"}}
+{"text": "pay and book e chap dao", "lang": "bn", "action": "click", "slots": {"target": "pay and book"}}
+{"text": "login ar signup e click koro", "lang": "bn", "action": "click", "slots": {"target": "login ar signup"}}
+{"text": "Tom and Jerry game ta kholo", "lang": "bn", "action": "open_app", "slots": {"app": "Tom and Jerry game"}}
+{"text": "H and M er website kholo", "lang": "bn", "action": "open_website", "slots": {"site": "H and M"}}
+{"text": "Marks and Spencer er site kholo", "lang": "bn", "action": "open_website", "slots": {"site": "Marks and Spencer"}}
+{"text": "screen e ki ache ar ki likha ache poro shonao", "lang": "bn", "action": "read_screen", "slots": {}}
+{"text": "ei page ta poro ar bujhiye bolo", "lang": "bn", "action": "read_screen", "slots": {}}
+{"text": "thak ar lagbe na", "lang": "bn", "action": "cancel", "slots": {}}
+{"text": "ma ar baba ke phone koro", "lang": "bn", "action": "unknown", "slots": {}}
+{"text": "টম অ্যান্ড জেরি চালাও", "lang": "bn", "action": "play_media", "slots": {"query": "টম অ্যান্ড জেরি"}}
+{"text": "মাকে বলো আমি আর বাবা একটু পরে আসছি", "lang": "bn", "action": "send_message", "slots": {"contact": "মা", "text": "আমি আর বাবা একটু পরে আসছি"}}
+{"text": "ভাত আর ডালের রেসিপি খোঁজো", "lang": "bn", "action": "web_search", "slots": {"query": "ভাত আর ডালের রেসিপি"}}
+{"text": "লেখো আমি আর তুমি কাল দেখা করব", "lang": "bn", "action": "type_text", "slots": {"text": "আমি আর তুমি কাল দেখা করব"}}
+{"text": "আমি আর তুমি গানটা চালাও", "lang": "bn", "action": "play_media", "slots": {"query": "আমি আর তুমি"}}
+{"text": "মোহনবাগান এবং ইস্টবেঙ্গলের ম্যাচ কবে", "lang": "bn", "action": "web_search", "slots": {"query": "মোহনবাগান এবং ইস্টবেঙ্গলের ম্যাচ কবে"}}
+{"text": "সল্ট অ্যান্ড পেপার চিকেন রেসিপি সার্চ করো", "lang": "bn", "action": "web_search", "slots": {"query": "সল্ট অ্যান্ড পেপার চিকেন রেসিপি"}}
+{"text": "ইউটিউব চালু করে কিশোর কুমার এর গান চালিয়ে ভলিউম বাড়াও", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ইউটিউব"}}, {"action": "play_media", "slots": {"query": "কিশোর কুমার"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["করে", "চালিয়ে"]}
+{"text": "plz google chrome chalu kore aj kolkata r tapmatra koto janao, tarpor ar screen e ki dekha jachhe bolo ektu", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "google chrome"}}, {"action": "web_search", "slots": {"query": "aj kolkata r tapmatra koto"}}, {"action": "read_screen", "slots": {}}], "joiners": ["kore", "tarpor ar"]}
+{"text": "গান বন্ধ করো এর পর নোটপ্যাড চালু করো আর লেখো আমি কাল অফিসে যাব না", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "নোটপ্যাড"}}, {"action": "type_text", "slots": {"text": "আমি কাল অফিসে যাব না"}}], "joiners": ["এর পর", "আর"]}
+{"text": "plz firefox ta khule word ta chalao and lekho amar nam Anirban Sen", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "open_app", "slots": {"app": "word"}}, {"action": "type_text", "slots": {"text": "amar nam Anirban Sen"}}], "joiners": ["khule", "and"]}
+{"text": "awaj komiye chrome chalu koro ar irctc er site kholo", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "irctc"}}], "joiners": ["komiye", "ar"]}
+{"text": "plz gaan ta thamao ar tarpor ma ke likhe pathao ami train e uthe gechhi tar por sticky notes ta khule dao", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "send_message", "slots": {"contact": "ma", "text": "ami train e uthe gechhi"}}, {"action": "open_app", "slots": {"app": "sticky notes"}}], "joiners": ["ar tarpor", "tar por"]}
+{"text": "স্পটিফাই ওপেন করে কিশোর কুমার এর গান বাজাও তারপরে ভলিউম বাড়াও", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "স্পটিফাই"}}, {"action": "play_media", "slots": {"query": "কিশোর কুমার"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["করে", "তারপরে"]}
+{"text": "ইউটিউব খুলে দাও আর তারপর পুরনো বাংলা গান বাজাও এরপর আওয়াজ বাড়াও", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ইউটিউব"}}, {"action": "play_media", "slots": {"query": "পুরনো বাংলা গান"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["আর তারপর", "এরপর"]}
+{"text": "ভাই এজ চালু করে কলকাতার আবহাওয়া সার্চ করে মিউট করো না", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "এজ"}}, {"action": "web_search", "slots": {"query": "কলকাতার আবহাওয়া"}}, {"action": "media_control", "slots": {}, "control": "mute"}], "joiners": ["করে", "করে"]}
+{"text": "bhai pause kore word chalu kore lekho meeting kal sokal dosta ye", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "word"}}, {"action": "type_text", "slots": {"text": "meeting kal sokal dosta ye"}}], "joiners": ["kore", "kore"]}
+{"text": "bhai gaan bondho koro tarpor ar sticky notes open kore dao er por likhe dao subho nobo borsho", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "sticky notes"}}, {"action": "type_text", "slots": {"text": "subho nobo borsho"}}], "joiners": ["tarpor ar", "er por"]}
+{"text": "bhai darjeeling er weather dekho to tar por rupam islam r gaan chaliye aste koro ektu", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "darjeeling er weather"}}, {"action": "play_media", "slots": {"query": "rupam islam"}}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["tar por", "chaliye"]}
+{"text": "awaj bondho kore Chrome khule facebook site ta khule dao", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "open_website", "slots": {"site": "facebook"}}], "joiners": ["kore", "khule"]}
+{"text": "bhai Notepad khule likho ami ektu pore reply dichhi then sign in e click koro", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Notepad"}}, {"action": "type_text", "slots": {"text": "ami ektu pore reply dichhi"}}, {"action": "click", "slots": {"target": "sign in"}}], "joiners": ["khule", "then"]}
+{"text": "youtube music chalu koro ar tarpor Rupam Islam er gaan shunbo tarpor ebar volume baro kore dao", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube music"}}, {"action": "play_media", "slots": {"query": "Rupam Islam"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["ar tarpor", "tarpor ebar"]}
+{"text": "plz aj kolkata r tapmatra koto search kore lofi bangla gaan chalao tarporei volume baro kore dao to", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "aj kolkata r tapmatra koto"}}, {"action": "play_media", "slots": {"query": "lofi bangla gaan"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["kore", "tarporei"]}
+{"text": "word open kore likho aj er kaj shesh ar tarpor register te click koro please", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "word"}}, {"action": "type_text", "slots": {"text": "aj er kaj shesh"}}, {"action": "click", "slots": {"target": "register"}}], "joiners": ["kore", "ar tarpor"]}
+{"text": "youtube music chalu kore hemanta mukherjee er gaan gulo bajao and then sound ta kom koro", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube music"}}, {"action": "play_media", "slots": {"query": "hemanta mukherjee"}}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["kore", "and then"]}
+{"text": "ei pause kore kaku ke bolo je shubho jonmodin tar por Telegram chalu koro", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "send_message", "slots": {"contact": "kaku", "text": "shubho jonmodin"}}, {"action": "open_app", "slots": {"app": "Telegram"}}], "joiners": ["kore", "tar por"]}
+{"text": "Whatsapp open koro ar tarpor likho ami kal office jabo na, then send te click koro na", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Whatsapp"}}, {"action": "type_text", "slots": {"text": "ami kal office jabo na"}}, {"action": "click", "slots": {"target": "send"}}], "joiners": ["ar tarpor", "then"]}
+{"text": "achha whatsapp ta kholo, tarpor ebar ekhane likho amar nam Anirban Sen, tarpore submit button e click koro", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "type_text", "slots": {"text": "amar nam Anirban Sen"}}, {"action": "click", "slots": {"target": "submit"}}], "joiners": ["tarpor ebar", "tarpore"]}
+{"text": "ei brave open kore word chalu kore ekhane likho hello sir ami rahul bolchhi", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "brave"}}, {"action": "open_app", "slots": {"app": "word"}}, {"action": "type_text", "slots": {"text": "hello sir ami rahul bolchhi"}}], "joiners": ["kore", "kore"]}
+{"text": "gaan ta pause koro tarpor ebar Notepad chalu kore type kore dao ami ektu pore reply dichhi", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "Notepad"}}, {"action": "type_text", "slots": {"text": "ami ektu pore reply dichhi"}}], "joiners": ["tarpor ebar", "kore"]}
+{"text": "ei chrome open koro ar tarpor kolkata er population koto search kore screen e ki dekha jachhe bolo to", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "kolkata er population koto"}}, {"action": "read_screen", "slots": {}}], "joiners": ["ar tarpor", "kore"]}
+{"text": "jiosaavn kholar por manna dey er gaan gulo chaliye awaj barao ektu", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "jiosaavn"}}, {"action": "play_media", "slots": {"query": "manna dey"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["kholar por", "chaliye"]}
+{"text": "vlc open kore Chrome khulo ektu", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "vlc"}}, {"action": "open_app", "slots": {"app": "Chrome"}}], "joiners": ["kore"]}
+{"text": "একটু মাসিকে মেসেজ করো মিটিং কাল সকাল দশটায় তারপর হোয়াটসঅ্যাপ চালু করো তো", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "মাসি", "text": "মিটিং কাল সকাল দশটায়"}}, {"action": "open_app", "slots": {"app": "হোয়াটসঅ্যাপ"}}], "joiners": ["তারপর"]}
+{"text": "bhai Chrome kholo ar irctc dot co dot in site ta khule dao to", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "open_website", "slots": {"site": "irctc dot co dot in"}}], "joiners": ["ar"]}
+{"text": "ইউটিউব ওপেন করে মহালয়া বাজাও", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ইউটিউব"}}, {"action": "play_media", "slots": {"query": "মহালয়া"}}], "joiners": ["করে"]}
+{"text": "bhai google chrome open kore siliguri r weather janao ektu", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "google chrome"}}, {"action": "web_search", "slots": {"query": "siliguri r weather"}}], "joiners": ["kore"]}
+{"text": "নোটপ্যাড ওপেন করো আর তারপর দাদাকে বলো আমি একটু দেরিতে আসছি", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "নোটপ্যাড"}}, {"action": "send_message", "slots": {"contact": "দাদা", "text": "আমি একটু দেরিতে আসছি"}}], "joiners": ["আর তারপর"]}
+{"text": "এই বাংলা গান চালিয়ে আওয়াজ কমাও", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "বাংলা গান"}}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["চালিয়ে"]}
+{"text": "achha naukri dot com er site kholo tarporei durgapur er weather search koro ektu", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "naukri dot com"}}, {"action": "web_search", "slots": {"query": "durgapur er weather"}}], "joiners": ["tarporei"]}
+{"text": "ektu notepad ta khule likho dhonnobad apnar sahajyer jonno", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "dhonnobad apnar sahajyer jonno"}}], "joiners": ["khule"]}
+{"text": "hey notepad ta khule type koro good morning everyone", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "good morning everyone"}}], "joiners": ["khule"]}
+{"text": "achha Word open koro ar type kore dao shubho bijoya", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Word"}}, {"action": "type_text", "slots": {"text": "shubho bijoya"}}], "joiners": ["ar"]}
+{"text": "pause kore task manager ta chalao", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "task manager"}}], "joiners": ["kore"]}
+{"text": "notepad ta chalao tarpor likhe dao amar nam Anirban Sen", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "amar nam Anirban Sen"}}], "joiners": ["tarpor"]}
+{"text": "umm sticky notes khulo and task manager shuru koro please", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "sticky notes"}}, {"action": "open_app", "slots": {"app": "task manager"}}], "joiners": ["and"]}
+{"text": "umm aj kolkata r tapmatra koto google koro tarpor ar youtube music e Fossils er gaan gulo chalao to", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "aj kolkata r tapmatra koto"}}, {"action": "play_media", "slots": {"query": "Fossils", "app": "youtube music"}}], "joiners": ["tarpor ar"]}
+{"text": "volume kom koro tarpor ar baba ke bolo je aj raate khabo na", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "send_message", "slots": {"contact": "baba", "text": "aj raate khabo na"}}], "joiners": ["tarpor ar"]}
+{"text": "eisamay dot com site ta open kore howrah te brishti hobe ki janao ektu", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "eisamay dot com"}}, {"action": "web_search", "slots": {"query": "howrah te brishti hobe ki"}}], "joiners": ["kore"]}
+{"text": "umm notepad open kore lekho shubho bijoya", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "shubho bijoya"}}], "joiners": ["kore"]}
+{"text": "umm youtube music chalu kore kichu bajao", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube music"}}, {"action": "play_media", "slots": {}}], "joiners": ["kore"]}
+{"text": "hey howrah te brishti hobe ki search kore zoom ta chalao ektu", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "howrah te brishti hobe ki"}}, {"action": "open_app", "slots": {"app": "zoom"}}], "joiners": ["kore"]}
+{"text": "bhai notepad khulo, aar ekhane likho ami ektu pore reply dichhi", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "ami ektu pore reply dichhi"}}], "joiners": ["aar"]}
+{"text": "ei save button e click koro tarpore lekho shubho bijoya", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "save"}}, {"action": "type_text", "slots": {"text": "shubho bijoya"}}], "joiners": ["tarpore"]}
+{"text": "Youtube ta khule dao tarpor ekta gaan chalao please", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Youtube"}}, {"action": "play_media", "slots": {}}], "joiners": ["tarpor"]}
+{"text": "ভাই নোটপ্যাড খুলে দিদিকে হোয়াটসঅ্যাপ করো গাড়িটা পাঠিয়ে দাও", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "নোটপ্যাড"}}, {"action": "send_message", "slots": {"contact": "দিদি", "text": "গাড়িটা পাঠিয়ে দাও"}}], "joiners": ["খুলে"]}
+{"text": "একটু হোয়াটসঅ্যাপ চালু করো আর দিদিকে হোয়াটসঅ্যাপ করো গাড়িটা পাঠিয়ে দাও", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "হোয়াটসঅ্যাপ"}}, {"action": "send_message", "slots": {"contact": "দিদি", "text": "গাড়িটা পাঠিয়ে দাও"}}], "joiners": ["আর"]}
+{"text": "bhai brave ta chalao tarpor ebar kolkata te aj ki ki hocche janao", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "brave"}}, {"action": "web_search", "slots": {"query": "kolkata te aj ki ki hocche"}}], "joiners": ["tarpor ebar"]}
+{"text": "hey aste koro ektu ar tarpor fossils er gaan chaliye dao na", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "play_media", "slots": {"query": "fossils"}}], "joiners": ["ar tarpor"]}
+{"text": "chrome ta khule dao and amazon e headphone khojo", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "headphone", "site": "amazon"}}], "joiners": ["and"]}
+{"text": "ektu Outlook open koro then lekho hello sir ami rahul bolchhi", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Outlook"}}, {"action": "type_text", "slots": {"text": "hello sir ami rahul bolchhi"}}], "joiners": ["then"]}
+{"text": "আচ্ছা মিউট করো এবং এক্সেল চালু করো না", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "open_app", "slots": {"app": "এক্সেল"}}], "joiners": ["এবং"]}
+{"text": "ভলিউম কমাও তারপর টেলিগ্রাম খোলো প্লিজ", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "open_app", "slots": {"app": "টেলিগ্রাম"}}], "joiners": ["তারপর"]}
+{"text": "ei screen ta pore task manager shuru koro to", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "open_app", "slots": {"app": "task manager"}}], "joiners": ["pore"]}
+{"text": "একটু ওয়ার্ড খুলে লিখে দাও সবাইকে নমস্কার", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ওয়ার্ড"}}, {"action": "type_text", "slots": {"text": "সবাইকে নমস্কার"}}], "joiners": ["খুলে"]}
+{"text": "ইউটিউব ওপেন করো তার পর অনুপম রায় এর গান শুনব", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ইউটিউব"}}, {"action": "play_media", "slots": {"query": "অনুপম রায়"}}], "joiners": ["তার পর"]}
+{"text": "কলকাতার আবহাওয়া সার্চ করে নচিকেতা এর গান বাজাও তো", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "কলকাতার আবহাওয়া"}}, {"action": "play_media", "slots": {"query": "নচিকেতা"}}], "joiners": ["করে"]}
+{"text": "achha chrome open kore flipkart e headphone dekho", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "headphone", "site": "flipkart"}}], "joiners": ["kore"]}
+{"text": "ইউটিউব চালু করো তার পর রবীন্দ্রসংগীত চালাও", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ইউটিউব"}}, {"action": "play_media", "slots": {"query": "রবীন্দ্রসংগীত"}}], "joiners": ["তার পর"]}
+{"text": "ভাই কলকাতার আবহাওয়া খোঁজো এরপর রবীন্দ্রসংগীত শুনব", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "কলকাতার আবহাওয়া"}}, {"action": "play_media", "slots": {"query": "রবীন্দ্রসংগীত"}}], "joiners": ["এরপর"]}
+{"text": "ei youtube open kore kishore kumar er gaan chaliye dao na", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "kishore kumar"}}], "joiners": ["kore"]}
+{"text": "নোটপ্যাড খুলে বৌদিকে বলো মিটিং কাল সকাল দশটায়", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "নোটপ্যাড"}}, {"action": "send_message", "slots": {"contact": "বৌদি", "text": "মিটিং কাল সকাল দশটায়"}}], "joiners": ["খুলে"]}
+{"text": "কলকাতার আবহাওয়া সার্চ করে মান্না দে এর গান বাজাও", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "কলকাতার আবহাওয়া"}}, {"action": "play_media", "slots": {"query": "মান্না দে"}}], "joiners": ["করে"]}
+{"text": "হোয়াটসঅ্যাপ চালু করে মাসিকে মেসেজ করো কাল দেখা হবে", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "হোয়াটসঅ্যাপ"}}, {"action": "send_message", "slots": {"contact": "মাসি", "text": "কাল দেখা হবে"}}], "joiners": ["করে"]}
+{"text": "কাকুকে মেসেজ করো আমি একটু দেরিতে আসছি তারপর জুম চালু করো", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "কাকু", "text": "আমি একটু দেরিতে আসছি"}}, {"action": "open_app", "slots": {"app": "জুম"}}], "joiners": ["তারপর"]}
+{"text": "ektu gaan ta thamiye Ritu ke whatsapp koro je aj raate khabo na", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "send_message", "slots": {"contact": "Ritu", "text": "aj raate khabo na"}}], "joiners": ["thamiye"]}
+{"text": "ক্রোম ওপেন করো আর তারপর সত্যজিৎ রায়ের সেরা সিনেমা কোনগুলো সার্চ করো না", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ক্রোম"}}, {"action": "web_search", "slots": {"query": "সত্যজিৎ রায়ের সেরা সিনেমা কোনগুলো"}}], "joiners": ["আর তারপর"]}
+{"text": "দাদাকে হোয়াটসঅ্যাপ করো মিটিং কাল সকাল দশটায় এরপর এজ খুলে দাও", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "দাদা", "text": "মিটিং কাল সকাল দশটায়"}}, {"action": "open_app", "slots": {"app": "এজ"}}], "joiners": ["এরপর"]}
+{"text": "pause kore Calculator open koro ektu", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "Calculator"}}], "joiners": ["kore"]}
+{"text": "jiosaavn chalu koro, sheshe lopamudra mitra r gaan chalao na", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "jiosaavn"}}, {"action": "play_media", "slots": {"query": "lopamudra mitra"}}], "joiners": ["sheshe"]}
+{"text": "sticky notes shuru koro, and ekhane likho aj er kaj shesh", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "sticky notes"}}, {"action": "type_text", "slots": {"text": "aj er kaj shesh"}}], "joiners": ["and"]}
+{"text": "ভাই স্পটিফাই খোলো এবং রবীন্দ্রসংগীত শুনব", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "স্পটিফাই"}}, {"action": "play_media", "slots": {"query": "রবীন্দ্রসংগীত"}}], "joiners": ["এবং"]}
+{"text": "সৌরভ গাঙ্গুলী কে সার্চ করে রবীন্দ্রসংগীত শুনব না", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "সৌরভ গাঙ্গুলী কে"}}, {"action": "play_media", "slots": {"query": "রবীন্দ্রসংগীত"}}], "joiners": ["করে"]}
+{"text": "ভাই ভলিউম কমাও তারপর ফায়ারফক্স খোলো", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "open_app", "slots": {"app": "ফায়ারফক্স"}}], "joiners": ["তারপর"]}
+{"text": "gaan bondho kore gaan ta abar chalu koro", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "media_control", "slots": {}, "control": "resume"}], "joiners": ["kore"]}
+{"text": "ektu pause koro tar por settings khul", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "settings"}}], "joiners": ["tar por"]}
+{"text": "পিসিকে হোয়াটসঅ্যাপ করো আমি একটু দেরিতে আসছি আর তারপর টেলিগ্রাম খোলো তো", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "পিসি", "text": "আমি একটু দেরিতে আসছি"}}, {"action": "open_app", "slots": {"app": "টেলিগ্রাম"}}], "joiners": ["আর তারপর"]}
+{"text": "achha chrome open kore kaku ke bolo je meeting ta porshu", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "send_message", "slots": {"contact": "kaku", "text": "meeting ta porshu"}}], "joiners": ["kore"]}
+{"text": "আচ্ছা গান থামিয়ে এক্সেল চালু করো", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "এক্সেল"}}], "joiners": ["থামিয়ে"]}
+{"text": "bhai likho dhonnobad apnar sahajyer jonno ar tarpor register button e click koro", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "dhonnobad apnar sahajyer jonno"}}, {"action": "click", "slots": {"target": "register"}}], "joiners": ["ar tarpor"]}
+{"text": "হেমন্ত মুখোপাধ্যায় এর গান চালিয়ে ভলিউম কমাও প্লিজ", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "হেমন্ত মুখোপাধ্যায়"}}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["চালিয়ে"]}
+{"text": "achha brave kholo tarpor ar youtube e ilish macher recipe search koro", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "brave"}}, {"action": "web_search", "slots": {"query": "ilish macher recipe", "site": "youtube"}}], "joiners": ["tarpor ar"]}
+{"text": "ektu likhe dao ami ektu pore reply dichhi er por play button e click koro", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "ami ektu pore reply dichhi"}}, {"action": "click", "slots": {"target": "play"}}], "joiners": ["er por"]}
+{"text": "ei chrome kholo tarpor ebar Ritu ke whatsapp koro je ami ektu der e ashchi", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "send_message", "slots": {"contact": "Ritu", "text": "ami ektu der e ashchi"}}], "joiners": ["tarpor ebar"]}
+{"text": "নজরুলগীতি শুনব আর আওয়াজ কমাও", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "নজরুলগীতি"}}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["আর"]}
+{"text": "একটু আজকের খবর দেখাও তারপর আবার অনুপম রায় এর গান চালাও", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "আজকের খবর"}}, {"action": "play_media", "slots": {"query": "অনুপম রায়"}}], "joiners": ["তারপর আবার"]}
+{"text": "ei ager gaan e fire jao tarpore Excel shuru koro", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "previous"}, {"action": "open_app", "slots": {"app": "Excel"}}], "joiners": ["tarpore"]}
+{"text": "screen ta pore microsoft word ta chalao ektu", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "open_app", "slots": {"app": "microsoft word"}}], "joiners": ["pore"]}
+{"text": "plz volume barie previous gaan ta dao na", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_up"}, {"action": "media_control", "slots": {}, "control": "previous"}], "joiners": ["barie"]}
+{"text": "gaana ta khule ekta gaan chalao", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "gaana"}}, {"action": "play_media", "slots": {}}], "joiners": ["khule"]}
+{"text": "Zoom open kore ei screen ta poro na", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Zoom"}}, {"action": "read_screen", "slots": {}}], "joiners": ["kore"]}
+{"text": "youtube music e Hemanta mukherjee er gaan gulo chaliye volume ektu barao", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "Hemanta mukherjee", "app": "youtube music"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["chaliye"]}
+{"text": "spotify e Bhoomi r gaan chaliye gaan bondho koro", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "Bhoomi", "app": "spotify"}}, {"action": "media_control", "slots": {}, "control": "pause"}], "joiners": ["chaliye"]}
+{"text": "ektu screen ta pore Camera open koro", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "open_app", "slots": {"app": "Camera"}}], "joiners": ["pore"]}
+{"text": "Subho ke message koro bajar theke dim niye esho tar por gaana e usha uthup er gaan chalao to please", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Subho", "text": "bajar theke dim niye esho"}}, {"action": "play_media", "slots": {"query": "usha uthup", "app": "gaana"}}], "joiners": ["tar por"]}
+{"text": "plz Firefox ta khule feluda er lekhok ke search koro", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Firefox"}}, {"action": "web_search", "slots": {"query": "feluda er lekhok ke"}}], "joiners": ["khule"]}
+{"text": "edge chalu koro ar sunday r ranna recipe janao", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "sunday r ranna recipe"}}], "joiners": ["ar"]}
+{"text": "achha sticky notes ta khule settings kholo", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "sticky notes"}}, {"action": "open_app", "slots": {"app": "settings"}}], "joiners": ["khule"]}
+{"text": "awaj ta bondho kore dao sheshe boudi ke bolo je gari pathiye dao", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "send_message", "slots": {"contact": "boudi", "text": "gari pathiye dao"}}], "joiners": ["sheshe"]}
+{"text": "ektu makemytrip ta kholo tarporei pujor chutir list khojo", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "makemytrip"}}, {"action": "web_search", "slots": {"query": "pujor chutir list"}}], "joiners": ["tarporei"]}
+{"text": "achha gaan ta pause koro tarpor teams ta kholo please", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "teams"}}], "joiners": ["tarpor"]}
+{"text": "hey mute kore shreya ghoshal er gaan gulo chalao to please", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "play_media", "slots": {"query": "shreya ghoshal"}}], "joiners": ["kore"]}
+{"text": "achha Word khule ekhane likho invoice ta kal pathabo", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Word"}}, {"action": "type_text", "slots": {"text": "invoice ta kal pathabo"}}], "joiners": ["khule"]}
+{"text": "achha Whatsapp ta chalao ar baba ke message koro aj raate khabo na", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Whatsapp"}}, {"action": "send_message", "slots": {"contact": "baba", "text": "aj raate khabo na"}}], "joiners": ["ar"]}
+{"text": "lekho invoice ta kal pathabo tarpore next e click koro to", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "invoice ta kal pathabo"}}, {"action": "click", "slots": {"target": "next"}}], "joiners": ["tarpore"]}
+{"text": "ei chrome shuru koro sathe sathe cancel e chap dao", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "click", "slots": {"target": "cancel"}}], "joiners": ["sathe sathe"]}
+{"text": "ei gmail dot com er site khule sunday r ranna recipe janao", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "gmail dot com"}}, {"action": "web_search", "slots": {"query": "sunday r ranna recipe"}}], "joiners": ["khule"]}
+{"text": "achha paytm er website khule kolkatar weather janao to", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "paytm"}}, {"action": "web_search", "slots": {"query": "kolkatar weather"}}], "joiners": ["khule"]}
+{"text": "plz whatsapp khul tar por send button e click koro na", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "click", "slots": {"target": "send"}}], "joiners": ["tar por"]}
+{"text": "mamata banerjee ke search kore screen e ki ache portho to", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "mamata banerjee ke"}}, {"action": "read_screen", "slots": {}}], "joiners": ["kore"]}
+{"text": "anindya chatterjee er gaan gulo chalao ebong Word chalu koro please", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "anindya chatterjee"}}, {"action": "open_app", "slots": {"app": "Word"}}], "joiners": ["ebong"]}
+{"text": "gaan ta thamiye excel kholo please", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "excel"}}], "joiners": ["thamiye"]}
+{"text": "Irctc dot co dot in site ta open kore mamata banerjee ke search koro to", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "Irctc dot co dot in"}}, {"action": "web_search", "slots": {"query": "mamata banerjee ke"}}], "joiners": ["kore"]}
+{"text": "pause kore discord khulo", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "discord"}}], "joiners": ["kore"]}
+{"text": "plz nachiketa er gaan gulo chaliye gaan ta pause koro", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "nachiketa"}}, {"action": "media_control", "slots": {}, "control": "pause"}], "joiners": ["chaliye"]}
+{"text": "save button e click koro, tarporei type koro dhonnobad apnar sahajyer jonno", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "save"}}, {"action": "type_text", "slots": {"text": "dhonnobad apnar sahajyer jonno"}}], "joiners": ["tarporei"]}
+{"text": "gaana open kore hemanta mukherjee er gaan gulo chalao", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "gaana"}}, {"action": "play_media", "slots": {"query": "hemanta mukherjee"}}], "joiners": ["kore"]}
+{"text": "sound ta kom koro ar youtube e sandhya mukherjee er gaan gulo shunbo na", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "play_media", "slots": {"query": "sandhya mukherjee", "app": "youtube"}}], "joiners": ["ar"]}
+{"text": "hey ekhane likho aj er kaj shesh tarpor cancel button ta chapo", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "aj er kaj shesh"}}, {"action": "click", "slots": {"target": "cancel"}}], "joiners": ["tarpor"]}
+{"text": "ektu word khulo tarpore type koro amar nam Anirban Sen", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "word"}}, {"action": "type_text", "slots": {"text": "amar nam Anirban Sen"}}], "joiners": ["tarpore"]}
+{"text": "firefox open koro ar satyajit rayer film er list search koro", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "web_search", "slots": {"query": "satyajit rayer film er list"}}], "joiners": ["ar"]}
+{"text": "achha notepad open kore ekhane likho please find the attached file", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "please find the attached file"}}], "joiners": ["kore"]}
+{"text": "hey File explorer khulo tarpor ebar sticky notes khulo", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "File explorer"}}, {"action": "open_app", "slots": {"app": "sticky notes"}}], "joiners": ["tarpor ebar"]}
+{"text": "ei Edge kholar por wikipedia er website kholo", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Edge"}}, {"action": "open_website", "slots": {"site": "wikipedia"}}], "joiners": ["kholar por"]}
+{"text": "Calculator chalu koro sheshe Vlc khulo", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Calculator"}}, {"action": "open_app", "slots": {"app": "Vlc"}}], "joiners": ["sheshe"]}
+{"text": "achha spotify chalu kore gaan chalao", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {}}], "joiners": ["kore"]}
+{"text": "bhai chrome open kore youtube e bangla boi search koro please", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "bangla boi", "site": "youtube"}}], "joiners": ["kore"]}
+{"text": "Whatsapp kholo tarpor ebar Bondhu Sayan ke janiye dao je aj office jabo na", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Whatsapp"}}, {"action": "send_message", "slots": {"contact": "Bondhu Sayan", "text": "aj office jabo na"}}], "joiners": ["tarpor ebar"]}
+{"text": "achha brave kholar por siliguri r weather google koro please", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "brave"}}, {"action": "web_search", "slots": {"query": "siliguri r weather"}}], "joiners": ["kholar por"]}
+{"text": "ei gaan ta skip kore ager gaan ta chalao please", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "next"}, {"action": "media_control", "slots": {}, "control": "previous"}], "joiners": ["kore"]}
+{"text": "ektu Firefox open kore zomato e jao", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Firefox"}}, {"action": "open_website", "slots": {"site": "zomato"}}], "joiners": ["kore"]}
+{"text": "hey Spotify open kore ektu gaan shunbo", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Spotify"}}, {"action": "play_media", "slots": {}}], "joiners": ["kore"]}
+{"text": "umm paytm site ta open kore screen e ki dekha jachhe bolo", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "paytm"}}, {"action": "read_screen", "slots": {}}], "joiners": ["kore"]}
+{"text": "umm google chrome kholar por download te click koro ektu", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "google chrome"}}, {"action": "click", "slots": {"target": "download"}}], "joiners": ["kholar por"]}
+{"text": "paint open kore whatsapp open kore dao to", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "paint"}}, {"action": "open_app", "slots": {"app": "whatsapp"}}], "joiners": ["kore"]}
+{"text": "ektu ar rahman r gaan shunbo ar gaan bondho koro", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "ar rahman"}}, {"action": "media_control", "slots": {}, "control": "pause"}], "joiners": ["ar"]}
+{"text": "bhai whatsapp open kore dao aar Debjani ke janiye dao je shubho jonmodin", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "Debjani", "text": "shubho jonmodin"}}], "joiners": ["aar"]}
+{"text": "hey pause kore Paint kholo to", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "Paint"}}], "joiners": ["kore"]}
+{"text": "bhai google chrome ta khule dao er por save te click koro", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "google chrome"}}, {"action": "click", "slots": {"target": "save"}}], "joiners": ["er por"]}
+{"text": "achha login e click kore likhe dao dhonnobad apnar sahajyer jonno", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "login"}}, {"action": "type_text", "slots": {"text": "dhonnobad apnar sahajyer jonno"}}], "joiners": ["kore"]}
+{"text": "hey Google Chrome shuru koro tarpor ar howrah te brishti hobe ki janao", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Google Chrome"}}, {"action": "web_search", "slots": {"query": "howrah te brishti hobe ki"}}], "joiners": ["tarpor ar"]}
+{"text": "achha dada ke janiye dao je ami 10 minute e pouchhachhi, ar tarpor Gaana te adhunik gaan bajao na", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "dada", "text": "ami 10 minute e pouchhachhi"}}, {"action": "play_media", "slots": {"query": "adhunik gaan", "app": "Gaana"}}], "joiners": ["ar tarpor"]}
+{"text": "achha type kore dao shubho bijoya ar tarpor login e click koro", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "shubho bijoya"}}, {"action": "click", "slots": {"target": "login"}}], "joiners": ["ar tarpor"]}
+{"text": "achha Jiosaavn te Mahalaya shunbo tarporei volume kom koro na", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "Mahalaya", "app": "Jiosaavn"}}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["tarporei"]}
+{"text": "Chrome kholo ar mami ke message koro bajar theke dim niye esho", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "send_message", "slots": {"contact": "mami", "text": "bajar theke dim niye esho"}}], "joiners": ["ar"]}
+{"text": "ektu youtube open kore Arijit Singh er gaan chalao", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "Arijit Singh"}}], "joiners": ["kore"]}
+{"text": "umm gaana e bengali romantic songs chalao tar por volume baro kore dao to", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "bengali romantic songs", "app": "gaana"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["tar por"]}
+{"text": "outlook ta kholo tarpore file explorer khulo", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "outlook"}}, {"action": "open_app", "slots": {"app": "file explorer"}}], "joiners": ["tarpore"]}
+{"text": "plz powerpoint ta khule screen ta poro shonao na", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "powerpoint"}}, {"action": "read_screen", "slots": {}}], "joiners": ["khule"]}
+{"text": "notepad open kore dao sheshe Ritu ke message koro kal sokale dekha hobe", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "send_message", "slots": {"contact": "Ritu", "text": "kal sokale dekha hobe"}}], "joiners": ["sheshe"]}
+{"text": "umm Edge ta chalao, tarpor ar myntra e feluda samagra dekho", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Edge"}}, {"action": "web_search", "slots": {"query": "feluda samagra", "site": "myntra"}}], "joiners": ["tarpor ar"]}
+{"text": "ekhane likho hello sir ami rahul bolchhi tar por send e click koro ektu", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "hello sir ami rahul bolchhi"}}, {"action": "click", "slots": {"target": "send"}}], "joiners": ["tar por"]}
+{"text": "gaan bondho kore ei gaan ta skip koro", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "media_control", "slots": {}, "control": "next"}], "joiners": ["kore"]}
+{"text": "ei likhe dao please find the attached file tarpore upload e click koro", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "please find the attached file"}}, {"action": "click", "slots": {"target": "upload"}}], "joiners": ["tarpore"]}
+{"text": "plz aajker kolkata weather khuje sandhya mukherjee r gaan chalao to ektu", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "aajker kolkata weather"}}, {"action": "play_media", "slots": {"query": "sandhya mukherjee"}}], "joiners": ["khuje"]}
+{"text": "puja special gaan chalu koro tarpore whatsapp ta kholo please", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "puja special gaan"}}, {"action": "open_app", "slots": {"app": "whatsapp"}}], "joiners": ["tarpore"]}
+{"text": "bhai whatsapp kholo sheshe kaku ke whatsapp koro je tomar phone ta dhorchhe na kyano", "lang": "bn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "kaku", "text": "tomar phone ta dhorchhe na kyano"}}], "joiners": ["sheshe"]}

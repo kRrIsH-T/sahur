@@ -1,0 +1,431 @@
+{"text": "gold rate kerala innu google cheyyu", "lang": "ml", "action": "web_search", "slots": {"query": "gold rate kerala innu"}}
+{"text": "arunu message ayakku pani theernnitt pinne varam", "lang": "ml", "action": "send_message", "slots": {"contact": "arun", "text": "pani theernnitt pinne varam"}}
+{"text": "tea and snacks 4 manikku enn ezhuthamo", "lang": "ml", "action": "type_text", "slots": {"text": "tea and snacks 4 manikku"}}
+{"text": "Chrome open cheythitt Alappuzha houseboat price serch cheythittu ee page vaayichu para", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "web_search", "slots": {"query": "Alappuzha houseboat price"}}, {"action": "read_screen", "slots": {}}], "joiners": ["cheythitt", "cheythittu"]}
+{"text": "സ്പോട്ടിഫൈ ആപ്പ് തുറക്കൂ ഇപ്പോൾ", "lang": "ml", "action": "open_app", "slots": {"app": "സ്പോട്ടിഫൈ"}}
+{"text": "mute cheyu", "lang": "ml", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Firefox open cheyyamo athu kazhinj Mohanlal inte first cinema ethaanu paranju tharu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Firefox"}}, {"action": "web_search", "slots": {"query": "Mohanlal inte first cinema ethaanu"}}], "joiners": ["athu kazhinj"]}
+{"text": "appachanu mazha kuranjittu pinne irangam enn ezhuthi ayakku", "lang": "ml", "action": "send_message", "slots": {"contact": "appachan", "text": "mazha kuranjittu pinne irangam"}}
+{"text": "bread and butter pudding recipe onnu search cheyyuka", "lang": "ml", "action": "web_search", "slots": {"query": "bread and butter pudding recipe"}}
+{"text": "ok chrome thurannu gmail site turakku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "gmail"}}], "joiners": ["thurannu"]}
+{"text": "എന്റെ പേര് അനിൽ കുമാർ എന്ന് എഴുതിയിട്ട് ഗൂഗിൾ ക്രോം ഒന്ന് തുറക്കൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "എന്റെ പേര് അനിൽ കുമാർ"}}, {"action": "open_app", "slots": {"app": "ഗൂഗിൾ ക്രോം"}}], "joiners": ["എഴുതിയിട്ട്"]}
+{"text": "സേവ് ബട്ടൺ ക്ലിക്ക് ചെയ്യൂ", "lang": "ml", "action": "click", "slots": {"target": "സേവ്"}}
+{"text": "Chrome onnu oppen cheyyuu koode Amazon site thurakku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "open_website", "slots": {"site": "Amazon"}}], "joiners": ["koode"]}
+{"text": "Brave open cheythitt Malayalam ile first cinema ethaanu google cheyy", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Brave"}}, {"action": "web_search", "slots": {"query": "Malayalam ile first cinema ethaanu"}}], "joiners": ["cheythitt"]}
+{"text": "Play ennathil click cheyyu chetta", "lang": "ml", "action": "click", "slots": {"target": "Play"}}
+{"text": "edge open cheythu munnar hotels ennu google cheyyu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "munnar hotels"}}], "joiners": ["cheythu"]}
+{"text": "കമ്പ്യൂട്ടർ ഷട്ട്ഡൗൺ ചെയ്യൂ ദയവായി", "lang": "ml", "action": "unknown", "slots": {}}
+{"text": "anjuvinu oru message ayakk njan nalu manikku ethum ennu pinne k s chithra play cheyyu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "anju", "text": "njan nalu manikku ethum"}}, {"action": "play_media", "slots": {"query": "k s chithra"}}], "joiners": ["pinne"]}
+{"text": "adutha paattu", "lang": "ml", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Continue cheyyu", "lang": "ml", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "mr and mrs rowdy onnu ple aakku", "lang": "ml", "action": "play_media", "slots": {"query": "mr and mrs rowdy"}}
+{"text": "continue cheyyu chetta", "lang": "ml", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "എം ജി ശ്രീകുമാർ ഇടൂ", "lang": "ml", "action": "play_media", "slots": {"query": "എം ജി ശ്രീകുമാർ"}}
+{"text": "Gmail website onnu thura", "lang": "ml", "action": "open_website", "slots": {"site": "Gmail"}}
+{"text": "WhatsApp open aakki Harithayodu mazha kaaranam varan pattilla ennu paranju message ayakkuka", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "WhatsApp"}}, {"action": "send_message", "slots": {"contact": "Haritha", "text": "mazha kaaranam varan pattilla"}}], "joiners": ["aakki"]}
+{"text": "ചേച്ചിക്ക് നാളെ ക്ലാസ് ഇല്ല എന്ന് മെസ്സേജ് അയക്കൂ", "lang": "ml", "action": "send_message", "slots": {"contact": "ചേച്ചി", "text": "നാളെ ക്ലാസ് ഇല്ല"}}
+{"text": "kuzhappamilla vittekku", "lang": "ml", "action": "cancel", "slots": {}}
+{"text": "Edge oppen aakkitt vande bharat ernakulam kasaragod timing paranju tharu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Edge"}}, {"action": "web_search", "slots": {"query": "vande bharat ernakulam kasaragod timing"}}], "joiners": ["aakkitt"]}
+{"text": "Whats App thurannitt Basheer ikkayodu photos drive il ittittund enn para whatsap il", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Whats App"}}, {"action": "send_message", "slots": {"contact": "Basheer ikka", "text": "photos drive il ittittund"}}], "joiners": ["thurannitt"]}
+{"text": "enthaanu screenil kaanunnathu enn paranju tharu", "lang": "ml", "action": "read_screen", "slots": {}}
+{"text": "ennalum ente aliyaane patti onnu paranju tharu", "lang": "ml", "action": "web_search", "slots": {"query": "ennalum ente aliyaa"}}
+{"text": "Ennu Ninte Moideen pattu vekku", "lang": "ml", "action": "play_media", "slots": {"query": "Ennu Ninte Moideen"}}
+{"text": "download button amarthi kind regards ennu ezhuthitt open button amarthu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "download"}}, {"action": "type_text", "slots": {"text": "kind regards"}}, {"action": "click", "slots": {"target": "open"}}], "joiners": ["amarthi", "ezhuthitt"]}
+{"text": "spotify open cheyth vijay yesudas paattu vekku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "vijay yesudas"}}], "joiners": ["cheyth"]}
+{"text": "ഓണം തീയതി ഗൂഗിൾ ചെയ്യൂ", "lang": "ml", "action": "web_search", "slots": {"query": "ഓണം തീയതി"}}
+{"text": "Flipkart website open cheythitt ee box il Happy Vishu enn ezhuthu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "Flipkart"}}, {"action": "type_text", "slots": {"text": "Happy Vishu"}}], "joiners": ["cheythitt"]}
+{"text": "നെക്സ്റ്റ് ബട്ടണിൽ ക്ലിക്ക് ചെയ്യൂ പിന്നീട് റിപ്പോർട്ട് തയ്യാറാണ് എന്ന് എഴുതിയിട്ട് ലോഗിൻ ബട്ടൺ ക്ലിക്ക് ചെയ്യൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "നെക്സ്റ്റ്"}}, {"action": "type_text", "slots": {"text": "റിപ്പോർട്ട് തയ്യാറാണ്"}}, {"action": "click", "slots": {"target": "ലോഗിൻ"}}], "joiners": ["പിന്നീട്", "എഴുതിയിട്ട്"]}
+{"text": "screen explain cheyyu chetta", "lang": "ml", "action": "read_screen", "slots": {}}
+{"text": "Chrome thurannitt Malayalam ile ettavum valiya hit cinema ethaanu search cheyyu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "web_search", "slots": {"query": "Malayalam ile ettavum valiya hit cinema ethaanu"}}], "joiners": ["thurannitt"]}
+{"text": "apple music start cheythitt aavesham onnu play aakku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "apple music"}}, {"action": "play_media", "slots": {"query": "aavesham"}}], "joiners": ["cheythitt"]}
+{"text": "Arunu oru massage ayaku njan nalu manikku ethum enn and Kudukku songs pley cheyy", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Arun", "text": "njan nalu manikku ethum"}}, {"action": "play_media", "slots": {"query": "Kudukku"}}], "joiners": ["and"]}
+{"text": "screen il enthaanu ennu vaichu para", "lang": "ml", "action": "read_screen", "slots": {}}
+{"text": "സിനിയോട് ഇന്ന് രാത്രി വിളിക്കാം എന്ന് പറഞ്ഞ് മെസ്സേജ് അയക്കൂ ശേഷം എഡ്ജ് ഓപ്പൺ ചെയ്യുക", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "സിനി", "text": "ഇന്ന് രാത്രി വിളിക്കാം"}}, {"action": "open_app", "slots": {"app": "എഡ്ജ്"}}], "joiners": ["ശേഷം"]}
+{"text": "Ustad Hotel movie review nokk", "lang": "ml", "action": "web_search", "slots": {"query": "Ustad Hotel movie review"}}
+{"text": "ayyo ente ammo", "lang": "ml", "action": "unknown", "slots": {}}
+{"text": "Clock open cheyyuka", "lang": "ml", "action": "open_app", "slots": {"app": "Clock"}}
+{"text": "sheri venda", "lang": "ml", "action": "cancel", "slots": {}}
+{"text": "spotify open cheyyamo ennittu bijibal onnu pley aakku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "bijibal"}}], "joiners": ["ennittu"]}
+{"text": "paattu pley cheyyu", "lang": "ml", "action": "play_media", "slots": {}}
+{"text": "Brave opn aakki kerala lottery result onnu search cheyyamo", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Brave"}}, {"action": "web_search", "slots": {"query": "kerala lottery result"}}], "joiners": ["aakki"]}
+{"text": "ജിയോസാവൻ ഒന്ന് തുറക്കൂ പിന്നെ ഭക്തിഗാനങ്ങൾ വെക്കൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ജിയോസാവൻ"}}, {"action": "play_media", "slots": {"query": "ഭക്തിഗാനങ്ങൾ"}}], "joiners": ["പിന്നെ"]}
+{"text": "ouseppachan paattu idu please", "lang": "ml", "action": "play_media", "slots": {"query": "ouseppachan"}}
+{"text": "nirthu ennitt microsoft store thura", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "microsoft store"}}], "joiners": ["ennitt"]}
+{"text": "YouTubeil Kumbalangi Nights songs vaykku", "lang": "ml", "action": "play_media", "slots": {"app": "YouTube", "query": "Kumbalangi Nights"}}
+{"text": "Abdul ikkayodu ente phone silent il aanu enn paranjitt Hotstar thura", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Abdul ikka", "text": "ente phone silent il aanu"}}, {"action": "open_app", "slots": {"app": "Hotstar"}}], "joiners": ["paranjitt"]}
+{"text": "continue cheythitt vs code app open cheyyu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "resume"}, {"action": "open_app", "slots": {"app": "vs code"}}], "joiners": ["cheythitt"]}
+{"text": "നെക്സ്റ്റ് ബട്ടൺ അമർത്തിയിട്ട് സ്ക്രീനിൽ എന്താണെന്ന് വായിച്ചു പറയൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "നെക്സ്റ്റ്"}}, {"action": "read_screen", "slots": {}}], "joiners": ["അമർത്തിയിട്ട്"]}
+{"text": "edge launch cheyyoo after that nivin pauly aaranu paranju tharu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "nivin pauly aaranu"}}], "joiners": ["after that"]}
+{"text": "Edge open cheythitt Sabarimala virtual queue booking onnu nokkiye", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Edge"}}, {"action": "web_search", "slots": {"query": "Sabarimala virtual queue booking"}}], "joiners": ["cheythitt"]}
+{"text": "vendaa", "lang": "ml", "action": "cancel", "slots": {}}
+{"text": "Chrome", "lang": "none", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "അയ്യപ്പനും കോശിയും പ്ലേ ചെയ്യൂ", "lang": "ml", "action": "play_media", "slots": {"query": "അയ്യപ്പനും കോശിയും"}}
+{"text": "ഫേസ്ബുക്ക് സൈറ്റ് തുറന്നിട്ട് സ്ക്രീനിൽ എന്താണെന്ന് വായിച്ചു പറയൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "ഫേസ്ബുക്ക്"}}, {"action": "read_screen", "slots": {}}], "joiners": ["തുറന്നിട്ട്"]}
+{"text": "Harithaykku ente phone silent il aanu ennu msg ayachittu Wynk open aakku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Haritha", "text": "ente phone silent il aanu"}}, {"action": "open_app", "slots": {"app": "Wynk"}}], "joiners": ["ayachittu"]}
+{"text": "google maps thura", "lang": "ml", "action": "open_app", "slots": {"app": "google maps"}}
+{"text": "github dot com website thurakkamo", "lang": "ml", "action": "open_website", "slots": {"site": "github dot com"}}
+{"text": "ടീംസ് ഓപ്പൺ ചെയ്യുക", "lang": "ml", "action": "open_app", "slots": {"app": "ടീംസ്"}}
+{"text": "Kerala Blasters match score onnu sarch cheyyamo", "lang": "ml", "action": "web_search", "slots": {"query": "Kerala Blasters match score"}}
+{"text": "Drishyam cinema aaru direct cheythu kaanikku", "lang": "ml", "action": "web_search", "slots": {"query": "Drishyam cinema aaru direct cheythu"}}
+{"text": "Premam songs vekku.", "lang": "ml", "action": "play_media", "slots": {"query": "Premam"}}
+{"text": "asianet news website open cheyy athinu pinne screenil enthokke und enn para", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "asianet news"}}, {"action": "read_screen", "slots": {}}], "joiners": ["athinu pinne"]}
+{"text": "Amazon Musicil Aavesham onnu vekkamo", "lang": "ml", "action": "play_media", "slots": {"app": "Amazon Music", "query": "Aavesham"}}
+{"text": "brave open cheythu nivin pauly latest film onnu search cheyyuka", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "brave"}}, {"action": "web_search", "slots": {"query": "nivin pauly latest film"}}], "joiners": ["cheythu"]}
+{"text": "please Subscribe amarthu", "lang": "ml", "action": "click", "slots": {"target": "Subscribe"}}
+{"text": "ചേച്ചിക്ക് ചോറ് വെച്ചിട്ട് എന്നിട്ട് കറി ഉണ്ടാക്കാം എന്ന് വാട്സ്ആപ്പ് ചെയ്യൂ", "lang": "ml", "action": "send_message", "slots": {"contact": "ചേച്ചി", "text": "ചോറ് വെച്ചിട്ട് എന്നിട്ട് കറി ഉണ്ടാക്കാം"}}
+{"text": "youtube opn aakku athu kazhinj kuthu paattukal onnu vekkamo", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "kuthu paattukal"}}], "joiners": ["athu kazhinj"]}
+{"text": "microsoft store launch cheyyu", "lang": "ml", "action": "open_app", "slots": {"app": "microsoft store"}}
+{"text": "ennal ammachikku message ayakku salary vannu ennu", "lang": "ml", "action": "send_message", "slots": {"contact": "ammachi", "text": "salary vannu"}}
+{"text": "ok onnu music vekku", "lang": "ml", "action": "play_media", "slots": {}}
+{"text": "taxi book cheyy ok", "lang": "ml", "action": "unknown", "slots": {}}
+{"text": "amazon music opn cheythu narendran paattu pley cheyyamo", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "amazon music"}}, {"action": "play_media", "slots": {"query": "narendran"}}], "joiners": ["cheythu"]}
+{"text": "chechikku exam result vannu ennu message ayakku", "lang": "ml", "action": "send_message", "slots": {"contact": "chechi", "text": "exam result vannu"}}
+{"text": "save and close il click cheyyoo", "lang": "ml", "action": "click", "slots": {"target": "save and close"}}
+{"text": "മീരയ്ക്ക് ഒരു മെസ്സേജ് അയക്കണം", "lang": "ml", "action": "send_message", "incomplete": true, "slots": {"contact": "മീര"}}
+{"text": "github dot com site thurakk pinneed ee page vayichu para", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "github dot com"}}, {"action": "read_screen", "slots": {}}], "joiners": ["pinneed"]}
+{"text": "bangalore days paattu onnu vekkamo", "lang": "ml", "action": "play_media", "slots": {"query": "bangalore days"}}
+{"text": "ninte per enthaa", "lang": "ml", "action": "unknown", "slots": {}}
+{"text": "Sinikku oru message ayakku first exam kazhinj after that outing pokam ennu", "lang": "ml", "action": "send_message", "slots": {"contact": "Sini", "text": "first exam kazhinj after that outing pokam"}}
+{"text": "facebook site thurakku", "lang": "ml", "action": "open_website", "slots": {"site": "facebook"}}
+{"text": "pay now amarthu vegam", "lang": "ml", "action": "click", "slots": {"target": "pay now"}}
+{"text": "ക്രോം തുറന്ന് കേരള പി എസ് സി പരീക്ഷ തീയതി തിരയൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ക്രോം"}}, {"action": "web_search", "slots": {"query": "കേരള പി എസ് സി പരീക്ഷ തീയതി"}}], "joiners": ["തുറന്ന്"]}
+{"text": "whatsapp onnu open aakkiye ennit paisa ayachittund ennu Basheer ikkakku whatsapp ayakku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"text": "paisa ayachittund", "contact": "Basheer ikka"}}], "joiners": ["ennit"]}
+{"text": "പാട്ട് നിർത്തിയിട്ട് നോട്ട്പാഡ് തുറക്കൂ പിന്നീട് ലീവ് അപേക്ഷ എന്ന് ടൈപ്പ് ചെയ്യൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "നോട്ട്പാഡ്"}}, {"action": "type_text", "slots": {"text": "ലീവ് അപേക്ഷ"}}], "joiners": ["നിർത്തിയിട്ട്", "പിന്നീട്"]}
+{"text": "manikya malaraya poovi paattu gaana il idu", "lang": "ml", "action": "play_media", "slots": {"query": "manikya malaraya poovi", "app": "gaana"}}
+{"text": "Volume up cheyyu athinu shesham deepaykku msg ayakku njan nalu manikku ethum ennu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_up"}, {"action": "send_message", "slots": {"contact": "deepa", "text": "njan nalu manikku ethum"}}], "joiners": ["athinu shesham"]}
+{"text": "Snipping Tool thurakku appo Menu button onnu klik cheyyu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Snipping Tool"}}, {"action": "click", "slots": {"target": "Menu"}}], "joiners": ["appo"]}
+{"text": "mute pinneed Indeed site thurakku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "open_website", "slots": {"site": "Indeed"}}], "joiners": ["pinneed"]}
+{"text": "jiosaavn open cheyyuka then aadujeevitham paattu idu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "jiosaavn"}}, {"action": "play_media", "slots": {"query": "aadujeevitham"}}], "joiners": ["then"]}
+{"text": "type cheyyu meeting kazhinj athinu shesham lunch", "lang": "ml", "action": "type_text", "slots": {"text": "meeting kazhinj athinu shesham lunch"}}
+{"text": "Like amarthu", "lang": "ml", "action": "click", "slots": {"target": "Like"}}
+{"text": "firefox oppen aakkitt amazon dot in site onnu kaanikku then subscribe button click cheyyu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "open_website", "slots": {"site": "amazon dot in"}}, {"action": "click", "slots": {"target": "subscribe"}}], "joiners": ["aakkitt", "then"]}
+{"text": "Chrome open cheythathinu shesham KSEB bill online payment search cheythu YouTube Musicil kuthu paattukal ple cheyyu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "web_search", "slots": {"query": "KSEB bill online payment"}}, {"action": "play_media", "slots": {"app": "YouTube Music", "query": "kuthu paattukal"}}], "joiners": ["shesham", "cheythu"]}
+{"text": "ennal Edge launch cheyyu pinneed Lulu Mall timing google cheyyu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Edge"}}, {"action": "web_search", "slots": {"query": "Lulu Mall timing"}}], "joiners": ["pinneed"]}
+{"text": "chithra yude first paattu ethaanu search cheyyu", "lang": "ml", "action": "web_search", "slots": {"query": "chithra yude first paattu ethaanu"}}
+{"text": "sid sriram paattu ple cheyyamo", "lang": "ml", "action": "play_media", "slots": {"query": "sid sriram"}}
+{"text": "എന്ന് നിന്റെ മൊയ്തീൻ പാട്ടുകൾ വെക്കൂ", "lang": "ml", "action": "play_media", "slots": {"query": "എന്ന് നിന്റെ മൊയ്തീൻ"}}
+{"text": "വേണ്ട", "lang": "ml", "action": "cancel", "slots": {}}
+{"text": "aadujeevitham box office collection ennu google cheyyu please", "lang": "ml", "action": "web_search", "slots": {"query": "aadujeevitham box office collection"}}
+{"text": "JioSaavn start cheythitt romantic malayalam songs kelkkanam", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "JioSaavn"}}, {"action": "play_media", "slots": {"query": "romantic malayalam songs"}}], "joiners": ["cheythitt"]}
+{"text": "ദൃശ്യം റിലീസ് തീയതി നോക്കൂ ഇപ്പോൾ", "lang": "ml", "action": "web_search", "slots": {"query": "ദൃശ്യം റിലീസ് തീയതി"}}
+{"text": "jiosaavn thurannitt hesham abdul wahab paattukal onnu idamo", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "jiosaavn"}}, {"action": "play_media", "slots": {"query": "hesham abdul wahab"}}], "joiners": ["thurannitt"]}
+{"text": "Malayalam ile ettavum valiya hit cinema ethaanu onnu search cheyyuka", "lang": "ml", "action": "web_search", "slots": {"query": "Malayalam ile ettavum valiya hit cinema ethaanu"}}
+{"text": "Mary chechikku pani theernnilla ennu msg ayaku ennitt JioSaavnil Haricharan paattukal idu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Mary chechi", "text": "pani theernnilla"}}, {"action": "play_media", "slots": {"app": "JioSaavn", "query": "Haricharan"}}], "joiners": ["ennitt"]}
+{"text": "ente github dot com website open cheyy pinne ee box il invoice number 4521 ennu ezhuthu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "github dot com"}}, {"action": "type_text", "slots": {"text": "invoice number 4521"}}], "joiners": ["pinne"]}
+{"text": "whats app thura ennitt kuttanu innu rathri vilikkam ennu ezhuthi ayakkoo", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whats app"}}, {"action": "send_message", "slots": {"contact": "kuttan", "text": "innu rathri vilikkam"}}], "joiners": ["ennitt"]}
+{"text": "Microsoft Edge open cheyth Mammootty ude puthiya cinema ethaanu nokku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Microsoft Edge"}}, {"action": "web_search", "slots": {"query": "Mammootty ude puthiya cinema ethaanu"}}], "joiners": ["cheyth"]}
+{"text": "Ok Postman open cheyyamo", "lang": "ml", "action": "open_app", "slots": {"app": "Postman"}}
+{"text": "shibuvinu ellarum koode varunnund enn msg ayakkoo", "lang": "ml", "action": "send_message", "slots": {"contact": "shibu", "text": "ellarum koode varunnund"}}
+{"text": "Sign in and continue il klik cheyyuu", "lang": "ml", "action": "click", "slots": {"target": "Sign in and continue"}}
+{"text": "chrome open cheyyamo pinne sabarimalane kurichu para", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "sabarimala"}}], "joiners": ["pinne"]}
+{"text": "ente YouTube open cheythu kazhinj K S Chithra play cheythitt swaram koottu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "YouTube"}}, {"action": "play_media", "slots": {"query": "K S Chithra"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["kazhinj", "cheythitt"]}
+{"text": "sound off aakku and Brave open cheythu Naukri open cheyyu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "open_app", "slots": {"app": "Brave"}}, {"action": "open_website", "slots": {"site": "Naukri"}}], "joiners": ["and", "cheythu"]}
+{"text": "കൊച്ചിയിലെ കാലാവസ്ഥ പറഞ്ഞു തരൂ", "lang": "ml", "action": "web_search", "slots": {"query": "കൊച്ചിയിലെ കാലാവസ്ഥ"}}
+{"text": "invoice number 4521 type cheyyu", "lang": "ml", "action": "type_text", "slots": {"text": "invoice number 4521"}}
+{"text": "resume cheythitt facebook website thurakkamo", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "resume"}, {"action": "open_website", "slots": {"site": "facebook"}}], "joiners": ["cheythitt"]}
+{"text": "message ayakku ammachikku appo njan ippo ethum", "lang": "ml", "action": "send_message", "slots": {"contact": "ammachi", "text": "appo njan ippo ethum"}}
+{"text": "Print klik cheythu enthaanu screenil kaanunnathu ennu paranju tharu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "Print"}}, {"action": "read_screen", "slots": {}}], "joiners": ["cheythu"]}
+{"text": "വിജയ് യേശുദാസ് പ്ലേ ചെയ്തിട്ട് മ്യൂസിക് പോസ് ചെയ്യൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "വിജയ് യേശുദാസ്"}}, {"action": "media_control", "slots": {}, "control": "pause"}], "joiners": ["ചെയ്തിട്ട്"]}
+{"text": "ഫാത്തിമയ്ക്ക് മീറ്റിംഗ് കഴിഞ്ഞ് അതിനു ശേഷം കാണാം എന്ന് മെസ്സേജ് അയക്കൂ", "lang": "ml", "action": "send_message", "slots": {"contact": "ഫാത്തിമ", "text": "മീറ്റിംഗ് കഴിഞ്ഞ് അതിനു ശേഷം കാണാം"}}
+{"text": "firefox open cheythitt wikipedia dot org open cheyyu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "open_website", "slots": {"site": "wikipedia dot org"}}], "joiners": ["cheythitt"]}
+{"text": "onenote thurakkoo koode ivide thank you so much ennu ezhuthikko", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "onenote"}}, {"action": "type_text", "slots": {"text": "thank you so much"}}], "joiners": ["koode"]}
+{"text": "ezhuthikko onam ashamsakal", "lang": "ml", "action": "type_text", "slots": {"text": "onam ashamsakal"}}
+{"text": "Rock and Roll onnu play aakku", "lang": "ml", "action": "play_media", "slots": {"query": "Rock and Roll"}}
+{"text": "JioSaavn il Ennu Ninte Moideen paattukal idu", "lang": "ml", "action": "play_media", "slots": {"app": "JioSaavn", "query": "Ennu Ninte Moideen"}}
+{"text": "cancel cheythekku.", "lang": "ml", "action": "cancel", "slots": {}}
+{"text": "aa paattu vekku mone", "lang": "ml", "action": "play_media", "slots": {}}
+{"text": "kerala style fish curry type cheyyu", "lang": "ml", "action": "type_text", "slots": {"text": "kerala style fish curry"}}
+{"text": "Tom and Jerry cartoon idu", "lang": "ml", "action": "play_media", "slots": {"query": "Tom and Jerry cartoon"}}
+{"text": "previous cheythitt vs code onnu oppen aakkiye", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "previous"}, {"action": "open_app", "slots": {"app": "vs code"}}], "joiners": ["cheythitt"]}
+{"text": "reddit site thurakku", "lang": "ml", "action": "open_website", "slots": {"site": "reddit"}}
+{"text": "ഒന്ന് ഇൻസ്റ്റാഗ്രാം തുറക്കാമോ", "lang": "ml", "action": "open_app", "slots": {"app": "ഇൻസ്റ്റാഗ്രാം"}}
+{"text": "Mr and mrs rowdy il aaranu nayakan kaanikku", "lang": "ml", "action": "web_search", "slots": {"query": "Mr and mrs rowdy il aaranu nayakan"}}
+{"text": "anjuvinu onam ashamsakal ennu msg ayakku", "lang": "ml", "action": "send_message", "slots": {"contact": "anju", "text": "onam ashamsakal"}}
+{"text": "sushin shyam paattu play cheyyamo", "lang": "ml", "action": "play_media", "slots": {"query": "sushin shyam"}}
+{"text": "whatsapp thurannu anjuvinu message ayakku kadayil pokunnund ennu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "anju", "text": "kadayil pokunnund"}}], "joiners": ["thurannu"]}
+{"text": "India yude prime minister aaranu ariyanam", "lang": "ml", "action": "web_search", "slots": {"query": "India yude prime minister aaranu"}}
+{"text": "ചിത്ര പ്ലേ ചെയ്യൂ ഇപ്പോൾ", "lang": "ml", "action": "play_media", "slots": {"query": "ചിത്ര"}}
+{"text": "apple musicil paattu vekku", "lang": "ml", "action": "play_media", "slots": {"app": "apple music"}}
+{"text": "പൃഥ്വിരാജ് ആരാണ് നോക്കൂ", "lang": "ml", "action": "web_search", "slots": {"query": "പൃഥ്വിരാജ് ആരാണ്"}}
+{"text": "sureshnu oru message ayakkanam", "lang": "ml", "action": "send_message", "incomplete": true, "slots": {"contact": "suresh"}}
+{"text": "asianet news website thurakkamo", "lang": "ml", "action": "open_website", "slots": {"site": "asianet news"}}
+{"text": "hello team ennu ezhuthitt checkout il onnu clik cheyy", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "hello team"}}, {"action": "click", "slots": {"target": "checkout"}}], "joiners": ["ezhuthitt"]}
+{"text": "happy birthday chetta enn sinikku whatsapp ayakku mone", "lang": "ml", "action": "send_message", "slots": {"text": "happy birthday chetta", "contact": "sini"}}
+{"text": "വൈഫൈ ഓഫ് ആക്കൂ", "lang": "ml", "action": "unknown", "slots": {}}
+{"text": "Sithara Krishnakumar paattukal onnu idamo", "lang": "ml", "action": "play_media", "slots": {"query": "Sithara Krishnakumar"}}
+{"text": "Spotify opn cheythitt sid sriram paattu play cheyyamo", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Spotify"}}, {"action": "play_media", "slots": {"query": "sid sriram"}}], "joiners": ["cheythitt"]}
+{"text": "google maps onnu oppen aakkiye", "lang": "ml", "action": "open_app", "slots": {"app": "google maps"}}
+{"text": "Yesudas inte age ethra nokku", "lang": "ml", "action": "web_search", "slots": {"query": "Yesudas inte age ethra"}}
+{"text": "sound koottitt netflix launch cheyyu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_up"}, {"action": "open_app", "slots": {"app": "netflix"}}], "joiners": ["koottitt"]}
+{"text": "kochi weather nokku", "lang": "ml", "action": "web_search", "slots": {"query": "kochi weather"}}
+{"text": "Mary chechiyodu chorum curryum undakki ennitt kazhikkam ennu paranju message ayakkuka", "lang": "ml", "action": "send_message", "slots": {"contact": "Mary chechi", "text": "chorum curryum undakki ennitt kazhikkam"}}
+{"text": "ശബ്ദം ഓഫ് ആക്കൂ പിന്നെ സെറ്റിംഗ്സ് ഓപ്പൺ ചെയ്യൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "open_app", "slots": {"app": "സെറ്റിംഗ്സ്"}}], "joiners": ["പിന്നെ"]}
+{"text": "ee screen onnu vayikku da", "lang": "ml", "action": "read_screen", "slots": {}}
+{"text": "Thallumaala pattu kelkkanam", "lang": "ml", "action": "play_media", "slots": {"query": "Thallumaala"}}
+{"text": "harithakku msg ayakku njan ethiyittu pinne vilikkam enn", "lang": "ml", "action": "send_message", "slots": {"contact": "haritha", "text": "njan ethiyittu pinne vilikkam"}}
+{"text": "edge onnu open cheyyu ennitt quora website onnu thura", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "open_website", "slots": {"site": "quora"}}], "joiners": ["ennitt"]}
+{"text": "ente ration card status kerala search cheyyu ketto", "lang": "ml", "action": "web_search", "slots": {"query": "ration card status kerala"}}
+{"text": "പ്രീവിയസ് പാട്ട് വെക്കൂ ഇപ്പോൾ", "lang": "ml", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "sir i am unwell today ennu ezhuthi klik cheyyu buy now button", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "sir i am unwell today"}}, {"action": "click", "slots": {"target": "buy now"}}], "joiners": ["ezhuthi"]}
+{"text": "chrome thurannu aavesham ott release onnu nokkiye pinneed screenil enthokke und ennu para", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "aavesham ott release"}}, {"action": "read_screen", "slots": {}}], "joiners": ["thurannu", "pinneed"]}
+{"text": "apple music open cheythu aadujeevitham paattu idu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "apple music"}}, {"action": "play_media", "slots": {"query": "aadujeevitham"}}], "joiners": ["cheythu"]}
+{"text": "റാമും ശ്യാമും നാളെ വരും എന്ന് എഴുതൂ", "lang": "ml", "action": "type_text", "slots": {"text": "റാമും ശ്യാമും നാളെ വരും"}}
+{"text": "ഹലോ ടീം എന്ന് എഴുതൂ", "lang": "ml", "action": "type_text", "slots": {"text": "ഹലോ ടീം"}}
+{"text": "ആശയ്ക്ക് മെസ്സേജ് അയക്കൂ ഞാൻ വൈകും", "lang": "ml", "action": "send_message", "slots": {"contact": "ആശ", "text": "ഞാൻ വൈകും"}}
+{"text": "Sticky notes thurannu type cheyu kerala style fish curry", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Sticky notes"}}, {"action": "type_text", "slots": {"text": "kerala style fish curry"}}], "joiners": ["thurannu"]}
+{"text": "Save clik cheyyamo", "lang": "ml", "action": "click", "slots": {"target": "Save"}}
+{"text": "tom and jerry videos kelkkanam", "lang": "ml", "action": "play_media", "slots": {"query": "tom and jerry videos"}}
+{"text": "compose il onnu klik cheyy", "lang": "ml", "action": "click", "slots": {"target": "compose"}}
+{"text": "project deadline moved to Friday ennu type cheyyu", "lang": "ml", "action": "type_text", "slots": {"text": "project deadline moved to Friday"}}
+{"text": "Kuttanu oru message ayakku ippo busy aanu enn pinne lo-fi music idu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Kuttan", "text": "ippo busy aanu"}}, {"action": "play_media", "slots": {"query": "lo-fi music"}}], "joiners": ["pinne"]}
+{"text": "വാട്സ്ആപ്പ് ഓപ്പൺ ചെയ്ത് അഞ്ജുവിന് ഞാൻ നാല് മണിക്ക് എത്തും എന്ന് വാട്സ്ആപ്പ് ചെയ്യൂ പിന്നെ വാട്സ്ആപ്പ് ഓപ്പൺ ചെയ്യുക", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "വാട്സ്ആപ്പ്"}}, {"action": "send_message", "slots": {"contact": "അഞ്ജു", "text": "ഞാൻ നാല് മണിക്ക് എത്തും"}}, {"action": "open_app", "slots": {"app": "വാട്സ്ആപ്പ്"}}], "joiners": ["ചെയ്ത്", "പിന്നെ"]}
+{"text": "youtube open cheythu kazhinj m g sreekumar onnu play aakku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "m g sreekumar"}}], "joiners": ["kazhinj"]}
+{"text": "Login button onnu click cheyyu", "lang": "ml", "action": "click", "slots": {"target": "Login"}}
+{"text": "സേവ് ക്ലിക്ക് ചെയ്യൂ", "lang": "ml", "action": "click", "slots": {"target": "സേവ്"}}
+{"text": "Aa Whatsapp onnu opn aakkiye appo arunu oru massage ayakku running 10 minutes late ennu and skype onnu open aakkiye", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Whatsapp"}}, {"action": "send_message", "slots": {"contact": "arun", "text": "running 10 minutes late"}}, {"action": "open_app", "slots": {"app": "skype"}}], "joiners": ["appo", "and"]}
+{"text": "youtube musicil ustad hotel play cheyyu.", "lang": "ml", "action": "play_media", "slots": {"app": "youtube music", "query": "ustad hotel"}}
+{"text": "oru alarm vekku naale 6 manikku", "lang": "ml", "action": "unknown", "slots": {}}
+{"text": "gaanayil beauty and the beast songs veku", "lang": "ml", "action": "play_media", "slots": {"app": "gaana", "query": "beauty and the beast songs"}}
+{"text": "ammachikku oru message ayakkanam", "lang": "ml", "action": "send_message", "incomplete": true, "slots": {"contact": "ammachi"}}
+{"text": "kerala and tamil nadu border dispute search cheyyu", "lang": "ml", "action": "web_search", "slots": {"query": "kerala and tamil nadu border dispute"}}
+{"text": "Firefox open aakku athinu shesham Nivin Pauly latest film onnu search cheyyuka", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Firefox"}}, {"action": "web_search", "slots": {"query": "Nivin Pauly latest film"}}], "joiners": ["athinu shesham"]}
+{"text": "Microsoft edge opn cheyyamo ennitt myntra site open aakku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Microsoft edge"}}, {"action": "open_website", "slots": {"site": "myntra"}}], "joiners": ["ennitt"]}
+{"text": "Buy and pay ennathil click cheyyu", "lang": "ml", "action": "click", "slots": {"target": "Buy and pay"}}
+{"text": "YouTube il paattu play cheyyu", "lang": "ml", "action": "play_media", "slots": {"app": "YouTube"}}
+{"text": "home amartthu", "lang": "ml", "action": "click", "slots": {"target": "home"}}
+{"text": "chrome onnu open cheyyu appo facebook site onnu kaanikku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "facebook"}}], "joiners": ["appo"]}
+{"text": "youtube musicil a r rahman onnu vekkamo", "lang": "ml", "action": "play_media", "slots": {"app": "youtube music", "query": "a r rahman"}}
+{"text": "notepad start cheyyu athinu pinne type cheyyoo hello team", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "hello team"}}], "joiners": ["athinu pinne"]}
+{"text": "Aadujeevitham box office collection ariyanam", "lang": "ml", "action": "web_search", "slots": {"query": "Aadujeevitham box office collection"}}
+{"text": "Type cheyyu onam ashamsakal", "lang": "ml", "action": "type_text", "slots": {"text": "onam ashamsakal"}}
+{"text": "Vande Bharat Ernakulam Kasaragod timing onnu search cheyyuka", "lang": "ml", "action": "web_search", "slots": {"query": "Vande Bharat Ernakulam Kasaragod timing"}}
+{"text": "brightness kootu", "lang": "ml", "action": "unknown", "slots": {}}
+{"text": "Outlook app opn cheyyu ok", "lang": "ml", "action": "open_app", "slots": {"app": "Outlook"}}
+{"text": "സ്പോട്ടിഫൈ തുറക്കൂ അത് കഴിഞ്ഞ് മ്യൂസിക് പ്ലേ ചെയ്യൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "സ്പോട്ടിഫൈ"}}, {"action": "play_media", "slots": {}}], "joiners": ["അത് കഴിഞ്ഞ്"]}
+{"text": "open cheyyu whatsapp and sureshinu ente laptop repair aayi ennu massage ayakku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "suresh", "text": "ente laptop repair aayi"}}], "joiners": ["and"]}
+{"text": "ok ok mathrubhumi dot com site onnu kaanikku", "lang": "ml", "action": "open_website", "slots": {"site": "mathrubhumi dot com"}}
+{"text": "അയ്യപ്പനും കോശിയും സംവിധാനം ചെയ്തത് ആരാണ് ഒന്ന് നോക്കാമോ", "lang": "ml", "action": "web_search", "slots": {"query": "അയ്യപ്പനും കോശിയും സംവിധാനം ചെയ്തത് ആരാണ്"}}
+{"text": "onam ashamsakal ennu ezhuthu", "lang": "ml", "action": "type_text", "slots": {"text": "onam ashamsakal"}}
+{"text": "Vlc launch cheyyu.", "lang": "ml", "action": "open_app", "slots": {"app": "Vlc"}}
+{"text": "Pinneyum pattu kelkkanam", "lang": "ml", "action": "play_media", "slots": {"query": "Pinneyum"}}
+{"text": "Kerala Lottery open cheyyu", "lang": "ml", "action": "open_website", "slots": {"site": "Kerala Lottery"}}
+{"text": "Hotstar open cheyyu", "lang": "ml", "action": "open_website", "slots": {"site": "Hotstar"}}
+{"text": "whatsapp start cheyyu pinneed praveeninu oru message ayakku innu pani kooduthal aanu ennu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "praveen", "text": "innu pani kooduthal aanu"}}], "joiners": ["pinneed"]}
+{"text": "reddit site thurannitt like amarthu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "reddit"}}, {"action": "click", "slots": {"target": "like"}}], "joiners": ["thurannitt"]}
+{"text": "kochi and munnar trip pinne vagamon plan ariyanam", "lang": "ml", "action": "web_search", "slots": {"query": "kochi and munnar trip pinne vagamon plan"}}
+{"text": "pause", "lang": "none", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "ennal anandnu innu cinema pokam ennu message ayakk", "lang": "ml", "action": "send_message", "slots": {"contact": "anand", "text": "innu cinema pokam"}}
+{"text": "Dulquer Salmaan movies sarch cheythitt wikipedia dot org site onnu kaanikku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "Dulquer Salmaan movies"}}, {"action": "open_website", "slots": {"site": "wikipedia dot org"}}], "joiners": ["cheythitt"]}
+{"text": "next", "lang": "none", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "ടൈപ്പ് ചെയ്യൂ ചായയും കാപ്പിയും വേണം", "lang": "ml", "action": "type_text", "slots": {"text": "ചായയും കാപ്പിയും വേണം"}}
+{"text": "cancel aakku", "lang": "ml", "action": "cancel", "slots": {}}
+{"text": "gate il kaathu nilkkunnu ennu achanu whatsapp ayakku", "lang": "ml", "action": "send_message", "slots": {"text": "gate il kaathu nilkkunnu", "contact": "achan"}}
+{"text": "chrome open cheyy pinneed india yude prime minister aaranu ariyanam athinu pinne ee page vayichu para", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "india yude prime minister aaranu"}}, {"action": "read_screen", "slots": {}}], "joiners": ["pinneed", "athinu pinne"]}
+{"text": "YouTube opn cheyy", "lang": "ml", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "Chrome onnu open cheyyu athinu shesham o v vijayan patti para", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "web_search", "slots": {"query": "o v vijayan"}}], "joiners": ["athinu shesham"]}
+{"text": "പ്രീവിയസ് പാട്ട് വെക്കൂ", "lang": "ml", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "ഗൂഗിൾ വെബ്സൈറ്റ് ഓപ്പൺ ചെയ്തിട്ട് സ്ക്രീനിൽ എന്താണെന്ന് വായിച്ചു പറയൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "ഗൂഗിൾ"}}, {"action": "read_screen", "slots": {}}], "joiners": ["ചെയ്തിട്ട്"]}
+{"text": "Gaanayil Sithara Krishnakumar songs veku then resume", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"app": "Gaana", "query": "Sithara Krishnakumar"}}, {"action": "media_control", "slots": {}, "control": "resume"}], "joiners": ["then"]}
+{"text": "ക്രോം ആപ്പ് തുറക്കൂ എന്നിട്ട് മമ്മൂട്ടി നെ കുറിച്ച് നോക്കിയിട്ട് ഈ സ്ക്രീൻ ഒന്ന് വായിച്ചു തരൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ക്രോം"}}, {"action": "web_search", "slots": {"query": "മമ്മൂട്ടി"}}, {"action": "read_screen", "slots": {}}], "joiners": ["എന്നിട്ട്", "നോക്കിയിട്ട്"]}
+{"text": "hey calculator open cheyyuka", "lang": "ml", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "ഫേസ്ബുക്ക് സൈറ്റ് ഓപ്പൺ ചെയ്യൂ", "lang": "ml", "action": "open_website", "slots": {"site": "ഫേസ്ബുക്ക്"}}
+{"text": "ക്യാൻസൽ", "lang": "ml", "action": "cancel", "slots": {}}
+{"text": "LinkedIn open cheyyu ennittu ezhuthikko good morning everyone", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "LinkedIn"}}, {"action": "type_text", "slots": {"text": "good morning everyone"}}], "joiners": ["ennittu"]}
+{"text": "ennu ninte moideen box office collection noku", "lang": "ml", "action": "web_search", "slots": {"query": "ennu ninte moideen box office collection"}}
+{"text": "Google chrome open cheythu irctc website oppen cheyyu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Google chrome"}}, {"action": "open_website", "slots": {"site": "irctc"}}], "joiners": ["cheythu"]}
+{"text": "ticket book cheythu ennu Meerakku message ayakkoo", "lang": "ml", "action": "send_message", "slots": {"text": "ticket book cheythu", "contact": "Meera"}}
+{"text": "naale 9 manikku class ennu ezhuthu", "lang": "ml", "action": "type_text", "slots": {"text": "naale 9 manikku class"}}
+{"text": "please Malayalam ile first cinema ethaanu google cheyyu", "lang": "ml", "action": "web_search", "slots": {"query": "Malayalam ile first cinema ethaanu"}}
+{"text": "paattu nirthi vaykku", "lang": "ml", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "മുമ്പത്തെ പാട്ട്", "lang": "ml", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "home button amarthi screen explain cheyyu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "home"}}, {"action": "read_screen", "slots": {}}], "joiners": ["amarthi"]}
+{"text": "Wynkil music play cheyyu ketto", "lang": "ml", "action": "play_media", "slots": {"app": "Wynk"}}
+{"text": "amazon music thurannittu shabdham koottu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "amazon music"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["thurannittu"]}
+{"text": "മലയാളം സിനിമ പാട്ടുകൾ വെക്കൂ", "lang": "ml", "action": "play_media", "slots": {"query": "മലയാളം സിനിമ പാട്ടുകൾ"}}
+{"text": "wordpad oppen aakkitt type cheyyu meeting minutes", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "wordpad"}}, {"action": "type_text", "slots": {"text": "meeting minutes"}}], "joiners": ["aakkitt"]}
+{"text": "മാതൃഭൂമി സൈറ്റ് തുറക്കൂ", "lang": "ml", "action": "open_website", "slots": {"site": "മാതൃഭൂമി"}}
+{"text": "അനുവിനോട് ഫോട്ടോ അയച്ചിട്ടുണ്ട് എന്ന് പറഞ്ഞ് മെസ്സേജ് അയക്കൂ", "lang": "ml", "action": "send_message", "slots": {"contact": "അനു", "text": "ഫോട്ടോ അയച്ചിട്ടുണ്ട്"}}
+{"text": "achanu message ayakku", "lang": "ml", "action": "send_message", "incomplete": true, "slots": {"contact": "achan"}}
+{"text": "sabarimala virtual queue booking onnu sarch cheyyuka da.", "lang": "ml", "action": "web_search", "slots": {"query": "sabarimala virtual queue booking"}}
+{"text": "onenote opn cheythathinu shesham shopping list milk eggs rice ennu type cheyyu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "onenote"}}, {"action": "type_text", "slots": {"text": "shopping list milk eggs rice"}}], "joiners": ["shesham"]}
+{"text": "എക്സൽ തുറക്കൂ വേഗം", "lang": "ml", "action": "open_app", "slots": {"app": "എക്സൽ"}}
+{"text": "Instagram thurakkoo", "lang": "ml", "action": "open_app", "slots": {"app": "Instagram"}}
+{"text": "Command Prompt onnu thurakkamo athu kazhinj Menu button onnu click cheyy", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Command Prompt"}}, {"action": "click", "slots": {"target": "Menu"}}], "joiners": ["athu kazhinj"]}
+{"text": "hey previous", "lang": "ml", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "ഒന്ന് വാട്സ്ആപ്പ് തുറന്നിട്ട് അമ്മയ്ക്ക് മെസ്സേജ് അയക്കൂ ഞാൻ വീട്ടിൽ എത്തി", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "വാട്സ്ആപ്പ്"}}, {"action": "send_message", "slots": {"contact": "അമ്മ", "text": "ഞാൻ വീട്ടിൽ എത്തി"}}], "joiners": ["തുറന്നിട്ട്"]}
+{"text": "amazon il salt and pepper grinder nokk", "lang": "ml", "action": "web_search", "slots": {"site": "amazon", "query": "salt and pepper grinder"}}
+{"text": "JioSaavnil Jakes Bejoy onnu vekkamo", "lang": "ml", "action": "play_media", "slots": {"app": "JioSaavn", "query": "Jakes Bejoy"}}
+{"text": "Vishnuvinodu njan 10 minute il ethum ennu para whatsapp il.", "lang": "ml", "action": "send_message", "slots": {"contact": "Vishnu", "text": "njan 10 minute il ethum"}}
+{"text": "എഡ്ജ് ഓപ്പൺ ചെയ്യൂ ശേഷം ശബരിമല കുറിച്ച് അറിയണം", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "എഡ്ജ്"}}, {"action": "web_search", "slots": {"query": "ശബരിമല"}}], "joiners": ["ശേഷം"]}
+{"text": "PowerPoint open aakku ketto", "lang": "ml", "action": "open_app", "slots": {"app": "PowerPoint"}}
+{"text": "jiosaavn onnu thurann narendran songs vekku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "jiosaavn"}}, {"action": "play_media", "slots": {"query": "narendran"}}], "joiners": ["thurann"]}
+{"text": "chrome open cheyyamo ennittu thrissur pooram date ariyanam", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "thrissur pooram date"}}], "joiners": ["ennittu"]}
+{"text": "ക്രോം ഓപ്പൺ ചെയ്തിട്ട് തിരുവനന്തപുരത്തെ കാലാവസ്ഥ ഇന്ന് ഗൂഗിൾ ചെയ്യൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ക്രോം"}}, {"action": "web_search", "slots": {"query": "തിരുവനന്തപുരത്തെ കാലാവസ്ഥ ഇന്ന്"}}], "joiners": ["ചെയ്തിട്ട്"]}
+{"text": "jiosaavn open aakkitt jakes bejoy paattukal vekku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "jiosaavn"}}, {"action": "play_media", "slots": {"query": "jakes bejoy"}}], "joiners": ["aakkitt"]}
+{"text": "ടൈപ്പ് ചെയ്യൂ സുപ്രഭാതം", "lang": "ml", "action": "type_text", "slots": {"text": "സുപ്രഭാതം"}}
+{"text": "പാട്ട് വെച്ചിട്ട് ശബ്ദം കുറച്ചു കൂടി കൂട്ടൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["വെച്ചിട്ട്"]}
+{"text": "Whats App oppen cheythathinu shesham message ayaku Divyakku ninte photo nannayittund", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Whats App"}}, {"action": "send_message", "slots": {"contact": "Divya", "text": "ninte photo nannayittund"}}], "joiners": ["shesham"]}
+{"text": "വേഡ് തുറന്ന് എന്റെ പേര് അനിൽ കുമാർ എന്ന് ടൈപ്പ് ചെയ്തിട്ട് സേവ് ബട്ടൺ ക്ലിക്ക് ചെയ്യൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "വേഡ്"}}, {"action": "type_text", "slots": {"text": "എന്റെ പേര് അനിൽ കുമാർ"}}, {"action": "click", "slots": {"target": "സേവ്"}}], "joiners": ["തുറന്ന്", "ചെയ്തിട്ട്"]}
+{"text": "vishnuvinu njan vaikum ennu message ayakku", "lang": "ml", "action": "send_message", "slots": {"contact": "vishnu", "text": "njan vaikum"}}
+{"text": "ee box il first draft then final draft ennu ezhuthu", "lang": "ml", "action": "type_text", "slots": {"text": "first draft then final draft"}}
+{"text": "ente charger edukkamo ennu chettanu whatsapp ayakku", "lang": "ml", "action": "send_message", "slots": {"text": "ente charger edukkamo", "contact": "chettan"}}
+{"text": "Ayyappanum Koshiyum Gaana il play cheyyu", "lang": "ml", "action": "play_media", "slots": {"query": "Ayyappanum Koshiyum", "app": "Gaana"}}
+{"text": "ok ok edge open cheythu petrol price kerala nokku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "petrol price kerala"}}], "joiners": ["cheythu"]}
+{"text": "Remyaykku mazha kaaranam varan pattilla enn message ayakku", "lang": "ml", "action": "send_message", "slots": {"contact": "Remya", "text": "mazha kaaranam varan pattilla"}}
+{"text": "search cheyyu sslc result 2026", "lang": "ml", "action": "web_search", "slots": {"query": "sslc result 2026"}}
+{"text": "type cheyyu hello team", "lang": "ml", "action": "type_text", "slots": {"text": "hello team"}}
+{"text": "mute aakkitt chrome opn aakkitt keralapsc dot gov dot in site onnu kaanikku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "keralapsc dot gov dot in"}}], "joiners": ["aakkitt", "aakkitt"]}
+{"text": "സേവ് ആൻഡ് ക്ലോസ് ബട്ടൺ അമർത്തൂ", "lang": "ml", "action": "click", "slots": {"target": "സേവ് ആൻഡ് ക്ലോസ്"}}
+{"text": "never mind", "lang": "ml", "action": "cancel", "slots": {}}
+{"text": "ivide ezhuthu pani theernnitt ennitt report ayakkam", "lang": "ml", "action": "type_text", "slots": {"text": "pani theernnitt ennitt report ayakkam"}}
+{"text": "Task Manager onnu thurakkamo", "lang": "ml", "action": "open_app", "slots": {"app": "Task Manager"}}
+{"text": "Pause pinneed brave thurannu kochi metro timing onnu search cheyyamo", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "brave"}}, {"action": "web_search", "slots": {"query": "kochi metro timing"}}], "joiners": ["pinneed", "thurannu"]}
+{"text": "dear sir and madam ennu ezhuthamo", "lang": "ml", "action": "type_text", "slots": {"text": "dear sir and madam"}}
+{"text": "YouTube il onam songs play cheyyu", "lang": "ml", "action": "play_media", "slots": {"app": "YouTube", "query": "onam songs"}}
+{"text": "Spotify", "lang": "none", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "എഡ്ജ് തുറക്കാമോ അതിനു ശേഷം സെർച്ച് ചെയ്യൂ ഓണം തീയതി", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "എഡ്ജ്"}}, {"action": "web_search", "slots": {"query": "ഓണം തീയതി"}}], "joiners": ["അതിനു ശേഷം"]}
+{"text": "Word open cheyy", "lang": "ml", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "ration card status Kerala nokku", "lang": "ml", "action": "web_search", "slots": {"query": "ration card status Kerala"}}
+{"text": "മലയാളം മെലഡി പാട്ടുകൾ പ്ലേ ചെയ്യൂ പിന്നെ ഗൂഗിൾ ക്രോം തുറക്കൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "മലയാളം മെലഡി പാട്ടുകൾ"}}, {"action": "open_app", "slots": {"app": "ഗൂഗിൾ ക്രോം"}}], "joiners": ["പിന്നെ"]}
+{"text": "Mammootty ude puthiya cinema ethaanu nokku appo screen onnu vaayichu tharamo", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "Mammootty ude puthiya cinema ethaanu"}}, {"action": "read_screen", "slots": {}}], "joiners": ["appo"]}
+{"text": "നോട്ട്പാഡ് തുറക്കൂ ശേഷം ഇവിടെ സുപ്രഭാതം എന്ന് എഴുതൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "നോട്ട്പാഡ്"}}, {"action": "type_text", "slots": {"text": "സുപ്രഭാതം"}}], "joiners": ["ശേഷം"]}
+{"text": "Calicut weather search cheyyu", "lang": "ml", "action": "web_search", "slots": {"query": "Calicut weather"}}
+{"text": "Ayyo ente ammo", "lang": "ml", "action": "unknown", "slots": {}}
+{"text": "Sir I am unwell today ennu ezhuthi Add to cart il onnu clik cheyy", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "Sir I am unwell today"}}, {"action": "click", "slots": {"target": "Add to cart"}}], "joiners": ["ezhuthi"]}
+{"text": "ration card status kerala noku", "lang": "ml", "action": "web_search", "slots": {"query": "ration card status kerala"}}
+{"text": "mathrubhumi dot com website opn cheythitt screenil enthokke und ennu para", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "mathrubhumi dot com"}}, {"action": "read_screen", "slots": {}}], "joiners": ["cheythitt"]}
+{"text": "ശബ്ദം കുറച്ചു കൂടി കൂട്ടൂ ശേഷം വിക്കിപീഡിയ സൈറ്റ് ഓപ്പൺ ചെയ്യൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_up"}, {"action": "open_website", "slots": {"site": "വിക്കിപീഡിയ"}}], "joiners": ["ശേഷം"]}
+{"text": "RedBus website onnu thura", "lang": "ml", "action": "open_website", "slots": {"site": "RedBus"}}
+{"text": "ഈ സ്ക്രീൻ ഒന്ന് വായിച്ചു തരൂ", "lang": "ml", "action": "read_screen", "slots": {}}
+{"text": "please volume up cheyyu", "lang": "ml", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Sticky notes oppen cheyyamo pinne ezhuthikko thank you for your quick reply", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Sticky notes"}}, {"action": "type_text", "slots": {"text": "thank you for your quick reply"}}], "joiners": ["pinne"]}
+{"text": "lakshmi chechikku whatsapp cheyyu bus miss aayi ennu", "lang": "ml", "action": "send_message", "slots": {"contact": "lakshmi chechi", "text": "bus miss aayi"}}
+{"text": "Ninakku sukhamano", "lang": "ml", "action": "unknown", "slots": {}}
+{"text": "Amazon Music thurakkoo appo Jimikki Kammal songs play cheyy", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Amazon Music"}}, {"action": "play_media", "slots": {"query": "Jimikki Kammal"}}], "joiners": ["appo"]}
+{"text": "hey manunu oru message ayakku running 10 minutes late ennu koode next cheyyu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "manu", "text": "running 10 minutes late"}}, {"action": "media_control", "slots": {}, "control": "next"}], "joiners": ["koode"]}
+{"text": "ഗൂഗിൾ ക്രോം തുറന്ന് കൊച്ചിയിലെ കാലാവസ്ഥ തിരയൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ഗൂഗിൾ ക്രോം"}}, {"action": "web_search", "slots": {"query": "കൊച്ചിയിലെ കാലാവസ്ഥ"}}], "joiners": ["തുറന്ന്"]}
+{"text": "സ്ക്രീനിൽ എന്തൊക്കെയുണ്ട് എന്ന് പറയൂ", "lang": "ml", "action": "read_screen", "slots": {}}
+{"text": "ദയവായി ഗൂഗിൾ ക്രോം ഒന്ന് തുറക്കൂ", "lang": "ml", "action": "open_app", "slots": {"app": "ഗൂഗിൾ ക്രോം"}}
+{"text": "മഞ്ഞുമ്മൽ ബോയ്സ് പാട്ട് യൂട്യൂബ് മ്യൂസിക് ആപ്പിൽ ഇടൂ", "lang": "ml", "action": "play_media", "slots": {"query": "മഞ്ഞുമ്മൽ ബോയ്സ്", "app": "യൂട്യൂബ് മ്യൂസിക്"}}
+{"text": "ennal shreya ghoshal songs play cheyyu", "lang": "ml", "action": "play_media", "slots": {"query": "shreya ghoshal"}}
+{"text": "YouTube", "lang": "none", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "രമ്യയോട് അരിയും പയറും വാങ്ങണം എന്ന് പറഞ്ഞ് മെസ്സേജ് അയക്കൂ", "lang": "ml", "action": "send_message", "slots": {"contact": "രമ്യ", "text": "അരിയും പയറും വാങ്ങണം"}}
+{"text": "paattu veendum pley cheyy", "lang": "ml", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "കൈരളി സൈറ്റ് തുറന്നിട്ട് നന്ദി എന്ന് ടൈപ്പ് ചെയ്യൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "കൈരളി"}}, {"action": "type_text", "slots": {"text": "നന്ദി"}}], "joiners": ["തുറന്നിട്ട്"]}
+{"text": "tom and jerry cartoon amazon musicil ple cheyyu", "lang": "ml", "action": "play_media", "slots": {"query": "tom and jerry cartoon", "app": "amazon music"}}
+{"text": "youtube open cheythitt paattu kelkkanam", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {}}], "joiners": ["cheythitt"]}
+{"text": "Chrome launch cheyyu pinneed KSEB site onnu kaanikku koode Download button click cheyyu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "open_website", "slots": {"site": "KSEB"}}, {"action": "click", "slots": {"target": "Download"}}], "joiners": ["pinneed", "koode"]}
+{"text": "youtube music open aakki hesham abdul wahab play cheythitt volume koottu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube music"}}, {"action": "play_media", "slots": {"query": "hesham abdul wahab"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["aakki", "cheythitt"]}
+{"text": "Notepad", "lang": "none", "action": "open_app", "slots": {"app": "Notepad"}}
+{"text": "yesudas paattukal onnu idamo", "lang": "ml", "action": "play_media", "slots": {"query": "yesudas"}}
+{"text": "ടോം ആൻഡ് ജെറി പ്ലേ ചെയ്യൂ", "lang": "ml", "action": "play_media", "slots": {"query": "ടോം ആൻഡ് ജെറി"}}
+{"text": "vineeth sreenivasan pattu kelkkanam.", "lang": "ml", "action": "play_media", "slots": {"query": "vineeth sreenivasan"}}
+{"text": "salt and pepper ennu ezhuthu", "lang": "ml", "action": "type_text", "slots": {"text": "salt and pepper"}}
+{"text": "വേഡ് തുറന്നിട്ട് എഴുതൂ ഓണാശംസകൾ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "വേഡ്"}}, {"action": "type_text", "slots": {"text": "ഓണാശംസകൾ"}}], "joiners": ["തുറന്നിട്ട്"]}
+{"text": "Ennalum Ente Aliyaa songs onnu pley aakku", "lang": "ml", "action": "play_media", "slots": {"query": "Ennalum Ente Aliyaa songs"}}
+{"text": "wifi off aakku", "lang": "ml", "action": "unknown", "slots": {}}
+{"text": "ee screen onnu vayikku", "lang": "ml", "action": "read_screen", "slots": {}}
+{"text": "firefox thurannu vagamon trip plan paranju tharu and screen il enthaanu ennu vayichu para", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "web_search", "slots": {"query": "vagamon trip plan"}}, {"action": "read_screen", "slots": {}}], "joiners": ["thurannu", "and"]}
+{"text": "Brave thurakkoo", "lang": "ml", "action": "open_app", "slots": {"app": "Brave"}}
+{"text": "salt and pepper chicken recipe nokku", "lang": "ml", "action": "web_search", "slots": {"query": "salt and pepper chicken recipe"}}
+{"text": "വോളിയം അപ്പ് ചെയ്യൂ", "lang": "ml", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "amazonil headphones search cheyyu", "lang": "ml", "action": "web_search", "slots": {"site": "amazon", "query": "headphones"}}
+{"text": "photoshop onnu thurakkamo", "lang": "ml", "action": "open_app", "slots": {"app": "photoshop"}}
+{"text": "paatt nirthittu Word open cheythu kazhinj innu rathri 8 manikku call ennu type cheyyu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "Word"}}, {"action": "type_text", "slots": {"text": "innu rathri 8 manikku call"}}], "joiners": ["nirthittu", "kazhinj"]}
+{"text": "എഴുതൂ എന്റെ പേര് അനിൽ കുമാർ", "lang": "ml", "action": "type_text", "slots": {"text": "എന്റെ പേര് അനിൽ കുമാർ"}}
+{"text": "achanodu photos drive il ittittund ennu para whatsapp il athu kazhinj brave thurakku athu kazhinj kumbalangi nights songs lyrics onnu search cheyyamo", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "achan", "text": "photos drive il ittittund"}}, {"action": "open_app", "slots": {"app": "brave"}}, {"action": "web_search", "slots": {"query": "kumbalangi nights songs lyrics"}}], "joiners": ["athu kazhinj", "athu kazhinj"]}
+{"text": "paattu nirthu", "lang": "ml", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "terms and conditions il click cheyyu", "lang": "ml", "action": "click", "slots": {"target": "terms and conditions"}}
+{"text": "Chrome thurannittu bookmyshow website onnu thura", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "open_website", "slots": {"site": "bookmyshow"}}], "joiners": ["thurannittu"]}
+{"text": "spotifyil malayalam mappila paattukal ple cheyyu vegam", "lang": "ml", "action": "play_media", "slots": {"app": "spotify", "query": "malayalam mappila paattukal"}}
+{"text": "ക്രോം ഒന്ന് തുറക്കൂ അത് കഴിഞ്ഞ് ഏഷ്യാനെറ്റ് ന്യൂസ് സൈറ്റ് ഓപ്പൺ ചെയ്യൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ക്രോം"}}, {"action": "open_website", "slots": {"site": "ഏഷ്യാനെറ്റ് ന്യൂസ്"}}], "joiners": ["അത് കഴിഞ്ഞ്"]}
+{"text": "microsoft edge thurakkoo and kerala budget highlights serch cheythu irctc dot co dot in site onnu kaanikku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "microsoft edge"}}, {"action": "web_search", "slots": {"query": "kerala budget highlights"}}, {"action": "open_website", "slots": {"site": "irctc dot co dot in"}}], "joiners": ["and", "cheythu"]}
+{"text": "irctc dot co dot in website open cheyyu", "lang": "ml", "action": "open_website", "slots": {"site": "irctc dot co dot in"}}
+{"text": "India yude prime minister aaranu onnu search cheyyamo", "lang": "ml", "action": "web_search", "slots": {"query": "India yude prime minister aaranu"}}
+{"text": "ശബ്ദം കുറയ്ക്കൂ", "lang": "ml", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "chrome onnu oppen aakkiye and ksrtc kochi munnar bus timing ennu google cheyyu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "ksrtc kochi munnar bus timing"}}], "joiners": ["and"]}
+{"text": "യേശുദാസ് പാട്ട് യൂട്യൂബ് ആപ്പിൽ ഇടൂ", "lang": "ml", "action": "play_media", "slots": {"query": "യേശുദാസ്", "app": "യൂട്യൂബ്"}}
+{"text": "upload il click cheyy", "lang": "ml", "action": "click", "slots": {"target": "upload"}}
+{"text": "settings open cheyyuka", "lang": "ml", "action": "open_app", "slots": {"app": "settings"}}
+{"text": "ക്രോം ഓപ്പൺ ചെയ്ത് ആമസോൺ വെബ്സൈറ്റ് തുറക്കൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ക്രോം"}}, {"action": "open_website", "slots": {"site": "ആമസോൺ"}}], "joiners": ["ചെയ്ത്"]}
+{"text": "Tom and Jerry cast search aakku", "lang": "ml", "action": "web_search", "slots": {"query": "Tom and Jerry cast"}}
+{"text": "chechiyodu lunch kazhicho ennu paranju message ayakkuka after that romantic malayalam songs kelkkanam", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "chechi", "text": "lunch kazhicho"}}, {"action": "play_media", "slots": {"query": "romantic malayalam songs"}}], "joiners": ["after that"]}
+{"text": "vishnunu rahul and anu naale varum ennu ezhuthi ayakku", "lang": "ml", "action": "send_message", "slots": {"contact": "vishnu", "text": "rahul and anu naale varum"}}
+{"text": "Ente Amazon music open cheyy pinneed manjummel boys paattukal onnu idamo", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Amazon music"}}, {"action": "play_media", "slots": {"query": "manjummel boys"}}], "joiners": ["pinneed"]}
+{"text": "sound kootiyaal kollam", "lang": "ml", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "github dot com site open aakku", "lang": "ml", "action": "open_website", "slots": {"site": "github dot com"}}
+{"text": "വിദ്യാസാഗർ പാട്ട് യൂട്യൂബ് മ്യൂസിക് ആപ്പിൽ ഇടൂ", "lang": "ml", "action": "play_media", "slots": {"query": "വിദ്യാസാഗർ", "app": "യൂട്യൂബ് മ്യൂസിക്"}}
+{"text": "Chrome app oppen cheyyu ennit reddit website thurakkamo", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "open_website", "slots": {"site": "reddit"}}], "joiners": ["ennit"]}
+{"text": "ennal New meeting amartthu", "lang": "ml", "action": "click", "slots": {"target": "New meeting"}}
+{"text": "volume up", "lang": "none", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "firefox open cheythitt manoramaonline dot com website onnu thura koode save button amarthu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "open_website", "slots": {"site": "manoramaonline dot com"}}, {"action": "click", "slots": {"target": "save"}}], "joiners": ["cheythitt", "koode"]}
+{"text": "യൂട്യൂബ് തുറന്ന് സിദ് ശ്രീറാം പാട്ട് കേൾക്കണം", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "യൂട്യൂബ്"}}, {"action": "play_media", "slots": {"query": "സിദ് ശ്രീറാം"}}], "joiners": ["തുറന്ന്"]}
+{"text": "nair sirinu call me when free ennu whatsap ayachitt firefox open cheythathinu shesham drishyam cinema aaru direct cheythu nokku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "nair sir", "text": "call me when free"}}, {"action": "open_app", "slots": {"app": "firefox"}}, {"action": "web_search", "slots": {"query": "drishyam cinema aaru direct cheythu"}}], "joiners": ["ayachitt", "shesham"]}
+{"text": "apple music thurannittu bijibal onnu play aakku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "apple music"}}, {"action": "play_media", "slots": {"query": "bijibal"}}], "joiners": ["thurannittu"]}
+{"text": "ആമസോൺ സൈറ്റിൽ ഓണസദ്യ റെസിപ്പി സെർച്ച് ചെയ്യൂ", "lang": "ml", "action": "web_search", "slots": {"site": "ആമസോൺ", "query": "ഓണസദ്യ റെസിപ്പി"}}
+{"text": "umm arunu happy birthday chetta ennu paranju message ayakkamo.", "lang": "ml", "action": "send_message", "slots": {"contact": "arun", "text": "happy birthday chetta"}}
+{"text": "vs code onnu thurann meeting minutes ennu type cheyyu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "vs code"}}, {"action": "type_text", "slots": {"text": "meeting minutes"}}], "joiners": ["thurann"]}
+{"text": "മനോരമ സൈറ്റ് ഓപ്പൺ ചെയ്യൂ", "lang": "ml", "action": "open_website", "slots": {"site": "മനോരമ"}}
+{"text": "adutha paattilekku maaru", "lang": "ml", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "chechikku oru message ayakku kadayil poyi pachakkari vangi ennitt varam ennu", "lang": "ml", "action": "send_message", "slots": {"contact": "chechi", "text": "kadayil poyi pachakkari vangi ennitt varam"}}
+{"text": "ടോം ആൻഡ് ജെറി കാസ്റ്റ് നോക്കൂ", "lang": "ml", "action": "web_search", "slots": {"query": "ടോം ആൻഡ് ജെറി കാസ്റ്റ്"}}
+{"text": "screenil enthokke und ennu para", "lang": "ml", "action": "read_screen", "slots": {}}
+{"text": "ivide please find the attachment ennu ezhuthikko ennittu terminal open cheyyuka", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "please find the attachment"}}, {"action": "open_app", "slots": {"app": "terminal"}}], "joiners": ["ennittu"]}
+{"text": "സ്പോട്ടിഫൈ തുറക്കാമോ പിന്നീട് നാടൻ പാട്ടുകൾ പ്ലേ ചെയ്യൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "സ്പോട്ടിഫൈ"}}, {"action": "play_media", "slots": {"query": "നാടൻ പാട്ടുകൾ"}}], "joiners": ["പിന്നീട്"]}
+{"text": "ivide kind regards enn ezhuthikko", "lang": "ml", "action": "type_text", "slots": {"text": "kind regards"}}
+{"text": "YouTube open cheythu kazhinj onnu music vekku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "YouTube"}}, {"action": "play_media", "slots": {}}], "joiners": ["kazhinj"]}
+{"text": "sound off aakkitt Gmail app open cheyyu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "open_app", "slots": {"app": "Gmail"}}], "joiners": ["aakkitt"]}
+{"text": "Sticky notes open cheythitt kerala style fish curry ennu ezhuthu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Sticky notes"}}, {"action": "type_text", "slots": {"text": "kerala style fish curry"}}], "joiners": ["cheythitt"]}
+{"text": "mute", "lang": "ml", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "good morning everyone ennu ezhuthitt save button onnu click cheyyu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "good morning everyone"}}, {"action": "click", "slots": {"target": "save"}}], "joiners": ["ezhuthitt"]}
+{"text": "sabarimala virtual queue booking search cheythitt screen onnu vaayichu tharamo", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "sabarimala virtual queue booking"}}, {"action": "read_screen", "slots": {}}], "joiners": ["cheythitt"]}
+{"text": "command prompt launch cheyyoo athu kazhinj login button onnu clik cheyyu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "command prompt"}}, {"action": "click", "slots": {"target": "login"}}], "joiners": ["athu kazhinj"]}
+{"text": "pause cheythitt chrome thurannu bangalore days il aaranu nayakan onnu nokkiye", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "bangalore days il aaranu nayakan"}}], "joiners": ["cheythitt", "thurannu"]}
+{"text": "resume cheythitt Sabarimala virtual queue booking onnu search cheyyuka", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "resume"}, {"action": "web_search", "slots": {"query": "Sabarimala virtual queue booking"}}], "joiners": ["cheythitt"]}
+{"text": "resume cheyyu", "lang": "ml", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "youtubeil yesudas songs vekku onnu", "lang": "ml", "action": "play_media", "slots": {"app": "youtube", "query": "yesudas"}}
+{"text": "Join il click cheythitt skreen il ullath onnu vayikku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "Join"}}, {"action": "read_screen", "slots": {}}], "joiners": ["cheythitt"]}
+{"text": "Kumbalangi Nights aaru direct cheythu ennu google cheyyu", "lang": "ml", "action": "web_search", "slots": {"query": "Kumbalangi Nights aaru direct cheythu"}}
+{"text": "ezhuthikko Sir I am unwell today", "lang": "ml", "action": "type_text", "slots": {"text": "Sir I am unwell today"}}
+{"text": "sound koodi vekku", "lang": "ml", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "slack open aakku", "lang": "ml", "action": "open_app", "slots": {"app": "slack"}}
+{"text": "notepad thurannitt dear sir ennu type cheyyuu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "dear sir"}}], "joiners": ["thurannitt"]}
+{"text": "Tea and coffee maker flipkartil search cheyyu", "lang": "ml", "action": "web_search", "slots": {"query": "Tea and coffee maker", "site": "flipkart"}}
+{"text": "pinneyum cinema review ariyanam", "lang": "ml", "action": "web_search", "slots": {"query": "pinneyum cinema review"}}
+{"text": "chrome app open cheyyu athinu pinne naukri website onnu thura", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "naukri"}}], "joiners": ["athinu pinne"]}
+{"text": "shabdham kuraykku", "lang": "ml", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "ayyappanum koshiyum aaru direct cheythu ennu google cheyyu", "lang": "ml", "action": "web_search", "slots": {"query": "ayyappanum koshiyum aaru direct cheythu"}}
+{"text": "hey message ayakku ammachikku ippo busy aanu", "lang": "ml", "action": "send_message", "slots": {"contact": "ammachi", "text": "ippo busy aanu"}}
+{"text": "abdul ikkayodu njan veettil ethi ennu paranju message ayakkuka", "lang": "ml", "action": "send_message", "slots": {"contact": "abdul ikka", "text": "njan veettil ethi"}}
+{"text": "ഔട്ട്ലുക്ക് ഓപ്പൺ ചെയ്യൂ", "lang": "ml", "action": "open_app", "slots": {"app": "ഔട്ട്ലുക്ക്"}}
+{"text": "chrome start cheythitt bijibalne patti onnu paranju tharu", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "bijibal"}}], "joiners": ["cheythitt"]}
+{"text": "kerala and tamil mix songs ple cheyyu", "lang": "ml", "action": "play_media", "slots": {"query": "kerala and tamil mix songs"}}
+{"text": "shibunu oru message ayakku athu kazhinj then njan varam ennu", "lang": "ml", "action": "send_message", "slots": {"contact": "shibu", "text": "athu kazhinj then njan varam"}}
+{"text": "microsoft edge open cheyyuka pinneed lulu mall timing nokku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "microsoft edge"}}, {"action": "web_search", "slots": {"query": "lulu mall timing"}}], "joiners": ["pinneed"]}
+{"text": "join il click cheyyu and screenil enthokke und enn para", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "join"}}, {"action": "read_screen", "slots": {}}], "joiners": ["and"]}
+{"text": "Harithayodu meeting kazhinj ethiyittu appo vilikkam ennu paranju message ayakkuka", "lang": "ml", "action": "send_message", "slots": {"contact": "Haritha", "text": "meeting kazhinj ethiyittu appo vilikkam"}}
+{"text": "Brave open cheyth Fahadh Faasil movies list onnu nokkiye", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Brave"}}, {"action": "web_search", "slots": {"query": "Fahadh Faasil movies list"}}], "joiners": ["cheyth"]}
+{"text": "അക്സപ്റ്റ് ബട്ടൺ ക്ലിക്ക് ചെയ്തിട്ട് ഈ സ്ക്രീൻ ഒന്ന് വായിച്ചു തരൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "അക്സപ്റ്റ്"}}, {"action": "read_screen", "slots": {}}], "joiners": ["ചെയ്തിട്ട്"]}
+{"text": "Gaanayil Sujatha paattu vekku", "lang": "ml", "action": "play_media", "slots": {"app": "Gaana", "query": "Sujatha"}}
+{"text": "Snipping Tool onnu open cheyyu", "lang": "ml", "action": "open_app", "slots": {"app": "Snipping Tool"}}
+{"text": "Ee box il kerala style fish curry ennu ezhuthu athinu shesham download ennathil klik cheyy", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "kerala style fish curry"}}, {"action": "click", "slots": {"target": "download"}}], "joiners": ["athinu shesham"]}
+{"text": "ആടുജീവിതം നെ പറ്റി പറയൂ", "lang": "ml", "action": "web_search", "slots": {"query": "ആടുജീവിതം"}}
+{"text": "യൂട്യൂബ് മ്യൂസിക് തുറക്കാമോ ശേഷം ശ്രേയ ഘോഷാൽ ഇടൂ", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "യൂട്യൂബ് മ്യൂസിക്"}}, {"action": "play_media", "slots": {"query": "ശ്രേയ ഘോഷാൽ"}}], "joiners": ["ശേഷം"]}
+{"text": "Sinikku puttum kadalayum undakki ennu ezhuthi ayakku", "lang": "ml", "action": "send_message", "slots": {"contact": "Sini", "text": "puttum kadalayum undakki"}}
+{"text": "lakshmi chechiyodu amma and achan naale ethum ennu paranju message ayakkuka", "lang": "ml", "action": "send_message", "slots": {"contact": "lakshmi chechi", "text": "amma and achan naale ethum"}}
+{"text": "സാൾട്ട് ആൻഡ് പെപ്പർ ചിക്കൻ റെസിപ്പി പറഞ്ഞു തരൂ", "lang": "ml", "action": "web_search", "slots": {"query": "സാൾട്ട് ആൻഡ് പെപ്പർ ചിക്കൻ റെസിപ്പി"}}
+{"text": "edge open cheyy pinneed fahadh faasil movies list kaanikku", "lang": "ml", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "fahadh faasil movies list"}}], "joiners": ["pinneed"]}
+{"text": "ivide ezhuthu onam ashamsakal", "lang": "ml", "action": "type_text", "slots": {"text": "onam ashamsakal"}}
+{"text": "Thomasnu oru massage ayakku ticket book cheythitt athinu shesham kaanam ennu", "lang": "ml", "action": "send_message", "slots": {"contact": "Thomas", "text": "ticket book cheythitt athinu shesham kaanam"}}
+{"text": "Romeo and Juliet movie play cheyyu", "lang": "ml", "action": "play_media", "slots": {"query": "Romeo and Juliet movie"}}
+{"text": "Pather Panchali and Apur Sansar review nokku", "lang": "ml", "action": "web_search", "slots": {"query": "Pather Panchali and Apur Sansar review"}}
+{"text": "ammaykku oru message ayakku chaayayum pazhampori yum undakki ennitt varam ennu", "lang": "ml", "action": "send_message", "slots": {"contact": "ammaykku", "text": "chaayayum pazhampori yum undakki ennitt varam"}}
+{"text": "ivide ezhuthu rice and curry then payasam", "lang": "ml", "action": "type_text", "slots": {"text": "rice and curry then payasam"}}
+{"text": "Johnson and Johnson share price nokkiye", "lang": "ml", "action": "web_search", "slots": {"query": "Johnson and Johnson share price"}}
+{"text": "pen and paper ennathil click cheyyu", "lang": "ml", "action": "click", "slots": {"target": "pen and paper"}}
+{"text": "ഇവിടെ എഴുതൂ ചായയും ബിസ്കറ്റും കഴിഞ്ഞ് പിന്നെ പോകാം", "lang": "ml", "action": "type_text", "slots": {"text": "ചായയും ബിസ്കറ്റും കഴിഞ്ഞ് പിന്നെ പോകാം"}}
+{"text": "Mohanlal and Mammootty songs ple cheyyu", "lang": "ml", "action": "play_media", "slots": {"query": "Mohanlal and Mammootty songs"}}
+{"text": "Ravikku msg ayakku bus kittiyittu pinne vilikkam enn", "lang": "ml", "action": "send_message", "slots": {"contact": "Ravi", "text": "bus kittiyittu pinne vilikkam"}}
+{"text": "Black and White movie list google cheyyu", "lang": "ml", "action": "web_search", "slots": {"query": "Black and White movie list"}}
+{"text": "Ram and Shyam ennu ezhuthamo", "lang": "ml", "action": "type_text", "slots": {"text": "Ram and Shyam"}}
+{"text": "ടീയും കോഫിയും ഇഷ്ടമാണ് എന്ന് ശ്യാമിന് മെസ്സേജ് അയക്കൂ", "lang": "ml", "action": "send_message", "slots": {"contact": "ശ്യാമിന്", "text": "ടീയും കോഫിയും ഇഷ്ടമാണ്"}}

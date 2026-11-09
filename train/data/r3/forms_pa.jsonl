@@ -1,0 +1,120 @@
+{"text": "is form ch ki bharna hai", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "ae form kis cheez da hai samjhao", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "is KYC form ch ki ki chahida hai", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "ae form ki ki puchda hai dasso", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "is form baare thoda dasso", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "ae application form ki hai dasso ji", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "bank KYC form ch ki likhna hai", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "Aadhaar update form ch ki ki chahida", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "PAN form ch ki puchhia ja reha hai", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "ration card da form kis lyi hai samjhao", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "scholarship form ch ki ki dena paina hai", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "pension form ch ki bharna hai", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "PM Kisan form ki hai samjha do", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "gas connection form ch ki ki chahida hai", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "voter ID form kis lyi hai", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "job application form ch ki ki puchhia hai", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "school admission form ch ki likhna hai", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "hospital registration form ch ki ki chahida", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "insurance claim form ch ki karna hai", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "what does this form need", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "tell me what this form is for", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "mainu ae form samajh nahi aunda zara samjhao", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "is form layi kehde kagaz chahide ne", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "is form ch kinne sawal ne", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "ae form saukhe tareeke naal dasso", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "explain this form please", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "ae form explain karo", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "ਇਸ ਫਾਰਮ ਵਿੱਚ ਕੀ ਭਰਨਾ ਹੈ", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "ਇਹ ਫਾਰਮ ਕਿਸ ਚੀਜ਼ ਦਾ ਹੈ ਸਮਝਾਓ", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "ਇਸ ਕੇਵਾਈਸੀ ਫਾਰਮ ਵਿੱਚ ਕੀ ਕੀ ਚਾਹੀਦਾ ਹੈ", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "ਇਸ ਫਾਰਮ ਬਾਰੇ ਦੱਸੋ", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "ਇਹ ਅਰਜ਼ੀ ਫਾਰਮ ਕੀ ਹੈ ਦੱਸੋ", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "ਬੈਂਕ ਦੇ ਫਾਰਮ ਵਿੱਚ ਕੀ ਪੁੱਛ ਰਹੇ ਹਨ", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "ਆਧਾਰ ਅਪਡੇਟ ਫਾਰਮ ਵਿੱਚ ਕੀ ਕੀ ਚਾਹੀਦਾ ਹੈ", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "ਇਸ ਫਾਰਮ ਲਈ ਕਿਹੜੇ ਕਾਗਜ਼ ਚਾਹੀਦੇ ਹਨ", "lang": "pa", "action": "explain_form", "slots": {}}
+{"text": "form bharan ch meri madad karo", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "ae KYC form bhar do", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "mera form bhar do", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "ae form mere details naal bhar do", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "form fill kar do", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "form bharan ch help karo", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "ae form zara bhar do ji", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "Aadhaar update form bharan ch madad karo", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "PAN da form fill kar do", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "ration card da form bharan ch help karo", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "scholarship form bhar do", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "pension form bharan ch madad karo", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "PM Kisan form fill kar do", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "gas connection da form bhar do", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "voter ID form bhar do", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "job application form fill karan ch help karo", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "school admission form bharan ch madad karo", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "hospital registration form bhar do", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "insurance claim form bhar do ji", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "help me fill this form", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "fill this form for me", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "please fill my KYC form", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "mainu form bharna hai madad karo", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "bank KYC form mere naal beh ke bhar do", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "form bharde time meri madad karo", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "main jo dassanga uh likh ke form bhar do", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "form nu zara fill kar do", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "ਫਾਰਮ ਭਰਨ ਵਿੱਚ ਮਦਦ ਕਰੋ", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "ਇਹ ਕੇਵਾਈਸੀ ਫਾਰਮ ਭਰ ਦਿਓ", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "ਮੇਰਾ ਫਾਰਮ ਭਰ ਦਿਓ", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "ਇਹ ਫਾਰਮ ਭਰਨ ਵਿੱਚ ਮਦਦ ਕਰੋ", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "ਬੈਂਕ ਦਾ ਫਾਰਮ ਭਰ ਦਿਓ ਜੀ", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "ਆਧਾਰ ਫਾਰਮ ਭਰਨ ਵਿੱਚ ਮਦਦ ਕਰੋ", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "ਇਹ ਅਰਜ਼ੀ ਭਰ ਦਿਓ", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "ਫਾਰਮ ਨੂੰ ਜ਼ਰਾ ਫਿੱਲ ਕਰ ਦਿਓ", "lang": "pa", "action": "fill_form", "slots": {}}
+{"text": "ki ae website asli hai", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "ae site safe hai ki nahi", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "ae bank di asli site hai ki", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "is this site safe", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "is this website real", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "ae link fraud te nahi", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "ae site nakli te nahi", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "ae SBI di site hai ki", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "ae KYC wali site sahi hai ji", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "ki ae page te bharosa kar sakde aan", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "ae Aadhaar wali site asli hai", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "ae payment site safe hai ki", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "is this a genuine bank website", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "ae site te apni jaankari de sakda haan", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "zara vekho ae website sahi hai ki nahi", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "ae sarkari site hai ki", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "ae site scam te nahi", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "ae bank di site sahi hai na", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "check karo ae site safe hai ki nahi", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "ਕੀ ਇਹ ਵੈੱਬਸਾਈਟ ਅਸਲੀ ਹੈ", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "ਇਹ ਸਾਈਟ ਸੁਰੱਖਿਅਤ ਹੈ ਕਿ ਨਹੀਂ", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "ਕੀ ਇਹ ਨਕਲੀ ਸਾਈਟ ਹੈ", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "ਇਹ ਬੈਂਕ ਦੀ ਅਸਲੀ ਸਾਈਟ ਹੈ ਕੀ", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "ਇਹ ਲਿੰਕ ਭਰੋਸੇ ਲਾਇਕ ਹੈ", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "ਇਹ ਸਾਈਟ ਧੋਖਾ ਤਾਂ ਨਹੀਂ", "lang": "pa", "action": "check_site", "slots": {}}
+{"text": "screen te ki likhya hai dasso", "lang": "pa", "action": "read_screen", "slots": {}}
+{"text": "ae screen parh ke sunao", "lang": "pa", "action": "read_screen", "slots": {}}
+{"text": "ethe ki dikh reha hai dasso", "lang": "pa", "action": "read_screen", "slots": {}}
+{"text": "ਸਕਰੀਨ ਤੇ ਕੀ ਲਿਖਿਆ ਹੈ ਪੜ੍ਹ ਕੇ ਸੁਣਾਓ", "lang": "pa", "action": "read_screen", "slots": {}}
+{"text": "ae page te ki hai parho", "lang": "pa", "action": "read_screen", "slots": {}}
+{"text": "screen zara parh ke dasso", "lang": "pa", "action": "read_screen", "slots": {}}
+{"text": "likho mera naam Ramesh Kumar", "lang": "pa", "action": "type_text", "slots": {"text": "mera naam Ramesh Kumar"}}
+{"text": "type karo mobile number 9876543210", "lang": "pa", "action": "type_text", "slots": {"text": "mobile number 9876543210"}}
+{"text": "ethe likho Amritsar", "lang": "pa", "action": "type_text", "slots": {"text": "Amritsar"}}
+{"text": "likh do address 12 Model Town Ludhiana", "lang": "pa", "action": "type_text", "slots": {"text": "address 12 Model Town Ludhiana"}}
+{"text": "ਇੱਥੇ ਲਿਖੋ ਮੇਰਾ ਨਾਮ ਸੁਰਿੰਦਰ", "lang": "pa", "action": "type_text", "slots": {"text": "ਮੇਰਾ ਨਾਮ ਸੁਰਿੰਦਰ"}}
+{"text": "likho main kal aawanga", "lang": "pa", "action": "type_text", "slots": {"text": "main kal aawanga"}}
+{"text": "submit te click karo", "lang": "pa", "action": "click", "slots": {"target": "submit"}}
+{"text": "next dabao", "lang": "pa", "action": "click", "slots": {"target": "next"}}
+{"text": "continue button dabao", "lang": "pa", "action": "click", "slots": {"target": "continue"}}
+{"text": "upload te click karo", "lang": "pa", "action": "click", "slots": {"target": "upload"}}
+{"text": "ਓਕੇ ਬਟਨ ਦਬਾਓ", "lang": "pa", "action": "click", "slots": {"target": "ਓਕੇ"}}
+{"text": "KYC kive karde han google karo", "lang": "pa", "action": "web_search", "slots": {"query": "KYC kive karde han"}}
+{"text": "Aadhaar da address kive badalna hai search karo", "lang": "pa", "action": "web_search", "slots": {"query": "Aadhaar da address kive badalna hai"}}
+{"text": "ration card kive banda hai dasso", "lang": "pa", "action": "web_search", "slots": {"query": "ration card kive banda hai"}}
+{"text": "PAN card layi ki ki chahida search karo", "lang": "pa", "action": "web_search", "slots": {"query": "PAN card layi ki ki chahida"}}
+{"text": "UIDAI di site kholo", "lang": "pa", "action": "open_website", "slots": {"site": "UIDAI"}}
+{"text": "SBI di website kholo", "lang": "pa", "action": "open_website", "slots": {"site": "SBI"}}
+{"text": "incometax di site khol do", "lang": "pa", "action": "open_website", "slots": {"site": "incometax"}}
+{"text": "DigiLocker di site kholo", "lang": "pa", "action": "open_website", "slots": {"site": "DigiLocker"}}

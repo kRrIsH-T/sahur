@@ -1,0 +1,479 @@
+{"text": "open chrome and search weather in bangalore today", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "weather in bangalore today"}}], "joiners": ["and"]}
+{"text": "uh open edge then search for ind vs sa live score", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "ind vs sa live score"}}], "joiners": ["then"]}
+{"text": "open firefox n look up best biryani near koramangala", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "web_search", "slots": {"query": "best biryani near koramangala"}}], "joiners": ["n"]}
+{"text": "launch brave browser after that search how to link pan with aadhaar", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "brave"}}, {"action": "web_search", "slots": {"query": "how to link pan with aadhaar"}}], "joiners": ["after that"]}
+{"text": "please open google chrome and then check petrol price in chennai", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "google chrome"}}, {"action": "web_search", "slots": {"query": "petrol price in chennai"}}], "joiners": ["and then"]}
+{"text": "open chrome and find out who won the IPL in 2024", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "who won the IPL in 2024"}}], "joiners": ["and"]}
+{"text": "Open Microsoft Edge then search nearest metro station from MG road", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Microsoft Edge"}}, {"action": "web_search", "slots": {"query": "nearest metro station from MG road"}}], "joiners": ["then"]}
+{"text": "open the browser and search train 12628 running status", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "browser"}}, {"action": "web_search", "slots": {"query": "train 12628 running status"}}], "joiners": ["and"]}
+{"text": "open chrome n tell me what is the gold rate today in hyderabad", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "what is the gold rate today in hyderabad"}}], "joiners": ["n"]}
+{"text": "start firefox then google dollar to rupee rate", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "web_search", "slots": {"query": "dollar to rupee rate"}}], "joiners": ["then"]}
+{"text": "open opera and search for cheap flights delhi to goa", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "opera"}}, {"action": "web_search", "slots": {"query": "cheap flights delhi to goa"}}], "joiners": ["and"]}
+{"text": "first open chrome next search Kalki 2898 AD box office collection", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "Kalki 2898 AD box office collection"}}], "joiners": ["first", "next"]}
+{"text": "open edge browser and look up symptoms of dengue", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "symptoms of dengue"}}], "joiners": ["and"]}
+{"text": "Open Chrome and search who is the CM of Karnataka", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "web_search", "slots": {"query": "who is the CM of Karnataka"}}], "joiners": ["and"]}
+{"text": "kindly open firefox and search for NEET 2025 cut off marks", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "web_search", "slots": {"query": "NEET 2025 cut off marks"}}], "joiners": ["and"]}
+{"text": "after opening chrome search how many calories in one masala dosa", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "how many calories in one masala dosa"}}], "joiners": ["after opening"]}
+{"text": "go to chrome and search Stree 2 OTT release date", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "Stree 2 OTT release date"}}], "joiners": ["and"]}
+{"text": "open brave and in that search what is the meaning of serendipity", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "brave"}}, {"action": "web_search", "slots": {"query": "what is the meaning of serendipity"}}], "joiners": ["and in that"]}
+{"text": "open chrome then search distance between mysore and ooty", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "distance between mysore and ooty"}}], "joiners": ["then"]}
+{"text": "open chrome and go to flipkart dot com", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "flipkart dot com"}}], "joiners": ["and"]}
+{"text": "open edge then open irctc website", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "open_website", "slots": {"site": "irctc"}}], "joiners": ["then"]}
+{"text": "open firefox and open github", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "open_website", "slots": {"site": "github"}}], "joiners": ["and"]}
+{"text": "launch chrome n open youtube dot com", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "youtube dot com"}}], "joiners": ["n"]}
+{"text": "open brave after that go to wikipedia", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "brave"}}, {"action": "open_website", "slots": {"site": "wikipedia"}}], "joiners": ["after that"]}
+{"text": "open chrome and then open naukri dot com", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "naukri dot com"}}], "joiners": ["and then"]}
+{"text": "open edge and go to the bookmyshow site", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "open_website", "slots": {"site": "bookmyshow"}}], "joiners": ["and"]}
+{"text": "Open Chrome then open moneycontrol", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "open_website", "slots": {"site": "moneycontrol"}}], "joiners": ["then"]}
+{"text": "open firefox and visit stackoverflow dot com", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "open_website", "slots": {"site": "stackoverflow dot com"}}], "joiners": ["and"]}
+{"text": "open google chrome and open the cricbuzz website", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "google chrome"}}, {"action": "open_website", "slots": {"site": "cricbuzz"}}], "joiners": ["and"]}
+{"text": "open chrome and go to amazon dot in", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "amazon dot in"}}], "joiners": ["and"]}
+{"text": "open youtube and play arijit singh songs", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "arijit singh"}}], "joiners": ["and"]}
+{"text": "open spotify then play lofi beats", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "lofi beats"}}], "joiners": ["then"]}
+{"text": "open you tube n play Naatu Naatu video song", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "you tube"}}, {"action": "play_media", "slots": {"query": "Naatu Naatu"}}], "joiners": ["n"]}
+{"text": "launch spotify and play The Ranveer Show podcast", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "The Ranveer Show"}}], "joiners": ["and"]}
+{"text": "open jiosaavn then play kishore kumar hits", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "jiosaavn"}}, {"action": "play_media", "slots": {"query": "kishore kumar hits"}}], "joiners": ["then"]}
+{"text": "open youtube music and play Kesariya", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube music"}}, {"action": "play_media", "slots": {"query": "Kesariya"}}], "joiners": ["and"]}
+{"text": "open gaana and then play some old hindi songs", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "gaana"}}, {"action": "play_media", "slots": {"query": "old hindi songs"}}], "joiners": ["and then"]}
+{"text": "once youtube opens play pasoori coke studio", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "pasoori coke studio"}}], "joiners": ["once", "opens"]}
+{"text": "open spotify and put on taylor swift", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "taylor swift"}}], "joiners": ["and"]}
+{"text": "open wynk then play diljit dosanjh new album", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "wynk"}}, {"action": "play_media", "slots": {"query": "diljit dosanjh new album"}}], "joiners": ["then"]}
+{"text": "open youtube and play peppa pig for the kid", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "peppa pig"}}], "joiners": ["and"]}
+{"text": "open spotify n play anirudh hits", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "anirudh hits"}}], "joiners": ["n"]}
+{"text": "open apple music and play coldplay", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "apple music"}}, {"action": "play_media", "slots": {"query": "coldplay"}}], "joiners": ["and"]}
+{"text": "open youtube then play highlights of yesterday's match", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "highlights of yesterday's match"}}], "joiners": ["then"]}
+{"text": "start amazon music and play AR Rahman", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "amazon music"}}, {"action": "play_media", "slots": {"query": "AR Rahman"}}], "joiners": ["and"]}
+{"text": "go to youtube and there play the Kantara trailer", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "Kantara trailer"}}], "joiners": ["and there"]}
+{"text": "open notepad and type buy milk curd and bread", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "buy milk curd and bread"}}], "joiners": ["and"]}
+{"text": "open word then type dear sir I would like to apply for leave on friday", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "word"}}, {"action": "type_text", "slots": {"text": "dear sir I would like to apply for leave on friday"}}], "joiners": ["then"]}
+{"text": "open notepad n write meeting with client at 3 pm", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "meeting with client at 3 pm"}}], "joiners": ["n"]}
+{"text": "open sticky notes and write call the plumber tomorrow", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "sticky notes"}}, {"action": "type_text", "slots": {"text": "call the plumber tomorrow"}}], "joiners": ["and"]}
+{"text": "open excel then type monthly expenses", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "excel"}}, {"action": "type_text", "slots": {"text": "monthly expenses"}}], "joiners": ["then"]}
+{"text": "open onenote and type ideas for diwali sale campaign", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "onenote"}}, {"action": "type_text", "slots": {"text": "ideas for diwali sale campaign"}}], "joiners": ["and"]}
+{"text": "after opening notepad type hello world", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "hello world"}}], "joiners": ["after opening"]}
+{"text": "open ms word and type the quick brown fox jumps over the lazy dog", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ms word"}}, {"action": "type_text", "slots": {"text": "the quick brown fox jumps over the lazy dog"}}], "joiners": ["and"]}
+{"text": "open notepad and in that type electricity bill paid on 5th", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "electricity bill paid on 5th"}}], "joiners": ["and in that"]}
+{"text": "open google docs and type chapter one introduction", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "google docs"}}, {"action": "type_text", "slots": {"text": "chapter one introduction"}}], "joiners": ["and"]}
+{"text": "open whatsapp and type good morning everyone", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "type_text", "slots": {"text": "good morning everyone"}}], "joiners": ["and"]}
+{"text": "open outlook then type hi team please find the weekly report attached", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "outlook"}}, {"action": "type_text", "slots": {"text": "hi team please find the weekly report attached"}}], "joiners": ["then"]}
+{"text": "open teams n type I will join in five minutes", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "teams"}}, {"action": "type_text", "slots": {"text": "I will join in five minutes"}}], "joiners": ["n"]}
+{"text": "pause the song and open teams", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "teams"}}], "joiners": ["and"]}
+{"text": "pause music then open zoom", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "zoom"}}], "joiners": ["then"]}
+{"text": "stop the music n open outlook", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "outlook"}}], "joiners": ["n"]}
+{"text": "mute and open google meet", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "open_app", "slots": {"app": "google meet"}}], "joiners": ["and"]}
+{"text": "lower the volume and open vlc", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "open_app", "slots": {"app": "vlc"}}], "joiners": ["and"]}
+{"text": "pause it after that open calculator", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "calculator"}}], "joiners": ["after that"]}
+{"text": "next song and open whatsapp", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "next"}, {"action": "open_app", "slots": {"app": "whatsapp"}}], "joiners": ["and"]}
+{"text": "pause the song and also open zoom", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "zoom"}}], "joiners": ["and also"]}
+{"text": "next song and increase the volume", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "next"}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["and"]}
+{"text": "skip this then volume down", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "next"}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["then"]}
+{"text": "go back to the previous song and make it louder", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "previous"}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["and"]}
+{"text": "unpause and turn up the volume", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "resume"}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["and"]}
+{"text": "send a message to amma saying I reached safely then open spotify", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "amma", "text": "I reached safely"}}, {"action": "open_app", "slots": {"app": "spotify"}}], "joiners": ["then"]}
+{"text": "whatsapp Ravi I'll be late by 10 minutes after that open maps", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Ravi", "text": "I'll be late by 10 minutes"}}, {"action": "open_app", "slots": {"app": "maps"}}], "joiners": ["after that"]}
+{"text": "message Priya that the meeting is postponed and then open teams", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Priya", "text": "the meeting is postponed"}}, {"action": "open_app", "slots": {"app": "teams"}}], "joiners": ["and then"]}
+{"text": "tell Karthik send me the ppt then open powerpoint", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Karthik", "text": "send me the ppt"}}, {"action": "open_app", "slots": {"app": "powerpoint"}}], "joiners": ["then"]}
+{"text": "text Sneha happy birthday and open instagram", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Sneha", "text": "happy birthday"}}, {"action": "open_app", "slots": {"app": "instagram"}}], "joiners": ["and"]}
+{"text": "message boss that I'm on leave today after that open outlook", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "boss", "text": "I'm on leave today"}}, {"action": "open_app", "slots": {"app": "outlook"}}], "joiners": ["after that"]}
+{"text": "send whatsapp to Imran bhai saying parcel received then open telegram", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Imran bhai", "text": "parcel received"}}, {"action": "open_app", "slots": {"app": "telegram"}}], "joiners": ["then"]}
+{"text": "open whatsapp and message Rahul that I'm coming", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "Rahul", "text": "I'm coming"}}], "joiners": ["and"]}
+{"text": "open whatsapp then tell Anjali the cab is booked", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "Anjali", "text": "the cab is booked"}}], "joiners": ["then"]}
+{"text": "open whats app and send hi to Vikram sir", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whats app"}}, {"action": "send_message", "slots": {"contact": "Vikram sir", "text": "hi"}}], "joiners": ["and"]}
+{"text": "open whatsapp after that message Meena aunty that we will come by 7", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "Meena aunty", "text": "we will come by 7"}}], "joiners": ["after that"]}
+{"text": "launch whatsapp n send good night to Pooja di", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "Pooja di", "text": "good night"}}], "joiners": ["n"]}
+{"text": "search weather in mumbai and read it out", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "weather in mumbai"}}, {"action": "read_screen", "slots": {}}], "joiners": ["and"]}
+{"text": "google today's top news then read the screen", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "today's top news"}}, {"action": "read_screen", "slots": {}}], "joiners": ["then"]}
+{"text": "look up the meaning of nostalgia and read it to me", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "the meaning of nostalgia"}}, {"action": "read_screen", "slots": {}}], "joiners": ["and"]}
+{"text": "search sensex today and read out the result", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "sensex today"}}, {"action": "read_screen", "slots": {}}], "joiners": ["and"]}
+{"text": "find train timings from chennai to madurai then read what's on screen", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "train timings from chennai to madurai"}}, {"action": "read_screen", "slots": {}}], "joiners": ["then"]}
+{"text": "open irctc dot co dot in and click on login", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "irctc dot co dot in"}}, {"action": "click", "slots": {"target": "login"}}], "joiners": ["and"]}
+{"text": "go to linkedin website then click on jobs", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "linkedin"}}, {"action": "click", "slots": {"target": "jobs"}}], "joiners": ["then"]}
+{"text": "open the swiggy website and click sign in", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "swiggy"}}, {"action": "click", "slots": {"target": "sign in"}}], "joiners": ["and"]}
+{"text": "open naukri dot com n click on register", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "naukri dot com"}}, {"action": "click", "slots": {"target": "register"}}], "joiners": ["n"]}
+{"text": "open makemytrip website and click on flights", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "makemytrip"}}, {"action": "click", "slots": {"target": "flights"}}], "joiners": ["and"]}
+{"text": "open gmail dot com then click compose", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "gmail dot com"}}, {"action": "click", "slots": {"target": "compose"}}], "joiners": ["then"]}
+{"text": "click on the search box and type wireless earbuds under 2000", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "search"}}, {"action": "type_text", "slots": {"text": "wireless earbuds under 2000"}}], "joiners": ["and"]}
+{"text": "click on the subject field then type monthly report october", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "subject"}}, {"action": "type_text", "slots": {"text": "monthly report october"}}], "joiners": ["then"]}
+{"text": "click on the name field and type Ramesh Kumar", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "name"}}, {"action": "type_text", "slots": {"text": "Ramesh Kumar"}}], "joiners": ["and"]}
+{"text": "tap on the message box then type running late will join soon", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "message"}}, {"action": "type_text", "slots": {"text": "running late will join soon"}}], "joiners": ["then"]}
+{"text": "click on new tab and type cricbuzz", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "new tab"}}, {"action": "type_text", "slots": {"text": "cricbuzz"}}], "joiners": ["and"]}
+{"text": "type hello everyone and click send", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "hello everyone"}}, {"action": "click", "slots": {"target": "send"}}], "joiners": ["and"]}
+{"text": "type 560034 and click check availability", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "560034"}}, {"action": "click", "slots": {"target": "check availability"}}], "joiners": ["and"]}
+{"text": "type ok sir noted then click send", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "ok sir noted"}}, {"action": "click", "slots": {"target": "send"}}], "joiners": ["then"]}
+{"text": "write thank you so much and click on post", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "thank you so much"}}, {"action": "click", "slots": {"target": "post"}}], "joiners": ["and"]}
+{"text": "type wireless mouse then click search", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "wireless mouse"}}, {"action": "click", "slots": {"target": "search"}}], "joiners": ["then"]}
+{"text": "open outlook and read the screen", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "outlook"}}, {"action": "read_screen", "slots": {}}], "joiners": ["and"]}
+{"text": "open my calendar then tell me what's on the screen", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "calendar"}}, {"action": "read_screen", "slots": {}}], "joiners": ["then"]}
+{"text": "open the whatsapp app and read out what is on screen", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "read_screen", "slots": {}}], "joiners": ["and"]}
+{"text": "open teams after that read the screen for me", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "teams"}}, {"action": "read_screen", "slots": {}}], "joiners": ["after that"]}
+{"text": "click on inbox and read the screen", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "inbox"}}, {"action": "read_screen", "slots": {}}], "joiners": ["and"]}
+{"text": "click on notifications then read what is there on the screen", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "notifications"}}, {"action": "read_screen", "slots": {}}], "joiners": ["then"]}
+{"text": "click on show more and read it to me", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "show more"}}, {"action": "read_screen", "slots": {}}], "joiners": ["and"]}
+{"text": "click the details tab n read the screen", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "details"}}, {"action": "read_screen", "slots": {}}], "joiners": ["n"]}
+{"text": "play lofi music on spotify and increase volume", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "lofi music", "app": "spotify"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["and"]}
+{"text": "play kesariya on youtube then turn the volume down", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "kesariya", "app": "youtube"}}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["then"]}
+{"text": "play some arijit and make it louder", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "arijit"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["and"]}
+{"text": "play bhajans then reduce the volume", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "bhajans"}}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["then"]}
+{"text": "open amazon dot in and search for boat earphones", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "amazon dot in"}}, {"action": "web_search", "slots": {"query": "boat earphones"}}], "joiners": ["and"]}
+{"text": "go to flipkart website then search iphone 15 price", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "flipkart"}}, {"action": "web_search", "slots": {"query": "iphone 15 price"}}], "joiners": ["then"]}
+{"text": "open youtube dot com and search carnatic music lessons", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "youtube dot com"}}, {"action": "web_search", "slots": {"query": "carnatic music lessons"}}], "joiners": ["and"]}
+{"text": "search nifty 50 today and open excel", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "nifty 50 today"}}, {"action": "open_app", "slots": {"app": "excel"}}], "joiners": ["and"]}
+{"text": "google how to make a pivot table then open excel", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "how to make a pivot table"}}, {"action": "open_app", "slots": {"app": "excel"}}], "joiners": ["then"]}
+{"text": "look up ola cab fare to airport and open whatsapp", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "ola cab fare to airport"}}, {"action": "open_app", "slots": {"app": "whatsapp"}}], "joiners": ["and"]}
+{"text": "play prateek kuhad on spotify and open word", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "prateek kuhad", "app": "spotify"}}, {"action": "open_app", "slots": {"app": "word"}}], "joiners": ["and"]}
+{"text": "play some instrumental music then open vs code", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "instrumental music"}}, {"action": "open_app", "slots": {"app": "vs code"}}], "joiners": ["then"]}
+{"text": "play Lucky Ali songs n open notepad", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "Lucky Ali"}}, {"action": "open_app", "slots": {"app": "notepad"}}], "joiners": ["n"]}
+{"text": "put on Ritviz after that open photoshop", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "Ritviz"}}, {"action": "open_app", "slots": {"app": "photoshop"}}], "joiners": ["after that"]}
+{"text": "tell amma I'll call in the evening then message appa that the train is on time", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "amma", "text": "I'll call in the evening"}}, {"action": "send_message", "slots": {"contact": "appa", "text": "the train is on time"}}], "joiners": ["then"]}
+{"text": "message Rohan that practice is cancelled after that message Varun that the match is on sunday", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Rohan", "text": "practice is cancelled"}}, {"action": "send_message", "slots": {"contact": "Varun", "text": "the match is on sunday"}}], "joiners": ["after that"]}
+{"text": "send happy diwali to Joseph uncle and send happy diwali to Gurpreet", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Joseph uncle", "text": "happy diwali"}}, {"action": "send_message", "slots": {"contact": "Gurpreet", "text": "happy diwali"}}], "joiners": ["and"]}
+{"text": "open excel and outlook", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "excel"}}, {"action": "open_app", "slots": {"app": "outlook"}}], "joiners": ["and"]}
+{"text": "open spotify also open discord", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "open_app", "slots": {"app": "discord"}}], "joiners": ["also"]}
+{"text": "open task manager and command prompt", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "task manager"}}, {"action": "open_app", "slots": {"app": "command prompt"}}], "joiners": ["and"]}
+{"text": "open zoom and click on join meeting", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "zoom"}}, {"action": "click", "slots": {"target": "join meeting"}}], "joiners": ["and"]}
+{"text": "open teams then click on calendar", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "teams"}}, {"action": "click", "slots": {"target": "calendar"}}], "joiners": ["then"]}
+{"text": "open spotify n click on liked songs", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "click", "slots": {"target": "liked songs"}}], "joiners": ["n"]}
+{"text": "open outlook and click on new email", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "outlook"}}, {"action": "click", "slots": {"target": "new email"}}], "joiners": ["and"]}
+{"text": "open chrome then search weather in delhi and read it out", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "weather in delhi"}}, {"action": "read_screen", "slots": {}}], "joiners": ["then", "and"]}
+{"text": "open outlook then click new email and type hello sir", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "outlook"}}, {"action": "click", "slots": {"target": "new email"}}, {"action": "type_text", "slots": {"text": "hello sir"}}], "joiners": ["then", "and"]}
+{"text": "open youtube and play arijit then increase the volume", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "arijit"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["and", "then"]}
+{"text": "pause the music then open whatsapp and message Ravi that I'm free now", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "Ravi", "text": "I'm free now"}}], "joiners": ["then", "and"]}
+{"text": "open chrome go to irctc dot co dot in and click on login", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "irctc dot co dot in"}}, {"action": "click", "slots": {"target": "login"}}], "joiners": ["and"]}
+{"text": "open teams then click on chat after that type good morning team", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "teams"}}, {"action": "click", "slots": {"target": "chat"}}, {"action": "type_text", "slots": {"text": "good morning team"}}], "joiners": ["then", "after that"]}
+{"text": "click on the search bar type Leo movie review and read the screen", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "search"}}, {"action": "type_text", "slots": {"text": "Leo movie review"}}, {"action": "read_screen", "slots": {}}], "joiners": ["and"]}
+{"text": "open spotify n play the weeknd n turn it up", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "the weeknd"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["n"]}
+{"text": "open notepad and type milk eggs bread then open calculator", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "milk eggs bread"}}, {"action": "open_app", "slots": {"app": "calculator"}}], "joiners": ["and", "then"]}
+{"text": "open chrome and search for Animal movie review then read it out to me", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "Animal movie review"}}, {"action": "read_screen", "slots": {}}], "joiners": ["and", "then"]}
+{"text": "mute this then open zoom and click join", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "open_app", "slots": {"app": "zoom"}}, {"action": "click", "slots": {"target": "join"}}], "joiners": ["then", "and"]}
+{"text": "open edge then go to wikipedia and search for Chandrayaan 3", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "open_website", "slots": {"site": "wikipedia"}}, {"action": "web_search", "slots": {"query": "Chandrayaan 3"}}], "joiners": ["then", "and"]}
+{"text": "open whatsapp then message Sneha I'm outside after that open spotify", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "Sneha", "text": "I'm outside"}}, {"action": "open_app", "slots": {"app": "spotify"}}], "joiners": ["then", "after that"]}
+{"text": "open excel word and outlook", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "excel"}}, {"action": "open_app", "slots": {"app": "word"}}, {"action": "open_app", "slots": {"app": "outlook"}}], "joiners": ["and"]}
+{"text": "play heeriye on youtube music then volume up after that open instagram", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "heeriye", "app": "youtube music"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}, {"action": "open_app", "slots": {"app": "instagram"}}], "joiners": ["then", "after that"]}
+{"text": "open mail then click on new mail and type hi Priya please send the photos", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "mail"}}, {"action": "click", "slots": {"target": "new mail"}}, {"action": "type_text", "slots": {"text": "hi Priya please send the photos"}}], "joiners": ["then", "and"]}
+{"text": "pause the video read the screen and then click show transcript", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "read_screen", "slots": {}}, {"action": "click", "slots": {"target": "show transcript"}}], "joiners": ["and then"]}
+{"text": "open chrome and go to cricbuzz then read the score", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "cricbuzz"}}, {"action": "read_screen", "slots": {}}], "joiners": ["and", "then"]}
+{"text": "open notepad and in that type todo list then open teams", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "todo list"}}, {"action": "open_app", "slots": {"app": "teams"}}], "joiners": ["and in that", "then"]}
+{"text": "next song then volume down and open whatsapp", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "next"}, {"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "open_app", "slots": {"app": "whatsapp"}}], "joiners": ["then", "and"]}
+{"text": "open vs code then open the terminal and type git status", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "vs code"}}, {"action": "open_app", "slots": {"app": "terminal"}}, {"action": "type_text", "slots": {"text": "git status"}}], "joiners": ["then", "and"]}
+{"text": "open spotify and play kishore kumar then open whatsapp", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "kishore kumar"}}, {"action": "open_app", "slots": {"app": "whatsapp"}}], "joiners": ["and", "then"]}
+{"text": "tell Arjun I'm on the way then open maps and search for the nearest petrol pump", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Arjun", "text": "I'm on the way"}}, {"action": "open_app", "slots": {"app": "maps"}}, {"action": "web_search", "slots": {"query": "the nearest petrol pump"}}], "joiners": ["then", "and"]}
+{"text": "open firefox search for dominos near me and click on order online", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "web_search", "slots": {"query": "dominos near me"}}, {"action": "click", "slots": {"target": "order online"}}], "joiners": ["and"]}
+{"text": "open youtube music then play AP Dhillon and after that open discord", "lang": "en", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube music"}}, {"action": "play_media", "slots": {"query": "AP Dhillon"}}, {"action": "open_app", "slots": {"app": "discord"}}], "joiners": ["then", "and after that"]}
+{"text": "play tom and jerry on youtube", "lang": "en", "action": "play_media", "slots": {"query": "tom and jerry", "app": "youtube"}}
+{"text": "put on Guns N Roses", "lang": "en", "action": "play_media", "slots": {"query": "Guns N Roses"}}
+{"text": "play Simon and Garfunkel the sound of silence", "lang": "en", "action": "play_media", "slots": {"query": "Simon and Garfunkel the sound of silence"}}
+{"text": "play rock n roll classics on spotify", "lang": "en", "action": "play_media", "slots": {"query": "rock n roll classics", "app": "spotify"}}
+{"text": "play Mumford and Sons", "lang": "en", "action": "play_media", "slots": {"query": "Mumford and Sons"}}
+{"text": "play Florence and the Machine dog days are over", "lang": "en", "action": "play_media", "slots": {"query": "Florence and the Machine dog days are over"}}
+{"text": "play Shiv and Parvati bhajans", "lang": "en", "action": "play_media", "slots": {"query": "Shiv and Parvati bhajans"}}
+{"text": "play Earth Wind and Fire september", "lang": "en", "action": "play_media", "slots": {"query": "Earth Wind and Fire september"}}
+{"text": "play ben and holly on youtube for the kids", "lang": "en", "action": "play_media", "slots": {"query": "ben and holly", "app": "youtube"}}
+{"text": "play Chip and Dale cartoon", "lang": "en", "action": "play_media", "slots": {"query": "Chip and Dale cartoon"}}
+{"text": "play salt n pepa push it", "lang": "en", "action": "play_media", "slots": {"query": "salt n pepa push it"}}
+{"text": "play Ram and Shyam movie on youtube", "lang": "en", "action": "play_media", "slots": {"query": "Ram and Shyam", "app": "youtube"}}
+{"text": "play the Mr and Mrs Iyer soundtrack", "lang": "en", "action": "play_media", "slots": {"query": "Mr and Mrs Iyer soundtrack"}}
+{"text": "play arijit and shreya ghoshal duets", "lang": "en", "action": "play_media", "slots": {"query": "arijit and shreya ghoshal duets"}}
+{"text": "search salt and pepper chicken recipe", "lang": "en", "action": "web_search", "slots": {"query": "salt and pepper chicken recipe"}}
+{"text": "difference between RAM and ROM", "lang": "en", "action": "web_search", "slots": {"query": "difference between RAM and ROM"}}
+{"text": "who won india vs pakistan match and by how many runs", "lang": "en", "action": "web_search", "slots": {"query": "who won india vs pakistan match and by how many runs"}}
+{"text": "Romeo and Juliet summary in short", "lang": "en", "action": "web_search", "slots": {"query": "Romeo and Juliet summary in short"}}
+{"text": "pride and prejudice author name", "lang": "en", "action": "web_search", "slots": {"query": "pride and prejudice author name"}}
+{"text": "what's the difference between then and than", "lang": "en", "action": "web_search", "slots": {"query": "what's the difference between then and than"}}
+{"text": "how to link aadhaar and pan card online", "lang": "en", "action": "web_search", "slots": {"query": "how to link aadhaar and pan card online"}}
+{"text": "google bread and butter pudding recipe", "lang": "en", "action": "web_search", "slots": {"query": "bread and butter pudding recipe"}}
+{"text": "tell me the difference between SBI and HDFC fd rates", "lang": "en", "action": "web_search", "slots": {"query": "difference between SBI and HDFC fd rates"}}
+{"text": "Marks and Spencer store near me", "lang": "en", "action": "web_search", "slots": {"query": "Marks and Spencer store near me"}}
+{"text": "search Sholay cast then and now", "lang": "en", "action": "web_search", "slots": {"query": "Sholay cast then and now"}}
+{"text": "who sang Tujh Mein Rab Dikhta Hai and in which movie", "lang": "en", "action": "web_search", "slots": {"query": "who sang Tujh Mein Rab Dikhta Hai and in which movie"}}
+{"text": "how far is ooty from mysore and which is the best route", "lang": "en", "action": "web_search", "slots": {"query": "how far is ooty from mysore and which is the best route"}}
+{"text": "disney plus hotstar subscription price", "lang": "en", "action": "web_search", "slots": {"query": "disney plus hotstar subscription price"}}
+{"text": "tell amma I reached and will call after dinner", "lang": "en", "action": "send_message", "slots": {"contact": "amma", "text": "I reached and will call after dinner"}}
+{"text": "message Ravi that I'll finish the report then we can talk", "lang": "en", "action": "send_message", "slots": {"contact": "Ravi", "text": "I'll finish the report then we can talk"}}
+{"text": "whatsapp Priya bring the charger and the laptop bag", "lang": "en", "action": "send_message", "slots": {"contact": "Priya", "text": "bring the charger and the laptop bag"}}
+{"text": "text Karthik that the match is at 6 and he should bring the bat", "lang": "en", "action": "send_message", "slots": {"contact": "Karthik", "text": "the match is at 6 and he should bring the bat"}}
+{"text": "tell dad first get the car serviced then go to the bank", "lang": "en", "action": "send_message", "slots": {"contact": "dad", "text": "first get the car serviced then go to the bank"}}
+{"text": "message Anjali I'll come after that meeting gets over", "lang": "en", "action": "send_message", "slots": {"contact": "Anjali", "text": "I'll come after that meeting gets over"}}
+{"text": "send a message to Vikram sir saying the assignment is done and uploaded", "lang": "en", "action": "send_message", "slots": {"contact": "Vikram sir", "text": "the assignment is done and uploaded"}}
+{"text": "tell Meena aunty that we will come tomorrow also", "lang": "en", "action": "send_message", "slots": {"contact": "Meena aunty", "text": "we will come tomorrow also"}}
+{"text": "whatsapp Rohan bro buy chips n coke on the way", "lang": "en", "action": "send_message", "slots": {"contact": "Rohan bro", "text": "buy chips n coke on the way"}}
+{"text": "message mom pick up Ria from tuition then come home", "lang": "en", "action": "send_message", "slots": {"contact": "mom", "text": "pick up Ria from tuition then come home"}}
+{"text": "tell Suresh anna the gas cylinder came and I paid 900", "lang": "en", "action": "send_message", "slots": {"contact": "Suresh anna", "text": "the gas cylinder came and I paid 900"}}
+{"text": "message Farhan don't forget the tickets and passports", "lang": "en", "action": "send_message", "slots": {"contact": "Farhan", "text": "don't forget the tickets and passports"}}
+{"text": "type milk eggs and bread", "lang": "en", "action": "type_text", "slots": {"text": "milk eggs and bread"}}
+{"text": "type dear sir please find attached the invoice and delivery challan", "lang": "en", "action": "type_text", "slots": {"text": "dear sir please find attached the invoice and delivery challan"}}
+{"text": "write meeting at 4 then lunch with the client", "lang": "en", "action": "type_text", "slots": {"text": "meeting at 4 then lunch with the client"}}
+{"text": "type thanks for the update will check and revert", "lang": "en", "action": "type_text", "slots": {"text": "thanks for the update will check and revert"}}
+{"text": "type terms and conditions apply", "lang": "en", "action": "type_text", "slots": {"text": "terms and conditions apply"}}
+{"text": "type first preheat the oven then add the batter", "lang": "en", "action": "type_text", "slots": {"text": "first preheat the oven then add the batter"}}
+{"text": "type the deadline is friday after that no extensions", "lang": "en", "action": "type_text", "slots": {"text": "the deadline is friday after that no extensions"}}
+{"text": "type regards and thanks Ananya", "lang": "en", "action": "type_text", "slots": {"text": "regards and thanks Ananya"}}
+{"text": "type pen pencil eraser and scale", "lang": "en", "action": "type_text", "slots": {"text": "pen pencil eraser and scale"}}
+{"text": "type happy anniversary mom and dad", "lang": "en", "action": "type_text", "slots": {"text": "happy anniversary mom and dad"}}
+{"text": "click on terms and conditions", "lang": "en", "action": "click", "slots": {"target": "terms and conditions"}}
+{"text": "click save and continue", "lang": "en", "action": "click", "slots": {"target": "save and continue"}}
+{"text": "click on the Q and A tab", "lang": "en", "action": "click", "slots": {"target": "Q and A"}}
+{"text": "click on shipping and returns", "lang": "en", "action": "click", "slots": {"target": "shipping and returns"}}
+{"text": "click on news and updates", "lang": "en", "action": "click", "slots": {"target": "news and updates"}}
+{"text": "open snip and sketch", "lang": "en", "action": "open_app", "slots": {"app": "snip and sketch"}}
+{"text": "open Movies and TV", "lang": "en", "action": "open_app", "slots": {"app": "Movies and TV"}}
+{"text": "open mail and calendar app", "lang": "en", "action": "open_app", "slots": {"app": "mail and calendar"}}
+{"text": "open disney plus hotstar", "lang": "en", "action": "open_app", "slots": {"app": "disney plus hotstar"}}
+{"text": "open the marks and spencer website", "lang": "en", "action": "open_website", "slots": {"site": "marks and spencer"}}
+{"text": "open note pad", "lang": "en", "action": "open_app", "slots": {"app": "note pad"}}
+{"text": "can u open calculator please", "lang": "en", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "launch ms excel", "lang": "en", "action": "open_app", "slots": {"app": "ms excel"}}
+{"text": "open vs code", "lang": "en", "action": "open_app", "slots": {"app": "vs code"}}
+{"text": "start zoom", "lang": "en", "action": "open_app", "slots": {"app": "zoom"}}
+{"text": "open the paint app", "lang": "en", "action": "open_app", "slots": {"app": "paint"}}
+{"text": "open file explorer", "lang": "en", "action": "open_app", "slots": {"app": "file explorer"}}
+{"text": "open task manager", "lang": "en", "action": "open_app", "slots": {"app": "task manager"}}
+{"text": "Open command prompt", "lang": "en", "action": "open_app", "slots": {"app": "command prompt"}}
+{"text": "open control panel", "lang": "en", "action": "open_app", "slots": {"app": "control panel"}}
+{"text": "open spotify yaar", "lang": "en", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "open telegram", "lang": "en", "action": "open_app", "slots": {"app": "telegram"}}
+{"text": "open whatsapp desktop", "lang": "en", "action": "open_app", "slots": {"app": "whatsapp desktop"}}
+{"text": "pls open outlook", "lang": "en", "action": "open_app", "slots": {"app": "outlook"}}
+{"text": "open tally prime", "lang": "en", "action": "open_app", "slots": {"app": "tally prime"}}
+{"text": "open photoshop", "lang": "en", "action": "open_app", "slots": {"app": "photoshop"}}
+{"text": "open premiere pro", "lang": "en", "action": "open_app", "slots": {"app": "premiere pro"}}
+{"text": "open OBS studio", "lang": "en", "action": "open_app", "slots": {"app": "OBS studio"}}
+{"text": "open the camera", "lang": "en", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "open discord", "lang": "en", "action": "open_app", "slots": {"app": "discord"}}
+{"text": "open microsoft store", "lang": "en", "action": "open_app", "slots": {"app": "microsoft store"}}
+{"text": "open snipping tool", "lang": "en", "action": "open_app", "slots": {"app": "snipping tool"}}
+{"text": "open android studio", "lang": "en", "action": "open_app", "slots": {"app": "android studio"}}
+{"text": "open anydesk", "lang": "en", "action": "open_app", "slots": {"app": "anydesk"}}
+{"text": "open postman", "lang": "en", "action": "open_app", "slots": {"app": "postman"}}
+{"text": "launch the netflix app", "lang": "en", "action": "open_app", "slots": {"app": "netflix"}}
+{"text": "open power shell", "lang": "en", "action": "open_app", "slots": {"app": "power shell"}}
+{"text": "open the clock app", "lang": "en", "action": "open_app", "slots": {"app": "clock"}}
+{"text": "open flipkart dot com", "lang": "en", "action": "open_website", "slots": {"site": "flipkart dot com"}}
+{"text": "go to amazon dot in", "lang": "en", "action": "open_website", "slots": {"site": "amazon dot in"}}
+{"text": "open the irctc website", "lang": "en", "action": "open_website", "slots": {"site": "irctc"}}
+{"text": "open myntra site", "lang": "en", "action": "open_website", "slots": {"site": "myntra"}}
+{"text": "open zomato dot com", "lang": "en", "action": "open_website", "slots": {"site": "zomato dot com"}}
+{"text": "go to wikipedia dot org", "lang": "en", "action": "open_website", "slots": {"site": "wikipedia dot org"}}
+{"text": "open the bookmyshow website", "lang": "en", "action": "open_website", "slots": {"site": "bookmyshow"}}
+{"text": "open linkedin dot com", "lang": "en", "action": "open_website", "slots": {"site": "linkedin dot com"}}
+{"text": "open cricbuzz website", "lang": "en", "action": "open_website", "slots": {"site": "cricbuzz"}}
+{"text": "open geeks for geeks website", "lang": "en", "action": "open_website", "slots": {"site": "geeks for geeks"}}
+{"text": "open stackoverflow", "lang": "en", "action": "open_website", "slots": {"site": "stackoverflow"}}
+{"text": "go to the swiggy site", "lang": "en", "action": "open_website", "slots": {"site": "swiggy"}}
+{"text": "open makemytrip website", "lang": "en", "action": "open_website", "slots": {"site": "makemytrip"}}
+{"text": "open nptel website", "lang": "en", "action": "open_website", "slots": {"site": "nptel"}}
+{"text": "open incometax dot gov dot in", "lang": "en", "action": "open_website", "slots": {"site": "incometax dot gov dot in"}}
+{"text": "open redbus dot in", "lang": "en", "action": "open_website", "slots": {"site": "redbus dot in"}}
+{"text": "open the times of india website", "lang": "en", "action": "open_website", "slots": {"site": "times of india"}}
+{"text": "open moneycontrol dot com", "lang": "en", "action": "open_website", "slots": {"site": "moneycontrol dot com"}}
+{"text": "who is virat kohli wife", "lang": "en", "action": "web_search", "slots": {"query": "who is virat kohli wife"}}
+{"text": "tell me about AR Rahman", "lang": "en", "action": "web_search", "slots": {"query": "AR Rahman"}}
+{"text": "who directed 12th Fail", "lang": "en", "action": "web_search", "slots": {"query": "who directed 12th Fail"}}
+{"text": "Jawan box office collection", "lang": "en", "action": "web_search", "slots": {"query": "Jawan box office collection"}}
+{"text": "what is the capital of Meghalaya", "lang": "en", "action": "web_search", "slots": {"query": "what is the capital of Meghalaya"}}
+{"text": "weather in chennai tomorrow", "lang": "en", "action": "web_search", "slots": {"query": "weather in chennai tomorrow"}}
+{"text": "search today's gold rate", "lang": "en", "action": "web_search", "slots": {"query": "today's gold rate"}}
+{"text": "how to make filter coffee", "lang": "en", "action": "web_search", "slots": {"query": "how to make filter coffee"}}
+{"text": "who is Sundar Pichai", "lang": "en", "action": "web_search", "slots": {"query": "who is Sundar Pichai"}}
+{"text": "Kantara movie rating", "lang": "en", "action": "web_search", "slots": {"query": "Kantara movie rating"}}
+{"text": "Laapataa Ladies cast", "lang": "en", "action": "web_search", "slots": {"query": "Laapataa Ladies cast"}}
+{"text": "tell me about Shah Rukh Khan's new movie", "lang": "en", "action": "web_search", "slots": {"query": "Shah Rukh Khan's new movie"}}
+{"text": "google bengaluru traffic update", "lang": "en", "action": "web_search", "slots": {"query": "bengaluru traffic update"}}
+{"text": "how many runs did Rohit score yesterday", "lang": "en", "action": "web_search", "slots": {"query": "how many runs did Rohit score yesterday"}}
+{"text": "look up the IFSC code for SBI Jayanagar branch", "lang": "en", "action": "web_search", "slots": {"query": "the IFSC code for SBI Jayanagar branch"}}
+{"text": "search youtube for python tutorial in tamil", "lang": "en", "action": "web_search", "slots": {"query": "python tutorial in tamil", "site": "youtube"}}
+{"text": "search amazon for 1.5 ton split ac", "lang": "en", "action": "web_search", "slots": {"query": "1.5 ton split ac", "site": "amazon"}}
+{"text": "find laptops under 50000 on flipkart", "lang": "en", "action": "web_search", "slots": {"query": "laptops under 50000", "site": "flipkart"}}
+{"text": "explain what is GST", "lang": "en", "action": "web_search", "slots": {"query": "what is GST"}}
+{"text": "when is the next India match", "lang": "en", "action": "web_search", "slots": {"query": "when is the next India match"}}
+{"text": "who sang Tum Hi Ho", "lang": "en", "action": "web_search", "slots": {"query": "who sang Tum Hi Ho"}}
+{"text": "search Kesariya lyrics", "lang": "en", "action": "web_search", "slots": {"query": "Kesariya lyrics"}}
+{"text": "what is the age of Rajinikanth", "lang": "en", "action": "web_search", "slots": {"query": "what is the age of Rajinikanth"}}
+{"text": "pushpa 2 ott release date", "lang": "en", "action": "web_search", "slots": {"query": "pushpa 2 ott release date"}}
+{"text": "how to renew passport online", "lang": "en", "action": "web_search", "slots": {"query": "how to renew passport online"}}
+{"text": "what is UPI lite", "lang": "en", "action": "web_search", "slots": {"query": "what is UPI lite"}}
+{"text": "atms near me", "lang": "en", "action": "web_search", "slots": {"query": "atms near me"}}
+{"text": "bangalore to mysore train timings", "lang": "en", "action": "web_search", "slots": {"query": "bangalore to mysore train timings"}}
+{"text": "explain blockchain in simple words", "lang": "en", "action": "web_search", "slots": {"query": "blockchain in simple words"}}
+{"text": "tell me about Ratan Tata", "lang": "en", "action": "web_search", "slots": {"query": "Ratan Tata"}}
+{"text": "whats the score in the RCB match", "lang": "en", "action": "web_search", "slots": {"query": "whats the score in the RCB match"}}
+{"text": "search linkedin for data analyst jobs in hyderabad", "lang": "en", "action": "web_search", "slots": {"query": "data analyst jobs in hyderabad", "site": "linkedin"}}
+{"text": "umm play arijit singh songs", "lang": "en", "action": "play_media", "slots": {"query": "arijit singh"}}
+{"text": "play Tum Hi Ho on youtube", "lang": "en", "action": "play_media", "slots": {"query": "Tum Hi Ho", "app": "youtube"}}
+{"text": "play Anirudh songs on spotify", "lang": "en", "action": "play_media", "slots": {"query": "Anirudh", "app": "spotify"}}
+{"text": "play Kishore Kumar classics", "lang": "en", "action": "play_media", "slots": {"query": "Kishore Kumar classics"}}
+{"text": "play some music", "lang": "en", "action": "play_media", "slots": {}}
+{"text": "play music on spotify", "lang": "en", "action": "play_media", "slots": {"app": "spotify"}}
+{"text": "play lofi on youtube music", "lang": "en", "action": "play_media", "slots": {"query": "lofi", "app": "youtube music"}}
+{"text": "play Cyrus Says podcast", "lang": "en", "action": "play_media", "slots": {"query": "Cyrus Says"}}
+{"text": "play Blinding Lights by the weeknd", "lang": "en", "action": "play_media", "slots": {"query": "Blinding Lights by the weeknd"}}
+{"text": "play AP Dhillon on gaana", "lang": "en", "action": "play_media", "slots": {"query": "AP Dhillon", "app": "gaana"}}
+{"text": "play Hanuman Chalisa", "lang": "en", "action": "play_media", "slots": {"query": "Hanuman Chalisa"}}
+{"text": "play carnatic violin instrumental", "lang": "en", "action": "play_media", "slots": {"query": "carnatic violin instrumental"}}
+{"text": "hey play shape of you", "lang": "en", "action": "play_media", "slots": {"query": "shape of you"}}
+{"text": "play Sid Sriram melodies", "lang": "en", "action": "play_media", "slots": {"query": "Sid Sriram melodies"}}
+{"text": "play Believer by Imagine Dragons on spotify", "lang": "en", "action": "play_media", "slots": {"query": "Believer by Imagine Dragons", "app": "spotify"}}
+{"text": "play 90s bollywood hits", "lang": "en", "action": "play_media", "slots": {"query": "90s bollywood hits"}}
+{"text": "play Ilaiyaraaja songs on jiosaavn", "lang": "en", "action": "play_media", "slots": {"query": "Ilaiyaraaja", "app": "jiosaavn"}}
+{"text": "play Coke Studio Bharat", "lang": "en", "action": "play_media", "slots": {"query": "Coke Studio Bharat"}}
+{"text": "play rain sounds for sleeping", "lang": "en", "action": "play_media", "slots": {"query": "rain sounds for sleeping"}}
+{"text": "play Chaiyya Chaiyya", "lang": "en", "action": "play_media", "slots": {"query": "Chaiyya Chaiyya"}}
+{"text": "play pasoori on you tube", "lang": "en", "action": "play_media", "slots": {"query": "pasoori", "app": "you tube"}}
+{"text": "can you play Divine's new song", "lang": "en", "action": "play_media", "slots": {"query": "Divine's new song"}}
+{"text": "play Kun Faya Kun", "lang": "en", "action": "play_media", "slots": {"query": "Kun Faya Kun"}}
+{"text": "play King maan meri jaan", "lang": "en", "action": "play_media", "slots": {"query": "King maan meri jaan"}}
+{"text": "play Karan Aujla on wynk", "lang": "en", "action": "play_media", "slots": {"query": "Karan Aujla", "app": "wynk"}}
+{"text": "play the RRR trailer", "lang": "en", "action": "play_media", "slots": {"query": "RRR trailer"}}
+{"text": "play Mr Bean episodes on youtube", "lang": "en", "action": "play_media", "slots": {"query": "Mr Bean episodes", "app": "youtube"}}
+{"text": "play Yellow by Coldplay", "lang": "en", "action": "play_media", "slots": {"query": "Yellow by Coldplay"}}
+{"text": "play something by Lucky Ali", "lang": "en", "action": "play_media", "slots": {"query": "Lucky Ali"}}
+{"text": "play Atif Aslam on amazon music", "lang": "en", "action": "play_media", "slots": {"query": "Atif Aslam", "app": "amazon music"}}
+{"text": "pause the music please", "lang": "en", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "stop the song for a sec", "lang": "en", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "hold on pause this video", "lang": "en", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "resume the song", "lang": "en", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "resume playback", "lang": "en", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "start the music again", "lang": "en", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "next song please", "lang": "en", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "skip this song", "lang": "en", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "play the next track", "lang": "en", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "previous song", "lang": "en", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "go back to the last song", "lang": "en", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "play the previous track", "lang": "en", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "increase the volume", "lang": "en", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "make it louder", "lang": "en", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "volume up a bit", "lang": "en", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "decrease the volume", "lang": "en", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "too loud reduce it", "lang": "en", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "lower the volume little", "lang": "en", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "mute the sound", "lang": "en", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "mute it yaar", "lang": "en", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "okay message rahul im on my way", "lang": "en", "action": "send_message", "slots": {"contact": "rahul", "text": "im on my way"}}
+{"text": "tell amma I'll be late for dinner", "lang": "en", "action": "send_message", "slots": {"contact": "amma", "text": "I'll be late for dinner"}}
+{"text": "send a whatsapp to Priya saying happy birthday", "lang": "en", "action": "send_message", "slots": {"contact": "Priya", "text": "happy birthday"}}
+{"text": "whatsapp Karthik where are you", "lang": "en", "action": "send_message", "slots": {"contact": "Karthik", "text": "where are you"}}
+{"text": "text boss running 10 min late due to traffic", "lang": "en", "action": "send_message", "slots": {"contact": "boss", "text": "running 10 min late due to traffic"}}
+{"text": "message Deepa akka that the parcel came", "lang": "en", "action": "send_message", "slots": {"contact": "Deepa akka", "text": "the parcel came"}}
+{"text": "tell Imran bhai I'll call him in the evening", "lang": "en", "action": "send_message", "slots": {"contact": "Imran bhai", "text": "I'll call him in the evening"}}
+{"text": "send good morning to the family group", "lang": "en", "action": "send_message", "slots": {"contact": "family group", "text": "good morning"}}
+{"text": "message Vikram sir I won't be able to attend class today", "lang": "en", "action": "send_message", "slots": {"contact": "Vikram sir", "text": "I won't be able to attend class today"}}
+{"text": "tell papa to pick me up from the station", "lang": "en", "action": "send_message", "slots": {"contact": "papa", "text": "pick me up from the station"}}
+{"text": "ask Sneha did you reach home", "lang": "en", "action": "send_message", "slots": {"contact": "Sneha", "text": "did you reach home"}}
+{"text": "message Gurpreet congratulations on the new job", "lang": "en", "action": "send_message", "slots": {"contact": "Gurpreet", "text": "congratulations on the new job"}}
+{"text": "send Rohit a message the address is 14 MG road", "lang": "en", "action": "send_message", "slots": {"contact": "Rohit", "text": "the address is 14 MG road"}}
+{"text": "whatsapp Joseph uncle merry christmas", "lang": "en", "action": "send_message", "slots": {"contact": "Joseph uncle", "text": "merry christmas"}}
+{"text": "tell hubby to buy vegetables on the way", "lang": "en", "action": "send_message", "slots": {"contact": "hubby", "text": "buy vegetables on the way"}}
+{"text": "message Kavya ma'am the assignment is submitted", "lang": "en", "action": "send_message", "slots": {"contact": "Kavya ma'am", "text": "the assignment is submitted"}}
+{"text": "send a msg to Harpreet see you at the gym", "lang": "en", "action": "send_message", "slots": {"contact": "Harpreet", "text": "see you at the gym"}}
+{"text": "tell Ananya I'm outside her gate", "lang": "en", "action": "send_message", "slots": {"contact": "Ananya", "text": "I'm outside her gate"}}
+{"text": "message Mr Iyer the rent is transferred", "lang": "en", "action": "send_message", "slots": {"contact": "Mr Iyer", "text": "the rent is transferred"}}
+{"text": "whatsapp Neel bro lets go for a movie tonight", "lang": "en", "action": "send_message", "slots": {"contact": "Neel bro", "text": "lets go for a movie tonight"}}
+{"text": "tell Lakshmi akka the maid is not coming today", "lang": "en", "action": "send_message", "slots": {"contact": "Lakshmi akka", "text": "the maid is not coming today"}}
+{"text": "text Siddharth call me when free", "lang": "en", "action": "send_message", "slots": {"contact": "Siddharth", "text": "call me when free"}}
+{"text": "type good morning everyone", "lang": "en", "action": "type_text", "slots": {"text": "good morning everyone"}}
+{"text": "type Ramesh Kumar", "lang": "en", "action": "type_text", "slots": {"text": "Ramesh Kumar"}}
+{"text": "write hello how are you", "lang": "en", "action": "type_text", "slots": {"text": "hello how are you"}}
+{"text": "type I will be on leave tomorrow", "lang": "en", "action": "type_text", "slots": {"text": "I will be on leave tomorrow"}}
+{"text": "type order number 40821", "lang": "en", "action": "type_text", "slots": {"text": "order number 40821"}}
+{"text": "type see you soon", "lang": "en", "action": "type_text", "slots": {"text": "see you soon"}}
+{"text": "type happy birthday da", "lang": "en", "action": "type_text", "slots": {"text": "happy birthday da"}}
+{"text": "type the meeting is rescheduled to monday", "lang": "en", "action": "type_text", "slots": {"text": "the meeting is rescheduled to monday"}}
+{"text": "write please share the invoice", "lang": "en", "action": "type_text", "slots": {"text": "please share the invoice"}}
+{"text": "type ok noted", "lang": "en", "action": "type_text", "slots": {"text": "ok noted"}}
+{"text": "type thank you sir", "lang": "en", "action": "type_text", "slots": {"text": "thank you sir"}}
+{"text": "type Koramangala 5th block", "lang": "en", "action": "type_text", "slots": {"text": "Koramangala 5th block"}}
+{"text": "write Diwali offer 20 percent off", "lang": "en", "action": "type_text", "slots": {"text": "Diwali offer 20 percent off"}}
+{"text": "type lol that was hilarious", "lang": "en", "action": "type_text", "slots": {"text": "lol that was hilarious"}}
+{"text": "type best regards Arjun", "lang": "en", "action": "type_text", "slots": {"text": "best regards Arjun"}}
+{"text": "click on login", "lang": "en", "action": "click", "slots": {"target": "login"}}
+{"text": "click the submit button", "lang": "en", "action": "click", "slots": {"target": "submit"}}
+{"text": "click on next", "lang": "en", "action": "click", "slots": {"target": "next"}}
+{"text": "click on the download button", "lang": "en", "action": "click", "slots": {"target": "download"}}
+{"text": "tap on settings", "lang": "en", "action": "click", "slots": {"target": "settings"}}
+{"text": "click on the cart icon", "lang": "en", "action": "click", "slots": {"target": "cart"}}
+{"text": "click on compose", "lang": "en", "action": "click", "slots": {"target": "compose"}}
+{"text": "click on view all", "lang": "en", "action": "click", "slots": {"target": "view all"}}
+{"text": "click the search button", "lang": "en", "action": "click", "slots": {"target": "search"}}
+{"text": "click on proceed to pay", "lang": "en", "action": "click", "slots": {"target": "proceed to pay"}}
+{"text": "click on skip ad", "lang": "en", "action": "click", "slots": {"target": "skip ad"}}
+{"text": "click on my orders", "lang": "en", "action": "click", "slots": {"target": "my orders"}}
+{"text": "uh read the screen", "lang": "en", "action": "read_screen", "slots": {}}
+{"text": "what's on my screen", "lang": "en", "action": "read_screen", "slots": {}}
+{"text": "read this page for me", "lang": "en", "action": "read_screen", "slots": {}}
+{"text": "can you read out this error message", "lang": "en", "action": "read_screen", "slots": {}}
+{"text": "explain what is on the screen", "lang": "en", "action": "read_screen", "slots": {}}
+{"text": "read the screen aloud pls", "lang": "en", "action": "read_screen", "slots": {}}
+{"text": "tell me what this popup says", "lang": "en", "action": "read_screen", "slots": {}}
+{"text": "read whatever is written here", "lang": "en", "action": "read_screen", "slots": {}}
+{"text": "cancel that", "lang": "en", "action": "cancel", "slots": {}}
+{"text": "never mind", "lang": "en", "action": "cancel", "slots": {}}
+{"text": "leave it", "lang": "en", "action": "cancel", "slots": {}}
+{"text": "forget it yaar", "lang": "en", "action": "cancel", "slots": {}}
+{"text": "no no don't do anything", "lang": "en", "action": "cancel", "slots": {}}
+{"text": "cancel the request", "lang": "en", "action": "cancel", "slots": {}}
+{"text": "set an alarm for 6 am", "lang": "en", "action": "unknown", "slots": {}}
+{"text": "increase the brightness", "lang": "en", "action": "unknown", "slots": {}}
+{"text": "call amma", "lang": "en", "action": "unknown", "slots": {}}
+{"text": "shut down the laptop", "lang": "en", "action": "unknown", "slots": {}}
+{"text": "what's your name", "lang": "en", "action": "unknown", "slots": {}}
+{"text": "remind me to pay the electricity bill", "lang": "en", "action": "unknown", "slots": {}}
+{"text": "turn on bluetooth", "lang": "en", "action": "unknown", "slots": {}}
+{"text": "Spotify", "lang": "none", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "WhatsApp", "lang": "none", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "Chrome", "lang": "none", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "YouTube", "lang": "none", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "netflix", "lang": "none", "action": "open_app", "slots": {"app": "netflix"}}
+{"text": "Zoom", "lang": "none", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "Teams", "lang": "none", "action": "open_app", "slots": {"app": "Teams"}}
+{"text": "Excel", "lang": "none", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "notepad", "lang": "none", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "Calculator", "lang": "none", "action": "open_app", "slots": {"app": "Calculator"}}
+{"text": "paint", "lang": "none", "action": "open_app", "slots": {"app": "paint"}}
+{"text": "Outlook", "lang": "none", "action": "open_app", "slots": {"app": "Outlook"}}
+{"text": "telegram", "lang": "none", "action": "open_app", "slots": {"app": "telegram"}}
+{"text": "Instagram", "lang": "none", "action": "open_app", "slots": {"app": "Instagram"}}
+{"text": "Hotstar", "lang": "none", "action": "open_app", "slots": {"app": "Hotstar"}}
+{"text": "Firefox", "lang": "none", "action": "open_app", "slots": {"app": "Firefox"}}
+{"text": "Edge", "lang": "none", "action": "open_app", "slots": {"app": "Edge"}}
+{"text": "VLC", "lang": "none", "action": "open_app", "slots": {"app": "VLC"}}
+{"text": "discord", "lang": "none", "action": "open_app", "slots": {"app": "discord"}}
+{"text": "Skype", "lang": "none", "action": "open_app", "slots": {"app": "Skype"}}
+{"text": "Photoshop", "lang": "none", "action": "open_app", "slots": {"app": "Photoshop"}}
+{"text": "VS Code", "lang": "none", "action": "open_app", "slots": {"app": "VS Code"}}
+{"text": "steam", "lang": "none", "action": "open_app", "slots": {"app": "steam"}}
+{"text": "OneNote", "lang": "none", "action": "open_app", "slots": {"app": "OneNote"}}
+{"text": "Prime Video", "lang": "none", "action": "open_app", "slots": {"app": "Prime Video"}}
+{"text": "JioCinema", "lang": "none", "action": "open_app", "slots": {"app": "JioCinema"}}
+{"text": "Canva", "lang": "none", "action": "open_app", "slots": {"app": "Canva"}}
+{"text": "Slack", "lang": "none", "action": "open_app", "slots": {"app": "Slack"}}
+{"text": "Brave", "lang": "none", "action": "open_app", "slots": {"app": "Brave"}}
+{"text": "PowerPoint", "lang": "none", "action": "open_app", "slots": {"app": "PowerPoint"}}
+{"text": "Word", "lang": "none", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "Tally", "lang": "none", "action": "open_app", "slots": {"app": "Tally"}}
+{"text": "Postman", "lang": "none", "action": "open_app", "slots": {"app": "Postman"}}
+{"text": "Kindle", "lang": "none", "action": "open_app", "slots": {"app": "Kindle"}}
+{"text": "OBS", "lang": "none", "action": "open_app", "slots": {"app": "OBS"}}
+{"text": "Opera", "lang": "none", "action": "open_app", "slots": {"app": "Opera"}}
+{"text": "next", "lang": "none", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "pause", "lang": "none", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "resume", "lang": "none", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "previous", "lang": "none", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "mute", "lang": "none", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "volume up", "lang": "none", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "volume down", "lang": "none", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "skip", "lang": "none", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "cancel", "lang": "none", "action": "cancel", "slots": {}}
+{"text": "YouTube Arijit", "lang": "none", "action": "play_media", "slots": {"query": "Arijit", "app": "YouTube"}}
+{"text": "Spotify Anirudh", "lang": "none", "action": "play_media", "slots": {"query": "Anirudh", "app": "Spotify"}}
+{"text": "Gaana Kishore", "lang": "none", "action": "play_media", "slots": {"query": "Kishore", "app": "Gaana"}}
+{"text": "JioSaavn Ilaiyaraaja", "lang": "none", "action": "play_media", "slots": {"query": "Ilaiyaraaja", "app": "JioSaavn"}}
+{"text": "Wynk Badshah", "lang": "none", "action": "play_media", "slots": {"query": "Badshah", "app": "Wynk"}}
+{"text": "spotify lofi", "lang": "none", "action": "play_media", "slots": {"query": "lofi", "app": "spotify"}}
+{"text": "youtube Pasoori", "lang": "none", "action": "play_media", "slots": {"query": "Pasoori", "app": "youtube"}}
+{"text": "Spotify Coldplay", "lang": "none", "action": "play_media", "slots": {"query": "Coldplay", "app": "Spotify"}}
+{"text": "flipkart.com", "lang": "none", "action": "open_website", "slots": {"site": "flipkart.com"}}
+{"text": "amazon.in", "lang": "none", "action": "open_website", "slots": {"site": "amazon.in"}}
+{"text": "irctc.co.in", "lang": "none", "action": "open_website", "slots": {"site": "irctc.co.in"}}
+{"text": "github.com", "lang": "none", "action": "open_website", "slots": {"site": "github.com"}}
+{"text": "wikipedia.org", "lang": "none", "action": "open_website", "slots": {"site": "wikipedia.org"}}
+{"text": "cricbuzz.com", "lang": "none", "action": "open_website", "slots": {"site": "cricbuzz.com"}}
+{"text": "myntra.com", "lang": "none", "action": "open_website", "slots": {"site": "myntra.com"}}

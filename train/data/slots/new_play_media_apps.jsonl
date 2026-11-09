@@ -1,0 +1,560 @@
+{"text": "I want to listen to Lata Mangeshkar on Spotify.", "action": "play_media", "slots": {"query": "Lata Mangeshkar", "app": "Spotify"}}
+{"text": "Spotify pe Mann Ki Baat ka naya episode lagao", "action": "play_media", "slots": {"query": "Mann Ki Baat ka naya episode", "app": "Spotify"}}
+{"text": "Play the track Chaiyya Chaiyya.", "action": "play_media", "slots": {"query": "Chaiyya Chaiyya"}}
+{"text": "tum hee ho gaana chalao", "action": "play_media", "slots": {"query": "tum hee ho"}}
+{"text": "YouTube pe Mann Ki Baat chalao.", "action": "play_media", "slots": {"query": "Mann Ki Baat", "app": "YouTube"}}
+{"text": "Spotify pe Kendrick Lamar ka naya album chalao", "action": "play_media", "slots": {"query": "Kendrick Lamar ka naya album", "app": "Spotify"}}
+{"text": "Amazon Music pe Kishore Kumar aur Lata ke duets chalao.", "action": "play_media", "slots": {"query": "Kishore Kumar aur Lata ke duets", "app": "Amazon Music"}}
+{"text": "JioSaavn la Bollywood Butter play pannu.", "action": "play_media", "slots": {"query": "Bollywood Butter", "app": "JioSaavn"}}
+{"text": "Spotify chalao aur kuch bhi laga do.", "action": "play_media", "slots": {"app": "Spotify"}}
+{"text": "youtube music pe krishna bhajans play kijiye.", "action": "play_media", "slots": {"query": "krishna bhajans", "app": "youtube music"}}
+{"text": "केसरिया गाना चलाओ", "action": "play_media", "slots": {"query": "केसरिया"}}
+{"text": "ek baar ek ladki ko dekha sunao", "action": "play_media", "slots": {"query": "ek ladki ko dekha"}}
+{"text": "Thoda music ho jaye.", "action": "play_media", "slots": {}}
+{"text": "Spotify var Vajle Ki Bara gaana laav.", "action": "play_media", "slots": {"query": "Vajle Ki Bara", "app": "Spotify"}}
+{"text": "SPB songs pettu", "action": "play_media", "slots": {"query": "SPB"}}
+{"text": "Spotify e my favourites chalao", "action": "play_media", "slots": {"query": "my favourites", "app": "Spotify"}}
+{"text": "The Ranveer Show ka latest episode chalao.", "action": "play_media", "slots": {"query": "The Ranveer Show ka latest episode"}}
+{"text": "put on some old Hindi songs.", "action": "play_media", "slots": {"query": "old Hindi songs"}}
+{"text": "YouTube Music la Ilayaraja 80s hits podu", "action": "play_media", "slots": {"query": "Ilayaraja 80s hits", "app": "YouTube Music"}}
+{"text": "spotify lo bathukamma songs vinipinchu", "action": "play_media", "slots": {"query": "bathukamma songs", "app": "spotify"}}
+{"text": "Nisha Madhulika ki recipe chalao.", "action": "play_media", "slots": {"query": "Nisha Madhulika ki recipe"}}
+{"text": "Apple Music se kuch sunao.", "action": "play_media", "slots": {"app": "Apple Music"}}
+{"text": "Please YouTube Music pe Jhoome Jo Pathaan play kar do.", "action": "play_media", "slots": {"query": "Jhoome Jo Pathaan", "app": "YouTube Music"}}
+{"text": "Spotify la Kaavaalaa play pannu", "action": "play_media", "slots": {"query": "Kaavaalaa", "app": "Spotify"}}
+{"text": "butta bomma paata pettu.", "action": "play_media", "slots": {"query": "butta bomma"}}
+{"text": "Konjam instrumental music podunga.", "action": "play_media", "slots": {"query": "instrumental music"}}
+{"text": "put on some Holi songs", "action": "play_media", "slots": {"query": "Holi songs"}}
+{"text": "KS Chithra nte paattu vekku", "action": "play_media", "slots": {"query": "KS Chithra"}}
+{"text": "யூடியூப்ல லியோ ட்ரெய்லர் போடு", "action": "play_media", "slots": {"query": "லியோ ட்ரெய்லர்", "app": "யூடியூப்"}}
+{"text": "Gana app pe Kishore Kumar ke gaane chalao", "action": "play_media", "slots": {"query": "Kishore Kumar", "app": "Gana"}}
+{"text": "DSP paatalu vinipinchu", "action": "play_media", "slots": {"query": "DSP"}}
+{"text": "Adhunik gaan shunte chai, chalao", "action": "play_media", "slots": {"query": "Adhunik gaan"}}
+{"text": "Salaar trailer haaku.", "action": "play_media", "slots": {"query": "Salaar trailer"}}
+{"text": "YouTube lo EDM vinipinchu.", "action": "play_media", "slots": {"query": "EDM", "app": "YouTube"}}
+{"text": "Spotify pe play Kun Faya Kun.", "action": "play_media", "slots": {"query": "Kun Faya Kun", "app": "Spotify"}}
+{"text": "yaar ed sheeran laga do.", "action": "play_media", "slots": {"query": "ed sheeran"}}
+{"text": "Rowdy Baby song play pannunga.", "action": "play_media", "slots": {"query": "Rowdy Baby"}}
+{"text": "shuffle workout playlist", "action": "play_media", "slots": {"query": "workout playlist"}}
+{"text": "JioSaavn లో తమన్ సాంగ్స్ ప్లే చేయి", "action": "play_media", "slots": {"query": "తమన్", "app": "JioSaavn"}}
+{"text": "put on High Hopes", "action": "play_media", "slots": {"query": "High Hopes"}}
+{"text": "ek baar Maan Meri Jaan sunao.", "action": "play_media", "slots": {"query": "Maan Meri Jaan"}}
+{"text": "dua lipa ke gaane jiosaavn pe bajao", "action": "play_media", "slots": {"query": "dua lipa", "app": "jiosaavn"}}
+{"text": "youtube kholke the seen and the unseen chalao.", "action": "play_media", "slots": {"query": "the seen and the unseen", "app": "youtube"}}
+{"text": "Arijit sing ka gana sunao.", "action": "play_media", "slots": {"query": "Arijit sing"}}
+{"text": "IPL highlights lagao.", "action": "play_media", "slots": {"query": "IPL highlights"}}
+{"text": "Puneeth Rajkumar haadugalu haaku", "action": "play_media", "slots": {"query": "Puneeth Rajkumar"}}
+{"text": "Just play something.", "action": "play_media", "slots": {}}
+{"text": "Mujhe dard bhare gaane sunna hai", "action": "play_media", "slots": {"query": "dard bhare gaane"}}
+{"text": "You Tube nalli Rajkumar haadu haaku", "action": "play_media", "slots": {"query": "Rajkumar", "app": "You Tube"}}
+{"text": "Music on karo", "action": "play_media", "slots": {}}
+{"text": "Bhakti geet lagao.", "action": "play_media", "slots": {"query": "Bhakti geet"}}
+{"text": "Cyrus Says bajao.", "action": "play_media", "slots": {"query": "Cyrus Says"}}
+{"text": "Chaleya chalao.", "action": "play_media", "slots": {"query": "Chaleya"}}
+{"text": "Can you play Bad Guy on YouTube Music?", "action": "play_media", "slots": {"query": "Bad Guy", "app": "YouTube Music"}}
+{"text": "Arijit Singh avara haadu haakri.", "action": "play_media", "slots": {"query": "Arijit Singh"}}
+{"text": "Wynk e Nachiketa er gaan chalao.", "action": "play_media", "slots": {"query": "Nachiketa", "app": "Wynk"}}
+{"text": "Play Maroon 5 songs on JioSaavn.", "action": "play_media", "slots": {"query": "Maroon 5", "app": "JioSaavn"}}
+{"text": "please play Coldplay in Amazon Music", "action": "play_media", "slots": {"query": "Coldplay", "app": "Amazon Music"}}
+{"text": "spotify la chinmayi paattu podunga.", "action": "play_media", "slots": {"query": "chinmayi", "app": "spotify"}}
+{"text": "Please play Vikram in Spotify.", "action": "play_media", "slots": {"query": "Vikram", "app": "Spotify"}}
+{"text": "I want to hear Dynamite.", "action": "play_media", "slots": {"query": "Dynamite"}}
+{"text": "start my workout playlist on Jio Saavn", "action": "play_media", "slots": {"query": "my workout playlist", "app": "Jio Saavn"}}
+{"text": "jiosaavn pe lavani play kijiye.", "action": "play_media", "slots": {"query": "lavani", "app": "jiosaavn"}}
+{"text": "Bojhena Shey Bojhena gaan ta chalao.", "action": "play_media", "slots": {"query": "Bojhena Shey Bojhena"}}
+{"text": "YouTube la Salaar trailer podu.", "action": "play_media", "slots": {"query": "Salaar trailer", "app": "YouTube"}}
+{"text": "Spotify alli yaavudadru haadu haaku", "action": "play_media", "slots": {"app": "Spotify"}}
+{"text": "Gym ja raha hoon, workout playlist chala do.", "action": "play_media", "slots": {"query": "workout playlist"}}
+{"text": "KK ke songs play karo", "action": "play_media", "slots": {"query": "KK"}}
+{"text": "Bombe Helutaite play maadu guru", "action": "play_media", "slots": {"query": "Bombe Helutaite"}}
+{"text": "Start playing Nazrul Geeti", "action": "play_media", "slots": {"query": "Nazrul Geeti"}}
+{"text": "Hey play Why This Kolaveri Di from YouTube.", "action": "play_media", "slots": {"query": "Why This Kolaveri Di", "app": "YouTube"}}
+{"text": "Anirudh paattu podu", "action": "play_media", "slots": {"query": "Anirudh"}}
+{"text": "রবীন্দ্রসংগীত চালাও", "action": "play_media", "slots": {"query": "রবীন্দ্রসংগীত"}}
+{"text": "play me something by coldplay", "action": "play_media", "slots": {"query": "coldplay"}}
+{"text": "Play some lofi on youtube music.", "action": "play_media", "slots": {"query": "lofi", "app": "youtube music"}}
+{"text": "Gaana app pe kuch bhi bajao", "action": "play_media", "slots": {"app": "Gaana"}}
+{"text": "abhi nayi film ke gaane chalao.", "action": "play_media", "slots": {"query": "nayi film ke gaane"}}
+{"text": "JioSaavn lo DSP paatalu pettu.", "action": "play_media", "slots": {"query": "DSP", "app": "JioSaavn"}}
+{"text": "Spotify open karo aur Kabira bajao.", "action": "play_media", "slots": {"query": "Kabira", "app": "Spotify"}}
+{"text": "YouTube kholke Raataan Lambiyan chalao.", "action": "play_media", "slots": {"query": "Raataan Lambiyan", "app": "YouTube"}}
+{"text": "Play Lex Fridman podcast.", "action": "play_media", "slots": {"query": "Lex Fridman podcast"}}
+{"text": "Amazon Music pe kuch play karo", "action": "play_media", "slots": {"app": "Amazon Music"}}
+{"text": "YouTube Music alli Kesariya play maadi.", "action": "play_media", "slots": {"query": "Kesariya", "app": "YouTube Music"}}
+{"text": "Let's listen to BTS.", "action": "play_media", "slots": {"query": "BTS"}}
+{"text": "listen to Badshah on Gaana.", "action": "play_media", "slots": {"query": "Badshah", "app": "Gaana"}}
+{"text": "Spotify pe Bhagavad Gita podcast sunao.", "action": "play_media", "slots": {"query": "Bhagavad Gita podcast", "app": "Spotify"}}
+{"text": "can you play Hotel California on YouTube Music?", "action": "play_media", "slots": {"query": "Hotel California", "app": "YouTube Music"}}
+{"text": "Can you play some songs?", "action": "play_media", "slots": {}}
+{"text": "I'd like to hear Someone Like You on YouTube.", "action": "play_media", "slots": {"query": "Someone Like You", "app": "YouTube"}}
+{"text": "Haadu haaku.", "action": "play_media", "slots": {}}
+{"text": "Spotify pe Tum Hi Ho gaana chalao.", "action": "play_media", "slots": {"query": "Tum Hi Ho", "app": "Spotify"}}
+{"text": "Kal ka match highlights chalao", "action": "play_media", "slots": {"query": "Kal ka match highlights"}}
+{"text": "Khaana banate waqt sunne ke liye kuch old Hindi songs lagao", "action": "play_media", "slots": {"query": "old Hindi songs"}}
+{"text": "YouTube alli Ninna Nodalanthe song haaki please", "action": "play_media", "slots": {"query": "Ninna Nodalanthe", "app": "YouTube"}}
+{"text": "Ennai Konjam paattu podunga please.", "action": "play_media", "slots": {"query": "Ennai Konjam"}}
+{"text": "Spotify open maadi Bombe Helutaite haaku.", "action": "play_media", "slots": {"query": "Bombe Helutaite", "app": "Spotify"}}
+{"text": "Play my downloaded songs from Spotify.", "action": "play_media", "slots": {"query": "my downloaded songs", "app": "Spotify"}}
+{"text": "गणपती आरती लावा", "action": "play_media", "slots": {"query": "गणपती आरती"}}
+{"text": "I want to hear Starboy.", "action": "play_media", "slots": {"query": "Starboy"}}
+{"text": "Play creep by radio head", "action": "play_media", "slots": {"query": "creep by radio head"}}
+{"text": "श्रेया घोषाल के गाने सुनाओ", "action": "play_media", "slots": {"query": "श्रेया घोषाल"}}
+{"text": "कोई गाना चलाओ", "action": "play_media", "slots": {}}
+{"text": "Play the song Blinding Lights.", "action": "play_media", "slots": {"query": "Blinding Lights"}}
+{"text": "Spotify te Rabindra Sangeet chalao to", "action": "play_media", "slots": {"query": "Rabindra Sangeet", "app": "Spotify"}}
+{"text": "YouTube il party songs onnu vekkamo.", "action": "play_media", "slots": {"query": "party songs", "app": "YouTube"}}
+{"text": "Play my favourites from JioSaavn.", "action": "play_media", "slots": {"query": "my favourites", "app": "JioSaavn"}}
+{"text": "Play anything on JioSaavn.", "action": "play_media", "slots": {"app": "JioSaavn"}}
+{"text": "Spotify la ethachum podu", "action": "play_media", "slots": {"app": "Spotify"}}
+{"text": "Pal Pal Dil Ke Paas song lagao na.", "action": "play_media", "slots": {"query": "Pal Pal Dil Ke Paas"}}
+{"text": "CSK match highlights pettu.", "action": "play_media", "slots": {"query": "CSK match highlights"}}
+{"text": "BB ki Vines chalao.", "action": "play_media", "slots": {"query": "BB ki Vines"}}
+{"text": "Belageddu haaku", "action": "play_media", "slots": {"query": "Belageddu"}}
+{"text": "India vs Pakistan highlights lagao", "action": "play_media", "slots": {"query": "India vs Pakistan highlights"}}
+{"text": "Youtube music pe kesaria chalao", "action": "play_media", "slots": {"query": "kesaria", "app": "Youtube music"}}
+{"text": "Zara YouTube Music pe romantic gaane laga do", "action": "play_media", "slots": {"query": "romantic gaane", "app": "YouTube Music"}}
+{"text": "அரபிக் குத்து பாட்டு போடு", "action": "play_media", "slots": {"query": "அரபிக் குத்து"}}
+{"text": "YouTube il Jimikki Kammal song idu.", "action": "play_media", "slots": {"query": "Jimikki Kammal", "app": "YouTube"}}
+{"text": "Play Daily Mix 1", "action": "play_media", "slots": {"query": "Daily Mix 1"}}
+{"text": "Konchem mass songs pettandi.", "action": "play_media", "slots": {"query": "mass songs"}}
+{"text": "JioSaavn lo morning playlist play cheyyandi.", "action": "play_media", "slots": {"query": "morning playlist", "app": "JioSaavn"}}
+{"text": "Play Alka Yagnik's songs on Youtube", "action": "play_media", "slots": {"query": "Alka Yagnik", "app": "Youtube"}}
+{"text": "പഴയ മലയാളം പാട്ടുകൾ ഇടൂ", "action": "play_media", "slots": {"query": "പഴയ മലയാളം പാട്ടുകൾ"}}
+{"text": "Bela Shende chi gaani laav.", "action": "play_media", "slots": {"query": "Bela Shende"}}
+{"text": "JioSaavn lo edaina song pettu", "action": "play_media", "slots": {"app": "JioSaavn"}}
+{"text": "JioSaavn e Tumi Robe Nirobe gaan ta chalao.", "action": "play_media", "slots": {"query": "Tumi Robe Nirobe", "app": "JioSaavn"}}
+{"text": "Raat ko sone ke liye rain sounds chala do", "action": "play_media", "slots": {"query": "rain sounds"}}
+{"text": "Shuffle some songs on Spotify.", "action": "play_media", "slots": {"app": "Spotify"}}
+{"text": "Play me something by Sid Sriram", "action": "play_media", "slots": {"query": "Sid Sriram"}}
+{"text": "jiosaavn il vidyasagar play cheyyu", "action": "play_media", "slots": {"query": "vidyasagar", "app": "jiosaavn"}}
+{"text": "vishal mishra ka gaana bajao.", "action": "play_media", "slots": {"query": "vishal mishra"}}
+{"text": "Spotify mein Shreya Ghoshal play karo", "action": "play_media", "slots": {"query": "Shreya Ghoshal", "app": "Spotify"}}
+{"text": "Oo Antava play cheyyi.", "action": "play_media", "slots": {"query": "Oo Antava"}}
+{"text": "pritam play kijiye please", "action": "play_media", "slots": {"query": "pritam"}}
+{"text": "YouTube वर लता मंगेशकर यांची गाणी लावा", "action": "play_media", "slots": {"query": "लता मंगेशकर", "app": "YouTube"}}
+{"text": "Abhi Om Namah Shivaya chant chalao", "action": "play_media", "slots": {"query": "Om Namah Shivaya chant"}}
+{"text": "Yaar Diljit Dosanjh laga do", "action": "play_media", "slots": {"query": "Diljit Dosanjh"}}
+{"text": "Spotify lo Blinding Lights play cheyyi.", "action": "play_media", "slots": {"query": "Blinding Lights", "app": "Spotify"}}
+{"text": "जियोसावन पर सोनू निगम चलाओ", "action": "play_media", "slots": {"query": "सोनू निगम", "app": "जियोसावन"}}
+{"text": "Hiphop Tamizha oda songs podu da.", "action": "play_media", "slots": {"query": "Hiphop Tamizha"}}
+{"text": "put on some music please", "action": "play_media", "slots": {}}
+{"text": "Bachchon ke liye YouTube pe Chhota Bheem lagao.", "action": "play_media", "slots": {"query": "Chhota Bheem", "app": "YouTube"}}
+{"text": "JioSaavn pe Honey Singh ke songs lagao.", "action": "play_media", "slots": {"query": "Honey Singh", "app": "JioSaavn"}}
+{"text": "Excuses play karo.", "action": "play_media", "slots": {"query": "Excuses"}}
+{"text": "play the bahubali trailer.", "action": "play_media", "slots": {"query": "the bahubali trailer"}}
+{"text": "Play Post Malone songs.", "action": "play_media", "slots": {"query": "Post Malone"}}
+{"text": "Radiohead wale gaane chalao.", "action": "play_media", "slots": {"query": "Radiohead"}}
+{"text": "Konjam Carnatic kritis podunga.", "action": "play_media", "slots": {"query": "Carnatic kritis"}}
+{"text": "Kya aap Wynk pe Mere Sapno Ki Rani chala sakte ho?", "action": "play_media", "slots": {"query": "Mere Sapno Ki Rani", "app": "Wynk"}}
+{"text": "Thaman paatalu vinipinchu", "action": "play_media", "slots": {"query": "Thaman"}}
+{"text": "Mujhe Youtube pe AR Rahman sunna hai", "action": "play_media", "slots": {"query": "AR Rahman", "app": "Youtube"}}
+{"text": "can you play Why This Kolaveri Di please?", "action": "play_media", "slots": {"query": "Why This Kolaveri Di"}}
+{"text": "lo-fi music kekkanum, podu", "action": "play_media", "slots": {"query": "lo-fi music"}}
+{"text": "Paattu onnu podu da", "action": "play_media", "slots": {}}
+{"text": "yaar Desi Crime Podcast laga do", "action": "play_media", "slots": {"query": "Desi Crime Podcast"}}
+{"text": "youtube la village cooking channel podu.", "action": "play_media", "slots": {"query": "village cooking channel", "app": "youtube"}}
+{"text": "Background mein Krishna ji ke bhajan chala do", "action": "play_media", "slots": {"query": "Krishna ji ke bhajan"}}
+{"text": "swalpa YouTube alli Bombe Helutaite haakthiya.", "action": "play_media", "slots": {"query": "Bombe Helutaite", "app": "YouTube"}}
+{"text": "Atif Aslam ka gaana bajao.", "action": "play_media", "slots": {"query": "Atif Aslam"}}
+{"text": "play my liked songs from Spotify", "action": "play_media", "slots": {"query": "my liked songs", "app": "Spotify"}}
+{"text": "Spotify లో సిద్ శ్రీరామ్ పాటలు పెట్టు", "action": "play_media", "slots": {"query": "సిద్ శ్రీరామ్", "app": "Spotify"}}
+{"text": "I feel like listening to jazz.", "action": "play_media", "slots": {"query": "jazz"}}
+{"text": "Kya aap Spotify pe Ilahi chala sakte ho?", "action": "play_media", "slots": {"query": "Ilahi", "app": "Spotify"}}
+{"text": "Kesariya play karo.", "action": "play_media", "slots": {"query": "Kesariya"}}
+{"text": "Play Cocomelon", "action": "play_media", "slots": {"query": "Cocomelon"}}
+{"text": "Gaana पर तुम ही हो चलाओ", "action": "play_media", "slots": {"query": "तुम ही हो", "app": "Gaana"}}
+{"text": "Play music on YouTube Music", "action": "play_media", "slots": {"app": "YouTube Music"}}
+{"text": "Start Global Top 50", "action": "play_media", "slots": {"query": "Global Top 50"}}
+{"text": "Nenjukkul Peidhidum paattu podunga please.", "action": "play_media", "slots": {"query": "Nenjukkul Peidhidum"}}
+{"text": "मेरी वर्कआउट प्लेलिस्ट चलाओ", "action": "play_media", "slots": {"query": "मेरी वर्कआउट प्लेलिस्ट"}}
+{"text": "Wynk, play Maroon 5.", "action": "play_media", "slots": {"query": "Maroon 5", "app": "Wynk"}}
+{"text": "Gaane sunao na", "action": "play_media", "slots": {}}
+{"text": "Spotify la edhavadhu paattu podu.", "action": "play_media", "slots": {"app": "Spotify"}}
+{"text": "Wynk la Hiphop Tamizha songs podu.", "action": "play_media", "slots": {"query": "Hiphop Tamizha", "app": "Wynk"}}
+{"text": "Spotify pe radio head chalao.", "action": "play_media", "slots": {"query": "radio head", "app": "Spotify"}}
+{"text": "Abhang laav.", "action": "play_media", "slots": {"query": "Abhang"}}
+{"text": "Youtube il Thiruvaavaniraavu play cheyyu", "action": "play_media", "slots": {"query": "Thiruvaavaniraavu", "app": "Youtube"}}
+{"text": "manjummel boys trailer podu.", "action": "play_media", "slots": {"query": "manjummel boys trailer"}}
+{"text": "Vidyasagar songs idu.", "action": "play_media", "slots": {"query": "Vidyasagar"}}
+{"text": "Spotify ல அனிருத் பாட்டு போடு", "action": "play_media", "slots": {"query": "அனிருத்", "app": "Spotify"}}
+{"text": "YouTube Music lo Thaman paatalu pettu.", "action": "play_media", "slots": {"query": "Thaman", "app": "YouTube Music"}}
+{"text": "play The Beatles on YouTube Music.", "action": "play_media", "slots": {"query": "The Beatles", "app": "YouTube Music"}}
+{"text": "Spotify open chesi Inkem Inkem pettu.", "action": "play_media", "slots": {"query": "Inkem Inkem", "app": "Spotify"}}
+{"text": "Could you play The Daily", "action": "play_media", "slots": {"query": "The Daily"}}
+{"text": "Youtube pe Shaktimaan ka episode chalao.", "action": "play_media", "slots": {"query": "Shaktimaan ka episode", "app": "Youtube"}}
+{"text": "Background mein 90s ke gaane chala do", "action": "play_media", "slots": {"query": "90s ke gaane"}}
+{"text": "YouTube alli CSK match highlights haaku.", "action": "play_media", "slots": {"query": "CSK match highlights", "app": "YouTube"}}
+{"text": "ondsala mungaru maleye haaku.", "action": "play_media", "slots": {"query": "mungaru maleye"}}
+{"text": "Play me something by Arctic Monkeys.", "action": "play_media", "slots": {"query": "Arctic Monkeys"}}
+{"text": "YouTube la romantic songs podunga.", "action": "play_media", "slots": {"query": "romantic songs", "app": "YouTube"}}
+{"text": "Start playing old Tamil songs", "action": "play_media", "slots": {"query": "old Tamil songs"}}
+{"text": "Listen to Post Malone on Youtube", "action": "play_media", "slots": {"query": "Post Malone", "app": "Youtube"}}
+{"text": "mujhe sunday morning songs sunna hai", "action": "play_media", "slots": {"query": "sunday morning songs"}}
+{"text": "Play Bruno Mars", "action": "play_media", "slots": {"query": "Bruno Mars"}}
+{"text": "Kuch music bajao", "action": "play_media", "slots": {}}
+{"text": "তুমি রবে নীরবে গানটা চালাও", "action": "play_media", "slots": {"query": "তুমি রবে নীরবে"}}
+{"text": "YouTube Music var Sairat Zaala Ji play kar", "action": "play_media", "slots": {"query": "Sairat Zaala Ji", "app": "YouTube Music"}}
+{"text": "abhi desi hip hop chalao.", "action": "play_media", "slots": {"query": "desi hip hop"}}
+{"text": "Play some music.", "action": "play_media", "slots": {}}
+{"text": "முருகன் பக்தி பாடல்கள் போடு", "action": "play_media", "slots": {"query": "முருகன் பக்தி பாடல்கள்"}}
+{"text": "CarryMinati ka naya video lagao", "action": "play_media", "slots": {"query": "CarryMinati ka naya video"}}
+{"text": "shilajit er gaan chalao", "action": "play_media", "slots": {"query": "shilajit"}}
+{"text": "Wynk var Global Top 50 chalu kar", "action": "play_media", "slots": {"query": "Global Top 50", "app": "Wynk"}}
+{"text": "Play my Sunday playlist", "action": "play_media", "slots": {"query": "my Sunday playlist"}}
+{"text": "Ek kaam karo, YouTube Music pe Atif Aslam chala do.", "action": "play_media", "slots": {"query": "Atif Aslam", "app": "YouTube Music"}}
+{"text": "could you play kal ho naa ho", "action": "play_media", "slots": {"query": "kal ho naa ho"}}
+{"text": "Mujhe study music sunna hai.", "action": "play_media", "slots": {"query": "study music"}}
+{"text": "अभंग वाजव", "action": "play_media", "slots": {"query": "अभंग"}}
+{"text": "Gaana pe slow songs play kijiye", "action": "play_media", "slots": {"query": "slow songs", "app": "Gaana"}}
+{"text": "ಪುನೀತ್ ರಾಜಕುಮಾರ್ ಹಾಡುಗಳನ್ನು ಹಾಕಿ", "action": "play_media", "slots": {"query": "ಪುನೀತ್ ರಾಜಕುಮಾರ್"}}
+{"text": "Play the song Creep.", "action": "play_media", "slots": {"query": "Creep"}}
+{"text": "play some rain songs.", "action": "play_media", "slots": {"query": "rain songs"}}
+{"text": "Ekta gaan chalao.", "action": "play_media", "slots": {}}
+{"text": "Mere liked songs chalao.", "action": "play_media", "slots": {"query": "Mere liked songs"}}
+{"text": "Spotify par Imagine Dragons ke gaane bajao.", "action": "play_media", "slots": {"query": "Imagine Dragons", "app": "Spotify"}}
+{"text": "लता मंगेशकर के भजन सुनाओ", "action": "play_media", "slots": {"query": "लता मंगेशकर के भजन"}}
+{"text": "Spotify ൽ യേശുദാസ് പാട്ട് ഇടൂ", "action": "play_media", "slots": {"query": "യേശുദാസ്", "app": "Spotify"}}
+{"text": "Bombe Adsonu song play maadu.", "action": "play_media", "slots": {"query": "Bombe Adsonu"}}
+{"text": "put on The Beatles", "action": "play_media", "slots": {"query": "The Beatles"}}
+{"text": "Spotify তে অরিজিৎ সিং এর গান চালাও", "action": "play_media", "slots": {"query": "অরিজিৎ সিং", "app": "Spotify"}}
+{"text": "bhai Spotify pe Pritam bajao na.", "action": "play_media", "slots": {"query": "Pritam", "app": "Spotify"}}
+{"text": "Swalpa lo-fi haaki please.", "action": "play_media", "slots": {"query": "lo-fi"}}
+{"text": "சித் ஸ்ரீராம் பாடல்கள் ப்ளே பண்ணு", "action": "play_media", "slots": {"query": "சித் ஸ்ரீராம்"}}
+{"text": "Start my downloaded songs.", "action": "play_media", "slots": {"query": "my downloaded songs"}}
+{"text": "Spotify var Mala Ved Laagale gaana laav.", "action": "play_media", "slots": {"query": "Mala Ved Laagale", "app": "Spotify"}}
+{"text": "put on Let It Be", "action": "play_media", "slots": {"query": "Let It Be"}}
+{"text": "YouTube pe kuch chalao.", "action": "play_media", "slots": {"app": "YouTube"}}
+{"text": "Ar rahman ke songs chalavo.", "action": "play_media", "slots": {"query": "Ar rahman"}}
+{"text": "Ilahi song lagao na.", "action": "play_media", "slots": {"query": "Ilahi"}}
+{"text": "Spotify lo Chitra songs pettandi.", "action": "play_media", "slots": {"query": "Chitra", "app": "Spotify"}}
+{"text": "Ektu chill music chalao", "action": "play_media", "slots": {"query": "chill music"}}
+{"text": "spotify se lex fridman podcast play karo.", "action": "play_media", "slots": {"query": "lex fridman podcast", "app": "spotify"}}
+{"text": "Raghu Dixit avara haadu haakri.", "action": "play_media", "slots": {"query": "Raghu Dixit"}}
+{"text": "Arabic Kuthu song play pannunga.", "action": "play_media", "slots": {"query": "Arabic Kuthu"}}
+{"text": "Youtube wale app mein Atif Aslam bajao.", "action": "play_media", "slots": {"query": "Atif Aslam", "app": "Youtube"}}
+{"text": "play some rabindra sangeet.", "action": "play_media", "slots": {"query": "rabindra sangeet"}}
+{"text": "Play Rajasthani folk please", "action": "play_media", "slots": {"query": "Rajasthani folk"}}
+{"text": "zara Gaana pe subah ke bhajan laga do.", "action": "play_media", "slots": {"query": "subah ke bhajan", "app": "Gaana"}}
+{"text": "Jio Saavn il Malayalam melodies onnu vekkamo.", "action": "play_media", "slots": {"query": "Malayalam melodies", "app": "Jio Saavn"}}
+{"text": "play the track Karma Police", "action": "play_media", "slots": {"query": "Karma Police"}}
+{"text": "kuch acha sa sunao yaar", "action": "play_media", "slots": {}}
+{"text": "Spotify kholke kuch bhi bajao", "action": "play_media", "slots": {"app": "Spotify"}}
+{"text": "Spotify la Rowdy Baby song podu da.", "action": "play_media", "slots": {"query": "Rowdy Baby", "app": "Spotify"}}
+{"text": "meri sad playlist chalao.", "action": "play_media", "slots": {"query": "meri sad playlist"}}
+{"text": "ജിമിക്കി കമ്മൽ പ്ലേ ചെയ്യൂ", "action": "play_media", "slots": {"query": "ജിമിക്കി കമ്മൽ"}}
+{"text": "YouTube Music open chesi Naatu Naatu pettu", "action": "play_media", "slots": {"query": "Naatu Naatu", "app": "YouTube Music"}}
+{"text": "Play Arijit Singh's Kesariya on Spotify", "action": "play_media", "slots": {"query": "Arijit Singh's Kesariya", "app": "Spotify"}}
+{"text": "Jawan trailer dikhao", "action": "play_media", "slots": {"query": "Jawan trailer"}}
+{"text": "Armaan Malik wale gaane chalao.", "action": "play_media", "slots": {"query": "Armaan Malik"}}
+{"text": "ಎಸ್ ಪಿ ಬಿ ಹಾಡುಗಳು ಹಾಕು", "action": "play_media", "slots": {"query": "ಎಸ್ ಪಿ ಬಿ"}}
+{"text": "Shuffle Bollywood Butter.", "action": "play_media", "slots": {"query": "Bollywood Butter"}}
+{"text": "Spotify pe Raataan Lambiyan lagao yaar.", "action": "play_media", "slots": {"query": "Raataan Lambiyan", "app": "Spotify"}}
+{"text": "स्पॉटिफाई पर रफ़ी साहब के गाने चलाओ", "action": "play_media", "slots": {"query": "रफ़ी साहब", "app": "स्पॉटिफाई"}}
+{"text": "Inkem Inkem paata pettu.", "action": "play_media", "slots": {"query": "Inkem Inkem"}}
+{"text": "ek kaam karo, Spotify pe KK chala do.", "action": "play_media", "slots": {"query": "KK", "app": "Spotify"}}
+{"text": "YouTube par jaake sukoon wala music lagao", "action": "play_media", "slots": {"query": "sukoon wala music", "app": "YouTube"}}
+{"text": "Put Kal Ho Naa Ho on Spotify.", "action": "play_media", "slots": {"query": "Kal Ho Naa Ho", "app": "Spotify"}}
+{"text": "Konjam Spotify la A R Rahman podu.", "action": "play_media", "slots": {"query": "A R Rahman", "app": "Spotify"}}
+{"text": "MM Keeravani songs pettu.", "action": "play_media", "slots": {"query": "MM Keeravani"}}
+{"text": "Apple music pe linkin park numb play karo", "action": "play_media", "slots": {"query": "linkin park numb", "app": "Apple music"}}
+{"text": "Sunday morning, konjam Carnatic music podunga", "action": "play_media", "slots": {"query": "Carnatic music"}}
+{"text": "Hey, play Blinding Lights by The Weeknd", "action": "play_media", "slots": {"query": "Blinding Lights by The Weeknd"}}
+{"text": "Vajle Ki Bara vajav", "action": "play_media", "slots": {"query": "Vajle Ki Bara"}}
+{"text": "play MrBeast's latest video.", "action": "play_media", "slots": {"query": "MrBeast's latest video"}}
+{"text": "The Weeknd chalao.", "action": "play_media", "slots": {"query": "The Weeknd"}}
+{"text": "YouTube pe King ke songs lagao.", "action": "play_media", "slots": {"query": "King", "app": "YouTube"}}
+{"text": "Gaana bajao bhai, mood off hai.", "action": "play_media", "slots": {}}
+{"text": "spotify pe Pal Pal Dil Ke Paas gaana chalao", "action": "play_media", "slots": {"query": "Pal Pal Dil Ke Paas", "app": "spotify"}}
+{"text": "YouTube Music par Udit Narayan ke gaane bajao.", "action": "play_media", "slots": {"query": "Udit Narayan", "app": "YouTube Music"}}
+{"text": "Coldplay ka Yellow chalao", "action": "play_media", "slots": {"query": "Coldplay ka Yellow"}}
+{"text": "Dil Diyan Gallan chala dijiye.", "action": "play_media", "slots": {"query": "Dil Diyan Gallan"}}
+{"text": "Bhavageethe lagao", "action": "play_media", "slots": {"query": "Bhavageethe"}}
+{"text": "Spotify se Believer play karo.", "action": "play_media", "slots": {"query": "Believer", "app": "Spotify"}}
+{"text": "Malare play cheyyu", "action": "play_media", "slots": {"query": "Malare"}}
+{"text": "play the song yellow on apple music", "action": "play_media", "slots": {"query": "yellow", "app": "apple music"}}
+{"text": "play love songs please.", "action": "play_media", "slots": {"query": "love songs"}}
+{"text": "Play Ilayaraja on Spotify please.", "action": "play_media", "slots": {"query": "Ilayaraja", "app": "Spotify"}}
+{"text": "play Arctic Monkeys on Spotify please.", "action": "play_media", "slots": {"query": "Arctic Monkeys", "app": "Spotify"}}
+{"text": "Play some Nazrul Geeti on Spotify", "action": "play_media", "slots": {"query": "Nazrul Geeti", "app": "Spotify"}}
+{"text": "Spotify पर Radiohead चलाओ", "action": "play_media", "slots": {"query": "Radiohead", "app": "Spotify"}}
+{"text": "apple music par arijit ke gaane bajao.", "action": "play_media", "slots": {"query": "arijit", "app": "apple music"}}
+{"text": "Play Lofi Girl live on YouTube.", "action": "play_media", "slots": {"query": "Lofi Girl live", "app": "YouTube"}}
+{"text": "Arijit play kijiye please.", "action": "play_media", "slots": {"query": "Arijit"}}
+{"text": "Yellow play karo.", "action": "play_media", "slots": {"query": "Yellow"}}
+{"text": "could you put on some lo-fi on Spotify?", "action": "play_media", "slots": {"query": "lo-fi", "app": "Spotify"}}
+{"text": "सैड सॉन्ग्स बजाओ", "action": "play_media", "slots": {"query": "सैड सॉन्ग्स"}}
+{"text": "JioSaavn nalli SPB haadu haaku.", "action": "play_media", "slots": {"query": "SPB", "app": "JioSaavn"}}
+{"text": "listen to michael jackson on gaana.", "action": "play_media", "slots": {"query": "michael jackson", "app": "gaana"}}
+{"text": "youtube pe thoda indie music chalao.", "action": "play_media", "slots": {"query": "indie music", "app": "youtube"}}
+{"text": "Wynk open panni Vaathi Coming podu", "action": "play_media", "slots": {"query": "Vaathi Coming", "app": "Wynk"}}
+{"text": "YouTube Music mein Tera Ban Jaunga play karo", "action": "play_media", "slots": {"query": "Tera Ban Jaunga", "app": "YouTube Music"}}
+{"text": "Raataan Lambiyan gaana play kar do.", "action": "play_media", "slots": {"query": "Raataan Lambiyan"}}
+{"text": "నాటు నాటు పాట ప్లే చెయ్యి", "action": "play_media", "slots": {"query": "నాటు నాటు"}}
+{"text": "Darshan Raval ke gaane chalao.", "action": "play_media", "slots": {"query": "Darshan Raval"}}
+{"text": "YouTube ൽ മഞ്ഞുമ്മൽ ബോയ്സ് ട്രെയിലർ കാണിക്കൂ", "action": "play_media", "slots": {"query": "മഞ്ഞുമ്മൽ ബോയ്സ് ട്രെയിലർ", "app": "YouTube"}}
+{"text": "YouTube la Vaathi Coming play pannu", "action": "play_media", "slots": {"query": "Vaathi Coming", "app": "YouTube"}}
+{"text": "Gaani laav na", "action": "play_media", "slots": {}}
+{"text": "Apple Music, play Taylor Swift.", "action": "play_media", "slots": {"query": "Taylor Swift", "app": "Apple Music"}}
+{"text": "old malayalam songs onnu play cheyyamo.", "action": "play_media", "slots": {"query": "old malayalam songs"}}
+{"text": "Play Cocomelon on YouTube.", "action": "play_media", "slots": {"query": "Cocomelon", "app": "YouTube"}}
+{"text": "Apple Music mein Prateek Kuhad ka cold/mess bajao.", "action": "play_media", "slots": {"query": "Prateek Kuhad ka cold/mess", "app": "Apple Music"}}
+{"text": "ಸ್ಪಾಟಿಫೈ ನಲ್ಲಿ ರಾಜಕುಮಾರ್ ಹಾಡು ಹಾಕು", "action": "play_media", "slots": {"query": "ರಾಜಕುಮಾರ್", "app": "ಸ್ಪಾಟಿಫೈ"}}
+{"text": "YouTube il Vineeth Sreenivasan paattu idu", "action": "play_media", "slots": {"query": "Vineeth Sreenivasan", "app": "YouTube"}}
+{"text": "JioSaavn ನಲ್ಲಿ ಹಳೆಯ ಕನ್ನಡ ಹಾಡುಗಳು ಹಾಕಿ", "action": "play_media", "slots": {"query": "ಹಳೆಯ ಕನ್ನಡ ಹಾಡುಗಳು", "app": "JioSaavn"}}
+{"text": "Yesudas nte paattu vekku", "action": "play_media", "slots": {"query": "Yesudas"}}
+{"text": "I want to listen to Sonu Nigam on YouTube Music", "action": "play_media", "slots": {"query": "Sonu Nigam", "app": "YouTube Music"}}
+{"text": "sonu nigam spotify pe chala do.", "action": "play_media", "slots": {"query": "sonu nigam", "app": "spotify"}}
+{"text": "my coding playlist chalao.", "action": "play_media", "slots": {"query": "my coding playlist"}}
+{"text": "Taylor Swift ke gaane chalao", "action": "play_media", "slots": {"query": "Taylor Swift"}}
+{"text": "Shaktimaan ka episode dikhao", "action": "play_media", "slots": {"query": "Shaktimaan ka episode"}}
+{"text": "दिलजीत दोसांझ के गाने लगाओ", "action": "play_media", "slots": {"query": "दिलजीत दोसांझ"}}
+{"text": "Mujhe Jio Saavn pe AP Dhillon sunna hai.", "action": "play_media", "slots": {"query": "AP Dhillon", "app": "Jio Saavn"}}
+{"text": "Youtube alli Leo trailer haaku", "action": "play_media", "slots": {"query": "Leo trailer", "app": "Youtube"}}
+{"text": "JioSaavn pe Rafi sahab chalao.", "action": "play_media", "slots": {"query": "Rafi sahab", "app": "JioSaavn"}}
+{"text": "Tujhe Dekha To wala gaana lagao", "action": "play_media", "slots": {"query": "Tujhe Dekha To"}}
+{"text": "యూట్యూబ్ లో పుష్ప 2 ట్రైలర్ పెట్టు", "action": "play_media", "slots": {"query": "పుష్ప 2 ట్రైలర్", "app": "యూట్యూబ్"}}
+{"text": "Hit play on Spotify.", "action": "play_media", "slots": {"app": "Spotify"}}
+{"text": "কিশোর কুমারের গান শোনাও", "action": "play_media", "slots": {"query": "কিশোর কুমার"}}
+{"text": "on spotify play Karma Police", "action": "play_media", "slots": {"query": "Karma Police", "app": "spotify"}}
+{"text": "play Kohli's century highlights on Youtube.", "action": "play_media", "slots": {"query": "Kohli's century highlights", "app": "Youtube"}}
+{"text": "Agar Tum Saath Ho wala gaana lagao", "action": "play_media", "slots": {"query": "Agar Tum Saath Ho"}}
+{"text": "Can you please play Tum Hi Ho from Aashiqui 2 on JioSaavn?", "action": "play_media", "slots": {"query": "Tum Hi Ho from Aashiqui 2", "app": "JioSaavn"}}
+{"text": "Apple Music var liked songs chalu kar.", "action": "play_media", "slots": {"query": "liked songs", "app": "Apple Music"}}
+{"text": "Brown Munde chala dijiye", "action": "play_media", "slots": {"query": "Brown Munde"}}
+{"text": "Retro songs idu.", "action": "play_media", "slots": {"query": "Retro songs"}}
+{"text": "Ondsala Yaare Neenu Cheluve haaku.", "action": "play_media", "slots": {"query": "Yaare Neenu Cheluve"}}
+{"text": "Linkin Park ka gaana bajao", "action": "play_media", "slots": {"query": "Linkin Park"}}
+{"text": "Spotify pe Anirudh ka latest song podu.", "action": "play_media", "slots": {"query": "Anirudh ka latest song", "app": "Spotify"}}
+{"text": "Play Adele songs", "action": "play_media", "slots": {"query": "Adele"}}
+{"text": "ఎస్పీ బాలు పాటలు వినిపించు", "action": "play_media", "slots": {"query": "ఎస్పీ బాలు"}}
+{"text": "Spotify lo Chuttamalle song play cheyyi ra.", "action": "play_media", "slots": {"query": "Chuttamalle", "app": "Spotify"}}
+{"text": "YouTube Music la Why This Kolaveri Di song podu da.", "action": "play_media", "slots": {"query": "Why This Kolaveri Di", "app": "YouTube Music"}}
+{"text": "Spotify pe pink floid chalao", "action": "play_media", "slots": {"query": "pink floid", "app": "Spotify"}}
+{"text": "Bajao kuch", "action": "play_media", "slots": {}}
+{"text": "ಶಿವನ ಭಕ್ತಿ ಗೀತೆಗಳು ಹಾಕಿ", "action": "play_media", "slots": {"query": "ಶಿವನ ಭಕ್ತಿ ಗೀತೆಗಳು"}}
+{"text": "Ae Dil Hai Mushkil play karo.", "action": "play_media", "slots": {"query": "Ae Dil Hai Mushkil"}}
+{"text": "Ek baar Channa Mereya sunao.", "action": "play_media", "slots": {"query": "Channa Mereya"}}
+{"text": "Thode workout music sunao.", "action": "play_media", "slots": {"query": "workout music"}}
+{"text": "Billie Eilish wale gaane chalao.", "action": "play_media", "slots": {"query": "Billie Eilish"}}
+{"text": "Jailer trailer haaku.", "action": "play_media", "slots": {"query": "Jailer trailer"}}
+{"text": "Amazon music pe ap dhillon chalao", "action": "play_media", "slots": {"query": "ap dhillon", "app": "Amazon music"}}
+{"text": "youtube music la murugan songs podunga.", "action": "play_media", "slots": {"query": "murugan songs", "app": "youtube music"}}
+{"text": "Spotify lo Mangli songs pettandi.", "action": "play_media", "slots": {"query": "Mangli", "app": "Spotify"}}
+{"text": "put blinding lights on youtube", "action": "play_media", "slots": {"query": "blinding lights", "app": "youtube"}}
+{"text": "Spotify e Tumi Robe Nirobe play koro.", "action": "play_media", "slots": {"query": "Tumi Robe Nirobe", "app": "Spotify"}}
+{"text": "YouTube Music ல கர்நாடக சங்கீதம் போடுங்க", "action": "play_media", "slots": {"query": "கர்நாடக சங்கீதம்", "app": "YouTube Music"}}
+{"text": "Put on some monsoon songs", "action": "play_media", "slots": {"query": "monsoon songs"}}
+{"text": "Spotify pe Radiohead ka OK Computer album chalao.", "action": "play_media", "slots": {"query": "Radiohead ka OK Computer", "app": "Spotify"}}
+{"text": "onnu thiruvaavaniraavu vekku", "action": "play_media", "slots": {"query": "thiruvaavaniraavu"}}
+{"text": "play BTS's songs on Wynk Music.", "action": "play_media", "slots": {"query": "BTS", "app": "Wynk Music"}}
+{"text": "Dr Rajkumar haaku.", "action": "play_media", "slots": {"query": "Dr Rajkumar"}}
+{"text": "Koi song pettandi.", "action": "play_media", "slots": {}}
+{"text": "Oru paattu idu.", "action": "play_media", "slots": {}}
+{"text": "I'd like to hear Kun Faya Kun on YouTube.", "action": "play_media", "slots": {"query": "Kun Faya Kun", "app": "YouTube"}}
+{"text": "YouTube Music pe Yeh Sham Mastani lagao yaar.", "action": "play_media", "slots": {"query": "Yeh Sham Mastani", "app": "YouTube Music"}}
+{"text": "Jio saavn pe Shreya Goshal ke gaane bajao", "action": "play_media", "slots": {"query": "Shreya Goshal", "app": "Jio saavn"}}
+{"text": "Paneer butter masala recipe dikhao.", "action": "play_media", "slots": {"query": "Paneer butter masala recipe"}}
+{"text": "Spotify il Global Top 50 play cheyyu.", "action": "play_media", "slots": {"query": "Global Top 50", "app": "Spotify"}}
+{"text": "imagine dragons wale gaane chalao.", "action": "play_media", "slots": {"query": "imagine dragons"}}
+{"text": "Gaana chalao.", "action": "play_media", "slots": {}}
+{"text": "Spotify pe tailor swift chalao.", "action": "play_media", "slots": {"query": "tailor swift", "app": "Spotify"}}
+{"text": "Kuch bhi chala do, bas gaana ho.", "action": "play_media", "slots": {}}
+{"text": "Play Bruno Mars songs on Jio Saavn.", "action": "play_media", "slots": {"query": "Bruno Mars", "app": "Jio Saavn"}}
+{"text": "90s Bollywood songs kekkanum, podu.", "action": "play_media", "slots": {"query": "90s Bollywood songs"}}
+{"text": "spotifi pe Diljit bajao.", "action": "play_media", "slots": {"query": "Diljit", "app": "spotifi"}}
+{"text": "Naan padikkanum, Spotify la study music podu", "action": "play_media", "slots": {"query": "study music", "app": "Spotify"}}
+{"text": "Background mein Sai bhajan chala do", "action": "play_media", "slots": {"query": "Sai bhajan"}}
+{"text": "पुराने हिंदी गाने बजाओ", "action": "play_media", "slots": {"query": "पुराने हिंदी गाने"}}
+{"text": "Swalpa music haaki.", "action": "play_media", "slots": {}}
+{"text": "Diljit aur AP Dhillon ke gaane lagao", "action": "play_media", "slots": {"query": "Diljit aur AP Dhillon"}}
+{"text": "Konjam YouTube Music la Shape of You podu.", "action": "play_media", "slots": {"query": "Shape of You", "app": "YouTube Music"}}
+{"text": "Spotify alli Discover Weekly play maadi", "action": "play_media", "slots": {"query": "Discover Weekly", "app": "Spotify"}}
+{"text": "play the song Anti-Hero on Spotify.", "action": "play_media", "slots": {"query": "Anti-Hero", "app": "Spotify"}}
+{"text": "Shankar Mahadevan chi gaani laav", "action": "play_media", "slots": {"query": "Shankar Mahadevan"}}
+{"text": "Play the weekend blinding lights.", "action": "play_media", "slots": {"query": "the weekend blinding lights"}}
+{"text": "Apple Music open karo aur Creep bajao.", "action": "play_media", "slots": {"query": "Creep", "app": "Apple Music"}}
+{"text": "YouTube pe Prateek Kuhad chalao.", "action": "play_media", "slots": {"query": "Prateek Kuhad", "app": "YouTube"}}
+{"text": "Spotify var Bela Shende chi gaani laav.", "action": "play_media", "slots": {"query": "Bela Shende", "app": "Spotify"}}
+{"text": "Spotify e Ami Shotti Bolchi gaan ta chalao", "action": "play_media", "slots": {"query": "Ami Shotti Bolchi", "app": "Spotify"}}
+{"text": "Lag Ja Gale play kijiye please.", "action": "play_media", "slots": {"query": "Lag Ja Gale"}}
+{"text": "YouTube Music la Santhosh Narayanan paattu podunga", "action": "play_media", "slots": {"query": "Santhosh Narayanan", "app": "YouTube Music"}}
+{"text": "Kalki trailer podu", "action": "play_media", "slots": {"query": "Kalki trailer"}}
+{"text": "Play a random song", "action": "play_media", "slots": {}}
+{"text": "Spotify open maadi Jothe Jotheyali haaku", "action": "play_media", "slots": {"query": "Jothe Jotheyali", "app": "Spotify"}}
+{"text": "Go to Spotify and play party songs", "action": "play_media", "slots": {"query": "party songs", "app": "Spotify"}}
+{"text": "Open YouTube Music and play BBC Hindi news podcast", "action": "play_media", "slots": {"query": "BBC Hindi news podcast", "app": "YouTube Music"}}
+{"text": "Could you put on some slowed and reverb songs on Spotify?", "action": "play_media", "slots": {"query": "slowed and reverb songs", "app": "Spotify"}}
+{"text": "Tum Se Hi gaana play kar do.", "action": "play_media", "slots": {"query": "Tum Se Hi"}}
+{"text": "Play some Sunday morning songs on spotify", "action": "play_media", "slots": {"query": "Sunday morning songs", "app": "spotify"}}
+{"text": "Hesham Abdul Wahab songs idu.", "action": "play_media", "slots": {"query": "Hesham Abdul Wahab"}}
+{"text": "Ilayaraja hits konjam podu.", "action": "play_media", "slots": {"query": "Ilayaraja hits"}}
+{"text": "Thode Punjabi songs sunao", "action": "play_media", "slots": {"query": "Punjabi songs"}}
+{"text": "S Janaki play maadu guru", "action": "play_media", "slots": {"query": "S Janaki"}}
+{"text": "YouTube wale app mein Rockstar bajao.", "action": "play_media", "slots": {"query": "Rockstar", "app": "YouTube"}}
+{"text": "Tum Hi Ho chala dijiye.", "action": "play_media", "slots": {"query": "Tum Hi Ho"}}
+{"text": "gaana lo mangli play cheyyi.", "action": "play_media", "slots": {"query": "mangli", "app": "gaana"}}
+{"text": "Hemanta Mukherjee er gaan chalao", "action": "play_media", "slots": {"query": "Hemanta Mukherjee"}}
+{"text": "Spotify pe kuch bhi chalao", "action": "play_media", "slots": {"app": "Spotify"}}
+{"text": "Spotify वर अजय अतुल ची गाणी लाव", "action": "play_media", "slots": {"query": "अजय अतुल", "app": "Spotify"}}
+{"text": "ఏదైనా పాట పెట్టు", "action": "play_media", "slots": {}}
+{"text": "Put on the Huberman Lab episode about sleep", "action": "play_media", "slots": {"query": "Huberman Lab episode about sleep"}}
+{"text": "Neha Kakkar ke songs play karo.", "action": "play_media", "slots": {"query": "Neha Kakkar"}}
+{"text": "chalo happy songs bajao", "action": "play_media", "slots": {"query": "happy songs"}}
+{"text": "Koi gaana lagao na.", "action": "play_media", "slots": {}}
+{"text": "ಯಾವುದಾದರೂ ಹಾಡು ಹಾಕು", "action": "play_media", "slots": {}}
+{"text": "play Bohemian Rhapsody on YouTube Music", "action": "play_media", "slots": {"query": "Bohemian Rhapsody", "app": "YouTube Music"}}
+{"text": "Play Sonu Nigam songs.", "action": "play_media", "slots": {"query": "Sonu Nigam"}}
+{"text": "Let's listen to Maroon 5.", "action": "play_media", "slots": {"query": "Maroon 5"}}
+{"text": "YouTube Music pe Sid Sriram ka Srivalli Telugu version play karo.", "action": "play_media", "slots": {"query": "Sid Sriram ka Srivalli Telugu version", "app": "YouTube Music"}}
+{"text": "Youtube pe koi bhi gaana laga do.", "action": "play_media", "slots": {"app": "Youtube"}}
+{"text": "youtube lo saami saami song play cheyyi ra", "action": "play_media", "slots": {"query": "saami saami", "app": "youtube"}}
+{"text": "YouTube ನಲ್ಲಿ ಕಾಂತಾರ ಟ್ರೈಲರ್ ಹಾಕು", "action": "play_media", "slots": {"query": "ಕಾಂತಾರ ಟ್ರೈಲರ್", "app": "YouTube"}}
+{"text": "YouTube pe CarryMinati ka naya video chalao.", "action": "play_media", "slots": {"query": "CarryMinati ka naya video", "app": "YouTube"}}
+{"text": "Gaana, play Diljit Dosanjh", "action": "play_media", "slots": {"query": "Diljit Dosanjh", "app": "Gaana"}}
+{"text": "please spotify pe Tujhe Dekha To play kar do.", "action": "play_media", "slots": {"query": "Tujhe Dekha To", "app": "spotify"}}
+{"text": "Jio Saavn chalu karke Armaan Malik lagao.", "action": "play_media", "slots": {"query": "Armaan Malik", "app": "Jio Saavn"}}
+{"text": "play the song Naatu Naatu.", "action": "play_media", "slots": {"query": "Naatu Naatu"}}
+{"text": "spotify nalli Vijay Prakash songs play maadu guru.", "action": "play_media", "slots": {"query": "Vijay Prakash", "app": "spotify"}}
+{"text": "Amazon Music alli Yaare Neenu Cheluve song haaki please.", "action": "play_media", "slots": {"query": "Yaare Neenu Cheluve", "app": "Amazon Music"}}
+{"text": "Spotify wale app mein Huberman Lab bajao.", "action": "play_media", "slots": {"query": "Huberman Lab", "app": "Spotify"}}
+{"text": "Spotify nalli indie music haaki.", "action": "play_media", "slots": {"query": "indie music", "app": "Spotify"}}
+{"text": "Kishor Kumar ke gaane bajao.", "action": "play_media", "slots": {"query": "Kishor Kumar"}}
+{"text": "എന്തെങ്കിലും ഒരു പാട്ട് ഇടൂ", "action": "play_media", "slots": {}}
+{"text": "Pasoori chalao.", "action": "play_media", "slots": {"query": "Pasoori"}}
+{"text": "Spotify mein meri road trip playlist shuffle karo.", "action": "play_media", "slots": {"query": "meri road trip playlist", "app": "Spotify"}}
+{"text": "Konchem 80s songs pettandi", "action": "play_media", "slots": {"query": "80s songs"}}
+{"text": "Play the Bahubali trailer on YouTube please", "action": "play_media", "slots": {"query": "the Bahubali trailer", "app": "YouTube"}}
+{"text": "Konchem party songs pettandi.", "action": "play_media", "slots": {"query": "party songs"}}
+{"text": "Chinmayi play pannu", "action": "play_media", "slots": {"query": "Chinmayi"}}
+{"text": "Apple Music pe thoda Sufi songs chalao", "action": "play_media", "slots": {"query": "Sufi songs", "app": "Apple Music"}}
+{"text": "YouTube pe BB ki Vines dikhao.", "action": "play_media", "slots": {"query": "BB ki Vines", "app": "YouTube"}}
+{"text": "Koli geet laav.", "action": "play_media", "slots": {"query": "Koli geet"}}
+{"text": "Play Release Radar", "action": "play_media", "slots": {"query": "Release Radar"}}
+{"text": "Spotify pe lo fi beats chalao.", "action": "play_media", "slots": {"query": "lo fi beats", "app": "Spotify"}}
+{"text": "Chuttamalle play cheyyi", "action": "play_media", "slots": {"query": "Chuttamalle"}}
+{"text": "I feel like listening to Gurbani", "action": "play_media", "slots": {"query": "Gurbani"}}
+{"text": "YouTube पे कुछ भी चला दो", "action": "play_media", "slots": {"app": "YouTube"}}
+{"text": "Mujhe gaane sunne hain.", "action": "play_media", "slots": {}}
+{"text": "Thode shaadi wale gaane sunao", "action": "play_media", "slots": {"query": "shaadi wale gaane"}}
+{"text": "Amazon Music e Arijit Singh play koro.", "action": "play_media", "slots": {"query": "Arijit Singh", "app": "Amazon Music"}}
+{"text": "open Spotify and play Yellow.", "action": "play_media", "slots": {"query": "Yellow", "app": "Spotify"}}
+{"text": "YouTube pe paneer tikka recipe ka video chalao.", "action": "play_media", "slots": {"query": "paneer tikka recipe", "app": "YouTube"}}
+{"text": "JioSaavn mein Daily Mix 1 shuffle karo.", "action": "play_media", "slots": {"query": "Daily Mix 1", "app": "JioSaavn"}}
+{"text": "chalo Navratri ke garba bajao", "action": "play_media", "slots": {"query": "Navratri ke garba"}}
+{"text": "Edaina paata pettu", "action": "play_media", "slots": {}}
+{"text": "Bhai Spotify pe Alka Yagnik bajao na.", "action": "play_media", "slots": {"query": "Alka Yagnik", "app": "Spotify"}}
+{"text": "Youtube lo Jailer trailer pettu.", "action": "play_media", "slots": {"query": "Jailer trailer", "app": "Youtube"}}
+{"text": "ek kaam karo, JioSaavn pe Eminem chala do.", "action": "play_media", "slots": {"query": "Eminem", "app": "JioSaavn"}}
+{"text": "Play some lullabies.", "action": "play_media", "slots": {"query": "lullabies"}}
+{"text": "झिंगाट गाणं लाव", "action": "play_media", "slots": {"query": "झिंगाट"}}
+{"text": "jara mala ved laagale play kara", "action": "play_media", "slots": {"query": "mala ved laagale"}}
+{"text": "Apple Music open maadi Bombe Adsonu haaku.", "action": "play_media", "slots": {"query": "Bombe Adsonu", "app": "Apple Music"}}
+{"text": "Play KK songs on YouTube.", "action": "play_media", "slots": {"query": "KK", "app": "YouTube"}}
+{"text": "meri favourite playlist chalao.", "action": "play_media", "slots": {"query": "meri favourite playlist"}}
+{"text": "Lopamudra Mitra er gaan shonao.", "action": "play_media", "slots": {"query": "Lopamudra Mitra"}}
+{"text": "गायत्री मंत्र चलाओ", "action": "play_media", "slots": {"query": "गायत्री मंत्र"}}
+{"text": "Can you play Sunflower please", "action": "play_media", "slots": {"query": "Sunflower"}}
+{"text": "Amaro Parano Jaha Chay bajao", "action": "play_media", "slots": {"query": "Amaro Parano Jaha Chay"}}
+{"text": "YouTube Music kholo aur kuch bajao", "action": "play_media", "slots": {"app": "YouTube Music"}}
+{"text": "Song play karo", "action": "play_media", "slots": {}}
+{"text": "Play the Bahubali trailer on Youtube.", "action": "play_media", "slots": {"query": "the Bahubali trailer", "app": "Youtube"}}
+{"text": "Put Dynamite on YouTube.", "action": "play_media", "slots": {"query": "Dynamite", "app": "YouTube"}}
+{"text": "Bengali songs lagao", "action": "play_media", "slots": {"query": "Bengali songs"}}
+{"text": "ఇళయరాజా మెలోడీస్ పెట్టు", "action": "play_media", "slots": {"query": "ఇళయరాజా మెలోడీస్"}}
+{"text": "YouTube var Asha Bhosle chi gaani laav.", "action": "play_media", "slots": {"query": "Asha Bhosle", "app": "YouTube"}}
+{"text": "Swalpa YouTube Music alli Kantara haakthiya", "action": "play_media", "slots": {"query": "Kantara", "app": "YouTube Music"}}
+{"text": "Music podunga", "action": "play_media", "slots": {}}
+{"text": "Ranjha wala gaana lagao", "action": "play_media", "slots": {"query": "Ranjha"}}
+{"text": "shuffle On Repeat", "action": "play_media", "slots": {"query": "On Repeat"}}
+{"text": "Spotify var Koli geet laava na", "action": "play_media", "slots": {"query": "Koli geet", "app": "Spotify"}}
+{"text": "YouTube il Malare song idu.", "action": "play_media", "slots": {"query": "Malare", "app": "YouTube"}}
+{"text": "Kapil Sharma show lagao", "action": "play_media", "slots": {"query": "Kapil Sharma show"}}
+{"text": "YouTube pe Nisha Madhulika ki recipe dikhao.", "action": "play_media", "slots": {"query": "Nisha Madhulika ki recipe", "app": "YouTube"}}
+{"text": "Could you put on some meditation music on YouTube Music", "action": "play_media", "slots": {"query": "meditation music", "app": "YouTube Music"}}
+{"text": "Spotify par gym playlist chalao.", "action": "play_media", "slots": {"query": "gym playlist", "app": "Spotify"}}
+{"text": "Play anything by Coldplay on Spotify.", "action": "play_media", "slots": {"query": "Coldplay", "app": "Spotify"}}
+{"text": "Spotify nalli Arjun Janya haadu haaku", "action": "play_media", "slots": {"query": "Arjun Janya", "app": "Spotify"}}
+{"text": "meditation music vinalani undi, pettu.", "action": "play_media", "slots": {"query": "meditation music"}}
+{"text": "Manna Dey bajao", "action": "play_media", "slots": {"query": "Manna Dey"}}
+{"text": "background mein latest Bollywood songs chala do.", "action": "play_media", "slots": {"query": "latest Bollywood songs"}}
+{"text": "ap dhillon ke songs play karo.", "action": "play_media", "slots": {"query": "ap dhillon"}}
+{"text": "Start playing Carnatic music", "action": "play_media", "slots": {"query": "Carnatic music"}}
+{"text": "Start the music", "action": "play_media", "slots": {}}
+{"text": "hey play lag ja gale from spotify", "action": "play_media", "slots": {"query": "lag ja gale", "app": "spotify"}}
+{"text": "Wynk pe koi bhi song chala do.", "action": "play_media", "slots": {"app": "Wynk"}}
+{"text": "Amazon Music chalu karke Shankar Mahadevan lagao.", "action": "play_media", "slots": {"query": "Shankar Mahadevan", "app": "Amazon Music"}}
+{"text": "Mujhe Telugu folk songs sunna hai.", "action": "play_media", "slots": {"query": "Telugu folk songs"}}
+{"text": "megham karukatha song play pannunga.", "action": "play_media", "slots": {"query": "megham karukatha"}}
+{"text": "Play Creep by Radiohead on Spotify", "action": "play_media", "slots": {"query": "Creep by Radiohead", "app": "Spotify"}}
+{"text": "kurchi madathapetti paata pettu.", "action": "play_media", "slots": {"query": "kurchi madathapetti"}}
+{"text": "Let's listen to Jubin Nautiyal", "action": "play_media", "slots": {"query": "Jubin Nautiyal"}}
+{"text": "Office se aa gaya, ab thoda Kishore Kumar sunao.", "action": "play_media", "slots": {"query": "Kishore Kumar"}}
+{"text": "Wynk Music pe Chaiyya Chaiyya gaana chalao", "action": "play_media", "slots": {"query": "Chaiyya Chaiyya", "app": "Wynk Music"}}
+{"text": "Punjabi bhangra lagao.", "action": "play_media", "slots": {"query": "Punjabi bhangra"}}
+{"text": "Ajay Atul che gaane laava.", "action": "play_media", "slots": {"query": "Ajay Atul"}}
+{"text": "Spotify par kuch random laga do", "action": "play_media", "slots": {"app": "Spotify"}}
+{"text": "Go to YouTube and play metal", "action": "play_media", "slots": {"query": "metal", "app": "YouTube"}}
+{"text": "JioSaavn var jazz laava na.", "action": "play_media", "slots": {"query": "jazz", "app": "JioSaavn"}}
+{"text": "Mohit Chauhan ke songs play karo", "action": "play_media", "slots": {"query": "Mohit Chauhan"}}
+{"text": "Queue up Lata Mangeshkar.", "action": "play_media", "slots": {"query": "Lata Mangeshkar"}}
+{"text": "Amazon Music chalu karke Lata Mangeshkar lagao", "action": "play_media", "slots": {"query": "Lata Mangeshkar", "app": "Amazon Music"}}
+{"text": "Dasara padagalu play maadi.", "action": "play_media", "slots": {"query": "Dasara padagalu"}}
+{"text": "Yaar Asha Bhosle laga do", "action": "play_media", "slots": {"query": "Asha Bhosle"}}
+{"text": "Shreya Ghoshal ke kuch gaane sunao.", "action": "play_media", "slots": {"query": "Shreya Ghoshal"}}
+{"text": "একটা গান চালাও", "action": "play_media", "slots": {}}
+{"text": "apna bana le song lagao na", "action": "play_media", "slots": {"query": "apna bana le"}}
+{"text": "Gaana pe kuch bhi chala do", "action": "play_media", "slots": {"app": "Gaana"}}
+{"text": "இளையராஜா பாடல்கள் போடுங்க", "action": "play_media", "slots": {"query": "இளையராஜா"}}
+{"text": "i feel like listening to tamil melody songs", "action": "play_media", "slots": {"query": "tamil melody songs"}}
+{"text": "Hey play Vaathi Coming from Amazon Music", "action": "play_media", "slots": {"query": "Vaathi Coming", "app": "Amazon Music"}}
+{"text": "Jara Apsara Aali play kara.", "action": "play_media", "slots": {"query": "Apsara Aali"}}
+{"text": "Jara Deva Shree Ganesha play kara", "action": "play_media", "slots": {"query": "Deva Shree Ganesha"}}
+{"text": "Prateek Kuhad ke gaane chalao", "action": "play_media", "slots": {"query": "Prateek Kuhad"}}
+{"text": "Mohammed Rafi ke gaane chalao", "action": "play_media", "slots": {"query": "Mohammed Rafi"}}
+{"text": "Play Kishore Kumar songs", "action": "play_media", "slots": {"query": "Kishore Kumar"}}
+{"text": "Wynk Music open panni Hukum podu", "action": "play_media", "slots": {"query": "Hukum", "app": "Wynk Music"}}
+{"text": "hukum play pannu.", "action": "play_media", "slots": {"query": "hukum"}}
+{"text": "stream Rockstar on Spotify", "action": "play_media", "slots": {"query": "Rockstar", "app": "Spotify"}}
+{"text": "Vijay Prakash haadugalu haaku", "action": "play_media", "slots": {"query": "Vijay Prakash"}}
+{"text": "spotify il ks chithra paattu idu", "action": "play_media", "slots": {"query": "ks chithra", "app": "spotify"}}
+{"text": "Spotify par workout playlist bajao", "action": "play_media", "slots": {"query": "workout playlist", "app": "Spotify"}}
+{"text": "wink music pe Punjabi songs chalao.", "action": "play_media", "slots": {"query": "Punjabi songs", "app": "wink music"}}
+{"text": "Lata mangeshkar ji ke gaane chalavo.", "action": "play_media", "slots": {"query": "Lata mangeshkar ji"}}
+{"text": "Sir please Wynk par Hanuman Chalisa laga dijiye", "action": "play_media", "slots": {"query": "Hanuman Chalisa", "app": "Wynk"}}
+{"text": "play Kohli's century highlights.", "action": "play_media", "slots": {"query": "Kohli's century highlights"}}
+{"text": "The Weeknd Spotify pe chala do.", "action": "play_media", "slots": {"query": "The Weeknd", "app": "Spotify"}}
+{"text": "यूट्यूब पर बाहुबली का ट्रेलर दिखाओ", "action": "play_media", "slots": {"query": "बाहुबली का ट्रेलर", "app": "यूट्यूब"}}
+{"text": "YouTube par jaake Malayalam melodies lagao.", "action": "play_media", "slots": {"query": "Malayalam melodies", "app": "YouTube"}}
+{"text": "Play some Arijit Singh sad songs on JioSaavn", "action": "play_media", "slots": {"query": "Arijit Singh sad songs", "app": "JioSaavn"}}
+{"text": "Spotify ನಲ್ಲಿ ಬೆಳಗೆದ್ದು ಹಾಡು ಪ್ಲೇ ಮಾಡಿ", "action": "play_media", "slots": {"query": "ಬೆಳಗೆದ್ದು", "app": "Spotify"}}
+{"text": "काहीतरी गाणं लाव ना", "action": "play_media", "slots": {}}
+{"text": "Spotify alli Ninna Nodalanthe play maadi.", "action": "play_media", "slots": {"query": "Ninna Nodalanthe", "app": "Spotify"}}
+{"text": "Doraemon dikhao", "action": "play_media", "slots": {"query": "Doraemon"}}
+{"text": "భక్తి పాటలు పెట్టండి", "action": "play_media", "slots": {"query": "భక్తి పాటలు"}}
+{"text": "Background mein kuch music chala do", "action": "play_media", "slots": {}}
+{"text": "lover bajao", "action": "play_media", "slots": {"query": "lover"}}
+{"text": "Play cold play on spotify.", "action": "play_media", "slots": {"query": "cold play", "app": "spotify"}}
+{"text": "play ganesh aarti please.", "action": "play_media", "slots": {"query": "ganesh aarti"}}
+{"text": "Play imagine dragon on YouTube.", "action": "play_media", "slots": {"query": "imagine dragon", "app": "YouTube"}}
+{"text": "Yeh Sham Mastani gaana play kar do", "action": "play_media", "slots": {"query": "Yeh Sham Mastani"}}
+{"text": "ஏதாவது பாட்டு போடு", "action": "play_media", "slots": {}}
+{"text": "Ilaiyaraja paattu podunga", "action": "play_media", "slots": {"query": "Ilaiyaraja"}}
+{"text": "devara haadugalu play maadi.", "action": "play_media", "slots": {"query": "devara haadugalu"}}
+{"text": "Taylor Swift ka 1989 album lagao.", "action": "play_media", "slots": {"query": "Taylor Swift ka 1989"}}
+{"text": "Sidhu Moose Wala ke kuch gaane sunao.", "action": "play_media", "slots": {"query": "Sidhu Moose Wala"}}
+{"text": "Play bilie eilish on spotify", "action": "play_media", "slots": {"query": "bilie eilish", "app": "spotify"}}
+{"text": "Apple Music nalli Dr Rajkumar songs play maadu guru.", "action": "play_media", "slots": {"query": "Dr Rajkumar", "app": "Apple Music"}}
+{"text": "Jothe Jotheyali song play maadu.", "action": "play_media", "slots": {"query": "Jothe Jotheyali"}}
+{"text": "Mummy ke liye Gaana pe bhajans chala do.", "action": "play_media", "slots": {"query": "bhajans", "app": "Gaana"}}
+{"text": "Music start karo.", "action": "play_media", "slots": {}}
+{"text": "Youtube pe Kapil Sharma show dikhao", "action": "play_media", "slots": {"query": "Kapil Sharma show", "app": "Youtube"}}
+{"text": "onnu darshana vekku.", "action": "play_media", "slots": {"query": "darshana"}}
+{"text": "Sid shriram songs podu.", "action": "play_media", "slots": {"query": "Sid shriram"}}
+{"text": "play liked songs.", "action": "play_media", "slots": {"query": "liked songs"}}
+{"text": "Drive pe ja rahe hain, Spotify pe long drive songs bajao.", "action": "play_media", "slots": {"query": "long drive songs", "app": "Spotify"}}
+{"text": "Spotify te piano music chalao to", "action": "play_media", "slots": {"query": "piano music", "app": "Spotify"}}
+{"text": "Bhai thoda mood kharab hai, Spotify pe kuch sad songs laga de", "action": "play_media", "slots": {"query": "sad songs", "app": "Spotify"}}
+{"text": "you tube pe Arijit Singh ke gaane chalavo", "action": "play_media", "slots": {"query": "Arijit Singh", "app": "you tube"}}
+{"text": "Start Repeat Rewind.", "action": "play_media", "slots": {"query": "Repeat Rewind"}}
+{"text": "YouTube এ বাহুবলী ট্রেলার চালাও", "action": "play_media", "slots": {"query": "বাহুবলী ট্রেলার", "app": "YouTube"}}
+{"text": "Stream Kuch Kahaniyan podcast on Apple Music.", "action": "play_media", "slots": {"query": "Kuch Kahaniyan podcast", "app": "Apple Music"}}

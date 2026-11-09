@@ -1,0 +1,645 @@
+{"text": "open the clock app, set alarm I will do", "action": "open_app", "slots": {"app": "clock"}}
+{"text": "open maps", "action": "open_app", "slots": {"app": "maps"}}
+{"text": "please open zoom meeting app", "action": "open_app", "slots": {"app": "zoom"}}
+{"text": "open v l c", "action": "open_app", "slots": {"app": "v l c"}}
+{"text": "open power point", "action": "open_app", "slots": {"app": "power point"}}
+{"text": "launch skype yaar", "action": "open_app", "slots": {"app": "skype"}}
+{"text": "open the paytm app", "action": "open_app", "slots": {"app": "paytm"}}
+{"text": "Open Google Meet.", "action": "open_app", "slots": {"app": "Google Meet"}}
+{"text": "open gmail please", "action": "open_app", "slots": {"app": "gmail"}}
+{"text": "can you open facebook for me", "action": "open_app", "slots": {"app": "facebook"}}
+{"text": "start snipping tool", "action": "open_app", "slots": {"app": "snipping tool"}}
+{"text": "open telegraam", "action": "open_app", "slots": {"app": "telegraam"}}
+{"text": "konjam photos open pannu", "action": "open_app", "slots": {"app": "photos"}}
+{"text": "open the calendar", "action": "open_app", "slots": {"app": "calendar"}}
+{"text": "please launch adobe reader to open pdf", "action": "open_app", "slots": {"app": "adobe reader"}}
+{"text": "open microsoft store", "action": "open_app", "slots": {"app": "microsoft store"}}
+{"text": "open hotstar na, match is coming", "action": "open_app", "slots": {"app": "hotstar"}}
+{"text": "start the command prompt", "action": "open_app", "slots": {"app": "command prompt"}}
+{"text": "open edge browser", "action": "open_app", "slots": {"app": "edge"}}
+{"text": "Open Amazon app please.", "action": "open_app", "slots": {"app": "Amazon"}}
+{"text": "open the task manager yaar, computer is hanging", "action": "open_app", "slots": {"app": "task manager"}}
+{"text": "open outluk", "action": "open_app", "slots": {"app": "outluk"}}
+{"text": "ondu paint open maadi", "action": "open_app", "slots": {"app": "paint"}}
+{"text": "open voice recorder", "action": "open_app", "slots": {"app": "voice recorder"}}
+{"text": "my son told me to open anydesk, please open it", "action": "open_app", "slots": {"app": "anydesk"}}
+{"text": "zara whatsapp khol do beta", "action": "open_app", "slots": {"app": "whatsapp"}}
+{"text": "Whats app chalu karo please.", "action": "open_app", "slots": {"app": "Whats app"}}
+{"text": "mera watsap khol do na", "action": "open_app", "slots": {"app": "watsap"}}
+{"text": "व्हाट्सएप खोलो", "action": "open_app", "slots": {"app": "व्हाट्सएप"}}
+{"text": "WhatsApp खोल दो ज़रा", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "yaar whatsapp start kar do mujhe group dekhna hai", "action": "open_app", "slots": {"app": "whatsapp"}}
+{"text": "Wattsapp kholna hai.", "action": "open_app", "slots": {"app": "Wattsapp"}}
+{"text": "व्हाट्सऐप चालू कर दीजिए", "action": "open_app", "slots": {"app": "व्हाट्सऐप"}}
+{"text": "Google Chrome open karo please.", "action": "open_app", "slots": {"app": "Google Chrome"}}
+{"text": "internet wala browser khol do chrome", "action": "open_app", "slots": {"app": "chrome"}}
+{"text": "ज़रा Chrome चालू करो", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "beta chrome browser start kar do", "action": "open_app", "slots": {"app": "chrome"}}
+{"text": "Chrome launch karo jaldi", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "gugal crome khol de", "action": "open_app", "slots": {"app": "gugal crome"}}
+{"text": "गूगल क्रोम खोल दीजिए", "action": "open_app", "slots": {"app": "गूगल क्रोम"}}
+{"text": "youtube khol do na", "action": "open_app", "slots": {"app": "youtube"}}
+{"text": "you tube open karo please.", "action": "open_app", "slots": {"app": "you tube"}}
+{"text": "yutub chalu karo", "action": "open_app", "slots": {"app": "yutub"}}
+{"text": "ज़रा YouTube खोल दो बेटा", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "yaar youtube app start kar", "action": "open_app", "slots": {"app": "youtube"}}
+{"text": "Mujhe YouTube kholna hai, khol do.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "youtube website khol do chrome mein", "action": "open_website", "slots": {"site": "youtube"}, "was": "open_app"}
+{"text": "यूट्यूब चालू कर दो", "action": "open_app", "slots": {"app": "यूट्यूब"}}
+{"text": "notepad kholo", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "Notepad open kar do please.", "action": "open_app", "slots": {"app": "Notepad"}}
+{"text": "note pad khol do kuch likhna hai baad mein", "action": "open_app", "slots": {"app": "note pad"}}
+{"text": "notpad chalu karo", "action": "open_app", "slots": {"app": "notpad"}}
+{"text": "नोटपैड खोलो", "action": "open_app", "slots": {"app": "नोटपैड"}}
+{"text": "ज़रा Notepad खोल दो", "action": "open_app", "slots": {"app": "Notepad"}}
+{"text": "beta wo notepad wala app khol do", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "Notepad start karo", "action": "open_app", "slots": {"app": "Notepad"}}
+{"text": "नोटपैड चालू कीजिए", "action": "open_app", "slots": {"app": "नोटपैड"}}
+{"text": "khali notepad khol do yaar", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "calculator kholo", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "Calculator khol do zara hisaab lagana hai.", "action": "open_app", "slots": {"app": "Calculator"}}
+{"text": "calcuator open karo", "action": "open_app", "slots": {"app": "calcuator"}}
+{"text": "hisaab wala calculator chalu kar do", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "कैलकुलेटर खोलो", "action": "open_app", "slots": {"app": "कैलकुलेटर"}}
+{"text": "Calculator खोल दो ना", "action": "open_app", "slots": {"app": "Calculator"}}
+{"text": "kalkulator start karo please", "action": "open_app", "slots": {"app": "kalkulator"}}
+{"text": "jaldi se calculator khol de", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "कैलकुलेटर चालू कर दीजिए", "action": "open_app", "slots": {"app": "कैलकुलेटर"}}
+{"text": "Calc app open kar do.", "action": "open_app", "slots": {"app": "Calc"}}
+{"text": "My computer khol do, files dekhni hain.", "action": "open_app", "slots": {"app": "My computer"}}
+{"text": "folder wala khol do jisme saari files hoti hain", "action": "open_app", "slots": {"app": "folder"}}
+{"text": "file exploror open karo", "action": "open_app", "slots": {"app": "file exploror"}}
+{"text": "फाइल एक्सप्लोरर खोलो", "action": "open_app", "slots": {"app": "फाइल एक्सप्लोरर"}}
+{"text": "ज़रा File Explorer खोल दो", "action": "open_app", "slots": {"app": "File Explorer"}}
+{"text": "this pc khol do yaar", "action": "open_app", "slots": {"app": "this pc"}}
+{"text": "Downloads folder kholo", "action": "open_app", "slots": {"app": "Downloads"}}
+{"text": "फाइलें देखनी हैं, explorer खोल दो", "action": "open_app", "slots": {"app": "explorer"}}
+{"text": "files wala app chalu karo please", "action": "open_app", "slots": {"app": "files"}}
+{"text": "settings kholo", "action": "open_app", "slots": {"app": "settings"}}
+{"text": "Computer ki settings khol do please.", "action": "open_app", "slots": {"app": "settings"}}
+{"text": "setting open karo zara", "action": "open_app", "slots": {"app": "setting"}}
+{"text": "setings chalu kar do", "action": "open_app", "slots": {"app": "setings"}}
+{"text": "सेटिंग्स खोलो", "action": "open_app", "slots": {"app": "सेटिंग्स"}}
+{"text": "Settings खोल दो बेटा", "action": "open_app", "slots": {"app": "Settings"}}
+{"text": "beta wo settings wala page khol do, wifi dekhna hai", "action": "open_app", "slots": {"app": "settings"}}
+{"text": "windows settings start karo", "action": "open_app", "slots": {"app": "windows settings"}}
+{"text": "सेटिंग चालू करो", "action": "open_app", "slots": {"app": "सेटिंग"}}
+{"text": "Settings app kholna hai.", "action": "open_app", "slots": {"app": "Settings"}}
+{"text": "camera kholo", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "Camera khol do photo kheechni hai.", "action": "open_app", "slots": {"app": "Camera"}}
+{"text": "kamera chalu karo", "action": "open_app", "slots": {"app": "kamera"}}
+{"text": "webcam open karo zara", "action": "open_app", "slots": {"app": "webcam"}}
+{"text": "कैमरा खोलो", "action": "open_app", "slots": {"app": "कैमरा"}}
+{"text": "ज़रा Camera चालू कर दो", "action": "open_app", "slots": {"app": "Camera"}}
+{"text": "camra app start kar do na", "action": "open_app", "slots": {"app": "camra"}}
+{"text": "Apni photo dekhni hai, camera on karo", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "कैमरा चालू कर दीजिए", "action": "open_app", "slots": {"app": "कैमरा"}}
+{"text": "camera app khol de yaar", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "word kholo", "action": "open_app", "slots": {"app": "word"}}
+{"text": "MS Word khol do, letter likhna hai.", "action": "open_app", "slots": {"app": "MS Word"}}
+{"text": "microsoft word open karo please", "action": "open_app", "slots": {"app": "microsoft word"}}
+{"text": "vord chalu karo", "action": "open_app", "slots": {"app": "vord"}}
+{"text": "वर्ड खोलो", "action": "open_app", "slots": {"app": "वर्ड"}}
+{"text": "ज़रा MS Word खोल दो", "action": "open_app", "slots": {"app": "MS Word"}}
+{"text": "em es word start kar do", "action": "open_app", "slots": {"app": "em es word"}}
+{"text": "Word document wala app khol do", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "माइक्रोसॉफ्ट वर्ड चालू कीजिए", "action": "open_app", "slots": {"app": "माइक्रोसॉफ्ट वर्ड"}}
+{"text": "excel kholo", "action": "open_app", "slots": {"app": "excel"}}
+{"text": "Excel khol do, dukaan ka hisaab dekhna hai.", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "ms excel open karo", "action": "open_app", "slots": {"app": "ms excel"}}
+{"text": "exel chalu kar do", "action": "open_app", "slots": {"app": "exel"}}
+{"text": "एक्सेल खोलो", "action": "open_app", "slots": {"app": "एक्सेल"}}
+{"text": "ज़रा Excel खोल दो ना", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "excel sheet wala app start karo", "action": "open_app", "slots": {"app": "excel"}}
+{"text": "एक्सेल चालू कर दीजिए", "action": "open_app", "slots": {"app": "एक्सेल"}}
+{"text": "spotify kholo", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "Spotify khol do yaar.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "स्पॉटिफाई खोलो", "action": "open_app", "slots": {"app": "स्पॉटिफाई"}}
+{"text": "ज़रा Spotify चालू करो", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "gaane wala spotify app start kar do", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "spotify launch karo please", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "spotiphy kholna hai", "action": "open_app", "slots": {"app": "spotiphy"}}
+{"text": "Zoom khol do, meeting hai abhi.", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "paint kholo bachche ke liye", "action": "open_app", "slots": {"app": "paint"}}
+{"text": "microsoft teams open karo", "action": "open_app", "slots": {"app": "microsoft teams"}}
+{"text": "telegram chalu kar do", "action": "open_app", "slots": {"app": "telegram"}}
+{"text": "टेलीग्राम खोलो", "action": "open_app", "slots": {"app": "टेलीग्राम"}}
+{"text": "photos wala app khol do, purani tasveerein dekhni hain", "action": "open_app", "slots": {"app": "photos"}}
+{"text": "edge browser kholo", "action": "open_app", "slots": {"app": "edge"}}
+{"text": "इंस्टाग्राम खोल दो", "action": "open_app", "slots": {"app": "इंस्टाग्राम"}}
+{"text": "powerpoint open karo please", "action": "open_app", "slots": {"app": "powerpoint"}}
+{"text": "outlook kholo mail dekhna hai", "action": "open_app", "slots": {"app": "outlook"}}
+{"text": "ज़रा Clock app खोलो, alarm लगाना है", "action": "open_app", "slots": {"app": "Clock"}}
+{"text": "google maps khol do", "action": "open_app", "slots": {"app": "google maps"}}
+{"text": "विएलसी चालू करो", "action": "open_app", "slots": {"app": "विएलसी"}}
+{"text": "Facebook kholo na beta", "action": "open_app", "slots": {"app": "Facebook"}}
+{"text": "whatsapp open maadu", "action": "open_app", "slots": {"app": "whatsapp"}}
+{"text": "ondu sala whatsapp tegi", "action": "open_app", "slots": {"app": "whatsapp"}}
+{"text": "ವಾಟ್ಸಾಪ್ ಓಪನ್ ಮಾಡು", "action": "open_app", "slots": {"app": "ವಾಟ್ಸಾಪ್"}}
+{"text": "ನನ್ನ ವಾಟ್ಸಪ್ ತೆಗಿ ಮಗ", "action": "open_app", "slots": {"app": "ವಾಟ್ಸಪ್"}}
+{"text": "magu swalpa whatsapp start maadi kodu nodona", "action": "open_app", "slots": {"app": "whatsapp"}}
+{"text": "whatsapp app na launch maadu", "action": "open_app", "slots": {"app": "whatsapp"}}
+{"text": "google chrome tegi swalpa", "action": "open_app", "slots": {"app": "google chrome"}}
+{"text": "krome browser open madi", "action": "open_app", "slots": {"app": "krome"}}
+{"text": "internet nodbeku chrome open maadi kodi please", "action": "open_app", "slots": {"app": "chrome"}}
+{"text": "ಕ್ರೋಮ್ ತೆರೆಯಿರಿ", "action": "open_app", "slots": {"app": "ಕ್ರೋಮ್"}}
+{"text": "ಗೂಗಲ್ ಕ್ರೋಮ್ ಓಪನ್ ಮಾಡು", "action": "open_app", "slots": {"app": "ಗೂಗಲ್ ಕ್ರೋಮ್"}}
+{"text": "chrome start maadu yaar", "action": "open_app", "slots": {"app": "chrome"}}
+{"text": "browser beku, chrome hakku", "action": "open_app", "slots": {"app": "chrome"}}
+{"text": "youtube open maadu", "action": "open_app", "slots": {"app": "youtube"}}
+{"text": "you tube open madu please", "action": "open_app", "slots": {"app": "you tube"}}
+{"text": "ಯೂಟ್ಯೂಬ್ ಓಪನ್ ಮಾಡು", "action": "open_app", "slots": {"app": "ಯೂಟ್ಯೂಬ್"}}
+{"text": "ಯೂಟ್ಯೂಬ್ ತೆಗೆಯಿರಿ ಸ್ವಲ್ಪ", "action": "open_app", "slots": {"app": "ಯೂಟ್ಯೂಬ್"}}
+{"text": "ajji ge youtube open maadi kodu", "action": "open_app", "slots": {"app": "youtube"}}
+{"text": "yutub tegi", "action": "open_app", "slots": {"app": "yutub"}}
+{"text": "youtube website open maadu bega", "action": "open_website", "slots": {"site": "youtube"}, "was": "open_app"}
+{"text": "Note pad tegi.", "action": "open_app", "slots": {"app": "Note pad"}}
+{"text": "ondu notepad open maadi bareyoke", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "ನೋಟ್ಪ್ಯಾಡ್ ಓಪನ್ ಮಾಡು", "action": "open_app", "slots": {"app": "ನೋಟ್ಪ್ಯಾಡ್"}}
+{"text": "ನೋಟ್ ಪ್ಯಾಡ್ ತೆಗಿ", "action": "open_app", "slots": {"app": "ನೋಟ್ ಪ್ಯಾಡ್"}}
+{"text": "notpad start madi please", "action": "open_app", "slots": {"app": "notpad"}}
+{"text": "swalpa notepad application open maadi kodi saar", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "notepad hakku", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "calculator open maadu", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "Calculator tegi.", "action": "open_app", "slots": {"app": "Calculator"}}
+{"text": "ಕ್ಯಾಲ್ಕುಲೇಟರ್ ಓಪನ್ ಮಾಡು", "action": "open_app", "slots": {"app": "ಕ್ಯಾಲ್ಕುಲೇಟರ್"}}
+{"text": "ಕ್ಯಾಲ್ಕುಲೇಟರ್ ತೆಗೆಯಿರಿ", "action": "open_app", "slots": {"app": "ಕ್ಯಾಲ್ಕುಲೇಟರ್"}}
+{"text": "kalkulator open madu", "action": "open_app", "slots": {"app": "kalkulator"}}
+{"text": "ondu calc open maadu yaar", "action": "open_app", "slots": {"app": "calc"}}
+{"text": "dayavittu calculator app start maadi", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "My computer tegi.", "action": "open_app", "slots": {"app": "My computer"}}
+{"text": "ಫೈಲ್ ಎಕ್ಸ್‌ಪ್ಲೋರರ್ ಓಪನ್ ಮಾಡು", "action": "open_app", "slots": {"app": "ಫೈಲ್ ಎಕ್ಸ್‌ಪ್ಲೋರರ್"}}
+{"text": "ನನ್ನ ಫೈಲ್ಸ್ ಫೋಲ್ಡರ್ ತೆಗಿ", "action": "open_app", "slots": {"app": "ಫೈಲ್ಸ್"}}
+{"text": "this pc open madu", "action": "open_app", "slots": {"app": "this pc"}}
+{"text": "file explore tegi please", "action": "open_app", "slots": {"app": "file explore"}}
+{"text": "documents folder iro explorer na open maadi kodi", "action": "open_app", "slots": {"app": "explorer"}}
+{"text": "settings open maadu", "action": "open_app", "slots": {"app": "settings"}}
+{"text": "Settings tegi.", "action": "open_app", "slots": {"app": "Settings"}}
+{"text": "computer settings open maadi swalpa", "action": "open_app", "slots": {"app": "settings"}}
+{"text": "ಸೆಟ್ಟಿಂಗ್ಸ್ ಓಪನ್ ಮಾಡು", "action": "open_app", "slots": {"app": "ಸೆಟ್ಟಿಂಗ್ಸ್"}}
+{"text": "ಸೆಟ್ಟಿಂಗ್ಸ್ ತೆಗೆಯಿರಿ ದಯವಿಟ್ಟು", "action": "open_app", "slots": {"app": "ಸೆಟ್ಟಿಂಗ್ಸ್"}}
+{"text": "setting open madu", "action": "open_app", "slots": {"app": "setting"}}
+{"text": "sedings tegi", "action": "open_app", "slots": {"app": "sedings"}}
+{"text": "windows settings app launch maadi kodi please", "action": "open_app", "slots": {"app": "windows settings"}}
+{"text": "camera open maadu", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "Camera tegi.", "action": "open_app", "slots": {"app": "Camera"}}
+{"text": "photo tegiyoke camera open maadi", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "ಕ್ಯಾಮೆರಾ ಓಪನ್ ಮಾಡು", "action": "open_app", "slots": {"app": "ಕ್ಯಾಮೆರಾ"}}
+{"text": "ಕ್ಯಾಮರಾ ತೆಗಿ ಮಗಳೇ", "action": "open_app", "slots": {"app": "ಕ್ಯಾಮರಾ"}}
+{"text": "kemara open madu", "action": "open_app", "slots": {"app": "kemara"}}
+{"text": "webcam start maadu", "action": "open_app", "slots": {"app": "webcam"}}
+{"text": "swalpa camera app open maadi kodi naanu nodbeku", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "word open maadu", "action": "open_app", "slots": {"app": "word"}}
+{"text": "MS Word tegi.", "action": "open_app", "slots": {"app": "MS Word"}}
+{"text": "letter bareyoke microsoft word open maadi", "action": "open_app", "slots": {"app": "microsoft word"}}
+{"text": "ವರ್ಡ್ ಓಪನ್ ಮಾಡು", "action": "open_app", "slots": {"app": "ವರ್ಡ್"}}
+{"text": "ಮೈಕ್ರೋಸಾಫ್ಟ್ ವರ್ಡ್ ತೆಗೆಯಿರಿ", "action": "open_app", "slots": {"app": "ಮೈಕ್ರೋಸಾಫ್ಟ್ ವರ್ಡ್"}}
+{"text": "vord open madu", "action": "open_app", "slots": {"app": "vord"}}
+{"text": "word document app start maadi please", "action": "open_app", "slots": {"app": "word"}}
+{"text": "ms ward tegi", "action": "open_app", "slots": {"app": "ms ward"}}
+{"text": "excel open maadu", "action": "open_app", "slots": {"app": "excel"}}
+{"text": "Excel tegi.", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "accounts nodbeku excel open maadi", "action": "open_app", "slots": {"app": "excel"}}
+{"text": "ಎಕ್ಸೆಲ್ ಓಪನ್ ಮಾಡು", "action": "open_app", "slots": {"app": "ಎಕ್ಸೆಲ್"}}
+{"text": "ಎಕ್ಸೆಲ್ ಶೀಟ್ ತೆಗಿ", "action": "open_app", "slots": {"app": "ಎಕ್ಸೆಲ್"}}
+{"text": "eksel open madu", "action": "open_app", "slots": {"app": "eksel"}}
+{"text": "microsoft excel start maadi kodi saar", "action": "open_app", "slots": {"app": "microsoft excel"}}
+{"text": "spreadsheet beku excel hakku", "action": "open_app", "slots": {"app": "excel"}}
+{"text": "Spotify tegi.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "spotify app open maadi please", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "ಸ್ಪಾಟಿಫೈ ಓಪನ್ ಮಾಡು", "action": "open_app", "slots": {"app": "ಸ್ಪಾಟಿಫೈ"}}
+{"text": "ಸ್ಪಾಟಿಫೈ ತೆಗಿ", "action": "open_app", "slots": {"app": "ಸ್ಪಾಟಿಫೈ"}}
+{"text": "spotifai open madu", "action": "open_app", "slots": {"app": "spotifai"}}
+{"text": "swalpa spotify start maadu yaar", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "spot ify launch madi", "action": "open_app", "slots": {"app": "spot ify"}}
+{"text": "vlc open maadu", "action": "open_app", "slots": {"app": "vlc"}}
+{"text": "VLC player tegi.", "action": "open_app", "slots": {"app": "VLC player"}}
+{"text": "zoom open maadi meeting ide", "action": "open_app", "slots": {"app": "zoom"}}
+{"text": "ಝೂಮ್ ಓಪನ್ ಮಾಡು", "action": "open_app", "slots": {"app": "ಝೂಮ್"}}
+{"text": "paint open maadu", "action": "open_app", "slots": {"app": "paint"}}
+{"text": "ಪೇಂಟ್ ತೆಗಿ", "action": "open_app", "slots": {"app": "ಪೇಂಟ್"}}
+{"text": "teams open maadi please office meeting ge", "action": "open_app", "slots": {"app": "teams"}}
+{"text": "microsoft teams tegi", "action": "open_app", "slots": {"app": "microsoft teams"}}
+{"text": "telegram open maadu", "action": "open_app", "slots": {"app": "telegram"}}
+{"text": "ಟೆಲಿಗ್ರಾಮ್ ಓಪನ್ ಮಾಡು", "action": "open_app", "slots": {"app": "ಟೆಲಿಗ್ರಾಮ್"}}
+{"text": "photos app open maadi mommakkala photo nodbeku", "action": "open_app", "slots": {"app": "photos"}}
+{"text": "ಫೋಟೋಸ್ ತೆಗಿ", "action": "open_app", "slots": {"app": "ಫೋಟೋಸ್"}}
+{"text": "edge browser open maadu", "action": "open_app", "slots": {"app": "edge"}}
+{"text": "microsoft edge tegi.", "action": "open_app", "slots": {"app": "microsoft edge"}}
+{"text": "instagram open maadu", "action": "open_app", "slots": {"app": "instagram"}}
+{"text": "insta tegi yaar", "action": "open_app", "slots": {"app": "insta"}}
+{"text": "ಇನ್‌ಸ್ಟಾಗ್ರಾಮ್ ಓಪನ್ ಮಾಡು", "action": "open_app", "slots": {"app": "ಇನ್‌ಸ್ಟಾಗ್ರಾಮ್"}}
+{"text": "powerpoint open maadu presentation ide", "action": "open_app", "slots": {"app": "powerpoint"}}
+{"text": "power point tegi please", "action": "open_app", "slots": {"app": "power point"}}
+{"text": "ಪವರ್ ಪಾಯಿಂಟ್ ಓಪನ್ ಮಾಡು", "action": "open_app", "slots": {"app": "ಪವರ್ ಪಾಯಿಂಟ್"}}
+{"text": "outlook open maadu", "action": "open_app", "slots": {"app": "outlook"}}
+{"text": "mail nodbeku outlook tegi", "action": "open_app", "slots": {"app": "outlook"}}
+{"text": "clock app open maadu alarm idbeku", "action": "open_app", "slots": {"app": "clock"}}
+{"text": "ಗಡಿಯಾರ ಆಪ್ ತೆಗಿ", "action": "open_app", "slots": {"app": "ಗಡಿಯಾರ"}}
+{"text": "maps open maadu", "action": "open_app", "slots": {"app": "maps"}}
+{"text": "google maps tegi daari nodbeku", "action": "open_app", "slots": {"app": "google maps"}}
+{"text": "ಮ್ಯಾಪ್ಸ್ ಓಪನ್ ಮಾಡಿ", "action": "open_app", "slots": {"app": "ಮ್ಯಾಪ್ಸ್"}}
+{"text": "vee el see open madu", "action": "open_app", "slots": {"app": "vee el see"}}
+{"text": "jum open madu", "action": "open_app", "slots": {"app": "jum"}}
+{"text": "gmail open maadu", "action": "open_app", "slots": {"app": "gmail"}}
+{"text": "facebook tegi swalpa", "action": "open_app", "slots": {"app": "facebook"}}
+{"text": "ಅಜ್ಜಿ ಹೇಳ್ತಿದಾರೆ ಸ್ವಲ್ಪ ಫೇಸ್‌ಬುಕ್ ಓಪನ್ ಮಾಡು", "action": "open_app", "slots": {"app": "ಫೇಸ್‌ಬುಕ್"}}
+{"text": "control panel open maadi kodi", "action": "open_app", "slots": {"app": "control panel"}}
+{"text": "amazon app open maadu", "action": "open_app", "slots": {"app": "amazon"}}
+{"text": "WhatsApp open cheyyandi", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "Whatsapp ughada na", "action": "open_app", "slots": {"app": "Whatsapp"}}
+{"text": "whatsapp ta khulo to", "action": "open_app", "slots": {"app": "whatsapp"}}
+{"text": "Dayavayi WhatsApp onnu thurakkamo", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "WhatsApp kholo ne bhai", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "whatsap khol do ji zara", "action": "open_app", "slots": {"app": "whatsap"}}
+{"text": "naaku whats app teravandi please", "action": "open_app", "slots": {"app": "whats app"}}
+{"text": "beta mala WhatsApp suru karun de", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "Whatsapp start koro", "action": "open_app", "slots": {"app": "Whatsapp"}}
+{"text": "Chrome open cheyyi", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "Google Chrome ughad re", "action": "open_app", "slots": {"app": "Google Chrome"}}
+{"text": "chrome browser ta ektu khule dao", "action": "open_app", "slots": {"app": "chrome"}}
+{"text": "Chrome thurakku", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "Chrome chalu kar de veere", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "internet chalavanyasathi Chrome ughad", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "browser lo chrome start cheyyandi kastha", "action": "open_app", "slots": {"app": "chrome"}}
+{"text": "chrom browser on karo ne please", "action": "open_app", "slots": {"app": "chrom"}}
+{"text": "YouTube open cheyyi ra", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "YouTube ughad na", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "YouTube ta khulo", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "youtube onnu thurakkamo mole", "action": "open_app", "slots": {"app": "youtube"}}
+{"text": "YouTube kholo ne", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "you tube khol de puttar", "action": "open_app", "slots": {"app": "you tube"}}
+{"text": "yu tub open karo", "action": "open_app", "slots": {"app": "yu tub"}}
+{"text": "computer lo YouTube app tereyandi", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "notepad ughada", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "notepad ta khule dao to", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "Notepad thurakku", "action": "open_app", "slots": {"app": "Notepad"}}
+{"text": "note pad kholo bhai", "action": "open_app", "slots": {"app": "note pad"}}
+{"text": "notpad khol do", "action": "open_app", "slots": {"app": "notpad"}}
+{"text": "edhaina raayadaniki Notepad open chey", "action": "open_app", "slots": {"app": "Notepad"}}
+{"text": "kahi lihinyasathi notepad suru kara please", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "Calculator open cheyyi", "action": "open_app", "slots": {"app": "Calculator"}}
+{"text": "calculator ughad re", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "hisab korbo, calculator ta khulo", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "Calculator onnu thurakku", "action": "open_app", "slots": {"app": "Calculator"}}
+{"text": "calculater kholo ne", "action": "open_app", "slots": {"app": "calculater"}}
+{"text": "hisaab layi calculator khol de ji", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "kalkulator open karo", "action": "open_app", "slots": {"app": "kalkulator"}}
+{"text": "lekkalu cheyyali calculator teravandi", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "my files ughad na, file explorer", "action": "open_app", "slots": {"app": "file explorer"}}
+{"text": "file explorer ta khulo", "action": "open_app", "slots": {"app": "file explorer"}}
+{"text": "ente files kaanan File Explorer thurakku", "action": "open_app", "slots": {"app": "File Explorer"}}
+{"text": "file explorar kholo", "action": "open_app", "slots": {"app": "file explorar"}}
+{"text": "mere folder wala file explorer khol de", "action": "open_app", "slots": {"app": "file explorer"}}
+{"text": "this pc open cheyyi", "action": "open_app", "slots": {"app": "this pc"}}
+{"text": "Settings open cheyyandi", "action": "open_app", "slots": {"app": "Settings"}}
+{"text": "settings ughad", "action": "open_app", "slots": {"app": "settings"}}
+{"text": "computer er settings ta khulo please", "action": "open_app", "slots": {"app": "settings"}}
+{"text": "Settings onnu thurakkamo", "action": "open_app", "slots": {"app": "Settings"}}
+{"text": "setting kholo ne yaar", "action": "open_app", "slots": {"app": "setting"}}
+{"text": "seting khol do ji", "action": "open_app", "slots": {"app": "seting"}}
+{"text": "Windows settings suru kar", "action": "open_app", "slots": {"app": "Windows settings"}}
+{"text": "Camera open cheyyi", "action": "open_app", "slots": {"app": "Camera"}}
+{"text": "camera ughad na, photo kadhaycha aahe", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "camera ta chalu koro", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "Camera thurakku", "action": "open_app", "slots": {"app": "Camera"}}
+{"text": "kemera kholo", "action": "open_app", "slots": {"app": "kemera"}}
+{"text": "camera khol de puttar photo khichni hai", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "kamera app tereyandi", "action": "open_app", "slots": {"app": "kamera"}}
+{"text": "Word open cheyyandi", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "MS Word ughad", "action": "open_app", "slots": {"app": "MS Word"}}
+{"text": "microsoft word ta khulo", "action": "open_app", "slots": {"app": "microsoft word"}}
+{"text": "letter ezhuthan Word thurakku", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "word document kholo ne", "action": "open_app", "slots": {"app": "word"}}
+{"text": "ms vard khol do", "action": "open_app", "slots": {"app": "ms vard"}}
+{"text": "Microsoft Word start cheyyi kastha", "action": "open_app", "slots": {"app": "Microsoft Word"}}
+{"text": "excel ughada", "action": "open_app", "slots": {"app": "excel"}}
+{"text": "hisaber jonno excel ta khulo", "action": "open_app", "slots": {"app": "excel"}}
+{"text": "Excel sheet onnu thurakku", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "exel kholo ne", "action": "open_app", "slots": {"app": "exel"}}
+{"text": "Microsoft Excel khol de ji", "action": "open_app", "slots": {"app": "Microsoft Excel"}}
+{"text": "ex cell open karo", "action": "open_app", "slots": {"app": "ex cell"}}
+{"text": "Spotify open cheyyi", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Spotify ughad na", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "spotify ta khulo", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "Spotify app thurakku", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "spotifai kholo", "action": "open_app", "slots": {"app": "spotifai"}}
+{"text": "spotify khol de yaar", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "spoti fy app start cheyyandi", "action": "open_app", "slots": {"app": "spoti fy"}}
+{"text": "VLC player open cheyyi", "action": "open_app", "slots": {"app": "VLC player"}}
+{"text": "Zoom ughad, meeting aahe", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "Paint ta khulo, chhobi aankbo", "action": "open_app", "slots": {"app": "Paint"}}
+{"text": "Teams onnu thurakku, office meeting undu", "action": "open_app", "slots": {"app": "Teams"}}
+{"text": "Telegram kholo ne", "action": "open_app", "slots": {"app": "Telegram"}}
+{"text": "Photos khol do, purani tasveeran dekhniyan", "action": "open_app", "slots": {"app": "Photos"}}
+{"text": "Microsoft Edge open cheyyandi", "action": "open_app", "slots": {"app": "Microsoft Edge"}}
+{"text": "Instagram ughad na", "action": "open_app", "slots": {"app": "Instagram"}}
+{"text": "PowerPoint ta khulo", "action": "open_app", "slots": {"app": "PowerPoint"}}
+{"text": "Outlook thurakku, mail nokkanam", "action": "open_app", "slots": {"app": "Outlook"}}
+{"text": "clock app kholo, alarm mukvo che", "action": "open_app", "slots": {"app": "clock"}}
+{"text": "Google Maps khol de ji", "action": "open_app", "slots": {"app": "Google Maps"}}
+{"text": "power point ughada please", "action": "open_app", "slots": {"app": "power point"}}
+{"text": "telegrm khulo to", "action": "open_app", "slots": {"app": "telegrm"}}
+{"text": "Facebook thurakkamo", "action": "open_app", "slots": {"app": "Facebook"}}
+{"text": "Netflix kholo ne bhai", "action": "open_app", "slots": {"app": "Netflix"}}
+{"text": "Calendar khol do", "action": "open_app", "slots": {"app": "Calendar"}}
+{"text": "skype open cheyyandi", "action": "open_app", "slots": {"app": "skype"}}
+{"text": "Gmail ughad", "action": "open_app", "slots": {"app": "Gmail"}}
+{"text": "amar jonno ektu Paytm app ta khule dao", "action": "open_app", "slots": {"app": "Paytm"}}
+{"text": "Media Player thurakku", "action": "open_app", "slots": {"app": "Media Player"}}
+{"text": "Microsoft Store kholo", "action": "open_app", "slots": {"app": "Microsoft Store"}}
+{"text": "vee el see player chala do", "action": "open_app", "slots": {"app": "vee el see player"}}
+{"text": "Google Meet open cheyyi, class undi", "action": "open_app", "slots": {"app": "Google Meet"}}
+{"text": "Task Manager ughad", "action": "open_app", "slots": {"app": "Task Manager"}}
+{"text": "snipping tool ta khulo", "action": "open_app", "slots": {"app": "snipping tool"}}
+{"text": "Amazon app thurakku", "action": "open_app", "slots": {"app": "Amazon"}}
+{"text": "Teams kholo ne office ni meeting che", "action": "open_app", "slots": {"app": "Teams"}}
+{"text": "Photos app khol de jaldi", "action": "open_app", "slots": {"app": "Photos"}}
+{"text": "ammaayi, naaku mana WhatsApp okkasari open cheyyi, nenu chudali", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "aho jara te YouTube app ughada na, mala kirtan baghaychay aahe", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "dada please computer e Chrome ta ektu khule dao na", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "Excel khol de puttar, ghar da hisaab likhna hai", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "mon, Word onnu open cheyyu, oru application ezhuthanam", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "Konjam WhatsApp ah thirandhu kudu pa.", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "vats app open pannunga please", "action": "open_app", "slots": {"app": "vats app"}}
+{"text": "en phone la irukura maadhiri whatsapp computer la open pannu", "action": "open_app", "slots": {"app": "whatsapp"}}
+{"text": "dei whatsapp start pannu da", "action": "open_app", "slots": {"app": "whatsapp"}}
+{"text": "வாட்ஸ்அப் ஓபன் பண்ணு கண்ணு", "action": "open_app", "slots": {"app": "வாட்ஸ்அப்"}}
+{"text": "whatsapp web ah open pannu", "action": "open_app", "slots": {"app": "whatsapp web"}}
+{"text": "Paati ku message paakanum, mudhalla whatsapp open pannu.", "action": "open_app", "slots": {"app": "whatsapp"}}
+{"text": "watsup thira", "action": "open_app", "slots": {"app": "watsup"}}
+{"text": "chrome open pannu", "action": "open_app", "slots": {"app": "chrome"}}
+{"text": "Google Chrome ah konjam thirandhu vidu.", "action": "open_app", "slots": {"app": "Google Chrome"}}
+{"text": "browser open pannu chrome la", "action": "open_app", "slots": {"app": "chrome"}}
+{"text": "குரோம் திற", "action": "open_app", "slots": {"app": "குரோம்"}}
+{"text": "krome start pannunga", "action": "open_app", "slots": {"app": "krome"}}
+{"text": "internet paakanum, chrome open pannu pa", "action": "open_app", "slots": {"app": "chrome"}}
+{"text": "குரோம் பிரவுசர் ஓபன் பண்ணுங்க", "action": "open_app", "slots": {"app": "குரோம்"}}
+{"text": "puthu chrome window onnu open pannu", "action": "open_app", "slots": {"app": "chrome"}}
+{"text": "Please chrome launch pannu.", "action": "open_app", "slots": {"app": "chrome"}}
+{"text": "andha google browser ah thirandhu kudu thambi", "action": "open_app", "slots": {"app": "google browser"}}
+{"text": "YouTube thira.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "யூடியூப் திறந்து வை", "action": "open_app", "slots": {"app": "யூடியூப்"}}
+{"text": "you tube ah konjam open pannunga", "action": "open_app", "slots": {"app": "you tube"}}
+{"text": "யூடியூப் ஓபன் பண்ணு", "action": "open_app", "slots": {"app": "யூடியூப்"}}
+{"text": "pasanga ku cartoon kaatanum youtube site open pannu", "action": "open_website", "slots": {"site": "youtube"}, "was": "open_app"}
+{"text": "youtube app launch pannu please", "action": "open_app", "slots": {"app": "youtube"}}
+{"text": "Ennaku youtube venum, adha thirandhu kudu.", "action": "open_app", "slots": {"app": "youtube"}}
+{"text": "note pad start pannunga", "action": "open_app", "slots": {"app": "note pad"}}
+{"text": "edhavadhu ezhudhanum, notepad open pannu pa", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "நோட்பேட் ஓபன் பண்ணுங்க", "action": "open_app", "slots": {"app": "நோட்பேட்"}}
+{"text": "noteped thirandhu vidu", "action": "open_app", "slots": {"app": "noteped"}}
+{"text": "puthu notepad file onnu open pannu", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "Please notepad launch pannu da.", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "andha chinna ezhudhura app notepad adha open pannu", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "Kanakku podanum, calculator ah thira.", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "கால்குலேட்டர் திற", "action": "open_app", "slots": {"app": "கால்குலேட்டர்"}}
+{"text": "calculater konjam open pannunga", "action": "open_app", "slots": {"app": "calculater"}}
+{"text": "கணக்கு போட கால்குலேட்டர் ஓபன் பண்ணு", "action": "open_app", "slots": {"app": "கால்குலேட்டர்"}}
+{"text": "calc start pannu", "action": "open_app", "slots": {"app": "calc"}}
+{"text": "kalkulator thirandhu kudu pa", "action": "open_app", "slots": {"app": "kalkulator"}}
+{"text": "Please calculator app ah launch pannu.", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "kadai bill kootanum calculator open pannu kanna", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "calculator", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "My files ah thira.", "action": "open_app", "slots": {"app": "My files"}}
+{"text": "ஃபைல் எக்ஸ்ப்ளோரர் திற", "action": "open_app", "slots": {"app": "ஃபைல் எக்ஸ்ப்ளோரர்"}}
+{"text": "this pc open pannunga", "action": "open_app", "slots": {"app": "this pc"}}
+{"text": "en folder ellam paakanum, file explorer open pannu", "action": "open_app", "slots": {"app": "file explorer"}}
+{"text": "பைல்ஸ் ஓபன் பண்ணு", "action": "open_app", "slots": {"app": "பைல்ஸ்"}}
+{"text": "fail explorar thirandhu vidu", "action": "open_app", "slots": {"app": "fail explorar"}}
+{"text": "my computer ah konjam open pannu pa", "action": "open_app", "slots": {"app": "my computer"}}
+{"text": "Please files app launch pannu.", "action": "open_app", "slots": {"app": "files"}}
+{"text": "downloads folder irukura file explorer ah open pannu", "action": "open_app", "slots": {"app": "file explorer"}}
+{"text": "settings open pannu", "action": "open_app", "slots": {"app": "settings"}}
+{"text": "Computer settings ah thira.", "action": "open_app", "slots": {"app": "settings"}}
+{"text": "செட்டிங்ஸ் திற", "action": "open_app", "slots": {"app": "செட்டிங்ஸ்"}}
+{"text": "setings konjam open pannunga", "action": "open_app", "slots": {"app": "setings"}}
+{"text": "wifi maathanum, settings open pannu", "action": "open_app", "slots": {"app": "settings"}}
+{"text": "அமைப்புகள் திறந்து வை", "action": "open_app", "slots": {"app": "அமைப்புகள்"}}
+{"text": "windows settings start pannu", "action": "open_app", "slots": {"app": "windows settings"}}
+{"text": "Please settings app launch pannu da.", "action": "open_app", "slots": {"app": "settings"}}
+{"text": "font perusa pannanum, settings ah thirandhu kudu pa", "action": "open_app", "slots": {"app": "settings"}}
+{"text": "setting open", "action": "open_app", "slots": {"app": "setting"}}
+{"text": "camera open pannu", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "Photo edukanum, camera ah thira.", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "கேமரா திற", "action": "open_app", "slots": {"app": "கேமரா"}}
+{"text": "kamera konjam on pannunga", "action": "open_app", "slots": {"app": "kamera"}}
+{"text": "கேமரா ஓபன் பண்ணு", "action": "open_app", "slots": {"app": "கேமரா"}}
+{"text": "webcam start pannu", "action": "open_app", "slots": {"app": "webcam"}}
+{"text": "camra app thirandhu vidu", "action": "open_app", "slots": {"app": "camra"}}
+{"text": "Please camera launch pannu.", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "en mugam paakanum camera open pannu kanna", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "selfie edukanum camera open", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "word open pannu", "action": "open_app", "slots": {"app": "word"}}
+{"text": "Microsoft Word ah thira.", "action": "open_app", "slots": {"app": "Microsoft Word"}}
+{"text": "வேர்ட் திற", "action": "open_app", "slots": {"app": "வேர்ட்"}}
+{"text": "ms word konjam open pannunga", "action": "open_app", "slots": {"app": "ms word"}}
+{"text": "letter type pannanum, word open pannu", "action": "open_app", "slots": {"app": "word"}}
+{"text": "மைக்ரோசாஃப்ட் வேர்ட் ஓபன் பண்ணு", "action": "open_app", "slots": {"app": "மைக்ரோசாஃப்ட் வேர்ட்"}}
+{"text": "vord start pannu", "action": "open_app", "slots": {"app": "vord"}}
+{"text": "Please word document app launch pannu.", "action": "open_app", "slots": {"app": "word"}}
+{"text": "resume ezhudhanum andha word software ah thirandhu kudu", "action": "open_app", "slots": {"app": "word"}}
+{"text": "winword open pannu", "action": "open_app", "slots": {"app": "winword"}}
+{"text": "excel open pannu", "action": "open_app", "slots": {"app": "excel"}}
+{"text": "Excel sheet ah thira.", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "எக்செல் திற", "action": "open_app", "slots": {"app": "எக்செல்"}}
+{"text": "ms excel konjam open pannunga", "action": "open_app", "slots": {"app": "ms excel"}}
+{"text": "kadai kanakku podanum excel open pannu", "action": "open_app", "slots": {"app": "excel"}}
+{"text": "எக்செல் ஓபன் பண்ணுங்க", "action": "open_app", "slots": {"app": "எக்செல்"}}
+{"text": "exel start pannu", "action": "open_app", "slots": {"app": "exel"}}
+{"text": "Please spreadsheet app excel launch pannu.", "action": "open_app", "slots": {"app": "excel"}}
+{"text": "spotify open pannu", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "Spotify ah thira.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "ஸ்பாட்டிஃபை திற", "action": "open_app", "slots": {"app": "ஸ்பாட்டிஃபை"}}
+{"text": "spottify konjam open pannunga", "action": "open_app", "slots": {"app": "spottify"}}
+{"text": "Please spotify app launch pannu da.", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "paatu kekkura app spotify adha thirandhu kudu", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "spotifai start pannu", "action": "open_app", "slots": {"app": "spotifai"}}
+{"text": "vlc player open pannu", "action": "open_app", "slots": {"app": "vlc player"}}
+{"text": "Zoom ah thira, meeting irukku.", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "பெயிண்ட் திற", "action": "open_app", "slots": {"app": "பெயிண்ட்"}}
+{"text": "teams konjam open pannunga", "action": "open_app", "slots": {"app": "teams"}}
+{"text": "telegram open pannu", "action": "open_app", "slots": {"app": "telegram"}}
+{"text": "போட்டோஸ் ஓபன் பண்ணு", "action": "open_app", "slots": {"app": "போட்டோஸ்"}}
+{"text": "microsoft edge start pannu", "action": "open_app", "slots": {"app": "microsoft edge"}}
+{"text": "instagram thirandhu kudu pa", "action": "open_app", "slots": {"app": "instagram"}}
+{"text": "பவர்பாயிண்ட் திறந்து வை", "action": "open_app", "slots": {"app": "பவர்பாயிண்ட்"}}
+{"text": "outlook mail open pannu", "action": "open_app", "slots": {"app": "outlook"}}
+{"text": "clock app ah open pannu alarm vekanum", "action": "open_app", "slots": {"app": "clock"}}
+{"text": "google maps open pannunga please", "action": "open_app", "slots": {"app": "google maps"}}
+{"text": "please play some bhajans", "action": "play_media", "slots": {"query": "bhajans"}}
+{"text": "do one thing, play the Hanuman Chalisa on YouTube", "action": "play_media", "slots": {"query": "Hanuman Chalisa", "app": "YouTube"}}
+{"text": "put some old Kishore Kumar songs yaar", "action": "play_media", "slots": {"query": "old Kishore Kumar"}}
+{"text": "Play Mohammed Rafi hits please", "action": "play_media", "slots": {"query": "Mohammed Rafi hits"}}
+{"text": "can you play Lata Mangeshkar songs for me", "action": "play_media", "slots": {"query": "Lata Mangeshkar"}}
+{"text": "play yesterday's India Australia match highlights", "action": "play_media", "slots": {"query": "yesterday's India Australia match highlights"}}
+{"text": "Cricket highlights play karo", "action": "play_media", "slots": {"query": "Cricket highlights"}}
+{"text": "start Chhota Bheem cartoon for the kids", "action": "play_media", "slots": {"query": "Chhota Bheem"}}
+{"text": "play Motu Patlu na, the baby is crying", "action": "play_media", "slots": {"query": "Motu Patlu"}}
+{"text": "put on some Doraemon episodes", "action": "play_media", "slots": {"query": "Doraemon"}}
+{"text": "Play AR Rahman songs.", "action": "play_media", "slots": {"query": "AR Rahman"}}
+{"text": "play a r rehman ka roja songs", "action": "play_media", "slots": {"query": "a r rehman ka roja"}}
+{"text": "play the latest news on Aaj Tak", "action": "play_media", "slots": {"query": "latest news on Aaj Tak"}}
+{"text": "Please play NDTV live news", "action": "play_media", "slots": {"query": "NDTV live news"}}
+{"text": "play morning aarti", "action": "play_media", "slots": {"query": "morning aarti"}}
+{"text": "Can you please play Gayatri Mantra 108 times", "action": "play_media", "slots": {"query": "Gayatri Mantra 108 times"}}
+{"text": "play Om Namah Shivaya chanting", "action": "play_media", "slots": {"query": "Om Namah Shivaya chanting"}}
+{"text": "play some devotional songs for puja", "action": "play_media", "slots": {"query": "devotional songs for puja"}}
+{"text": "beta, play Sai Baba bhajans please", "action": "play_media", "slots": {"query": "Sai Baba bhajans"}}
+{"text": "Play Vishnu Sahasranamam by MS Subbulakshmi.", "action": "play_media", "slots": {"query": "Vishnu Sahasranamam by MS Subbulakshmi"}}
+{"text": "play suprabhatam", "action": "play_media", "slots": {"query": "suprabhatam"}}
+{"text": "play Ilaiyaraaja melodies", "action": "play_media", "slots": {"query": "Ilaiyaraaja melodies"}}
+{"text": "play some 90s Bollywood songs yaar", "action": "play_media", "slots": {"query": "90s Bollywood songs"}}
+{"text": "Play romantic songs", "action": "play_media", "slots": {"query": "romantic songs"}}
+{"text": "I want to listen to some ghazals, play Jagjit Singh", "action": "play_media", "slots": {"query": "Jagjit Singh"}}
+{"text": "play Pankaj Udhas ghazal chitthi aayi hai", "action": "play_media", "slots": {"query": "Pankaj Udhas ghazal chitthi aayi hai"}}
+{"text": "play the song Kesariya", "action": "play_media", "slots": {"query": "Kesariya"}}
+{"text": "Play Tum Hi Ho from Aashiqui 2.", "action": "play_media", "slots": {"query": "Tum Hi Ho from Aashiqui 2"}}
+{"text": "play Sholay movie", "action": "play_media", "slots": {"query": "Sholay movie"}}
+{"text": "put on the movie 3 Idiots", "action": "play_media", "slots": {"query": "movie 3 Idiots"}}
+{"text": "play Dangal full movie", "action": "play_media", "slots": {"query": "Dangal full movie"}}
+{"text": "play Ranveer Allahbadia podcast latest episode", "action": "play_media", "slots": {"query": "Ranveer Allahbadia podcast latest episode"}}
+{"text": "Play a podcast on stock market for beginners", "action": "play_media", "slots": {"query": "podcast on stock market for beginners"}}
+{"text": "play some motivational podcast", "action": "play_media", "slots": {"query": "motivational podcast"}}
+{"text": "play Radio Mirchi", "action": "play_media", "slots": {"query": "Radio Mirchi"}}
+{"text": "Please play Vividh Bharati radio", "action": "play_media", "slots": {"query": "Vividh Bharati radio"}}
+{"text": "play FM radio", "action": "play_media", "slots": {"query": "FM radio"}}
+{"text": "play Mann Ki Baat latest episode", "action": "play_media", "slots": {"query": "Mann Ki Baat latest episode"}}
+{"text": "play lofi music for studying", "action": "play_media", "slots": {"query": "lofi music for studying"}}
+{"text": "Play some relaxing instrumental music", "action": "play_media", "slots": {"query": "relaxing instrumental music"}}
+{"text": "play flute music by Hariprasad Chaurasia", "action": "play_media", "slots": {"query": "flute music by Hariprasad Chaurasia"}}
+{"text": "play Ravi Shankar sitar", "action": "play_media", "slots": {"query": "Ravi Shankar sitar"}}
+{"text": "play Bhimsen Joshi abhang", "action": "play_media", "slots": {"query": "Bhimsen Joshi abhang"}}
+{"text": "play Punjabi songs, Diljit Dosanjh", "action": "play_media", "slots": {"query": "Diljit Dosanjh"}}
+{"text": "Play Sidhu Moosewala songs", "action": "play_media", "slots": {"query": "Sidhu Moosewala"}}
+{"text": "play some party songs for the function", "action": "play_media", "slots": {"query": "party songs"}}
+{"text": "play wedding songs, sangeet playlist", "action": "play_media", "slots": {"query": "wedding songs, sangeet playlist"}}
+{"text": "play Garba songs for Navratri", "action": "play_media", "slots": {"query": "Garba songs for Navratri"}}
+{"text": "play Ganpati songs", "action": "play_media", "slots": {"query": "Ganpati songs"}}
+{"text": "play happy birthday song", "action": "play_media", "slots": {"query": "happy birthday song"}}
+{"text": "Play kids nursery rhymes", "action": "play_media", "slots": {"query": "kids nursery rhymes"}}
+{"text": "play Johnny Johnny Yes Papa for my granddaughter", "action": "play_media", "slots": {"query": "Johnny Johnny Yes Papa"}}
+{"text": "play Shreya Ghoshal songs", "action": "play_media", "slots": {"query": "Shreya Ghoshal"}}
+{"text": "play shreya goshal hit songs", "action": "play_media", "slots": {"query": "shreya goshal hit songs"}}
+{"text": "Play SP Balasubrahmanyam songs.", "action": "play_media", "slots": {"query": "SP Balasubrahmanyam"}}
+{"text": "play SPB tamil songs", "action": "play_media", "slots": {"query": "SPB tamil songs"}}
+{"text": "play Anirudh latest songs", "action": "play_media", "slots": {"query": "Anirudh latest songs"}}
+{"text": "play Sid Sriram songs please", "action": "play_media", "slots": {"query": "Sid Sriram"}}
+{"text": "play KJ Yesudas Ayyappa songs", "action": "play_media", "slots": {"query": "KJ Yesudas Ayyappa songs"}}
+{"text": "play Rajkumar old Kannada songs", "action": "play_media", "slots": {"query": "Rajkumar old Kannada songs"}}
+{"text": "play Telugu songs of Pushpa movie", "action": "play_media", "slots": {"query": "Telugu songs of Pushpa movie"}}
+{"text": "Play Naatu Naatu", "action": "play_media", "slots": {"query": "Naatu Naatu"}}
+{"text": "play Bengali Rabindra Sangeet", "action": "play_media", "slots": {"query": "Bengali Rabindra Sangeet"}}
+{"text": "play some Marathi lavani songs", "action": "play_media", "slots": {"query": "Marathi lavani songs"}}
+{"text": "Play Bhojpuri songs", "action": "play_media", "slots": {"query": "Bhojpuri songs"}}
+{"text": "play Taylor Swift", "action": "play_media", "slots": {"query": "Taylor Swift"}}
+{"text": "Play Ed Sheeran Shape of You.", "action": "play_media", "slots": {"query": "Ed Sheeran Shape of You"}}
+{"text": "play some English pop songs", "action": "play_media", "slots": {"query": "English pop songs"}}
+{"text": "play the new MrBeast video", "action": "play_media", "slots": {"query": "new MrBeast"}}
+{"text": "play Dhruv Rathee latest video", "action": "play_media", "slots": {"query": "Dhruv Rathee latest video"}}
+{"text": "Play CarryMinati's new video on YouTube", "action": "play_media", "slots": {"query": "CarryMinati's new video", "app": "YouTube"}}
+{"text": "play Kapil Sharma show comedy", "action": "play_media", "slots": {"query": "Kapil Sharma show comedy"}}
+{"text": "play some stand up comedy, Zakir Khan", "action": "play_media", "slots": {"query": "stand up comedy, Zakir Khan"}}
+{"text": "play Ramayan serial episode 1", "action": "play_media", "slots": {"query": "Ramayan serial episode 1"}}
+{"text": "Play Mahabharat by B R Chopra", "action": "play_media", "slots": {"query": "Mahabharat by B R Chopra"}}
+{"text": "play Bhagavad Gita path in Hindi", "action": "play_media", "slots": {"query": "Bhagavad Gita path in Hindi"}}
+{"text": "play Sunderkand", "action": "play_media", "slots": {"query": "Sunderkand"}}
+{"text": "play gurbani kirtan", "action": "play_media", "slots": {"query": "gurbani kirtan"}}
+{"text": "Please play Japji Sahib", "action": "play_media", "slots": {"query": "Japji Sahib"}}
+{"text": "play qawwali by Nusrat Fateh Ali Khan", "action": "play_media", "slots": {"query": "qawwali by Nusrat Fateh Ali Khan"}}
+{"text": "play some Sufi songs", "action": "play_media", "slots": {"query": "Sufi songs"}}
+{"text": "play Christmas carols", "action": "play_media", "slots": {"query": "Christmas carols"}}
+{"text": "play IPL highlights CSK vs MI", "action": "play_media", "slots": {"query": "IPL highlights CSK vs MI"}}
+{"text": "Play Virat Kohli's century highlights.", "action": "play_media", "slots": {"query": "Virat Kohli's century highlights"}}
+{"text": "play football highlights", "action": "play_media", "slots": {"query": "football highlights"}}
+{"text": "play yoga video for morning", "action": "play_media", "slots": {"query": "yoga video for morning"}}
+{"text": "Play Baba Ramdev pranayam video", "action": "play_media", "slots": {"query": "Baba Ramdev pranayam video"}}
+{"text": "play a cooking video for paneer butter masala", "action": "play_media", "slots": {"query": "cooking video for paneer butter masala"}}
+{"text": "play Kabita's Kitchen latest recipe video", "action": "play_media", "slots": {"query": "Kabita's Kitchen latest recipe video"}}
+{"text": "play meditation music", "action": "play_media", "slots": {"query": "meditation music"}}
+{"text": "Play rain sounds for sleeping", "action": "play_media", "slots": {"query": "rain sounds for sleeping"}}
+{"text": "play lullaby for baby to sleep", "action": "play_media", "slots": {"query": "lullaby for baby to sleep"}}
+{"text": "play next song", "action": "media_control", "slots": {}, "control": "next", "was": "play_media"}
+{"text": "Play the song again", "action": "play_media", "slots": {}}
+{"text": "play my liked songs on Spotify", "action": "play_media", "slots": {"query": "my liked songs", "app": "Spotify"}}
+{"text": "play Bollywood top 50 playlist", "action": "play_media", "slots": {"query": "Bollywood top 50 playlist"}}
+{"text": "play something nice yaar, I am bored", "action": "play_media", "slots": {}}
+{"text": "uh play some music please", "action": "play_media", "slots": {}}
+{"text": "Music lagao", "action": "play_media", "slots": {}}
+{"text": "zara songs play karo na", "action": "play_media", "slots": {}}
+{"text": "song bajao, the Kishore one, mere sapno ki rani", "action": "play_media", "slots": {"query": "mere sapno ki rani"}}
+{"text": "can you put Jai Ho song", "action": "play_media", "slots": {"query": "Jai Ho"}}
+{"text": "I would like to hear old Hindi songs from the 60s, please play them", "action": "play_media", "slots": {"query": "old Hindi songs from the 60s"}}
+{"text": "do one thing na, play that Gulzar wala song Tujhse Naraz Nahi Zindagi", "action": "play_media", "slots": {"query": "Tujhse Naraz Nahi Zindagi"}}
+{"text": "Play.", "action": "play_media", "slots": {}}
+{"text": "plays some bajans", "action": "play_media", "slots": {"query": "bajans"}}
+{"text": "play arjit sing songs", "action": "play_media", "slots": {"query": "arjit sing"}}
+{"text": "pley hanuman chalisa", "action": "play_media", "slots": {"query": "hanuman chalisa"}}
+{"text": "Play kishor kumar gaane.", "action": "play_media", "slots": {"query": "kishor kumar"}}
+{"text": "play the rammayan katha", "action": "play_media", "slots": {"query": "rammayan katha"}}
+{"text": "play cricket hilights of today match", "action": "play_media", "slots": {"query": "cricket hilights of today match"}}
+{"text": "play nuss rat fateh ali khan qawali", "action": "play_media", "slots": {"query": "nuss rat fateh ali khan qawali"}}
+{"text": "play elayaraja songs", "action": "play_media", "slots": {"query": "elayaraja"}}
+{"text": "play the you tube video on how to tie a saree", "action": "play_media", "slots": {"query": "how to tie a saree", "app": "you tube"}}
+{"text": "play lata mangeshkar ae mere watan ke logon", "action": "play_media", "slots": {"query": "lata mangeshkar ae mere watan ke logon"}}
+{"text": "play konjam Ilaiyaraaja songs", "action": "play_media", "slots": {"query": "Ilaiyaraaja"}}
+{"text": "ondu Kannada bhakti geethe play maadi please", "action": "play_media", "slots": {"query": "Kannada bhakti geethe"}}
+{"text": "Sir please play my grandson's school annual day video on YouTube", "action": "play_media", "slots": {"query": "my grandson's school annual day video", "app": "YouTube"}}
+{"text": "Arijit Singh ke gaane chalao", "action": "play_media", "slots": {"query": "Arijit Singh"}}
+{"text": "beta subah wala Gayatri mantra chala do", "action": "play_media", "slots": {"query": "Gayatri mantra"}}
+{"text": "Lata Mangeshkar ka lag ja gale sunao", "action": "play_media", "slots": {"query": "Lata Mangeshkar ka lag ja gale"}}
+{"text": "Doraemon cartoon laga do bachche ke liye", "action": "play_media", "slots": {"query": "Doraemon"}}
+{"text": "kal ke match ki highlights chalao", "action": "play_media", "slots": {"query": "kal ke match ki highlights"}}
+{"text": "India Pakistan cricket highlights dikhao youtube pe", "action": "play_media", "slots": {"query": "India Pakistan cricket highlights", "app": "youtube"}}
+{"text": "Aaj tak live news chala do please", "action": "play_media", "slots": {"query": "Aaj tak live news"}}
+{"text": "koi accha sa romantic gaana bajao yaar", "action": "play_media", "slots": {"query": "romantic gaana"}}
+{"text": "vividh bharati radio laga do zara", "action": "play_media", "slots": {"query": "vividh bharati radio"}}
+{"text": "Sholay movie chala do.", "action": "play_media", "slots": {"query": "Sholay movie"}}
+{"text": "Mohammed Rafi ke dard bhare nagme sunao", "action": "play_media", "slots": {"query": "Mohammed Rafi ke dard bhare nagme"}}
+{"text": "Shree Ram bhajan bajao", "action": "play_media", "slots": {"query": "Shree Ram bhajan"}}
+{"text": "Anup Jalota ke bhajan laga do na", "action": "play_media", "slots": {"query": "Anup Jalota ke bhajan"}}
+{"text": "Shiv tandav stotram play karo", "action": "play_media", "slots": {"query": "Shiv tandav stotram"}}
+{"text": "Diljit Dosanjh ka naya gaana chalao", "action": "play_media", "slots": {"query": "Diljit Dosanjh ka naya gaana"}}
+{"text": "Honey Singh ke party songs bajao bhai", "action": "play_media", "slots": {"query": "Honey Singh ke party songs"}}
+{"text": "Chhota Bheem ka episode lagao", "action": "play_media", "slots": {"query": "Chhota Bheem"}}
+{"text": "motu patlu chala do jaldi", "action": "play_media", "slots": {"query": "motu patlu"}}
+{"text": "ranveer allahbadia ka latest podcast chalao", "action": "play_media", "slots": {"query": "ranveer allahbadia ka latest podcast"}}
+{"text": "Raj Shamani ka podcast play kar do", "action": "play_media", "slots": {"query": "Raj Shamani ka podcast"}}
+{"text": "Sandeep Maheshwari ka motivational video lagao", "action": "play_media", "slots": {"query": "Sandeep Maheshwari ka motivational video"}}
+{"text": "Jagjit Singh ki ghazalein sunni hai, laga do", "action": "play_media", "slots": {"query": "Jagjit Singh ki ghazalein"}}
+{"text": "Mujhe Ghulam Ali ki ghazal sunao.", "action": "play_media", "slots": {"query": "Ghulam Ali ki ghazal"}}
+{"text": "90s ke Kumar Sanu wale gaane bajao", "action": "play_media", "slots": {"query": "90s ke Kumar Sanu"}}
+{"text": "Alka Yagnik aur Udit Narayan ke duet chalao", "action": "play_media", "slots": {"query": "Alka Yagnik aur Udit Narayan ke duet"}}
+{"text": "Aashiqui 2 ke saare gaane chala do", "action": "play_media", "slots": {"query": "Aashiqui 2"}}
+{"text": "DDLJ ka tujhe dekha to gaana lagao", "action": "play_media", "slots": {"query": "DDLJ ka tujhe dekha to"}}
+{"text": "Sunderkand path chalao", "action": "play_media", "slots": {"query": "Sunderkand path"}}
+{"text": "aarti laga do om jai jagdish hare", "action": "play_media", "slots": {"query": "om jai jagdish hare"}}
+{"text": "Krishna bhajan bajao please", "action": "play_media", "slots": {"query": "Krishna bhajan"}}
+{"text": "Gurbani kirtan laga do ji", "action": "play_media", "slots": {"query": "Gurbani kirtan"}}
+{"text": "Nusrat Fateh Ali Khan ki qawwali chalao", "action": "play_media", "slots": {"query": "Nusrat Fateh Ali Khan ki qawwali"}}
+{"text": "Sufi music bajao kuch shanti wala", "action": "play_media", "slots": {"query": "Sufi music"}}
+{"text": "neend ke liye flute music laga do", "action": "play_media", "slots": {"query": "neend ke liye flute music"}}
+{"text": "Bachchon ki poems chalao, Johny Johny wali", "action": "play_media", "slots": {"query": "Johny Johny"}}
+{"text": "Bhojpuri gaana bajao Pawan Singh ka", "action": "play_media", "slots": {"query": "Pawan Singh"}}
+{"text": "Khesari Lal ka naya video chalao", "action": "play_media", "slots": {"query": "Khesari Lal ka naya video"}}
+{"text": "Haryanvi songs laga de bhai", "action": "play_media", "slots": {"query": "Haryanvi songs"}}
+{"text": "Sapna Choudhary ka dance video chala de", "action": "play_media", "slots": {"query": "Sapna Choudhary ka dance video"}}
+{"text": "Rajasthani folk geet bajao", "action": "play_media", "slots": {"query": "Rajasthani folk geet"}}
+{"text": "Ramayan serial ka episode chala do Ramanand Sagar wala", "action": "play_media", "slots": {"query": "Ramayan serial"}}
+{"text": "Mahabharat ka title song sunao", "action": "play_media", "slots": {"query": "Mahabharat ka title song"}}
+{"text": "NDTV India ki khabrein chalao", "action": "play_media", "slots": {"query": "NDTV India ki khabrein"}}
+{"text": "aaj ki taaza khabar wala video lagao", "action": "play_media", "slots": {"query": "aaj ki taaza khabar"}}
+{"text": "PM Modi ka aaj ka bhashan chala do", "action": "play_media", "slots": {"query": "PM Modi ka aaj ka bhashan"}}
+{"text": "Mann ki baat sunao", "action": "play_media", "slots": {"query": "Mann ki baat"}}
+{"text": "IPL ke final ki highlights play karo", "action": "play_media", "slots": {"query": "IPL ke final ki highlights"}}
+{"text": "Virat Kohli ki century wali video chalao", "action": "play_media", "slots": {"query": "Virat Kohli ki century"}}
+{"text": "Kapil Sharma show ka episode laga do", "action": "play_media", "slots": {"query": "Kapil Sharma show"}}
+{"text": "kuch comedy chala do, Raju Srivastav ki", "action": "play_media", "slots": {"query": "Raju Srivastav"}}
+{"text": "Shreya Ghoshal ke gaane", "action": "play_media", "slots": {"query": "Shreya Ghoshal"}}
+{"text": "gaana bajao", "action": "play_media", "slots": {}}
+{"text": "music chalao", "action": "play_media", "slots": {}}
+{"text": "Please play some old Hindi songs.", "action": "play_media", "slots": {"query": "old Hindi songs"}}
+{"text": "arey woh kesariya wala gaana laga na", "action": "play_media", "slots": {"query": "kesariya"}}
+{"text": "accha sun, Pushpa movie ka srivalli gaana bajao", "action": "play_media", "slots": {"query": "Pushpa movie ka srivalli"}}
+{"text": "AR Rahman ke hits chalao spotify pe", "action": "play_media", "slots": {"query": "AR Rahman ke hits", "app": "spotify"}}
+{"text": "youtube pe Coke Studio ka pasoori chala do", "action": "play_media", "slots": {"query": "Coke Studio ka pasoori", "app": "youtube"}}

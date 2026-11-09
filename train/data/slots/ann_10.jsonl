@@ -1,0 +1,645 @@
+{"text": "likho haanji", "action": "type_text", "slots": {"text": "haanji"}}
+{"text": "raayandi dear madam I request you to grant me leave for three days due to fever", "action": "type_text", "slots": {"text": "dear madam I request you to grant me leave for three days due to fever"}}
+{"text": "ek application type kara to the principal sir I humbly request", "action": "type_text", "slots": {"text": "to the principal sir I humbly request"}}
+{"text": "eita type koro the quick brown fox jumps over the lazy dog", "action": "type_text", "slots": {"text": "the quick brown fox jumps over the lazy dog"}}
+{"text": "ithu type cheyyu attached is my resume for your kind consideration", "action": "type_text", "slots": {"text": "attached is my resume for your kind consideration"}}
+{"text": "lakhi do sir aapnu order aaje dispatch thayu che", "action": "type_text", "slots": {"text": "sir aapnu order aaje dispatch thayu che"}}
+{"text": "likh devo ji tuhada parcel kal pahunch javega", "action": "type_text", "slots": {"text": "tuhada parcel kal pahunch javega"}}
+{"text": "taip cheyandi naa chiru nama Vijayawada Benz circle", "action": "type_text", "slots": {"text": "naa chiru nama Vijayawada Benz circle"}}
+{"text": "lihaa ki gharacha patta galli kramank 3", "action": "type_text", "slots": {"text": "gharacha patta galli kramank 3"}}
+{"text": "lekho na bhai Howrah station er kache", "action": "type_text", "slots": {"text": "Howrah station er kache"}}
+{"text": "ezhuthi tharu ente email anil at outlook dot com", "action": "type_text", "slots": {"text": "ente email anil at outlook dot com"}}
+{"text": "ee box lo type cheyyi Guntur Brodipet 4th line", "action": "type_text", "slots": {"text": "Guntur Brodipet 4th line"}}
+{"text": "idhula ezhudhu naan naalaiku varen", "action": "type_text", "slots": {"text": "naan naalaiku varen"}}
+{"text": "ithula type pannu happy birthday", "action": "type_text", "slots": {"text": "happy birthday"}}
+{"text": "search box la type pannu blue shirt", "action": "type_text", "slots": {"text": "blue shirt"}}
+{"text": "search box le ezhudhu cheap mobile phones under 10000", "action": "type_text", "slots": {"text": "cheap mobile phones under 10000"}}
+{"text": "konjam type pannu meeting at 5 pm", "action": "type_text", "slots": {"text": "meeting at 5 pm"}}
+{"text": "please ezhudhu thank you for your help", "action": "type_text", "slots": {"text": "thank you for your help"}}
+{"text": "Inga ezhudhu my address is 12 Gandhi street Chennai.", "action": "type_text", "slots": {"text": "my address is 12 Gandhi street Chennai"}}
+{"text": "type pannu leave letter for two days", "action": "type_text", "slots": {"text": "leave letter for two days"}}
+{"text": "naan sollradha type pannu, dear sir I am not feeling well", "action": "type_text", "slots": {"text": "dear sir I am not feeling well"}}
+{"text": "box la ezhudhu Murugan", "action": "type_text", "slots": {"text": "Murugan"}}
+{"text": "pincode type pannu 600028", "action": "type_text", "slots": {"text": "600028"}}
+{"text": "indha box la phone number type pannu 9840012345", "action": "type_text", "slots": {"text": "9840012345"}}
+{"text": "konjam ezhudhunga today is a holiday", "action": "type_text", "slots": {"text": "today is a holiday"}}
+{"text": "ezhudhu, rice two kilo, paruppu one kilo, oil one litre", "action": "type_text", "slots": {"text": "rice two kilo, paruppu one kilo, oil one litre"}}
+{"text": "Name box la ezhudhu Lakshmi Narayanan", "action": "type_text", "slots": {"text": "Lakshmi Narayanan"}}
+{"text": "type pannu good morning everyone", "action": "type_text", "slots": {"text": "good morning everyone"}}
+{"text": "document la ezhudhu chapter one introduction", "action": "type_text", "slots": {"text": "chapter one introduction"}}
+{"text": "ithai type pannunga the meeting is postponed to Monday", "action": "type_text", "slots": {"text": "the meeting is postponed to Monday"}}
+{"text": "ezhuthu naan sapten", "action": "type_text", "slots": {"text": "naan sapten"}}
+{"text": "ezudhu vanakkam ellarukkum", "action": "type_text", "slots": {"text": "vanakkam ellarukkum"}}
+{"text": "type pannu da hello world", "action": "type_text", "slots": {"text": "hello world"}}
+{"text": "search la type pannu Chennai to Madurai train", "action": "type_text", "slots": {"text": "Chennai to Madurai train"}}
+{"text": "type panu iPhone 15 price", "action": "type_text", "slots": {"text": "iPhone 15 price"}}
+{"text": "ezhudhu please, flat number 4B, Anna Nagar", "action": "type_text", "slots": {"text": "flat number 4B, Anna Nagar"}}
+{"text": "idha appadiye ezhudhu: amma appa love you", "action": "type_text", "slots": {"text": "amma appa love you"}}
+{"text": "konjam type pannu yaar, see you tomorrow", "action": "type_text", "slots": {"text": "see you tomorrow"}}
+{"text": "address box la type pannu 45 Kamarajar salai Madurai", "action": "type_text", "slots": {"text": "45 Kamarajar salai Madurai"}}
+{"text": "ezhudhu naan oru teacher", "action": "type_text", "slots": {"text": "naan oru teacher"}}
+{"text": "type pannu my email is ravi at gmail dot com", "action": "type_text", "slots": {"text": "my email is ravi at gmail dot com"}}
+{"text": "ezhudhu ok", "action": "type_text", "slots": {"text": "ok"}}
+{"text": "type pannu thanks", "action": "type_text", "slots": {"text": "thanks"}}
+{"text": "ezhudhu sari", "action": "type_text", "slots": {"text": "sari"}}
+{"text": "type pannunga kindly find the attached document", "action": "type_text", "slots": {"text": "kindly find the attached document"}}
+{"text": "ithula ezhudhu Pongal wishes to all", "action": "type_text", "slots": {"text": "Pongal wishes to all"}}
+{"text": "Type pannu payment done.", "action": "type_text", "slots": {"text": "payment done"}}
+{"text": "ezhudhi vai total amount 2500 rupees", "action": "type_text", "slots": {"text": "total amount 2500 rupees"}}
+{"text": "notes la ezhudhu doctor appointment Thursday 10 am", "action": "type_text", "slots": {"text": "doctor appointment Thursday 10 am"}}
+{"text": "subject la type pannu application for job", "action": "type_text", "slots": {"text": "application for job"}}
+{"text": "indha idathula ezhudhu Kumar S", "action": "type_text", "slots": {"text": "Kumar S"}}
+{"text": "ezhuthu yesterday rain was very heavy", "action": "type_text", "slots": {"text": "yesterday rain was very heavy"}}
+{"text": "taip pannu good night", "action": "type_text", "slots": {"text": "good night"}}
+{"text": "type pannuga I will call you later", "action": "type_text", "slots": {"text": "I will call you later"}}
+{"text": "ezudu naalaiku school leave", "action": "type_text", "slots": {"text": "naalaiku school leave"}}
+{"text": "please konjam type pannu Dear customer your order has been shipped", "action": "type_text", "slots": {"text": "Dear customer your order has been shipped"}}
+{"text": "search box la type pannu Ilayaraja songs lyrics", "action": "type_text", "slots": {"text": "Ilayaraja songs lyrics"}}
+{"text": "search box la ezhudhu Tamil Nadu ration card status", "action": "type_text", "slots": {"text": "Tamil Nadu ration card status"}}
+{"text": "typing pannu weather report", "action": "type_text", "slots": {"text": "weather report"}}
+{"text": "type pannu na, office ku late aagum", "action": "type_text", "slots": {"text": "office ku late aagum"}}
+{"text": "ezhudhu 1 2 3 4 5", "action": "type_text", "slots": {"text": "1 2 3 4 5"}}
+{"text": "type pannu OTP 4 5 7 8 9 2", "action": "type_text", "slots": {"text": "OTP 4 5 7 8 9 2"}}
+{"text": "date type pannu 15th August 2026", "action": "type_text", "slots": {"text": "15th August 2026"}}
+{"text": "ezhudhu sir, nan unga student Priya", "action": "type_text", "slots": {"text": "sir, nan unga student Priya"}}
+{"text": "type pannu happy Deepavali to you and your family", "action": "type_text", "slots": {"text": "happy Deepavali to you and your family"}}
+{"text": "ithula ezhudhu Coimbatore", "action": "type_text", "slots": {"text": "Coimbatore"}}
+{"text": "city box la type pannu Trichy", "action": "type_text", "slots": {"text": "Trichy"}}
+{"text": "Ezhudhu, I am coming home by 8.", "action": "type_text", "slots": {"text": "I am coming home by 8"}}
+{"text": "title la type pannu my first story", "action": "type_text", "slots": {"text": "my first story"}}
+{"text": "ezhudhu once upon a time there was a king", "action": "type_text", "slots": {"text": "once upon a time there was a king"}}
+{"text": "indha form la ezhudhu Ramasamy", "action": "type_text", "slots": {"text": "Ramasamy"}}
+{"text": "type pannu ennoda peyar Selvi", "action": "type_text", "slots": {"text": "ennoda peyar Selvi"}}
+{"text": "konjam slow ah type pannu, the quick brown fox", "action": "type_text", "slots": {"text": "the quick brown fox"}}
+{"text": "appadiye type pannu inniku romba busy", "action": "type_text", "slots": {"text": "inniku romba busy"}}
+{"text": "type pannu inga, please call me back", "action": "type_text", "slots": {"text": "please call me back"}}
+{"text": "ezhudhu thambi exam la pass aayitaan", "action": "type_text", "slots": {"text": "thambi exam la pass aayitaan"}}
+{"text": "caption ah type pannu beautiful sunset at Marina beach", "action": "type_text", "slots": {"text": "beautiful sunset at Marina beach"}}
+{"text": "comment box la ezhudhu very nice video", "action": "type_text", "slots": {"text": "very nice video"}}
+{"text": "type pannu mobile number 9 8 4 0 1 2 3 4 5 6", "action": "type_text", "slots": {"text": "mobile number 9 8 4 0 1 2 3 4 5 6"}}
+{"text": "type pannu 25 Nehru street, T Nagar, Chennai 600017", "action": "type_text", "slots": {"text": "25 Nehru street, T Nagar, Chennai 600017"}}
+{"text": "ezhudhu medicine morning one, night one", "action": "type_text", "slots": {"text": "medicine morning one, night one"}}
+{"text": "type pannu bill number 3045", "action": "type_text", "slots": {"text": "bill number 3045"}}
+{"text": "password illa, just ezhudhu username murali123", "action": "type_text", "slots": {"text": "username murali123"}}
+{"text": "ezhudhu kalyanam invitation for Sunday", "action": "type_text", "slots": {"text": "kalyanam invitation for Sunday"}}
+{"text": "tayp pannu congratulations", "action": "type_text", "slots": {"text": "congratulations"}}
+{"text": "eludhu romba nandri", "action": "type_text", "slots": {"text": "romba nandri"}}
+{"text": "yezhudhu naan veetla irukken", "action": "type_text", "slots": {"text": "naan veetla irukken"}}
+{"text": "type pannu yaar, meeting cancel aayiduchu", "action": "type_text", "slots": {"text": "meeting cancel aayiduchu"}}
+{"text": "search box la type pannu saree for wedding", "action": "type_text", "slots": {"text": "saree for wedding"}}
+{"text": "ezhudhu the project is completed", "action": "type_text", "slots": {"text": "the project is completed"}}
+{"text": "type pannu amma samayal recipe sambar", "action": "type_text", "slots": {"text": "amma samayal recipe sambar"}}
+{"text": "ezhudhunga Om Muruga", "action": "type_text", "slots": {"text": "Om Muruga"}}
+{"text": "type pannu Sri Rama Jayam", "action": "type_text", "slots": {"text": "Sri Rama Jayam"}}
+{"text": "ithula type pannu Monday to Friday 9 to 6", "action": "type_text", "slots": {"text": "Monday to Friday 9 to 6"}}
+{"text": "ezhudhu please my account number is not required here, just write Branch Adyar", "action": "type_text", "slots": {"text": "Branch Adyar"}}
+{"text": "type pannu quantity 10", "action": "type_text", "slots": {"text": "quantity 10"}}
+{"text": "ezhudhu summary of the meeting", "action": "type_text", "slots": {"text": "summary of the meeting"}}
+{"text": "type pannu apdiye, I agree with your point", "action": "type_text", "slots": {"text": "I agree with your point"}}
+{"text": "type pannu hmm, no problem", "action": "type_text", "slots": {"text": "no problem"}}
+{"text": "search bar la type pannu nearest hospital", "action": "type_text", "slots": {"text": "nearest hospital"}}
+{"text": "idhula ezhudhu Kovil timings 6 am to 12 pm", "action": "type_text", "slots": {"text": "Kovil timings 6 am to 12 pm"}}
+{"text": "ezhudhu bus number 21G", "action": "type_text", "slots": {"text": "bus number 21G"}}
+{"text": "type pannu reference number AB 1234", "action": "type_text", "slots": {"text": "reference number AB 1234"}}
+{"text": "இதுல எழுது நான் நாளைக்கு வரேன்", "action": "type_text", "slots": {"text": "நான் நாளைக்கு வரேன்"}}
+{"text": "டைப் பண்ணு ஹேப்பி பர்த்டே", "action": "type_text", "slots": {"text": "ஹேப்பி பர்த்டே"}}
+{"text": "சர்ச் பாக்ஸ்ல டைப் பண்ணு ப்ளூ ஷர்ட்", "action": "type_text", "slots": {"text": "ப்ளூ ஷர்ட்"}}
+{"text": "எழுது வணக்கம்", "action": "type_text", "slots": {"text": "வணக்கம்"}}
+{"text": "கொஞ்சம் எழுதுங்க இன்னைக்கு லீவு", "action": "type_text", "slots": {"text": "இன்னைக்கு லீவு"}}
+{"text": "டைப் பண்ணு என் பெயர் முருகன்", "action": "type_text", "slots": {"text": "என் பெயர் முருகன்"}}
+{"text": "இந்த பாக்ஸ்ல எழுது சென்னை", "action": "type_text", "slots": {"text": "சென்னை"}}
+{"text": "எழுது அரிசி இரண்டு கிலோ பருப்பு ஒரு கிலோ", "action": "type_text", "slots": {"text": "அரிசி இரண்டு கிலோ பருப்பு ஒரு கிலோ"}}
+{"text": "டைப் பண்ணு குட் மார்னிங்", "action": "type_text", "slots": {"text": "குட் மார்னிங்"}}
+{"text": "எழுது நன்றி", "action": "type_text", "slots": {"text": "நன்றி"}}
+{"text": "இதை டைப் பண்ணுங்க மீட்டிங் ஐந்து மணிக்கு", "action": "type_text", "slots": {"text": "மீட்டிங் ஐந்து மணிக்கு"}}
+{"text": "எழுது 600028", "action": "type_text", "slots": {"text": "600028"}}
+{"text": "அட்ரஸ் பாக்ஸ்ல டைப் பண்ணு 12 காந்தி தெரு மதுரை", "action": "type_text", "slots": {"text": "12 காந்தி தெரு மதுரை"}}
+{"text": "எழுது நான் வீட்டுக்கு போறேன்", "action": "type_text", "slots": {"text": "நான் வீட்டுக்கு போறேன்"}}
+{"text": "டைப் பண்ணு தீபாவளி வாழ்த்துக்கள்", "action": "type_text", "slots": {"text": "தீபாவளி வாழ்த்துக்கள்"}}
+{"text": "கொஞ்சம் டைப் பண்ணு ப்ளீஸ் ஐ வில் கால் யூ லேட்டர்", "action": "type_text", "slots": {"text": "ஐ வில் கால் யூ லேட்டர்"}}
+{"text": "எழுது ஓம் நமசிவாய", "action": "type_text", "slots": {"text": "ஓம் நமசிவாய"}}
+{"text": "சர்ச் பாக்ஸ்ல எழுது இளையராஜா பாடல் வரிகள்", "action": "type_text", "slots": {"text": "இளையராஜா பாடல் வரிகள்"}}
+{"text": "டைப் பண்ணு பொங்கல் வாழ்த்துக்கள்", "action": "type_text", "slots": {"text": "பொங்கல் வாழ்த்துக்கள்"}}
+{"text": "இங்க எழுது ராமசாமி", "action": "type_text", "slots": {"text": "ராமசாமி"}}
+{"text": "எழுது டாக்டர் அப்பாயின்ட்மென்ட் வியாழன்", "action": "type_text", "slots": {"text": "டாக்டர் அப்பாயின்ட்மென்ட் வியாழன்"}}
+{"text": "டைப் பண்ணு ஓகே", "action": "type_text", "slots": {"text": "ஓகே"}}
+{"text": "நான் சொல்றதை எழுது இன்னைக்கு மழை அதிகம்", "action": "type_text", "slots": {"text": "இன்னைக்கு மழை அதிகம்"}}
+{"text": "எழுதுங்க தயவுசெய்து என் போன் நம்பர் 9840012345", "action": "type_text", "slots": {"text": "என் போன் நம்பர் 9840012345"}}
+{"text": "டைப் பண்ணு சரி", "action": "type_text", "slots": {"text": "சரி"}}
+{"text": "கமெண்ட்ல எழுது ரொம்ப நல்ல வீடியோ", "action": "type_text", "slots": {"text": "ரொம்ப நல்ல வீடியோ"}}
+{"text": "எழுது திருச்சி", "action": "type_text", "slots": {"text": "திருச்சி"}}
+{"text": "டைப் பன்னு கங்கிராஜுலேஷன்ஸ்", "action": "type_text", "slots": {"text": "கங்கிராஜுலேஷன்ஸ்"}}
+{"text": "எழுது வேலை முடிஞ்சது", "action": "type_text", "slots": {"text": "வேலை முடிஞ்சது"}}
+{"text": "பெயர் பாக்ஸ்ல டைப் பண்ணு லட்சுமி", "action": "type_text", "slots": {"text": "லட்சுமி"}}
+{"text": "haan haan main aa rahi hoon two minutes", "action": "unknown", "slots": {}}
+{"text": "umm wait wait", "action": "unknown", "slots": {}}
+{"text": "beta khana kha liya kya", "action": "unknown", "slots": {}}
+{"text": "achha theek hai", "action": "unknown", "slots": {}}
+{"text": "I am just checking something", "action": "unknown", "slots": {}}
+{"text": "one second ma, phone baj raha hai", "action": "unknown", "slots": {}}
+{"text": "Ramesh, chai banao na please", "action": "unknown", "slots": {}}
+{"text": "today office was very hectic yaar", "action": "unknown", "slots": {}}
+{"text": "uh so like", "action": "unknown", "slots": {}}
+{"text": "okay okay", "action": "unknown", "slots": {}}
+{"text": "the computer is very slow these days", "action": "unknown", "slots": {}}
+{"text": "what time did papa say he will come", "action": "unknown", "slots": {}}
+{"text": "I think it is going to rain today", "action": "unknown", "slots": {}}
+{"text": "mummy where did you keep my specs", "action": "unknown", "slots": {}}
+{"text": "haan bolo", "action": "unknown", "slots": {}}
+{"text": "I am not able to understand this only", "action": "unknown", "slots": {}}
+{"text": "hello hello can you hear me", "action": "unknown", "slots": {}}
+{"text": "arey baba kya kar rahe ho", "action": "unknown", "slots": {}}
+{"text": "so basically what happened was", "action": "unknown", "slots": {}}
+{"text": "this laptop my son gave me last Diwali", "action": "unknown", "slots": {}}
+{"text": "ok so", "action": "unknown", "slots": {}}
+{"text": "do one thing", "action": "unknown", "slots": {}}
+{"text": "please can you", "action": "unknown", "slots": {}}
+{"text": "konjam wait pannunga", "action": "unknown", "slots": {}}
+{"text": "zara ruko", "action": "unknown", "slots": {}}
+{"text": "I had dosa for breakfast", "action": "unknown", "slots": {}}
+{"text": "Priya, did you feed the dog", "action": "unknown", "slots": {}}
+{"text": "the light went off again yesterday night", "action": "unknown", "slots": {}}
+{"text": "nothing nothing, I was talking to my wife", "action": "unknown", "slots": {}}
+{"text": "my knees are paining since morning", "action": "unknown", "slots": {}}
+{"text": "open the", "action": "unknown", "slots": {}}
+{"text": "send it to", "action": "unknown", "slots": {}}
+{"text": "what was I saying", "action": "unknown", "slots": {}}
+{"text": "I like this new keyboard actually", "action": "unknown", "slots": {}}
+{"text": "okay so now what", "action": "unknown", "slots": {}}
+{"text": "Sunita aunty is coming in the evening", "action": "unknown", "slots": {}}
+{"text": "yesterday the match was too good yaar", "action": "unknown", "slots": {}}
+{"text": "beta tum school se kab aaoge", "action": "unknown", "slots": {}}
+{"text": "I forgot what I wanted to do", "action": "unknown", "slots": {}}
+{"text": "na na not now", "action": "unknown", "slots": {}}
+{"text": "ondu nimisha", "action": "unknown", "slots": {}}
+{"text": "ha ha that is very funny", "action": "unknown", "slots": {}}
+{"text": "is it working or not, I dont know", "action": "unknown", "slots": {}}
+{"text": "achha so this is how it works", "action": "unknown", "slots": {}}
+{"text": "let me just sit properly first", "action": "unknown", "slots": {}}
+{"text": "the fan is making noise", "action": "unknown", "slots": {}}
+{"text": "please play", "action": "unknown", "slots": {}}
+{"text": "Kavya come here and see this", "action": "unknown", "slots": {}}
+{"text": "my grandson set this up for me", "action": "unknown", "slots": {}}
+{"text": "I am feeling very sleepy now", "action": "unknown", "slots": {}}
+{"text": "the neighbours are making too much noise", "action": "unknown", "slots": {}}
+{"text": "did the courier come today", "action": "unknown", "slots": {}}
+{"text": "wah kya baat hai", "action": "unknown", "slots": {}}
+{"text": "thank you so much beta", "action": "unknown", "slots": {}}
+{"text": "good night everyone", "action": "unknown", "slots": {}}
+{"text": "I will do it later, no hurry", "action": "unknown", "slots": {}}
+{"text": "abhi nahi yaar baad mein", "action": "unknown", "slots": {}}
+{"text": "the milk got boiled over", "action": "unknown", "slots": {}}
+{"text": "Suresh bhai kal market chalenge kya", "action": "unknown", "slots": {}}
+{"text": "I am a retired bank employee", "action": "unknown", "slots": {}}
+{"text": "this mic is working I think", "action": "unknown", "slots": {}}
+{"text": "umm uh hmm", "action": "unknown", "slots": {}}
+{"text": "so so so", "action": "unknown", "slots": {}}
+{"text": "lunch ready hai kya", "action": "unknown", "slots": {}}
+{"text": "who is at the door", "action": "unknown", "slots": {}}
+{"text": "I need to go to the temple at six", "action": "unknown", "slots": {}}
+{"text": "the auto fare has gone up so much", "action": "unknown", "slots": {}}
+{"text": "my BP tablet I have to take", "action": "unknown", "slots": {}}
+{"text": "type the", "action": "unknown", "slots": {}}
+{"text": "search for", "action": "unknown", "slots": {}}
+{"text": "amma I am coming down", "action": "unknown", "slots": {}}
+{"text": "he never listens to me only", "action": "unknown", "slots": {}}
+{"text": "okay fine whatever", "action": "unknown", "slots": {}}
+{"text": "where is the remote yaar", "action": "unknown", "slots": {}}
+{"text": "these young people always on phone", "action": "unknown", "slots": {}}
+{"text": "I was just testing if this thing hears me", "action": "unknown", "slots": {}}
+{"text": "what to do no, life is like this", "action": "unknown", "slots": {}}
+{"text": "kya bol rahe the tum", "action": "unknown", "slots": {}}
+{"text": "I will call you back Ravi", "action": "unknown", "slots": {}}
+{"text": "Deepa did you pay the electricity bill", "action": "unknown", "slots": {}}
+{"text": "my eyes are weak, cannot see small letters", "action": "unknown", "slots": {}}
+{"text": "mmm okay", "action": "unknown", "slots": {}}
+{"text": "actually never mind I was talking to my daughter", "action": "unknown", "slots": {}}
+{"text": "the plants need watering today", "action": "unknown", "slots": {}}
+{"text": "cricket aaj kitne baje hai Rahul", "action": "unknown", "slots": {}}
+{"text": "so tired after the meeting", "action": "unknown", "slots": {}}
+{"text": "let me finish my coffee first", "action": "unknown", "slots": {}}
+{"text": "because of that only", "action": "unknown", "slots": {}}
+{"text": "I dont like this colour on the screen", "action": "unknown", "slots": {}}
+{"text": "yesterday we went to Lalbagh", "action": "unknown", "slots": {}}
+{"text": "uh what is the name of that thing", "action": "unknown", "slots": {}}
+{"text": "no I was saying to my husband", "action": "unknown", "slots": {}}
+{"text": "oye chup kar", "action": "unknown", "slots": {}}
+{"text": "it is very cold in the morning these days", "action": "unknown", "slots": {}}
+{"text": "we should go to Mysore this weekend", "action": "unknown", "slots": {}}
+{"text": "my phone battery is dead again", "action": "unknown", "slots": {}}
+{"text": "uncle ji aap baitho na", "action": "unknown", "slots": {}}
+{"text": "I am sitting here only", "action": "unknown", "slots": {}}
+{"text": "lekin woh toh", "action": "unknown", "slots": {}}
+{"text": "the wifi guy is coming tomorrow", "action": "unknown", "slots": {}}
+{"text": "okay so that is done", "action": "unknown", "slots": {}}
+{"text": "opun the", "action": "unknown", "slots": {}}
+{"text": "sand massage too", "action": "unknown", "slots": {}}
+{"text": "plees wait karo", "action": "unknown", "slots": {}}
+{"text": "achha achha samajh gaya", "action": "unknown", "slots": {}}
+{"text": "haan theek hai mama", "action": "unknown", "slots": {}}
+{"text": "whats this yaar", "action": "unknown", "slots": {}}
+{"text": "I think the kids broke something", "action": "unknown", "slots": {}}
+{"text": "meri chashma kahan hai", "action": "unknown", "slots": {}}
+{"text": "ok bye bye", "action": "unknown", "slots": {}}
+{"text": "uhh I dont know", "action": "unknown", "slots": {}}
+{"text": "Mummy chai bana do na please.", "action": "unknown", "slots": {}}
+{"text": "hmm ruko ek minute", "action": "unknown", "slots": {}}
+{"text": "aaj office mein bahut kaam tha", "action": "unknown", "slots": {}}
+{"text": "beta tumne khana khaya kya", "action": "unknown", "slots": {}}
+{"text": "Main soch raha tha ki kal market chalen.", "action": "unknown", "slots": {}}
+{"text": "uh umm wo kya tha", "action": "unknown", "slots": {}}
+{"text": "Papa abhi tak aaye nahi kya?", "action": "unknown", "slots": {}}
+{"text": "mera chashma kahan rakha hai kisi ne dekha", "action": "unknown", "slots": {}}
+{"text": "yeh computer bhi na kitna slow hai", "action": "unknown", "slots": {}}
+{"text": "bas aise hi", "action": "unknown", "slots": {}}
+{"text": "kal raat neend hi nahi aayi", "action": "unknown", "slots": {}}
+{"text": "Dadi ji dawai le li aapne?", "action": "unknown", "slots": {}}
+{"text": "ye wala", "action": "unknown", "slots": {}}
+{"text": "chalo dekhte hain kya hota hai", "action": "unknown", "slots": {}}
+{"text": "Doodh wala aaya hai darwaza kholo koi", "action": "unknown", "slots": {}}
+{"text": "mujhe na samajh nahi aa raha", "action": "unknown", "slots": {}}
+{"text": "Bahut badhiya laga aaj ka din.", "action": "unknown", "slots": {}}
+{"text": "arey baba re", "action": "unknown", "slots": {}}
+{"text": "Rinku idhar aao zara", "action": "unknown", "slots": {}}
+{"text": "pata nahi yaar", "action": "unknown", "slots": {}}
+{"text": "khana thanda ho raha hai jaldi aao sab", "action": "unknown", "slots": {}}
+{"text": "Main thoda thak gaya hoon.", "action": "unknown", "slots": {}}
+{"text": "woh na jo kal aaya tha uska kya hua", "action": "unknown", "slots": {}}
+{"text": "achha to phir", "action": "unknown", "slots": {}}
+{"text": "Bijli ka bill bahut zyada aaya is baar", "action": "unknown", "slots": {}}
+{"text": "tum log shor mat karo please", "action": "unknown", "slots": {}}
+{"text": "Haan bolo bolo", "action": "unknown", "slots": {}}
+{"text": "kitne baje hain abhi bhaiya ghadi dekho", "action": "unknown", "slots": {}}
+{"text": "meri kamar mein dard ho raha hai", "action": "unknown", "slots": {}}
+{"text": "subzi mein namak kam hai", "action": "unknown", "slots": {}}
+{"text": "Sonu tumhara homework ho gaya?", "action": "unknown", "slots": {}}
+{"text": "main toh bas aise hi baitha hoon", "action": "unknown", "slots": {}}
+{"text": "ye button wala na", "action": "unknown", "slots": {}}
+{"text": "Ek baat bataun aapko", "action": "unknown", "slots": {}}
+{"text": "Baarish shuru ho gayi kapde utaar lo chhat se", "action": "unknown", "slots": {}}
+{"text": "hello hello sunai de raha hai", "action": "unknown", "slots": {}}
+{"text": "accha laga tumse baat karke", "action": "unknown", "slots": {}}
+{"text": "Aaj Sunday hai na?", "action": "unknown", "slots": {}}
+{"text": "uff kitni der lagegi", "action": "unknown", "slots": {}}
+{"text": "beta zara paani lana", "action": "unknown", "slots": {}}
+{"text": "mera beta Bangalore mein kaam karta hai", "action": "unknown", "slots": {}}
+{"text": "kuch nahi kuch nahi", "action": "unknown", "slots": {}}
+{"text": "woh jo hai na usko", "action": "unknown", "slots": {}}
+{"text": "aaj sabzi wale ne bahut mehenga diya tamatar", "action": "unknown", "slots": {}}
+{"text": "Main kal se gym jaunga pakka", "action": "unknown", "slots": {}}
+{"text": "chup karo tum dono", "action": "unknown", "slots": {}}
+{"text": "Mujhe lagta hai ye theek kaam nahi kar raha", "action": "unknown", "slots": {}}
+{"text": "ha ha bahut mazedaar", "action": "unknown", "slots": {}}
+{"text": "Gas band kar diya tha na tumne?", "action": "unknown", "slots": {}}
+{"text": "accha suno", "action": "unknown", "slots": {}}
+{"text": "kal shaadi mein jaana hai kapde press karne hain", "action": "unknown", "slots": {}}
+{"text": "arre ye kya ho gaya", "action": "unknown", "slots": {}}
+{"text": "Ji main theek hoon aap kaise hain", "action": "unknown", "slots": {}}
+{"text": "thoda ruk ja yaar", "action": "unknown", "slots": {}}
+{"text": "Mausi aayi thi aaj subah", "action": "unknown", "slots": {}}
+{"text": "ab kya karein", "action": "unknown", "slots": {}}
+{"text": "Ma ko bolo ki", "action": "unknown", "slots": {}}
+{"text": "khol do woh", "action": "unknown", "slots": {}}
+{"text": "ache se ho gaya sab", "action": "unknown", "slots": {}}
+{"text": "Mere ghutne mein phir se dard hai", "action": "unknown", "slots": {}}
+{"text": "accha chalo baad mein dekhenge", "action": "unknown", "slots": {}}
+{"text": "toh theek hai.", "action": "unknown", "slots": {}}
+{"text": "aaj pooja ke liye phool lane hain", "action": "unknown", "slots": {}}
+{"text": "Mujhe kuch yaad nahi aa raha", "action": "unknown", "slots": {}}
+{"text": "bacche school se aa gaye kya", "action": "unknown", "slots": {}}
+{"text": "Teekh hai bhai", "action": "unknown", "slots": {}}
+{"text": "kya baat kar rahe ho yaar sachme", "action": "unknown", "slots": {}}
+{"text": "mai abhi aata hu", "action": "unknown", "slots": {}}
+{"text": "Acha wo jo hai na", "action": "unknown", "slots": {}}
+{"text": "kitna pyara mausam hai aaj", "action": "unknown", "slots": {}}
+{"text": "Bhabhi ji ne bahut tasty halwa banaya", "action": "unknown", "slots": {}}
+{"text": "kuch to gadbad hai daya", "action": "unknown", "slots": {}}
+{"text": "Ab mujhe neend aa rahi hai", "action": "unknown", "slots": {}}
+{"text": "chlo thik h", "action": "unknown", "slots": {}}
+{"text": "haanji bataiye", "action": "unknown", "slots": {}}
+{"text": "mere phone ki battery khatam ho gayi", "action": "unknown", "slots": {}}
+{"text": "achha woh na kal wala", "action": "unknown", "slots": {}}
+{"text": "pados wale Sharma ji ka beta aaya tha", "action": "unknown", "slots": {}}
+{"text": "Arre suno to", "action": "unknown", "slots": {}}
+{"text": "aaj kal ke bacche bhi na", "action": "unknown", "slots": {}}
+{"text": "अरे यार आज बहुत थकान है", "action": "unknown", "slots": {}}
+{"text": "मम्मी खाना कब बनेगा", "action": "unknown", "slots": {}}
+{"text": "हम्म रुको ज़रा", "action": "unknown", "slots": {}}
+{"text": "आज मेरा बर्थडे है", "action": "unknown", "slots": {}}
+{"text": "बेटा इधर आओ", "action": "unknown", "slots": {}}
+{"text": "पता नहीं क्या हो रहा है इस computer को", "action": "unknown", "slots": {}}
+{"text": "अच्छा ठीक है फिर", "action": "unknown", "slots": {}}
+{"text": "पापा जी आपकी चाय रखी है", "action": "unknown", "slots": {}}
+{"text": "मैं कल मंदिर गई थी", "action": "unknown", "slots": {}}
+{"text": "वो जो है ना", "action": "unknown", "slots": {}}
+{"text": "हाँ जी नमस्ते", "action": "unknown", "slots": {}}
+{"text": "आज ऑफिस में मीटिंग बहुत लंबी चली", "action": "unknown", "slots": {}}
+{"text": "कोई दरवाज़ा देखो घंटी बजी है", "action": "unknown", "slots": {}}
+{"text": "मेरी दवाई कहाँ रखी है", "action": "unknown", "slots": {}}
+{"text": "उफ़ ये गर्मी", "action": "unknown", "slots": {}}
+{"text": "भैया को बोलो कि", "action": "unknown", "slots": {}}
+{"text": "बच्चों शोर मत करो", "action": "unknown", "slots": {}}
+{"text": "कुछ नहीं बस ऐसे ही", "action": "unknown", "slots": {}}
+{"text": "मुझे ये mobile बिल्कुल समझ नहीं आता", "action": "unknown", "slots": {}}
+{"text": "दादी जी की तबीयत अब ठीक है", "action": "unknown", "slots": {}}
+{"text": "अच्छा सुनो एक बात", "action": "unknown", "slots": {}}
+{"text": "कल बारिश होगी शायद", "action": "unknown", "slots": {}}
+{"text": "हाँ हाँ मैं आ रहा हूँ", "action": "unknown", "slots": {}}
+{"text": "वो वाला खोलो", "action": "unknown", "slots": {}}
+{"text": "मैं थोड़ी देर में वापस आती हूँ", "action": "unknown", "slots": {}}
+{"text": "अरे वाह बहुत बढ़िया", "action": "unknown", "slots": {}}
+{"text": "ठिक है भाई जी", "action": "unknown", "slots": {}}
+{"text": "मेरा चश्मा किसी ने देखा क्या", "action": "unknown", "slots": {}}
+{"text": "हम्म उम्म", "action": "unknown", "slots": {}}
+{"text": "सब्ज़ी वाले को पैसे दे दिए क्या", "action": "unknown", "slots": {}}
+{"text": "बहुत दिनों बाद आज धूप निकली है", "action": "unknown", "slots": {}}
+{"text": "ivattu tumba bisilu ide alva", "action": "unknown", "slots": {}}
+{"text": "amma oota aaytaa", "action": "unknown", "slots": {}}
+{"text": "hmm ondu nimisha", "action": "unknown", "slots": {}}
+{"text": "yaaru bandidru baagilige", "action": "unknown", "slots": {}}
+{"text": "nanage swalpa tale novu ide", "action": "unknown", "slots": {}}
+{"text": "nenne raatri nidde barlilla", "action": "unknown", "slots": {}}
+{"text": "appa tea beka nimge", "action": "unknown", "slots": {}}
+{"text": "ayyo marete hogittu", "action": "unknown", "slots": {}}
+{"text": "bekku yaake kirchtide", "action": "unknown", "slots": {}}
+{"text": "nanna kannadaka elli ittidini", "action": "unknown", "slots": {}}
+{"text": "illi ondu nimisha baa magu", "action": "unknown", "slots": {}}
+{"text": "idu thumba slow aagide anisutte", "action": "unknown", "slots": {}}
+{"text": "avanu innu office inda bandilla", "action": "unknown", "slots": {}}
+{"text": "naale shaale rajaa ide anta helidru", "action": "unknown", "slots": {}}
+{"text": "ondu... adu... enu helbekittu", "action": "unknown", "slots": {}}
+{"text": "saaku saaku nanage hasivilla", "action": "unknown", "slots": {}}
+{"text": "haalu ukki hoytu nodu", "action": "unknown", "slots": {}}
+{"text": "ninna homework mugitaa", "action": "unknown", "slots": {}}
+{"text": "nimma maga Bangalore alli idaana", "action": "unknown", "slots": {}}
+{"text": "yen guru hegidiya", "action": "unknown", "slots": {}}
+{"text": "ee computer nanage artha aagalla appa", "action": "unknown", "slots": {}}
+{"text": "kelsa mugisi barteeni", "action": "unknown", "slots": {}}
+{"text": "ok ok sari", "action": "unknown", "slots": {}}
+{"text": "hmm hmm", "action": "unknown", "slots": {}}
+{"text": "illa illa adu alla", "action": "unknown", "slots": {}}
+{"text": "akka barteeni anta helidlu", "action": "unknown", "slots": {}}
+{"text": "ivattu bus tumba late aaytu", "action": "unknown", "slots": {}}
+{"text": "bele jasti aagide ee sala", "action": "unknown", "slots": {}}
+{"text": "ondu kshana iri", "action": "unknown", "slots": {}}
+{"text": "nanna phone charge alli ide na", "action": "unknown", "slots": {}}
+{"text": "yaaru ide alli", "action": "unknown", "slots": {}}
+{"text": "ninge gottaa avaru yaavaga bartaare", "action": "unknown", "slots": {}}
+{"text": "ah sari sari gottaaytu", "action": "unknown", "slots": {}}
+{"text": "amma neevu kootkoli", "action": "unknown", "slots": {}}
+{"text": "ee fan swalpa jorr aagi tirugtide", "action": "unknown", "slots": {}}
+{"text": "maadi", "action": "unknown", "slots": {}}
+{"text": "open maadu", "action": "unknown", "slots": {}}
+{"text": "message kalsu", "action": "send_message", "incomplete": true, "slots": {}, "was": "unknown"}
+{"text": "yaarige", "action": "unknown", "slots": {}}
+{"text": "adu yaavdu", "action": "unknown", "slots": {}}
+{"text": "naanu nodtini aamele", "action": "unknown", "slots": {}}
+{"text": "innu swalpa hottu aagutte", "action": "unknown", "slots": {}}
+{"text": "oota chennaagittu", "action": "unknown", "slots": {}}
+{"text": "madhyaahna malkobeku", "action": "unknown", "slots": {}}
+{"text": "mane kelsa jaasti ide", "action": "unknown", "slots": {}}
+{"text": "huduga eddna illva", "action": "unknown", "slots": {}}
+{"text": "olle cinema adu", "action": "unknown", "slots": {}}
+{"text": "avalu yaake kopa maadkondlu", "action": "unknown", "slots": {}}
+{"text": "cricket match nodidya ninne", "action": "unknown", "slots": {}}
+{"text": "um ah enu antha", "action": "unknown", "slots": {}}
+{"text": "idu sari illa ansutte", "action": "unknown", "slots": {}}
+{"text": "paapa avanige jwara", "action": "unknown", "slots": {}}
+{"text": "haage aagbaarditu", "action": "unknown", "slots": {}}
+{"text": "swalpa neeru kodi", "action": "unknown", "slots": {}}
+{"text": "kaal novu tumba", "action": "unknown", "slots": {}}
+{"text": "neevu yaavaga hortiri", "action": "unknown", "slots": {}}
+{"text": "hello hello kelstaa", "action": "unknown", "slots": {}}
+{"text": "heli heli", "action": "unknown", "slots": {}}
+{"text": "yen aaytu", "action": "unknown", "slots": {}}
+{"text": "nanna maatu keli magu", "action": "unknown", "slots": {}}
+{"text": "sumne ondu try maadtini", "action": "unknown", "slots": {}}
+{"text": "nanage ee button gottaagalla", "action": "unknown", "slots": {}}
+{"text": "mmm sari nodona", "action": "unknown", "slots": {}}
+{"text": "haanu ivattu temple ge hogbeku", "action": "unknown", "slots": {}}
+{"text": "ajji ge nenapu ide na", "action": "unknown", "slots": {}}
+{"text": "bekaagilla bidi naanu maadkoltini", "action": "unknown", "slots": {}}
+{"text": "avanu phone ettalilla", "action": "unknown", "slots": {}}
+{"text": "nanna mobile elli", "action": "unknown", "slots": {}}
+{"text": "yenu nadeeta ide illi", "action": "unknown", "slots": {}}
+{"text": "kelsa aaytu thanks magu", "action": "unknown", "slots": {}}
+{"text": "ayyo devare", "action": "unknown", "slots": {}}
+{"text": "ondu nimsha thadi", "action": "unknown", "slots": {}}
+{"text": "yemma yen maadtidya", "action": "unknown", "slots": {}}
+{"text": "ivaga time eshtu antha nanage gottilla", "action": "unknown", "slots": {}}
+{"text": "haalinavanu bandilla innu", "action": "unknown", "slots": {}}
+{"text": "ade ade adu", "action": "unknown", "slots": {}}
+{"text": "saari sari kandita", "action": "unknown", "slots": {}}
+{"text": "helu helu", "action": "unknown", "slots": {}}
+{"text": "open", "action": "unknown", "slots": {}}
+{"text": "ammana", "action": "unknown", "slots": {}}
+{"text": "ninne sanje male bantu", "action": "unknown", "slots": {}}
+{"text": "naanu bari kelstidde", "action": "unknown", "slots": {}}
+{"text": "tumba khushi aaytu", "action": "unknown", "slots": {}}
+{"text": "neenu oota maadidya magu", "action": "unknown", "slots": {}}
+{"text": "nanna hesaru bandide nodu", "action": "unknown", "slots": {}}
+{"text": "avaru bartaare anstide", "action": "unknown", "slots": {}}
+{"text": "ಇವತ್ತು ತುಂಬಾ ಬಿಸಿಲು ಇದೆ", "action": "unknown", "slots": {}}
+{"text": "ಅಮ್ಮ ಊಟ ಆಯ್ತಾ", "action": "unknown", "slots": {}}
+{"text": "ಒಂದು ನಿಮಿಷ ಇರಿ", "action": "unknown", "slots": {}}
+{"text": "ನನ್ನ ಕನ್ನಡಕ ಎಲ್ಲಿ", "action": "unknown", "slots": {}}
+{"text": "ಯಾರು ಬಂದಿದ್ರು", "action": "unknown", "slots": {}}
+{"text": "ನನಗೆ ತಲೆ ನೋವು ಇದೆ", "action": "unknown", "slots": {}}
+{"text": "ಸರಿ ಸರಿ", "action": "unknown", "slots": {}}
+{"text": "ಹ್ಮ್ ಹ್ಮ್", "action": "unknown", "slots": {}}
+{"text": "ಅವನು ಇನ್ನೂ ಬಂದಿಲ್ಲ", "action": "unknown", "slots": {}}
+{"text": "ನಾಳೆ ಶಾಲೆಗೆ ರಜಾ ಅಂತೆ", "action": "unknown", "slots": {}}
+{"text": "ಹಾಲು ಉಕ್ಕಿ ಹೋಯ್ತು", "action": "unknown", "slots": {}}
+{"text": "ಅಪ್ಪ ಟೀ ಬೇಕಾ", "action": "unknown", "slots": {}}
+{"text": "ಏನು ಹೇಳಬೇಕಿತ್ತು ಮರೆತೋಯ್ತು", "action": "unknown", "slots": {}}
+{"text": "ಮೆಸೇಜ್ ಕಳಿಸು", "action": "send_message", "incomplete": true, "slots": {}, "was": "unknown"}
+{"text": "ಓಪನ್ ಮಾಡು", "action": "unknown", "slots": {}}
+{"text": "ಊಟ ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು", "action": "unknown", "slots": {}}
+{"text": "ಮಗು ಹೋಂವರ್ಕ್ ಮುಗೀತಾ", "action": "unknown", "slots": {}}
+{"text": "ಈ ಕಂಪ್ಯೂಟರ್ ನನಗೆ ಅರ್ಥ ಆಗಲ್ಲ", "action": "unknown", "slots": {}}
+{"text": "ಅಜ್ಜಿ ಮಲಗಿದ್ದಾರೆ ಸದ್ದು ಮಾಡಬೇಡ", "action": "unknown", "slots": {}}
+{"text": "ನಿನ್ನೆ ಮಳೆ ತುಂಬಾ ಬಂತು", "action": "unknown", "slots": {}}
+{"text": "ಏನು ನಡೀತಾ ಇದೆ", "action": "unknown", "slots": {}}
+{"text": "ಅಯ್ಯೋ ದೇವರೆ", "action": "unknown", "slots": {}}
+{"text": "ಕಾಲು ನೋವು ತುಂಬಾ", "action": "unknown", "slots": {}}
+{"text": "ಹಲೋ ಕೇಳ್ತಾ", "action": "unknown", "slots": {}}
+{"text": "ನೀವು ಯಾವಾಗ ಹೊರಡ್ತೀರಿ", "action": "unknown", "slots": {}}
+{"text": "ಸ್ವಲ್ಪ ನೀರು ಕೊಡಿ", "action": "unknown", "slots": {}}
+{"text": "Hmm, sari.", "action": "unknown", "slots": {}}
+{"text": "nange gottila yaake heege aagtide", "action": "unknown", "slots": {}}
+{"text": "yemma oota aytha", "action": "unknown", "slots": {}}
+{"text": "nan kannadka yelli itidini", "action": "unknown", "slots": {}}
+{"text": "ninna friend yaaru avanu", "action": "unknown", "slots": {}}
+{"text": "ಸುಮ್ಮನೆ ಕೂತ್ಕೋ ಸ್ವಲ್ಪ", "action": "unknown", "slots": {}}
+{"text": "nenu ippude tea taagaanu", "action": "unknown", "slots": {}}
+{"text": "amma ekkada unnaru", "action": "unknown", "slots": {}}
+{"text": "ee roju chala alasatga undi yaar", "action": "unknown", "slots": {}}
+{"text": "em cheyyali ippudu ardham kaavatledu", "action": "unknown", "slots": {}}
+{"text": "abbaa current poyindi malli", "action": "unknown", "slots": {}}
+{"text": "nuvvu tinnava ra", "action": "unknown", "slots": {}}
+{"text": "haa haa vinnanu le", "action": "unknown", "slots": {}}
+{"text": "alaa kaadu nenu cheppedi vere", "action": "unknown", "slots": {}}
+{"text": "repu office ki selavu pettali anukuntunna", "action": "unknown", "slots": {}}
+{"text": "ee laptop chala slow ga undi ani anipistundi", "action": "unknown", "slots": {}}
+{"text": "ummm adi emante", "action": "unknown", "slots": {}}
+{"text": "naaku konchem time kavali", "action": "unknown", "slots": {}}
+{"text": "pilla ki school bag ready chesava", "action": "unknown", "slots": {}}
+{"text": "ok ok tarvata chuddam", "action": "unknown", "slots": {}}
+{"text": "mee nanna gaaru vachara", "action": "unknown", "slots": {}}
+{"text": "babu bayata vellaku varsham padutundi", "action": "unknown", "slots": {}}
+{"text": "avunu adi nijame", "action": "unknown", "slots": {}}
+{"text": "ahh ekkada pettanu na kalla jodu", "action": "unknown", "slots": {}}
+{"text": "tumchya gharee jevlaat kaay hota aaj", "action": "unknown", "slots": {}}
+{"text": "aai mi aata yeto", "action": "unknown", "slots": {}}
+{"text": "are baba thamba jara", "action": "unknown", "slots": {}}
+{"text": "mala kahich samjat nahi yaar", "action": "unknown", "slots": {}}
+{"text": "he computer khup jhunna zala aahe", "action": "unknown", "slots": {}}
+{"text": "ho ho barobar aahe", "action": "unknown", "slots": {}}
+{"text": "kaal mi bazaarat gelo hoto", "action": "unknown", "slots": {}}
+{"text": "tu jevlas ka", "action": "unknown", "slots": {}}
+{"text": "umm te mhanje", "action": "unknown", "slots": {}}
+{"text": "chaha thanda zala", "action": "unknown", "slots": {}}
+{"text": "mulga ajun shaalet aahe", "action": "unknown", "slots": {}}
+{"text": "aaj khup ushir zala office la", "action": "unknown", "slots": {}}
+{"text": "majha chashma kuthe thevla", "action": "unknown", "slots": {}}
+{"text": "nako re aata nahi", "action": "unknown", "slots": {}}
+{"text": "aamhi udya gaavala jaanar aahot", "action": "unknown", "slots": {}}
+{"text": "ki khobor tomar", "action": "unknown", "slots": {}}
+{"text": "ami ekhon khabo na pore khabo", "action": "unknown", "slots": {}}
+{"text": "maa tumi kothay", "action": "unknown", "slots": {}}
+{"text": "aaj khub gorom porche", "action": "unknown", "slots": {}}
+{"text": "ei ta ki holo bujhte parchi na", "action": "unknown", "slots": {}}
+{"text": "haan haan thik ache", "action": "unknown", "slots": {}}
+{"text": "babu ke school theke ante hobe", "action": "unknown", "slots": {}}
+{"text": "uff ei computer ta khub slow", "action": "unknown", "slots": {}}
+{"text": "ami bhebechilam kal jabo", "action": "unknown", "slots": {}}
+{"text": "cha khabe ektu", "action": "unknown", "slots": {}}
+{"text": "ummm mane ota", "action": "unknown", "slots": {}}
+{"text": "tomake pore bolchi", "action": "unknown", "slots": {}}
+{"text": "dada kokhon ashbe", "action": "unknown", "slots": {}}
+{"text": "ki je kori kichhu bujhi na", "action": "unknown", "slots": {}}
+{"text": "ente kannada evide poyi", "action": "unknown", "slots": {}}
+{"text": "amma chaya undakkiyo", "action": "unknown", "slots": {}}
+{"text": "enikku onnum manassilaavunnilla", "action": "unknown", "slots": {}}
+{"text": "innu bhayankara choodu aanu", "action": "unknown", "slots": {}}
+{"text": "mone nee kazhicho", "action": "unknown", "slots": {}}
+{"text": "aa athu thanne", "action": "unknown", "slots": {}}
+{"text": "njan naale ammaveetil pokum", "action": "unknown", "slots": {}}
+{"text": "umm athu enthaanu ennu vechal", "action": "unknown", "slots": {}}
+{"text": "ee computer valare slow aanu", "action": "unknown", "slots": {}}
+{"text": "achan evide", "action": "unknown", "slots": {}}
+{"text": "sheri sheri kuzhappamilla", "action": "unknown", "slots": {}}
+{"text": "kem cho badha", "action": "unknown", "slots": {}}
+{"text": "mummy chai banavi do ne", "action": "unknown", "slots": {}}
+{"text": "aaje bahu garmi che", "action": "unknown", "slots": {}}
+{"text": "mane kai samjatu nathi aa badhu", "action": "unknown", "slots": {}}
+{"text": "haa haa barabar che", "action": "unknown", "slots": {}}
+{"text": "dikro haju school thi nathi aavyo", "action": "unknown", "slots": {}}
+{"text": "ummm etle ke", "action": "unknown", "slots": {}}
+{"text": "pappa kyare aavse", "action": "unknown", "slots": {}}
+{"text": "kaale apne mandir jaishu", "action": "unknown", "slots": {}}
+{"text": "maru chashmu kya mukyu", "action": "unknown", "slots": {}}
+{"text": "ae computer bahu dheemu chale che", "action": "unknown", "slots": {}}
+{"text": "chalo pachi joiye", "action": "unknown", "slots": {}}
+{"text": "ki haal aa ji", "action": "unknown", "slots": {}}
+{"text": "bebe ji roti kha layi", "action": "unknown", "slots": {}}
+{"text": "main thak gaya yaar ajj", "action": "unknown", "slots": {}}
+{"text": "mainu kuch samajh nahi aa reha", "action": "unknown", "slots": {}}
+{"text": "haanji haanji theek aa", "action": "unknown", "slots": {}}
+{"text": "munda haje ghar nahi aaya", "action": "unknown", "slots": {}}
+{"text": "ummm matlab oh", "action": "unknown", "slots": {}}
+{"text": "kal asi gurudware jaana", "action": "unknown", "slots": {}}
+{"text": "mera chashma kithe gaya", "action": "unknown", "slots": {}}
+{"text": "eh computer bada hauli chalda", "action": "unknown", "slots": {}}
+{"text": "chal koi gal nahi baad ch vekhange", "action": "unknown", "slots": {}}
+{"text": "veere tu roti khaadi", "action": "unknown", "slots": {}}
+{"text": "nenu cheppindi vinnara leda", "action": "unknown", "slots": {}}
+{"text": "message pampali kaani", "action": "unknown", "slots": {}}
+{"text": "open cheyyi adi", "action": "unknown", "slots": {}}
+{"text": "mala te kay mhantat te aathavat nahi", "action": "unknown", "slots": {}}
+{"text": "ekda ka", "action": "unknown", "slots": {}}
+{"text": "ami ektu", "action": "unknown", "slots": {}}
+{"text": "tumi ki office theke phirle", "action": "unknown", "slots": {}}
+{"text": "oru", "action": "unknown", "slots": {}}
+{"text": "njan athu parayaan vannatha", "action": "unknown", "slots": {}}
+{"text": "ene pelu", "action": "unknown", "slots": {}}
+{"text": "mane khabar nathi ke", "action": "unknown", "slots": {}}
+{"text": "ohh tusi aa gaye", "action": "unknown", "slots": {}}
+{"text": "ki karan main hun", "action": "unknown", "slots": {}}
+{"text": "na na athu alla", "action": "unknown", "slots": {}}
+{"text": "ani ani adhi", "action": "unknown", "slots": {}}
+{"text": "amma rice pettu", "action": "unknown", "slots": {}}
+{"text": "yesterday cricket match chala bagundi", "action": "unknown", "slots": {}}
+{"text": "weekend la movie la jaauya ka", "action": "unknown", "slots": {}}
+{"text": "amar phone ta charge e nei", "action": "unknown", "slots": {}}
+{"text": "office meeting chala boring ga undi", "action": "unknown", "slots": {}}
+{"text": "beta tension na le", "action": "unknown", "slots": {}}
+{"text": "sheriyaa njan vilikkaam pinne", "action": "unknown", "slots": {}}
+{"text": "ekdum mast weather aahe aaj", "action": "unknown", "slots": {}}
+{"text": "ahh hmm ok", "action": "unknown", "slots": {}}
+{"text": "avunaa nijamga", "action": "unknown", "slots": {}}
+{"text": "ho ka", "action": "unknown", "slots": {}}
+{"text": "didi kothay gechhe", "action": "unknown", "slots": {}}
+{"text": "nanna ki mandulu vesukovaali gurtundi kada", "action": "unknown", "slots": {}}
+{"text": "mummy ji sun rahe ho", "action": "unknown", "slots": {}}
+{"text": "apni bari kobe jaben", "action": "unknown", "slots": {}}
+{"text": "hello hello vinpadutunda", "action": "unknown", "slots": {}}
+{"text": "tu kadhi yenar", "action": "unknown", "slots": {}}
+{"text": "naaku nidra vastundi", "action": "unknown", "slots": {}}
+{"text": "achha thik aa ji", "action": "unknown", "slots": {}}
+{"text": "bapre kinni garmi aa", "action": "unknown", "slots": {}}
+{"text": "eh ki ho gaya", "action": "unknown", "slots": {}}
+{"text": "tamaru naam shu che", "action": "unknown", "slots": {}}
+{"text": "amma saapadu ready ah", "action": "unknown", "slots": {}}
+{"text": "inniku romba tired ah irukku", "action": "unknown", "slots": {}}
+{"text": "appa enga ponaaru", "action": "unknown", "slots": {}}
+{"text": "um ahh enna sollanum nu theriyala", "action": "unknown", "slots": {}}
+{"text": "naan apparam pesuren", "action": "unknown", "slots": {}}
+{"text": "kanna konjam thanni kondu vaa", "action": "unknown", "slots": {}}
+{"text": "indha computer romba slow ah irukku pa", "action": "unknown", "slots": {}}
+{"text": "nethu night thookame illa", "action": "unknown", "slots": {}}
+{"text": "yaaru vandhirukaanga vaasal la", "action": "unknown", "slots": {}}
+{"text": "seri seri", "action": "unknown", "slots": {}}
+{"text": "illa da naan sonnadhu adhu illa", "action": "unknown", "slots": {}}
+{"text": "amma naan office ku late aagiduchu", "action": "unknown", "slots": {}}
+{"text": "ennoda kannadi enga vechen", "action": "unknown", "slots": {}}
+{"text": "paati saapteengala", "action": "unknown", "slots": {}}
+{"text": "oru nimisham iru", "action": "unknown", "slots": {}}
+{"text": "aiyo current pochu", "action": "unknown", "slots": {}}
+{"text": "naan nalla irukken neenga eppadi", "action": "unknown", "slots": {}}
+{"text": "paiyan school la irundhu vandhaana", "action": "unknown", "slots": {}}
+{"text": "ennaachu unakku", "action": "unknown", "slots": {}}
+{"text": "teacher kitta pesanum nu nenachen", "action": "unknown", "slots": {}}
+{"text": "adhu vandhu", "action": "unknown", "slots": {}}
+{"text": "message anuppu", "action": "send_message", "incomplete": true, "slots": {}, "was": "unknown"}
+{"text": "paattu", "action": "unknown", "slots": {}}
+{"text": "kandipaa naalaiku paakalam", "action": "unknown", "slots": {}}
+{"text": "appo appo", "action": "unknown", "slots": {}}
+{"text": "ok ok purinjidhu", "action": "unknown", "slots": {}}
+{"text": "tea podu ma konjam", "action": "unknown", "slots": {}}
+{"text": "yenna da panra", "action": "unknown", "slots": {}}
+{"text": "indha phone charger yaarodhu", "action": "unknown", "slots": {}}
+{"text": "naan sollala adhu unga thappu", "action": "unknown", "slots": {}}
+{"text": "thank you romba nandri", "action": "unknown", "slots": {}}
+{"text": "saari saari thappa sollitten", "action": "unknown", "slots": {}}
+{"text": "enakku pasikkudhu", "action": "unknown", "slots": {}}
+{"text": "thambi veetla irukkaana", "action": "unknown", "slots": {}}
+{"text": "nethu cinema poneengala", "action": "unknown", "slots": {}}
+{"text": "ennoda pension innum varala", "action": "unknown", "slots": {}}
+{"text": "paal kaaran vandhaana", "action": "unknown", "slots": {}}
+{"text": "kaalai la walking ponen", "action": "unknown", "slots": {}}
+{"text": "mmm sari", "action": "unknown", "slots": {}}
+{"text": "adhu illa ma", "action": "unknown", "slots": {}}
+{"text": "yaar kitta pesura", "action": "unknown", "slots": {}}
+{"text": "nalla padam adhu", "action": "unknown", "slots": {}}
+{"text": "open pannu", "action": "unknown", "slots": {}}
+{"text": "search", "action": "unknown", "slots": {}}
+{"text": "anga paaru oru poonai", "action": "unknown", "slots": {}}
+{"text": "ivan romba setta pannuraan", "action": "unknown", "slots": {}}
+{"text": "naan konjam thoongaren", "action": "unknown", "slots": {}}
+{"text": "kaalu romba valikudhu inniku", "action": "unknown", "slots": {}}
+{"text": "bus late aachu", "action": "unknown", "slots": {}}
+{"text": "la la la", "action": "unknown", "slots": {}}
+{"text": "type", "action": "unknown", "slots": {}}
+{"text": "appa kitta kelu", "action": "unknown", "slots": {}}
+{"text": "inniku sunday ah", "action": "unknown", "slots": {}}

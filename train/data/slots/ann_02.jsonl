@@ -1,0 +1,645 @@
+{"text": "ee page alli bele eshtu ide antha helu", "action": "read_screen", "slots": {}}
+{"text": "illi enu bardide", "action": "read_screen", "slots": {}}
+{"text": "ee bill alli total eshtu ide", "action": "read_screen", "slots": {}}
+{"text": "screen mele kaanta iro suddi odi", "action": "read_screen", "slots": {}}
+{"text": "indha message la enna ezhudhi irukku padi", "action": "read_screen", "slots": {}}
+{"text": "indha page la vilai evlo nu kaatudhu sollu", "action": "read_screen", "slots": {}}
+{"text": "indha email ah padichu sollu", "action": "read_screen", "slots": {}}
+{"text": "inga enna ezhudhi irukku", "action": "read_screen", "slots": {}}
+{"text": "screen la irukura news ah padi", "action": "read_screen", "slots": {}}
+{"text": "indha bill la total evlo podirukku", "action": "read_screen", "slots": {}}
+{"text": "What does this email say?", "action": "read_screen", "slots": {}}
+{"text": "Read out what's on my screen.", "action": "read_screen", "slots": {}}
+{"text": "what is written in this message", "action": "read_screen", "slots": {}}
+{"text": "tell me the price shown on this page", "action": "read_screen", "slots": {}}
+{"text": "explain this error message on the screen", "action": "read_screen", "slots": {}}
+{"text": "what does this page say about the refund", "action": "read_screen", "slots": {}}
+{"text": "read the weather shown on this page", "action": "read_screen", "slots": {}}
+{"text": "who is this email from", "action": "read_screen", "slots": {}}
+{"text": "what's the total on this invoice", "action": "read_screen", "slots": {}}
+{"text": "summarise this article I have open", "action": "read_screen", "slots": {}}
+{"text": "read the headline on the screen", "action": "read_screen", "slots": {}}
+{"text": "what is the score shown here", "action": "read_screen", "slots": {}}
+{"text": "इस ईमेल में क्या लिखा है", "action": "read_screen", "slots": {}}
+{"text": "स्क्रीन पर क्या लिखा है पढ़ो", "action": "read_screen", "slots": {}}
+{"text": "ये मैसेज पढ़ के सुनाओ", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಪುಟದಲ್ಲಿ ಏನಿದೆ ಹೇಳು", "action": "read_screen", "slots": {}}
+{"text": "ಸ್ಕ್ರೀನ್ ಮೇಲೆ ಏನು ಬರೆದಿದೆ ಓದು", "action": "read_screen", "slots": {}}
+{"text": "இந்த மெசேஜ்ல என்ன இருக்கு படி", "action": "read_screen", "slots": {}}
+{"text": "ஸ்கிரீன்ல என்ன எழுதியிருக்கு சொல்லு", "action": "read_screen", "slots": {}}
+{"text": "is mail me kya likha he", "action": "read_screen", "slots": {}}
+{"text": "screen par jo dikh raha he wo padh", "action": "read_screen", "slots": {}}
+{"text": "ye page pe sone ka bhav kitna likha hai", "action": "read_screen", "slots": {}}
+{"text": "jo khabar khuli hai usme kya hua bataya hai", "action": "read_screen", "slots": {}}
+{"text": "is pdf mein kya likha hai samjha do", "action": "read_screen", "slots": {}}
+{"text": "ye notification kya keh rahi hai", "action": "read_screen", "slots": {}}
+{"text": "yahan likha hua padh ke batao", "action": "read_screen", "slots": {}}
+{"text": "ye bijli ka bill screen pe hai, kitna bharna hai", "action": "read_screen", "slots": {}}
+{"text": "Ye otp wala message kya bol raha hai?", "action": "read_screen", "slots": {}}
+{"text": "is page pe kya kya options hain batao", "action": "read_screen", "slots": {}}
+{"text": "ye jo screen pe hai wo hindi mein samjhao", "action": "read_screen", "slots": {}}
+{"text": "aaj ki taaza khabar kya hai", "action": "web_search", "slots": {"query": "aaj ki taaza khabar kya hai"}}
+{"text": "PM kisan yojana mein kitna paisa milta hai", "action": "web_search", "slots": {"query": "PM kisan yojana mein kitna paisa milta hai"}}
+{"text": "Delhi se Patna train ka time kya hai", "action": "web_search", "slots": {"query": "Delhi se Patna train ka time kya hai"}}
+{"text": "tamatar ka bhav aaj mandi mein kitna hai", "action": "web_search", "slots": {"query": "tamatar ka bhav aaj mandi mein kitna hai"}}
+{"text": "diabetes mein kya khana chahiye", "action": "web_search", "slots": {"query": "diabetes mein kya khana chahiye"}}
+{"text": "aadhaar card kaise update karte hain", "action": "web_search", "slots": {"query": "aadhaar card kaise update karte hain"}}
+{"text": "paracetamol kis kaam aati hai", "action": "web_search", "slots": {"query": "paracetamol kis kaam aati hai"}}
+{"text": "Kal barish hogi kya?", "action": "web_search", "slots": {"query": "Kal barish hogi kya"}}
+{"text": "pension yojana ki last date kya hai", "action": "web_search", "slots": {"query": "pension yojana ki last date kya hai"}}
+{"text": "Google karo bijli bill online kaise bhare", "action": "web_search", "slots": {"query": "bijli bill online kaise bhare"}}
+{"text": "Ayodhya mandir kitne baje khulta hai", "action": "web_search", "slots": {"query": "Ayodhya mandir kitne baje khulta hai"}}
+{"text": "gas cylinder ka naya rate kya hai", "action": "web_search", "slots": {"query": "gas cylinder ka naya rate kya hai"}}
+{"text": "Lucknow mein aaj ka tapmaan kitna hai", "action": "web_search", "slots": {"query": "Lucknow mein aaj ka tapmaan kitna hai"}}
+{"text": "10th ka result kab aayega", "action": "web_search", "slots": {"query": "10th ka result kab aayega"}}
+{"text": "chaawal ka bhav kitna chal raha hai", "action": "web_search", "slots": {"query": "chaawal ka bhav kitna chal raha hai"}}
+{"text": "Diwali kis din hai is saal", "action": "web_search", "slots": {"query": "Diwali kis din hai is saal"}}
+{"text": "bhagwan ram ka janam kahan hua tha", "action": "web_search", "slots": {"query": "bhagwan ram ka janam kahan hua tha"}}
+{"text": "mobile recharge ka sabse sasta plan kaunsa hai", "action": "web_search", "slots": {"query": "mobile recharge ka sabse sasta plan kaunsa hai"}}
+{"text": "ayushman card ke liye kaun eligible hai", "action": "web_search", "slots": {"query": "ayushman card ke liye kaun eligible hai"}}
+{"text": "Bharat ki rajdhani kya hai", "action": "web_search", "slots": {"query": "Bharat ki rajdhani kya hai"}}
+{"text": "cricket world cup kisne jeeta", "action": "web_search", "slots": {"query": "cricket world cup kisne jeeta"}}
+{"text": "sugar ki bimari ke lakshan kya hain", "action": "web_search", "slots": {"query": "sugar ki bimari ke lakshan kya hain"}}
+{"text": "aaj share market kaisa raha", "action": "web_search", "slots": {"query": "aaj share market kaisa raha"}}
+{"text": "kisan credit card kaise banta hai", "action": "web_search", "slots": {"query": "kisan credit card kaise banta hai"}}
+{"text": "passport banane mein kitne din lagte hain", "action": "web_search", "slots": {"query": "passport banane mein kitne din lagte hain"}}
+{"text": "Chennai mein baarish ki kya khabar hai", "action": "web_search", "slots": {"query": "Chennai mein baarish ki kya khabar hai"}}
+{"text": "ghutne ke dard ka gharelu ilaaj batao", "action": "web_search", "slots": {"query": "ghutne ke dard ka gharelu ilaaj"}}
+{"text": "ivattu weather hege ide", "action": "web_search", "slots": {"query": "ivattu weather hege ide"}}
+{"text": "Bengaluru alli petrol bele eshtu", "action": "web_search", "slots": {"query": "Bengaluru alli petrol bele eshtu"}}
+{"text": "ivattina suddi enu", "action": "web_search", "slots": {"query": "ivattina suddi enu"}}
+{"text": "chinnada bele eshtu ide ivattu", "action": "web_search", "slots": {"query": "chinnada bele eshtu ide ivattu"}}
+{"text": "India match score eshtu aaytu", "action": "web_search", "slots": {"query": "India match score eshtu aaytu"}}
+{"text": "Mysore palace yaavaga open irutte", "action": "web_search", "slots": {"query": "Mysore palace yaavaga open irutte"}}
+{"text": "raitha yojane bagge maahiti hudukku", "action": "web_search", "slots": {"query": "raitha yojane bagge maahiti"}}
+{"text": "inniki weather eppadi irukku", "action": "web_search", "slots": {"query": "inniki weather eppadi irukku"}}
+{"text": "Chennai la thangam vilai evlo", "action": "web_search", "slots": {"query": "Chennai la thangam vilai evlo"}}
+{"text": "inniki news enna", "action": "web_search", "slots": {"query": "inniki news enna"}}
+{"text": "match score enna aachu", "action": "web_search", "slots": {"query": "match score enna aachu"}}
+{"text": "Madurai kovil eppo thirakkum", "action": "web_search", "slots": {"query": "Madurai kovil eppo thirakkum"}}
+{"text": "ration card eppadi apply pannuradhu", "action": "web_search", "slots": {"query": "ration card eppadi apply pannuradhu"}}
+{"text": "What is the weather today?", "action": "web_search", "slots": {"query": "What is the weather today"}}
+{"text": "latest news headlines", "action": "web_search", "slots": {"query": "latest news headlines"}}
+{"text": "what's the price of onion today", "action": "web_search", "slots": {"query": "what's the price of onion today"}}
+{"text": "how to apply for a pan card", "action": "web_search", "slots": {"query": "how to apply for a pan card"}}
+{"text": "what is the gold rate in Mumbai", "action": "web_search", "slots": {"query": "what is the gold rate in Mumbai"}}
+{"text": "when is the next train to Pune", "action": "web_search", "slots": {"query": "when is the next train to Pune"}}
+{"text": "symptoms of dengue", "action": "web_search", "slots": {"query": "symptoms of dengue"}}
+{"text": "how many days left for Diwali", "action": "web_search", "slots": {"query": "how many days left for Diwali"}}
+{"text": "what is the capital of Australia", "action": "web_search", "slots": {"query": "what is the capital of Australia"}}
+{"text": "nearest hospital kahan hai", "action": "web_search", "slots": {"query": "nearest hospital kahan hai"}}
+{"text": "what is the meaning of the word serendipity", "action": "web_search", "slots": {"query": "what is the meaning of the word serendipity"}}
+{"text": "how to check pf balance", "action": "web_search", "slots": {"query": "how to check pf balance"}}
+{"text": "who is the chief minister of Karnataka", "action": "web_search", "slots": {"query": "who is the chief minister of Karnataka"}}
+{"text": "आज की ताज़ा खबर क्या है", "action": "web_search", "slots": {"query": "आज की ताज़ा खबर क्या है"}}
+{"text": "सोने का भाव क्या है", "action": "web_search", "slots": {"query": "सोने का भाव क्या है"}}
+{"text": "ಇವತ್ತಿನ ಹವಾಮಾನ ಹೇಗಿದೆ", "action": "web_search", "slots": {"query": "ಇವತ್ತಿನ ಹವಾಮಾನ ಹೇಗಿದೆ"}}
+{"text": "ಪೆಟ್ರೋಲ್ ಬೆಲೆ ಎಷ್ಟು", "action": "web_search", "slots": {"query": "ಪೆಟ್ರೋಲ್ ಬೆಲೆ ಎಷ್ಟು"}}
+{"text": "இன்னிக்கு தங்கம் விலை என்ன", "action": "web_search", "slots": {"query": "இன்னிக்கு தங்கம் விலை என்ன"}}
+{"text": "இன்றைய செய்தி என்ன", "action": "web_search", "slots": {"query": "இன்றைய செய்தி என்ன"}}
+{"text": "aaj desh mein kya khabar hai", "action": "web_search", "slots": {"query": "aaj desh mein kya khabar hai"}}
+{"text": "internet pe dekho ki bank kitne baje khulta hai", "action": "web_search", "slots": {"query": "bank kitne baje khulta hai"}}
+{"text": "Google pe dekho aaj ka mandi bhav", "action": "web_search", "slots": {"query": "aaj ka mandi bhav"}}
+{"text": "mausam vibhag ne kal ke liye kya kaha", "action": "web_search", "slots": {"query": "mausam vibhag ne kal ke liye kya kaha"}}
+{"text": "aaj sensex kitna hai", "action": "web_search", "slots": {"query": "aaj sensex kitna hai"}}
+{"text": "vriddha pension kitni milti hai", "action": "web_search", "slots": {"query": "vriddha pension kitni milti hai"}}
+{"text": "bp high ho to kya karein", "action": "web_search", "slots": {"query": "bp high ho to kya karein"}}
+{"text": "Patna ka pin code kya hai", "action": "web_search", "slots": {"query": "Patna ka pin code kya hai"}}
+{"text": "sabse paas wala atm kahan hai", "action": "web_search", "slots": {"query": "sabse paas wala atm kahan hai"}}
+{"text": "ye batao Ambani kitne amir hain", "action": "web_search", "slots": {"query": "Ambani kitne amir hain"}}
+{"text": "RBI ne interest rate badhaya kya", "action": "web_search", "slots": {"query": "RBI ne interest rate badhaya kya"}}
+{"text": "aaj ekadashi hai kya", "action": "web_search", "slots": {"query": "aaj ekadashi hai kya"}}
+{"text": "Kal Mumbai mein kitni garmi padegi.", "action": "web_search", "slots": {"query": "Kal Mumbai mein kitni garmi padegi"}}
+{"text": "ye message ka matlab kya hai, samjhao zara", "action": "read_screen", "slots": {}}
+{"text": "Raju ko likh do aa raha hoon", "action": "send_message", "slots": {"contact": "Raju", "text": "aa raha hoon"}}
+{"text": "Raju ko likh ke bhej do ki main late hoon.", "action": "send_message", "slots": {"contact": "Raju", "text": "main late hoon"}}
+{"text": "mummy ko likh do khana kha liya", "action": "send_message", "slots": {"contact": "mummy", "text": "khana kha liya"}}
+{"text": "Bhaiya ko type karke bhejo ki gaadi le aana", "action": "send_message", "slots": {"contact": "Bhaiya", "text": "gaadi le aana"}}
+{"text": "didi ko message karo ki Priya ki shaadi kal hai", "action": "send_message", "slots": {"contact": "didi", "text": "Priya ki shaadi kal hai"}}
+{"text": "papa ko bolo ki Sharma uncle aaye the", "action": "send_message", "slots": {"contact": "papa", "text": "Sharma uncle aaye the"}}
+{"text": "Sunita ko WhatsApp karo Ramesh aa gaya hai", "action": "send_message", "slots": {"contact": "Sunita", "text": "Ramesh aa gaya hai"}}
+{"text": "Raju ko text karo likho ki meeting cancel ho gayi", "action": "send_message", "slots": {"contact": "Raju", "text": "meeting cancel ho gayi"}}
+{"text": "chachi ko bata do ki Pinky ka result aa gaya", "action": "send_message", "slots": {"contact": "chachi", "text": "Pinky ka result aa gaya"}}
+{"text": "Mohan ko reply karo haan main aa raha hoon", "action": "send_message", "slots": {"contact": "Mohan", "text": "haan main aa raha hoon"}}
+{"text": "nani ko message bhejo ki Diwali pe aayenge", "action": "send_message", "slots": {"contact": "nani", "text": "Diwali pe aayenge"}}
+{"text": "Ankit ko likho ki file bhej di hai", "action": "send_message", "slots": {"contact": "Ankit", "text": "file bhej di hai"}}
+{"text": "Sharma ji ko message kar do ki kiraya de diya", "action": "send_message", "slots": {"contact": "Sharma ji", "text": "kiraya de diya"}}
+{"text": "bhabhi ko bhejo ki Raju ghar pahunch gaya", "action": "send_message", "slots": {"contact": "bhabhi", "text": "Raju ghar pahunch gaya"}}
+{"text": "Ramesh ko msg karo ki Suresh ka number bhejo", "action": "send_message", "slots": {"contact": "Ramesh", "text": "Suresh ka number bhejo"}}
+{"text": "beta ko likh ke bhejo dawai le li", "action": "send_message", "slots": {"contact": "beta", "text": "dawai le li"}}
+{"text": "Pooja ko type karke bhej do happy birthday", "action": "send_message", "slots": {"contact": "Pooja", "text": "happy birthday"}}
+{"text": "Vikram bhaiya ko WhatsApp pe likho kal milte hain", "action": "send_message", "slots": {"contact": "Vikram bhaiya", "text": "kal milte hain"}}
+{"text": "Raju ko ek message likho ki main station pe hoon", "action": "send_message", "slots": {"contact": "Raju", "text": "main station pe hoon"}}
+{"text": "mummy ko bol do papa aa gaye", "action": "send_message", "slots": {"contact": "mummy", "text": "papa aa gaye"}}
+{"text": "Neha ko send karo ki Rahul ne call kiya tha", "action": "send_message", "slots": {"contact": "Neha", "text": "Rahul ne call kiya tha"}}
+{"text": "dadi ko bata do Amit aa raha hai", "action": "send_message", "slots": {"contact": "dadi", "text": "Amit aa raha hai"}}
+{"text": "Raju ko likhna hai ki paise mil gaye", "action": "send_message", "slots": {"contact": "Raju", "text": "paise mil gaye"}}
+{"text": "Seema ko reply kar do theek hai kal milte hain.", "action": "send_message", "slots": {"contact": "Seema", "text": "theek hai kal milte hain"}}
+{"text": "Kamla ko WhatsApp message kar ki doodh nahi chahiye", "action": "send_message", "slots": {"contact": "Kamla", "text": "doodh nahi chahiye"}}
+{"text": "ma ko likh do Raju ke saath hoon", "action": "send_message", "slots": {"contact": "ma", "text": "Raju ke saath hoon"}}
+{"text": "Guddu ko message type karke bhejo ki cricket khelne aaja", "action": "send_message", "slots": {"contact": "Guddu", "text": "cricket khelne aaja"}}
+{"text": "Deepak sir ko likh ke bhejo ki aaj chutti chahiye", "action": "send_message", "slots": {"contact": "Deepak sir", "text": "aaj chutti chahiye"}}
+{"text": "Ravi ko bolo ki Meena didi ka phone aaya tha", "action": "send_message", "slots": {"contact": "Ravi", "text": "Meena didi ka phone aaya tha"}}
+{"text": "Raju ko text kar do Sonu bhi aayega.", "action": "send_message", "slots": {"contact": "Raju", "text": "Sonu bhi aayega"}}
+{"text": "Message Raju that Priya is coming tomorrow", "action": "send_message", "slots": {"contact": "Raju", "text": "Priya is coming tomorrow"}}
+{"text": "Text mom that I reached office", "action": "send_message", "slots": {"contact": "mom", "text": "I reached office"}}
+{"text": "Write to Suresh that the payment is done", "action": "send_message", "slots": {"contact": "Suresh", "text": "the payment is done"}}
+{"text": "Send a WhatsApp to Anita saying Rohit will pick her up", "action": "send_message", "slots": {"contact": "Anita", "text": "Rohit will pick her up"}}
+{"text": "Tell Akka on WhatsApp that Amma is fine", "action": "send_message", "slots": {"contact": "Akka", "text": "Amma is fine"}}
+{"text": "Reply to Kiran saying yes I will come", "action": "send_message", "slots": {"contact": "Kiran", "text": "yes I will come"}}
+{"text": "Type a message to Rahul that the meeting is at 5 and send it", "action": "send_message", "slots": {"contact": "Rahul", "text": "the meeting is at 5"}}
+{"text": "Drop a text to papa saying Raju fixed the fan", "action": "send_message", "slots": {"contact": "papa", "text": "Raju fixed the fan"}}
+{"text": "Send Deepa a message, tell her Ravi called", "action": "send_message", "slots": {"contact": "Deepa", "text": "Ravi called"}}
+{"text": "Write a WhatsApp to bhaiya that Manoj uncle is here", "action": "send_message", "slots": {"contact": "bhaiya", "text": "Manoj uncle is here"}}
+{"text": "Amma ge message kalsu naanu bartini", "action": "send_message", "slots": {"contact": "Amma", "text": "naanu bartini"}}
+{"text": "Raju ge helu Suresh bandidaane anta", "action": "send_message", "slots": {"contact": "Raju", "text": "Suresh bandidaane"}}
+{"text": "Akka ge WhatsApp maadi Ravi oorige hogidaane anta", "action": "send_message", "slots": {"contact": "Akka", "text": "Ravi oorige hogidaane"}}
+{"text": "Appa ge message haaku oota aaytu anta", "action": "send_message", "slots": {"contact": "Appa", "text": "oota aaytu"}}
+{"text": "Anna ge bari Kiran call maadidda anta", "action": "send_message", "slots": {"contact": "Anna", "text": "Kiran call maadidda"}}
+{"text": "Lakshmi ge reply maadu sari naale sigona", "action": "send_message", "slots": {"contact": "Lakshmi", "text": "sari naale sigona"}}
+{"text": "Manju ge message kalsi Ramesh mane hatra iddane anta", "action": "send_message", "slots": {"contact": "Manju", "text": "Ramesh mane hatra iddane"}}
+{"text": "Ajji ge helbidu Deepa bartaale anta", "action": "send_message", "slots": {"contact": "Ajji", "text": "Deepa bartaale"}}
+{"text": "Suma ge text maadu naanu late aagthini", "action": "send_message", "slots": {"contact": "Suma", "text": "naanu late aagthini"}}
+{"text": "Raghu ge type maadi kalsu meeting cancel aaytu", "action": "send_message", "slots": {"contact": "Raghu", "text": "meeting cancel aaytu"}}
+{"text": "Ravi ku sollu Kumar vandhutaan nu", "action": "send_message", "slots": {"contact": "Ravi", "text": "Kumar vandhutaan"}}
+{"text": "Akka ku WhatsApp pannu Appa hospital la irukkaar nu", "action": "send_message", "slots": {"contact": "Akka", "text": "Appa hospital la irukkaar"}}
+{"text": "Selvi ku message type panni anuppu Murugan varuvaan nu", "action": "send_message", "slots": {"contact": "Selvi", "text": "Murugan varuvaan"}}
+{"text": "Anna ku ezhudhi anuppu naalaikku varen", "action": "send_message", "slots": {"contact": "Anna", "text": "naalaikku varen"}}
+{"text": "Kavitha ku reply pannu sari naan varen", "action": "send_message", "slots": {"contact": "Kavitha", "text": "sari naan varen"}}
+{"text": "Thambi ku message anuppu Priya call pannaa nu", "action": "send_message", "slots": {"contact": "Thambi", "text": "Priya call pannaa"}}
+{"text": "Paati ku sollu Raja vandhurukkaan nu", "action": "send_message", "slots": {"contact": "Paati", "text": "Raja vandhurukkaan"}}
+{"text": "Senthil ku text pannu bus late", "action": "send_message", "slots": {"contact": "Senthil", "text": "bus late"}}
+{"text": "Appa ku message pannu Karthik veetla irukkaan", "action": "send_message", "slots": {"contact": "Appa", "text": "Karthik veetla irukkaan"}}
+{"text": "राजू को लिख दो मैं आ रहा हूँ", "action": "send_message", "slots": {"contact": "राजू", "text": "मैं आ रहा हूँ"}}
+{"text": "मम्मी को मैसेज करो कि पापा आ गए", "action": "send_message", "slots": {"contact": "मम्मी", "text": "पापा आ गए"}}
+{"text": "भैया को व्हाट्सएप करो कि सुनीता दीदी आई हैं", "action": "send_message", "slots": {"contact": "भैया", "text": "सुनीता दीदी आई हैं"}}
+{"text": "ಅಮ್ಮನಿಗೆ ಮೆಸೇಜ್ ಕಳುಹಿಸು ನಾನು ಬರ್ತೀನಿ", "action": "send_message", "slots": {"contact": "ಅಮ್ಮ", "text": "ನಾನು ಬರ್ತೀನಿ"}}
+{"text": "ರವಿಗೆ ಹೇಳು ಸುರೇಶ್ ಬಂದಿದ್ದಾನೆ ಅಂತ", "action": "send_message", "slots": {"contact": "ರವಿ", "text": "ಸುರೇಶ್ ಬಂದಿದ್ದಾನೆ"}}
+{"text": "அம்மாவுக்கு மெசேஜ் அனுப்பு நான் வந்துட்டேன்", "action": "send_message", "slots": {"contact": "அம்மா", "text": "நான் வந்துட்டேன்"}}
+{"text": "ரவிக்கு சொல்லு குமார் வந்துட்டான் என்று", "action": "send_message", "slots": {"contact": "ரவி", "text": "குமார் வந்துட்டான்"}}
+{"text": "Raju ko likh do ki Sonu aa raha hai wait karo.", "action": "send_message", "slots": {"contact": "Raju", "text": "Sonu aa raha hai wait karo"}}
+{"text": "Papa ko message kar do ki Raju ka admission ho gaya.", "action": "send_message", "slots": {"contact": "Papa", "text": "Raju ka admission ho gaya"}}
+{"text": "bua ji ko likho ki Chintu pass ho gaya", "action": "send_message", "slots": {"contact": "bua ji", "text": "Chintu pass ho gaya"}}
+{"text": "Arjun ko whatsapp pe bata do ki Vicky ki tabiyat theek nahi", "action": "send_message", "slots": {"contact": "Arjun", "text": "Vicky ki tabiyat theek nahi"}}
+{"text": "Rani ko message mein likh do ki Mohan bhaiya kal aayenge", "action": "send_message", "slots": {"contact": "Rani", "text": "Mohan bhaiya kal aayenge"}}
+{"text": "mausi ko text karo ki Golu ka birthday Sunday ko hai", "action": "send_message", "slots": {"contact": "mausi", "text": "Golu ka birthday Sunday ko hai"}}
+{"text": "Raju ke number pe likh ke bhejo Ramesh ne paise diye", "action": "send_message", "slots": {"contact": "Raju", "text": "Ramesh ne paise diye"}}
+{"text": "Sanjay ko sandesh bhejo ki Geeta aa gayi", "action": "send_message", "slots": {"contact": "Sanjay", "text": "Geeta aa gayi"}}
+{"text": "Babita ko reply karo likh do ki haan Rinku ko le aaungi", "action": "send_message", "slots": {"contact": "Babita", "text": "haan Rinku ko le aaungi"}}
+{"text": "Kishore ko msg kar Pappu ghar pe hai", "action": "send_message", "slots": {"contact": "Kishore", "text": "Pappu ghar pe hai"}}
+{"text": "jiju ko bolo Sonam ki train late hai", "action": "send_message", "slots": {"contact": "jiju", "text": "Sonam ki train late hai"}}
+{"text": "Meena ko type karke send kar do ki Raju bazaar gaya", "action": "send_message", "slots": {"contact": "Meena", "text": "Raju bazaar gaya"}}
+{"text": "Amit ko jawab bhejo ki Neha ke saath aa raha hoon", "action": "send_message", "slots": {"contact": "Amit", "text": "Neha ke saath aa raha hoon"}}
+{"text": "likho Raju aa raha hai", "action": "type_text", "slots": {"text": "Raju aa raha hai"}}
+{"text": "likh do Raju kal aayega", "action": "type_text", "slots": {"text": "Raju kal aayega"}}
+{"text": "type karo mummy ki tabiyat theek hai", "action": "type_text", "slots": {"text": "mummy ki tabiyat theek hai"}}
+{"text": "is box mein likho Sharma ji ka ghar", "action": "type_text", "slots": {"text": "Sharma ji ka ghar"}}
+{"text": "document mein likho dear Raju kaise ho", "action": "type_text", "slots": {"text": "dear Raju kaise ho"}}
+{"text": "yahan likh do Sunita Devi", "action": "type_text", "slots": {"text": "Sunita Devi"}}
+{"text": "name wale box mein likho Ramesh Kumar", "action": "type_text", "slots": {"text": "Ramesh Kumar"}}
+{"text": "type karo papa ka naam Mohan Lal", "action": "type_text", "slots": {"text": "papa ka naam Mohan Lal"}}
+{"text": "likho ki Raju ne paise de diye", "action": "type_text", "slots": {"text": "Raju ne paise de diye"}}
+{"text": "likho bhaiya ki shaadi 12 tarikh ko hai", "action": "type_text", "slots": {"text": "bhaiya ki shaadi 12 tarikh ko hai"}}
+{"text": "notepad mein likho mummy ko dawai deni hai", "action": "type_text", "slots": {"text": "mummy ko dawai deni hai"}}
+{"text": "likh do Priya aur Rahul kal aayenge", "action": "type_text", "slots": {"text": "Priya aur Rahul kal aayenge"}}
+{"text": "search box mein likho Raju Srivastava comedy", "action": "type_text", "slots": {"text": "Raju Srivastava comedy"}}
+{"text": "type karo Anita ka phone number kya hai", "action": "type_text", "slots": {"text": "Anita ka phone number kya hai"}}
+{"text": "likho happy birthday Pooja", "action": "type_text", "slots": {"text": "happy birthday Pooja"}}
+{"text": "likho thank you Sharma ji", "action": "type_text", "slots": {"text": "thank you Sharma ji"}}
+{"text": "is line mein type karo Suresh ne call kiya tha", "action": "type_text", "slots": {"text": "Suresh ne call kiya tha"}}
+{"text": "likho main Raju ke saath bazaar ja raha hoon", "action": "type_text", "slots": {"text": "main Raju ke saath bazaar ja raha hoon"}}
+{"text": "likh do dadi ji ki puja hai Sunday ko", "action": "type_text", "slots": {"text": "dadi ji ki puja hai Sunday ko"}}
+{"text": "type karo meeting with Rahul at 5 pm", "action": "type_text", "slots": {"text": "meeting with Rahul at 5 pm"}}
+{"text": "address wale box mein likho Ramesh Nagar gali number 4", "action": "type_text", "slots": {"text": "Ramesh Nagar gali number 4"}}
+{"text": "father name mein likho Rajesh Sharma", "action": "type_text", "slots": {"text": "Rajesh Sharma"}}
+{"text": "likho chacha ji aa gaye hain", "action": "type_text", "slots": {"text": "chacha ji aa gaye hain"}}
+{"text": "type kar do Neha ka homework complete hai", "action": "type_text", "slots": {"text": "Neha ka homework complete hai"}}
+{"text": "likho ki Deepak ko kal chutti chahiye", "action": "type_text", "slots": {"text": "Deepak ko kal chutti chahiye"}}
+{"text": "yahan type karo dear sir, Raju ki fees jama kar di hai", "action": "type_text", "slots": {"text": "dear sir, Raju ki fees jama kar di hai"}}
+{"text": "likho Vikram bhai bahut accha kaam kiya", "action": "type_text", "slots": {"text": "Vikram bhai bahut accha kaam kiya"}}
+{"text": "is message box mein likho beta jaldi ghar aao", "action": "type_text", "slots": {"text": "beta jaldi ghar aao"}}
+{"text": "reply box mein type karo haan Raju main aa raha hoon", "action": "type_text", "slots": {"text": "haan Raju main aa raha hoon"}}
+{"text": "chat mein likho Seema didi kab aa rahi ho", "action": "type_text", "slots": {"text": "Seema didi kab aa rahi ho"}}
+{"text": "likho Ramu kaka ki dukaan band hai", "action": "type_text", "slots": {"text": "Ramu kaka ki dukaan band hai"}}
+{"text": "subject mein likho Raju ki leave application", "action": "type_text", "slots": {"text": "Raju ki leave application"}}
+{"text": "likho Kamla bai ne aaj kaam nahi kiya", "action": "type_text", "slots": {"text": "Kamla bai ne aaj kaam nahi kiya"}}
+{"text": "diary mein likho aaj Meena se mila", "action": "type_text", "slots": {"text": "aaj Meena se mila"}}
+{"text": "type karo shubh vivah Rohan weds Priya", "action": "type_text", "slots": {"text": "shubh vivah Rohan weds Priya"}}
+{"text": "likho Raju, Sonu aur Golu teeno aayenge", "action": "type_text", "slots": {"text": "Raju, Sonu aur Golu teeno aayenge"}}
+{"text": "is document mein likho mere bete ka naam Arjun hai", "action": "type_text", "slots": {"text": "mere bete ka naam Arjun hai"}}
+{"text": "Likho papa ji ka janamdin 5 March ko hai.", "action": "type_text", "slots": {"text": "papa ji ka janamdin 5 March ko hai"}}
+{"text": "Type Raju is coming tomorrow", "action": "type_text", "slots": {"text": "Raju is coming tomorrow"}}
+{"text": "Write Priya called in the morning", "action": "type_text", "slots": {"text": "Priya called in the morning"}}
+{"text": "Type in the box, Dear Mr Sharma", "action": "type_text", "slots": {"text": "Dear Mr Sharma"}}
+{"text": "Write down that Ravi owes me 500 rupees", "action": "type_text", "slots": {"text": "Ravi owes me 500 rupees"}}
+{"text": "In the name field type Suresh Babu", "action": "type_text", "slots": {"text": "Suresh Babu"}}
+{"text": "Type happy anniversary mom and dad", "action": "type_text", "slots": {"text": "happy anniversary mom and dad"}}
+{"text": "Write in this document, Anita will handle the accounts", "action": "type_text", "slots": {"text": "Anita will handle the accounts"}}
+{"text": "Type in the chat box, hi Kiran how are you", "action": "type_text", "slots": {"text": "hi Kiran how are you"}}
+{"text": "Just type Rahul and Neha are coming for dinner", "action": "type_text", "slots": {"text": "Rahul and Neha are coming for dinner"}}
+{"text": "Write meeting notes Rohit said the project is delayed", "action": "type_text", "slots": {"text": "Rohit said the project is delayed"}}
+{"text": "Raju bartaane anta bari", "action": "type_text", "slots": {"text": "Raju bartaane"}}
+{"text": "bari Amma oorige hogidaare", "action": "type_text", "slots": {"text": "Amma oorige hogidaare"}}
+{"text": "Suresh mane hatra iddane anta type maadu", "action": "type_text", "slots": {"text": "Suresh mane hatra iddane"}}
+{"text": "ee box alli bari Lakshmi Narayan", "action": "type_text", "slots": {"text": "Lakshmi Narayan"}}
+{"text": "hesaru box alli Ramesh Gowda anta type maadu", "action": "type_text", "slots": {"text": "Ramesh Gowda"}}
+{"text": "baraha Kiran naale barthaane", "action": "type_text", "slots": {"text": "Kiran naale barthaane"}}
+{"text": "Appa hospital alli iddare anta bari", "action": "type_text", "slots": {"text": "Appa hospital alli iddare"}}
+{"text": "notepad alli bari naale Manju ge duddu kodbeku", "action": "type_text", "slots": {"text": "naale Manju ge duddu kodbeku"}}
+{"text": "bari happy birthday Deepa", "action": "type_text", "slots": {"text": "happy birthday Deepa"}}
+{"text": "Akka mattu Bhava bartaare anta type maadu", "action": "type_text", "slots": {"text": "Akka mattu Bhava bartaare"}}
+{"text": "Ravi varuvaan nu ezhudhu", "action": "type_text", "slots": {"text": "Ravi varuvaan"}}
+{"text": "ezhudhu Amma ooruku poittaanga", "action": "type_text", "slots": {"text": "Amma ooruku poittaanga"}}
+{"text": "Kumar veetla irukkaan nu type pannu", "action": "type_text", "slots": {"text": "Kumar veetla irukkaan"}}
+{"text": "indha box la Selvi Murugan nu type pannu", "action": "type_text", "slots": {"text": "Selvi Murugan"}}
+{"text": "peyar box la Senthil Kumar nu ezhudhu", "action": "type_text", "slots": {"text": "Senthil Kumar"}}
+{"text": "ezhudhu happy birthday Kavitha", "action": "type_text", "slots": {"text": "happy birthday Kavitha"}}
+{"text": "Appa naalaikku varuvaar nu type pannu", "action": "type_text", "slots": {"text": "Appa naalaikku varuvaar"}}
+{"text": "Priya call pannaa nu ezhudhu", "action": "type_text", "slots": {"text": "Priya call pannaa"}}
+{"text": "notepad la ezhudhu Raja ku panam tharanum", "action": "type_text", "slots": {"text": "Raja ku panam tharanum"}}
+{"text": "type pannu Karthik and Divya varaanga", "action": "type_text", "slots": {"text": "Karthik and Divya varaanga"}}
+{"text": "लिखो राजू आ रहा है", "action": "type_text", "slots": {"text": "राजू आ रहा है"}}
+{"text": "टाइप करो मम्मी की तबीयत ठीक है", "action": "type_text", "slots": {"text": "मम्मी की तबीयत ठीक है"}}
+{"text": "इस बॉक्स में लिखो सुनीता देवी", "action": "type_text", "slots": {"text": "सुनीता देवी"}}
+{"text": "ರಾಜು ಬರ್ತಾನೆ ಅಂತ ಬರಿ", "action": "type_text", "slots": {"text": "ರಾಜು ಬರ್ತಾನೆ"}}
+{"text": "ಅಮ್ಮ ಊರಿಗೆ ಹೋಗಿದ್ದಾರೆ ಅಂತ ಟೈಪ್ ಮಾಡು", "action": "type_text", "slots": {"text": "ಅಮ್ಮ ಊರಿಗೆ ಹೋಗಿದ್ದಾರೆ"}}
+{"text": "ரவி வருவான் என்று எழுது", "action": "type_text", "slots": {"text": "ரவி வருவான்"}}
+{"text": "அம்மா ஊருக்கு போயிட்டாங்க என்று டைப் பண்ணு", "action": "type_text", "slots": {"text": "அம்மா ஊருக்கு போயிட்டாங்க"}}
+{"text": "likh do Raju bhai ka message aaya tha", "action": "type_text", "slots": {"text": "Raju bhai ka message aaya tha"}}
+{"text": "likho mummy papa dono theek hain.", "action": "type_text", "slots": {"text": "mummy papa dono theek hain"}}
+{"text": "type karo dhanyavaad Mohan ji", "action": "type_text", "slots": {"text": "dhanyavaad Mohan ji"}}
+{"text": "caption mein likho Golu ka pehla birthday", "action": "type_text", "slots": {"text": "Golu ka pehla birthday"}}
+{"text": "likho ki Raju ko message karna hai", "action": "type_text", "slots": {"text": "Raju ko message karna hai"}}
+{"text": "chhodo, nahi karna", "action": "cancel", "slots": {}}
+{"text": "nahi nahi rehne do, mat karo", "action": "cancel", "slots": {}}
+{"text": "mat bhejo, cancel karo", "action": "cancel", "slots": {}}
+{"text": "ruko ruko, mat karo ye", "action": "cancel", "slots": {}}
+{"text": "stop, don't do it", "action": "cancel", "slots": {}}
+{"text": "nahi chahiye ab, rehne do", "action": "cancel", "slots": {}}
+{"text": "galti se bol diya, chhodo", "action": "cancel", "slots": {}}
+{"text": "abhi nahi, baad mein dekhenge, chhodo", "action": "cancel", "slots": {}}
+{"text": "pichla wala cancel", "action": "cancel", "slots": {}}
+{"text": "mat kholo, rehne do", "action": "cancel", "slots": {}}
+{"text": "bas bas, ruk jao", "action": "cancel", "slots": {}}
+{"text": "band karo ye sab, nahi chahiye", "action": "cancel", "slots": {}}
+{"text": "Chhodo na, zaroorat nahi hai.", "action": "cancel", "slots": {}}
+{"text": "arre nahi, woh nahi karna tha, cancel", "action": "cancel", "slots": {}}
+{"text": "nahi bhai, rehne de", "action": "cancel", "slots": {}}
+{"text": "rehne de, mat kar", "action": "cancel", "slots": {}}
+{"text": "stop karo", "action": "cancel", "slots": {}}
+{"text": "ruk jao, galat ho gaya, cancel", "action": "cancel", "slots": {}}
+{"text": "nahi, message mat bhejna, rehne do", "action": "cancel", "slots": {}}
+{"text": "chhod do, abhi mann nahi hai", "action": "cancel", "slots": {}}
+{"text": "theek hai chhodo, kuch mat karo", "action": "cancel", "slots": {}}
+{"text": "nahi karna, cancel kar do", "action": "cancel", "slots": {}}
+{"text": "kya kar rahe ho, ruko, cancel", "action": "cancel", "slots": {}}
+{"text": "rehne dijiye, nahi chahiye", "action": "cancel", "slots": {}}
+{"text": "aap rehne dijiye, zaroorat nahi", "action": "cancel", "slots": {}}
+{"text": "cancel karo jaldi", "action": "cancel", "slots": {}}
+{"text": "Mat chalao, rehne do.", "action": "cancel", "slots": {}}
+{"text": "nahi nahi nahi, ruko", "action": "cancel", "slots": {}}
+{"text": "beda, bidi", "action": "cancel", "slots": {}}
+{"text": "cancel maadi", "action": "cancel", "slots": {}}
+{"text": "bitbidi, beda", "action": "cancel", "slots": {}}
+{"text": "nillisi, beda", "action": "cancel", "slots": {}}
+{"text": "beda beda, kalsbedi", "action": "cancel", "slots": {}}
+{"text": "eenu maadbedi, bidu", "action": "cancel", "slots": {}}
+{"text": "vittudu, onnum vendam", "action": "cancel", "slots": {}}
+{"text": "anuppa vendam, cancel pannunga", "action": "cancel", "slots": {}}
+{"text": "paravaala vidunga, vendam", "action": "cancel", "slots": {}}
+{"text": "ondu beda, bitbidi", "action": "cancel", "slots": {}}
+{"text": "छोड़ो, नहीं करना", "action": "cancel", "slots": {}}
+{"text": "कैंसल कर दो", "action": "cancel", "slots": {}}
+{"text": "ಕ್ಯಾನ್ಸಲ್ ಮಾಡಿ", "action": "cancel", "slots": {}}
+{"text": "கேன்சல் பண்ணு", "action": "cancel", "slots": {}}
+{"text": "leave it, not needed", "action": "cancel", "slots": {}}
+{"text": "no no, stop, don't send it", "action": "cancel", "slots": {}}
+{"text": "please cancel, I changed my mind", "action": "cancel", "slots": {}}
+{"text": "scrap that", "action": "cancel", "slots": {}}
+{"text": "actually no, forget it", "action": "cancel", "slots": {}}
+{"text": "hold on, cancel this request", "action": "cancel", "slots": {}}
+{"text": "Rehne do bhai, mann badal gaya.", "action": "cancel", "slots": {}}
+{"text": "nahi ab nahi chahiye woh gaana", "action": "cancel", "slots": {}}
+{"text": "chhodo search wagera, rehne do", "action": "cancel", "slots": {}}
+{"text": "ab kuch mat karna, bas", "action": "cancel", "slots": {}}
+{"text": "ruk ja, mat likh", "action": "cancel", "slots": {}}
+{"text": "rehne do na, baad mein khud kar lungi", "action": "cancel", "slots": {}}
+{"text": "Cancel kar de bhai.", "action": "cancel", "slots": {}}
+{"text": "nahi, galat samjha, rehne do", "action": "cancel", "slots": {}}
+{"text": "beda kano, cancel maadu", "action": "cancel", "slots": {}}
+{"text": "vendam pa, vittudu", "action": "cancel", "slots": {}}
+{"text": "maine usko station pe chhod diya", "action": "unknown", "slots": {}}
+{"text": "beta, chhodo usko, idhar aao khana khao", "action": "unknown", "slots": {}}
+{"text": "papa ne cigarette chhod di hai", "action": "unknown", "slots": {}}
+{"text": "usne naukri chhod di pichle mahine", "action": "unknown", "slots": {}}
+{"text": "meri train cancel ho gayi kal", "action": "unknown", "slots": {}}
+{"text": "flight cancel hone ki wajah se main ghar pe hoon", "action": "unknown", "slots": {}}
+{"text": "nahi yaar, mujhe nahi pata woh kab aayega", "action": "unknown", "slots": {}}
+{"text": "woh rehne do wali baat mujhe achhi nahi lagi", "action": "unknown", "slots": {}}
+{"text": "dadi kehti hain rehne do, sab theek ho jayega", "action": "unknown", "slots": {}}
+{"text": "nahi beta, abhi khana nahi khaungi", "action": "unknown", "slots": {}}
+{"text": "haan haan, chhod dena mujhe market tak", "action": "unknown", "slots": {}}
+{"text": "bus wale ne humein aadhe raste mein chhod diya", "action": "unknown", "slots": {}}
+{"text": "maine chai peena chhod diya hai", "action": "unknown", "slots": {}}
+{"text": "tum log rehne do yahin, main aata hoon", "action": "unknown", "slots": {}}
+{"text": "doodh ko gas pe rehne do thodi der", "action": "unknown", "slots": {}}
+{"text": "nahi nahi, woh toh mera bhatija hai", "action": "unknown", "slots": {}}
+{"text": "kal ka program cancel ho gaya tha", "action": "unknown", "slots": {}}
+{"text": "shaadi ka function cancel nahi hua", "action": "unknown", "slots": {}}
+{"text": "arre woh kitaab table pe hi rehne do", "action": "unknown", "slots": {}}
+{"text": "haan toh maine kaha nahi chahiye, phir bhi bhej diya", "action": "unknown", "slots": {}}
+{"text": "pata nahi kya hua", "action": "unknown", "slots": {}}
+{"text": "hmm, nahi samajh aaya mujhe", "action": "unknown", "slots": {}}
+{"text": "aur phir usne bola ki chhodo", "action": "unknown", "slots": {}}
+{"text": "matlab woh jo", "action": "unknown", "slots": {}}
+{"text": "woh... cancel wala", "action": "unknown", "slots": {}}
+{"text": "message bhejna tha lekin bhool gaya", "action": "unknown", "slots": {}}
+{"text": "YouTube pe kal bahut accha gaana suna", "action": "unknown", "slots": {}}
+{"text": "maine abhi WhatsApp band kiya", "action": "unknown", "slots": {}}
+{"text": "mera pota computer chalata hai mere liye", "action": "unknown", "slots": {}}
+{"text": "ek minute, chashma kahan rakha", "action": "unknown", "slots": {}}
+{"text": "haan bolo, sun rahi hoon", "action": "unknown", "slots": {}}
+{"text": "nahi mummy, main nahi aa sakta aaj", "action": "unknown", "slots": {}}
+{"text": "accha theek hai", "action": "unknown", "slots": {}}
+{"text": "rehne do usko, woh soya hua hai", "action": "unknown", "slots": {}}
+{"text": "chhod ke aaya hoon bachchon ko school", "action": "unknown", "slots": {}}
+{"text": "sab chhod chhaad ke woh gaon chala gaya", "action": "unknown", "slots": {}}
+{"text": "order cancel karne ka option hi nahi tha", "action": "unknown", "slots": {}}
+{"text": "bank ne mera cheque cancel kar diya", "action": "unknown", "slots": {}}
+{"text": "naanu avanannu bus stand alli bitte", "action": "unknown", "slots": {}}
+{"text": "avanu kelsa bittu bittidda", "action": "unknown", "slots": {}}
+{"text": "amma beda antha heLidru, adakke hogilla", "action": "unknown", "slots": {}}
+{"text": "appa cigarette bittidaare", "action": "unknown", "slots": {}}
+{"text": "nanna train cancel aaytu", "action": "unknown", "slots": {}}
+{"text": "ivattu male nillalilla", "action": "unknown", "slots": {}}
+{"text": "haudu haudu, gottu", "action": "unknown", "slots": {}}
+{"text": "avaru beda andru", "action": "unknown", "slots": {}}
+{"text": "naan avana school-la vittutten", "action": "unknown", "slots": {}}
+{"text": "avan vela-va vittuttaan", "action": "unknown", "slots": {}}
+{"text": "mazhai innum vidala", "action": "unknown", "slots": {}}
+{"text": "enakku teriyala pa", "action": "unknown", "slots": {}}
+{"text": "appa smoking-a vittuttaar", "action": "unknown", "slots": {}}
+{"text": "flight cancel aayiduchu nethu", "action": "unknown", "slots": {}}
+{"text": "amma vendam nu sonnanga, adhaan pogala", "action": "unknown", "slots": {}}
+{"text": "நான் அவனை ஸ்டேஷன்ல விட்டுட்டேன்", "action": "unknown", "slots": {}}
+{"text": "மழை இன்னும் விடலை", "action": "unknown", "slots": {}}
+{"text": "ಅವನು ಕೆಲಸ ಬಿಟ್ಟ", "action": "unknown", "slots": {}}
+{"text": "ನನ್ನ ಟ್ರೈನ್ ಕ್ಯಾನ್ಸಲ್ ಆಯ್ತು", "action": "unknown", "slots": {}}
+{"text": "मैंने उसको स्टेशन पे छोड़ दिया", "action": "unknown", "slots": {}}
+{"text": "पापा ने सिगरेट छोड़ दी", "action": "unknown", "slots": {}}
+{"text": "मेरी ट्रेन कैंसिल हो गई", "action": "unknown", "slots": {}}
+{"text": "he left his job last month", "action": "unknown", "slots": {}}
+{"text": "my doctor appointment got cancelled", "action": "unknown", "slots": {}}
+{"text": "no, I was talking to my son", "action": "unknown", "slots": {}}
+{"text": "stop it Rinku, don't touch the laptop", "action": "unknown", "slots": {}}
+{"text": "I quit smoking two years back", "action": "unknown", "slots": {}}
+{"text": "the meeting was cancelled anyway", "action": "unknown", "slots": {}}
+{"text": "so I told him never mind, it's fine", "action": "unknown", "slots": {}}
+{"text": "hmm let me think", "action": "unknown", "slots": {}}
+{"text": "the cancel button is red on this screen", "action": "unknown", "slots": {}}
+{"text": "nahi chahiye tha mujhe ye phone, beta le aaya", "action": "unknown", "slots": {}}
+{"text": "kal raat bijli chali gayi thi", "action": "unknown", "slots": {}}
+{"text": "Achha, toh woh aa raha hai.", "action": "unknown", "slots": {}}
+{"text": "beta mat kar shor, dadaji so rahe hain", "action": "unknown", "slots": {}}
+{"text": "rehne do ye bartan, main dho dungi", "action": "unknown", "slots": {}}
+{"text": "uska rishta toot gaya, ladke walon ne mana kar diya", "action": "unknown", "slots": {}}
+{"text": "maine bola tha na, mat jao", "action": "unknown", "slots": {}}
+{"text": "ghanti baj rahi hai, koi aaya hai", "action": "unknown", "slots": {}}
+{"text": "vendam-nu solli avan poyittaan", "action": "unknown", "slots": {}}
+{"text": "nanna maga ivattu barolla antha", "action": "unknown", "slots": {}}
+{"text": "dukaan wale ne paise wapas nahi diye", "action": "unknown", "slots": {}}
+{"text": "aaj match ka score batao", "action": "web_search", "slots": {"query": "aaj match ka score"}}
+{"text": "India Australia match mein kitne run hue", "action": "web_search", "slots": {"query": "India Australia match mein kitne run hue"}}
+{"text": "kohli ne kitne run banaye aaj", "action": "web_search", "slots": {"query": "kohli ne kitne run banaye aaj"}}
+{"text": "RCB ka next match kab hai", "action": "web_search", "slots": {"query": "RCB ka next match kab hai"}}
+{"text": "IPL points table batao", "action": "web_search", "slots": {"query": "IPL points table"}}
+{"text": "aaj ki taaza khabar batao", "action": "web_search", "slots": {"query": "aaj ki taaza khabar"}}
+{"text": "Aaj ki news batao.", "action": "web_search", "slots": {"query": "Aaj ki news"}}
+{"text": "skor kya hua abhi tak", "action": "web_search", "slots": {"query": "skor kya hua abhi tak"}}
+{"text": "world cup final kab hai", "action": "web_search", "slots": {"query": "world cup final kab hai"}}
+{"text": "Arijit Singh ka naya gaana kaun sa hai", "action": "web_search", "slots": {"query": "Arijit Singh ka naya gaana kaun sa hai"}}
+{"text": "kesariya gaane ke lyrics dhundo", "action": "web_search", "slots": {"query": "kesariya gaane ke lyrics"}}
+{"text": "tum hi ho gaana kisne gaaya hai", "action": "web_search", "slots": {"query": "tum hi ho gaana kisne gaaya hai"}}
+{"text": "Pushpa 2 kab release hui thi", "action": "web_search", "slots": {"query": "Pushpa 2 kab release hui thi"}}
+{"text": "Shahrukh ki nayi film ka naam kya hai", "action": "web_search", "slots": {"query": "Shahrukh ki nayi film ka naam kya hai"}}
+{"text": "Lata Mangeshkar ne kitne gaane gaaye hain", "action": "web_search", "slots": {"query": "Lata Mangeshkar ne kitne gaane gaaye hain"}}
+{"text": "aaj ki headlines kya hai", "action": "web_search", "slots": {"query": "aaj ki headlines kya hai"}}
+{"text": "election ka result kya aaya", "action": "web_search", "slots": {"query": "election ka result kya aaya"}}
+{"text": "live score batao India ka", "action": "web_search", "slots": {"query": "live score batao India ka"}}
+{"text": "dhoni ne kab retirement liya tha", "action": "web_search", "slots": {"query": "dhoni ne kab retirement liya tha"}}
+{"text": "Hanuman chalisa kisne likhi thi", "action": "web_search", "slots": {"query": "Hanuman chalisa kisne likhi thi"}}
+{"text": "Hanuman chalisa ke lyrics google karo", "action": "web_search", "slots": {"query": "Hanuman chalisa ke lyrics"}}
+{"text": "kal raat match mein man of the match kaun tha", "action": "web_search", "slots": {"query": "kal raat match mein man of the match kaun tha"}}
+{"text": "Mann ki baat kis din aati hai", "action": "web_search", "slots": {"query": "Mann ki baat kis din aati hai"}}
+{"text": "Bigg Boss se kal kaun bahar hua", "action": "web_search", "slots": {"query": "Bigg Boss se kal kaun bahar hua"}}
+{"text": "Google karo aaj ka cricket score", "action": "web_search", "slots": {"query": "aaj ka cricket score"}}
+{"text": "sensex aaj kitna gira", "action": "web_search", "slots": {"query": "sensex aaj kitna gira"}}
+{"text": "Sachin ke kitne shatak hain", "action": "web_search", "slots": {"query": "Sachin ke kitne shatak hain"}}
+{"text": "kumbh mele ki news kya hai", "action": "web_search", "slots": {"query": "kumbh mele ki news kya hai"}}
+{"text": "Anupamaa mein kal ke episode mein kya hua", "action": "web_search", "slots": {"query": "Anupamaa mein kal ke episode mein kya hua"}}
+{"text": "Jasprit Bumrah ne kitne wicket liye", "action": "web_search", "slots": {"query": "Jasprit Bumrah ne kitne wicket liye"}}
+{"text": "India kitne run se jeeti", "action": "web_search", "slots": {"query": "India kitne run se jeeti"}}
+{"text": "mach ka score kitna hai bata do", "action": "web_search", "slots": {"query": "mach ka score kitna hai"}}
+{"text": "Diljit ka concert kab hai Delhi mein", "action": "web_search", "slots": {"query": "Diljit ka concert kab hai Delhi mein"}}
+{"text": "Ilaiyaraaja ke sabse famous gaane kaun se hain", "action": "web_search", "slots": {"query": "Ilaiyaraaja ke sabse famous gaane kaun se hain"}}
+{"text": "Rafi sahab ka janmdin kab hai", "action": "web_search", "slots": {"query": "Rafi sahab ka janmdin kab hai"}}
+{"text": "Indian Idol is baar kaun jeeta", "action": "web_search", "slots": {"query": "Indian Idol is baar kaun jeeta"}}
+{"text": "kal match mein kisne century maari", "action": "web_search", "slots": {"query": "kal match mein kisne century maari"}}
+{"text": "Arijit ke concert ka ticket kitne ka hai", "action": "web_search", "slots": {"query": "Arijit ke concert ka ticket kitne ka hai"}}
+{"text": "Lata ji ka aakhri gaana kaun sa tha.", "action": "web_search", "slots": {"query": "Lata ji ka aakhri gaana kaun sa tha"}}
+{"text": "India score eshtu aaytu", "action": "web_search", "slots": {"query": "India score eshtu aaytu"}}
+{"text": "ivattu match yaaru gedru", "action": "web_search", "slots": {"query": "ivattu match yaaru gedru"}}
+{"text": "indina suddi enu anta helu", "action": "web_search", "slots": {"query": "indina suddi enu"}}
+{"text": "RCB mundina match yavaga", "action": "web_search", "slots": {"query": "RCB mundina match yavaga"}}
+{"text": "Puneeth Rajkumar avara kone cinema yavudu", "action": "web_search", "slots": {"query": "Puneeth Rajkumar avara kone cinema yavudu"}}
+{"text": "ee haadu yaaru haadiddu", "action": "web_search", "slots": {"query": "ee haadu yaaru haadiddu"}}
+{"text": "Kantara release date enu", "action": "web_search", "slots": {"query": "Kantara release date enu"}}
+{"text": "kohli eshtu run hodedru", "action": "web_search", "slots": {"query": "kohli eshtu run hodedru"}}
+{"text": "India score enna", "action": "web_search", "slots": {"query": "India score enna"}}
+{"text": "inniku match yaaru jeichaanga", "action": "web_search", "slots": {"query": "inniku match yaaru jeichaanga"}}
+{"text": "CSK adutha match eppo", "action": "web_search", "slots": {"query": "CSK adutha match eppo"}}
+{"text": "indha paattu yaaru paadinathu", "action": "web_search", "slots": {"query": "indha paattu yaaru paadinathu"}}
+{"text": "Ilayaraja eththana paattu music pannirukkaar", "action": "web_search", "slots": {"query": "Ilayaraja eththana paattu music pannirukkaar"}}
+{"text": "inniku news enna nu sollu", "action": "web_search", "slots": {"query": "inniku news enna"}}
+{"text": "Dhoni eththana run adichaar", "action": "web_search", "slots": {"query": "Dhoni eththana run adichaar"}}
+{"text": "Jailer padam eppo release aachu", "action": "web_search", "slots": {"query": "Jailer padam eppo release aachu"}}
+{"text": "What is the score of the India match", "action": "web_search", "slots": {"query": "What is the score of the India match"}}
+{"text": "tell me today's headlines", "action": "web_search", "slots": {"query": "today's headlines"}}
+{"text": "Search for the lyrics of Tum Hi Ho.", "action": "web_search", "slots": {"query": "lyrics of Tum Hi Ho"}}
+{"text": "When is the next India match", "action": "web_search", "slots": {"query": "When is the next India match"}}
+{"text": "Who sang Chaiyya Chaiyya", "action": "web_search", "slots": {"query": "Who sang Chaiyya Chaiyya"}}
+{"text": "how many runs did Rohit score today", "action": "web_search", "slots": {"query": "how many runs did Rohit score today"}}
+{"text": "latest news about the budget", "action": "web_search", "slots": {"query": "latest news about the budget"}}
+{"text": "what is the latest update on Chandrayaan", "action": "web_search", "slots": {"query": "what is the latest update on Chandrayaan"}}
+{"text": "who is the music director of RRR", "action": "web_search", "slots": {"query": "who is the music director of RRR"}}
+{"text": "which songs are trending this week", "action": "web_search", "slots": {"query": "which songs are trending this week"}}
+{"text": "आज भारत का स्कोर क्या है", "action": "web_search", "slots": {"query": "आज भारत का स्कोर क्या है"}}
+{"text": "कल का मैच किसने जीता", "action": "web_search", "slots": {"query": "कल का मैच किसने जीता"}}
+{"text": "आज की ताज़ा खबरें बताओ", "action": "web_search", "slots": {"query": "आज की ताज़ा खबरें"}}
+{"text": "केसरिया गाना किसने गाया है", "action": "web_search", "slots": {"query": "केसरिया गाना किसने गाया है"}}
+{"text": "ಇಂದಿನ ಮ್ಯಾಚ್ ಸ್ಕೋರ್ ಎಷ್ಟು", "action": "web_search", "slots": {"query": "ಇಂದಿನ ಮ್ಯಾಚ್ ಸ್ಕೋರ್ ಎಷ್ಟು"}}
+{"text": "ಇವತ್ತಿನ ಸುದ್ದಿ ಏನು", "action": "web_search", "slots": {"query": "ಇವತ್ತಿನ ಸುದ್ದಿ ಏನು"}}
+{"text": "இன்னைக்கு மேட்ச் ஸ்கோர் என்ன", "action": "web_search", "slots": {"query": "இன்னைக்கு மேட்ச் ஸ்கோர் என்ன"}}
+{"text": "இந்த பாட்டு யார் பாடினது", "action": "web_search", "slots": {"query": "இந்த பாட்டு யார் பாடினது"}}
+{"text": "score kya hai bhai abhi", "action": "web_search", "slots": {"query": "score kya hai bhai abhi"}}
+{"text": "highlights mein kisne wicket liya tha woh batao", "action": "web_search", "slots": {"query": "highlights mein kisne wicket liya tha"}}
+{"text": "news mein kya chal raha hai aaj", "action": "web_search", "slots": {"query": "news mein kya chal raha hai aaj"}}
+{"text": "naatu naatu ko kaun sa award mila tha", "action": "web_search", "slots": {"query": "naatu naatu ko kaun sa award mila tha"}}
+{"text": "match ki highlights chalao", "action": "play_media", "slots": {"query": "match ki highlights"}}
+{"text": "India Australia ki highlights lagao", "action": "play_media", "slots": {"query": "India Australia ki highlights"}}
+{"text": "aaj ki news chalao", "action": "play_media", "slots": {"query": "aaj ki news"}}
+{"text": "Arijit Singh ka naya gaana bajao", "action": "play_media", "slots": {"query": "Arijit Singh ka naya gaana"}}
+{"text": "kesariya gaana chalao", "action": "play_media", "slots": {"query": "kesariya"}}
+{"text": "tum hi ho song play karo", "action": "play_media", "slots": {"query": "tum hi ho"}}
+{"text": "Hanuman chalisa lagao.", "action": "play_media", "slots": {"query": "Hanuman chalisa"}}
+{"text": "kohli ki century wali video chalao", "action": "play_media", "slots": {"query": "kohli ki century"}}
+{"text": "live match chalao", "action": "play_media", "slots": {"query": "live match"}}
+{"text": "YouTube pe cricket match live dikhao", "action": "play_media", "slots": {"app": "YouTube", "query": "cricket match live"}}
+{"text": "purane gaane bajao", "action": "play_media", "slots": {"query": "purane gaane"}}
+{"text": "Rafi ke gaane chalao", "action": "play_media", "slots": {"query": "Rafi"}}
+{"text": "subah wale bhajan lagao", "action": "play_media", "slots": {"query": "subah wale bhajan"}}
+{"text": "Pushpa 2 film chalao", "action": "play_media", "slots": {"query": "Pushpa 2"}}
+{"text": "Mann ki baat chalao", "action": "play_media", "slots": {"query": "Mann ki baat"}}
+{"text": "Bigg Boss ka kal ka episode chalao", "action": "play_media", "slots": {"query": "Bigg Boss ka kal ka episode"}}
+{"text": "Anupamaa ka aaj ka episode lagao", "action": "play_media", "slots": {"query": "Anupamaa ka aaj ka episode"}}
+{"text": "world cup final ki highlights play karo", "action": "play_media", "slots": {"query": "world cup final ki highlights"}}
+{"text": "dhoni ka last six wala video chalao", "action": "play_media", "slots": {"query": "dhoni ka last six"}}
+{"text": "news ka video chalao", "action": "play_media", "slots": {"query": "news"}}
+{"text": "Diljit ke gaane bajao", "action": "play_media", "slots": {"query": "Diljit"}}
+{"text": "ABP news live lagao", "action": "play_media", "slots": {"query": "ABP news live"}}
+{"text": "kal raat ke match ki hylights dikhao", "action": "play_media", "slots": {"query": "kal raat ke match ki hylights"}}
+{"text": "IPL ke top 10 catch wala video chalao", "action": "play_media", "slots": {"query": "IPL ke top 10 catch"}}
+{"text": "Gayatri mantra bajao", "action": "play_media", "slots": {"query": "Gayatri mantra"}}
+{"text": "Ilaiyaraaja ke gaane chalao", "action": "play_media", "slots": {"query": "Ilaiyaraaja"}}
+{"text": "cricket wala podcast chalao", "action": "play_media", "slots": {"query": "cricket wala podcast"}}
+{"text": "Sachin ka interview video lagao", "action": "play_media", "slots": {"query": "Sachin ka interview"}}
+{"text": "Kapil Sharma ka comedy show chalao", "action": "play_media", "slots": {"query": "Kapil Sharma ka comedy show"}}
+{"text": "trending gaane bajao", "action": "play_media", "slots": {"query": "trending gaane"}}
+{"text": "Jagjit Singh ki ghazal sunao", "action": "play_media", "slots": {"query": "Jagjit Singh ki ghazal"}}
+{"text": "Youtube pe shiv tandav lagao", "action": "play_media", "slots": {"app": "Youtube", "query": "shiv tandav"}}
+{"text": "krishna bhajan chalao", "action": "play_media", "slots": {"query": "krishna bhajan"}}
+{"text": "Indian Idol ka finale episode chalao", "action": "play_media", "slots": {"query": "Indian Idol ka finale episode"}}
+{"text": "budget speech wala video play karo", "action": "play_media", "slots": {"query": "budget speech"}}
+{"text": "match highlights haaku", "action": "play_media", "slots": {"query": "match highlights"}}
+{"text": "kannada suddi live haaku", "action": "play_media", "slots": {"query": "kannada suddi live"}}
+{"text": "RCB highlights play maadu", "action": "play_media", "slots": {"query": "RCB highlights"}}
+{"text": "Kantara movie haaku", "action": "play_media", "slots": {"query": "Kantara"}}
+{"text": "bhakti geethe haaku", "action": "play_media", "slots": {"query": "bhakti geethe"}}
+{"text": "kohli century video play maadu", "action": "play_media", "slots": {"query": "kohli century"}}
+{"text": "SPB haadugalu haaku", "action": "play_media", "slots": {"query": "SPB"}}
+{"text": "match highlights podu", "action": "play_media", "slots": {"query": "match highlights"}}
+{"text": "CSK highlights podu", "action": "play_media", "slots": {"query": "CSK highlights"}}
+{"text": "Sun news live podu", "action": "play_media", "slots": {"query": "Sun news live"}}
+{"text": "Rahman paattu podu", "action": "play_media", "slots": {"query": "Rahman"}}
+{"text": "Jailer padam podu", "action": "play_media", "slots": {"query": "Jailer"}}
+{"text": "Dhoni sixer video podu", "action": "play_media", "slots": {"query": "Dhoni sixer"}}
+{"text": "play the match highlights", "action": "play_media", "slots": {"query": "match highlights"}}
+{"text": "play today's news", "action": "play_media", "slots": {"query": "today's news"}}
+{"text": "play Tum Hi Ho", "action": "play_media", "slots": {"query": "Tum Hi Ho"}}
+{"text": "Play some old Hindi songs.", "action": "play_media", "slots": {"query": "old Hindi songs"}}
+{"text": "play the India vs Pakistan highlights", "action": "play_media", "slots": {"query": "India vs Pakistan highlights"}}
+{"text": "put on Chaiyya Chaiyya", "action": "play_media", "slots": {"query": "Chaiyya Chaiyya"}}
+{"text": "stream the live cricket match", "action": "play_media", "slots": {"query": "live cricket match"}}
+{"text": "play the budget speech video", "action": "play_media", "slots": {"query": "budget speech"}}
+{"text": "play the Mann ki Baat episode", "action": "play_media", "slots": {"query": "Mann ki Baat"}}
+{"text": "play Naatu Naatu from RRR", "action": "play_media", "slots": {"query": "Naatu Naatu from RRR"}}
+{"text": "play this week's trending songs", "action": "play_media", "slots": {"query": "this week's trending songs"}}
+{"text": "मैच की हाइलाइट्स चलाओ", "action": "play_media", "slots": {"query": "मैच की हाइलाइट्स"}}
+{"text": "आज की खबरें चलाओ", "action": "play_media", "slots": {"query": "आज की खबरें"}}
+{"text": "हनुमान चालीसा लगाओ", "action": "play_media", "slots": {"query": "हनुमान चालीसा"}}
+{"text": "केसरिया गाना बजाओ", "action": "play_media", "slots": {"query": "केसरिया"}}
+{"text": "ಮ್ಯಾಚ್ ಹೈಲೈಟ್ಸ್ ಹಾಕು", "action": "play_media", "slots": {"query": "ಮ್ಯಾಚ್ ಹೈಲೈಟ್ಸ್"}}
+{"text": "ಪುನೀತ್ ರಾಜಕುಮಾರ್ ಹಾಡು ಹಾಕು", "action": "play_media", "slots": {"query": "ಪುನೀತ್ ರಾಜಕುಮಾರ್"}}
+{"text": "மேட்ச் ஹைலைட்ஸ் போடு", "action": "play_media", "slots": {"query": "மேட்ச் ஹைலைட்ஸ்"}}
+{"text": "bhai highlights chalao abhi", "action": "play_media", "slots": {"query": "highlights"}}
+{"text": "kal match ki century wali clip chalao", "action": "play_media", "slots": {"query": "kal match ki century"}}
+{"text": "Arijit ka concert video lagao", "action": "play_media", "slots": {"query": "Arijit ka concert"}}
+{"text": "Lata ji ka aakhri gaana bajao.", "action": "play_media", "slots": {"query": "Lata ji ka aakhri gaana"}}
+{"text": "open whatsapp", "action": "open_app", "slots": {"app": "whatsapp"}}
+{"text": "Please open WhatsApp for me.", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "do one thing, open whatsapp na", "action": "open_app", "slots": {"app": "whatsapp"}}
+{"text": "beta can you start the whatsapp, I want to see the family group", "action": "open_app", "slots": {"app": "whatsapp"}}
+{"text": "whats app open karo please", "action": "open_app", "slots": {"app": "whats app"}}
+{"text": "launch whatsapp desktop", "action": "open_app", "slots": {"app": "whatsapp"}}
+{"text": "yaar just open the watsapp quickly", "action": "open_app", "slots": {"app": "watsapp"}}
+{"text": "I want to check my messages, open whatsapp", "action": "open_app", "slots": {"app": "whatsapp"}}
+{"text": "Whatsapp.", "action": "open_app", "slots": {"app": "Whatsapp"}}
+{"text": "open chrome", "action": "open_app", "slots": {"app": "chrome"}}
+{"text": "Do one thing, open Chrome.", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "please start google chrome browser", "action": "open_app", "slots": {"app": "google chrome"}}
+{"text": "open the internet, the chrome one", "action": "open_app", "slots": {"app": "chrome"}}
+{"text": "krome open pannunga", "action": "open_app", "slots": {"app": "krome"}}
+{"text": "can you launch the chrome browser for me please", "action": "open_app", "slots": {"app": "chrome"}}
+{"text": "open google crome", "action": "open_app", "slots": {"app": "google crome"}}
+{"text": "YouTube kholo.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "please open the youtube, I will see something myself", "action": "open_app", "slots": {"app": "youtube"}}
+{"text": "do one thing, just open youtube app", "action": "open_app", "slots": {"app": "youtube"}}
+{"text": "you tube open madi", "action": "open_app", "slots": {"app": "you tube"}}
+{"text": "go to youtube dot com", "action": "open_website", "slots": {"site": "youtube dot com"}, "was": "open_app"}
+{"text": "start youtube na", "action": "open_app", "slots": {"app": "youtube"}}
+{"text": "open u tube please", "action": "open_app", "slots": {"app": "u tube"}}
+{"text": "can you open youtube website for my grandson", "action": "open_website", "slots": {"site": "youtube"}, "was": "open_app"}
+{"text": "I need to write something, open notepad first", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "start the note pad", "action": "open_app", "slots": {"app": "note pad"}}
+{"text": "zara notepad khol do", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "launch notepad yaar", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "open not pad", "action": "open_app", "slots": {"app": "not pad"}}
+{"text": "can you please open that notepad where I keep my notes", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "open calculator", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "Open the calculator please.", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "I have to do some hisaab, open calculator", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "calculator kholo na", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "start calc", "action": "open_app", "slots": {"app": "calc"}}
+{"text": "open calcu later", "action": "open_app", "slots": {"app": "calcu later"}}
+{"text": "do one thing, bring up the calculator app", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "open my computer, I want to see the folders", "action": "open_app", "slots": {"app": "my computer"}}
+{"text": "launch windows explorer", "action": "open_app", "slots": {"app": "windows explorer"}}
+{"text": "open the downloads folder", "action": "open_app", "slots": {"app": "downloads folder"}}
+{"text": "file explorar open karo", "action": "open_app", "slots": {"app": "file explorar"}}
+{"text": "open this pc", "action": "open_app", "slots": {"app": "this pc"}}
+{"text": "beta, where are my photos folder, open the file manager", "action": "open_app", "slots": {"app": "file manager"}}
+{"text": "open settings", "action": "open_app", "slots": {"app": "settings"}}
+{"text": "Please open the settings.", "action": "open_app", "slots": {"app": "settings"}}
+{"text": "open computer settings, I want to change the brightness", "action": "open_app", "slots": {"app": "settings"}}
+{"text": "go to windows settings", "action": "open_app", "slots": {"app": "windows settings"}}
+{"text": "setting open maadi", "action": "open_app", "slots": {"app": "setting"}}
+{"text": "open the setings yaar", "action": "open_app", "slots": {"app": "setings"}}
+{"text": "can you start the control settings for wifi", "action": "open_app", "slots": {"app": "control settings"}}
+{"text": "open camera", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "Open the camera, I want to take a photo.", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "start webcam please", "action": "open_app", "slots": {"app": "webcam"}}
+{"text": "camra kholo", "action": "open_app", "slots": {"app": "camra"}}
+{"text": "do one thing, open the camera app na", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "launch camera so I can see my face", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "open the cam era", "action": "open_app", "slots": {"app": "cam era"}}
+{"text": "open word", "action": "open_app", "slots": {"app": "word"}}
+{"text": "Please open Microsoft Word.", "action": "open_app", "slots": {"app": "Microsoft Word"}}
+{"text": "I have to make a letter, open ms word", "action": "open_app", "slots": {"app": "ms word"}}
+{"text": "start word document app", "action": "open_app", "slots": {"app": "word"}}
+{"text": "open micro soft ward", "action": "open_app", "slots": {"app": "micro soft ward"}}
+{"text": "zara word khol do yaar", "action": "open_app", "slots": {"app": "word"}}
+{"text": "launch winword", "action": "open_app", "slots": {"app": "winword"}}
+{"text": "open excel", "action": "open_app", "slots": {"app": "excel"}}
+{"text": "Please open Excel sheet.", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "open microsoft excel, I want to update the shop accounts", "action": "open_app", "slots": {"app": "microsoft excel"}}
+{"text": "start the spreadsheet app excel", "action": "open_app", "slots": {"app": "excel"}}
+{"text": "open exel", "action": "open_app", "slots": {"app": "exel"}}
+{"text": "do one thing na, excel kholo", "action": "open_app", "slots": {"app": "excel"}}
+{"text": "launch ms excel quickly", "action": "open_app", "slots": {"app": "ms excel"}}
+{"text": "open spotify", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "Please open Spotify.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "start spotify app, I will choose the song", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "spotifai open karo", "action": "open_app", "slots": {"app": "spotifai"}}
+{"text": "launch spotify yaar", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "can you just open the spotify music app", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "open spot ify", "action": "open_app", "slots": {"app": "spot ify"}}
+{"text": "open vlc player", "action": "open_app", "slots": {"app": "vlc"}}
+{"text": "Please start Zoom, my class is at ten.", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "open paint for my daughter", "action": "open_app", "slots": {"app": "paint"}}
+{"text": "launch microsoft teams", "action": "open_app", "slots": {"app": "microsoft teams"}}
+{"text": "open telegram", "action": "open_app", "slots": {"app": "telegram"}}
+{"text": "do one thing, open the photos app", "action": "open_app", "slots": {"app": "photos"}}
+{"text": "open microsoft edge", "action": "open_app", "slots": {"app": "microsoft edge"}}
+{"text": "instagram kholo na", "action": "open_app", "slots": {"app": "instagram"}}
+{"text": "open powerpoint, I have to make slides", "action": "open_app", "slots": {"app": "powerpoint"}}
+{"text": "start outlook mail", "action": "open_app", "slots": {"app": "outlook"}}

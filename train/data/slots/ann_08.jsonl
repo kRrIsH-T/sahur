@@ -1,0 +1,645 @@
+{"text": "ये अलर्ट क्यों आ रहा है पढ़ के बता", "action": "read_screen", "slots": {}}
+{"text": "मुझे पढ़ना नहीं आता, ये संदेश सुनाओ", "action": "read_screen", "slots": {}}
+{"text": "OTP वाला मैसेज पढ़ दो", "action": "read_screen", "slots": {}}
+{"text": "इस वेबसाइट पे क्या लिखा है पूरा पढ़ो", "action": "read_screen", "slots": {}}
+{"text": "ये चिट्ठी जो स्क्रीन पे है धीरे धीरे पढ़िए", "action": "read_screen", "slots": {}}
+{"text": "क्या आया है स्क्रीन पे", "action": "read_screen", "slots": {}}
+{"text": "ee page odu", "action": "read_screen", "slots": {}}
+{"text": "email odi helu", "action": "read_screen", "slots": {}}
+{"text": "ee email na odu please", "action": "read_screen", "slots": {}}
+{"text": "bandiro message odu", "action": "read_screen", "slots": {}}
+{"text": "notification enu ide odi helu", "action": "read_screen", "slots": {}}
+{"text": "ee notification odu", "action": "read_screen", "slots": {}}
+{"text": "ee form alli enu kelide anta helu", "action": "read_screen", "slots": {}}
+{"text": "error popup enu heltide nodi helu", "action": "read_screen", "slots": {}}
+{"text": "ee error enu anta artha maadi helu", "action": "read_screen", "slots": {}}
+{"text": "screen na odu", "action": "read_screen", "slots": {}}
+{"text": "dayavittu screen alli iruvudanna odi heli", "action": "read_screen", "slots": {}}
+{"text": "konjam screen odi helu", "action": "read_screen", "slots": {}}
+{"text": "zara ee page odi helappa", "action": "read_screen", "slots": {}}
+{"text": "ondu sala ee message odu", "action": "read_screen", "slots": {}}
+{"text": "please ee email odi kodi", "action": "read_screen", "slots": {}}
+{"text": "naanige kannu sariyagi kaanalla screen odi heli", "action": "read_screen", "slots": {}}
+{"text": "ee document odi helu", "action": "read_screen", "slots": {}}
+{"text": "document alli enu bardide", "action": "read_screen", "slots": {}}
+{"text": "ee letter odu", "action": "read_screen", "slots": {}}
+{"text": "ee pdf odu", "action": "read_screen", "slots": {}}
+{"text": "ee whatsapp message odi helu", "action": "read_screen", "slots": {}}
+{"text": "yaaru message kalsidaare odi heli", "action": "read_screen", "slots": {}}
+{"text": "inbox alli first email odu", "action": "read_screen", "slots": {}}
+{"text": "ee mail na meaning helu", "action": "read_screen", "slots": {}}
+{"text": "ee page enu heltide explain maadu", "action": "read_screen", "slots": {}}
+{"text": "screen alli iro text odi", "action": "read_screen", "slots": {}}
+{"text": "mele iro message odu", "action": "read_screen", "slots": {}}
+{"text": "ee window alli enu ide", "action": "read_screen", "slots": {}}
+{"text": "ee popup odu", "action": "read_screen", "slots": {}}
+{"text": "ee alert enu heltide", "action": "read_screen", "slots": {}}
+{"text": "ee warning odi helu", "action": "read_screen", "slots": {}}
+{"text": "ee form fill maadoke enu beku odi helu", "action": "read_screen", "slots": {}}
+{"text": "ee page explain maadi kodi", "action": "read_screen", "slots": {}}
+{"text": "screen enu heltide swalpa explain maadi", "action": "read_screen", "slots": {}}
+{"text": "appa ge gottagalla ee screen odi heli", "action": "read_screen", "slots": {}}
+{"text": "ajji ge ee message odi helu", "action": "read_screen", "slots": {}}
+{"text": "nanna kannadaka illa screen odi", "action": "read_screen", "slots": {}}
+{"text": "ee news page odu", "action": "read_screen", "slots": {}}
+{"text": "screen meeda enide heli", "action": "read_screen", "slots": {}}
+{"text": "scrin odu", "action": "read_screen", "slots": {}}
+{"text": "ee peji odu", "action": "read_screen", "slots": {}}
+{"text": "imail odi helu", "action": "read_screen", "slots": {}}
+{"text": "mesej odi heli", "action": "read_screen", "slots": {}}
+{"text": "notifikeshan odu", "action": "read_screen", "slots": {}}
+{"text": "eror popup enu heltide", "action": "read_screen", "slots": {}}
+{"text": "ee paage odi helappa", "action": "read_screen", "slots": {}}
+{"text": "skrin alli ennide heli", "action": "read_screen", "slots": {}}
+{"text": "ee meyil odu please", "action": "read_screen", "slots": {}}
+{"text": "ee messej odi kodi", "action": "read_screen", "slots": {}}
+{"text": "heli screen alli enu ide", "action": "read_screen", "slots": {}}
+{"text": "illi enu bardide odi helu", "action": "read_screen", "slots": {}}
+{"text": "idu enu anta odi heli", "action": "read_screen", "slots": {}}
+{"text": "idu enu message", "action": "read_screen", "slots": {}}
+{"text": "yen bardide illi odu", "action": "read_screen", "slots": {}}
+{"text": "screen alli kaanuva ella vishaya odi heli", "action": "read_screen", "slots": {}}
+{"text": "modalinda koneyavaregu ee page odu", "action": "read_screen", "slots": {}}
+{"text": "ee bank message odi helu", "action": "read_screen", "slots": {}}
+{"text": "ee OTP message odu", "action": "read_screen", "slots": {}}
+{"text": "ee bank page alli enu ide heli", "action": "read_screen", "slots": {}}
+{"text": "ee update popup enu heltide", "action": "read_screen", "slots": {}}
+{"text": "ee settings page alli enu ide odi", "action": "read_screen", "slots": {}}
+{"text": "pension form alli enu kelide odi helu", "action": "read_screen", "slots": {}}
+{"text": "ee hall ticket odi heli", "action": "read_screen", "slots": {}}
+{"text": "result page alli enu ide odu", "action": "read_screen", "slots": {}}
+{"text": "ee chat odi helu", "action": "read_screen", "slots": {}}
+{"text": "kone message odu", "action": "read_screen", "slots": {}}
+{"text": "latest notification odi heli", "action": "read_screen", "slots": {}}
+{"text": "read the screen please kannadadalli heli", "action": "read_screen", "slots": {}}
+{"text": "screen read maadu", "action": "read_screen", "slots": {}}
+{"text": "email read maadu", "action": "read_screen", "slots": {}}
+{"text": "ee error read maadi explain maadu", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಪೇಜ್ ಓದು", "action": "read_screen", "slots": {}}
+{"text": "ಮೆಸೇಜ್ ಓದಿ ಹೇಳಿ", "action": "read_screen", "slots": {}}
+{"text": "ಈ ನೋಟಿಫಿಕೇಶನ್ ಓದು", "action": "read_screen", "slots": {}}
+{"text": "ಸ್ಕ್ರೀನ್ ಓದು", "action": "read_screen", "slots": {}}
+{"text": "ದಯವಿಟ್ಟು ಸ್ಕ್ರೀನ್ ಓದಿ ಹೇಳಿ", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಪುಟದಲ್ಲಿ ಏನು ಬರೆದಿದೆ ಹೇಳು", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಎರರ್ ಏನು ಹೇಳ್ತಿದೆ", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಪಾಪ್ಅಪ್ ಓದು", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಫಾರ್ಮ್ ಅಲ್ಲಿ ಏನು ಕೇಳಿದೆ ಓದಿ ಹೇಳು", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಡಾಕ್ಯುಮೆಂಟ್ ಓದು", "action": "read_screen", "slots": {}}
+{"text": "ಸ್ವಲ್ಪ ಈ ಮೆಸೇಜ್ ಓದು", "action": "read_screen", "slots": {}}
+{"text": "ಒಂದು ಸಲ ಈ ಪೇಜ್ ಓದಿ ಹೇಳಪ್ಪ", "action": "read_screen", "slots": {}}
+{"text": "ಇಲ್ಲಿ ಏನು ಬರೆದಿದೆ ಓದು", "action": "read_screen", "slots": {}}
+{"text": "ಕೊನೆ ಮೆಸೇಜ್ ಓದು", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಪೇಜ್ ಏನು ಹೇಳ್ತಿದೆ ಅಂತ ವಿವರಿಸು", "action": "read_screen", "slots": {}}
+{"text": "ನನಗೆ ಕಣ್ಣು ಕಾಣಲ್ಲ ಸ್ಕ್ರೀನ್ ಓದಿ ಹೇಳಿ", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಬಿಲ್ ಅಲ್ಲಿ ಏನಿದೆ ಓದು", "action": "read_screen", "slots": {}}
+{"text": "ಇನ್‌ಬಾಕ್ಸ್ ಅಲ್ಲಿ ಮೊದಲ ಇಮೇಲ್ ಓದು", "action": "read_screen", "slots": {}}
+{"text": "ಸ್ಕ್ರೀನ್ ರೀಡ್ ಮಾಡು", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಅಲರ್ಟ್ ಏನು ಅಂತ ಹೇಳು", "action": "read_screen", "slots": {}}
+{"text": "ಸ್ಕ್ರಿನ್ ಅಲ್ಲಿ ಏನಿದೆ ಹೇಳಿ", "action": "read_screen", "slots": {}}
+{"text": "ಈ ವಿಂಡೋ ಅಲ್ಲಿ ಏನಿದೆ ಓದು", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಸುದ್ದಿ ಪೇಜ್ ಓದಿ ಹೇಳು", "action": "read_screen", "slots": {}}
+{"text": "ಯಾರು ಮೆಸೇಜ್ ಕಳಿಸಿದ್ದಾರೆ ಓದಿ ಹೇಳು", "action": "read_screen", "slots": {}}
+{"text": "ಪೂರ್ತಿ ಪೇಜ್ ಓದು", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಓಟಿಪಿ ಮೆಸೇಜ್ ಓದು", "action": "read_screen", "slots": {}}
+{"text": "ಈ ರಿಸಲ್ಟ್ ಪೇಜ್ ಓದಿ ಹೇಳಿ", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಪಿಡಿಎಫ್ ಓದು", "action": "read_screen", "slots": {}}
+{"text": "ಸ್ಕ್ರೀನ್ ಅಲ್ಲಿ ಇರೋದನ್ನ ಓದಿ ಹೇಳು", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಲೆಟರ್ ಅಲ್ಲಿ ಏನು ಬರೆದಿದೆ", "action": "read_screen", "slots": {}}
+{"text": "ee page lo em rasi undo konchem chadavandi", "action": "read_screen", "slots": {}}
+{"text": "Ee email chadivi vinipinchu please.", "action": "read_screen", "slots": {}}
+{"text": "ee message evaru pamparu em undi chadavu", "action": "read_screen", "slots": {}}
+{"text": "screen meeda error vachindi adi enti cheppu", "action": "read_screen", "slots": {}}
+{"text": "ee form lo emi fill cheyyalo explain cheyyi", "action": "read_screen", "slots": {}}
+{"text": "notification lo emundi", "action": "read_screen", "slots": {}}
+{"text": "naaku kanipinchatledu babu screen chadivi pettu", "action": "read_screen", "slots": {}}
+{"text": "ee document mottham chadavu", "action": "read_screen", "slots": {}}
+{"text": "ee popup enduku vachindi cheppandi", "action": "read_screen", "slots": {}}
+{"text": "skreen lo emundo chadivi chepu", "action": "read_screen", "slots": {}}
+{"text": "Page lo unna text gattiga chadavu.", "action": "read_screen", "slots": {}}
+{"text": "ee bill lo amount entha undi screen chusi cheppu", "action": "read_screen", "slots": {}}
+{"text": "ippudu open ayina mail summary cheppu", "action": "read_screen", "slots": {}}
+{"text": "screen read karo please", "action": "read_screen", "slots": {}}
+{"text": "screen var kay lihila aahe te vachun dakhva", "action": "read_screen", "slots": {}}
+{"text": "ha email vachun dakhav na", "action": "read_screen", "slots": {}}
+{"text": "ya page var kay aahe sanga", "action": "read_screen", "slots": {}}
+{"text": "Message madhe kay lihilay te vacha.", "action": "read_screen", "slots": {}}
+{"text": "ha error kasla aahe samjavun sanga", "action": "read_screen", "slots": {}}
+{"text": "majha dolyanna disat nahi screen vachun dakhva re", "action": "read_screen", "slots": {}}
+{"text": "ya form madhe kay bharaycha te explain kar", "action": "read_screen", "slots": {}}
+{"text": "notification aali aahe ti vacha", "action": "read_screen", "slots": {}}
+{"text": "jara ha document vachun dakhava", "action": "read_screen", "slots": {}}
+{"text": "screen var ky aahe vachun dakva", "action": "read_screen", "slots": {}}
+{"text": "he popup kashala aala sang na", "action": "read_screen", "slots": {}}
+{"text": "ata je ughadla aahe te vacha", "action": "read_screen", "slots": {}}
+{"text": "bank cha message aala aahe kay mhanto te vacha", "action": "read_screen", "slots": {}}
+{"text": "kripaya screen var lihilela majkur vachun sanga", "action": "read_screen", "slots": {}}
+{"text": "ha page summary madhe sanga", "action": "read_screen", "slots": {}}
+{"text": "screen e ki lekha ache pore shonao", "action": "read_screen", "slots": {}}
+{"text": "ei email ta pore dao", "action": "read_screen", "slots": {}}
+{"text": "Page e ki ache bolo to.", "action": "read_screen", "slots": {}}
+{"text": "message ta ke pathiyeche ar ki likheche poro", "action": "read_screen", "slots": {}}
+{"text": "ei error ta ki bujhiye bolo", "action": "read_screen", "slots": {}}
+{"text": "chokhe dekhte pachchi na screen ta pore shonao baba", "action": "read_screen", "slots": {}}
+{"text": "ei form e ki ki bhorte hobe explain koro", "action": "read_screen", "slots": {}}
+{"text": "notification e ki eseche dekho to", "action": "read_screen", "slots": {}}
+{"text": "puro document ta pore dao please", "action": "read_screen", "slots": {}}
+{"text": "skrin e ki ache pore sunao", "action": "read_screen", "slots": {}}
+{"text": "ei popup ta keno elo bolo", "action": "read_screen", "slots": {}}
+{"text": "ekhon ja khola ache seta pore shonao", "action": "read_screen", "slots": {}}
+{"text": "ektu screen ta read koro na", "action": "read_screen", "slots": {}}
+{"text": "ei page er summary ta bolo", "action": "read_screen", "slots": {}}
+{"text": "office theke mail eseche oita poro to", "action": "read_screen", "slots": {}}
+{"text": "screenil enthaanu ezhuthiyirikkunnathu vaayichu tharu", "action": "read_screen", "slots": {}}
+{"text": "ee email onnu vaayikkamo", "action": "read_screen", "slots": {}}
+{"text": "Ee page il enthaanu ullathu parayu.", "action": "read_screen", "slots": {}}
+{"text": "message aara ayachathu enthaanu ezhuthiyathu vaayikku", "action": "read_screen", "slots": {}}
+{"text": "ee error enthaanu explain cheyyu", "action": "read_screen", "slots": {}}
+{"text": "kannu kaanunnilla mone screen onnu vaayichu kelpikku", "action": "read_screen", "slots": {}}
+{"text": "ee form il enthokke fill cheyyanam ennu parayu", "action": "read_screen", "slots": {}}
+{"text": "notification il enthaanu vannathu", "action": "read_screen", "slots": {}}
+{"text": "ee document muzhuvan vaayikku", "action": "read_screen", "slots": {}}
+{"text": "skreenil entha ullathu vayichu tharu", "action": "read_screen", "slots": {}}
+{"text": "ee popup enthina vannathu parayamo", "action": "read_screen", "slots": {}}
+{"text": "ippo thurannirikkunnathu vaayichu tharu", "action": "read_screen", "slots": {}}
+{"text": "screen onnu read cheyyu please", "action": "read_screen", "slots": {}}
+{"text": "ee page nte summary parayu", "action": "read_screen", "slots": {}}
+{"text": "KSEB bill vannittundu athil entha ezhuthiyathu vaayikku", "action": "read_screen", "slots": {}}
+{"text": "screen par shu lakhyu che e vanchi sambhlavo", "action": "read_screen", "slots": {}}
+{"text": "aa email vanchi do ne", "action": "read_screen", "slots": {}}
+{"text": "Aa page ma shu che kaho.", "action": "read_screen", "slots": {}}
+{"text": "message ma shu lakhyu che vanch", "action": "read_screen", "slots": {}}
+{"text": "aa error shu che samjavo", "action": "read_screen", "slots": {}}
+{"text": "mane dekhatu nathi beta screen vanchi ne sambhlav", "action": "read_screen", "slots": {}}
+{"text": "aa form ma shu bharvanu che explain karo", "action": "read_screen", "slots": {}}
+{"text": "notification ma shu aavyu", "action": "read_screen", "slots": {}}
+{"text": "aakho document vanchi do", "action": "read_screen", "slots": {}}
+{"text": "skrin par su che vanchi do", "action": "read_screen", "slots": {}}
+{"text": "aa popup kem aavyu kaho", "action": "read_screen", "slots": {}}
+{"text": "atyare je khulyu che e vancho", "action": "read_screen", "slots": {}}
+{"text": "jara screen read karo ne", "action": "read_screen", "slots": {}}
+{"text": "aa page no saar kaho", "action": "read_screen", "slots": {}}
+{"text": "dukaan valo invoice moklyu che e vanchi ne kaho", "action": "read_screen", "slots": {}}
+{"text": "screen te ki likhya hai padh ke sunao", "action": "read_screen", "slots": {}}
+{"text": "eh email padh ke dasso", "action": "read_screen", "slots": {}}
+{"text": "Is page te ki aa dasso ji.", "action": "read_screen", "slots": {}}
+{"text": "message vich ki likhya aa padho", "action": "read_screen", "slots": {}}
+{"text": "eh error ki aa samjhao", "action": "read_screen", "slots": {}}
+{"text": "menu dikhda nahi puttar screen padh ke suna de", "action": "read_screen", "slots": {}}
+{"text": "is form vich ki bharna aa explain karo", "action": "read_screen", "slots": {}}
+{"text": "notification vich ki aaya", "action": "read_screen", "slots": {}}
+{"text": "poora document padh dyo", "action": "read_screen", "slots": {}}
+{"text": "skreen te ki aa padh ke suna", "action": "read_screen", "slots": {}}
+{"text": "eh popup kyon aaya dasso", "action": "read_screen", "slots": {}}
+{"text": "hun jo khulya hoya oh padho", "action": "read_screen", "slots": {}}
+{"text": "zara screen read kar do yaar", "action": "read_screen", "slots": {}}
+{"text": "is page di summary dasso", "action": "read_screen", "slots": {}}
+{"text": "Canada ton mail aayi aa oh padh ke sunao", "action": "read_screen", "slots": {}}
+{"text": "chadavu", "action": "read_screen", "slots": {}}
+{"text": "vachun dakhva", "action": "read_screen", "slots": {}}
+{"text": "pore shonao", "action": "read_screen", "slots": {}}
+{"text": "vaayichu tharu", "action": "read_screen", "slots": {}}
+{"text": "vanchi sambhlavo", "action": "read_screen", "slots": {}}
+{"text": "padh ke sunao ji", "action": "read_screen", "slots": {}}
+{"text": "screen lo unna whatsapp message chadivi cheppu akka", "action": "read_screen", "slots": {}}
+{"text": "ee website lo terms and conditions emi chebutunnayi short ga cheppu", "action": "read_screen", "slots": {}}
+{"text": "ha pdf madhe pahila paragraph vacha", "action": "read_screen", "slots": {}}
+{"text": "screen er upore je warning ta ache oita ki bolche", "action": "read_screen", "slots": {}}
+{"text": "ee result page il ente marks entha ennu vaayichu parayu", "action": "read_screen", "slots": {}}
+{"text": "aa train ticket ma shu details che vanchi ne kaho", "action": "read_screen", "slots": {}}
+{"text": "eh dialog box ki keh reha hai padh ke dasso", "action": "read_screen", "slots": {}}
+{"text": "screen lo emundi chadivi chepandi plz", "action": "read_screen", "slots": {}}
+{"text": "skrin var kay ahe vachun dakhava na", "action": "read_screen", "slots": {}}
+{"text": "eemail ta pode dao", "action": "read_screen", "slots": {}}
+{"text": "screenil enthanu vayikkoo", "action": "read_screen", "slots": {}}
+{"text": "skreen par shu che vachi sambhalavo", "action": "read_screen", "slots": {}}
+{"text": "scrin te ki likheya padh ke suna", "action": "read_screen", "slots": {}}
+{"text": "ee mesej lo emi rasaru chadavu", "action": "read_screen", "slots": {}}
+{"text": "ha massage vacha re", "action": "read_screen", "slots": {}}
+{"text": "ee lettar vaayichu tharumo", "action": "read_screen", "slots": {}}
+{"text": "um ee screen lo ante emi undi asalu konchem cheppu", "action": "read_screen", "slots": {}}
+{"text": "arre ha je disat aahe na screen var te kay aahe sanga", "action": "read_screen", "slots": {}}
+{"text": "accha shono ei je screen e dekhache ota ki ektu pore bolo", "action": "read_screen", "slots": {}}
+{"text": "pension office nte mail vannu athil enthaanu paranjirikkunnathu ennu vaayichu kelpikkamo", "action": "read_screen", "slots": {}}
+{"text": "doctor ni report screen par che temaa shu lakhyu che samjavo", "action": "read_screen", "slots": {}}
+{"text": "ji screen te jo likhya hai oh hauli hauli padh ke sunao", "action": "read_screen", "slots": {}}
+{"text": "please explain what is on this page in Telugu lo", "action": "read_screen", "slots": {}}
+{"text": "screen odu", "action": "read_screen", "slots": {}}
+{"text": "Ee page odi.", "action": "read_screen", "slots": {}}
+{"text": "ee screenu odi", "action": "read_screen", "slots": {}}
+{"text": "odu screen na", "action": "read_screen", "slots": {}}
+{"text": "page read maadi helu", "action": "read_screen", "slots": {}}
+{"text": "message read maadi", "action": "read_screen", "slots": {}}
+{"text": "Send a WhatsApp message to mummy that I will be late today", "action": "send_message", "slots": {"contact": "mummy", "text": "I will be late today"}}
+{"text": "message Raju I am coming in ten minutes", "action": "send_message", "slots": {"contact": "Raju", "text": "I am coming in ten minutes"}}
+{"text": "Please tell bhaiya on WhatsApp that dinner is ready", "action": "send_message", "slots": {"contact": "bhaiya", "text": "dinner is ready"}}
+{"text": "Text Priya happy birthday", "action": "send_message", "slots": {"contact": "Priya", "text": "happy birthday"}}
+{"text": "Do one thing, send a message to papa saying I reached safely", "action": "send_message", "slots": {"contact": "papa", "text": "I reached safely"}}
+{"text": "zara Sunita ko message karo ki meeting cancel ho gayi", "action": "send_message", "slots": {"contact": "Sunita", "text": "meeting cancel ho gayi"}}
+{"text": "SMS Ramesh uncle, call me when free", "action": "send_message", "slots": {"contact": "Ramesh uncle", "text": "call me when free"}}
+{"text": "Inform Anil that the electrician will come tomorrow morning", "action": "send_message", "slots": {"contact": "Anil", "text": "the electrician will come tomorrow morning"}}
+{"text": "Reply to didi saying ok I will bring the sweets", "action": "send_message", "slots": {"contact": "didi", "text": "ok I will bring the sweets"}}
+{"text": "WhatsApp Kavya good night", "action": "send_message", "slots": {"contact": "Kavya", "text": "good night"}}
+{"text": "Can you please send a message to my son that the medicine is finished", "action": "send_message", "slots": {"contact": "son", "text": "the medicine is finished"}}
+{"text": "Tell Suresh I have transferred the rent", "action": "send_message", "slots": {"contact": "Suresh", "text": "I have transferred the rent"}}
+{"text": "Akka ge message kalsu, I will come on Sunday", "action": "send_message", "slots": {"contact": "Akka", "text": "I will come on Sunday"}}
+{"text": "Send text to Deepak yaar, where are you", "action": "send_message", "slots": {"contact": "Deepak", "text": "where are you"}}
+{"text": "Message to Lakshmi aunty thank you for the lunch", "action": "send_message", "slots": {"contact": "Lakshmi aunty", "text": "thank you for the lunch"}}
+{"text": "Whats app mummy I ate food", "action": "send_message", "slots": {"contact": "mummy", "text": "I ate food"}}
+{"text": "Please message Arjun bolo ki class is at four pm today", "action": "send_message", "slots": {"contact": "Arjun", "text": "class is at four pm today"}}
+{"text": "Send Neha a message saying the train is delayed by one hour", "action": "send_message", "slots": {"contact": "Neha", "text": "the train is delayed by one hour"}}
+{"text": "Bata do Vikram ko ki I am not coming to office tomorrow", "action": "send_message", "slots": {"contact": "Vikram", "text": "I am not coming to office tomorrow"}}
+{"text": "Drop a message to Pooja, call back urgent", "action": "send_message", "slots": {"contact": "Pooja", "text": "call back urgent"}}
+{"text": "Text my wife that I am stuck in traffic", "action": "send_message", "slots": {"contact": "wife", "text": "I am stuck in traffic"}}
+{"text": "Send message to Murugan anna, the parcel has come", "action": "send_message", "slots": {"contact": "Murugan anna", "text": "the parcel has come"}}
+{"text": "Tell grandson on WhatsApp to bring my spectacles when he comes", "action": "send_message", "slots": {"contact": "grandson", "text": "bring my spectacles when he comes"}}
+{"text": "Message Rahul ok", "action": "send_message", "slots": {"contact": "Rahul", "text": "ok"}}
+{"text": "Please inform the doctor saab that my sugar is normal now", "action": "send_message", "slots": {"contact": "doctor saab", "text": "my sugar is normal now"}}
+{"text": "Send a quick message to Anjali saying congrats on the new job", "action": "send_message", "slots": {"contact": "Anjali", "text": "congrats on the new job"}}
+{"text": "Reply karo Sanjay ko, yes I am interested", "action": "send_message", "slots": {"contact": "Sanjay", "text": "yes I am interested"}}
+{"text": "WhatsApp to chachu, happy Diwali to the whole family", "action": "send_message", "slots": {"contact": "chachu", "text": "happy Diwali to the whole family"}}
+{"text": "Messege Ganesh I will pay tomorrow", "action": "send_message", "slots": {"contact": "Ganesh", "text": "I will pay tomorrow"}}
+{"text": "Can you text Meena that the milk man did not come today", "action": "send_message", "slots": {"contact": "Meena", "text": "the milk man did not come today"}}
+{"text": "Send SMS to Kiran, OTP is not coming, please check", "action": "send_message", "slots": {"contact": "Kiran", "text": "OTP is not coming, please check"}}
+{"text": "Na please send message to amma that I am fine, don't worry", "action": "send_message", "slots": {"contact": "amma", "text": "I am fine, don't worry"}}
+{"text": "Tell Rohit the match tickets are booked", "action": "send_message", "slots": {"contact": "Rohit", "text": "the match tickets are booked"}}
+{"text": "Send WhatsApp to Shalini, please send the photos from the function", "action": "send_message", "slots": {"contact": "Shalini", "text": "please send the photos from the function"}}
+{"text": "Message bhabhi ji that I will pick up the kids from school", "action": "send_message", "slots": {"contact": "bhabhi ji", "text": "I will pick up the kids from school"}}
+{"text": "Thambi ku message anuppu, come home early", "action": "send_message", "slots": {"contact": "Thambi", "text": "come home early"}}
+{"text": "Text Sameer bro, are we meeting tonight or not", "action": "send_message", "slots": {"contact": "Sameer bro", "text": "are we meeting tonight or not"}}
+{"text": "Send a message to Manoj sir saying I have submitted the assignment", "action": "send_message", "slots": {"contact": "Manoj sir", "text": "I have submitted the assignment"}}
+{"text": "Wats up Nisha I am waiting outside", "action": "send_message", "slots": {"contact": "Nisha", "text": "I am waiting outside"}}
+{"text": "Inform Rekha didi that the puja is at six in the evening", "action": "send_message", "slots": {"contact": "Rekha didi", "text": "the puja is at six in the evening"}}
+{"text": "Please send message to my daughter, call me when you are free beta", "action": "send_message", "slots": {"contact": "daughter", "text": "call me when you are free beta"}}
+{"text": "Message Venkat that the files are on the desk", "action": "send_message", "slots": {"contact": "Venkat", "text": "the files are on the desk"}}
+{"text": "Reply to Ajay thanks", "action": "send_message", "slots": {"contact": "Ajay", "text": "thanks"}}
+{"text": "Tell nani on WhatsApp we will visit next week", "action": "send_message", "slots": {"contact": "nani", "text": "we will visit next week"}}
+{"text": "Send text message to Harish saying gas cylinder booked", "action": "send_message", "slots": {"contact": "Harish", "text": "gas cylinder booked"}}
+{"text": "Yaar message Karan ki laptop charger leke aana", "action": "send_message", "slots": {"contact": "Karan", "text": "laptop charger leke aana"}}
+{"text": "Send a message to the plumber Rajesh, tap is leaking again please come", "action": "send_message", "slots": {"contact": "Rajesh", "text": "tap is leaking again please come"}}
+{"text": "Massage Divya see you tomorrow", "action": "send_message", "slots": {"contact": "Divya", "text": "see you tomorrow"}}
+{"text": "WhatsApp Ravi anna that the bus leaves at seven", "action": "send_message", "slots": {"contact": "Ravi anna", "text": "the bus leaves at seven"}}
+{"text": "Please tell Usha that her courier has been delivered to our house", "action": "send_message", "slots": {"contact": "Usha", "text": "her courier has been delivered to our house"}}
+{"text": "Text Aditya, bring two kilos of onions on the way", "action": "send_message", "slots": {"contact": "Aditya", "text": "bring two kilos of onions on the way"}}
+{"text": "Send message to papa bolo ki fees jama ho gayi", "action": "send_message", "slots": {"contact": "papa", "text": "fees jama ho gayi"}}
+{"text": "Inform the group admin Mahesh that I will not attend the reunion", "action": "send_message", "slots": {"contact": "Mahesh", "text": "I will not attend the reunion"}}
+{"text": "Shruthi ge WhatsApp maadu, I reached home", "action": "send_message", "slots": {"contact": "Shruthi", "text": "I reached home"}}
+{"text": "Message mama ji, happy anniversary to you and mami", "action": "send_message", "slots": {"contact": "mama ji", "text": "happy anniversary to you and mami"}}
+{"text": "Could you send a text to Farhan saying the meeting moved to Monday", "action": "send_message", "slots": {"contact": "Farhan", "text": "the meeting moved to Monday"}}
+{"text": "Send Imran a WhatsApp, Eid Mubarak bhai", "action": "send_message", "slots": {"contact": "Imran", "text": "Eid Mubarak bhai"}}
+{"text": "Tell Gopal I am sending the money now", "action": "send_message", "slots": {"contact": "Gopal", "text": "I am sending the money now"}}
+{"text": "Sent message to Sneha I am sick today", "action": "send_message", "slots": {"contact": "Sneha", "text": "I am sick today"}}
+{"text": "Please reply to Prakash that the price is fine, go ahead", "action": "send_message", "slots": {"contact": "Prakash", "text": "the price is fine, go ahead"}}
+{"text": "Message my brother, mom is asking about you", "action": "send_message", "slots": {"contact": "brother", "text": "mom is asking about you"}}
+{"text": "Text Jyoti didi, I need the recipe for that paneer dish", "action": "send_message", "slots": {"contact": "Jyoti didi", "text": "I need the recipe for that paneer dish"}}
+{"text": "WhatsApp karo Ashok ko ki shop band hai aaj", "action": "send_message", "slots": {"contact": "Ashok", "text": "shop band hai aaj"}}
+{"text": "Send a message to Selvi akka, I will come to the temple with you", "action": "send_message", "slots": {"contact": "Selvi akka", "text": "I will come to the temple with you"}}
+{"text": "Tell my husband to call the bank before five", "action": "send_message", "slots": {"contact": "husband", "text": "call the bank before five"}}
+{"text": "Inform Naveen the report is ready for review", "action": "send_message", "slots": {"contact": "Naveen", "text": "the report is ready for review"}}
+{"text": "Send msg to Tanvi okay done", "action": "send_message", "slots": {"contact": "Tanvi", "text": "okay done"}}
+{"text": "Please send WhatsApp to Babu that the auto is waiting downstairs", "action": "send_message", "slots": {"contact": "Babu", "text": "the auto is waiting downstairs"}}
+{"text": "Message Pinky I miss you", "action": "send_message", "slots": {"contact": "Pinky", "text": "I miss you"}}
+{"text": "Text Srinivas garu that the land papers are ready for signing", "action": "send_message", "slots": {"contact": "Srinivas garu", "text": "the land papers are ready for signing"}}
+{"text": "Send message to chhotu, homework finish karke khelna", "action": "send_message", "slots": {"contact": "chhotu", "text": "homework finish karke khelna"}}
+{"text": "Tell Mohan on SMS that I will be there by noon", "action": "send_message", "slots": {"contact": "Mohan", "text": "I will be there by noon"}}
+{"text": "Konjam message Karthik, the movie is at nine thirty", "action": "send_message", "slots": {"contact": "Karthik", "text": "the movie is at nine thirty"}}
+{"text": "Send a WhatsApp to mummy and tell her I bought the saree she wanted", "action": "send_message", "slots": {"contact": "mummy", "text": "I bought the saree she wanted"}}
+{"text": "Reply to boss Mr Sharma, noted, will do it by evening", "action": "send_message", "slots": {"contact": "Mr Sharma", "text": "noted, will do it by evening"}}
+{"text": "Massage to Raju bhaiya come fast", "action": "send_message", "slots": {"contact": "Raju bhaiya", "text": "come fast"}}
+{"text": "Send Swati a text, let's go shopping on Saturday", "action": "send_message", "slots": {"contact": "Swati", "text": "let's go shopping on Saturday"}}
+{"text": "Please let Prema know that the maid is on leave tomorrow", "action": "send_message", "slots": {"contact": "Prema", "text": "the maid is on leave tomorrow"}}
+{"text": "Text uncle that the car is repaired", "action": "send_message", "slots": {"contact": "uncle", "text": "the car is repaired"}}
+{"text": "Send message to Ankit, where did you keep the remote", "action": "send_message", "slots": {"contact": "Ankit", "text": "where did you keep the remote"}}
+{"text": "Inform karo Santosh ko ki payment received", "action": "send_message", "slots": {"contact": "Santosh", "text": "payment received"}}
+{"text": "Ondu message Manjunath ge, I am on the way", "action": "send_message", "slots": {"contact": "Manjunath", "text": "I am on the way"}}
+{"text": "Whatsapp Geetha the school is closed tomorrow due to rain", "action": "send_message", "slots": {"contact": "Geetha", "text": "the school is closed tomorrow due to rain"}}
+{"text": "Please tell my friend Abdul that his phone is with me", "action": "send_message", "slots": {"contact": "Abdul", "text": "his phone is with me"}}
+{"text": "Send text Vinod call", "action": "send_message", "slots": {"contact": "Vinod", "text": "call"}}
+{"text": "Message dadi that I got first rank in class", "action": "send_message", "slots": {"contact": "dadi", "text": "I got first rank in class"}}
+{"text": "Can you send a message to Bhavana saying sorry I missed your call", "action": "send_message", "slots": {"contact": "Bhavana", "text": "sorry I missed your call"}}
+{"text": "Send a msg to Nikhil, bring the cricket bat to the ground", "action": "send_message", "slots": {"contact": "Nikhil", "text": "bring the cricket bat to the ground"}}
+{"text": "Tell Kamala aunty the vegetables are fresh today, come early", "action": "send_message", "slots": {"contact": "Kamala aunty", "text": "the vegetables are fresh today, come early"}}
+{"text": "Text Rajiv sir the presentation is uploaded on drive", "action": "send_message", "slots": {"contact": "Rajiv sir", "text": "the presentation is uploaded on drive"}}
+{"text": "Message to annaiya, happy Pongal", "action": "send_message", "slots": {"contact": "annaiya", "text": "happy Pongal"}}
+{"text": "Send whats app to Ritu, I will reach the airport at eight", "action": "send_message", "slots": {"contact": "Ritu", "text": "I will reach the airport at eight"}}
+{"text": "Please message Dinesh bata do ki gaadi ki service ho gayi", "action": "send_message", "slots": {"contact": "Dinesh", "text": "gaadi ki service ho gayi"}}
+{"text": "Reply to Simran, yes sure", "action": "send_message", "slots": {"contact": "Simran", "text": "yes sure"}}
+{"text": "Inform the society secretary Mr Iyer that the lift is not working", "action": "send_message", "slots": {"contact": "Mr Iyer", "text": "the lift is not working"}}
+{"text": "Send a message to Preeti, the baby is sleeping, don't ring the bell", "action": "send_message", "slots": {"contact": "Preeti", "text": "the baby is sleeping, don't ring the bell"}}
+{"text": "Text Jaggu that the cows have been fed", "action": "send_message", "slots": {"contact": "Jaggu", "text": "the cows have been fed"}}
+{"text": "Mesage Arun the password for wifi is on the router", "action": "send_message", "slots": {"contact": "Arun", "text": "the password for wifi is on the router"}}
+{"text": "Tell Hema in WhatsApp that I am praying for her mother's health", "action": "send_message", "slots": {"contact": "Hema", "text": "I am praying for her mother's health"}}
+{"text": "Send SMS to beta, money sent check your account", "action": "send_message", "slots": {"contact": "beta", "text": "money sent check your account"}}
+{"text": "Do one thing, message Sachin that the party is postponed", "action": "send_message", "slots": {"contact": "Sachin", "text": "the party is postponed"}}
+{"text": "Please WhatsApp Kumar sir, I will be on leave from Monday to Wednesday", "action": "send_message", "slots": {"contact": "Kumar sir", "text": "I will be on leave from Monday to Wednesday"}}
+{"text": "Message Radha I am outside your gate", "action": "send_message", "slots": {"contact": "Radha", "text": "I am outside your gate"}}
+{"text": "Send text to cousin Varun, did you get the wedding card", "action": "send_message", "slots": {"contact": "Varun", "text": "did you get the wedding card"}}
+{"text": "Appa ku message pannu, I will call at night", "action": "send_message", "slots": {"contact": "Appa", "text": "I will call at night"}}
+{"text": "Tell Shweta the cake order is confirmed for Friday", "action": "send_message", "slots": {"contact": "Shweta", "text": "the cake order is confirmed for Friday"}}
+{"text": "Send a WhatsApp message to Yusuf bhai the shop key is with the watchman", "action": "send_message", "slots": {"contact": "Yusuf bhai", "text": "the shop key is with the watchman"}}
+{"text": "Please send message Asha, take your tablets on time", "action": "send_message", "slots": {"contact": "Asha", "text": "take your tablets on time"}}
+{"text": "Text Mukesh bhaiya fine", "action": "send_message", "slots": {"contact": "Mukesh bhaiya", "text": "fine"}}
+{"text": "Send messages to Lata ji that the bhajan program starts at five", "action": "send_message", "slots": {"contact": "Lata ji", "text": "the bhajan program starts at five"}}
+{"text": "Reply Gaurav that I already paid the electricity bill", "action": "send_message", "slots": {"contact": "Gaurav", "text": "I already paid the electricity bill"}}
+{"text": "Message Sarita, can you lend me your sewing machine for a day", "action": "send_message", "slots": {"contact": "Sarita", "text": "can you lend me your sewing machine for a day"}}
+{"text": "Whatsapp to Pradeep yaar, check the cricket score and tell me", "action": "send_message", "slots": {"contact": "Pradeep", "text": "check the cricket score and tell me"}}
+{"text": "Please inform my landlord Mr Reddy that I will vacate next month", "action": "send_message", "slots": {"contact": "Mr Reddy", "text": "I will vacate next month"}}
+{"text": "Send text Ammu, lunch box is in the bag", "action": "send_message", "slots": {"contact": "Ammu", "text": "lunch box is in the bag"}}
+{"text": "Tell Ajit on message that the tractor is ready", "action": "send_message", "slots": {"contact": "Ajit", "text": "the tractor is ready"}}
+{"text": "Send a message to Bunty, good luck for the exam", "action": "send_message", "slots": {"contact": "Bunty", "text": "good luck for the exam"}}
+{"text": "Massage Kusum aunty, the satsang is cancelled today", "action": "send_message", "slots": {"contact": "Kusum aunty", "text": "the satsang is cancelled today"}}
+{"text": "Text Rakesh that I need the car tomorrow morning", "action": "send_message", "slots": {"contact": "Rakesh", "text": "I need the car tomorrow morning"}}
+{"text": "Please message chachi ki I will bring the pickle jars", "action": "send_message", "slots": {"contact": "chachi", "text": "I will bring the pickle jars"}}
+{"text": "Send Tarun a WhatsApp, lets catch up this weekend", "action": "send_message", "slots": {"contact": "Tarun", "text": "lets catch up this weekend"}}
+{"text": "Inform Padma that her son called here asking for her", "action": "send_message", "slots": {"contact": "Padma", "text": "her son called here asking for her"}}
+{"text": "Mummy ko bolo main late hoon.", "action": "send_message", "slots": {"contact": "Mummy", "text": "main late hoon"}}
+{"text": "papa ko message karo ki main ghar pahunch gaya", "action": "send_message", "slots": {"contact": "papa", "text": "main ghar pahunch gaya"}}
+{"text": "Rahul ko WhatsApp karo kal meeting hai", "action": "send_message", "slots": {"contact": "Rahul", "text": "kal meeting hai"}}
+{"text": "bhaiya ko text bhejo ki gaadi le aana", "action": "send_message", "slots": {"contact": "bhaiya", "text": "gaadi le aana"}}
+{"text": "Priya ko bata do ki main das minute mein aa rahi hoon", "action": "send_message", "slots": {"contact": "Priya", "text": "main das minute mein aa rahi hoon"}}
+{"text": "didi ko msg kar do happy birthday", "action": "send_message", "slots": {"contact": "didi", "text": "happy birthday"}}
+{"text": "zara Sunita ko message karo ki dawai le li", "action": "send_message", "slots": {"contact": "Sunita", "text": "dawai le li"}}
+{"text": "please Neha ko bolo ki call kare", "action": "send_message", "slots": {"contact": "Neha", "text": "call kare"}}
+{"text": "Raju ko SMS bhejo ki paise mil gaye", "action": "send_message", "slots": {"contact": "Raju", "text": "paise mil gaye"}}
+{"text": "chachu ko whatsapp pe bolo ki shaam ko aayenge", "action": "send_message", "slots": {"contact": "chachu", "text": "shaam ko aayenge"}}
+{"text": "Mummy ko message karo khana mat banana aaj", "action": "send_message", "slots": {"contact": "Mummy", "text": "khana mat banana aaj"}}
+{"text": "Rohit ko bata do ki match cancel ho gaya hai yaar", "action": "send_message", "slots": {"contact": "Rohit", "text": "match cancel ho gaya hai yaar"}}
+{"text": "Anjali ko text karo ki notes bhej de", "action": "send_message", "slots": {"contact": "Anjali", "text": "notes bhej de"}}
+{"text": "dadi ko bolo ki hum Sunday ko aa rahe hain", "action": "send_message", "slots": {"contact": "dadi", "text": "hum Sunday ko aa rahe hain"}}
+{"text": "Vikas ko inform karo ki office band hai kal", "action": "send_message", "slots": {"contact": "Vikas", "text": "office band hai kal"}}
+{"text": "beta ko message karo ki dhyan se gaadi chalana", "action": "send_message", "slots": {"contact": "beta", "text": "dhyan se gaadi chalana"}}
+{"text": "Pooja ko WhatsApp kar do ki saree ready hai", "action": "send_message", "slots": {"contact": "Pooja", "text": "saree ready hai"}}
+{"text": "Sanjay bhai ko bolo payment ho gaya", "action": "send_message", "slots": {"contact": "Sanjay bhai", "text": "payment ho gaya"}}
+{"text": "Kavita ko reply bhej do ki main busy hoon abhi", "action": "send_message", "slots": {"contact": "Kavita", "text": "main busy hoon abhi"}}
+{"text": "nana ji ko message bhejo ki tabiyat theek hai", "action": "send_message", "slots": {"contact": "nana ji", "text": "tabiyat theek hai"}}
+{"text": "Arjun ko bolo jaldi aao", "action": "send_message", "slots": {"contact": "Arjun", "text": "jaldi aao"}}
+{"text": "Meena aunty ko bata do ki doodh wala nahi aaya", "action": "send_message", "slots": {"contact": "Meena aunty", "text": "doodh wala nahi aaya"}}
+{"text": "Suresh ko text karo ki train do ghante late hai", "action": "send_message", "slots": {"contact": "Suresh", "text": "train do ghante late hai"}}
+{"text": "mama ko whatsapp karo ki tickets book ho gaye", "action": "send_message", "slots": {"contact": "mama", "text": "tickets book ho gaye"}}
+{"text": "Deepak ko msg karo ok", "action": "send_message", "slots": {"contact": "Deepak", "text": "ok"}}
+{"text": "Ritu ko bolna ki kal school nahi jaana", "action": "send_message", "slots": {"contact": "Ritu", "text": "kal school nahi jaana"}}
+{"text": "Manoj ko message kar do na ki kal subah chhe baje milte hain", "action": "send_message", "slots": {"contact": "Manoj", "text": "kal subah chhe baje milte hain"}}
+{"text": "bhabhi ko bata do ki main bazaar ja raha hoon", "action": "send_message", "slots": {"contact": "bhabhi", "text": "main bazaar ja raha hoon"}}
+{"text": "Ankit ko whatsapp pe reply karo thank you bhai", "action": "send_message", "slots": {"contact": "Ankit", "text": "thank you bhai"}}
+{"text": "Mummy ko bol do na ki chabi table pe rakhi hai", "action": "send_message", "slots": {"contact": "Mummy", "text": "chabi table pe rakhi hai"}}
+{"text": "Shalini ko text bhejo meeting teen baje shift ho gayi hai", "action": "send_message", "slots": {"contact": "Shalini", "text": "meeting teen baje shift ho gayi hai"}}
+{"text": "Gopal ko bolo ki gas cylinder book kar diya", "action": "send_message", "slots": {"contact": "Gopal", "text": "gas cylinder book kar diya"}}
+{"text": "papa ji ko message karo ki bijli ka bill bhar diya hai", "action": "send_message", "slots": {"contact": "papa ji", "text": "bijli ka bill bhar diya hai"}}
+{"text": "Nikhil ko inform kar do main aaj leave pe hoon", "action": "send_message", "slots": {"contact": "Nikhil", "text": "main aaj leave pe hoon"}}
+{"text": "Sneha ko whatsapp karo congratulations", "action": "send_message", "slots": {"contact": "Sneha", "text": "congratulations"}}
+{"text": "chacha ji ko SMS karo ki shaadi ka card mil gaya", "action": "send_message", "slots": {"contact": "chacha ji", "text": "shaadi ka card mil gaya"}}
+{"text": "Mohan ko bolo ki dukaan khol de", "action": "send_message", "slots": {"contact": "Mohan", "text": "dukaan khol de"}}
+{"text": "Tanya ko message karo ki movie ke tickets mere paas hain", "action": "send_message", "slots": {"contact": "Tanya", "text": "movie ke tickets mere paas hain"}}
+{"text": "bete ko bolo ghar jaldi aana aaj", "action": "send_message", "slots": {"contact": "bete", "text": "ghar jaldi aana aaj"}}
+{"text": "Ramesh ko bata do ki kal ki chhutti hai", "action": "send_message", "slots": {"contact": "Ramesh", "text": "kal ki chhutti hai"}}
+{"text": "Lakshmi ko text kar do ki sabzi le aana", "action": "send_message", "slots": {"contact": "Lakshmi", "text": "sabzi le aana"}}
+{"text": "Aarti ko reply karo ki haan main aa rahi hoon party mein", "action": "send_message", "slots": {"contact": "Aarti", "text": "haan main aa rahi hoon party mein"}}
+{"text": "didi ko whatsapp karo ki photos bhej do please", "action": "send_message", "slots": {"contact": "didi", "text": "photos bhej do please"}}
+{"text": "Karan ko message bhej do bro main pahunch gaya", "action": "send_message", "slots": {"contact": "Karan", "text": "bro main pahunch gaya"}}
+{"text": "Mummy ko msg kardo ki main thik hoon chinta mat karo", "action": "send_message", "slots": {"contact": "Mummy", "text": "main thik hoon chinta mat karo"}}
+{"text": "Prakash ji ko bata dijiye ki file ready hai", "action": "send_message", "slots": {"contact": "Prakash ji", "text": "file ready hai"}}
+{"text": "Seema ko bolo ki bachon ko school se le aaye", "action": "send_message", "slots": {"contact": "Seema", "text": "bachon ko school se le aaye"}}
+{"text": "Vivek ko text karo kahan ho", "action": "send_message", "slots": {"contact": "Vivek", "text": "kahan ho"}}
+{"text": "bhaiya ko message karo ki laptop ka charger laana mat bhoolna", "action": "send_message", "slots": {"contact": "bhaiya", "text": "laptop ka charger laana mat bhoolna"}}
+{"text": "Rani ko whatsapp kar do ki kal mandir chalenge", "action": "send_message", "slots": {"contact": "Rani", "text": "kal mandir chalenge"}}
+{"text": "Ajay ko bolo sorry yaar aaj nahi aa paunga", "action": "send_message", "slots": {"contact": "Ajay", "text": "sorry yaar aaj nahi aa paunga"}}
+{"text": "Mummy ku message karo ki main nikal gayi", "action": "send_message", "slots": {"contact": "Mummy", "text": "main nikal gayi"}}
+{"text": "pappa ko whatsap karo ki gadi kharab ho gayi", "action": "send_message", "slots": {"contact": "pappa", "text": "gadi kharab ho gayi"}}
+{"text": "Rahul ko mesej karo kal milte hai", "action": "send_message", "slots": {"contact": "Rahul", "text": "kal milte hai"}}
+{"text": "Pirya ko bolo ki main pahuch gai", "action": "send_message", "slots": {"contact": "Pirya", "text": "main pahuch gai"}}
+{"text": "Sunil ko text karo ki oke", "action": "send_message", "slots": {"contact": "Sunil", "text": "oke"}}
+{"text": "bhaiyya ko masg bhejo ki paise transfer kar do", "action": "send_message", "slots": {"contact": "bhaiyya", "text": "paise transfer kar do"}}
+{"text": "Neha ko watsapp karo ki kal ka plan pakka", "action": "send_message", "slots": {"contact": "Neha", "text": "kal ka plan pakka"}}
+{"text": "Mumy ko bolo ki dawai time pe lena", "action": "send_message", "slots": {"contact": "Mumy", "text": "dawai time pe lena"}}
+{"text": "dadu ko msj karo ki janamdin mubarak ho", "action": "send_message", "slots": {"contact": "dadu", "text": "janamdin mubarak ho"}}
+{"text": "Vikram ko messege kar do ki report bhej di hai", "action": "send_message", "slots": {"contact": "Vikram", "text": "report bhej di hai"}}
+{"text": "Geeta ko bata do ki kal kaam pe nahi aaungi", "action": "send_message", "slots": {"contact": "Geeta", "text": "kal kaam pe nahi aaungi"}}
+{"text": "Anil ko reply kar do ki main gaadi mein hoon baad mein baat karta hoon", "action": "send_message", "slots": {"contact": "Anil", "text": "main gaadi mein hoon baad mein baat karta hoon"}}
+{"text": "Pinky ko whatsapp karo love you", "action": "send_message", "slots": {"contact": "Pinky", "text": "love you"}}
+{"text": "madam ko message karo ki aaj class nahi le paunga", "action": "send_message", "slots": {"contact": "madam", "text": "aaj class nahi le paunga"}}
+{"text": "Sharma ji ko bolo ki kiraya kal de dunga", "action": "send_message", "slots": {"contact": "Sharma ji", "text": "kiraya kal de dunga"}}
+{"text": "Divya ko text karo ki cake order kar diya hai", "action": "send_message", "slots": {"contact": "Divya", "text": "cake order kar diya hai"}}
+{"text": "Bablu ko bolo ki cricket khelne aaja", "action": "send_message", "slots": {"contact": "Bablu", "text": "cricket khelne aaja"}}
+{"text": "Mummy ko WhatsApp karo ki main dinner pe late aaunga aur khana rakh dena", "action": "send_message", "slots": {"contact": "Mummy", "text": "main dinner pe late aaunga aur khana rakh dena"}}
+{"text": "Ravi ko message karo please jaldi se call back karo zaroori kaam hai", "action": "send_message", "slots": {"contact": "Ravi", "text": "jaldi se call back karo zaroori kaam hai"}}
+{"text": "Ashok bhaiya ko bata do ki doctor ne kal bulaya hai subah das baje", "action": "send_message", "slots": {"contact": "Ashok bhaiya", "text": "doctor ne kal bulaya hai subah das baje"}}
+{"text": "Komal ko message kar ki assignment submit ho gaya", "action": "send_message", "slots": {"contact": "Komal", "text": "assignment submit ho gaya"}}
+{"text": "Rakesh ko bolo ki bank mein passbook update karwa le", "action": "send_message", "slots": {"contact": "Rakesh", "text": "bank mein passbook update karwa le"}}
+{"text": "masi ko whatsapp pe bata do ki hum train mein baith gaye hain", "action": "send_message", "slots": {"contact": "masi", "text": "hum train mein baith gaye hain"}}
+{"text": "Harish ko SMS karo ki OTP mat batana kisi ko", "action": "send_message", "slots": {"contact": "Harish", "text": "OTP mat batana kisi ko"}}
+{"text": "भैया को मैसेज करो कि मैं आ गया", "action": "send_message", "slots": {"contact": "भैया", "text": "मैं आ गया"}}
+{"text": "मम्मी को बोलो कि खाना खा लिया", "action": "send_message", "slots": {"contact": "मम्मी", "text": "खाना खा लिया"}}
+{"text": "पापा को व्हाट्सएप करो कि ट्रेन लेट है", "action": "send_message", "slots": {"contact": "पापा", "text": "ट्रेन लेट है"}}
+{"text": "राहुल को मैसेज भेजो कल मिलते हैं", "action": "send_message", "slots": {"contact": "राहुल", "text": "कल मिलते हैं"}}
+{"text": "प्रिया को बता दो कि मैं रास्ते में हूँ", "action": "send_message", "slots": {"contact": "प्रिया", "text": "मैं रास्ते में हूँ"}}
+{"text": "दीदी को WhatsApp करो हैप्पी बर्थडे", "action": "send_message", "slots": {"contact": "दीदी", "text": "हैप्पी बर्थडे"}}
+{"text": "सुनीता को message करो कि दवाई ले ली", "action": "send_message", "slots": {"contact": "सुनीता", "text": "दवाई ले ली"}}
+{"text": "अमित को रिप्लाई करो हाँ ठीक है", "action": "send_message", "slots": {"contact": "अमित", "text": "हाँ ठीक है"}}
+{"text": "नेहा को बोलो कि मुझे कॉल करे", "action": "send_message", "slots": {"contact": "नेहा", "text": "मुझे कॉल करे"}}
+{"text": "दादी को मैसेज करो कि हम रविवार को आएंगे", "action": "send_message", "slots": {"contact": "दादी", "text": "हम रविवार को आएंगे"}}
+{"text": "विकास को इन्फॉर्म करो कि कल ऑफिस बंद है", "action": "send_message", "slots": {"contact": "विकास", "text": "कल ऑफिस बंद है"}}
+{"text": "बेटे को मैसेज करो कि ध्यान से गाड़ी चलाना", "action": "send_message", "slots": {"contact": "बेटे", "text": "ध्यान से गाड़ी चलाना"}}
+{"text": "पूजा को व्हाट्सएप कर दो कि साड़ी तैयार है", "action": "send_message", "slots": {"contact": "पूजा", "text": "साड़ी तैयार है"}}
+{"text": "संजय को बोलो पेमेंट हो गया", "action": "send_message", "slots": {"contact": "संजय", "text": "पेमेंट हो गया"}}
+{"text": "चाचा जी को SMS करो कि कार्ड मिल गया", "action": "send_message", "slots": {"contact": "चाचा जी", "text": "कार्ड मिल गया"}}
+{"text": "ज़रा मम्मी को बोल दो कि चाबी टेबल पर है", "action": "send_message", "slots": {"contact": "मम्मी", "text": "चाबी टेबल पर है"}}
+{"text": "रोहित को टेक्स्ट करो कि मैच कैंसल हो गया", "action": "send_message", "slots": {"contact": "रोहित", "text": "मैच कैंसल हो गया"}}
+{"text": "अंजलि को मैसेज कर दो कि नोट्स भेज दे", "action": "send_message", "slots": {"contact": "अंजलि", "text": "नोट्स भेज दे"}}
+{"text": "मामा को व्हाट्सएप करो कि टिकट बुक हो गए", "action": "send_message", "slots": {"contact": "मामा", "text": "टिकट बुक हो गए"}}
+{"text": "भाभी को बता दो कि मैं बाज़ार जा रहा हूँ", "action": "send_message", "slots": {"contact": "भाभी", "text": "मैं बाज़ार जा रहा हूँ"}}
+{"text": "गोपाल को बोलो कि सिलेंडर बुक कर दिया", "action": "send_message", "slots": {"contact": "गोपाल", "text": "सिलेंडर बुक कर दिया"}}
+{"text": "नाना जी को मैसेज भेजो कि तबीयत ठीक है", "action": "send_message", "slots": {"contact": "नाना जी", "text": "तबीयत ठीक है"}}
+{"text": "कविता को reply करो कि मैं अभी busy हूँ", "action": "send_message", "slots": {"contact": "कविता", "text": "मैं अभी busy हूँ"}}
+{"text": "सुरेश को मैसेज करो कि मैं दस मिनट में पहुँचूँगा", "action": "send_message", "slots": {"contact": "सुरेश", "text": "मैं दस मिनट में पहुँचूँगा"}}
+{"text": "रवि को बोलो जल्दी आओ", "action": "send_message", "slots": {"contact": "रवि", "text": "जल्दी आओ"}}
+{"text": "मीना आंटी को बता दो कि दूध वाला नहीं आया", "action": "send_message", "slots": {"contact": "मीना आंटी", "text": "दूध वाला नहीं आया"}}
+{"text": "लक्ष्मी को टेक्स्ट कर दो कि सब्ज़ी ले आना", "action": "send_message", "slots": {"contact": "लक्ष्मी", "text": "सब्ज़ी ले आना"}}
+{"text": "करण को WhatsApp करो भाई मैं पहुँच गया", "action": "send_message", "slots": {"contact": "करण", "text": "भाई मैं पहुँच गया"}}
+{"text": "प्लीज़ बहन को मैसेज करो कि फोटो भेज दे", "action": "send_message", "slots": {"contact": "बहन", "text": "फोटो भेज दे"}}
+{"text": "शर्मा जी को बोलो कि किराया कल दे दूँगा", "action": "send_message", "slots": {"contact": "शर्मा जी", "text": "किराया कल दे दूँगा"}}
+{"text": "आरती को रिप्लाई कर दो कि हाँ मैं पार्टी में आ रही हूँ", "action": "send_message", "slots": {"contact": "आरती", "text": "हाँ मैं पार्टी में आ रही हूँ"}}
+{"text": "विवेक को मैसेज करो कहाँ हो", "action": "send_message", "slots": {"contact": "विवेक", "text": "कहाँ हो"}}
+{"text": "मौसी को बता दो कि हम ट्रेन में बैठ गए हैं", "action": "send_message", "slots": {"contact": "मौसी", "text": "हम ट्रेन में बैठ गए हैं"}}
+{"text": "अजय को बोलो सॉरी आज नहीं आ पाऊँगा", "action": "send_message", "slots": {"contact": "अजय", "text": "सॉरी आज नहीं आ पाऊँगा"}}
+{"text": "सर को मैसेज करो कि आज छुट्टी चाहिए", "action": "send_message", "slots": {"contact": "सर", "text": "आज छुट्टी चाहिए"}}
+{"text": "बेटी को व्हाट्सएप करो कि खाना खा लेना", "action": "send_message", "slots": {"contact": "बेटी", "text": "खाना खा लेना"}}
+{"text": "मम्मी को मेसेज करो की मै ठीक हूँ", "action": "send_message", "slots": {"contact": "मम्मी", "text": "मै ठीक हूँ"}}
+{"text": "पप्पा को वाट्सएप करो गाड़ी खराब हो गई", "action": "send_message", "slots": {"contact": "पप्पा", "text": "गाड़ी खराब हो गई"}}
+{"text": "दिव्या को SMS भेजो कि केक आर्डर कर दिया", "action": "send_message", "slots": {"contact": "दिव्या", "text": "केक आर्डर कर दिया"}}
+{"text": "हरीश को बोलो कि OTP किसी को मत बताना", "action": "send_message", "slots": {"contact": "हरीश", "text": "OTP किसी को मत बताना"}}
+{"text": "Shyam ko bolo ki gate band kar de", "action": "send_message", "slots": {"contact": "Shyam", "text": "gate band kar de"}}
+{"text": "nani ko message karo ki aapki yaad aa rahi hai", "action": "send_message", "slots": {"contact": "nani", "text": "aapki yaad aa rahi hai"}}
+{"text": "Jyoti ko whatsapp karo kal saath mein market chalte hain", "action": "send_message", "slots": {"contact": "Jyoti", "text": "kal saath mein market chalte hain"}}
+{"text": "उमेश को टेक्स्ट करो कि मीटिंग चार बजे है", "action": "send_message", "slots": {"contact": "उमेश", "text": "मीटिंग चार बजे है"}}
+{"text": "appa ge WhatsApp maadi naanu bartha iddini anta helu", "action": "send_message", "slots": {"contact": "appa", "text": "naanu bartha iddini"}}
+{"text": "Ravi ge text kalsu meeting late aagatte", "action": "send_message", "slots": {"contact": "Ravi", "text": "meeting late aagatte"}}
+{"text": "akka ge message maadu naale banni anta", "action": "send_message", "slots": {"contact": "akka", "text": "naale banni"}}
+{"text": "Suresh ge ondu message kalsu please call maadu anta", "action": "send_message", "slots": {"contact": "Suresh", "text": "please call maadu"}}
+{"text": "anna ge helu bus miss aaytu", "action": "send_message", "slots": {"contact": "anna", "text": "bus miss aaytu"}}
+{"text": "Lakshmi ge WhatsApp alli helu happy birthday", "action": "send_message", "slots": {"contact": "Lakshmi", "text": "happy birthday"}}
+{"text": "ajji ge message kalsu medicine tagondra anta kelu", "action": "send_message", "slots": {"contact": "ajji", "text": "medicine tagondra"}}
+{"text": "Manju ge reply maadu sari naanu baruthini", "action": "send_message", "slots": {"contact": "Manju", "text": "sari naanu baruthini"}}
+{"text": "Deepa ge SMS kalsu dudd transfer aaytu", "action": "send_message", "slots": {"contact": "Deepa", "text": "dudd transfer aaytu"}}
+{"text": "thatha ge ondu message haaku naale temple ge hogona", "action": "send_message", "slots": {"contact": "thatha", "text": "naale temple ge hogona"}}
+{"text": "Kavya ge text maadi class cancel aagide anta", "action": "send_message", "slots": {"contact": "Kavya", "text": "class cancel aagide"}}
+{"text": "Prakash ge inform maadu meeting 4 gante ge", "action": "send_message", "slots": {"contact": "Prakash", "text": "meeting 4 gante ge"}}
+{"text": "magalu ge message kalsu school inda bega baa", "action": "send_message", "slots": {"contact": "magalu", "text": "school inda bega baa"}}
+{"text": "maga ge WhatsApp kalsu oota maadu", "action": "send_message", "slots": {"contact": "maga", "text": "oota maadu"}}
+{"text": "Ramesh ge helu naanu office alli iddini", "action": "send_message", "slots": {"contact": "Ramesh", "text": "naanu office alli iddini"}}
+{"text": "Shilpa ge message kalsi thanks heli", "action": "send_message", "slots": {"contact": "Shilpa", "text": "thanks"}}
+{"text": "please amma ge ondu message kalsu naanu safe aagi talupide", "action": "send_message", "slots": {"contact": "amma", "text": "naanu safe aagi talupide"}}
+{"text": "Ganesh ge bata do ki party cancel", "action": "send_message", "slots": {"contact": "Ganesh", "text": "party cancel"}}
+{"text": "Anitha ge reply kalsu ok done", "action": "send_message", "slots": {"contact": "Anitha", "text": "ok done"}}
+{"text": "chikkappa ge message kalsu mane ge yavaga barthira anta", "action": "send_message", "slots": {"contact": "chikkappa", "text": "mane ge yavaga barthira"}}
+{"text": "doddamma ge WhatsApp maadu habba ge banni", "action": "send_message", "slots": {"contact": "doddamma", "text": "habba ge banni"}}
+{"text": "Vinay ge text kalsu", "action": "send_message", "incomplete": true, "slots": {"contact": "Vinay"}, "was": "unknown"}
+{"text": "Pooja ge message maadu", "action": "send_message", "incomplete": true, "slots": {"contact": "Pooja"}, "was": "unknown"}
+{"text": "Naveen ge WhatsApp alli helu traffic jaasti ide swalpa late aagatte", "action": "send_message", "slots": {"contact": "Naveen", "text": "traffic jaasti ide swalpa late aagatte"}}
+{"text": "Sunitha ge message kalsu haalu tagondu baa", "action": "send_message", "slots": {"contact": "Sunitha", "text": "haalu tagondu baa"}}
+{"text": "Mahesh ge bolo ki report send maadide", "action": "send_message", "slots": {"contact": "Mahesh", "text": "report send maadide"}}
+{"text": "akka ge helu nanna phone charge illa", "action": "send_message", "slots": {"contact": "akka", "text": "nanna phone charge illa"}}
+{"text": "Raju ge message kalsu yaar bega baa", "action": "send_message", "slots": {"contact": "Raju", "text": "yaar bega baa"}}
+{"text": "Harish ge ondu SMS kalsu payment received", "action": "send_message", "slots": {"contact": "Harish", "text": "payment received"}}
+{"text": "Geetha aunty ge message kalsu thank you for the sweets", "action": "send_message", "slots": {"contact": "Geetha aunty", "text": "thank you for the sweets"}}
+{"text": "nanna hendathi ge message kalsu oota ready maadu", "action": "send_message", "slots": {"contact": "hendathi", "text": "oota ready maadu"}}
+{"text": "yajamanru ge text maadu naanu railway station alli iddini", "action": "send_message", "slots": {"contact": "yajamanru", "text": "naanu railway station alli iddini"}}
+{"text": "Arun ge reply maadu naale sigona", "action": "send_message", "slots": {"contact": "Arun", "text": "naale sigona"}}
+{"text": "Shruthi ge WhatsApp kalsu photos kalsu anta", "action": "send_message", "slots": {"contact": "Shruthi", "text": "photos kalsu"}}
+{"text": "Ravi ge message kalsu", "action": "send_message", "incomplete": true, "slots": {"contact": "Ravi"}, "was": "unknown"}
+{"text": "amma ge helu naanu oota maadide chinte maadbedi", "action": "send_message", "slots": {"contact": "amma", "text": "naanu oota maadide chinte maadbedi"}}
+{"text": "Madhu ge message haaku match nodtiya anta", "action": "send_message", "slots": {"contact": "Madhu", "text": "match nodtiya"}}
+{"text": "Venkatesh ge text kalsu rent kottidini", "action": "send_message", "slots": {"contact": "Venkatesh", "text": "rent kottidini"}}
+{"text": "Kiran ge inform maadu naale raja", "action": "send_message", "slots": {"contact": "Kiran", "text": "naale raja"}}
+{"text": "appa ge WhatsApp alli message kalsu doctor appointment 10 gante ge", "action": "send_message", "slots": {"contact": "appa", "text": "doctor appointment 10 gante ge"}}
+{"text": "konjam akka ge message kalsu please", "action": "send_message", "incomplete": true, "slots": {"contact": "akka"}, "was": "unknown"}
+{"text": "Nagaraj ge msg kalsu gas cylinder bandide", "action": "send_message", "slots": {"contact": "Nagaraj", "text": "gas cylinder bandide"}}
+{"text": "Sowmya ge message maadi good morning anta", "action": "send_message", "slots": {"contact": "Sowmya", "text": "good morning"}}
+{"text": "Shankar ge helu kelasa mugitu", "action": "send_message", "slots": {"contact": "Shankar", "text": "kelasa mugitu"}}
+{"text": "Bhavya ge text kalsu", "action": "send_message", "incomplete": true, "slots": {"contact": "Bhavya"}, "was": "unknown"}
+{"text": "mava ge message kalsu namaskara heli", "action": "send_message", "slots": {"contact": "mava", "text": "namaskara"}}
+{"text": "atthe ge WhatsApp maadu oota ge banni", "action": "send_message", "slots": {"contact": "atthe", "text": "oota ge banni"}}
+{"text": "Rakesh ge ondu message kalsu nanna bag nimma car alli ide", "action": "send_message", "slots": {"contact": "Rakesh", "text": "nanna bag nimma car alli ide"}}
+{"text": "Swathi ge reply maadu sorry miss aaytu call", "action": "send_message", "slots": {"contact": "Swathi", "text": "sorry miss aaytu call"}}
+{"text": "ammage mesej kalsu naanu bartini", "action": "send_message", "slots": {"contact": "amma", "text": "naanu bartini"}}
+{"text": "Ravige whatsap maadu bega baa", "action": "send_message", "slots": {"contact": "Ravi", "text": "bega baa"}}
+{"text": "akkage msg kalsu oota aytu", "action": "send_message", "slots": {"contact": "akka", "text": "oota aytu"}}
+{"text": "Sures ge mesage kalsu call maadu", "action": "send_message", "slots": {"contact": "Sures", "text": "call maadu"}}
+{"text": "apage text kalsu bus hattide", "action": "send_message", "slots": {"contact": "apa", "text": "bus hattide"}}
+{"text": "Lakshmige wats app alli happy birthday heli", "action": "send_message", "slots": {"contact": "Lakshmi", "text": "happy birthday"}}
+{"text": "Manjunatha ge masage kalsu naale sigona", "action": "send_message", "slots": {"contact": "Manjunatha", "text": "naale sigona"}}
+{"text": "Deepag sms kalsu ok", "action": "send_message", "slots": {"contact": "Deepa", "text": "ok"}}
+{"text": "annage messej haaku ellidiya anta", "action": "send_message", "slots": {"contact": "anna", "text": "ellidiya"}}
+{"text": "Praveen ge message kalsu.", "action": "send_message", "incomplete": true, "slots": {"contact": "Praveen"}, "was": "unknown"}
+{"text": "Amma ge message kalsu nanu mane talupide.", "action": "send_message", "slots": {"contact": "Amma", "text": "nanu mane talupide"}}
+{"text": "Ravi ge WhatsApp maadu meeting cancel.", "action": "send_message", "slots": {"contact": "Ravi", "text": "meeting cancel"}}
+{"text": "Anand sir ge message kalsu leave beku naale", "action": "send_message", "slots": {"contact": "Anand sir", "text": "leave beku naale"}}
+{"text": "teacher ge message kalsu nanna maga ivattu school ge barolla", "action": "send_message", "slots": {"contact": "teacher", "text": "nanna maga ivattu school ge barolla"}}
+{"text": "doctor ge WhatsApp kalsu report ready na anta kelu", "action": "send_message", "slots": {"contact": "doctor", "text": "report ready na"}}
+{"text": "Ramya ge helu cake order maadide", "action": "send_message", "slots": {"contact": "Ramya", "text": "cake order maadide"}}
+{"text": "Sanjay ge message kalsu cricket aadakke barthiya", "action": "send_message", "slots": {"contact": "Sanjay", "text": "cricket aadakke barthiya"}}
+{"text": "Usha ge text kalsu temple ge 6 gante ge hogona", "action": "send_message", "slots": {"contact": "Usha", "text": "temple ge 6 gante ge hogona"}}
+{"text": "Gowda avrige message kalsu bill pay maadide", "action": "send_message", "slots": {"contact": "Gowda", "text": "bill pay maadide"}}
+{"text": "Prashanth ge message kalsu yaar movie tickets book maadu", "action": "send_message", "slots": {"contact": "Prashanth", "text": "yaar movie tickets book maadu"}}
+{"text": "Nandini ge reply kalsu haudu barthini", "action": "send_message", "slots": {"contact": "Nandini", "text": "haudu barthini"}}
+{"text": "tamma ge message kalsu exam hege aaytu anta kelu", "action": "send_message", "slots": {"contact": "tamma", "text": "exam hege aaytu"}}
+{"text": "thangi ge WhatsApp kalsu congrats", "action": "send_message", "slots": {"contact": "thangi", "text": "congrats"}}
+{"text": "Srinivas ge inform maadu naanu half day leave", "action": "send_message", "slots": {"contact": "Srinivas", "text": "naanu half day leave"}}
+{"text": "Jyothi ge message kalsu sanje meet maadona", "action": "send_message", "slots": {"contact": "Jyothi", "text": "sanje meet maadona"}}
+{"text": "please Vasanth ge ondu text kalsu address kalsu anta", "action": "send_message", "slots": {"contact": "Vasanth", "text": "address kalsu"}}
+{"text": "Basavaraj ge message maadu hola kelasa mugitha anta kelu", "action": "send_message", "slots": {"contact": "Basavaraj", "text": "hola kelasa mugitha"}}
+{"text": "Rekha ge WhatsApp maadu", "action": "send_message", "incomplete": true, "slots": {"contact": "Rekha"}, "was": "unknown"}
+{"text": "Mohan ge message kalsu naanu late aagi bartini sorry", "action": "send_message", "slots": {"contact": "Mohan", "text": "naanu late aagi bartini sorry"}}
+{"text": "Divya ge helu saree tumba chennagide", "action": "send_message", "slots": {"contact": "Divya", "text": "saree tumba chennagide"}}
+{"text": "ಅಮ್ಮ ಗೆ ಮೆಸೇಜ್ ಕಳುಸು ಊಟ ಆಯ್ತು ಅಂತ", "action": "send_message", "slots": {"contact": "ಅಮ್ಮ", "text": "ಊಟ ಆಯ್ತು"}}
+{"text": "ಅಪ್ಪ ಗೆ ವಾಟ್ಸಾಪ್ ಮಾಡು ನಾನು ಬರ್ತಾ ಇದ್ದೀನಿ", "action": "send_message", "slots": {"contact": "ಅಪ್ಪ", "text": "ನಾನು ಬರ್ತಾ ಇದ್ದೀನಿ"}}
+{"text": "ರವಿ ಗೆ ಮೆಸೇಜ್ ಕಳುಹಿಸು", "action": "send_message", "incomplete": true, "slots": {"contact": "ರವಿ"}, "was": "unknown"}
+{"text": "ಅಕ್ಕ ಗೆ ಹೇಳು ನಾಳೆ ಬನ್ನಿ ಅಂತ", "action": "send_message", "slots": {"contact": "ಅಕ್ಕ", "text": "ನಾಳೆ ಬನ್ನಿ"}}
+{"text": "ಸುರೇಶ್ ಗೆ ಒಂದು ಮೆಸೇಜ್ ಕಳುಸು ದಯವಿಟ್ಟು ಕಾಲ್ ಮಾಡು", "action": "send_message", "slots": {"contact": "ಸುರೇಶ್", "text": "ದಯವಿಟ್ಟು ಕಾಲ್ ಮಾಡು"}}
+{"text": "ಅಣ್ಣ ಗೆ ವಾಟ್ಸಾಪ್ ಅಲ್ಲಿ ಹೇಳು ಬಸ್ ಮಿಸ್ ಆಯ್ತು", "action": "send_message", "slots": {"contact": "ಅಣ್ಣ", "text": "ಬಸ್ ಮಿಸ್ ಆಯ್ತು"}}
+{"text": "ಲಕ್ಷ್ಮಿ ಗೆ ಹ್ಯಾಪಿ ಬರ್ತ್‌ಡೇ ಅಂತ ಮೆಸೇಜ್ ಕಳುಸು", "action": "send_message", "slots": {"contact": "ಲಕ್ಷ್ಮಿ", "text": "ಹ್ಯಾಪಿ ಬರ್ತ್‌ಡೇ"}}
+{"text": "ಅಜ್ಜಿ ಗೆ ಮೆಸೇಜ್ ಕಳುಸು ಔಷಧಿ ತಗೊಂಡ್ರಾ ಅಂತ ಕೇಳು", "action": "send_message", "slots": {"contact": "ಅಜ್ಜಿ", "text": "ಔಷಧಿ ತಗೊಂಡ್ರಾ"}}
+{"text": "ಮಂಜು ಗೆ ರಿಪ್ಲೈ ಮಾಡು ಸರಿ ಬರ್ತೀನಿ", "action": "send_message", "slots": {"contact": "ಮಂಜು", "text": "ಸರಿ ಬರ್ತೀನಿ"}}
+{"text": "ದೀಪಾ ಗೆ ಎಸ್ಎಂಎಸ್ ಕಳುಸು ದುಡ್ಡು ಟ್ರಾನ್ಸ್‌ಫರ್ ಆಯ್ತು", "action": "send_message", "slots": {"contact": "ದೀಪಾ", "text": "ದುಡ್ಡು ಟ್ರಾನ್ಸ್‌ಫರ್ ಆಯ್ತು"}}
+{"text": "ತಾತ ಗೆ ಮೆಸೇಜ್ ಹಾಕು ನಾಳೆ ದೇವಸ್ಥಾನಕ್ಕೆ ಹೋಗೋಣ", "action": "send_message", "slots": {"contact": "ತಾತ", "text": "ನಾಳೆ ದೇವಸ್ಥಾನಕ್ಕೆ ಹೋಗೋಣ"}}
+{"text": "ಕಾವ್ಯ ಗೆ ಟೆಕ್ಸ್ಟ್ ಮಾಡು ಕ್ಲಾಸ್ ಕ್ಯಾನ್ಸಲ್ ಆಗಿದೆ", "action": "send_message", "slots": {"contact": "ಕಾವ್ಯ", "text": "ಕ್ಲಾಸ್ ಕ್ಯಾನ್ಸಲ್ ಆಗಿದೆ"}}
+{"text": "ಮಗಳಿಗೆ ಮೆಸೇಜ್ ಕಳುಸು ಬೇಗ ಮನೆಗೆ ಬಾ", "action": "send_message", "slots": {"contact": "ಮಗಳ", "text": "ಬೇಗ ಮನೆಗೆ ಬಾ"}}
+{"text": "ಮಗನಿಗೆ ವಾಟ್ಸಾಪ್ ಕಳುಸು ಊಟ ಮಾಡು", "action": "send_message", "slots": {"contact": "ಮಗ", "text": "ಊಟ ಮಾಡು"}}
+{"text": "ರಮೇಶ್ ಗೆ ಹೇಳು ನಾನು ಆಫೀಸ್ ಅಲ್ಲಿ ಇದ್ದೀನಿ", "action": "send_message", "slots": {"contact": "ರಮೇಶ್", "text": "ನಾನು ಆಫೀಸ್ ಅಲ್ಲಿ ಇದ್ದೀನಿ"}}
+{"text": "ಶಿಲ್ಪಾ ಗೆ ಥ್ಯಾಂಕ್ಸ್ ಅಂತ ಮೆಸೇಜ್ ಕಳುಸಿ", "action": "send_message", "slots": {"contact": "ಶಿಲ್ಪಾ", "text": "ಥ್ಯಾಂಕ್ಸ್"}}
+{"text": "ಚಿಕ್ಕಪ್ಪ ಗೆ ಮೆಸೇಜ್ ಕಳುಸು ಮನೆಗೆ ಯಾವಾಗ ಬರ್ತೀರಾ", "action": "send_message", "slots": {"contact": "ಚಿಕ್ಕಪ್ಪ", "text": "ಮನೆಗೆ ಯಾವಾಗ ಬರ್ತೀರಾ"}}
+{"text": "ದೊಡ್ಡಮ್ಮ ಗೆ ವಾಟ್ಸಾಪ್ ಮಾಡು ಹಬ್ಬಕ್ಕೆ ಬನ್ನಿ", "action": "send_message", "slots": {"contact": "ದೊಡ್ಡಮ್ಮ", "text": "ಹಬ್ಬಕ್ಕೆ ಬನ್ನಿ"}}
+{"text": "ನವೀನ್ ಗೆ ಮೆಸೇಜ್ ಮಾಡು ಟ್ರಾಫಿಕ್ ಜಾಸ್ತಿ ಇದೆ ಸ್ವಲ್ಪ ಲೇಟ್", "action": "send_message", "slots": {"contact": "ನವೀನ್", "text": "ಟ್ರಾಫಿಕ್ ಜಾಸ್ತಿ ಇದೆ ಸ್ವಲ್ಪ ಲೇಟ್"}}
+{"text": "ಸುನೀತಾ ಗೆ ಹೇಳು ಹಾಲು ತಗೊಂಡು ಬಾ", "action": "send_message", "slots": {"contact": "ಸುನೀತಾ", "text": "ಹಾಲು ತಗೊಂಡು ಬಾ"}}
+{"text": "ರಾಜು ಗೆ ಮೆಸೇಜ್ ಕಳುಸು", "action": "send_message", "incomplete": true, "slots": {"contact": "ರಾಜು"}, "was": "unknown"}
+{"text": "ಗೀತಾ ಗೆ ವಾಟ್ಸಾಪ್ ಅಲ್ಲಿ ಗುಡ್ ಮಾರ್ನಿಂಗ್ ಕಳುಸು", "action": "send_message", "slots": {"contact": "ಗೀತಾ", "text": "ಗುಡ್ ಮಾರ್ನಿಂಗ್"}}
+{"text": "ಮಾವ ಗೆ ನಮಸ್ಕಾರ ಅಂತ ಮೆಸೇಜ್ ಕಳುಸು", "action": "send_message", "slots": {"contact": "ಮಾವ", "text": "ನಮಸ್ಕಾರ"}}
+{"text": "ತಮ್ಮ ಗೆ ಮೆಸೇಜ್ ಕಳುಸು ಪರೀಕ್ಷೆ ಹೇಗಾಯ್ತು ಅಂತ ಕೇಳು", "action": "send_message", "slots": {"contact": "ತಮ್ಮ", "text": "ಪರೀಕ್ಷೆ ಹೇಗಾಯ್ತು"}}
+{"text": "ತಂಗಿಗೆ ಕಂಗ್ರಾಟ್ಸ್ ಅಂತ ವಾಟ್ಸಾಪ್ ಮಾಡು", "action": "send_message", "slots": {"contact": "ತಂಗಿ", "text": "ಕಂಗ್ರಾಟ್ಸ್"}}
+{"text": "ಅತ್ತೆ ಗೆ ಮೆಸೇಜ್ ಕಳುಸು ಊಟಕ್ಕೆ ಬನ್ನಿ", "action": "send_message", "slots": {"contact": "ಅತ್ತೆ", "text": "ಊಟಕ್ಕೆ ಬನ್ನಿ"}}
+{"text": "ಪ್ರಕಾಶ್ ಗೆ ತಿಳಿಸು ಮೀಟಿಂಗ್ ನಾಲ್ಕು ಗಂಟೆಗೆ", "action": "send_message", "slots": {"contact": "ಪ್ರಕಾಶ್", "text": "ಮೀಟಿಂಗ್ ನಾಲ್ಕು ಗಂಟೆಗೆ"}}
+{"text": "ಡಾಕ್ಟರ್ ಗೆ ಮೆಸೇಜ್ ಕಳುಸು ರಿಪೋರ್ಟ್ ರೆಡಿನಾ", "action": "send_message", "slots": {"contact": "ಡಾಕ್ಟರ್", "text": "ರಿಪೋರ್ಟ್ ರೆಡಿನಾ"}}
+{"text": "ಕಿರಣ್ ಗೆ ರಿಪ್ಲೈ ಮಾಡು ಓಕೆ", "action": "send_message", "slots": {"contact": "ಕಿರಣ್", "text": "ಓಕೆ"}}
+{"text": "ಸ್ವಾತಿ ಗೆ ಮೆಸೇಜ್ ಕಳುಸು ಸಾರಿ ಕಾಲ್ ಮಿಸ್ ಆಯ್ತು", "action": "send_message", "slots": {"contact": "ಸ್ವಾತಿ", "text": "ಸಾರಿ ಕಾಲ್ ಮಿಸ್ ಆಯ್ತು"}}
+{"text": "ಅಮ್ಮನಿಗೆ ಹೇಳು ನಾನು ಸೇಫ್ ಆಗಿ ತಲುಪಿದೆ", "action": "send_message", "slots": {"contact": "ಅಮ್ಮ", "text": "ನಾನು ಸೇಫ್ ಆಗಿ ತಲುಪಿದೆ"}}
+{"text": "ವಿನಯ್ ಗೆ ಎಸ್ಎಂಎಸ್ ಮಾಡು ಪೇಮೆಂಟ್ ಬಂತು", "action": "send_message", "slots": {"contact": "ವಿನಯ್", "text": "ಪೇಮೆಂಟ್ ಬಂತು"}}
+{"text": "ಹೆಂಡತಿಗೆ ಮೆಸೇಜ್ ಕಳುಸು ನಾನು ಬರೋದು ಲೇಟ್ ಆಗುತ್ತೆ", "action": "send_message", "slots": {"contact": "ಹೆಂಡತಿ", "text": "ನಾನು ಬರೋದು ಲೇಟ್ ಆಗುತ್ತೆ"}}
+{"text": "ಟೀಚರ್ ಗೆ ಮೆಸೇಜ್ ಕಳುಸು ಮಗ ಇವತ್ತು ಶಾಲೆಗೆ ಬರಲ್ಲ", "action": "send_message", "slots": {"contact": "ಟೀಚರ್", "text": "ಮಗ ಇವತ್ತು ಶಾಲೆಗೆ ಬರಲ್ಲ"}}
+{"text": "ಪೂಜಾ ಗೆ ಒಂದು ಮೆಸೇಜ್ ಹಾಕು", "action": "send_message", "incomplete": true, "slots": {"contact": "ಪೂಜಾ"}, "was": "unknown"}
+{"text": "Sneha ge WhatsApp alli helu naanu airport ge reach aade", "action": "send_message", "slots": {"contact": "Sneha", "text": "naanu airport ge reach aade"}}
+{"text": "nanna friend Abhi ge message kalsu nodu yaar game start aaytu", "action": "send_message", "slots": {"contact": "Abhi", "text": "nodu yaar game start aaytu"}}
+{"text": "ಸಂಜಯ್ ಗೆ ಮೆಸೇಜ್ ಕಳುಸು ಕ್ರಿಕೆಟ್ ಆಡೋಕೆ ಬರ್ತೀಯಾ", "action": "send_message", "slots": {"contact": "ಸಂಜಯ್", "text": "ಕ್ರಿಕೆಟ್ ಆಡೋಕೆ ಬರ್ತೀಯಾ"}}
+{"text": "Ramu ge reply kalsu naanu nodtini", "action": "send_message", "slots": {"contact": "Ramu", "text": "naanu nodtini"}}
+{"text": "bava ge text maadu sanje phone maadi anta", "action": "send_message", "slots": {"contact": "bava", "text": "sanje phone maadi"}}
+{"text": "amma ki WhatsApp lo message pampu nenu late ga vastanu ani", "action": "send_message", "slots": {"contact": "amma", "text": "nenu late ga vastanu"}}
+{"text": "Ravi ki text cheyyi meeting cancel ayyindi", "action": "send_message", "slots": {"contact": "Ravi", "text": "meeting cancel ayyindi"}}
+{"text": "nanna ki cheppu ki nenu bus ekkanu", "action": "send_message", "slots": {"contact": "nanna", "text": "nenu bus ekkanu"}}
+{"text": "please Lakshmi ki message pettu happy birthday ani", "action": "send_message", "slots": {"contact": "Lakshmi", "text": "happy birthday"}}
+{"text": "Suresh ki WhatsApp chey repu office raanu", "action": "send_message", "slots": {"contact": "Suresh", "text": "repu office raanu"}}
+{"text": "akka ki message pampandi bhojanam ayyinda ani adugu", "action": "send_message", "slots": {"contact": "akka", "text": "bhojanam ayyinda"}}
+{"text": "anna ki SMS pampu paisalu transfer chesanu", "action": "send_message", "slots": {"contact": "anna", "text": "paisalu transfer chesanu"}}
+{"text": "Srinivas garu ki reply ivvu okay sir ani", "action": "send_message", "slots": {"contact": "Srinivas garu", "text": "okay sir"}}
+{"text": "zara chelli ki message pampu nenu intiki vastunna", "action": "send_message", "slots": {"contact": "chelli", "text": "nenu intiki vastunna"}}
+{"text": "Padma aunty ki WhatsApp lo cheppandi function ki vastamu", "action": "send_message", "slots": {"contact": "Padma aunty", "text": "function ki vastamu"}}
+{"text": "Kiran ki msg pampu call me back urgent", "action": "send_message", "slots": {"contact": "Kiran", "text": "call me back urgent"}}
+{"text": "babai ki message pettu happy anniversary", "action": "send_message", "slots": {"contact": "babai", "text": "happy anniversary"}}
+{"text": "thammudu ki text pampu charger teesuko", "action": "send_message", "slots": {"contact": "thammudu", "text": "charger teesuko"}}
+{"text": "Venkat ki inform cheyyi train two hours late", "action": "send_message", "slots": {"contact": "Venkat", "text": "train two hours late"}}
+{"text": "ammamma ki message pampandi medicine teeskunnara ani", "action": "send_message", "slots": {"contact": "ammamma", "text": "medicine teeskunnara"}}
+{"text": "Anitha ki whatsup message pampu photos pampu ani", "action": "send_message", "slots": {"contact": "Anitha", "text": "photos pampu"}}
+{"text": "nanna ki mesage pampu", "action": "send_message", "incomplete": true, "slots": {"contact": "nanna"}, "was": "unknown"}
+{"text": "aai la message pathav mi ushira yeto", "action": "send_message", "slots": {"contact": "aai", "text": "mi ushira yeto"}}
+{"text": "Rahul la WhatsApp kar ki meeting udya aahe", "action": "send_message", "slots": {"contact": "Rahul", "text": "meeting udya aahe"}}
+{"text": "baba na sang ki mi pohochlo", "action": "send_message", "slots": {"contact": "baba", "text": "mi pohochlo"}}
+{"text": "Sneha la text kar happy birthday", "action": "send_message", "slots": {"contact": "Sneha", "text": "happy birthday"}}
+{"text": "tai la message pathav jevan zala ka vichar", "action": "send_message", "slots": {"contact": "tai", "text": "jevan zala ka"}}
+{"text": "dada la SMS kar paise pathavle", "action": "send_message", "slots": {"contact": "dada", "text": "paise pathavle"}}
+{"text": "please Ganesh la message kar mi traffic madhe adaklo aahe", "action": "send_message", "slots": {"contact": "Ganesh", "text": "mi traffic madhe adaklo aahe"}}
+{"text": "Priya la reply kar ho chalel", "action": "send_message", "slots": {"contact": "Priya", "text": "ho chalel"}}
+{"text": "aaji la WhatsApp var sang mi udya yenar", "action": "send_message", "slots": {"contact": "aaji", "text": "mi udya yenar"}}
+{"text": "Sachin la inform kar office la sutti aahe", "action": "send_message", "slots": {"contact": "Sachin", "text": "office la sutti aahe"}}
+{"text": "kaka na message pathav lagnachi patrika milali", "action": "send_message", "slots": {"contact": "kaka", "text": "lagnachi patrika milali"}}
+{"text": "Pooja la msg kar call kar mala lavkar", "action": "send_message", "slots": {"contact": "Pooja", "text": "call kar mala lavkar"}}
+{"text": "zara mavshi la message pathva", "action": "send_message", "incomplete": true, "slots": {"contact": "mavshi"}, "was": "unknown"}
+{"text": "Amol la text kar movie ticket book keli", "action": "send_message", "slots": {"contact": "Amol", "text": "movie ticket book keli"}}
+{"text": "aai la mesej pathav mi thik aahe kalji karu nako", "action": "send_message", "slots": {"contact": "aai", "text": "mi thik aahe kalji karu nako"}}
+{"text": "Nikhil la sang ki report send kela", "action": "send_message", "slots": {"contact": "Nikhil", "text": "report send kela"}}
+{"text": "ma ke message pathao ami deri te firbo", "action": "send_message", "slots": {"contact": "ma", "text": "ami deri te firbo"}}
+{"text": "Rina ke WhatsApp koro kal college jabo na", "action": "send_message", "slots": {"contact": "Rina", "text": "kal college jabo na"}}
+{"text": "baba ke bolo je ami train e uthechi", "action": "send_message", "slots": {"contact": "baba", "text": "ami train e uthechi"}}
+{"text": "didi ke message pathao khawa hoyeche ki na jigges koro", "action": "send_message", "slots": {"contact": "didi", "text": "khawa hoyeche ki na"}}
+{"text": "dada ke SMS koro taka pathiye diyechi", "action": "send_message", "slots": {"contact": "dada", "text": "taka pathiye diyechi"}}
+{"text": "please Arijit ke text koro meeting ta postpone hoyeche", "action": "send_message", "slots": {"contact": "Arijit", "text": "meeting ta postpone hoyeche"}}
+{"text": "Mithu ke reply koro thik ache", "action": "send_message", "slots": {"contact": "Mithu", "text": "thik ache"}}
+{"text": "thakuma ke message pathao osudh kheyecho", "action": "send_message", "slots": {"contact": "thakuma", "text": "osudh kheyecho"}}
+{"text": "Sourav ke janiye dao ami pouche gechi", "action": "send_message", "slots": {"contact": "Sourav", "text": "ami pouche gechi"}}
+{"text": "mama ke WhatsApp e bolo bijoya r shubhechha", "action": "send_message", "slots": {"contact": "mama", "text": "bijoya r shubhechha"}}
+{"text": "Tania ke msg pathao happy birthday onek bhalobasa", "action": "send_message", "slots": {"contact": "Tania", "text": "happy birthday onek bhalobasa"}}
+{"text": "Bapi ke message koro ekhuni call kor", "action": "send_message", "slots": {"contact": "Bapi", "text": "ekhuni call kor"}}
+{"text": "kakima ke bolo ami kal asbo", "action": "send_message", "slots": {"contact": "kakima", "text": "ami kal asbo"}}
+{"text": "ma ke mesage pathao ami bhalo achi", "action": "send_message", "slots": {"contact": "ma", "text": "ami bhalo achi"}}
+{"text": "Debu ke text pathao", "action": "send_message", "incomplete": true, "slots": {"contact": "Debu"}, "was": "unknown"}
+{"text": "amma kku message ayakku njan vaikum", "action": "send_message", "slots": {"contact": "amma", "text": "njan vaikum"}}
+{"text": "Anoop nu WhatsApp cheyyu nale meeting illa", "action": "send_message", "slots": {"contact": "Anoop", "text": "nale meeting illa"}}
+{"text": "achan odu parayu njan bus kayari", "action": "send_message", "slots": {"contact": "achan", "text": "njan bus kayari"}}
+{"text": "chechi kku message ayakku bhakshanam kazhicho ennu chodikku", "action": "send_message", "slots": {"contact": "chechi", "text": "bhakshanam kazhicho"}}
+{"text": "chettan nu SMS ayakku paisa ayachu", "action": "send_message", "slots": {"contact": "chettan", "text": "paisa ayachu"}}
+{"text": "please Divya kku text cheyyu happy birthday", "action": "send_message", "slots": {"contact": "Divya", "text": "happy birthday"}}

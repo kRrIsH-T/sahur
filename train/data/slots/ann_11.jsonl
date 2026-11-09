@@ -1,0 +1,643 @@
+{"text": "saami kumbidanum", "action": "unknown", "slots": {}}
+{"text": "enna samayal inniku", "action": "unknown", "slots": {}}
+{"text": "seri apram paakalam bye", "action": "unknown", "slots": {}}
+{"text": "aah haan", "action": "unknown", "slots": {}}
+{"text": "vaa vaa ulla vaa", "action": "unknown", "slots": {}}
+{"text": "kadhava saathu", "action": "unknown", "slots": {}}
+{"text": "fan off pannu ma", "action": "unknown", "slots": {}}
+{"text": "light podu da", "action": "unknown", "slots": {}}
+{"text": "ithu enna saththam", "action": "unknown", "slots": {}}
+{"text": "yaarukkum theriyadhu", "action": "unknown", "slots": {}}
+{"text": "indha velai mudiyave maatengudhu", "action": "unknown", "slots": {}}
+{"text": "sollunga sir", "action": "unknown", "slots": {}}
+{"text": "Amma kooptaanga.", "action": "unknown", "slots": {}}
+{"text": "Naan ready.", "action": "unknown", "slots": {}}
+{"text": "enakku puriyala.", "action": "unknown", "slots": {}}
+{"text": "konjam slow ah pesunga", "action": "unknown", "slots": {}}
+{"text": "kozhandhai azhudhu", "action": "unknown", "slots": {}}
+{"text": "ennaku theriyaadhu pa", "action": "unknown", "slots": {}}
+{"text": "dhosai super ah irundhuchu", "action": "unknown", "slots": {}}
+{"text": "naalaiku temple poganum", "action": "unknown", "slots": {}}
+{"text": "vandhuttaen", "action": "unknown", "slots": {}}
+{"text": "oru nimishum irunga", "action": "unknown", "slots": {}}
+{"text": "ennala mudiyaadhu inniku", "action": "unknown", "slots": {}}
+{"text": "aval sonna maadhiri", "action": "unknown", "slots": {}}
+{"text": "pakkathu veetu aunty vandhaanga", "action": "unknown", "slots": {}}
+{"text": "kaasu kudukanum avanukku", "action": "unknown", "slots": {}}
+{"text": "yeppa enna veyyil", "action": "unknown", "slots": {}}
+{"text": "sari pa paakalam", "action": "unknown", "slots": {}}
+{"text": "maruthuvar kitta ponen", "action": "unknown", "slots": {}}
+{"text": "um um", "action": "unknown", "slots": {}}
+{"text": "avan ku yen kovam", "action": "unknown", "slots": {}}
+{"text": "மாத்திரை சாப்பிட்டியா", "action": "unknown", "slots": {}}
+{"text": "அம்மா எங்க போனாங்க", "action": "unknown", "slots": {}}
+{"text": "சரி சரி", "action": "unknown", "slots": {}}
+{"text": "இன்னிக்கு ரொம்ப வேலை", "action": "unknown", "slots": {}}
+{"text": "நான் அப்புறம் பேசுறேன்", "action": "unknown", "slots": {}}
+{"text": "ஒரு நிமிஷம் இரு", "action": "unknown", "slots": {}}
+{"text": "சாப்பாடு ஆச்சா", "action": "unknown", "slots": {}}
+{"text": "என்ன சொல்ற நீ", "action": "unknown", "slots": {}}
+{"text": "பையன் இன்னும் வரல", "action": "unknown", "slots": {}}
+{"text": "ம்ம்", "action": "unknown", "slots": {}}
+{"text": "மழை பெய்யுது போல", "action": "unknown", "slots": {}}
+{"text": "தண்ணி கொண்டு வா கண்ணா", "action": "unknown", "slots": {}}
+{"text": "நேத்து தூக்கமே இல்ல", "action": "unknown", "slots": {}}
+{"text": "அவன் ரொம்ப நல்லவன்", "action": "unknown", "slots": {}}
+{"text": "யாரு வந்திருக்காங்க", "action": "unknown", "slots": {}}
+{"text": "ஐயோ கரண்ட் போச்சு", "action": "unknown", "slots": {}}
+{"text": "வணக்கம் எல்லாருக்கும்", "action": "unknown", "slots": {}}
+{"text": "எனக்கு புரியல", "action": "unknown", "slots": {}}
+{"text": "அனுப்பு", "action": "unknown", "slots": {}}
+{"text": "பாட்டி தூங்குறாங்க", "action": "unknown", "slots": {}}
+{"text": "டீ போடு மா கொஞ்சம்", "action": "unknown", "slots": {}}
+{"text": "காலு வலிக்குது", "action": "unknown", "slots": {}}
+{"text": "சரி பாக்கலாம்", "action": "unknown", "slots": {}}
+{"text": "நாளைக்கு கோவிலுக்கு போகணும்", "action": "unknown", "slots": {}}
+{"text": "அப்பா கிட்ட கேளு", "action": "unknown", "slots": {}}
+{"text": "கதவ சாத்து", "action": "unknown", "slots": {}}
+{"text": "இந்த கம்ப்யூட்டர் ரொம்ப ஸ்லோ", "action": "unknown", "slots": {}}
+{"text": "பஸ் லேட் ஆச்சு", "action": "unknown", "slots": {}}
+{"text": "அவ சொன்னது சரி", "action": "unknown", "slots": {}}
+{"text": "romba naal aachu unna paathu", "action": "unknown", "slots": {}}
+{"text": "enna yaaru phone pannadhu", "action": "unknown", "slots": {}}
+{"text": "இந்த வாரம் ரொம்ப பிஸி", "action": "unknown", "slots": {}}
+{"text": "what is the weather in Bangalore today", "action": "web_search", "slots": {"query": "what is the weather in Bangalore today"}}
+{"text": "Who won the match yesterday?", "action": "web_search", "slots": {"query": "Who won the match yesterday"}}
+{"text": "petrol price today in Hyderabad", "action": "web_search", "slots": {"query": "petrol price today in Hyderabad"}}
+{"text": "please tell me gold rate in Chennai", "action": "web_search", "slots": {"query": "gold rate in Chennai"}}
+{"text": "will it rain tomorrow in Mumbai", "action": "web_search", "slots": {"query": "will it rain tomorrow in Mumbai"}}
+{"text": "India versus Australia score", "action": "web_search", "slots": {"query": "India versus Australia score"}}
+{"text": "search for PM Kisan next installment date", "action": "web_search", "slots": {"query": "PM Kisan next installment date"}}
+{"text": "distance from Pune to Goa by road", "action": "web_search", "slots": {"query": "distance from Pune to Goa by road"}}
+{"text": "what time does the Shatabdi leave Delhi", "action": "web_search", "slots": {"query": "what time does the Shatabdi leave Delhi"}}
+{"text": "Google karo onion price in Nashik mandi", "action": "web_search", "slots": {"query": "onion price in Nashik mandi"}}
+{"text": "yaar what is the IPL points table now", "action": "web_search", "slots": {"query": "what is the IPL points table now"}}
+{"text": "how do I link Aadhaar with PAN card", "action": "web_search", "slots": {"query": "how do I link Aadhaar with PAN card"}}
+{"text": "dollar to rupee rate", "action": "web_search", "slots": {"query": "dollar to rupee rate"}}
+{"text": "please search how to apply for Ayushman Bharat card", "action": "web_search", "slots": {"query": "how to apply for Ayushman Bharat card"}}
+{"text": "Sensex today", "action": "web_search", "slots": {"query": "Sensex today"}}
+{"text": "beta can you find out when Diwali is this year", "action": "web_search", "slots": {"query": "when Diwali is this year"}}
+{"text": "what is the temperature in Delhi right now", "action": "web_search", "slots": {"query": "what is the temperature in Delhi right now"}}
+{"text": "Look up the train running status of Rajdhani Express", "action": "web_search", "slots": {"query": "train running status of Rajdhani Express"}}
+{"text": "how many calories in one idli", "action": "web_search", "slots": {"query": "how many calories in one idli"}}
+{"text": "weather forcast for Kochi this weekend", "action": "web_search", "slots": {"query": "weather forcast for Kochi this weekend"}}
+{"text": "do one thing, search for good schools near Whitefield", "action": "web_search", "slots": {"query": "good schools near Whitefield"}}
+{"text": "silver rate today", "action": "web_search", "slots": {"query": "silver rate today"}}
+{"text": "How to make rava upma quickly?", "action": "web_search", "slots": {"query": "How to make rava upma quickly"}}
+{"text": "tell me the latest news about Chandrayaan", "action": "web_search", "slots": {"query": "latest news about Chandrayaan"}}
+{"text": "zara check what is the price of iPhone 16 in India", "action": "web_search", "slots": {"query": "what is the price of iPhone 16 in India"}}
+{"text": "which hospital is open 24 hours near Jayanagar", "action": "web_search", "slots": {"query": "which hospital is open 24 hours near Jayanagar"}}
+{"text": "How far is Tirupati from Chennai.", "action": "web_search", "slots": {"query": "How far is Tirupati from Chennai"}}
+{"text": "what is the old age pension amount in Tamil Nadu", "action": "web_search", "slots": {"query": "what is the old age pension amount in Tamil Nadu"}}
+{"text": "who won best actor at national awards", "action": "web_search", "slots": {"query": "who won best actor at national awards"}}
+{"text": "search sugar free sweets recipe for diabetes", "action": "web_search", "slots": {"query": "sugar free sweets recipe for diabetes"}}
+{"text": "kab hai the next solar eclipse", "action": "web_search", "slots": {"query": "kab hai the next solar eclipse"}}
+{"text": "what are the symptoms of dengue fever", "action": "web_search", "slots": {"query": "what are the symptoms of dengue fever"}}
+{"text": "please find bank holidays in December", "action": "web_search", "slots": {"query": "bank holidays in December"}}
+{"text": "Kohli how many centuries total", "action": "web_search", "slots": {"query": "Kohli how many centuries total"}}
+{"text": "air quality index Delhi today", "action": "web_search", "slots": {"query": "air quality index Delhi today"}}
+{"text": "how to reset SBI net banking password", "action": "web_search", "slots": {"query": "how to reset SBI net banking password"}}
+{"text": "what is the full form of UPI", "action": "web_search", "slots": {"query": "what is the full form of UPI"}}
+{"text": "can you check flight timings from Bangalore to Kolkata tomorrow", "action": "web_search", "slots": {"query": "flight timings from Bangalore to Kolkata tomorrow"}}
+{"text": "Diesel rate in Lucknow", "action": "web_search", "slots": {"query": "Diesel rate in Lucknow"}}
+{"text": "how to grow tulsi plant in a pot", "action": "web_search", "slots": {"query": "how to grow tulsi plant in a pot"}}
+{"text": "who is the president of America now", "action": "web_search", "slots": {"query": "who is the president of America now"}}
+{"text": "temple timings of Siddhivinayak", "action": "web_search", "slots": {"query": "temple timings of Siddhivinayak"}}
+{"text": "please search the meaning of serendipity", "action": "web_search", "slots": {"query": "meaning of serendipity"}}
+{"text": "is there a cyclone coming to Odisha", "action": "web_search", "slots": {"query": "is there a cyclone coming to Odisha"}}
+{"text": "tomato price per kg in Bangalore market", "action": "web_search", "slots": {"query": "tomato price per kg in Bangalore market"}}
+{"text": "how to check my PF balance online", "action": "web_search", "slots": {"query": "how to check my PF balance online"}}
+{"text": "whats the score in Ranji trophy match", "action": "web_search", "slots": {"query": "whats the score in Ranji trophy match"}}
+{"text": "best time to visit Ooty", "action": "web_search", "slots": {"query": "best time to visit Ooty"}}
+{"text": "what is the interest rate for senior citizen FD in post office", "action": "web_search", "slots": {"query": "what is the interest rate for senior citizen FD in post office"}}
+{"text": "Google karo Sukanya Samriddhi Yojana eligibility", "action": "web_search", "slots": {"query": "Sukanya Samriddhi Yojana eligibility"}}
+{"text": "how to remove rust from iron kadai", "action": "web_search", "slots": {"query": "how to remove rust from iron kadai"}}
+{"text": "who wrote Jana Gana Mana", "action": "web_search", "slots": {"query": "who wrote Jana Gana Mana"}}
+{"text": "Bus timings from Mysore to Bangalore KSRTC", "action": "web_search", "slots": {"query": "Bus timings from Mysore to Bangalore KSRTC"}}
+{"text": "uh what is today's date in Hindu calendar", "action": "web_search", "slots": {"query": "what is today's date in Hindu calendar"}}
+{"text": "how much is the toll from Delhi to Jaipur", "action": "web_search", "slots": {"query": "how much is the toll from Delhi to Jaipur"}}
+{"text": "search for cheap hotels in Rishikesh", "action": "web_search", "slots": {"query": "cheap hotels in Rishikesh"}}
+{"text": "how to say thank you in Japanese", "action": "web_search", "slots": {"query": "how to say thank you in Japanese"}}
+{"text": "whether in Shimla tomorrow", "action": "web_search", "slots": {"query": "whether in Shimla tomorrow"}}
+{"text": "Please tell me who won the Bihar election.", "action": "web_search", "slots": {"query": "who won the Bihar election"}}
+{"text": "chicken biryani recipe Hyderabadi style", "action": "web_search", "slots": {"query": "chicken biryani recipe Hyderabadi style"}}
+{"text": "how many days till Pongal", "action": "web_search", "slots": {"query": "how many days till Pongal"}}
+{"text": "what is the population of India now", "action": "web_search", "slots": {"query": "what is the population of India now"}}
+{"text": "konjam check what is the bitcoin price", "action": "web_search", "slots": {"query": "what is the bitcoin price"}}
+{"text": "how to apply for ration card online in Telangana", "action": "web_search", "slots": {"query": "how to apply for ration card online in Telangana"}}
+{"text": "nearest petrol bunk open now", "action": "web_search", "slots": {"query": "nearest petrol bunk open now"}}
+{"text": "Look up home remedies for cough and cold", "action": "web_search", "slots": {"query": "home remedies for cough and cold"}}
+{"text": "what is the train fare from Chennai to Madurai", "action": "web_search", "slots": {"query": "what is the train fare from Chennai to Madurai"}}
+{"text": "search pm awas yojna list", "action": "web_search", "slots": {"query": "pm awas yojna list"}}
+{"text": "who scored the goal for India in hockey final", "action": "web_search", "slots": {"query": "who scored the goal for India in hockey final"}}
+{"text": "what is the price of LPG cylinder this month", "action": "web_search", "slots": {"query": "what is the price of LPG cylinder this month"}}
+{"text": "how to cook rajma without soaking", "action": "web_search", "slots": {"query": "how to cook rajma without soaking"}}
+{"text": "please na find out what time the bank opens on Saturday", "action": "web_search", "slots": {"query": "what time the bank opens on Saturday"}}
+{"text": "how tall is the Statue of Unity", "action": "web_search", "slots": {"query": "how tall is the Statue of Unity"}}
+{"text": "Kerala lottery result today", "action": "web_search", "slots": {"query": "Kerala lottery result today"}}
+{"text": "how do I book Tatkal ticket on IRCTC", "action": "web_search", "slots": {"query": "how do I book Tatkal ticket on IRCTC"}}
+{"text": "what is the best medicine for acidity", "action": "web_search", "slots": {"query": "what is the best medicine for acidity"}}
+{"text": "sunrise time Varanasi tomorrow", "action": "web_search", "slots": {"query": "sunrise time Varanasi tomorrow"}}
+{"text": "search for Maruti Swift on road price in Pune", "action": "web_search", "slots": {"query": "Maruti Swift on road price in Pune"}}
+{"text": "When are the CBSE board exams starting", "action": "web_search", "slots": {"query": "When are the CBSE board exams starting"}}
+{"text": "how many kilometers from Bombay to Nagpur", "action": "web_search", "slots": {"query": "how many kilometers from Bombay to Nagpur"}}
+{"text": "ondu check the rain update for Mangalore", "action": "web_search", "slots": {"query": "rain update for Mangalore"}}
+{"text": "what is the boiling point of water in fahrenheit", "action": "web_search", "slots": {"query": "what is the boiling point of water in fahrenheit"}}
+{"text": "tell me about the new rules for driving licence", "action": "web_search", "slots": {"query": "new rules for driving licence"}}
+{"text": "Paytm share price", "action": "web_search", "slots": {"query": "Paytm share price"}}
+{"text": "how to make filter coffee like in Udupi hotels", "action": "web_search", "slots": {"query": "how to make filter coffee like in Udupi hotels"}}
+{"text": "what is the helpline number for women safety", "action": "web_search", "slots": {"query": "what is the helpline number for women safety"}}
+{"text": "serch for yoga for back pain for old people", "action": "web_search", "slots": {"query": "yoga for back pain for old people"}}
+{"text": "is metro running today in Chennai", "action": "web_search", "slots": {"query": "is metro running today in Chennai"}}
+{"text": "What does GST stand for?", "action": "web_search", "slots": {"query": "What does GST stand for"}}
+{"text": "price of cotton per quintal today", "action": "web_search", "slots": {"query": "price of cotton per quintal today"}}
+{"text": "how to block lost SIM card Airtel", "action": "web_search", "slots": {"query": "how to block lost SIM card Airtel"}}
+{"text": "who is playing in tonight's IPL match", "action": "web_search", "slots": {"query": "who is playing in tonight's IPL match"}}
+{"text": "my grandson asked, what is the speed of light", "action": "web_search", "slots": {"query": "what is the speed of light"}}
+{"text": "find Saraswati Puja muhurat timing", "action": "web_search", "slots": {"query": "Saraswati Puja muhurat timing"}}
+{"text": "how to clean silver pooja items", "action": "web_search", "slots": {"query": "how to clean silver pooja items"}}
+{"text": "ladli behna yojana kist status", "action": "web_search", "slots": {"query": "ladli behna yojana kist status"}}
+{"text": "what is the humidity in Chennai", "action": "web_search", "slots": {"query": "what is the humidity in Chennai"}}
+{"text": "Please search where is the nearest Aadhaar seva kendra", "action": "web_search", "slots": {"query": "where is the nearest Aadhaar seva kendra"}}
+{"text": "how many seats did BJP win in Gujarat", "action": "web_search", "slots": {"query": "how many seats did BJP win in Gujarat"}}
+{"text": "best mobile under fifteen thousand", "action": "web_search", "slots": {"query": "best mobile under fifteen thousand"}}
+{"text": "how long to boil eggs for half fry", "action": "web_search", "slots": {"query": "how long to boil eggs for half fry"}}
+{"text": "Tirupati darshan ticket booking timings", "action": "web_search", "slots": {"query": "Tirupati darshan ticket booking timings"}}
+{"text": "what is the score of the football match Kerala Blasters", "action": "web_search", "slots": {"query": "what is the score of the football match Kerala Blasters"}}
+{"text": "Euro to INR", "action": "web_search", "slots": {"query": "Euro to INR"}}
+{"text": "how to file income tax return for pensioners", "action": "web_search", "slots": {"query": "how to file income tax return for pensioners"}}
+{"text": "yaar find out who is the richest man in the world", "action": "web_search", "slots": {"query": "who is the richest man in the world"}}
+{"text": "whats the whether like in Ooty now", "action": "web_search", "slots": {"query": "whats the whether like in Ooty now"}}
+{"text": "Kedarnath temple opening date", "action": "web_search", "slots": {"query": "Kedarnath temple opening date"}}
+{"text": "how to make gulab jamun soft", "action": "web_search", "slots": {"query": "how to make gulab jamun soft"}}
+{"text": "what is the minimum balance in SBI savings account", "action": "web_search", "slots": {"query": "what is the minimum balance in SBI savings account"}}
+{"text": "google search ujjwala yojana new connection", "action": "web_search", "slots": {"query": "ujjwala yojana new connection"}}
+{"text": "which is the longest river in India", "action": "web_search", "slots": {"query": "which is the longest river in India"}}
+{"text": "please check how much time it takes to reach Mysore from Bangalore by train", "action": "web_search", "slots": {"query": "how much time it takes to reach Mysore from Bangalore by train"}}
+{"text": "Nifty fifty closing today", "action": "web_search", "slots": {"query": "Nifty fifty closing today"}}
+{"text": "how to stop hair fall naturally", "action": "web_search", "slots": {"query": "how to stop hair fall naturally"}}
+{"text": "Can you please look up what vaccines a baby needs at six months", "action": "web_search", "slots": {"query": "what vaccines a baby needs at six months"}}
+{"text": "gold rate today in Mumbai", "action": "web_search", "slots": {"query": "gold rate today in Mumbai"}}
+{"text": "Ayushman card kaise banwaye", "action": "web_search", "slots": {"query": "Ayushman card kaise banwaye"}}
+{"text": "paneer butter masala banane ka tarika batao", "action": "web_search", "slots": {"query": "paneer butter masala banane ka tarika"}}
+{"text": "Google karo Jaipur se Agra kitni door hai", "action": "web_search", "slots": {"query": "Jaipur se Agra kitni door hai"}}
+{"text": "Rajdhani express ka time kya hai", "action": "web_search", "slots": {"query": "Rajdhani express ka time kya hai"}}
+{"text": "yaar bata na kal barish hogi kya", "action": "web_search", "slots": {"query": "kal barish hogi kya"}}
+{"text": "bijli ka bill online kaise bhare", "action": "web_search", "slots": {"query": "bijli ka bill online kaise bhare"}}
+{"text": "aadhar card mein address kaise change kare", "action": "web_search", "slots": {"query": "aadhar card mein address kaise change kare"}}
+{"text": "please check karo dollar ka rate kitna hai", "action": "web_search", "slots": {"query": "dollar ka rate kitna hai"}}
+{"text": "Taj Mahal kis din band rehta hai", "action": "web_search", "slots": {"query": "Taj Mahal kis din band rehta hai"}}
+{"text": "sabse sasta 5G phone kaun sa hai", "action": "web_search", "slots": {"query": "sabse sasta 5G phone kaun sa hai"}}
+{"text": "pension ka paisa kab aata hai is mahine", "action": "web_search", "slots": {"query": "pension ka paisa kab aata hai is mahine"}}
+{"text": "ladoo kaise banate hain besan ke", "action": "web_search", "slots": {"query": "ladoo kaise banate hain besan ke"}}
+{"text": "ganga dussehra kab hai is saal", "action": "web_search", "slots": {"query": "ganga dussehra kab hai is saal"}}
+{"text": "Lucknow ka temperature abhi kitna hai", "action": "web_search", "slots": {"query": "Lucknow ka temperature abhi kitna hai"}}
+{"text": "IPL ka aaj ka match kiska hai", "action": "web_search", "slots": {"query": "IPL ka aaj ka match kiska hai"}}
+{"text": "cricket score batao", "action": "web_search", "slots": {"query": "cricket score"}}
+{"text": "mere paas wala ATM kahan hai", "action": "web_search", "slots": {"query": "mere paas wala ATM kahan hai"}}
+{"text": "Kal bank khula rahega kya", "action": "web_search", "slots": {"query": "Kal bank khula rahega kya"}}
+{"text": "Diwali kis tarikh ko hai", "action": "web_search", "slots": {"query": "Diwali kis tarikh ko hai"}}
+{"text": "virat kohli ne kitne run banaye", "action": "web_search", "slots": {"query": "virat kohli ne kitne run banaye"}}
+{"text": "Ujjwala yojana ke liye apply kaise kare", "action": "web_search", "slots": {"query": "Ujjwala yojana ke liye apply kaise kare"}}
+{"text": "pan card aadhar se link kaise kare", "action": "web_search", "slots": {"query": "pan card aadhar se link kaise kare"}}
+{"text": "Mumbai se Pune train timing", "action": "web_search", "slots": {"query": "Mumbai se Pune train timing"}}
+{"text": "uncle ji ko jaana hai Haridwar, wahan ka mausam kaisa hai", "action": "web_search", "slots": {"query": "Haridwar, wahan ka mausam kaisa hai"}}
+{"text": "bhai aaj ka sensex kitna hai", "action": "web_search", "slots": {"query": "aaj ka sensex kitna hai"}}
+{"text": "chai ka masala kaise banaye ghar pe", "action": "web_search", "slots": {"query": "chai ka masala kaise banaye ghar pe"}}
+{"text": "bacchon ke liye acchi kahani kaun si hai, google pe dekho", "action": "web_search", "slots": {"query": "bacchon ke liye acchi kahani kaun si hai"}}
+{"text": "iss saal monsoon kab aayega", "action": "web_search", "slots": {"query": "iss saal monsoon kab aayega"}}
+{"text": "Pradhan Mantri Awas Yojana list mein naam kaise dekhe", "action": "web_search", "slots": {"query": "Pradhan Mantri Awas Yojana list mein naam kaise dekhe"}}
+{"text": "zara dekho to Shimla mein baraf giri kya", "action": "web_search", "slots": {"query": "Shimla mein baraf giri kya"}}
+{"text": "weather kya hai aaj", "action": "web_search", "slots": {"query": "weather kya hai aaj"}}
+{"text": "cheeni ka daam kitna hai abhi", "action": "web_search", "slots": {"query": "cheeni ka daam kitna hai abhi"}}
+{"text": "modi ji ne aaj kya kaha news mein", "action": "web_search", "slots": {"query": "modi ji ne aaj kya kaha news mein"}}
+{"text": "Election result kya aaya Bihar ka", "action": "web_search", "slots": {"query": "Election result kya aaya Bihar ka"}}
+{"text": "rashan card status kaise check karte hain", "action": "web_search", "slots": {"query": "rashan card status kaise check karte hain"}}
+{"text": "kidney stone ka gharelu ilaaj", "action": "web_search", "slots": {"query": "kidney stone ka gharelu ilaaj"}}
+{"text": "haldi doodh peene ke fayde", "action": "web_search", "slots": {"query": "haldi doodh peene ke fayde"}}
+{"text": "helicopter kaise udta hai", "action": "web_search", "slots": {"query": "helicopter kaise udta hai"}}
+{"text": "duniya ka sabse uncha pahad kaun sa hai", "action": "web_search", "slots": {"query": "duniya ka sabse uncha pahad kaun sa hai"}}
+{"text": "Chandrayaan teen kab launch hua tha", "action": "web_search", "slots": {"query": "Chandrayaan teen kab launch hua tha"}}
+{"text": "Bharat ki janasankhya kitni hai", "action": "web_search", "slots": {"query": "Bharat ki janasankhya kitni hai"}}
+{"text": "Delhi metro first train kitne baje chalti hai", "action": "web_search", "slots": {"query": "Delhi metro first train kitne baje chalti hai"}}
+{"text": "kal subah sooraj kitne baje niklega", "action": "web_search", "slots": {"query": "kal subah sooraj kitne baje niklega"}}
+{"text": "pls bata do mobile recharge ka sabse sasta plan", "action": "web_search", "slots": {"query": "mobile recharge ka sabse sasta plan"}}
+{"text": "Jio ka 299 wala plan mein kya milta hai", "action": "web_search", "slots": {"query": "Jio ka 299 wala plan mein kya milta hai"}}
+{"text": "whatsapp pe photo kaise bheje, search karo", "action": "web_search", "slots": {"query": "whatsapp pe photo kaise bheje"}}
+{"text": "computer slow ho gaya to kya kare", "action": "web_search", "slots": {"query": "computer slow ho gaya to kya kare"}}
+{"text": "Old age pension form kaise bhare UP mein", "action": "web_search", "slots": {"query": "Old age pension form kaise bhare UP mein"}}
+{"text": "aaj tithi kya hai", "action": "web_search", "slots": {"query": "aaj tithi kya hai"}}
+{"text": "ekadashi kab hai", "action": "web_search", "slots": {"query": "ekadashi kab hai"}}
+{"text": "Hyderabad me kal rain hoga kya", "action": "web_search", "slots": {"query": "Hyderabad me kal rain hoga kya"}}
+{"text": "football world cup kisne jeeta", "action": "web_search", "slots": {"query": "football world cup kisne jeeta"}}
+{"text": "Shah Rukh Khan ki nayi film kab aa rahi hai", "action": "web_search", "slots": {"query": "Shah Rukh Khan ki nayi film kab aa rahi hai"}}
+{"text": "vitamin D ki kami ke lakshan", "action": "web_search", "slots": {"query": "vitamin D ki kami ke lakshan"}}
+{"text": "BP high ho to kya kare turant", "action": "web_search", "slots": {"query": "BP high ho to kya kare turant"}}
+{"text": "aloo paratha recipe", "action": "web_search", "slots": {"query": "aloo paratha recipe"}}
+{"text": "kitne baje hai Lucknow wali flight", "action": "web_search", "slots": {"query": "kitne baje hai Lucknow wali flight"}}
+{"text": "Indigo flight status 6E 2134", "action": "web_search", "slots": {"query": "Indigo flight status 6E 2134"}}
+{"text": "petrol ka ret kya he aaj", "action": "web_search", "slots": {"query": "petrol ka ret kya he aaj"}}
+{"text": "gold ka bhaw batao", "action": "web_search", "slots": {"query": "gold ka bhaw"}}
+{"text": "sarkari naukri ki latest vacancy", "action": "web_search", "slots": {"query": "sarkari naukri ki latest vacancy"}}
+{"text": "UPSC result kab aayega", "action": "web_search", "slots": {"query": "UPSC result kab aayega"}}
+{"text": "gehu ka MSP kitna hai is saal", "action": "web_search", "slots": {"query": "gehu ka MSP kitna hai is saal"}}
+{"text": "tomatar ka bhav aaj ka", "action": "web_search", "slots": {"query": "tomatar ka bhav aaj ka"}}
+{"text": "matche ka scor kya hua bhai", "action": "web_search", "slots": {"query": "matche ka scor kya hua"}}
+{"text": "Kedarnath yatra registration kaise kare", "action": "web_search", "slots": {"query": "Kedarnath yatra registration kaise kare"}}
+{"text": "umm wo... Vaishno Devi ka helicopter booking kaise hota hai", "action": "web_search", "slots": {"query": "Vaishno Devi ka helicopter booking kaise hota hai"}}
+{"text": "chandigarh se manali kitne kilometer", "action": "web_search", "slots": {"query": "chandigarh se manali kitne kilometer"}}
+{"text": "sabzi mandi kitne baje khulti hai", "action": "web_search", "slots": {"query": "sabzi mandi kitne baje khulti hai"}}
+{"text": "Google pe dekho Tata Nexon ki keemat", "action": "web_search", "slots": {"query": "Tata Nexon ki keemat"}}
+{"text": "aaj kaun sa din hai aur date kya hai", "action": "web_search", "slots": {"query": "aaj kaun sa din hai aur date kya hai"}}
+{"text": "sone ki keemat aaj kitni hai Jaipur me", "action": "web_search", "slots": {"query": "sone ki keemat aaj kitni hai Jaipur me"}}
+{"text": "दिल्ली में पेट्रोल का रेट क्या है", "action": "web_search", "slots": {"query": "दिल्ली में पेट्रोल का रेट क्या है"}}
+{"text": "भारत और पाकिस्तान के मैच का स्कोर बताओ", "action": "web_search", "slots": {"query": "भारत और पाकिस्तान के मैच का स्कोर"}}
+{"text": "पीएम किसान की किस्त कब आएगी", "action": "web_search", "slots": {"query": "पीएम किसान की किस्त कब आएगी"}}
+{"text": "आलू की सब्जी कैसे बनाते हैं", "action": "web_search", "slots": {"query": "आलू की सब्जी कैसे बनाते हैं"}}
+{"text": "सोने का भाव आज कितना है", "action": "web_search", "slots": {"query": "सोने का भाव आज कितना है"}}
+{"text": "कल बारिश होगी क्या", "action": "web_search", "slots": {"query": "कल बारिश होगी क्या"}}
+{"text": "आधार कार्ड डाउनलोड कैसे करें", "action": "web_search", "slots": {"query": "आधार कार्ड डाउनलोड कैसे करें"}}
+{"text": "वृद्धा पेंशन योजना की जानकारी दो", "action": "web_search", "slots": {"query": "वृद्धा पेंशन योजना"}}
+{"text": "गूगल करो ताजमहल किसने बनवाया", "action": "web_search", "slots": {"query": "ताजमहल किसने बनवाया"}}
+{"text": "मुंबई से दिल्ली की दूरी कितनी है", "action": "web_search", "slots": {"query": "मुंबई से दिल्ली की दूरी कितनी है"}}
+{"text": "शताब्दी एक्सप्रेस का टाइम क्या है", "action": "web_search", "slots": {"query": "शताब्दी एक्सप्रेस का टाइम क्या है"}}
+{"text": "ज़रा बताओ आज का सेंसेक्स", "action": "web_search", "slots": {"query": "आज का सेंसेक्स"}}
+{"text": "डॉलर का rate क्या चल रहा है", "action": "web_search", "slots": {"query": "डॉलर का rate क्या चल रहा है"}}
+{"text": "आयुष्मान भारत कार्ड के लिए apply कैसे करें", "action": "web_search", "slots": {"query": "आयुष्मान भारत कार्ड के लिए apply कैसे करें"}}
+{"text": "शुगर कम करने के घरेलू उपाय", "action": "web_search", "slots": {"query": "शुगर कम करने के घरेलू उपाय"}}
+{"text": "होली कब है इस साल", "action": "web_search", "slots": {"query": "होली कब है इस साल"}}
+{"text": "सबसे अच्छा mobile phone दस हज़ार में", "action": "web_search", "slots": {"query": "सबसे अच्छा mobile phone दस हज़ार में"}}
+{"text": "search करो पास में medical store", "action": "web_search", "slots": {"query": "पास में medical store"}}
+{"text": "दाल मखनी की रेसिपी", "action": "web_search", "slots": {"query": "दाल मखनी की रेसिपी"}}
+{"text": "प्याज़ का भाव क्या है मंडी में", "action": "web_search", "slots": {"query": "प्याज़ का भाव क्या है मंडी में"}}
+{"text": "IPL में आज किसकी जीत हुई", "action": "web_search", "slots": {"query": "IPL में आज किसकी जीत हुई"}}
+{"text": "भारत के राष्ट्रपति कौन हैं", "action": "web_search", "slots": {"query": "भारत के राष्ट्रपति कौन हैं"}}
+{"text": "चाँद पृथ्वी से कितना दूर है", "action": "web_search", "slots": {"query": "चाँद पृथ्वी से कितना दूर है"}}
+{"text": "बिजली बिल कैसे चेक करें online", "action": "web_search", "slots": {"query": "बिजली बिल कैसे चेक करें online"}}
+{"text": "राशन कार्ड में नाम कैसे जोड़ें", "action": "web_search", "slots": {"query": "राशन कार्ड में नाम कैसे जोड़ें"}}
+{"text": "जयपुर में ठंड कितनी है अभी", "action": "web_search", "slots": {"query": "जयपुर में ठंड कितनी है अभी"}}
+{"text": "मौसम कैसा रहेगा कल लखनऊ में", "action": "web_search", "slots": {"query": "मौसम कैसा रहेगा कल लखनऊ में"}}
+{"text": "बैंक की छुट्टी कब है इस हफ्ते", "action": "web_search", "slots": {"query": "बैंक की छुट्टी कब है इस हफ्ते"}}
+{"text": "कृपया बताइए गैस सिलेंडर का दाम", "action": "web_search", "slots": {"query": "गैस सिलेंडर का दाम"}}
+{"text": "Kashi Vishwanath mandir darshan timing kya hai", "action": "web_search", "slots": {"query": "Kashi Vishwanath mandir darshan timing kya hai"}}
+{"text": "beta zara pata karo LIC policy ka status kaise dekhe", "action": "web_search", "slots": {"query": "LIC policy ka status kaise dekhe"}}
+{"text": "khansi ke liye kaunsa kadha accha hai", "action": "web_search", "slots": {"query": "khansi ke liye kaunsa kadha accha hai"}}
+{"text": "kal ka panchang batao", "action": "web_search", "slots": {"query": "kal ka panchang"}}
+{"text": "ivattu bengaluru alli weather hege ide", "action": "web_search", "slots": {"query": "ivattu bengaluru alli weather hege ide"}}
+{"text": "petrol rate eshtu ivattu", "action": "web_search", "slots": {"query": "petrol rate eshtu ivattu"}}
+{"text": "chinnada bele ivattu eshtide nodi heli", "action": "web_search", "slots": {"query": "chinnada bele ivattu eshtide"}}
+{"text": "match yaaru geddru", "action": "web_search", "slots": {"query": "match yaaru geddru"}}
+{"text": "RCB match score enu", "action": "web_search", "slots": {"query": "RCB match score enu"}}
+{"text": "gruha lakshmi yojane ge hege apply maadodu", "action": "web_search", "slots": {"query": "gruha lakshmi yojane ge hege apply maadodu"}}
+{"text": "anna bhagya scheme bagge mahiti kodi", "action": "web_search", "slots": {"query": "anna bhagya scheme"}}
+{"text": "bisi bele bath maadodu hege", "action": "web_search", "slots": {"query": "bisi bele bath maadodu hege"}}
+{"text": "Mysore inda Bangalore ge eshtu kilometer", "action": "web_search", "slots": {"query": "Mysore inda Bangalore ge eshtu kilometer"}}
+{"text": "KSRTC bus timing Mysore ge", "action": "web_search", "slots": {"query": "KSRTC bus timing Mysore ge"}}
+{"text": "google maadi tomato bele ivattu", "action": "web_search", "slots": {"query": "tomato bele ivattu"}}
+{"text": "ondu swalpa search maadi dasara rajegalu yaavaga", "action": "web_search", "slots": {"query": "dasara rajegalu yaavaga"}}
+{"text": "please heli namma pradhana mantri yaaru", "action": "web_search", "slots": {"query": "namma pradhana mantri yaaru"}}
+{"text": "Karnataka chief minister yaaru", "action": "web_search", "slots": {"query": "Karnataka chief minister yaaru"}}
+{"text": "dollar rate eshtu ivattu rupee alli", "action": "web_search", "slots": {"query": "dollar rate eshtu ivattu rupee alli"}}
+{"text": "sakkare kayile ge yaava oota olledu", "action": "web_search", "slots": {"query": "sakkare kayile ge yaava oota olledu"}}
+{"text": "BP kammi maadoke enu maadbeku", "action": "web_search", "slots": {"query": "BP kammi maadoke enu maadbeku"}}
+{"text": "aadhar card address change hege maadodu online", "action": "web_search", "slots": {"query": "aadhar card address change hege maadodu online"}}
+{"text": "ration card status check maadodu hege", "action": "web_search", "slots": {"query": "ration card status check maadodu hege"}}
+{"text": "Namma Metro last train timing yaavaga", "action": "web_search", "slots": {"query": "Namma Metro last train timing yaavaga"}}
+{"text": "Tirupati darshan ticket hege book maadodu", "action": "web_search", "slots": {"query": "Tirupati darshan ticket hege book maadodu"}}
+{"text": "SSLC result yaavaga barutte", "action": "web_search", "slots": {"query": "SSLC result yaavaga barutte"}}
+{"text": "yaar ondu search maadu best mobile under 15000", "action": "web_search", "slots": {"query": "best mobile under 15000"}}
+{"text": "india vs australia score eshtu aaytu", "action": "web_search", "slots": {"query": "india vs australia score eshtu aaytu"}}
+{"text": "Hubli alli naale temperature eshtu", "action": "web_search", "slots": {"query": "Hubli alli naale temperature eshtu"}}
+{"text": "ragi mudde maadodu hege heli konjam", "action": "web_search", "slots": {"query": "ragi mudde maadodu hege"}}
+{"text": "eerulli bele yake jaasti aagide", "action": "web_search", "slots": {"query": "eerulli bele yake jaasti aagide"}}
+{"text": "PM kisan duddu yaavaga barutte", "action": "web_search", "slots": {"query": "PM kisan duddu yaavaga barutte"}}
+{"text": "pension scheme senior citizens ge yaavudu ide", "action": "web_search", "slots": {"query": "pension scheme senior citizens ge yaavudu ide"}}
+{"text": "shakti yojane free bus yaarige sigutte", "action": "web_search", "slots": {"query": "shakti yojane free bus yaarige sigutte"}}
+{"text": "Mangalore inda Udupi distance", "action": "web_search", "slots": {"query": "Mangalore inda Udupi distance"}}
+{"text": "Krishna Rajendra market time enu", "action": "web_search", "slots": {"query": "Krishna Rajendra market time enu"}}
+{"text": "search maadi ganesha habba date ee varsha", "action": "web_search", "slots": {"query": "ganesha habba date ee varsha"}}
+{"text": "Kuvempu avaru yaavaga huttidru", "action": "web_search", "slots": {"query": "Kuvempu avaru yaavaga huttidru"}}
+{"text": "Mysore palace entry ticket eshtu", "action": "web_search", "slots": {"query": "Mysore palace entry ticket eshtu"}}
+{"text": "jwara bandaga enu tagobeku", "action": "web_search", "slots": {"query": "jwara bandaga enu tagobeku"}}
+{"text": "gas cylinder bele eshtu ee tingalu", "action": "web_search", "slots": {"query": "gas cylinder bele eshtu ee tingalu"}}
+{"text": "ivattina mukhya suddi enu", "action": "web_search", "slots": {"query": "ivattina mukhya suddi enu"}}
+{"text": "Google alli nodi adike rate Shimoga", "action": "web_search", "slots": {"query": "adike rate Shimoga"}}
+{"text": "kaafi bele eshtide Chikmagalur alli", "action": "web_search", "slots": {"query": "kaafi bele eshtide Chikmagalur alli"}}
+{"text": "sambar powder maneli maadodu hege", "action": "web_search", "slots": {"query": "sambar powder maneli maadodu hege"}}
+{"text": "voter id online apply hege", "action": "web_search", "slots": {"query": "voter id online apply hege"}}
+{"text": "Kabini dam neeru eshtu ide", "action": "web_search", "slots": {"query": "Kabini dam neeru eshtu ide"}}
+{"text": "Bangalore airport ge cab fare eshtu", "action": "web_search", "slots": {"query": "Bangalore airport ge cab fare eshtu"}}
+{"text": "pro kabaddi Bengaluru Bulls gelidra", "action": "web_search", "slots": {"query": "pro kabaddi Bengaluru Bulls gelidra"}}
+{"text": "yoga madodrinda enu laabha", "action": "web_search", "slots": {"query": "yoga madodrinda enu laabha"}}
+{"text": "swalpa nodi heli naale bank raje idya", "action": "web_search", "slots": {"query": "naale bank raje idya"}}
+{"text": "gold rate today bangalore 22 carat", "action": "web_search", "slots": {"query": "gold rate today bangalore 22 carat"}}
+{"text": "Jog falls ge hogodu hege", "action": "web_search", "slots": {"query": "Jog falls ge hogodu hege"}}
+{"text": "vidyut bill online kattodu hege bescom", "action": "web_search", "slots": {"query": "vidyut bill online kattodu hege bescom"}}
+{"text": "Hampi alli enu nodbeku", "action": "web_search", "slots": {"query": "Hampi alli enu nodbeku"}}
+{"text": "Belagavi inda Goa train timing", "action": "web_search", "slots": {"query": "Belagavi inda Goa train timing"}}
+{"text": "Ivattu suryasta eshtu gantege", "action": "web_search", "slots": {"query": "Ivattu suryasta eshtu gantege"}}
+{"text": "ondu search maadappa hosa kannada movie release", "action": "web_search", "slots": {"query": "hosa kannada movie release"}}
+{"text": "silk saree bele Mysore alli", "action": "web_search", "slots": {"query": "silk saree bele Mysore alli"}}
+{"text": "hotte novu ge mane maddu enu", "action": "web_search", "slots": {"query": "hotte novu ge mane maddu enu"}}
+{"text": "bhoomi RTC download hege maadodu", "action": "web_search", "slots": {"query": "bhoomi RTC download hege maadodu"}}
+{"text": "ivattu rahu kaala yaavaga", "action": "web_search", "slots": {"query": "ivattu rahu kaala yaavaga"}}
+{"text": "Puneeth Rajkumar last movie yaavudu", "action": "web_search", "slots": {"query": "Puneeth Rajkumar last movie yaavudu"}}
+{"text": "Dharmasthala ge bus elli sigutte", "action": "web_search", "slots": {"query": "Dharmasthala ge bus elli sigutte"}}
+{"text": "sensex ivattu eshtu", "action": "web_search", "slots": {"query": "sensex ivattu eshtu"}}
+{"text": "yuva nidhi scheme eligibility enu", "action": "web_search", "slots": {"query": "yuva nidhi scheme eligibility enu"}}
+{"text": "Whether naale Mysore alli", "action": "web_search", "slots": {"query": "Whether naale Mysore alli"}}
+{"text": "petrol rait estu ivattu bangluru", "action": "web_search", "slots": {"query": "petrol rait estu ivattu bangluru"}}
+{"text": "match score yenu aytu gotta", "action": "web_search", "slots": {"query": "match score yenu aytu"}}
+{"text": "gruha jyothi yojne apply hege", "action": "web_search", "slots": {"query": "gruha jyothi yojne apply hege"}}
+{"text": "kesari baath recipee", "action": "web_search", "slots": {"query": "kesari baath recipee"}}
+{"text": "chinna bele yestu ide ivatu", "action": "web_search", "slots": {"query": "chinna bele yestu ide ivatu"}}
+{"text": "sarkari kelasa notification ee tingalu", "action": "web_search", "slots": {"query": "sarkari kelasa notification ee tingalu"}}
+{"text": "Chamundi betta mele hogoke time eshtu", "action": "web_search", "slots": {"query": "Chamundi betta mele hogoke time eshtu"}}
+{"text": "Coorg alli trekking spots yaavu", "action": "web_search", "slots": {"query": "Coorg alli trekking spots yaavu"}}
+{"text": "akki bele kg ge eshtu", "action": "web_search", "slots": {"query": "akki bele kg ge eshtu"}}
+{"text": "mobile recharge plan Jio cheap yaavudu", "action": "web_search", "slots": {"query": "mobile recharge plan Jio cheap yaavudu"}}
+{"text": "chandra grahana yaavaga ide", "action": "web_search", "slots": {"query": "chandra grahana yaavaga ide"}}
+{"text": "please Google maadi diabetes ge yaava hannu olledu", "action": "web_search", "slots": {"query": "diabetes ge yaava hannu olledu"}}
+{"text": "Vande Bharat train Bangalore Dharwad timing", "action": "web_search", "slots": {"query": "Vande Bharat train Bangalore Dharwad timing"}}
+{"text": "ayushman card hege maadsodu", "action": "web_search", "slots": {"query": "ayushman card hege maadsodu"}}
+{"text": "olle hospital Jayanagar hattira yaavudu", "action": "web_search", "slots": {"query": "olle hospital Jayanagar hattira yaavudu"}}
+{"text": "nimbe juice kudidre enu olledu", "action": "web_search", "slots": {"query": "nimbe juice kudidre enu olledu"}}
+{"text": "Bengaluru traffic Silk Board hege ide eega", "action": "web_search", "slots": {"query": "Bengaluru traffic Silk Board hege ide eega"}}
+{"text": "Kannada rajyotsava award yaarige sikkide", "action": "web_search", "slots": {"query": "Kannada rajyotsava award yaarige sikkide"}}
+{"text": "ee varsha hattu tarde exam yaavaga", "action": "web_search", "slots": {"query": "ee varsha hattu tarde exam yaavaga"}}
+{"text": "huh ondu helu world cup yaaru gaddru", "action": "web_search", "slots": {"query": "world cup yaaru gaddru"}}
+{"text": "PUC result link", "action": "web_search", "slots": {"query": "PUC result link"}}
+{"text": "ಇವತ್ತು ಬೆಂಗಳೂರಲ್ಲಿ ಹವಾಮಾನ ಹೇಗಿದೆ", "action": "web_search", "slots": {"query": "ಇವತ್ತು ಬೆಂಗಳೂರಲ್ಲಿ ಹವಾಮಾನ ಹೇಗಿದೆ"}}
+{"text": "ಪೆಟ್ರೋಲ್ ಬೆಲೆ ಎಷ್ಟು ಇವತ್ತು", "action": "web_search", "slots": {"query": "ಪೆಟ್ರೋಲ್ ಬೆಲೆ ಎಷ್ಟು ಇವತ್ತು"}}
+{"text": "ಚಿನ್ನದ ದರ ಇವತ್ತು ಎಷ್ಟಿದೆ", "action": "web_search", "slots": {"query": "ಚಿನ್ನದ ದರ ಇವತ್ತು ಎಷ್ಟಿದೆ"}}
+{"text": "ಮ್ಯಾಚ್ ಯಾರು ಗೆದ್ದರು", "action": "web_search", "slots": {"query": "ಮ್ಯಾಚ್ ಯಾರು ಗೆದ್ದರು"}}
+{"text": "ಗೃಹಲಕ್ಷ್ಮಿ ಯೋಜನೆಗೆ ಅರ್ಜಿ ಹಾಕುವುದು ಹೇಗೆ", "action": "web_search", "slots": {"query": "ಗೃಹಲಕ್ಷ್ಮಿ ಯೋಜನೆಗೆ ಅರ್ಜಿ ಹಾಕುವುದು ಹೇಗೆ"}}
+{"text": "ಬಿಸಿಬೇಳೆ ಬಾತ್ ಮಾಡುವ ವಿಧಾನ", "action": "web_search", "slots": {"query": "ಬಿಸಿಬೇಳೆ ಬಾತ್ ಮಾಡುವ ವಿಧಾನ"}}
+{"text": "ಮೈಸೂರಿಂದ ಬೆಂಗಳೂರಿಗೆ ಎಷ್ಟು ಕಿಲೋಮೀಟರ್", "action": "web_search", "slots": {"query": "ಮೈಸೂರಿಂದ ಬೆಂಗಳೂರಿಗೆ ಎಷ್ಟು ಕಿಲೋಮೀಟರ್"}}
+{"text": "ಕರ್ನಾಟಕದ ಮುಖ್ಯಮಂತ್ರಿ ಯಾರು", "action": "web_search", "slots": {"query": "ಕರ್ನಾಟಕದ ಮುಖ್ಯಮಂತ್ರಿ ಯಾರು"}}
+{"text": "ದಯವಿಟ್ಟು ಹುಡುಕಿ ರಾಗಿ ರೊಟ್ಟಿ ಮಾಡೋದು ಹೇಗೆ", "action": "web_search", "slots": {"query": "ರಾಗಿ ರೊಟ್ಟಿ ಮಾಡೋದು ಹೇಗೆ"}}
+{"text": "ಆಧಾರ್ ಕಾರ್ಡ್ ಡೌನ್ಲೋಡ್ ಮಾಡೋದು ಹೇಗೆ", "action": "web_search", "slots": {"query": "ಆಧಾರ್ ಕಾರ್ಡ್ ಡೌನ್ಲೋಡ್ ಮಾಡೋದು ಹೇಗೆ"}}
+{"text": "ಈರುಳ್ಳಿ ಬೆಲೆ ಎಷ್ಟು ಕೆಜಿಗೆ", "action": "web_search", "slots": {"query": "ಈರುಳ್ಳಿ ಬೆಲೆ ಎಷ್ಟು ಕೆಜಿಗೆ"}}
+{"text": "ನಮ್ಮ ಮೆಟ್ರೋ ಕೊನೆ ರೈಲು ಎಷ್ಟು ಗಂಟೆಗೆ", "action": "web_search", "slots": {"query": "ನಮ್ಮ ಮೆಟ್ರೋ ಕೊನೆ ರೈಲು ಎಷ್ಟು ಗಂಟೆಗೆ"}}
+{"text": "ಆರ್‌ಸಿಬಿ ಸ್ಕೋರ್ ಎಷ್ಟು", "action": "web_search", "slots": {"query": "ಆರ್‌ಸಿಬಿ ಸ್ಕೋರ್ ಎಷ್ಟು"}}
+{"text": "ಸಕ್ಕರೆ ಕಾಯಿಲೆಗೆ ಯಾವ ಆಹಾರ ಒಳ್ಳೆಯದು", "action": "web_search", "slots": {"query": "ಸಕ್ಕರೆ ಕಾಯಿಲೆಗೆ ಯಾವ ಆಹಾರ ಒಳ್ಳೆಯದು"}}
+{"text": "ಪಿಎಂ ಕಿಸಾನ್ ಹಣ ಯಾವಾಗ ಬರುತ್ತೆ", "action": "web_search", "slots": {"query": "ಪಿಎಂ ಕಿಸಾನ್ ಹಣ ಯಾವಾಗ ಬರುತ್ತೆ"}}
+{"text": "ಇವತ್ತಿನ ಮುಖ್ಯ ಸುದ್ದಿ ಏನು", "action": "web_search", "slots": {"query": "ಇವತ್ತಿನ ಮುಖ್ಯ ಸುದ್ದಿ ಏನು"}}
+{"text": "ಅಡಿಕೆ ಧಾರಣೆ ಶಿವಮೊಗ್ಗ", "action": "web_search", "slots": {"query": "ಅಡಿಕೆ ಧಾರಣೆ ಶಿವಮೊಗ್ಗ"}}
+{"text": "ಕೆಎಸ್ಆರ್‌ಟಿಸಿ ಬಸ್ ಟೈಮಿಂಗ್ ಮಂಗಳೂರಿಗೆ", "action": "web_search", "slots": {"query": "ಕೆಎಸ್ಆರ್‌ಟಿಸಿ ಬಸ್ ಟೈಮಿಂಗ್ ಮಂಗಳೂರಿಗೆ"}}
+{"text": "ತಲೆನೋವಿಗೆ ಮನೆಮದ್ದು ಏನು", "action": "web_search", "slots": {"query": "ತಲೆನೋವಿಗೆ ಮನೆಮದ್ದು ಏನು"}}
+{"text": "ಹಂಪಿಯಲ್ಲಿ ನೋಡಬೇಕಾದ ಸ್ಥಳಗಳು", "action": "web_search", "slots": {"query": "ಹಂಪಿಯಲ್ಲಿ ನೋಡಬೇಕಾದ ಸ್ಥಳಗಳು"}}
+{"text": "ಗ್ಯಾಸ್ ಸಿಲಿಂಡರ್ ಬೆಲೆ ಎಷ್ಟು", "action": "web_search", "slots": {"query": "ಗ್ಯಾಸ್ ಸಿಲಿಂಡರ್ ಬೆಲೆ ಎಷ್ಟು"}}
+{"text": "ಕುವೆಂಪು ಅವರ ಪ್ರಸಿದ್ಧ ಕೃತಿಗಳು ಯಾವುವು", "action": "web_search", "slots": {"query": "ಕುವೆಂಪು ಅವರ ಪ್ರಸಿದ್ಧ ಕೃತಿಗಳು ಯಾವುವು"}}
+{"text": "ಸ್ವಲ್ಪ ನೋಡಿ ಹೇಳಿ ನಾಳೆ ಬ್ಯಾಂಕ್ ರಜೆ ಇದೆಯಾ", "action": "web_search", "slots": {"query": "ನಾಳೆ ಬ್ಯಾಂಕ್ ರಜೆ ಇದೆಯಾ"}}
+{"text": "ರೇಷನ್ ಕಾರ್ಡ್ ಸ್ಟೇಟಸ್ ನೋಡೋದು ಹೇಗೆ", "action": "web_search", "slots": {"query": "ರೇಷನ್ ಕಾರ್ಡ್ ಸ್ಟೇಟಸ್ ನೋಡೋದು ಹೇಗೆ"}}
+{"text": "ಹುಬ್ಬಳ್ಳಿ ನಾಳೆ ತಾಪಮಾನ", "action": "web_search", "slots": {"query": "ಹುಬ್ಬಳ್ಳಿ ನಾಳೆ ತಾಪಮಾನ"}}
+{"text": "ಡಾಲರ್ ರೇಟ್ ಇವತ್ತು ಎಷ್ಟು", "action": "web_search", "slots": {"query": "ಡಾಲರ್ ರೇಟ್ ಇವತ್ತು ಎಷ್ಟು"}}
+{"text": "ಶಕ್ತಿ ಯೋಜನೆ ಬಗ್ಗೆ ಮಾಹಿತಿ ಕೊಡಿ", "action": "web_search", "slots": {"query": "ಶಕ್ತಿ ಯೋಜನೆ"}}
+{"text": "ಮೈಸೂರು ಅರಮನೆ ಟಿಕೆಟ್ ಬೆಲೆ", "action": "web_search", "slots": {"query": "ಮೈಸೂರು ಅರಮನೆ ಟಿಕೆಟ್ ಬೆಲೆ"}}
+{"text": "ಎಸ್ಎಸ್ಎಲ್‌ಸಿ ಫಲಿತಾಂಶ ಯಾವಾಗ", "action": "web_search", "slots": {"query": "ಎಸ್ಎಸ್ಎಲ್‌ಸಿ ಫಲಿತಾಂಶ ಯಾವಾಗ"}}
+{"text": "ಬಿಪಿ ಕಡಿಮೆ ಮಾಡೋಕೆ ಏನು ಮಾಡಬೇಕು", "action": "web_search", "slots": {"query": "ಬಿಪಿ ಕಡಿಮೆ ಮಾಡೋಕೆ ಏನು ಮಾಡಬೇಕು"}}
+{"text": "ಗೂಗಲ್ ಮಾಡು ಟೊಮ್ಯಾಟೊ ಬೆಲೆ", "action": "web_search", "slots": {"query": "ಟೊಮ್ಯಾಟೊ ಬೆಲೆ"}}
+{"text": "ಜೋಗ ಜಲಪಾತಕ್ಕೆ ಹೋಗೋದು ಹೇಗೆ", "action": "web_search", "slots": {"query": "ಜೋಗ ಜಲಪಾತಕ್ಕೆ ಹೋಗೋದು ಹೇಗೆ"}}
+{"text": "ಇವತ್ತು ರಾಹುಕಾಲ ಎಷ್ಟು ಗಂಟೆಗೆ", "action": "web_search", "slots": {"query": "ಇವತ್ತು ರಾಹುಕಾಲ ಎಷ್ಟು ಗಂಟೆಗೆ"}}
+{"text": "ಹಿರಿಯ ನಾಗರಿಕರ ಪಿಂಚಣಿ ಯೋಜನೆ ಯಾವುದು", "action": "web_search", "slots": {"query": "ಹಿರಿಯ ನಾಗರಿಕರ ಪಿಂಚಣಿ ಯೋಜನೆ ಯಾವುದು"}}
+{"text": "ಕಾವೇರಿ ನೀರಿನ ಮಟ್ಟ ಎಷ್ಟಿದೆ", "action": "web_search", "slots": {"query": "ಕಾವೇರಿ ನೀರಿನ ಮಟ್ಟ ಎಷ್ಟಿದೆ"}}
+{"text": "ಚಂದ್ರಗ್ರಹಣ ಯಾವಾಗ", "action": "web_search", "slots": {"query": "ಚಂದ್ರಗ್ರಹಣ ಯಾವಾಗ"}}
+{"text": "ivala Hyderabad lo weather ela undi", "action": "web_search", "slots": {"query": "ivala Hyderabad lo weather ela undi"}}
+{"text": "petrol rate entha ivvala", "action": "web_search", "slots": {"query": "petrol rate entha ivvala"}}
+{"text": "Andi konchem gold price chudandi today", "action": "web_search", "slots": {"query": "gold price"}}
+{"text": "India match lo evaru gelicharu", "action": "web_search", "slots": {"query": "India match lo evaru gelicharu"}}
+{"text": "Rythu Bharosa scheme ki ela apply cheyali", "action": "web_search", "slots": {"query": "Rythu Bharosa scheme ki ela apply cheyali"}}
+{"text": "gongura pachadi ela cheyali recipe cheppu", "action": "web_search", "slots": {"query": "gongura pachadi ela cheyali recipe"}}
+{"text": "Vijayawada nunchi Tirupati ki entha distance", "action": "web_search", "slots": {"query": "Vijayawada nunchi Tirupati ki entha distance"}}
+{"text": "Tirumala darshanam timings enti repu", "action": "web_search", "slots": {"query": "Tirumala darshanam timings enti repu"}}
+{"text": "Google cheyi aadhar card address change process", "action": "web_search", "slots": {"query": "aadhar card address change process"}}
+{"text": "repu varsham padutunda", "action": "web_search", "slots": {"query": "repu varsham padutunda"}}
+{"text": "tomato dhara entha market lo", "action": "web_search", "slots": {"query": "tomato dhara entha market lo"}}
+{"text": "Pension status ela check cheyali online lo babu", "action": "web_search", "slots": {"query": "Pension status ela check cheyali online lo"}}
+{"text": "IPL score enti ippudu", "action": "web_search", "slots": {"query": "IPL score enti ippudu"}}
+{"text": "Sugar unnavallu em tinali search cheyandi please", "action": "web_search", "slots": {"query": "Sugar unnavallu em tinali"}}
+{"text": "dollor rate rupeelo entha", "action": "web_search", "slots": {"query": "dollor rate rupeelo entha"}}
+{"text": "Godavari Express timing enti Secunderabad nunchi", "action": "web_search", "slots": {"query": "Godavari Express timing enti Secunderabad nunchi"}}
+{"text": "Telangana lo SSC results eppudu vastay", "action": "web_search", "slots": {"query": "Telangana lo SSC results eppudu vastay"}}
+{"text": "chandrayaan three gurinchi vivaralu vethuku", "action": "web_search", "slots": {"query": "chandrayaan three"}}
+{"text": "Mobile lo UPI pin ela marchali", "action": "web_search", "slots": {"query": "Mobile lo UPI pin ela marchali"}}
+{"text": "Vizag lo temprature enta undi ipudu.", "action": "web_search", "slots": {"query": "Vizag lo temprature enta undi ipudu"}}
+{"text": "aaj Pune madhe havaman kasa aahe", "action": "web_search", "slots": {"query": "aaj Pune madhe havaman kasa aahe"}}
+{"text": "kanda bhav kay aahe aaj market la", "action": "web_search", "slots": {"query": "kanda bhav kay aahe aaj market la"}}
+{"text": "Ladki Bahin yojana sathi apply kasa karaycha", "action": "web_search", "slots": {"query": "Ladki Bahin yojana sathi apply kasa karaycha"}}
+{"text": "kal cha match kon jinkla", "action": "web_search", "slots": {"query": "kal cha match kon jinkla"}}
+{"text": "puran poli kashi banvaychi recipe sang na", "action": "web_search", "slots": {"query": "puran poli kashi banvaychi recipe"}}
+{"text": "Mumbai te Nashik kiti antar aahe", "action": "web_search", "slots": {"query": "Mumbai te Nashik kiti antar aahe"}}
+{"text": "Deccan Queen chi vel kay aahe", "action": "web_search", "slots": {"query": "Deccan Queen chi vel kay aahe"}}
+{"text": "jara search kar na PM Kisan installment kevha yenar", "action": "web_search", "slots": {"query": "PM Kisan installment kevha yenar"}}
+{"text": "sona cha rate kay aahe ajun", "action": "web_search", "slots": {"query": "sona cha rate kay aahe ajun"}}
+{"text": "udya paus padnar ka", "action": "web_search", "slots": {"query": "udya paus padnar ka"}}
+{"text": "Shivaji Maharaj cha janm kuthe jhala", "action": "web_search", "slots": {"query": "Shivaji Maharaj cha janm kuthe jhala"}}
+{"text": "BP kami karayla kay khava please shodh", "action": "web_search", "slots": {"query": "BP kami karayla kay khava"}}
+{"text": "Google kar Siddhivinayak mandir timing", "action": "web_search", "slots": {"query": "Siddhivinayak mandir timing"}}
+{"text": "HSC result kadhi lagnar aahe yaar", "action": "web_search", "slots": {"query": "HSC result kadhi lagnar aahe"}}
+{"text": "ration card madhe nav kasa add karaycha", "action": "web_search", "slots": {"query": "ration card madhe nav kasa add karaycha"}}
+{"text": "aaj sensex kiti var aahe", "action": "web_search", "slots": {"query": "aaj sensex kiti var aahe"}}
+{"text": "Nagpur madhe tapman kiti aahe", "action": "web_search", "slots": {"query": "Nagpur madhe tapman kiti aahe"}}
+{"text": "diesel cha dar kai aahe aaj.", "action": "web_search", "slots": {"query": "diesel cha dar kai aahe aaj"}}
+{"text": "laptop slow jhala tar kay karayche", "action": "web_search", "slots": {"query": "laptop slow jhala tar kay karayche"}}
+{"text": "Ganpati visarjan muhurat kevha aahe yaa varshi", "action": "web_search", "slots": {"query": "Ganpati visarjan muhurat kevha aahe yaa varshi"}}
+{"text": "aaj Kolkata te weather kemon", "action": "web_search", "slots": {"query": "aaj Kolkata te weather kemon"}}
+{"text": "machher dam koto ekhon bazare", "action": "web_search", "slots": {"query": "machher dam koto ekhon bazare"}}
+{"text": "kalker khela ke jitlo", "action": "web_search", "slots": {"query": "kalker khela ke jitlo"}}
+{"text": "Lakshmir Bhandar e kivabe apply korbo", "action": "web_search", "slots": {"query": "Lakshmir Bhandar e kivabe apply korbo"}}
+{"text": "shorshe ilish ranna kivabe kore", "action": "web_search", "slots": {"query": "shorshe ilish ranna kivabe kore"}}
+{"text": "Howrah theke Digha koto dur", "action": "web_search", "slots": {"query": "Howrah theke Digha koto dur"}}
+{"text": "Darjeeling Mail er time ta ektu dekho", "action": "web_search", "slots": {"query": "Darjeeling Mail er time"}}
+{"text": "sonar dam koto aaj", "action": "web_search", "slots": {"query": "sonar dam koto aaj"}}
+{"text": "kal brishti hobe naki", "action": "web_search", "slots": {"query": "kal brishti hobe naki"}}
+{"text": "Rabindranath Tagore Nobel kobe peyechilen", "action": "web_search", "slots": {"query": "Rabindranath Tagore Nobel kobe peyechilen"}}
+{"text": "please search koro Durga Puja kobe shuru", "action": "web_search", "slots": {"query": "Durga Puja kobe shuru"}}
+{"text": "Madhyamik result kobe berobe", "action": "web_search", "slots": {"query": "Madhyamik result kobe berobe"}}
+{"text": "jor hole ki osudh khabo", "action": "web_search", "slots": {"query": "jor hole ki osudh khabo"}}
+{"text": "Google koro passport renewal process", "action": "web_search", "slots": {"query": "passport renewal process"}}
+{"text": "aloo r dam koto Sealdah bazare", "action": "web_search", "slots": {"query": "aloo r dam koto Sealdah bazare"}}
+{"text": "Mohun Bagan er match score ki", "action": "web_search", "slots": {"query": "Mohun Bagan er match score ki"}}
+{"text": "Kolkata metro last train koto ta e", "action": "web_search", "slots": {"query": "Kolkata metro last train koto ta e"}}
+{"text": "phone e WhatsApp backup kivabe nibo", "action": "web_search", "slots": {"query": "phone e WhatsApp backup kivabe nibo"}}
+{"text": "Siliguri te tapmatra koto.", "action": "web_search", "slots": {"query": "Siliguri te tapmatra koto"}}
+{"text": "Swasthya Sathi card er hospital list dekhao", "action": "web_search", "slots": {"query": "Swasthya Sathi card er hospital list"}}
+{"text": "innu Kochi il weather engane und", "action": "web_search", "slots": {"query": "innu Kochi il weather engane und"}}
+{"text": "petrol vila ethra aanu innu", "action": "web_search", "slots": {"query": "petrol vila ethra aanu innu"}}
+{"text": "innale match aaru jayichu", "action": "web_search", "slots": {"query": "innale match aaru jayichu"}}
+{"text": "avial undakkunna vidham onnu nokku", "action": "web_search", "slots": {"query": "avial undakkunna vidham"}}
+{"text": "Thiruvananthapuram ninnu Kozhikode ethra dooram", "action": "web_search", "slots": {"query": "Thiruvananthapuram ninnu Kozhikode ethra dooram"}}
+{"text": "Sabarimala nada thurakkunna samayam eppol", "action": "web_search", "slots": {"query": "Sabarimala nada thurakkunna samayam eppol"}}
+{"text": "swarna vila ethra innu", "action": "web_search", "slots": {"query": "swarna vila ethra innu"}}
+{"text": "naale mazha undo", "action": "web_search", "slots": {"query": "naale mazha undo"}}
+{"text": "Life Mission veedu scheme engane apply cheyyam", "action": "web_search", "slots": {"query": "Life Mission veedu scheme engane apply cheyyam"}}
+{"text": "SSLC result eppol varum mone", "action": "web_search", "slots": {"query": "SSLC result eppol varum"}}
+{"text": "onnu search cheyyu Onam eppol aanu ee kollam", "action": "web_search", "slots": {"query": "Onam eppol aanu ee kollam"}}
+{"text": "Kerala Blasters score enthaayi", "action": "web_search", "slots": {"query": "Kerala Blasters score enthaayi"}}
+{"text": "Vande Bharat train time Ernakulam il ninnu", "action": "web_search", "slots": {"query": "Vande Bharat train time Ernakulam il ninnu"}}
+{"text": "kudal pain maaran enthu kazhikkanam", "action": "web_search", "slots": {"query": "kudal pain maaran enthu kazhikkanam"}}
+{"text": "Google cheyyu KSEB bill engane online adakkam", "action": "web_search", "slots": {"query": "KSEB bill engane online adakkam"}}
+{"text": "rubber vila ethra Kottayam market il", "action": "web_search", "slots": {"query": "rubber vila ethra Kottayam market il"}}
+{"text": "Mohanlal nte puthiya cinema release date", "action": "web_search", "slots": {"query": "Mohanlal nte puthiya cinema release date"}}
+{"text": "Munnar il thanuppu ethra degree", "action": "web_search", "slots": {"query": "Munnar il thanuppu ethra degree"}}
+{"text": "pettrol villa ethra aa innu.", "action": "web_search", "slots": {"query": "pettrol villa ethra aa innu"}}
+{"text": "computer il screenshot edukkunnathu engane", "action": "web_search", "slots": {"query": "computer il screenshot edukkunnathu engane"}}
+{"text": "aaje Ahmedabad ma vatavaran kevu che", "action": "web_search", "slots": {"query": "aaje Ahmedabad ma vatavaran kevu che"}}
+{"text": "sona no bhav ketlo che aaje", "action": "web_search", "slots": {"query": "sona no bhav ketlo che aaje"}}
+{"text": "kale match kon jityu", "action": "web_search", "slots": {"query": "kale match kon jityu"}}
+{"text": "dhokla kevi rite banavay recipe batavo", "action": "web_search", "slots": {"query": "dhokla kevi rite banavay recipe"}}
+{"text": "Surat thi Rajkot ketlu door che", "action": "web_search", "slots": {"query": "Surat thi Rajkot ketlu door che"}}
+{"text": "Somnath mandir aarti no samay shu che", "action": "web_search", "slots": {"query": "Somnath mandir aarti no samay shu che"}}
+{"text": "kale varsad padse ke nahi", "action": "web_search", "slots": {"query": "kale varsad padse ke nahi"}}
+{"text": "jara search karo ne Navratri kyare che", "action": "web_search", "slots": {"query": "Navratri kyare che"}}
+{"text": "kapas no bhav shu chale che mandi ma", "action": "web_search", "slots": {"query": "kapas no bhav shu chale che mandi ma"}}
+{"text": "Ayushman card kevi rite kadhavay", "action": "web_search", "slots": {"query": "Ayushman card kevi rite kadhavay"}}
+{"text": "Sardar Patel no janm kyare thayo hato", "action": "web_search", "slots": {"query": "Sardar Patel no janm kyare thayo hato"}}
+{"text": "GSEB result kyare aavse beta", "action": "web_search", "slots": {"query": "GSEB result kyare aavse"}}
+{"text": "Google karo gas cylinder booking number", "action": "web_search", "slots": {"query": "gas cylinder booking number"}}
+{"text": "diesel no bhav shu che", "action": "web_search", "slots": {"query": "diesel no bhav shu che"}}
+{"text": "sandha na dukhava mate shu karvu", "action": "web_search", "slots": {"query": "sandha na dukhava mate shu karvu"}}
+{"text": "Shatabdi train no time Vadodara thi", "action": "web_search", "slots": {"query": "Shatabdi train no time Vadodara thi"}}
+{"text": "Bhuj ma tapmaan ketlu che.", "action": "web_search", "slots": {"query": "Bhuj ma tapmaan ketlu che"}}
+{"text": "jeeru no bhav ketlo Unjha ma", "action": "web_search", "slots": {"query": "jeeru no bhav ketlo Unjha ma"}}
+{"text": "Gujarat Titans no score shu thayo", "action": "web_search", "slots": {"query": "Gujarat Titans no score shu thayo"}}
+{"text": "pan card link aadhar sathe kevi rite karvu", "action": "web_search", "slots": {"query": "pan card link aadhar sathe kevi rite karvu"}}
+{"text": "ajj Amritsar vich mausam kiddan da", "action": "web_search", "slots": {"query": "ajj Amritsar vich mausam kiddan da"}}
+{"text": "kanak da rate ki chal reha mandi vich", "action": "web_search", "slots": {"query": "kanak da rate ki chal reha mandi vich"}}
+{"text": "kal da match kehne jitya", "action": "web_search", "slots": {"query": "kal da match kehne jitya"}}
+{"text": "sarson da saag kiven banaida dasso", "action": "web_search", "slots": {"query": "sarson da saag kiven banaida"}}
+{"text": "Ludhiana ton Chandigarh kinni door aa", "action": "web_search", "slots": {"query": "Ludhiana ton Chandigarh kinni door aa"}}
+{"text": "Darbar Sahib vich Palki Sahib da time ki aa", "action": "web_search", "slots": {"query": "Darbar Sahib vich Palki Sahib da time ki aa"}}
+{"text": "kal meenh pauga", "action": "web_search", "slots": {"query": "kal meenh pauga"}}
+{"text": "yaar zara search kar Canada visa layi ki chahida", "action": "web_search", "slots": {"query": "Canada visa layi ki chahida"}}
+{"text": "sone da bhaa ki aa ajj", "action": "web_search", "slots": {"query": "sone da bhaa ki aa ajj"}}
+{"text": "budhapa pension di arzi kiven deni aa", "action": "web_search", "slots": {"query": "budhapa pension di arzi kiven deni aa"}}
+{"text": "PSEB result kado aauga", "action": "web_search", "slots": {"query": "PSEB result kado aauga"}}
+{"text": "Google karo Punjab bus pass online", "action": "web_search", "slots": {"query": "Punjab bus pass online"}}
+{"text": "Bhagat Singh da janam kithe hoya si", "action": "web_search", "slots": {"query": "Bhagat Singh da janam kithe hoya si"}}
+{"text": "petrol kinne da ho gaya ajj", "action": "web_search", "slots": {"query": "petrol kinne da ho gaya ajj"}}
+{"text": "Punjab Kings da score ki aa", "action": "web_search", "slots": {"query": "Punjab Kings da score ki aa"}}
+{"text": "Shatabdi Express da time Amritsar ton", "action": "web_search", "slots": {"query": "Shatabdi Express da time Amritsar ton"}}
+{"text": "gode de dard layi ki karna chahida", "action": "web_search", "slots": {"query": "gode de dard layi ki karna chahida"}}
+{"text": "Jalandhar vich tapmaan kinna aa.", "action": "web_search", "slots": {"query": "Jalandhar vich tapmaan kinna aa"}}
+{"text": "Gurpurab kado aa is saal", "action": "web_search", "slots": {"query": "Gurpurab kado aa is saal"}}
+{"text": "jee mail da password kiven reset karida", "action": "web_search", "slots": {"query": "jee mail da password kiven reset karida"}}
+{"text": "indru chennai la weather eppadi irukku", "action": "web_search", "slots": {"query": "indru chennai la weather eppadi irukku"}}
+{"text": "petrol vilai enna inniku", "action": "web_search", "slots": {"query": "petrol vilai enna inniku"}}
+{"text": "thangam vilai indru evvalavu", "action": "web_search", "slots": {"query": "thangam vilai indru evvalavu"}}
+{"text": "gold rate today chennai", "action": "web_search", "slots": {"query": "gold rate today chennai"}}
+{"text": "yaaru match jeichaanga", "action": "web_search", "slots": {"query": "yaaru match jeichaanga"}}
+{"text": "india score enna ippo", "action": "web_search", "slots": {"query": "india score enna ippo"}}
+{"text": "CSK match result enna", "action": "web_search", "slots": {"query": "CSK match result enna"}}
+{"text": "pongal eppadi seiyradhu", "action": "web_search", "slots": {"query": "pongal eppadi seiyradhu"}}
+{"text": "sambar recipe sollu", "action": "web_search", "slots": {"query": "sambar recipe"}}
+{"text": "madurai la irundhu trichy evvalavu dooram", "action": "web_search", "slots": {"query": "madurai la irundhu trichy evvalavu dooram"}}
+{"text": "chennai to bangalore distance enna", "action": "web_search", "slots": {"query": "chennai to bangalore distance enna"}}
+{"text": "train timing chennai to coimbatore paaru", "action": "web_search", "slots": {"query": "train timing chennai to coimbatore"}}
+{"text": "pm kisan scheme pathi sollu", "action": "web_search", "slots": {"query": "pm kisan scheme"}}
+{"text": "magalir urimai thogai eppo varum", "action": "web_search", "slots": {"query": "magalir urimai thogai eppo varum"}}
+{"text": "ration card apply panradhu eppadi", "action": "web_search", "slots": {"query": "ration card apply panradhu eppadi"}}
+{"text": "aadhaar pan link eppadi pannradhu", "action": "web_search", "slots": {"query": "aadhaar pan link eppadi pannradhu"}}
+{"text": "konjam weather paarunga please", "action": "web_search", "slots": {"query": "weather"}}
+{"text": "google pannu tomato price koyambedu", "action": "web_search", "slots": {"query": "tomato price koyambedu"}}
+{"text": "search pannu dollar rate today", "action": "web_search", "slots": {"query": "dollar rate today"}}
+{"text": "onion vilai enna kilo ku", "action": "web_search", "slots": {"query": "onion vilai enna kilo ku"}}
+{"text": "silver rate enna inniku", "action": "web_search", "slots": {"query": "silver rate enna inniku"}}
+{"text": "nalla doctor near me thedu", "action": "web_search", "slots": {"query": "nalla doctor near me"}}
+{"text": "amma ku sugar ku enna saapidalam", "action": "web_search", "slots": {"query": "amma ku sugar ku enna saapidalam"}}
+{"text": "BP kuraiya enna pannalam", "action": "web_search", "slots": {"query": "BP kuraiya enna pannalam"}}
+{"text": "tamil nadu cm yaaru", "action": "web_search", "slots": {"query": "tamil nadu cm yaaru"}}
+{"text": "india prime minister yaar", "action": "web_search", "slots": {"query": "india prime minister yaar"}}
+{"text": "ipl final eppo", "action": "web_search", "slots": {"query": "ipl final eppo"}}
+{"text": "world cup score sollunga", "action": "web_search", "slots": {"query": "world cup score"}}
+{"text": "kabaddi match result", "action": "web_search", "slots": {"query": "kabaddi match result"}}
+{"text": "covai la ippo temperature evvalavu", "action": "web_search", "slots": {"query": "covai la ippo temperature evvalavu"}}
+{"text": "cyclone news enna", "action": "web_search", "slots": {"query": "cyclone news enna"}}
+{"text": "school leave irukka naalaiku", "action": "web_search", "slots": {"query": "school leave irukka naalaiku"}}
+{"text": "bank holiday eppo", "action": "web_search", "slots": {"query": "bank holiday eppo"}}
+{"text": "diwali eppo indha varusham", "action": "web_search", "slots": {"query": "diwali eppo indha varusham"}}
+{"text": "pongal leave dates enna", "action": "web_search", "slots": {"query": "pongal leave dates enna"}}
+{"text": "old age pension apply eppadi", "action": "web_search", "slots": {"query": "old age pension apply eppadi"}}
+{"text": "pension amount evvalavu", "action": "web_search", "slots": {"query": "pension amount evvalavu"}}
+{"text": "gas cylinder vilai enna", "action": "web_search", "slots": {"query": "gas cylinder vilai enna"}}
+{"text": "LPG subsidy eppadi check pannradhu", "action": "web_search", "slots": {"query": "LPG subsidy eppadi check pannradhu"}}
+{"text": "electricity bill online la eppadi kattuvadhu", "action": "web_search", "slots": {"query": "electricity bill online la eppadi kattuvadhu"}}
+{"text": "EB bill check pannu", "action": "web_search", "slots": {"query": "EB bill"}}
+{"text": "bus timing madurai to tirunelveli", "action": "web_search", "slots": {"query": "bus timing madurai to tirunelveli"}}
+{"text": "flight ticket rate chennai delhi", "action": "web_search", "slots": {"query": "flight ticket rate chennai delhi"}}
+{"text": "rasam seiyura murai", "action": "web_search", "slots": {"query": "rasam seiyura murai"}}
+{"text": "biryani eppadi pannuvadhu ya", "action": "web_search", "slots": {"query": "biryani eppadi pannuvadhu"}}
+{"text": "idli maavu eppadi araikkiradhu", "action": "web_search", "slots": {"query": "idli maavu eppadi araikkiradhu"}}
+{"text": "kolam designs pathi thedu", "action": "web_search", "slots": {"query": "kolam designs"}}
+{"text": "yaa konjam sollu meenakshi amman kovil timing", "action": "web_search", "slots": {"query": "meenakshi amman kovil timing"}}
+{"text": "tirupati darshan ticket eppadi book pannradhu", "action": "web_search", "slots": {"query": "tirupati darshan ticket eppadi book pannradhu"}}
+{"text": "palani kovil open time enna", "action": "web_search", "slots": {"query": "palani kovil open time enna"}}
+{"text": "diabetes ku enna saapidakoodadhu", "action": "web_search", "slots": {"query": "diabetes ku enna saapidakoodadhu"}}
+{"text": "fever ku home remedy", "action": "web_search", "slots": {"query": "fever ku home remedy"}}
+{"text": "sensex inniku eppadi", "action": "web_search", "slots": {"query": "sensex inniku eppadi"}}
+{"text": "share market news", "action": "web_search", "slots": {"query": "share market news"}}
+{"text": "mutual fund na enna", "action": "web_search", "slots": {"query": "mutual fund na enna"}}
+{"text": "FD interest rate SBI", "action": "web_search", "slots": {"query": "FD interest rate SBI"}}
+{"text": "loan interest rate enna", "action": "web_search", "slots": {"query": "loan interest rate enna"}}
+{"text": "eppadi english pesa kathukkuradhu", "action": "web_search", "slots": {"query": "eppadi english pesa kathukkuradhu"}}
+{"text": "computer la screenshot eppadi edukkuradhu", "action": "web_search", "slots": {"query": "computer la screenshot eppadi edukkuradhu"}}
+{"text": "whatsapp la photo eppadi anuppuradhu", "action": "web_search", "slots": {"query": "whatsapp la photo eppadi anuppuradhu"}}
+{"text": "mobile recharge plans jio", "action": "web_search", "slots": {"query": "mobile recharge plans jio"}}
+{"text": "neet result eppo varum", "action": "web_search", "slots": {"query": "neet result eppo varum"}}
+{"text": "plus two result date", "action": "web_search", "slots": {"query": "plus two result date"}}
+{"text": "tnpsc group 4 notification", "action": "web_search", "slots": {"query": "tnpsc group 4 notification"}}
+{"text": "government job vacancy tamil nadu", "action": "web_search", "slots": {"query": "government job vacancy tamil nadu"}}
+{"text": "vidiyal payanam scheme enna", "action": "web_search", "slots": {"query": "vidiyal payanam scheme enna"}}
+{"text": "kalaignar kanavu illam scheme details", "action": "web_search", "slots": {"query": "kalaignar kanavu illam scheme details"}}
+{"text": "ooty la weather eppadi irukku", "action": "web_search", "slots": {"query": "ooty la weather eppadi irukku"}}
+{"text": "kodaikanal pogumbodhu enna paakalam", "action": "web_search", "slots": {"query": "kodaikanal pogumbodhu enna paakalam"}}
+{"text": "nearest hospital enga irukku", "action": "web_search", "slots": {"query": "nearest hospital enga irukku"}}
+{"text": "pharmacy open ah ippo", "action": "web_search", "slots": {"query": "pharmacy open ah ippo"}}
+{"text": "moon distance evvalavu", "action": "web_search", "slots": {"query": "moon distance evvalavu"}}
+{"text": "everest height enna", "action": "web_search", "slots": {"query": "everest height enna"}}
+{"text": "tamil month inniku enna", "action": "web_search", "slots": {"query": "tamil month inniku enna"}}
+{"text": "nalla neram inniku enna", "action": "web_search", "slots": {"query": "nalla neram inniku enna"}}
+{"text": "rahu kalam inniku", "action": "web_search", "slots": {"query": "rahu kalam inniku"}}
+{"text": "panchangam inniku paaru", "action": "web_search", "slots": {"query": "panchangam inniku"}}
+{"text": "whether eppadi irukku chennai", "action": "web_search", "slots": {"query": "whether eppadi irukku chennai"}}
+{"text": "petrol rait enna", "action": "web_search", "slots": {"query": "petrol rait enna"}}
+{"text": "gold reat today", "action": "web_search", "slots": {"query": "gold reat today"}}
+{"text": "kriket score enna", "action": "web_search", "slots": {"query": "kriket score enna"}}
+{"text": "saambar resipy", "action": "web_search", "slots": {"query": "saambar resipy"}}
+{"text": "tamil naadu sium yaaru", "action": "web_search", "slots": {"query": "tamil naadu sium yaaru"}}
+{"text": "mazhai varuma naalaiku madurai la sollu", "action": "web_search", "slots": {"query": "mazhai varuma naalaiku madurai la"}}
+{"text": "inniku news enna", "action": "web_search", "slots": {"query": "inniku news enna"}}
+{"text": "wether report coimbatore", "action": "web_search", "slots": {"query": "wether report coimbatore"}}
+{"text": "ration kadai timing enna", "action": "web_search", "slots": {"query": "ration kadai timing enna"}}
+{"text": "பெட்ரோல் விலை என்ன இன்னிக்கு", "action": "web_search", "slots": {"query": "பெட்ரோல் விலை என்ன இன்னிக்கு"}}
+{"text": "இன்று சென்னை வானிலை எப்படி", "action": "web_search", "slots": {"query": "இன்று சென்னை வானிலை எப்படி"}}
+{"text": "நாளைக்கு மழை வருமா", "action": "web_search", "slots": {"query": "நாளைக்கு மழை வருமா"}}
+{"text": "தங்கம் விலை இன்று", "action": "web_search", "slots": {"query": "தங்கம் விலை இன்று"}}
+{"text": "இந்தியா ஸ்கோர் என்ன", "action": "web_search", "slots": {"query": "இந்தியா ஸ்கோர் என்ன"}}
+{"text": "யார் மேட்ச் ஜெயிச்சாங்க", "action": "web_search", "slots": {"query": "யார் மேட்ச் ஜெயிச்சாங்க"}}
+{"text": "சாம்பார் எப்படி செய்வது", "action": "web_search", "slots": {"query": "சாம்பார் எப்படி செய்வது"}}
+{"text": "பொங்கல் செய்முறை சொல்லு", "action": "web_search", "slots": {"query": "பொங்கல் செய்முறை"}}
+{"text": "மதுரை to திருச்சி எவ்வளவு தூரம்", "action": "web_search", "slots": {"query": "மதுரை to திருச்சி எவ்வளவு தூரம்"}}
+{"text": "ரேஷன் கார்டு எப்படி apply பண்றது", "action": "web_search", "slots": {"query": "ரேஷன் கார்டு எப்படி apply பண்றது"}}
+{"text": "மகளிர் உரிமைத் தொகை எப்போ வரும்", "action": "web_search", "slots": {"query": "மகளிர் உரிமைத் தொகை எப்போ வரும்"}}
+{"text": "முதியோர் உதவித் தொகை எப்படி வாங்குவது", "action": "web_search", "slots": {"query": "முதியோர் உதவித் தொகை எப்படி வாங்குவது"}}
+{"text": "தமிழ்நாடு முதல்வர் யார்", "action": "web_search", "slots": {"query": "தமிழ்நாடு முதல்வர் யார்"}}
+{"text": "சர்க்கரை நோய்க்கு என்ன சாப்பிடலாம்", "action": "web_search", "slots": {"query": "சர்க்கரை நோய்க்கு என்ன சாப்பிடலாம்"}}
+{"text": "காய்ச்சலுக்கு வீட்டு வைத்தியம்", "action": "web_search", "slots": {"query": "காய்ச்சலுக்கு வீட்டு வைத்தியம்"}}
+{"text": "பஸ் டைமிங் கோவை to சேலம்", "action": "web_search", "slots": {"query": "பஸ் டைமிங் கோவை to சேலம்"}}
+{"text": "வெங்காயம் விலை என்ன", "action": "web_search", "slots": {"query": "வெங்காயம் விலை என்ன"}}
+{"text": "கூகுள் பண்ணு டாலர் ரேட்", "action": "web_search", "slots": {"query": "டாலர் ரேட்"}}
+{"text": "திருப்பதி தரிசனம் டிக்கெட் எப்படி", "action": "web_search", "slots": {"query": "திருப்பதி தரிசனம் டிக்கெட் எப்படி"}}
+{"text": "இன்னிக்கு நல்ல நேரம் என்ன", "action": "web_search", "slots": {"query": "இன்னிக்கு நல்ல நேரம் என்ன"}}
+{"text": "ராகு காலம் இன்னிக்கு எப்போ", "action": "web_search", "slots": {"query": "ராகு காலம் இன்னிக்கு எப்போ"}}
+{"text": "நீட் ரிசல்ட் எப்போ வரும்", "action": "web_search", "slots": {"query": "நீட் ரிசல்ட் எப்போ வரும்"}}
+{"text": "சிஎஸ்கே மேட்ச் ரிசல்ட்", "action": "web_search", "slots": {"query": "சிஎஸ்கே மேட்ச் ரிசல்ட்"}}
+{"text": "கேஸ் சிலிண்டர் விலை என்ன", "action": "web_search", "slots": {"query": "கேஸ் சிலிண்டர் விலை என்ன"}}
+{"text": "ஊட்டியில் இப்போ குளிர் எப்படி", "action": "web_search", "slots": {"query": "ஊட்டியில் இப்போ குளிர் எப்படி"}}
+{"text": "பிரியாணி எப்படி பண்றது", "action": "web_search", "slots": {"query": "பிரியாணி எப்படி பண்றது"}}
+{"text": "பிஎம் கிசான் பணம் வந்ததா எப்படி பாக்குறது", "action": "web_search", "slots": {"query": "பிஎம் கிசான் பணம் வந்ததா எப்படி பாக்குறது"}}
+{"text": "சென்செக்ஸ் இன்னிக்கு எப்படி", "action": "web_search", "slots": {"query": "சென்செக்ஸ் இன்னிக்கு எப்படி"}}
+{"text": "தேடு அருகில் உள்ள மருத்துவமனை", "action": "web_search", "slots": {"query": "அருகில் உள்ள மருத்துவமனை"}}
+{"text": "தீபாவளி எப்போ இந்த வருஷம்", "action": "web_search", "slots": {"query": "தீபாவளி எப்போ இந்த வருஷம்"}}
+{"text": "EB bill eppadi online la kattuvadhu konjam sollunga", "action": "web_search", "slots": {"query": "EB bill eppadi online la kattuvadhu"}}

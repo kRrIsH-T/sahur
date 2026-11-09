@@ -1,0 +1,420 @@
+{"text": "notpad ah open panni hello world nu type pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notpad"}}, {"action": "type_text", "slots": {"text": "hello world"}}], "joiners": ["panni"]}
+{"text": "MS Word open pannu apram Respected Sir nu type pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "MS Word"}}, {"action": "type_text", "slots": {"text": "Respected Sir"}}], "joiners": ["apram"]}
+{"text": "sticky notes thoranthu paal vaanganum muttai vaanganum nu ezhudhu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "sticky notes"}}, {"action": "type_text", "slots": {"text": "paal vaanganum muttai vaanganum"}}], "joiners": ["thoranthu"]}
+{"text": "uh OneNote open pannitu project ideas list nu type pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "OneNote"}}, {"action": "type_text", "slots": {"text": "project ideas list"}}], "joiners": ["pannitu"]}
+{"text": "wordpad open pannu then type pannu my name is karthik", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "wordpad"}}, {"action": "type_text", "slots": {"text": "my name is karthik"}}], "joiners": ["then"]}
+{"text": "Notepad திறந்து நாளைக்கு மீட்டிங் இருக்கு னு டைப் பண்ணு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Notepad"}}, {"action": "type_text", "slots": {"text": "நாளைக்கு மீட்டிங் இருக்கு"}}], "joiners": ["திறந்து"]}
+{"text": "google docs open panni adhula chapter one introduction nu type pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "google docs"}}, {"action": "type_text", "slots": {"text": "chapter one introduction"}}], "joiners": ["panni", "adhula"]}
+{"text": "excel open pannu athuku apram total sales nu type pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "excel"}}, {"action": "type_text", "slots": {"text": "total sales"}}], "joiners": ["athuku apram"]}
+{"text": "outlook open panni please find the attached report nu ezhudhu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "outlook"}}, {"action": "type_text", "slots": {"text": "please find the attached report"}}], "joiners": ["panni"]}
+{"text": "Notepad++ open pannu and print hello nu adi", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Notepad++"}}, {"action": "type_text", "slots": {"text": "print hello"}}], "joiners": ["and"]}
+{"text": "notepad thiranthu rent kuduthachu nu ezhuthu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "rent kuduthachu"}}], "joiners": ["thiranthu"]}
+{"text": "Word ஓபன் பண்ணி அன்புள்ள அம்மாவுக்கு னு எழுது", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Word"}}, {"action": "type_text", "slots": {"text": "அன்புள்ள அம்மாவுக்கு"}}], "joiners": ["பண்ணி"]}
+{"text": "onenote open pannunga appuram class notes chemistry nu type pannunga", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "onenote"}}, {"action": "type_text", "slots": {"text": "class notes chemistry"}}], "joiners": ["appuram"]}
+{"text": "settings open panni Bluetooth mela click pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "settings"}}, {"action": "click", "slots": {"target": "Bluetooth"}}], "joiners": ["panni"]}
+{"text": "file explorer thoranthu Downloads folder click pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "file explorer"}}, {"action": "click", "slots": {"target": "Downloads"}}], "joiners": ["thoranthu"]}
+{"text": "Teams open pannu apram Join button amuthu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Teams"}}, {"action": "click", "slots": {"target": "Join"}}], "joiners": ["apram"]}
+{"text": "ஜூம் ஓபன் பண்ணிட்டு New Meeting கிளிக் பண்ணு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ஜூம்"}}, {"action": "click", "slots": {"target": "New Meeting"}}], "joiners": ["பண்ணிட்டு"]}
+{"text": "Spotify திறந்து Liked Songs கிளிக் பண்ணு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Spotify"}}, {"action": "click", "slots": {"target": "Liked Songs"}}], "joiners": ["திறந்து"]}
+{"text": "control panel ah open pannitu Programs click pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "control panel"}}, {"action": "click", "slots": {"target": "Programs"}}], "joiners": ["pannitu"]}
+{"text": "Photos open pannu athukapuram Albums tab press pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Photos"}}, {"action": "click", "slots": {"target": "Albums"}}], "joiners": ["athukapuram"]}
+{"text": "Paint open pannu apram Photos open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Paint"}}, {"action": "open_app", "slots": {"app": "Photos"}}], "joiners": ["apram"]}
+{"text": "VS Code open pannu then terminal um open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "VS Code"}}, {"action": "open_app", "slots": {"app": "terminal"}}], "joiners": ["then"]}
+{"text": "task manager open panni resource monitor thora", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "task manager"}}, {"action": "open_app", "slots": {"app": "resource monitor"}}], "joiners": ["panni"]}
+{"text": "Excel மற்றும் PowerPoint ஓபன் பண்ணு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Excel"}}, {"action": "open_app", "slots": {"app": "PowerPoint"}}], "joiners": ["மற்றும்"]}
+{"text": "Slack thorandhu vei appuram Outlook open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Slack"}}, {"action": "open_app", "slots": {"app": "Outlook"}}], "joiners": ["appuram"]}
+{"text": "chrome open panni chennai weather paaru", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "chennai weather"}}], "joiners": ["panni"]}
+{"text": "Edge thoranthu gold rate today search pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Edge"}}, {"action": "web_search", "slots": {"query": "gold rate today"}}], "joiners": ["thoranthu"]}
+{"text": "Firefox ஓபன் பண்ணு அப்புறம் IPL points table தேடு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Firefox"}}, {"action": "web_search", "slots": {"query": "IPL points table"}}], "joiners": ["அப்புறம்"]}
+{"text": "crome open pannitu best biryani near me google pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "crome"}}, {"action": "web_search", "slots": {"query": "best biryani near me"}}], "joiners": ["pannitu"]}
+{"text": "brave open pannu adhula Leo movie review search pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "brave"}}, {"action": "web_search", "slots": {"query": "Leo movie review"}}], "joiners": ["adhula"]}
+{"text": "Chrome திறந்து இன்னைக்கு பெட்ரோல் விலை தேடு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "web_search", "slots": {"query": "இன்னைக்கு பெட்ரோல் விலை"}}], "joiners": ["திறந்து"]}
+{"text": "google chrome ah open panni Kamal Haasan age enna nu paaru", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "google chrome"}}, {"action": "web_search", "slots": {"query": "Kamal Haasan age enna"}}], "joiners": ["panni"]}
+{"text": "edge browser open pannu then coimbatore to ooty distance search pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge browser"}}, {"action": "web_search", "slots": {"query": "coimbatore to ooty distance"}}], "joiners": ["then"]}
+{"text": "Chrome thorandhu Thalapathy Vijay next movie update thedu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "web_search", "slots": {"query": "Thalapathy Vijay next movie update"}}], "joiners": ["thorandhu"]}
+{"text": "குரோம் ஓபன் பண்ணிட்டு மதுரை மீனாட்சி கோயில் timings தேடு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "குரோம்"}}, {"action": "web_search", "slots": {"query": "மதுரை மீனாட்சி கோயில் timings"}}], "joiners": ["பண்ணிட்டு"]}
+{"text": "chrome open panni flipkart website ku po", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "flipkart"}}], "joiners": ["panni"]}
+{"text": "edge open pannu apram irctc dot co dot in open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "open_website", "slots": {"site": "irctc dot co dot in"}}], "joiners": ["apram"]}
+{"text": "Firefox thoranthu github dot com open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Firefox"}}, {"action": "open_website", "slots": {"site": "github dot com"}}], "joiners": ["thoranthu"]}
+{"text": "Chrome open pannitu Swiggy site thora", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "open_website", "slots": {"site": "Swiggy"}}], "joiners": ["pannitu"]}
+{"text": "எட்ஜ் திறந்து Zomato வெப்சைட் ஓபன் பண்ணு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "எட்ஜ்"}}, {"action": "open_website", "slots": {"site": "Zomato"}}], "joiners": ["திறந்து"]}
+{"text": "chrome open panni athula tnpsc dot gov dot in open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "tnpsc dot gov dot in"}}], "joiners": ["panni", "athula"]}
+{"text": "YouTube open panni Anirudh songs podu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "YouTube"}}, {"action": "play_media", "slots": {"query": "Anirudh"}}], "joiners": ["panni"]}
+{"text": "spotify open pannu apram AR Rahman hits play pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "AR Rahman"}}], "joiners": ["apram"]}
+{"text": "you tube thoranthu Vadivelu comedy podu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "you tube"}}, {"action": "play_media", "slots": {"query": "Vadivelu comedy"}}], "joiners": ["thoranthu"]}
+{"text": "JioSaavn open pannitu Sid Sriram paattu podu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "JioSaavn"}}, {"action": "play_media", "slots": {"query": "Sid Sriram"}}], "joiners": ["pannitu"]}
+{"text": "YouTube Music open pannu then Kaavaalaa play pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "YouTube Music"}}, {"action": "play_media", "slots": {"query": "Kaavaalaa"}}], "joiners": ["then"]}
+{"text": "Spotify திறந்து இளையராஜா பாட்டு போடு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Spotify"}}, {"action": "play_media", "slots": {"query": "இளையராஜா"}}], "joiners": ["திறந்து"]}
+{"text": "Gaana open pannu adhula 90s tamil melodies podu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Gaana"}}, {"action": "play_media", "slots": {"query": "90s tamil melodies"}}], "joiners": ["adhula"]}
+{"text": "spotifai open pannu aprm Hiphop Tamizha podu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotifai"}}, {"action": "play_media", "slots": {"query": "Hiphop Tamizha"}}], "joiners": ["aprm"]}
+{"text": "youtube thiranthu Bigg Boss Tamil latest episode podu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "Bigg Boss Tamil latest episode"}}], "joiners": ["thiranthu"]}
+{"text": "YouTube ஓபன் பண்ணி கானா பாலா பாட்டு போடு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "YouTube"}}, {"action": "play_media", "slots": {"query": "கானா பாலா"}}], "joiners": ["பண்ணி"]}
+{"text": "Amazon Music open pannitu Harris Jayaraj songs podu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Amazon Music"}}, {"action": "play_media", "slots": {"query": "Harris Jayaraj"}}], "joiners": ["pannitu"]}
+{"text": "paattu niruthitu Notepad open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "Notepad"}}], "joiners": ["niruthitu"]}
+{"text": "song ah pause pannitu calculator open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "calculator"}}], "joiners": ["pannitu"]}
+{"text": "மியூசிக் ஸ்டாப் பண்ணி Teams திற", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "Teams"}}], "joiners": ["பண்ணி"]}
+{"text": "volume kammi pannu apram Zoom open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "open_app", "slots": {"app": "Zoom"}}], "joiners": ["apram"]}
+{"text": "பாட்டை நிறுத்திட்டு Outlook திற", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "Outlook"}}], "joiners": ["நிறுத்திட்டு"]}
+{"text": "next song podu apram volume konjam jaasti pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "next"}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["apram"]}
+{"text": "previous song podu and sound ah koranju vei", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "previous"}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["and"]}
+{"text": "song ah niruthitu Amma ku message anuppu veetuku vandhuten", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "send_message", "slots": {"contact": "Amma", "text": "veetuku vandhuten"}}], "joiners": ["niruthitu"]}
+{"text": "pause pannu then tomorrow rain forecast chennai search pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "web_search", "slots": {"query": "tomorrow rain forecast chennai"}}], "joiners": ["then"]}
+{"text": "paatu thirumba podu apram sound ethu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "resume"}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["apram"]}
+{"text": "gaana nipaatitu hotstar website open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_website", "slots": {"site": "hotstar"}}], "joiners": ["nipaatitu"]}
+{"text": "sound ah mute panni call me later nu type pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "type_text", "slots": {"text": "call me later"}}], "joiners": ["panni"]}
+{"text": "பாட்டு நிறுத்திட்டு ஸ்கிரீன்ல என்ன இருக்குன்னு படி", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "read_screen", "slots": {}}], "joiners": ["நிறுத்திட்டு"]}
+{"text": "அடுத்த பாட்டு போடு அப்புறம் WhatsApp ஓபன் பண்ணு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "next"}, {"action": "open_app", "slots": {"app": "WhatsApp"}}], "joiners": ["அப்புறம்"]}
+{"text": "Spotify la lofi beats podu apram VS Code open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"app": "Spotify", "query": "lofi beats"}}, {"action": "open_app", "slots": {"app": "VS Code"}}], "joiners": ["apram"]}
+{"text": "Ilaiyaraaja paattu pottutu Word open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "Ilaiyaraaja"}}, {"action": "open_app", "slots": {"app": "Word"}}], "joiners": ["pottutu"]}
+{"text": "Vaathi Coming song play pannu then volume jaasti pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "Vaathi Coming"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["then"]}
+{"text": "Yuvan bgm podu apram Naveen ku class ku varala nu message pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "Yuvan bgm"}}, {"action": "send_message", "slots": {"contact": "Naveen", "text": "class ku varala"}}], "joiners": ["apram"]}
+{"text": "Gaana la Deva gaana songs pottutu Deva age search pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"app": "Gaana", "query": "Deva gaana songs"}}, {"action": "web_search", "slots": {"query": "Deva age"}}], "joiners": ["pottutu"]}
+{"text": "ஏ ஆர் ரகுமான் பாட்டு போட்டுட்டு Chrome திற", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "ஏ ஆர் ரகுமான்"}}, {"action": "open_app", "slots": {"app": "Chrome"}}], "joiners": ["போட்டுட்டு"]}
+{"text": "devotional songs play pannitu dinamalar website open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "devotional songs"}}, {"action": "open_website", "slots": {"site": "dinamalar"}}], "joiners": ["pannitu"]}
+{"text": "Ravi ku meeting 5 manikku nu message anuppitu Zoom open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Ravi", "text": "meeting 5 manikku"}}, {"action": "open_app", "slots": {"app": "Zoom"}}], "joiners": ["anuppitu"]}
+{"text": "Appa ku message pannu naan kelambiten apram Google Maps open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Appa", "text": "naan kelambiten"}}, {"action": "open_app", "slots": {"app": "Google Maps"}}], "joiners": ["apram"]}
+{"text": "Divya kitta assignment mudinjiruchu nu sollu then Spotify open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Divya", "text": "assignment mudinjiruchu"}}, {"action": "open_app", "slots": {"app": "Spotify"}}], "joiners": ["then"]}
+{"text": "அம்மா க்கு சாப்பிட்டேன் னு மெசேஜ் அனுப்பிட்டு YouTube திற", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "அம்மா", "text": "சாப்பிட்டேன்"}}, {"action": "open_app", "slots": {"app": "YouTube"}}], "joiners": ["அனுப்பிட்டு"]}
+{"text": "சுரேஷ் க்கு வந்துகிட்டே இருக்கேன் னு அனுப்பிட்டு அனிருத் பாட்டு போடு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "சுரேஷ்", "text": "வந்துகிட்டே இருக்கேன்"}}, {"action": "play_media", "slots": {"query": "அனிருத்"}}], "joiners": ["அனுப்பிட்டு"]}
+{"text": "Amma ku late aagum nu message pannu apram Appa ku car eduthuten nu anuppu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Amma", "text": "late aagum"}}, {"action": "send_message", "slots": {"contact": "Appa", "text": "car eduthuten"}}], "joiners": ["apram"]}
+{"text": "Karthi anna ku ticket book panniten nu whatsapp pannitu chennai traffic update paaru", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Karthi anna", "text": "ticket book panniten"}}, {"action": "web_search", "slots": {"query": "chennai traffic update"}}], "joiners": ["pannitu"]}
+{"text": "Meena akka ku poojaiku varen nu anupitu bigbasket open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Meena akka", "text": "poojaiku varen"}}, {"action": "open_website", "slots": {"site": "bigbasket"}}], "joiners": ["anupitu"]}
+{"text": "Vicky ku 5 mins wait pannu nu message podu and paatu niruthu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Vicky", "text": "5 mins wait pannu"}}, {"action": "media_control", "slots": {}, "control": "pause"}], "joiners": ["and"]}
+{"text": "Selvi madam ku naalaiku leave nu message anuppu aprom Outlook open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Selvi madam", "text": "naalaiku leave"}}, {"action": "open_app", "slots": {"app": "Outlook"}}], "joiners": ["aprom"]}
+{"text": "ராஜா க்கு நாளைக்கு வரேன் னு அனுப்பு அப்புறம் done னு டைப் பண்ணு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "ராஜா", "text": "நாளைக்கு வரேன்"}}, {"action": "type_text", "slots": {"text": "done"}}], "joiners": ["அப்புறம்"]}
+{"text": "Bangalore weather paaru apram Chennai weather um paaru", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "Bangalore weather"}}, {"action": "web_search", "slots": {"query": "Chennai weather"}}], "joiners": ["apram"]}
+{"text": "today match score paaru then Siva ku score sollu da nu anuppu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "today match score"}}, {"action": "send_message", "slots": {"contact": "Siva", "text": "score sollu da"}}], "joiners": ["then"]}
+{"text": "nearby petrol bunk search panni Directions click pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "nearby petrol bunk"}}, {"action": "click", "slots": {"target": "Directions"}}], "joiners": ["panni"]}
+{"text": "Vikram movie ott release date thedu apram Netflix site open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "Vikram movie ott release date"}}, {"action": "open_website", "slots": {"site": "Netflix"}}], "joiners": ["apram"]}
+{"text": "Jailer songs list theditu Hukum song podu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "Jailer songs list"}}, {"action": "play_media", "slots": {"query": "Hukum"}}], "joiners": ["theditu"]}
+{"text": "தமிழ்நாடு செய்திகள் சர்ச் பண்ணி ஸ்கிரீன படிச்சு சொல்லு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "தமிழ்நாடு செய்திகள்"}}, {"action": "read_screen", "slots": {}}], "joiners": ["பண்ணி"]}
+{"text": "thirukkural first kural paaru apram agara mudhala nu type pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "thirukkural first kural"}}, {"action": "type_text", "slots": {"text": "agara mudhala"}}], "joiners": ["apram"]}
+{"text": "அமேசான் ஓபன் பண்ணு அப்புறம் boat earphones தேடு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "அமேசான்"}}, {"action": "web_search", "slots": {"query": "boat earphones"}}], "joiners": ["அப்புறம்"]}
+{"text": "flipkart website thoranthu redmi note 13 price paaru", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "flipkart"}}, {"action": "web_search", "slots": {"query": "redmi note 13 price"}}], "joiners": ["thoranthu"]}
+{"text": "gmail dot com open panni Compose click pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "gmail dot com"}}, {"action": "click", "slots": {"target": "Compose"}}], "joiners": ["panni"]}
+{"text": "LinkedIn site ku poitu Jobs tab click pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "LinkedIn"}}, {"action": "click", "slots": {"target": "Jobs"}}], "joiners": ["poitu"]}
+{"text": "google translate website open pannu apram how are you nu type pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "google translate"}}, {"action": "type_text", "slots": {"text": "how are you"}}], "joiners": ["apram"]}
+{"text": "BBC Tamil website open pannu then screen la irukradha padichu sollu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "BBC Tamil"}}, {"action": "read_screen", "slots": {}}], "joiners": ["then"]}
+{"text": "யூடியூப் டாட் காம் திறந்து Subscriptions கிளிக் பண்ணு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "யூடியூப் டாட் காம்"}}, {"action": "click", "slots": {"target": "Subscriptions"}}], "joiners": ["திறந்து"]}
+{"text": "naukri site open pannitu Word um thora", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "naukri"}}, {"action": "open_app", "slots": {"app": "Word"}}], "joiners": ["pannitu"]}
+{"text": "redbus open pannu apram Lakshmi ku bus 9 manikku nu message pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "redbus"}}, {"action": "send_message", "slots": {"contact": "Lakshmi", "text": "bus 9 manikku"}}], "joiners": ["apram"]}
+{"text": "wikipedia open panni Raja Raja Cholan history thedu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "wikipedia"}}, {"action": "web_search", "slots": {"query": "Raja Raja Cholan history"}}], "joiners": ["panni"]}
+{"text": "vanakkam nu type panni Send amuthu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "vanakkam"}}, {"action": "click", "slots": {"target": "Send"}}], "joiners": ["panni"]}
+{"text": "karthik at gmail dot com type pannitu Next click pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "karthik at gmail dot com"}}, {"action": "click", "slots": {"target": "Next"}}], "joiners": ["pannitu"]}
+{"text": "meeting postponed to monday nu type pannu apram Post button click pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "meeting postponed to monday"}}, {"action": "click", "slots": {"target": "Post"}}], "joiners": ["apram"]}
+{"text": "thanks for the update nu ezhudhu aprom Teams open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "thanks for the update"}}, {"action": "open_app", "slots": {"app": "Teams"}}], "joiners": ["aprom"]}
+{"text": "சரி பார்க்கலாம் னு டைப் பண்ணி Send அழுத்து", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "சரி பார்க்கலாம்"}}, {"action": "click", "slots": {"target": "Send"}}], "joiners": ["பண்ணி"]}
+{"text": "சர்ச் பாக்ஸ் ல கிளிக் பண்ணி தமிழ் செய்திகள் னு டைப் பண்ணு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "சர்ச் பாக்ஸ்"}}, {"action": "type_text", "slots": {"text": "தமிழ் செய்திகள்"}}], "joiners": ["பண்ணி"]}
+{"text": "Reply click pannitu ok noted nu type pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "Reply"}}, {"action": "type_text", "slots": {"text": "ok noted"}}], "joiners": ["pannitu"]}
+{"text": "Inbox click panni screen ah padi", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "Inbox"}}, {"action": "read_screen", "slots": {}}], "joiners": ["panni"]}
+{"text": "File menu click pannu apram Save As click pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "File"}}, {"action": "click", "slots": {"target": "Save As"}}], "joiners": ["apram"]}
+{"text": "OK அழுத்திட்டு Paint திற", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "OK"}}, {"action": "open_app", "slots": {"app": "Paint"}}], "joiners": ["அழுத்திட்டு"]}
+{"text": "ஸ்கிரீன்ல என்ன இருக்குன்னு படி அப்புறம் அருண் க்கு பார்த்துட்டேன் னு மெசேஜ் பண்ணு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "send_message", "slots": {"contact": "அருண்", "text": "பார்த்துட்டேன்"}}], "joiners": ["அப்புறம்"]}
+{"text": "intha page la enna irukku nu sollu then Accept click pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "click", "slots": {"target": "Accept"}}], "joiners": ["then"]}
+{"text": "screen padichitu noted sir nu type pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "type_text", "slots": {"text": "noted sir"}}], "joiners": ["padichitu"]}
+{"text": "Outlook open panni enna mail vandhirukku nu padi", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Outlook"}}, {"action": "read_screen", "slots": {}}], "joiners": ["panni"]}
+{"text": "pdf reader thoranthu screen la irukradha vaasi", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "pdf reader"}}, {"action": "read_screen", "slots": {}}], "joiners": ["thoranthu"]}
+{"text": "வாட்ஸ்அப் ஓபன் பண்ணி பிரியா க்கு ஹேப்பி பர்த்டே னு அனுப்பு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "வாட்ஸ்அப்"}}, {"action": "send_message", "slots": {"contact": "பிரியா", "text": "ஹேப்பி பர்த்டே"}}], "joiners": ["பண்ணி"]}
+{"text": "WhatsApp thora apram Gopi ku naalai cricket undu nu sollu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "WhatsApp"}}, {"action": "send_message", "slots": {"contact": "Gopi", "text": "naalai cricket undu"}}], "joiners": ["apram"]}
+{"text": "YouTube la biryani recipe search pannu then first video click pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"site": "YouTube", "query": "biryani recipe"}}, {"action": "click", "slots": {"target": "first video"}}], "joiners": ["then"]}
+{"text": "VLC open pannitu volume full ah vei", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "VLC"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["pannitu"]}
+{"text": "calculator open pannu uh then 250 into 12 type pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "calculator"}}, {"action": "type_text", "slots": {"text": "250 into 12"}}], "joiners": ["then"]}
+{"text": "YouTube la Ponniyin Selvan trailer podu apram Skip Ad click pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"app": "YouTube", "query": "Ponniyin Selvan trailer"}}, {"action": "click", "slots": {"target": "Skip Ad"}}], "joiners": ["apram"]}
+{"text": "Edge thorandhu Amazon la mixie thedu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Edge"}}, {"action": "web_search", "slots": {"site": "Amazon", "query": "mixie"}}], "joiners": ["thorandhu"]}
+{"text": "ஸ்பாட்டிஃபை ஓபன் பண்ணி சித் ஸ்ரீராம் பாட்டு போட்டு விடு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ஸ்பாட்டிஃபை"}}, {"action": "play_media", "slots": {"query": "சித் ஸ்ரீராம்"}}], "joiners": ["பண்ணி"]}
+{"text": "தம்பி கிட்ட சீக்கிரம் வா னு மெசேஜ் பண்ணிட்டு கால்குலேட்டர் ஓபன் பண்ணு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "தம்பி", "text": "சீக்கிரம் வா"}}, {"action": "open_app", "slots": {"app": "கால்குலேட்டர்"}}], "joiners": ["பண்ணிட்டு"]}
+{"text": "firefox open pannu and then onlinesbi dot com po", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "open_website", "slots": {"site": "onlinesbi dot com"}}], "joiners": ["and then"]}
+{"text": "paatu pause pannu apdiye Snipping Tool um open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "Snipping Tool"}}], "joiners": ["apdiye"]}
+{"text": "Notepad open pannu adhukku appuram to do list nu type pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Notepad"}}, {"action": "type_text", "slots": {"text": "to do list"}}], "joiners": ["adhukku appuram"]}
+{"text": "சென்னை வானிலை பாரு பிறகு Outlook திற", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "சென்னை வானிலை"}}, {"action": "open_app", "slots": {"app": "Outlook"}}], "joiners": ["பிறகு"]}
+{"text": "Spotify open panni Pradeep Kumar songs kelu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Spotify"}}, {"action": "play_media", "slots": {"query": "Pradeep Kumar"}}], "joiners": ["panni"]}
+{"text": "Logout click panni hdfcbank dot com open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "Logout"}}, {"action": "open_website", "slots": {"site": "hdfcbank dot com"}}], "joiners": ["panni"]}
+{"text": "செட்டிங்ஸ் திறந்து Wi-Fi கிளிக் பண்ணு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "செட்டிங்ஸ்"}}, {"action": "click", "slots": {"target": "Wi-Fi"}}], "joiners": ["திறந்து"]}
+{"text": "Hi team nu type pannu apram standup at 10 nu type pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "Hi team"}}, {"action": "type_text", "slots": {"text": "standup at 10"}}], "joiners": ["apram"]}
+{"text": "calculator um notepad um open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "calculator"}}, {"action": "open_app", "slots": {"app": "notepad"}}], "joiners": ["um"]}
+{"text": "Jaya ku payment pannitaen nu message pannu then paytm website open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Jaya", "text": "payment pannitaen"}}, {"action": "open_website", "slots": {"site": "paytm"}}], "joiners": ["then"]}
+{"text": "Chrome open panni Gmail open pannu apram Compose click pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "open_website", "slots": {"site": "Gmail"}}, {"action": "click", "slots": {"target": "Compose"}}], "joiners": ["panni", "apram"]}
+{"text": "Notepad open pannu shopping list nu type pannu apram Save click pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Notepad"}}, {"action": "type_text", "slots": {"text": "shopping list"}}, {"action": "click", "slots": {"target": "Save"}}], "joiners": ["apram"]}
+{"text": "paatu niruthitu Zoom open panni Join meeting click pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "Zoom"}}, {"action": "click", "slots": {"target": "Join meeting"}}], "joiners": ["niruthitu", "panni"]}
+{"text": "Spotify open pannu apram Hiphop Tamizha podu then volume jaasti pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Spotify"}}, {"action": "play_media", "slots": {"query": "Hiphop Tamizha"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["apram", "then"]}
+{"text": "edge open panni today headlines search pannu apram padichu sollu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "today headlines"}}, {"action": "read_screen", "slots": {}}], "joiners": ["panni", "apram"]}
+{"text": "Amma ku office la irukken nu anuppitu YouTube open panni Sid Sriram songs podu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Amma", "text": "office la irukken"}}, {"action": "open_app", "slots": {"app": "YouTube"}}, {"action": "play_media", "slots": {"query": "Sid Sriram"}}], "joiners": ["anuppitu", "panni"]}
+{"text": "WhatsApp thoranthu Archived click pannu apram hi nu type pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "WhatsApp"}}, {"action": "click", "slots": {"target": "Archived"}}, {"action": "type_text", "slots": {"text": "hi"}}], "joiners": ["thoranthu", "apram"]}
+{"text": "firefox open pannitu amazon dot in po then laptop bag thedu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "open_website", "slots": {"site": "amazon dot in"}}, {"action": "web_search", "slots": {"query": "laptop bag"}}], "joiners": ["pannitu", "then"]}
+{"text": "mute panni Word open pannu apram minutes of meeting nu type pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "open_app", "slots": {"app": "Word"}}, {"action": "type_text", "slots": {"text": "minutes of meeting"}}], "joiners": ["panni", "apram"]}
+{"text": "Notepad open pannu apram bills paid nu ezhudhu athuku apram Excel um open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Notepad"}}, {"action": "type_text", "slots": {"text": "bills paid"}}, {"action": "open_app", "slots": {"app": "Excel"}}], "joiners": ["apram", "athuku apram"]}
+{"text": "Delhi weather paaru apram Mumbai weather paaru then Outlook thora", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "Delhi weather"}}, {"action": "web_search", "slots": {"query": "Mumbai weather"}}, {"action": "open_app", "slots": {"app": "Outlook"}}], "joiners": ["apram", "then"]}
+{"text": "Spotify thoranthu Anirudh podu apram Hari ku party ku ready nu anuppu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Spotify"}}, {"action": "play_media", "slots": {"query": "Anirudh"}}, {"action": "send_message", "slots": {"contact": "Hari", "text": "party ku ready"}}], "joiners": ["thoranthu", "apram"]}
+{"text": "Comment click panni super bro nu type pannitu Post amuthu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "Comment"}}, {"action": "type_text", "slots": {"text": "super bro"}}, {"action": "click", "slots": {"target": "Post"}}], "joiners": ["panni", "pannitu"]}
+{"text": "Chrome திறந்து Google Translate ஓபன் பண்ணு அப்புறம் நன்றி னு டைப் பண்ணு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "open_website", "slots": {"site": "Google Translate"}}, {"action": "type_text", "slots": {"text": "நன்றி"}}], "joiners": ["திறந்து", "அப்புறம்"]}
+{"text": "song pause pannitu Ramesh ku 5 nimisham nu message pannu apram Teams open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "send_message", "slots": {"contact": "Ramesh", "text": "5 nimisham"}}, {"action": "open_app", "slots": {"app": "Teams"}}], "joiners": ["pannitu", "apram"]}
+{"text": "குரோம் ஓபன் பண்ணி வந்தே பாரத் டிக்கெட் விலை தேடு அப்புறம் first link கிளிக் பண்ணு", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "குரோம்"}}, {"action": "web_search", "slots": {"query": "வந்தே பாரத் டிக்கெட் விலை"}}, {"action": "click", "slots": {"target": "first link"}}], "joiners": ["பண்ணி", "அப்புறம்"]}
+{"text": "dinamalar dot com thoranthu Sports click pannu then padichu kaatu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "dinamalar dot com"}}, {"action": "click", "slots": {"target": "Sports"}}, {"action": "read_screen", "slots": {}}], "joiners": ["thoranthu", "then"]}
+{"text": "Outlook open pannu apram Teams then Slack um open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Outlook"}}, {"action": "open_app", "slots": {"app": "Teams"}}, {"action": "open_app", "slots": {"app": "Slack"}}], "joiners": ["apram", "then"]}
+{"text": "நோட்பேட் ஓபன் பண்ணி சாமான் லிஸ்ட் னு டைப் பண்ணு அப்புறம் Save அழுத்து", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "நோட்பேட்"}}, {"action": "type_text", "slots": {"text": "சாமான் லிஸ்ட்"}}, {"action": "click", "slots": {"target": "Save"}}], "joiners": ["பண்ணி", "அப்புறம்"]}
+{"text": "next song podu apram volume ethu and Paint open pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "next"}, {"action": "media_control", "slots": {}, "control": "volume_up"}, {"action": "open_app", "slots": {"app": "Paint"}}], "joiners": ["apram", "and"]}
+{"text": "Settings open panni Display click pannu apram Night light amuthu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Settings"}}, {"action": "click", "slots": {"target": "Display"}}, {"action": "click", "slots": {"target": "Night light"}}], "joiners": ["panni", "apram"]}
+{"text": "YouTube open pannitu Kumki songs podu apram Word thora", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "YouTube"}}, {"action": "play_media", "slots": {"query": "Kumki songs"}}, {"action": "open_app", "slots": {"app": "Word"}}], "joiners": ["pannitu", "apram"]}
+{"text": "screen ah padichitu approved nu type pannu apram Submit click pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "type_text", "slots": {"text": "approved"}}, {"action": "click", "slots": {"target": "Submit"}}], "joiners": ["padichitu", "apram"]}
+{"text": "zomato open panni best dosa near anna nagar thedu then Priya ku inga polaama nu anuppu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "zomato"}}, {"action": "web_search", "slots": {"query": "best dosa near anna nagar"}}, {"action": "send_message", "slots": {"contact": "Priya", "text": "inga polaama"}}], "joiners": ["panni", "then"]}
+{"text": "chrome thorandhu ac service number thedu aprom call tomorrow nu notepad la type pannu", "lang": "ta", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "ac service number"}}, {"action": "type_text", "slots": {"text": "call tomorrow"}}], "joiners": ["thorandhu", "aprom"]}
+{"text": "Tom and Jerry podu", "lang": "ta", "action": "play_media", "slots": {"query": "Tom and Jerry"}}
+{"text": "YouTube la tom and jerry cartoon play pannu", "lang": "ta", "action": "play_media", "slots": {"app": "YouTube", "query": "tom and jerry cartoon"}}
+{"text": "Then Paandi Seemaiyile song podu", "lang": "ta", "action": "play_media", "slots": {"query": "Then Paandi Seemaiyile"}}
+{"text": "Pottu Thaakku paattu play pannu", "lang": "ta", "action": "play_media", "slots": {"query": "Pottu Thaakku"}}
+{"text": "Kadhalum Kadandhu Pogum padam songs podu", "lang": "ta", "action": "play_media", "slots": {"query": "Kadhalum Kadandhu Pogum"}}
+{"text": "Spotify la Now and Then play pannu", "lang": "ta", "action": "play_media", "slots": {"app": "Spotify", "query": "Now and Then"}}
+{"text": "Pannaiyarum Padminiyum songs podu", "lang": "ta", "action": "play_media", "slots": {"query": "Pannaiyarum Padminiyum"}}
+{"text": "rock and roll music podu", "lang": "ta", "action": "play_media", "slots": {"query": "rock and roll"}}
+{"text": "Beauty and the Beast movie song play pannu", "lang": "ta", "action": "play_media", "slots": {"query": "Beauty and the Beast"}}
+{"text": "YouTube la Mr and Mrs Ramachari comedy scenes podu", "lang": "ta", "action": "play_media", "slots": {"app": "YouTube", "query": "Mr and Mrs Ramachari"}}
+{"text": "then and now tamil songs podu", "lang": "ta", "action": "play_media", "slots": {"query": "then and now"}}
+{"text": "தேன் பாண்டி சீமையிலே பாட்டு போடு", "lang": "ta", "action": "play_media", "slots": {"query": "தேன் பாண்டி சீமையிலே"}}
+{"text": "Naanum Rowdy Dhaan songs play pannu", "lang": "ta", "action": "play_media", "slots": {"query": "Naanum Rowdy Dhaan"}}
+{"text": "JioSaavn la Raja and Rahman hits podu", "lang": "ta", "action": "play_media", "slots": {"app": "JioSaavn", "query": "Raja and Rahman"}}
+{"text": "Simon and Garfunkel songs podu", "lang": "ta", "action": "play_media", "slots": {"query": "Simon and Garfunkel"}}
+{"text": "Snip and Sketch open pannu", "lang": "ta", "action": "open_app", "slots": {"app": "Snip and Sketch"}}
+{"text": "Movies and TV app thora", "lang": "ta", "action": "open_app", "slots": {"app": "Movies and TV"}}
+{"text": "Mail and Calendar open pannunga", "lang": "ta", "action": "open_app", "slots": {"app": "Mail and Calendar"}}
+{"text": "Clock and Alarms app open pannu", "lang": "ta", "action": "open_app", "slots": {"app": "Clock and Alarms"}}
+{"text": "Update and restart click pannu", "lang": "ta", "action": "click", "slots": {"target": "Update and restart"}}
+{"text": "Marks and Spencer website open pannu", "lang": "ta", "action": "open_website", "slots": {"site": "Marks and Spencer"}}
+{"text": "Barnes and Noble site ku po", "lang": "ta", "action": "open_website", "slots": {"site": "Barnes and Noble"}}
+{"text": "johnson and johnson dot com open pannu", "lang": "ta", "action": "open_website", "slots": {"site": "johnson and johnson dot com"}}
+{"text": "salt and pepper chicken recipe search pannu", "lang": "ta", "action": "web_search", "slots": {"query": "salt and pepper chicken recipe"}}
+{"text": "pros and cons of electric scooter thedu", "lang": "ta", "action": "web_search", "slots": {"query": "pros and cons of electric scooter"}}
+{"text": "Fast and Furious 10 release date enna", "lang": "ta", "action": "web_search", "slots": {"query": "Fast and Furious 10 release date enna"}}
+{"text": "Rajini um Kamal um sendhu nadicha padam list thedu", "lang": "ta", "action": "web_search", "slots": {"query": "Rajini um Kamal um sendhu nadicha padam list"}}
+{"text": "Pride and Prejudice author yaaru", "lang": "ta", "action": "web_search", "slots": {"query": "Pride and Prejudice author yaaru"}}
+{"text": "Amazon la black and white saree thedu", "lang": "ta", "action": "web_search", "slots": {"site": "Amazon", "query": "black and white saree"}}
+{"text": "Vikram and Vedha box office collection sollu", "lang": "ta", "action": "web_search", "slots": {"query": "Vikram and Vedha box office collection"}}
+{"text": "Harry Potter and the Chamber of Secrets cast search pannu", "lang": "ta", "action": "web_search", "slots": {"query": "Harry Potter and the Chamber of Secrets cast"}}
+{"text": "ajith um vijay um evlo padam serndhu nadichirukaanga", "lang": "ta", "action": "web_search", "slots": {"query": "ajith um vijay um evlo padam serndhu nadichirukaanga"}}
+{"text": "சாம்பார் மற்றும் ரசம் செய்வது எப்படி தேடு", "lang": "ta", "action": "web_search", "slots": {"query": "சாம்பார் மற்றும் ரசம் செய்வது எப்படி"}}
+{"text": "onion and tomato chutney recipe nu search pannu", "lang": "ta", "action": "web_search", "slots": {"query": "onion and tomato chutney recipe"}}
+{"text": "ரோமியோ அண்ட் ஜூலியட் கதை சொல்லு", "lang": "ta", "action": "web_search", "slots": {"query": "ரோமியோ அண்ட் ஜூலியட் கதை"}}
+{"text": "fan oil and grease remove panradhu eppadi google pannu", "lang": "ta", "action": "web_search", "slots": {"query": "fan oil and grease remove panradhu eppadi"}}
+{"text": "Amma ku message anuppu naan vandhuten apram saapdren", "lang": "ta", "action": "send_message", "slots": {"contact": "Amma", "text": "naan vandhuten apram saapdren"}}
+{"text": "Karthik ku office mudichitu apram varen nu message pannu", "lang": "ta", "action": "send_message", "slots": {"contact": "Karthik", "text": "office mudichitu apram varen"}}
+{"text": "Priya ku whatsapp pannu cake and juice vaangitu vaa", "lang": "ta", "action": "send_message", "slots": {"contact": "Priya", "text": "cake and juice vaangitu vaa"}}
+{"text": "Anand kitta sollu ticket book panni anuppitaen then call pannu", "lang": "ta", "action": "send_message", "slots": {"contact": "Anand", "text": "ticket book panni anuppitaen then call pannu"}}
+{"text": "ரேவதி க்கு பாலும் தயிரும் வாங்கு னு மெசேஜ் பண்ணு", "lang": "ta", "action": "send_message", "slots": {"contact": "ரேவதி", "text": "பாலும் தயிரும் வாங்கு"}}
+{"text": "Muthu ku car wash panni vechuru nu message anuppu", "lang": "ta", "action": "send_message", "slots": {"contact": "Muthu", "text": "car wash panni vechuru"}}
+{"text": "அப்பா க்கு பணம் அனுப்பிட்டேன் அப்புறம் பேசறேன் னு மெசேஜ் அனுப்பு", "lang": "ta", "action": "send_message", "slots": {"contact": "அப்பா", "text": "பணம் அனுப்பிட்டேன் அப்புறம் பேசறேன்"}}
+{"text": "Sangeetha ku meeting cancel and tomorrow 10 am nu sollu", "lang": "ta", "action": "send_message", "slots": {"contact": "Sangeetha", "text": "meeting cancel and tomorrow 10 am"}}
+{"text": "Bala ku message anupu naan thoongitu appuram ezhundhu call pannuren", "lang": "ta", "action": "send_message", "slots": {"contact": "Bala", "text": "naan thoongitu appuram ezhundhu call pannuren"}}
+{"text": "Kavin kitta padam pottu kaatu da nu message pannu", "lang": "ta", "action": "send_message", "slots": {"contact": "Kavin", "text": "padam pottu kaatu da"}}
+{"text": "Ravi um Seema um varaanga nu type pannu", "lang": "ta", "action": "type_text", "slots": {"text": "Ravi um Seema um varaanga"}}
+{"text": "type pannu terms and conditions apply", "lang": "ta", "action": "type_text", "slots": {"text": "terms and conditions apply"}}
+{"text": "first login panni then password maathu nu ezhudhu", "lang": "ta", "action": "type_text", "slots": {"text": "first login panni then password maathu"}}
+{"text": "meeting mudinjathum report anuppu apram leave podu nu type pannu", "lang": "ta", "action": "type_text", "slots": {"text": "meeting mudinjathum report anuppu apram leave podu"}}
+{"text": "புத்தகம் மற்றும் பேனா வாங்கணும் னு டைப் பண்ணு", "lang": "ta", "action": "type_text", "slots": {"text": "புத்தகம் மற்றும் பேனா வாங்கணும்"}}
+{"text": "பிரெட் அண்ட் பட்டர் னு டைப் பண்ணு", "lang": "ta", "action": "type_text", "slots": {"text": "பிரெட் அண்ட் பட்டர்"}}
+{"text": "door ah open panni light ah off pannu nu ezhuthu", "lang": "ta", "action": "type_text", "slots": {"text": "door ah open panni light ah off pannu"}}
+{"text": "Terms and Conditions click pannu", "lang": "ta", "action": "click", "slots": {"target": "Terms and Conditions"}}
+{"text": "Save and Exit பட்டன் அழுத்து", "lang": "ta", "action": "click", "slots": {"target": "Save and Exit"}}
+{"text": "Sign in and continue mela click pannu", "lang": "ta", "action": "click", "slots": {"target": "Sign in and continue"}}
+{"text": "Add to cart and buy button press pannu", "lang": "ta", "action": "click", "slots": {"target": "Add to cart and buy"}}
+{"text": "athu open panni search panradhu ellam vendaam vidu", "lang": "ta", "action": "cancel", "slots": {}}
+{"text": "Tom and Jerry cartoon epo vandhuchu", "lang": "ta", "action": "web_search", "slots": {"query": "Tom and Jerry cartoon epo vandhuchu"}}
+{"text": "அப்புறம் என்ன பாட்டு போடு", "lang": "ta", "action": "play_media", "slots": {"query": "அப்புறம் என்ன"}}
+{"text": "Notepad open pannu", "lang": "ta", "action": "open_app", "slots": {"app": "Notepad"}}
+{"text": "calculator thora", "lang": "ta", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "VS Code open pannunga", "lang": "ta", "action": "open_app", "slots": {"app": "VS Code"}}
+{"text": "excel ah open pannu", "lang": "ta", "action": "open_app", "slots": {"app": "excel"}}
+{"text": "பெயிண்ட் ஸ்டார்ட் பண்ணு", "lang": "ta", "action": "open_app", "slots": {"app": "பெயிண்ட்"}}
+{"text": "teams launch pannu da", "lang": "ta", "action": "open_app", "slots": {"app": "teams"}}
+{"text": "file explorer thiranga", "lang": "ta", "action": "open_app", "slots": {"app": "file explorer"}}
+{"text": "uh control panel kodu", "lang": "ta", "action": "open_app", "slots": {"app": "control panel"}}
+{"text": "Spotify open pannu please", "lang": "ta", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "YouTube thora", "lang": "ta", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "zoom app open pannu", "lang": "ta", "action": "open_app", "slots": {"app": "zoom"}}
+{"text": "Microsoft Edge open pannu", "lang": "ta", "action": "open_app", "slots": {"app": "Microsoft Edge"}}
+{"text": "power point open pannu", "lang": "ta", "action": "open_app", "slots": {"app": "power point"}}
+{"text": "task manager open panu seekiram", "lang": "ta", "action": "open_app", "slots": {"app": "task manager"}}
+{"text": "டெலிகிராம் திறந்து வை", "lang": "ta", "action": "open_app", "slots": {"app": "டெலிகிராம்"}}
+{"text": "Steam open pannu game aadanum", "lang": "ta", "action": "open_app", "slots": {"app": "Steam"}}
+{"text": "Camera on pannu", "lang": "ta", "action": "open_app", "slots": {"app": "Camera"}}
+{"text": "browser open pannu", "lang": "ta", "action": "open_app", "slots": {"app": "browser"}}
+{"text": "நோட்பேட் திற", "lang": "ta", "action": "open_app", "slots": {"app": "நோட்பேட்"}}
+{"text": "கால்குலேட்டர் ஓபன் பண்ணு", "lang": "ta", "action": "open_app", "slots": {"app": "கால்குலேட்டர்"}}
+{"text": "Excel திறங்க", "lang": "ta", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "வாட்ஸ்அப் ஓபன் பண்ணு", "lang": "ta", "action": "open_app", "slots": {"app": "வாட்ஸ்அப்"}}
+{"text": "anydesk open pannu", "lang": "ta", "action": "open_app", "slots": {"app": "anydesk"}}
+{"text": "Tally open pannunga", "lang": "ta", "action": "open_app", "slots": {"app": "Tally"}}
+{"text": "Canva thora da", "lang": "ta", "action": "open_app", "slots": {"app": "Canva"}}
+{"text": "Snipping Tool open pannu", "lang": "ta", "action": "open_app", "slots": {"app": "Snipping Tool"}}
+{"text": "Spotify", "lang": "none", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Notepad", "lang": "none", "action": "open_app", "slots": {"app": "Notepad"}}
+{"text": "flipkart website open pannu", "lang": "ta", "action": "open_website", "slots": {"site": "flipkart"}}
+{"text": "irctc dot co dot in ku po", "lang": "ta", "action": "open_website", "slots": {"site": "irctc dot co dot in"}}
+{"text": "Swiggy site thora", "lang": "ta", "action": "open_website", "slots": {"site": "Swiggy"}}
+{"text": "github dot com open pannu", "lang": "ta", "action": "open_website", "slots": {"site": "github dot com"}}
+{"text": "Amazon website ku po", "lang": "ta", "action": "open_website", "slots": {"site": "Amazon"}}
+{"text": "tnpsc site open pannu", "lang": "ta", "action": "open_website", "slots": {"site": "tnpsc"}}
+{"text": "ஜிமெயில் வெப்சைட் திற", "lang": "ta", "action": "open_website", "slots": {"site": "ஜிமெயில்"}}
+{"text": "moneycontrol dot com open pannunga", "lang": "ta", "action": "open_website", "slots": {"site": "moneycontrol dot com"}}
+{"text": "vikatan website open pannu", "lang": "ta", "action": "open_website", "slots": {"site": "vikatan"}}
+{"text": "Netflix site ku po da", "lang": "ta", "action": "open_website", "slots": {"site": "Netflix"}}
+{"text": "onlinesbi website open panu", "lang": "ta", "action": "open_website", "slots": {"site": "onlinesbi"}}
+{"text": "தினமலர் வெப்சைட் ஓபன் பண்ணு", "lang": "ta", "action": "open_website", "slots": {"site": "தினமலர்"}}
+{"text": "ஸ்விக்கி சைட் திற", "lang": "ta", "action": "open_website", "slots": {"site": "ஸ்விக்கி"}}
+{"text": "makemytrip dot com po", "lang": "ta", "action": "open_website", "slots": {"site": "makemytrip dot com"}}
+{"text": "chatgpt dot com open pannu", "lang": "ta", "action": "open_website", "slots": {"site": "chatgpt dot com"}}
+{"text": "hotstar website thiranga", "lang": "ta", "action": "open_website", "slots": {"site": "hotstar"}}
+{"text": "youtube dot com", "lang": "none", "action": "open_website", "slots": {"site": "youtube dot com"}}
+{"text": "chennai weather paaru", "lang": "ta", "action": "web_search", "slots": {"query": "chennai weather"}}
+{"text": "Rajinikanth vayasu enna", "lang": "ta", "action": "web_search", "slots": {"query": "Rajinikanth vayasu enna"}}
+{"text": "gold rate today chennai search pannu", "lang": "ta", "action": "web_search", "slots": {"query": "gold rate today chennai"}}
+{"text": "Ponniyin Selvan director yaaru", "lang": "ta", "action": "web_search", "slots": {"query": "Ponniyin Selvan director yaaru"}}
+{"text": "விக்ரம் படம் review தேடு", "lang": "ta", "action": "web_search", "slots": {"query": "விக்ரம் படம் review"}}
+{"text": "Amazon la bluetooth earphones thedu", "lang": "ta", "action": "web_search", "slots": {"site": "Amazon", "query": "bluetooth earphones"}}
+{"text": "Anirudh yaaru nu sollu", "lang": "ta", "action": "web_search", "slots": {"query": "Anirudh yaaru"}}
+{"text": "Kaavaalaa song lyrics thedu", "lang": "ta", "action": "web_search", "slots": {"query": "Kaavaalaa song lyrics"}}
+{"text": "who sang Munbe Vaa", "lang": "ta", "action": "web_search", "slots": {"query": "who sang Munbe Vaa"}}
+{"text": "Thiruvalluvar pathi sollu", "lang": "ta", "action": "web_search", "slots": {"query": "Thiruvalluvar"}}
+{"text": "photosynthesis na enna explain pannu", "lang": "ta", "action": "web_search", "slots": {"query": "photosynthesis na enna"}}
+{"text": "nearest hospital enga irukku nu paaru", "lang": "ta", "action": "web_search", "slots": {"query": "nearest hospital enga irukku"}}
+{"text": "Flipkart la iphone 15 price paaru", "lang": "ta", "action": "web_search", "slots": {"site": "Flipkart", "query": "iphone 15 price"}}
+{"text": "YouTube la tamil cooking videos search pannu", "lang": "ta", "action": "web_search", "slots": {"site": "YouTube", "query": "tamil cooking videos"}}
+{"text": "dollar rate innaiku evlo", "lang": "ta", "action": "web_search", "slots": {"query": "dollar rate innaiku evlo"}}
+{"text": "Madurai to Kodaikanal bus timings thedu", "lang": "ta", "action": "web_search", "slots": {"query": "Madurai to Kodaikanal bus timings"}}
+{"text": "Jailer collection evlo nu sollu", "lang": "ta", "action": "web_search", "slots": {"query": "Jailer collection evlo"}}
+{"text": "Ilaiyaraaja birthday eppo", "lang": "ta", "action": "web_search", "slots": {"query": "Ilaiyaraaja birthday eppo"}}
+{"text": "how to make filter coffee search pannu", "lang": "ta", "action": "web_search", "slots": {"query": "how to make filter coffee"}}
+{"text": "Nayanthara new movie pathi sollu", "lang": "ta", "action": "web_search", "slots": {"query": "Nayanthara new movie"}}
+{"text": "சிவகார்த்திகேயன் மனைவி பெயர் என்ன", "lang": "ta", "action": "web_search", "slots": {"query": "சிவகார்த்திகேயன் மனைவி பெயர் என்ன"}}
+{"text": "சென்னை வானிலை பாரு", "lang": "ta", "action": "web_search", "slots": {"query": "சென்னை வானிலை"}}
+{"text": "விஜய் சேதுபதி படங்கள் தேடு", "lang": "ta", "action": "web_search", "slots": {"query": "விஜய் சேதுபதி படங்கள்"}}
+{"text": "ரஜினிகாந்த் வயது என்ன", "lang": "ta", "action": "web_search", "slots": {"query": "ரஜினிகாந்த் வயது என்ன"}}
+{"text": "இன்னைக்கு தங்கம் விலை சொல்லு", "lang": "ta", "action": "web_search", "slots": {"query": "இன்னைக்கு தங்கம் விலை"}}
+{"text": "income tax last date enna nu thedu", "lang": "ta", "action": "web_search", "slots": {"query": "income tax last date enna"}}
+{"text": "Coimbatore la best hotels search pannu", "lang": "ta", "action": "web_search", "slots": {"query": "Coimbatore la best hotels"}}
+{"text": "Mani Ratnam latest padam edhu", "lang": "ta", "action": "web_search", "slots": {"query": "Mani Ratnam latest padam edhu"}}
+{"text": "CSK next match eppo", "lang": "ta", "action": "web_search", "slots": {"query": "CSK next match eppo"}}
+{"text": "headache ku home remedy paaru", "lang": "ta", "action": "web_search", "slots": {"query": "headache ku home remedy"}}
+{"text": "Spotify la Anirudh songs podu", "lang": "ta", "action": "play_media", "slots": {"app": "Spotify", "query": "Anirudh"}}
+{"text": "Ilaiyaraaja paattu podu", "lang": "ta", "action": "play_media", "slots": {"query": "Ilaiyaraaja"}}
+{"text": "Kaavaalaa song play pannu", "lang": "ta", "action": "play_media", "slots": {"query": "Kaavaalaa"}}
+{"text": "YouTube la Vadivelu comedy podu", "lang": "ta", "action": "play_media", "slots": {"app": "YouTube", "query": "Vadivelu comedy"}}
+{"text": "melody songs podu", "lang": "ta", "action": "play_media", "slots": {"query": "melody songs"}}
+{"text": "paattu podu", "lang": "ta", "action": "play_media", "slots": {}}
+{"text": "JioSaavn la Sid Sriram podu", "lang": "ta", "action": "play_media", "slots": {"app": "JioSaavn", "query": "Sid Sriram"}}
+{"text": "AR Rahman songs play pannu", "lang": "ta", "action": "play_media", "slots": {"query": "AR Rahman"}}
+{"text": "குத்து பாட்டு போடு", "lang": "ta", "action": "play_media", "slots": {"query": "குத்து பாட்டு"}}
+{"text": "YouTube Music la Yuvan paatu podu", "lang": "ta", "action": "play_media", "slots": {"app": "YouTube Music", "query": "Yuvan"}}
+{"text": "Rowdy Baby play pannu", "lang": "ta", "action": "play_media", "slots": {"query": "Rowdy Baby"}}
+{"text": "Enjoy Enjaami podu", "lang": "ta", "action": "play_media", "slots": {"query": "Enjoy Enjaami"}}
+{"text": "Gaana la Deva hits podu", "lang": "ta", "action": "play_media", "slots": {"app": "Gaana", "query": "Deva"}}
+{"text": "spotify la lofi podu", "lang": "ta", "action": "play_media", "slots": {"app": "spotify", "query": "lofi"}}
+{"text": "MS Subbulakshmi suprabhatham podu", "lang": "ta", "action": "play_media", "slots": {"query": "MS Subbulakshmi suprabhatham"}}
+{"text": "Bigg Boss Tamil episode play pannu", "lang": "ta", "action": "play_media", "slots": {"query": "Bigg Boss Tamil"}}
+{"text": "Wynk la ethavadhu paattu podu", "lang": "ta", "action": "play_media", "slots": {"app": "Wynk"}}
+{"text": "Arabic Kuthu song podu please", "lang": "ta", "action": "play_media", "slots": {"query": "Arabic Kuthu"}}
+{"text": "இளையராஜா பாட்டு போடு", "lang": "ta", "action": "play_media", "slots": {"query": "இளையராஜா"}}
+{"text": "அனிருத் பாட்டு ப்ளே பண்ணு", "lang": "ta", "action": "play_media", "slots": {"query": "அனிருத்"}}
+{"text": "யூடியூப் ல வடிவேலு காமெடி போடு", "lang": "ta", "action": "play_media", "slots": {"app": "யூடியூப்", "query": "வடிவேலு காமெடி"}}
+{"text": "பக்தி பாடல்கள் போடு", "lang": "ta", "action": "play_media", "slots": {"query": "பக்தி பாடல்கள்"}}
+{"text": "GV Prakash bgm podu", "lang": "ta", "action": "play_media", "slots": {"query": "GV Prakash"}}
+{"text": "Why This Kolaveri Di podu", "lang": "ta", "action": "play_media", "slots": {"query": "Why This Kolaveri Di"}}
+{"text": "Amazon Music la Shreya Ghoshal tamil podu", "lang": "ta", "action": "play_media", "slots": {"app": "Amazon Music", "query": "Shreya Ghoshal tamil"}}
+{"text": "YouTube la Kumki songs", "lang": "ta", "action": "play_media", "slots": {"app": "YouTube", "query": "Kumki"}}
+{"text": "paattu niruthu", "lang": "ta", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "song ah pause pannu", "lang": "ta", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "continue pannu", "lang": "ta", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "paatu thirumba podu", "lang": "ta", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "adutha paatu", "lang": "ta", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "next song podu", "lang": "ta", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "munnadi paatu podu", "lang": "ta", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "முந்தைய பாட்டு போடு", "lang": "ta", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "volume jaasti pannu", "lang": "ta", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "sound ethu", "lang": "ta", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "volume kammi pannu", "lang": "ta", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "sound konjam koraiu", "lang": "ta", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "mute pannu", "lang": "ta", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "sound ah off pannu", "lang": "ta", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "பாட்டை நிறுத்து", "lang": "ta", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "அடுத்த பாட்டு", "lang": "ta", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "சவுண்ட் கூட்டு", "lang": "ta", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "சத்தம் குறை", "lang": "ta", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "next", "lang": "none", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "pause", "lang": "none", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Amma ku message anuppu naan late ah varen", "lang": "ta", "action": "send_message", "slots": {"contact": "Amma", "text": "naan late ah varen"}}
+{"text": "Karthik kitta sollu meeting 4 manikku", "lang": "ta", "action": "send_message", "slots": {"contact": "Karthik", "text": "meeting 4 manikku"}}
+{"text": "Priya ku whatsapp pannu happy birthday", "lang": "ta", "action": "send_message", "slots": {"contact": "Priya", "text": "happy birthday"}}
+{"text": "saapten nu Appa ku message pannu", "lang": "ta", "action": "send_message", "slots": {"text": "saapten", "contact": "Appa"}}
+{"text": "Ravi anna ku train 10 nimisham late nu anuppu", "lang": "ta", "action": "send_message", "slots": {"contact": "Ravi anna", "text": "train 10 nimisham late"}}
+{"text": "Selvi ku message podu keys table mela irukku", "lang": "ta", "action": "send_message", "slots": {"contact": "Selvi", "text": "keys table mela irukku"}}
+{"text": "boss ku running late traffic jam nu message pannu", "lang": "ta", "action": "send_message", "slots": {"contact": "boss", "text": "running late traffic jam"}}
+{"text": "Lakshmi akka ku pooja ku varen nu sollu", "lang": "ta", "action": "send_message", "slots": {"contact": "Lakshmi akka", "text": "pooja ku varen"}}
+{"text": "Dinesh ku match pakka varriya nu anupu", "lang": "ta", "action": "send_message", "slots": {"contact": "Dinesh", "text": "match pakka varriya"}}
+{"text": "Thatha ku message pannu medicine eduthukonga", "lang": "ta", "action": "send_message", "slots": {"contact": "Thatha", "text": "medicine eduthukonga"}}
+{"text": "Gopal sir ku assignment submit panniten nu anuppunga", "lang": "ta", "action": "send_message", "slots": {"contact": "Gopal sir", "text": "assignment submit panniten"}}
+{"text": "திவ்யா க்கு on the way னு வாட்ஸ்அப் பண்ணு", "lang": "ta", "action": "send_message", "slots": {"contact": "திவ்யா", "text": "on the way"}}
+{"text": "அம்மா க்கு வீட்டுக்கு வந்துட்டேன் னு மெசேஜ் அனுப்பு", "lang": "ta", "action": "send_message", "slots": {"contact": "அம்மா", "text": "வீட்டுக்கு வந்துட்டேன்"}}
+{"text": "ராஜா கிட்ட நாளைக்கு பார்க்கலாம் னு சொல்லு", "lang": "ta", "action": "send_message", "slots": {"contact": "ராஜா", "text": "நாளைக்கு பார்க்கலாம்"}}
+{"text": "Vicky ku da cash GPay pannitaen nu message pannu", "lang": "ta", "action": "send_message", "slots": {"contact": "Vicky", "text": "da cash GPay pannitaen"}}
+{"text": "Nandhini ku class cancel nu sollidu", "lang": "ta", "action": "send_message", "slots": {"contact": "Nandhini", "text": "class cancel"}}
+{"text": "Mama ku message anuppu Sunday saapada varom", "lang": "ta", "action": "send_message", "slots": {"contact": "Mama", "text": "Sunday saapada varom"}}
+{"text": "Hari ku laptop charger edutthutu vaa nu anuppu", "lang": "ta", "action": "send_message", "slots": {"contact": "Hari", "text": "laptop charger edutthutu vaa"}}
+{"text": "Jeeva ku 5 mins la varen nu message podu", "lang": "ta", "action": "send_message", "slots": {"contact": "Jeeva", "text": "5 mins la varen"}}
+{"text": "Kumar uncle ku whatsapp la vanakkam nu anuppu", "lang": "ta", "action": "send_message", "slots": {"contact": "Kumar uncle", "text": "vanakkam"}}
+{"text": "Ravi ku message anuppu", "lang": "ta", "action": "send_message", "slots": {"contact": "Ravi"}, "incomplete": true}
+{"text": "அக்கா க்கு மெசேஜ் பண்ணு", "lang": "ta", "action": "send_message", "slots": {"contact": "அக்கா"}, "incomplete": true}
+{"text": "hello everyone nu type pannu", "lang": "ta", "action": "type_text", "slots": {"text": "hello everyone"}}
+{"text": "type pannu my name is suresh", "lang": "ta", "action": "type_text", "slots": {"text": "my name is suresh"}}
+{"text": "thank you sir nu ezhudhu", "lang": "ta", "action": "type_text", "slots": {"text": "thank you sir"}}
+{"text": "naalaiku leave venum nu type pannu", "lang": "ta", "action": "type_text", "slots": {"text": "naalaiku leave venum"}}
+{"text": "please call me back type panu", "lang": "ta", "action": "type_text", "slots": {"text": "please call me back"}}
+{"text": "Dear Customer nu adi", "lang": "ta", "action": "type_text", "slots": {"text": "Dear Customer"}}
+{"text": "meeting postponed nu type pannunga", "lang": "ta", "action": "type_text", "slots": {"text": "meeting postponed"}}
+{"text": "ezhudhu inniki work from home", "lang": "ta", "action": "type_text", "slots": {"text": "inniki work from home"}}
+{"text": "order confirmed nu type pannu da", "lang": "ta", "action": "type_text", "slots": {"text": "order confirmed"}}
+{"text": "நன்றி வணக்கம் னு டைப் பண்ணு", "lang": "ta", "action": "type_text", "slots": {"text": "நன்றி வணக்கம்"}}
+{"text": "நாளை விடுமுறை னு எழுது", "lang": "ta", "action": "type_text", "slots": {"text": "நாளை விடுமுறை"}}
+{"text": "Chennai 600040 nu type pannu", "lang": "ta", "action": "type_text", "slots": {"text": "Chennai 600040"}}
+{"text": "invoice number 4521 type pannu", "lang": "ta", "action": "type_text", "slots": {"text": "invoice number 4521"}}
+{"text": "இனிய பொங்கல் நல்வாழ்த்துகள் னு எழுது", "lang": "ta", "action": "type_text", "slots": {"text": "இனிய பொங்கல் நல்வாழ்த்துகள்"}}
+{"text": "type pannu ok noted", "lang": "ta", "action": "type_text", "slots": {"text": "ok noted"}}
+{"text": "Submit button click pannu", "lang": "ta", "action": "click", "slots": {"target": "Submit"}}
+{"text": "Next ah amuthu", "lang": "ta", "action": "click", "slots": {"target": "Next"}}
+{"text": "Login mela click pannu", "lang": "ta", "action": "click", "slots": {"target": "Login"}}
+{"text": "Send amuthu", "lang": "ta", "action": "click", "slots": {"target": "Send"}}
+{"text": "OK press pannu", "lang": "ta", "action": "click", "slots": {"target": "OK"}}
+{"text": "Skip Ad click pannu", "lang": "ta", "action": "click", "slots": {"target": "Skip Ad"}}
+{"text": "Download button amukku", "lang": "ta", "action": "click", "slots": {"target": "Download"}}
+{"text": "கேன்சல் பட்டன் கிளிக் பண்ணு", "lang": "ta", "action": "click", "slots": {"target": "கேன்சல்"}}
+{"text": "Sign up click panu", "lang": "ta", "action": "click", "slots": {"target": "Sign up"}}
+{"text": "Accept amuthunga", "lang": "ta", "action": "click", "slots": {"target": "Accept"}}
+{"text": "சேவ் பட்டன் அழுத்து", "lang": "ta", "action": "click", "slots": {"target": "சேவ்"}}
+{"text": "Next கிளிக் பண்ணு", "lang": "ta", "action": "click", "slots": {"target": "Next"}}
+{"text": "Compose click pannu", "lang": "ta", "action": "click", "slots": {"target": "Compose"}}
+{"text": "Home tab la click pannu", "lang": "ta", "action": "click", "slots": {"target": "Home"}}
+{"text": "screen la enna irukku nu padi", "lang": "ta", "action": "read_screen", "slots": {}}
+{"text": "idha padichu sollu", "lang": "ta", "action": "read_screen", "slots": {}}
+{"text": "ஸ்கிரீனை வாசி", "lang": "ta", "action": "read_screen", "slots": {}}
+{"text": "intha page la enna irukku", "lang": "ta", "action": "read_screen", "slots": {}}
+{"text": "ஸ்கிரீன்ல என்ன இருக்குன்னு படி", "lang": "ta", "action": "read_screen", "slots": {}}
+{"text": "itha konjam padichu kaatu", "lang": "ta", "action": "read_screen", "slots": {}}
+{"text": "screen la enna error varuthu nu sollu", "lang": "ta", "action": "read_screen", "slots": {}}
+{"text": "இதை படிச்சு சொல்லு", "lang": "ta", "action": "read_screen", "slots": {}}
+{"text": "vendaam vidu", "lang": "ta", "action": "cancel", "slots": {}}
+{"text": "cancel pannu", "lang": "ta", "action": "cancel", "slots": {}}
+{"text": "onnum pannadha", "lang": "ta", "action": "cancel", "slots": {}}
+{"text": "விடு விடு தேவை இல்ல", "lang": "ta", "action": "cancel", "slots": {}}
+{"text": "வேண்டாம் விடு", "lang": "ta", "action": "cancel", "slots": {}}
+{"text": "adhu venam cancel", "lang": "ta", "action": "cancel", "slots": {}}
+{"text": "stop stop vendaam", "lang": "ta", "action": "cancel", "slots": {}}
+{"text": "brightness jaasti pannu", "lang": "ta", "action": "unknown", "slots": {}}
+{"text": "6 manikku alarm vei", "lang": "ta", "action": "unknown", "slots": {}}
+{"text": "Amma ku call pannu", "lang": "ta", "action": "unknown", "slots": {}}
+{"text": "computer shutdown pannu", "lang": "ta", "action": "unknown", "slots": {}}
+{"text": "nee enna panra", "lang": "ta", "action": "unknown", "slots": {}}
+{"text": "oru joke sollu", "lang": "ta", "action": "unknown", "slots": {}}
+{"text": "pizza order pannu", "lang": "ta", "action": "unknown", "slots": {}}
+{"text": "கம்ப்யூட்டர் ஆஃப் பண்ணு", "lang": "ta", "action": "unknown", "slots": {}}
+{"text": "hmm hmm", "lang": "ta", "action": "unknown", "slots": {}}
+{"text": "dei summa iru", "lang": "ta", "action": "unknown", "slots": {}}
+{"text": "bluetooth on pannu", "lang": "ta", "action": "unknown", "slots": {}}
+{"text": "ஸ்கிரீன் லாக் பண்ணு", "lang": "ta", "action": "unknown", "slots": {}}
+{"text": "அலாரம் வை காலைல அஞ்சு மணிக்கு", "lang": "ta", "action": "unknown", "slots": {}}

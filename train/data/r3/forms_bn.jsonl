@@ -1,0 +1,120 @@
+{"text": "ei form e ki bhorte hobe", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "ei form ta ki jonno bujhiye dao", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "ei KYC form e ki ki lagbe", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "ei form ta ki ki jante chaiche bolo", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "ei form ta niye ektu bolo", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "ei application form ta ki bolo to", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "bank KYC form e ki likhte hobe", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "Aadhaar update form e ki ki lagbe", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "PAN er form e ki chaiche", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "ration card er form ta ki jonno bujhiye bolo", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "scholarship form e ki ki dite hobe", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "pension form e ki bhorte hobe", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "PM Kisan form ta ki bujhiye dao", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "gas connection form e ki lagbe", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "voter ID form ta kiser jonno", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "chakrir application form e ki ki chaiche", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "school admission form e ki likhte hobe", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "hospital registration form e ki ki lagbe", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "insurance claim form e ki korte hobe", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "what does this form need", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "tell me what this form is for", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "ei form ta ami bujhte parchhi na ektu bujhiye dao", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "ei form e kon kon kagoj lagbe", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "ei form e koto gulo proshno ache", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "ei form ta sohoj kore bolo", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "explain this form please", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "ei form ta explain koro", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "এই ফর্মে কী ভরতে হবে", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "এই ফর্মটা কীসের জন্য বুঝিয়ে দাও", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "এই কেওয়াইসি ফর্মে কী কী লাগবে", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "এই ফর্মটা নিয়ে একটু বলো", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "এই আবেদনপত্রটা কী বলো তো", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "ব্যাঙ্কের ফর্মে কী জানতে চাইছে", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "আধার আপডেট ফর্মে কী কী লাগবে", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "এই ফর্মে কোন কোন কাগজ লাগবে", "lang": "bn", "action": "explain_form", "slots": {}}
+{"text": "form bhorte sahajyo koro", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "ei KYC form ta bhore dao", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "amar form ta bhore dao na", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "ei form ta amar details diye bhoro", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "form fill kore dao", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "form bhorte help koro", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "ei form ta ektu bhore dao", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "Aadhaar update form bhorte sahajyo koro", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "PAN er form fill kore dao", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "ration card er form bhorte help koro", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "scholarship form ta bhore dao", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "pension form bhorte sahajyo koro", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "PM Kisan form fill kore dao", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "gas connection form ta bhoro", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "voter ID form ta bhore dao", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "chakrir application form fill korte help koro", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "school admission form bhorte sahajyo koro", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "hospital registration form ta bhore dao", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "insurance claim form bhore dao", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "help me fill this form", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "fill this form for me", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "please fill my KYC form", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "amake form fill korte hobe help koro", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "bank KYC form ta amar songe bose bhore dao", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "ei form bhorar somoy amake sahajyo koro", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "ami ja bolbo tai diye form ta bhore dao", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "form ta ektu fill kore dao", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "ফর্ম ভরতে সাহায্য করো", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "এই কেওয়াইসি ফর্মটা ভরে দাও", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "আমার ফর্মটা ভরে দাও না", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "এই ফর্মটা ভরতে সাহায্য করো", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "ব্যাঙ্কের ফর্মটা ভরে দাও", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "আধার ফর্ম ভরতে সাহায্য করো", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "এই আবেদনপত্রটা ভরে দাও", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "ফর্মটা একটু ফিল করে দাও", "lang": "bn", "action": "fill_form", "slots": {}}
+{"text": "ei website ta ki asol", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "ei site ta safe to", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "eta ki bank er asol site", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "is this site safe", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "is this website real", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "ei link ta ki jaal", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "ei site ta ki fake", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "eta ki SBI er site", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "ei KYC site ta thik ache to", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "ei page ta ki bishwasyogyo", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "ei Aadhaar site ta ki asol", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "ei payment site ta ki safe", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "is this a genuine bank website", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "ei site e amar details dewa jabe ki", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "ei website ta thik ache ki na dekho to", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "eta ki sorkari site", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "ei site ta ki scam", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "ei bank er site ta thik to", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "check koro ei site ta safe ki na", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "এই ওয়েবসাইটটা কি আসল", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "এই সাইটটা কি নিরাপদ", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "এটা কি জাল সাইট", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "এটা কি ব্যাঙ্কের আসল সাইট", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "এই লিঙ্কটা কি বিশ্বাস করা যায়", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "এই সাইটটা কি ভুয়ো", "lang": "bn", "action": "check_site", "slots": {}}
+{"text": "screen e ki lekha ache bolo", "lang": "bn", "action": "read_screen", "slots": {}}
+{"text": "ei screen ta poro shonao", "lang": "bn", "action": "read_screen", "slots": {}}
+{"text": "ekhane ki dekha jachhe bolo", "lang": "bn", "action": "read_screen", "slots": {}}
+{"text": "স্ক্রিনে কী লেখা আছে পড়ে শোনাও", "lang": "bn", "action": "read_screen", "slots": {}}
+{"text": "ei page e ki ache poro", "lang": "bn", "action": "read_screen", "slots": {}}
+{"text": "screen ta ektu poro bolo", "lang": "bn", "action": "read_screen", "slots": {}}
+{"text": "likho amar nam Ramesh Kumar", "lang": "bn", "action": "type_text", "slots": {"text": "amar nam Ramesh Kumar"}}
+{"text": "type koro mobile number 9876543210", "lang": "bn", "action": "type_text", "slots": {"text": "mobile number 9876543210"}}
+{"text": "ekhane likho Kolkata", "lang": "bn", "action": "type_text", "slots": {"text": "Kolkata"}}
+{"text": "likhe dao address 12 Park Street Kolkata", "lang": "bn", "action": "type_text", "slots": {"text": "address 12 Park Street Kolkata"}}
+{"text": "এখানে লেখো আমার নাম সুরেশ", "lang": "bn", "action": "type_text", "slots": {"text": "আমার নাম সুরেশ"}}
+{"text": "likho ami kal asbo", "lang": "bn", "action": "type_text", "slots": {"text": "ami kal asbo"}}
+{"text": "submit e click koro", "lang": "bn", "action": "click", "slots": {"target": "submit"}}
+{"text": "next e chap dao", "lang": "bn", "action": "click", "slots": {"target": "next"}}
+{"text": "continue button ta chapo", "lang": "bn", "action": "click", "slots": {"target": "continue"}}
+{"text": "upload e click koro", "lang": "bn", "action": "click", "slots": {"target": "upload"}}
+{"text": "ওকে বোতামে ক্লিক করো", "lang": "bn", "action": "click", "slots": {"target": "ওকে"}}
+{"text": "KYC kibhabe korte hoy google koro", "lang": "bn", "action": "web_search", "slots": {"query": "KYC kibhabe korte hoy"}}
+{"text": "Aadhaar er thikana kibhabe bodlano jay search koro", "lang": "bn", "action": "web_search", "slots": {"query": "Aadhaar er thikana kibhabe bodlano jay"}}
+{"text": "ration card kibhabe pabo bolo", "lang": "bn", "action": "web_search", "slots": {"query": "ration card kibhabe pabo"}}
+{"text": "PAN card er jonno ki ki lagbe search koro", "lang": "bn", "action": "web_search", "slots": {"query": "PAN card er jonno ki ki lagbe"}}
+{"text": "UIDAI er website kholo", "lang": "bn", "action": "open_website", "slots": {"site": "UIDAI"}}
+{"text": "SBI er site ta kholo", "lang": "bn", "action": "open_website", "slots": {"site": "SBI"}}
+{"text": "incometax er website khule dao", "lang": "bn", "action": "open_website", "slots": {"site": "incometax"}}
+{"text": "DigiLocker er site kholo", "lang": "bn", "action": "open_website", "slots": {"site": "DigiLocker"}}

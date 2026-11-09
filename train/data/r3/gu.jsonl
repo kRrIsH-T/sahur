@@ -1,0 +1,424 @@
+{"text": "Edge open karo ane mane Rajkot nu weather kaho.", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Edge"}}, {"action": "web_search", "slots": {"query": "Rajkot nu weather"}}], "joiners": ["ane"]}
+{"text": "ek minute Brave kholo then flipkart dot com khol", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Brave"}}, {"action": "open_website", "slots": {"site": "flipkart dot com"}}], "joiners": ["then"]}
+{"text": "jiosaavn par radiohead saambhdavo, pachhi volume vadharo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"app": "jiosaavn", "query": "radiohead"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["pachhi"]}
+{"text": "OneNote ne kholo tyarbad Namaste, hu Kunal bolu chhu type karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "OneNote"}}, {"action": "type_text", "slots": {"text": "Namaste, hu Kunal bolu chhu"}}], "joiners": ["tyarbad"]}
+{"text": "hmm WhatsApp kholjo ane then Dada ne message karo ke tamaro order aavi gayo chhe", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "WhatsApp"}}, {"action": "send_message", "slots": {"contact": "Dada", "text": "tamaro order aavi gayo chhe"}}], "joiners": ["ane then"]}
+{"text": "YouTube start karo then Kinjal Dave na gaana chalavo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "YouTube"}}, {"action": "play_media", "slots": {"query": "Kinjal Dave"}}], "joiners": ["then"]}
+{"text": "Telegram ne kholo te pachhi Search nu button dabavo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Telegram"}}, {"action": "click", "slots": {"target": "Search"}}], "joiners": ["te pachhi"]}
+{"text": "video pause karo te pachhi Netflix launch karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "Netflix"}}], "joiners": ["te pachhi"]}
+{"text": "bhai Microsoft Edge chalu kari ne mane Rajkot thi Ahmedabad bus timing kaho", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Microsoft Edge"}}, {"action": "web_search", "slots": {"query": "Rajkot thi Ahmedabad bus timing"}}], "joiners": ["chalu kari ne"]}
+{"text": "Firefox open kari ne Navratri 2026 ni tarikh google kro", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Firefox"}}, {"action": "web_search", "slots": {"query": "Navratri 2026 ni tarikh"}}], "joiners": ["open kari ne"]}
+{"text": "Masi ne kaho ke Happy birthday ane then Brave start karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Masi", "text": "Happy birthday"}}, {"action": "open_app", "slots": {"app": "Brave"}}], "joiners": ["ane then"]}
+{"text": "Kinjal ne moklo ke ghare pahonchi gayo pachi whatsapp kholjo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Kinjal", "text": "ghare pahonchi gayo"}}, {"action": "open_app", "slots": {"app": "whatsapp"}}], "joiners": ["pachi"]}
+{"text": "ek kaam karo kal savare 9 vaage office aavjo lakhi submit par click kro.", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "kal savare 9 vaage office aavjo"}}, {"action": "click", "slots": {"target": "submit"}}], "joiners": ["lakhi"]}
+{"text": "Microsoft Word open karo ane aa lakho aaje meeting 5 vaage chhe", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Microsoft Word"}}, {"action": "type_text", "slots": {"text": "aaje meeting 5 vaage chhe"}}], "joiners": ["ane"]}
+{"text": "Spotify kholjo pachhi bhajan play karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Spotify"}}, {"action": "play_media", "slots": {"query": "bhajan"}}], "joiners": ["pachhi"]}
+{"text": "volume ochho kari ne telegram ne kholo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "open_app", "slots": {"app": "telegram"}}], "joiners": ["kari ne"]}
+{"text": "sona no bhav search kari ne screen par shu lakhyu chhe", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "sona no bhav"}}, {"action": "read_screen", "slots": {}}], "joiners": ["search kari ne"]}
+{"text": "likho ke invoice 4521 payment pending chhe tyar pachhi Save par tap karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "invoice 4521 payment pending chhe"}}, {"action": "click", "slots": {"target": "Save"}}], "joiners": ["tyar pachhi"]}
+{"text": "Compose par dabavi ne aa lakho Jai Shri Krishna", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "Compose"}}, {"action": "type_text", "slots": {"text": "Jai Shri Krishna"}}], "joiners": ["dabavi ne"]}
+{"text": "WhatsApp par Nirali ben ne moklo gaadi nu bill bhari didhu chhe pachi Firefox open karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Nirali ben", "text": "gaadi nu bill bhari didhu chhe"}}, {"action": "open_app", "slots": {"app": "Firefox"}}], "joiners": ["pachi"]}
+{"text": "chrome kholo tyar pachhi aa screen vancho", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "read_screen", "slots": {}}], "joiners": ["tyar pachhi"]}
+{"text": "Sticky Notes kholo, ane pachhi lakho ke aaje nu hisaab", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Sticky Notes"}}, {"action": "type_text", "slots": {"text": "aaje nu hisaab"}}], "joiners": ["ane pachhi"]}
+{"text": "Jigardan Gadhavi vagaDi ne thodo avaaj vadharo.", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "Jigardan Gadhavi"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["vagaDi ne"]}
+{"text": "whatsapp par nani ne moklo have nikalyo chhu, pachhi excel wali app kholo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "nani", "text": "have nikalyo chhu"}}, {"action": "open_app", "slots": {"app": "excel"}}], "joiners": ["pachhi"]}
+{"text": "dadi ne lakhi do ke mane 10 min lagshe, ane then vlc wali app kholo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "dadi", "text": "mane 10 min lagshe"}}, {"action": "open_app", "slots": {"app": "vlc"}}], "joiners": ["ane then"]}
+{"text": "happy diwali lakhi save nu button dabavo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "happy diwali"}}, {"action": "click", "slots": {"target": "save"}}], "joiners": ["lakhi"]}
+{"text": "brave chalu karo ane sandesh dot com khol.", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "brave"}}, {"action": "open_website", "slots": {"site": "sandesh dot com"}}], "joiners": ["ane"]}
+{"text": "gir national park timing shodhi ne aa screen vancho", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "gir national park timing"}}, {"action": "read_screen", "slots": {}}], "joiners": ["shodhi ne"]}
+{"text": "chrome chalu kari ne ipl score aaje search karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "ipl score aaje"}}], "joiners": ["chalu kari ne"]}
+{"text": "hmm Brave start karo then GSRTC website kholo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Brave"}}, {"action": "open_website", "slots": {"site": "GSRTC"}}], "joiners": ["then"]}
+{"text": "ganu badlo ane thodo avaaj vadharo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "next"}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["ane"]}
+{"text": "wordpad start kro ane pachhi aa likho aaje nu hisaab", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "wordpad"}}, {"action": "type_text", "slots": {"text": "aaje nu hisaab"}}], "joiners": ["ane pachhi"]}
+{"text": "sound mute kari do te pachhi Instagram kholo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "open_app", "slots": {"app": "Instagram"}}], "joiners": ["te pachhi"]}
+{"text": "music pause karo ane pachhalu gaanu vagado.", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "media_control", "slots": {}, "control": "previous"}], "joiners": ["ane"]}
+{"text": "edge kholo ane pachhi vadodara ma aaje nu taapman ni mahiti apo.", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "vadodara ma aaje nu taapman"}}], "joiners": ["ane pachhi"]}
+{"text": "control panel open karo tyarbad command prompt open kro", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "control panel"}}, {"action": "open_app", "slots": {"app": "command prompt"}}], "joiners": ["tyarbad"]}
+{"text": "Vadodara ma aaje nu taapman shodhi screen par shu lakhyu che", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "Vadodara ma aaje nu taapman"}}, {"action": "read_screen", "slots": {}}], "joiners": ["shodhi"]}
+{"text": "WordPad open karo tyar pachhi lakho ke Happy Diwali", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "WordPad"}}, {"action": "type_text", "slots": {"text": "Happy Diwali"}}], "joiners": ["tyar pachhi"]}
+{"text": "word kholo, after that aa lakho mari rajaa manjur karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "word"}}, {"action": "type_text", "slots": {"text": "mari rajaa manjur karo"}}], "joiners": ["after that"]}
+{"text": "Smit ne moklo ke paisa mokli didha te pachhi File Explorer kholjo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Smit", "text": "paisa mokli didha"}}, {"action": "open_app", "slots": {"app": "File Explorer"}}], "joiners": ["te pachhi"]}
+{"text": "Jigardan Gadhavi nu gaanu vagaDo tarat pachhi Calculator kholjo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "Jigardan Gadhavi"}}, {"action": "open_app", "slots": {"app": "Calculator"}}], "joiners": ["tarat pachhi"]}
+{"text": "firefox kholi ne aaje na samachar batavo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "web_search", "slots": {"query": "aaje na samachar"}}], "joiners": ["kholi ne"]}
+{"text": "chrome kholi do then anyror website kholo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "anyror"}}], "joiners": ["then"]}
+{"text": "word kholo ane pachhi aa likho ahmedabad ma kaam chhe", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "word"}}, {"action": "type_text", "slots": {"text": "ahmedabad ma kaam chhe"}}], "joiners": ["ane pachhi"]}
+{"text": "Chrome chaalu karo te pachhi Sardar Patel nu statue ketlu unchu chhe", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "web_search", "slots": {"query": "Sardar Patel nu statue ketlu unchu chhe"}}], "joiners": ["te pachhi"]}
+{"text": "bhai ne lakhi do ke have nikalyo chhu ane chrome open karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "bhai", "text": "have nikalyo chhu"}}, {"action": "open_app", "slots": {"app": "chrome"}}], "joiners": ["ane"]}
+{"text": "type karo bill bharvanu chhe pachhi save par click karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "bill bharvanu chhe"}}, {"action": "click", "slots": {"target": "save"}}], "joiners": ["pachhi"]}
+{"text": "ganu band karo ane whatsapp kholjo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "whatsapp"}}], "joiners": ["ane"]}
+{"text": "Compose par click kari Happy Diwali lakho", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "Compose"}}, {"action": "type_text", "slots": {"text": "Happy Diwali"}}], "joiners": ["click kari"]}
+{"text": "microsoft edge start karo tyar pachhi bookmyshow ni website kholo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "microsoft edge"}}, {"action": "open_website", "slots": {"site": "bookmyshow"}}], "joiners": ["tyar pachhi"]}
+{"text": "ek kaam karo pehla Bhavesh bhai ne jaNavo ke Happy birthday pachhi Telegram wali app khol", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Bhavesh bhai", "text": "Happy birthday"}}, {"action": "open_app", "slots": {"app": "Telegram"}}], "joiners": ["pehla", "pachhi"]}
+{"text": "yaar Gaana kholjo pachhi Arvind Vegda na gaana vagdo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Gaana"}}, {"action": "play_media", "slots": {"query": "Arvind Vegda"}}], "joiners": ["pachhi"]}
+{"text": "chrome kholjo ane have narendra modi ni umar ketli chhe", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "narendra modi ni umar ketli chhe"}}], "joiners": ["ane have"]}
+{"text": "avaaj ghatado pachhi calculator wali app kholo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "open_app", "slots": {"app": "calculator"}}], "joiners": ["pachhi"]}
+{"text": "pehla whatsapp open karo pachhi Krupa ne jaNavo ke hu 5 vaage pahonchi jaish", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "Krupa", "text": "hu 5 vaage pahonchi jaish"}}], "joiners": ["pehla", "pachhi"]}
+{"text": "browser ne kholo pachhi mumbai thi surat train google kro", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "browser"}}, {"action": "web_search", "slots": {"query": "mumbai thi surat train"}}], "joiners": ["pachhi"]}
+{"text": "pause karo tyar pachhi paint kholjo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "paint"}}], "joiners": ["tyar pachhi"]}
+{"text": "Microsoft Edge kholi aa shu che te vacho", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Microsoft Edge"}}, {"action": "read_screen", "slots": {}}], "joiners": ["kholi"]}
+{"text": "ok happy diwali lakhi do tyarbad next button dabavo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "happy diwali"}}, {"action": "click", "slots": {"target": "next"}}], "joiners": ["tyarbad"]}
+{"text": "Wynk chalu kari ne Lata Mangeshkar saambhdavo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Wynk"}}, {"action": "play_media", "slots": {"query": "Lata Mangeshkar"}}], "joiners": ["chalu kari ne"]}
+{"text": "YouTube Music open karo, ane Parthiv Gohil na gaana chalavo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "YouTube Music"}}, {"action": "play_media", "slots": {"query": "Parthiv Gohil"}}], "joiners": ["ane"]}
+{"text": "Jigardan Gadhavi saambhdavo after that BookMyShow ni site kholo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "Jigardan Gadhavi"}}, {"action": "open_website", "slots": {"site": "BookMyShow"}}], "joiners": ["after that"]}
+{"text": "youtube music open kari ne jignesh kaviraj ke gaane chalao", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube music"}}, {"action": "play_media", "slots": {"query": "jignesh kaviraj"}}], "joiners": ["open kari ne"]}
+{"text": "Settings kholi ne Search ne click karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Settings"}}, {"action": "click", "slots": {"target": "Search"}}], "joiners": ["kholi ne"]}
+{"text": "hanuman chalisa vagadine volume vadharo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "hanuman chalisa"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["vagaDine"]}
+{"text": "chrome kholi Ahmedabad nu weather ni mahiti apo.", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "Ahmedabad nu weather"}}], "joiners": ["kholi"]}
+{"text": "tum hi ho vagadine tally ne kholo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "tum hi ho"}}, {"action": "open_app", "slots": {"app": "tally"}}], "joiners": ["vagaDine"]}
+{"text": "Chrome kholi do pachi Gmail website par jao", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "open_website", "slots": {"site": "Gmail"}}], "joiners": ["pachi"]}
+{"text": "youtube kholi ne aishwarya majmudar vagdo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "aishwarya majmudar"}}], "joiners": ["kholi ne"]}
+{"text": "ek minute microsoft word kholi do pachhi aa likho dear sir, mane 2 divas ni rajaa joiye chhe", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "microsoft word"}}, {"action": "type_text", "slots": {"text": "dear sir, mane 2 divas ni rajaa joiye chhe"}}], "joiners": ["pachhi"]}
+{"text": "Microsoft Edge kholi do then Flipkart website kholo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Microsoft Edge"}}, {"action": "open_website", "slots": {"site": "Flipkart"}}], "joiners": ["then"]}
+{"text": "mane Ahmedabad Mumbai flight price kaho ane aa shu chhe te vancho.", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "Ahmedabad Mumbai flight price"}}, {"action": "read_screen", "slots": {}}], "joiners": ["ane"]}
+{"text": "Myntra ni website kholjo tarat pachhi school bag shodho", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "Myntra"}}, {"action": "web_search", "slots": {"query": "school bag"}}], "joiners": ["tarat pachhi"]}
+{"text": "tum hi ho play karo ane pachhi file explorer wali app kholo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "tum hi ho"}}, {"action": "open_app", "slots": {"app": "file explorer"}}], "joiners": ["ane pachhi"]}
+{"text": "ek minute gaanu roki ne Outlook start karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "Outlook"}}], "joiners": ["roki ne"]}
+{"text": "please nani ne lakhi do ke navratri ma ghare aavjo ane chrome kholo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "nani", "text": "navratri ma ghare aavjo"}}, {"action": "open_app", "slots": {"app": "chrome"}}], "joiners": ["ane"]}
+{"text": "youtube music kholi ne dandiya raas chalavo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube music"}}, {"action": "play_media", "slots": {"query": "dandiya raas"}}], "joiners": ["kholi ne"]}
+{"text": "browser launch karo after that GSEB result 2026 batavo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "browser"}}, {"action": "web_search", "slots": {"query": "GSEB result 2026"}}], "joiners": ["after that"]}
+{"text": "wordpad chalu karo after that navratri na dandiya pass 4 joiye type karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "wordpad"}}, {"action": "type_text", "slots": {"text": "navratri na dandiya pass 4 joiye"}}], "joiners": ["after that"]}
+{"text": "edge open kari ne thepla banavani rit joi apo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "thepla banavani rit"}}], "joiners": ["open kari ne"]}
+{"text": "Bhikhudan Gadhvi chalavo after that Google Meet kholjo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "Bhikhudan Gadhvi"}}, {"action": "open_app", "slots": {"app": "Google Meet"}}], "joiners": ["after that"]}
+{"text": "Ahmedabad metro timing google kari ne Netflix start kro", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "Ahmedabad metro timing"}}, {"action": "open_app", "slots": {"app": "Netflix"}}], "joiners": ["google kari ne"]}
+{"text": "thodo avaaj ochho karo after that Settings chalu karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "open_app", "slots": {"app": "Settings"}}], "joiners": ["after that"]}
+{"text": "Ganpati aarti play kari ne Calendar open karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "Ganpati aarti"}}, {"action": "open_app", "slots": {"app": "Calendar"}}], "joiners": ["play kari ne"]}
+{"text": "Microsoft Word chalu karo ane have type karo Navratri na dandiya pass 4 joiye", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Microsoft Word"}}, {"action": "type_text", "slots": {"text": "Navratri na dandiya pass 4 joiye"}}], "joiners": ["ane have"]}
+{"text": "google chrome launch karo after that kutch rann utsav booking google karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "google chrome"}}, {"action": "web_search", "slots": {"query": "kutch rann utsav booking"}}], "joiners": ["after that"]}
+{"text": "whatsapp kholi patel sir ne janavo ke kal savare 7 vaage station par malo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "patel sir", "text": "kal savare 7 vaage station par malo"}}], "joiners": ["kholi"]}
+{"text": "Gaana wali app kholo then Jignesh Kaviraj saambhdavo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Gaana"}}, {"action": "play_media", "slots": {"query": "Jignesh Kaviraj"}}], "joiners": ["then"]}
+{"text": "suno Hetal ben ne bolo ke Jai Shri Krishna, ane pachhi Photos kholi do", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Hetal ben", "text": "Jai Shri Krishna"}}, {"action": "open_app", "slots": {"app": "Photos"}}], "joiners": ["ane pachhi"]}
+{"text": "browser start karo tyarbad Kutch Rann Utsav booking ni mahiti apo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "browser"}}, {"action": "web_search", "slots": {"query": "Kutch Rann Utsav booking"}}], "joiners": ["tyarbad"]}
+{"text": "ek minute chrome launch kro tarat pachhi new tab button dabao", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "click", "slots": {"target": "new tab"}}], "joiners": ["tarat pachhi"]}
+{"text": "notepad open karo tyarbad navratri na dandiya pass 4 joiye likho", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "navratri na dandiya pass 4 joiye"}}], "joiners": ["tyarbad"]}
+{"text": "ek minute whatsapp start karo then meet ne lakhi do ke raat na 8 vaage jamva aavjo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "meet", "text": "raat na 8 vaage jamva aavjo"}}], "joiners": ["then"]}
+{"text": "mane Gir national park timing kaho after that aa shu chhe te vancho", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "Gir national park timing"}}, {"action": "read_screen", "slots": {}}], "joiners": ["after that"]}
+{"text": "microsoft edge launch kro ane then geeta rabari kon chhe te batavo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "microsoft edge"}}, {"action": "web_search", "slots": {"query": "geeta rabari kon chhe"}}], "joiners": ["ane then"]}
+{"text": "notepad open karo ane pachhi type karo bill bharvanu chhe", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "bill bharvanu chhe"}}], "joiners": ["ane pachhi"]}
+{"text": "chrome wali app kholo, ane pachhi facebook website par jao", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "facebook"}}], "joiners": ["ane pachhi"]}
+{"text": "avaaj nano karo ane pachhi mute karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "media_control", "slots": {}, "control": "mute"}], "joiners": ["ane pachhi"]}
+{"text": "Brave ne kholo ane pachhi aaje na samachar search karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Brave"}}, {"action": "web_search", "slots": {"query": "aaje na samachar"}}], "joiners": ["ane pachhi"]}
+{"text": "WhatsApp kholjo after that Papa ne lakhi do ke gaadi nu bill bhari didhu chhe", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "WhatsApp"}}, {"action": "send_message", "slots": {"contact": "Papa", "text": "gaadi nu bill bhari didhu chhe"}}], "joiners": ["after that"]}
+{"text": "Microsoft Word chalu kari ne aaje nu hisaab lakhi do", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Microsoft Word"}}, {"action": "type_text", "slots": {"text": "aaje nu hisaab"}}], "joiners": ["chalu kari ne"]}
+{"text": "word open karo tyar pachhi lakho ke navratri na dandiya pass 4 joiye", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "word"}}, {"action": "type_text", "slots": {"text": "navratri na dandiya pass 4 joiye"}}], "joiners": ["tyar pachhi"]}
+{"text": "flipkart website kholi ne school bag shodho", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "flipkart"}}, {"action": "web_search", "slots": {"query": "school bag"}}], "joiners": ["kholi ne"]}
+{"text": "outlook kholine compose par click karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "outlook"}}, {"action": "click", "slots": {"target": "compose"}}], "joiners": ["kholine"]}
+{"text": "whatsapp chalu kari ne pinal ben ne message karo ke kaam puru thai gayu", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "pinal ben", "text": "kaam puru thai gayu"}}], "joiners": ["chalu kari ne"]}
+{"text": "opera kholi do tyarbad bookmyshow website kholi ne menu dabao", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "opera"}}, {"action": "open_website", "slots": {"site": "bookmyshow"}}, {"action": "click", "slots": {"target": "menu"}}], "joiners": ["tyarbad", "kholi ne"]}
+{"text": "Chrome kholi ne Wikipedia website open kari ne Menu par click karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "open_website", "slots": {"site": "Wikipedia"}}, {"action": "click", "slots": {"target": "Menu"}}], "joiners": ["kholi ne", "open kari ne"]}
+{"text": "gaanu roki do ane notepad kholi dear sir, mane 2 divas ni rajaa joiye chhe lakhi do", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "dear sir, mane 2 divas ni rajaa joiye chhe"}}], "joiners": ["ane", "kholi"]}
+{"text": "gaanu roki ne Microsoft Word open kari ne Jai Shri Krishna type kro", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "Microsoft Word"}}, {"action": "type_text", "slots": {"text": "Jai Shri Krishna"}}], "joiners": ["roki ne", "open kari ne"]}
+{"text": "edge kholjo ane gmail website kholine search nu button dabavo.", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "open_website", "slots": {"site": "gmail"}}, {"action": "click", "slots": {"target": "search"}}], "joiners": ["ane", "kholine"]}
+{"text": "music pause karo tyarbad notepad kholi ne lakho ke mari rajaa manjur karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "mari rajaa manjur karo"}}], "joiners": ["tyarbad", "kholi ne"]}
+{"text": "wordpad wali app kholo pachhi navratri na dandiya pass 4 joiye lakhi ne save ne click karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "wordpad"}}, {"action": "type_text", "slots": {"text": "navratri na dandiya pass 4 joiye"}}, {"action": "click", "slots": {"target": "save"}}], "joiners": ["pachhi", "lakhi ne"]}
+{"text": "OneNote open kari ne Dear sir, mane 2 divas ni rajaa joiye chhe lakhi Save button dabavo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "OneNote"}}, {"action": "type_text", "slots": {"text": "Dear sir, mane 2 divas ni rajaa joiye chhe"}}, {"action": "click", "slots": {"target": "Save"}}], "joiners": ["open kari ne", "lakhi"]}
+{"text": "gaana launch karo ane hanuman chalisa vagadi ne volume ochho karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "gaana"}}, {"action": "play_media", "slots": {"query": "hanuman chalisa"}}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["ane", "vagaDi ne"]}
+{"text": "YouTube launch karo te pachhi Jigardan Gadhavi na gaana vagaDo ane avaaj moto karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "YouTube"}}, {"action": "play_media", "slots": {"query": "Jigardan Gadhavi"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["te pachhi", "ane"]}
+{"text": "chrome kholjo ane Rajkot thi Ahmedabad bus timing google kari ne screen par shu lakhyu chhe", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "Rajkot thi Ahmedabad bus timing"}}, {"action": "read_screen", "slots": {}}], "joiners": ["ane", "google kari ne"]}
+{"text": "JioSaavn kholine Vikram Thakor saambhdavo te pachhi thodo avaaj vadharo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "JioSaavn"}}, {"action": "play_media", "slots": {"query": "Vikram Thakor"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["kholine", "te pachhi"]}
+{"text": "browser wali app kholjo ane pachhi swiggy ni site kholjo ane have search par click karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "browser"}}, {"action": "open_website", "slots": {"site": "swiggy"}}, {"action": "click", "slots": {"target": "search"}}], "joiners": ["ane pachhi", "ane have"]}
+{"text": "mehta sahab ne kaho ke kaam puru thai gayu tyarbad microsoft edge kholo after that khakhra banavavani rit search karo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "mehta sahab", "text": "kaam puru thai gayu"}}, {"action": "open_app", "slots": {"app": "microsoft edge"}}, {"action": "web_search", "slots": {"query": "khakhra banavavani rit"}}], "joiners": ["tyarbad", "after that"]}
+{"text": "chrome kholi do ane pachhi Bhavnagar ma saara hotel google karo tyarbad screen par shu chhe te vaancho", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "Bhavnagar ma saara hotel"}}, {"action": "read_screen", "slots": {}}], "joiners": ["ane pachhi", "tyarbad"]}
+{"text": "suno zoom chaalu karo, ane pachhi join par tap karo ane pachhi sound mute kari do", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "zoom"}}, {"action": "click", "slots": {"target": "join"}}, {"action": "media_control", "slots": {}, "control": "mute"}], "joiners": ["ane pachhi", "ane pachhi"]}
+{"text": "hardik ne message karo ke tamaro order aavi gayo chhe tyarbad chrome chaalu karo pachi mane kutch rann utsav booking kehjo", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "hardik", "text": "tamaro order aavi gayo chhe"}}, {"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "kutch rann utsav booking"}}], "joiners": ["tyarbad", "pachi"]}
+{"text": "Microsoft Edge open kari ne Ahmedabad nu weather shodhi ne aa screen vancho", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Microsoft Edge"}}, {"action": "web_search", "slots": {"query": "Ahmedabad nu weather"}}, {"action": "read_screen", "slots": {}}], "joiners": ["open kari ne", "shodhi ne"]}
+{"text": "Chrome ne khol, pachhi Ahmedabad metro timing ni mahiti apo ane then screen par shu lakhyu che", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "web_search", "slots": {"query": "Ahmedabad metro timing"}}, {"action": "read_screen", "slots": {}}], "joiners": ["pachhi", "ane then"]}
+{"text": "gaanu roki ne sticky notes kholjo ane aa lakho bill bharvanu chhe", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "sticky notes"}}, {"action": "type_text", "slots": {"text": "bill bharvanu chhe"}}], "joiners": ["roki ne", "ane"]}
+{"text": "વોટ્સએપ ખોલી આપો અને પછી જીજ્ઞેશ ભાઈ ને મેસેજ કરો કે ઘરે પહોંચી ગયો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "વોટ્સએપ"}}, {"action": "send_message", "slots": {"contact": "જીજ્ઞેશ ભાઈ", "text": "ઘરે પહોંચી ગયો"}}], "joiners": ["અને પછી"]}
+{"text": "ફાયરફોક્સ ખોલી ને સુરતની ટ્રેન શોધો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ફાયરફોક્સ"}}, {"action": "web_search", "slots": {"query": "સુરતની ટ્રેન"}}], "joiners": ["ખોલી ને"]}
+{"text": "રાજકોટનું હવામાન સર્ચ કરો ત્યાર પછી સ્ક્રીન પર શું છે તે વાંચો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "રાજકોટનું હવામાન"}}, {"action": "read_screen", "slots": {}}], "joiners": ["ત્યાર પછી"]}
+{"text": "ફાયરફોક્સ ખોલીને અમદાવાદનું હવામાન શોધો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ફાયરફોક્સ"}}, {"action": "web_search", "slots": {"query": "અમદાવાદનું હવામાન"}}], "joiners": ["ખોલીને"]}
+{"text": "અવાજ ઘટાડો ત્યારબાદ વર્ડ ચાલુ કરો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "open_app", "slots": {"app": "વર્ડ"}}], "joiners": ["ત્યારબાદ"]}
+{"text": "વર્ડ ખોલો પછી લૉગિન પર ક્લિક કરો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "વર્ડ"}}, {"action": "click", "slots": {"target": "લૉગિન"}}], "joiners": ["પછી"]}
+{"text": "પપ્પા ને મોકલો કે આજે જમવા નહીં આવું ત્યારબાદ ક્રોમ ચાલુ કરો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "પપ્પા", "text": "આજે જમવા નહીં આવું"}}, {"action": "open_app", "slots": {"app": "ક્રોમ"}}], "joiners": ["ત્યારબાદ"]}
+{"text": "દૂધ, બ્રેડ, ઈંડા લખીને લૉગિન પર ક્લિક કરો.", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "દૂધ, બ્રેડ, ઈંડા"}}, {"action": "click", "slots": {"target": "લૉગિન"}}], "joiners": ["લખીને"]}
+{"text": "ક્રોમ ખોલી ને દિવ્ય ભાસ્કર ની વેબસાઇટ ખોલો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ક્રોમ"}}, {"action": "open_website", "slots": {"site": "દિવ્ય ભાસ્કર"}}], "joiners": ["ખોલી ને"]}
+{"text": "વોટ્સએપ ખોલીને મમ્મી ને મેસેજ કરો કે હું મોડો આવીશ", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "વોટ્સએપ"}}, {"action": "send_message", "slots": {"contact": "મમ્મી", "text": "હું મોડો આવીશ"}}], "joiners": ["ખોલીને"]}
+{"text": "પપ્પા ને કહો કે આજે જમવા નહીં આવું ત્યાર પછી ઝૂમ ખોલો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "પપ્પા", "text": "આજે જમવા નહીં આવું"}}, {"action": "open_app", "slots": {"app": "ઝૂમ"}}], "joiners": ["ત્યાર પછી"]}
+{"text": "અમદાવાદનું હવામાન સર્ચ કરો ત્યાર પછી સ્ક્રીન પર શું છે તે વાંચો.", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "અમદાવાદનું હવામાન"}}, {"action": "read_screen", "slots": {}}], "joiners": ["ત્યાર પછી"]}
+{"text": "નમસ્તે, હું કુણાલ બોલું છું લખો અને પછી લૉગિન પર ક્લિક કરો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "નમસ્તે, હું કુણાલ બોલું છું"}}, {"action": "click", "slots": {"target": "લૉગિન"}}], "joiners": ["અને પછી"]}
+{"text": "વોટ્સએપ ખોલીને મીત ને મેસેજ કરો કે ઘરે પહોંચી ગયો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "વોટ્સએપ"}}, {"action": "send_message", "slots": {"contact": "મીત", "text": "ઘરે પહોંચી ગયો"}}], "joiners": ["ખોલીને"]}
+{"text": "કાલે બેંક જવાનું છે લખીને આગળ પર ક્લિક કરો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "કાલે બેંક જવાનું છે"}}, {"action": "click", "slots": {"target": "આગળ"}}], "joiners": ["લખીને"]}
+{"text": "યુટ્યુબ ખોલો પછી કિંજલ દવે વગાડો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "યુટ્યુબ"}}, {"action": "play_media", "slots": {"query": "કિંજલ દવે"}}], "joiners": ["પછી"]}
+{"text": "વોટ્સએપ ખોલી આપો પછી બાપુજી ને મોકલો કે કાલે સવારે સાત વાગ્યે મળીએ", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "વોટ્સએપ"}}, {"action": "send_message", "slots": {"contact": "બાપુજી", "text": "કાલે સવારે સાત વાગ્યે મળીએ"}}], "joiners": ["પછી"]}
+{"text": "ફાયરફોક્સ ખોલી ને અમદાવાદનું હવામાન સર્ચ કરો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ફાયરફોક્સ"}}, {"action": "web_search", "slots": {"query": "અમદાવાદનું હવામાન"}}], "joiners": ["ખોલી ને"]}
+{"text": "વોટ્સએપ ખોલી આપો અને પછી સબમિટ પર ક્લિક કરો.", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "વોટ્સએપ"}}, {"action": "click", "slots": {"target": "સબમિટ"}}], "joiners": ["અને પછી"]}
+{"text": "બાપુજી ને કહો કે મીટિંગ ચાર વાગ્યે છે અને પછી નોટપેડ ચાલુ કરો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "બાપુજી", "text": "મીટિંગ ચાર વાગ્યે છે"}}, {"action": "open_app", "slots": {"app": "નોટપેડ"}}], "joiners": ["અને પછી"]}
+{"text": "સોનાનો ભાવ શોધીને સ્ક્રીન પર શું છે તે વાંચો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "સોનાનો ભાવ"}}, {"action": "read_screen", "slots": {}}], "joiners": ["શોધીને"]}
+{"text": "વર્ડ ખોલી ને કાલે બેંક જવાનું છે લખો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "વર્ડ"}}, {"action": "type_text", "slots": {"text": "કાલે બેંક જવાનું છે"}}], "joiners": ["ખોલી ને"]}
+{"text": "ઘટાડીને યુટ્યુબ ખોલો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "open_app", "slots": {"app": "યુટ્યુબ"}}], "joiners": ["ઘટાડીને"]}
+{"text": "યુટ્યુબ ખોલી આપો પછી અરિજિત સિંહ વગાડો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "યુટ્યુબ"}}, {"action": "play_media", "slots": {"query": "અરિજિત સિંહ"}}], "joiners": ["પછી"]}
+{"text": "રોકીને યુટ્યુબ ખોલો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "યુટ્યુબ"}}], "joiners": ["રોકીને"]}
+{"text": "અરિજિત સિંહ વગાડીને અવાજ વધારો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "અરિજિત સિંહ"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["વગાડીને"]}
+{"text": "એજ ખોલીને ફ્લિપકાર્ટ ની વેબસાઇટ ખોલો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "એજ"}}, {"action": "open_website", "slots": {"site": "ફ્લિપકાર્ટ"}}], "joiners": ["ખોલીને"]}
+{"text": "પપ્પા ને મેસેજ કરો કે કાલે સવારે સાત વાગ્યે મળીએ ત્યારબાદ ઝૂમ ખોલો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "પપ્પા", "text": "કાલે સવારે સાત વાગ્યે મળીએ"}}, {"action": "open_app", "slots": {"app": "ઝૂમ"}}], "joiners": ["ત્યારબાદ"]}
+{"text": "ક્રોમ ખોલી આપો ત્યાર પછી જોડાઓ પર ક્લિક કરો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ક્રોમ"}}, {"action": "click", "slots": {"target": "જોડાઓ"}}], "joiners": ["ત્યાર પછી"]}
+{"text": "ફાયરફોક્સ ખોલો અને દિવ્ય ભાસ્કર ની વેબસાઇટ ખોલો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ફાયરફોક્સ"}}, {"action": "open_website", "slots": {"site": "દિવ્ય ભાસ્કર"}}], "joiners": ["અને"]}
+{"text": "વર્ડ ખોલીને નમસ્તે, હું કુણાલ બોલું છું લખો ત્યાર પછી સેવ પર ક્લિક કરો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "વર્ડ"}}, {"action": "type_text", "slots": {"text": "નમસ્તે, હું કુણાલ બોલું છું"}}, {"action": "click", "slots": {"target": "સેવ"}}], "joiners": ["ખોલીને", "ત્યાર પછી"]}
+{"text": "એજ ખોલી ને સોનાનો ભાવ શોધો અને પછી સ્ક્રીન પર શું છે તે વાંચો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "એજ"}}, {"action": "web_search", "slots": {"query": "સોનાનો ભાવ"}}, {"action": "read_screen", "slots": {}}], "joiners": ["ખોલી ને", "અને પછી"]}
+{"text": "વર્ડ ખોલીને જય શ્રી કૃષ્ણ લખો અને પછી સેવ પર ક્લિક કરો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "વર્ડ"}}, {"action": "type_text", "slots": {"text": "જય શ્રી કૃષ્ણ"}}, {"action": "click", "slots": {"target": "સેવ"}}], "joiners": ["ખોલીને", "અને પછી"]}
+{"text": "ફાયરફોક્સ ચાલુ કરો ત્યારબાદ ઉંધિયું બનાવવાની રીત બતાવો ત્યારબાદ સ્ક્રીન પર શું છે તે વાંચો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ફાયરફોક્સ"}}, {"action": "web_search", "slots": {"query": "ઉંધિયું બનાવવાની રીત"}}, {"action": "read_screen", "slots": {}}], "joiners": ["ત્યારબાદ", "ત્યારબાદ"]}
+{"text": "એજ ખોલો ત્યારબાદ અમદાવાદનું હવામાન શોધીને સ્ક્રીન પર શું છે તે વાંચો", "lang": "gu", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "એજ"}}, {"action": "web_search", "slots": {"query": "અમદાવાદનું હવામાન"}}, {"action": "read_screen", "slots": {}}], "joiners": ["ત્યારબાદ", "શોધીને"]}
+{"text": "Tom and Jerry vagaDo.", "lang": "gu", "action": "play_media", "slots": {"query": "Tom and Jerry"}}
+{"text": "Tom ane Jerry cartoon chalavo", "lang": "gu", "action": "play_media", "slots": {"query": "Tom ane Jerry cartoon"}}
+{"text": "YouTube par Ram ane Shyam film play karo", "lang": "gu", "action": "play_media", "slots": {"app": "YouTube", "query": "Ram ane Shyam film"}}
+{"text": "please Kinjal Dave ane Rakesh Barot na gaana vagaDo", "lang": "gu", "action": "play_media", "slots": {"query": "Kinjal Dave ane Rakesh Barot"}}
+{"text": "Sachin ane Jigar na gaana chalavo", "lang": "gu", "action": "play_media", "slots": {"query": "Sachin ane Jigar"}}
+{"text": "Spotify par Rock and Roll vagaDo", "lang": "gu", "action": "play_media", "slots": {"app": "Spotify", "query": "Rock and Roll"}}
+{"text": "Beauty and the Beast songs vagaDo", "lang": "gu", "action": "play_media", "slots": {"query": "Beauty and the Beast"}}
+{"text": "shiv ane parvati bhajan vagado", "lang": "gu", "action": "play_media", "slots": {"query": "shiv ane parvati bhajan"}}
+{"text": "Aarti ane bhajan vagaDo.", "lang": "gu", "action": "play_media", "slots": {"query": "Aarti ane bhajan"}}
+{"text": "please dholida ane nagada sang dhol vagado", "lang": "gu", "action": "play_media", "slots": {"query": "dholida ane nagada sang dhol"}}
+{"text": "Mr and Mrs 55 na gaana chalavo", "lang": "gu", "action": "play_media", "slots": {"query": "Mr and Mrs 55"}}
+{"text": "heer ane ranjha na gaana vagado", "lang": "gu", "action": "play_media", "slots": {"query": "heer ane ranjha"}}
+{"text": "romeo and juliet movie chalavo", "lang": "gu", "action": "play_media", "slots": {"query": "romeo and juliet"}}
+{"text": "geeta rabari ane kirtidan gadhvi na garba vagado", "lang": "gu", "action": "play_media", "slots": {"query": "geeta rabari ane kirtidan gadhvi"}}
+{"text": "mac and cheese banavani rit shodho", "lang": "gu", "action": "web_search", "slots": {"query": "mac and cheese banavani rit"}}
+{"text": "Romeo and Juliet ni story vishe batavo", "lang": "gu", "action": "web_search", "slots": {"query": "Romeo and Juliet ni story"}}
+{"text": "sachin ane jigar kon chhe", "lang": "gu", "action": "web_search", "slots": {"query": "sachin ane jigar kon chhe"}}
+{"text": "tom and jerry nu pehlu episode kyare aavyu hatu", "lang": "gu", "action": "web_search", "slots": {"query": "tom and jerry nu pehlu episode kyare aavyu hatu"}}
+{"text": "dal ane bhaat banavani rit shodho.", "lang": "gu", "action": "web_search", "slots": {"query": "dal ane bhaat banavani rit"}}
+{"text": "rice and curry recipe search karo", "lang": "gu", "action": "web_search", "slots": {"query": "rice and curry recipe"}}
+{"text": "yaar Mumbai ane Pune vachche nu antar ketlu chhe", "lang": "gu", "action": "web_search", "slots": {"query": "Mumbai ane Pune vachche nu antar ketlu chhe"}}
+{"text": "amdavad ane surat vachche train timing shodho.", "lang": "gu", "action": "web_search", "slots": {"query": "amdavad ane surat vachche train timing"}}
+{"text": "gir na sinh ane africa na sinh vachche nu antar batavo", "lang": "gu", "action": "web_search", "slots": {"query": "gir na sinh ane africa na sinh vachche nu antar"}}
+{"text": "ek kaam karo after effects ma text animation kevi rite thay", "lang": "gu", "action": "web_search", "slots": {"query": "after effects ma text animation kevi rite thay"}}
+{"text": "Hellaro ane Chhello Divas ma kon actor chhe", "lang": "gu", "action": "web_search", "slots": {"query": "Hellaro ane Chhello Divas ma kon actor chhe"}}
+{"text": "bread and butter pudding recipe shodho", "lang": "gu", "action": "web_search", "slots": {"query": "bread and butter pudding recipe"}}
+{"text": "Papa ne message karo ke hu jamine pachhi aavish", "lang": "gu", "action": "send_message", "slots": {"contact": "Papa", "text": "hu jamine pachhi aavish"}}
+{"text": "Jignesh bhai ne lakhi do ke Ravi ane Seema aavi rahya chhe", "lang": "gu", "action": "send_message", "slots": {"contact": "Jignesh bhai", "text": "Ravi ane Seema aavi rahya chhe"}}
+{"text": "are hetal ben ne whatsapp karo ke chrome kholine link joi lejo", "lang": "gu", "action": "send_message", "slots": {"contact": "hetal ben", "text": "chrome kholine link joi lejo"}}
+{"text": "Boss ne kaho ke meeting pachhi call karish", "lang": "gu", "action": "send_message", "slots": {"contact": "Boss", "text": "meeting pachhi call karish"}}
+{"text": "dhruv ne moklo ke aaje cricket ane pachhi movie", "lang": "gu", "action": "send_message", "slots": {"contact": "dhruv", "text": "aaje cricket ane pachhi movie"}}
+{"text": "kaka ne kaho ke bazaar jaine pachhi ghare aavjo", "lang": "gu", "action": "send_message", "slots": {"contact": "kaka", "text": "bazaar jaine pachhi ghare aavjo"}}
+{"text": "foi ne message karo ke navratri ma ghare aavjo ane dadi ne pan lavjo.", "lang": "gu", "action": "send_message", "slots": {"contact": "foi", "text": "navratri ma ghare aavjo ane dadi ne pan lavjo"}}
+{"text": "Piyush bhai ne bolo ke then call karjo", "lang": "gu", "action": "send_message", "slots": {"contact": "Piyush bhai", "text": "then call karjo"}}
+{"text": "Mummy ne message karo ke I will come and bring dinner", "lang": "gu", "action": "send_message", "slots": {"contact": "Mummy", "text": "I will come and bring dinner"}}
+{"text": "Nani ne kaho ke tame dawai lidhi pachhi mane call karo", "lang": "gu", "action": "send_message", "slots": {"contact": "Nani", "text": "tame dawai lidhi pachhi mane call karo"}}
+{"text": "Meet ne kaho ke Spotify kholine playlist share kar", "lang": "gu", "action": "send_message", "slots": {"contact": "Meet", "text": "Spotify kholine playlist share kar"}}
+{"text": "kinjal ne moklo ke exam pachhi malishu ane fari party karishu", "lang": "gu", "action": "send_message", "slots": {"contact": "kinjal", "text": "exam pachhi malishu ane fari party karishu"}}
+{"text": "મમ્મી ને કહો કે દૂધ અને બ્રેડ લાવજો", "lang": "gu", "action": "send_message", "slots": {"contact": "મમ્મી", "text": "દૂધ અને બ્રેડ લાવજો"}}
+{"text": "પપ્પા ને મેસેજ કરો કે હું જમીને પછી આવીશ", "lang": "gu", "action": "send_message", "slots": {"contact": "પપ્પા", "text": "હું જમીને પછી આવીશ"}}
+{"text": "suno lakho ke aaje dudh ane bread lavva nu chhe", "lang": "gu", "action": "type_text", "slots": {"text": "aaje dudh ane bread lavva nu chhe"}}
+{"text": "type karo Ram ane Shyam aaje aavshe", "lang": "gu", "action": "type_text", "slots": {"text": "Ram ane Shyam aaje aavshe"}}
+{"text": "lakhi do salt and pepper", "lang": "gu", "action": "type_text", "slots": {"text": "salt and pepper"}}
+{"text": "bhai lakho Hello then thank you", "lang": "gu", "action": "type_text", "slots": {"text": "Hello then thank you"}}
+{"text": "Word ma lakho invoice mokalya pachhi payment avshe", "lang": "gu", "action": "type_text", "slots": {"text": "invoice mokalya pachhi payment avshe"}}
+{"text": "lakho આજે દાળ અને ભાત બનાવવા છે", "lang": "gu", "action": "type_text", "slots": {"text": "આજે દાળ અને ભાત બનાવવા છે"}}
+{"text": "mail and calendar kholo.", "lang": "gu", "action": "open_app", "slots": {"app": "mail and calendar"}}
+{"text": "alarms and clock open karo", "lang": "gu", "action": "open_app", "slots": {"app": "alarms and clock"}}
+{"text": "Johnson and Johnson ni site kholo", "lang": "gu", "action": "open_website", "slots": {"site": "Johnson and Johnson"}}
+{"text": "barnes and noble website kholo", "lang": "gu", "action": "open_website", "slots": {"site": "barnes and noble"}}
+{"text": "Accept and continue par click karo", "lang": "gu", "action": "click", "slots": {"target": "Accept and continue"}}
+{"text": "save and close button dabavo.", "lang": "gu", "action": "click", "slots": {"target": "save and close"}}
+{"text": "Terms and Conditions par click karo", "lang": "gu", "action": "click", "slots": {"target": "Terms and Conditions"}}
+{"text": "સેવ અને ક્લોઝ બટન દબાવો", "lang": "gu", "action": "click", "slots": {"target": "સેવ અને ક્લોઝ"}}
+{"text": "screen ma shu chhe te vancho ane samjavo", "lang": "gu", "action": "read_screen", "slots": {}}
+{"text": "aa page vancho ane pachhi mane batavo", "lang": "gu", "action": "read_screen", "slots": {}}
+{"text": "ટોમ અને જેરી વગાડો", "lang": "gu", "action": "play_media", "slots": {"query": "ટોમ અને જેરી"}}
+{"text": "રામ અને શ્યામ ફિલ્મ વગાડો", "lang": "gu", "action": "play_media", "slots": {"query": "રામ અને શ્યામ ફિલ્મ"}}
+{"text": "દાળ અને ભાત બનાવવાની રીત શોધો", "lang": "gu", "action": "web_search", "slots": {"query": "દાળ અને ભાત બનાવવાની રીત"}}
+{"text": "કિંજલ દવે અને રાકેશ બારોટ ના ગીતો વગાડો", "lang": "gu", "action": "play_media", "slots": {"query": "કિંજલ દવે અને રાકેશ બારોટ"}}
+{"text": "Exel kholo ne", "lang": "gu", "action": "open_app", "slots": {"app": "Exel"}}
+{"text": "zoom wali app kholo.", "lang": "gu", "action": "open_app", "slots": {"app": "zoom"}}
+{"text": "Snipping Tool chalu karo", "lang": "gu", "action": "open_app", "slots": {"app": "Snipping Tool"}}
+{"text": "firefox kholo", "lang": "gu", "action": "open_app", "slots": {"app": "firefox"}}
+{"text": "ek kaam karo Canva kholi do", "lang": "gu", "action": "open_app", "slots": {"app": "Canva"}}
+{"text": "Spotify kholo", "lang": "gu", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Excel kholjo", "lang": "gu", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "calendar open karo", "lang": "gu", "action": "open_app", "slots": {"app": "calendar"}}
+{"text": "vs code open karo", "lang": "gu", "action": "open_app", "slots": {"app": "vs code"}}
+{"text": "Photoshop start karo", "lang": "gu", "action": "open_app", "slots": {"app": "Photoshop"}}
+{"text": "command prompt open karo", "lang": "gu", "action": "open_app", "slots": {"app": "command prompt"}}
+{"text": "Edge khol.", "lang": "gu", "action": "open_app", "slots": {"app": "Edge"}}
+{"text": "chrome kholo", "lang": "gu", "action": "open_app", "slots": {"app": "chrome"}}
+{"text": "file explorer khol", "lang": "gu", "action": "open_app", "slots": {"app": "file explorer"}}
+{"text": "yaar mane calculator kholi apo", "lang": "gu", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "microsoft word open karo", "lang": "gu", "action": "open_app", "slots": {"app": "microsoft word"}}
+{"text": "Tally chalu karo", "lang": "gu", "action": "open_app", "slots": {"app": "Tally"}}
+{"text": "Task Manager kholo", "lang": "gu", "action": "open_app", "slots": {"app": "Task Manager"}}
+{"text": "teams open karo", "lang": "gu", "action": "open_app", "slots": {"app": "teams"}}
+{"text": "chrome open kro yaar", "lang": "gu", "action": "open_app", "slots": {"app": "chrome"}}
+{"text": "please WhatsApp kholo ne", "lang": "gu", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "paint kholo ne", "lang": "gu", "action": "open_app", "slots": {"app": "paint"}}
+{"text": "hmm watsapp khol", "lang": "gu", "action": "open_app", "slots": {"app": "watsapp"}}
+{"text": "ક્રોમ ખોલો", "lang": "gu", "action": "open_app", "slots": {"app": "ક્રોમ"}}
+{"text": "વોટ્સએપ ખોલો", "lang": "gu", "action": "open_app", "slots": {"app": "વોટ્સએપ"}}
+{"text": "નોટપેડ ચાલુ કરો", "lang": "gu", "action": "open_app", "slots": {"app": "નોટપેડ"}}
+{"text": "કેલ્ક્યુલેટર ખોલો", "lang": "gu", "action": "open_app", "slots": {"app": "કેલ્ક્યુલેટર"}}
+{"text": "યુટ્યુબ ખોલો.", "lang": "gu", "action": "open_app", "slots": {"app": "યુટ્યુબ"}}
+{"text": "ટેલિગ્રામ ખોલી આપો", "lang": "gu", "action": "open_app", "slots": {"app": "ટેલિગ્રામ"}}
+{"text": "Word ખોલો", "lang": "gu", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "IRCTC ni website khol", "lang": "gu", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "linkedin website kholo", "lang": "gu", "action": "open_website", "slots": {"site": "linkedin"}}
+{"text": "myntra ni website par jao", "lang": "gu", "action": "open_website", "slots": {"site": "myntra"}}
+{"text": "gmail dot com kholo", "lang": "gu", "action": "open_website", "slots": {"site": "gmail dot com"}}
+{"text": "naukri dot com open karo", "lang": "gu", "action": "open_website", "slots": {"site": "naukri dot com"}}
+{"text": "Gujarat Samachar ni website kholjo", "lang": "gu", "action": "open_website", "slots": {"site": "Gujarat Samachar"}}
+{"text": "open sandesh dot com", "lang": "gu", "action": "open_website", "slots": {"site": "sandesh dot com"}}
+{"text": "flipkart dot com khol", "lang": "gu", "action": "open_website", "slots": {"site": "flipkart dot com"}}
+{"text": "bookmyshow website kholo", "lang": "gu", "action": "open_website", "slots": {"site": "bookmyshow"}}
+{"text": "Zomato ni site kholo", "lang": "gu", "action": "open_website", "slots": {"site": "Zomato"}}
+{"text": "Divya Bhaskar ni site kholo", "lang": "gu", "action": "open_website", "slots": {"site": "Divya Bhaskar"}}
+{"text": "Swiggy website kholo", "lang": "gu", "action": "open_website", "slots": {"site": "Swiggy"}}
+{"text": "Digital Gujarat portal ni website kholo", "lang": "gu", "action": "open_website", "slots": {"site": "Digital Gujarat"}}
+{"text": "wikipedia ni website kholo", "lang": "gu", "action": "open_website", "slots": {"site": "wikipedia"}}
+{"text": "દિવ્ય ભાસ્કર ની વેબસાઇટ ખોલો", "lang": "gu", "action": "open_website", "slots": {"site": "દિવ્ય ભાસ્કર"}}
+{"text": "ગુજરાત સમાચાર ની સાઇટ ખોલો", "lang": "gu", "action": "open_website", "slots": {"site": "ગુજરાત સમાચાર"}}
+{"text": "ફ્લિપકાર્ટ ની વેબસાઇટ ખોલો", "lang": "gu", "action": "open_website", "slots": {"site": "ફ્લિપકાર્ટ"}}
+{"text": "Amitabh Bachchan ni umar ketli chhe", "lang": "gu", "action": "web_search", "slots": {"query": "Amitabh Bachchan ni umar ketli chhe"}}
+{"text": "Dwarka darshan timing search karo", "lang": "gu", "action": "web_search", "slots": {"query": "Dwarka darshan timing"}}
+{"text": "gseb result 2026 joi apo", "lang": "gu", "action": "web_search", "slots": {"query": "gseb result 2026"}}
+{"text": "Rajkot thi Ahmedabad bus timing shodho", "lang": "gu", "action": "web_search", "slots": {"query": "Rajkot thi Ahmedabad bus timing"}}
+{"text": "Geeta Rabari kon chhe ek vaar kaho", "lang": "gu", "action": "web_search", "slots": {"query": "Geeta Rabari kon chhe"}}
+{"text": "Mahatma Gandhi no janm kyare thayo hato", "lang": "gu", "action": "web_search", "slots": {"query": "Mahatma Gandhi no janm kyare thayo hato"}}
+{"text": "bhai Surat ma aaje varsad padse ke nahi shodho", "lang": "gu", "action": "web_search", "slots": {"query": "Surat ma aaje varsad padse ke nahi"}}
+{"text": "ahmedabad nu weather batavo", "lang": "gu", "action": "web_search", "slots": {"query": "ahmedabad nu weather"}}
+{"text": "kinjal dave kon chhe", "lang": "gu", "action": "web_search", "slots": {"query": "kinjal dave kon chhe"}}
+{"text": "Myntra par kurti shodho.", "lang": "gu", "action": "web_search", "slots": {"site": "Myntra", "query": "kurti"}}
+{"text": "sona no bhav google karo", "lang": "gu", "action": "web_search", "slots": {"query": "sona no bhav"}}
+{"text": "chhello divas ma kon kon actor chhe", "lang": "gu", "action": "web_search", "slots": {"query": "chhello divas ma kon kon actor chhe"}}
+{"text": "Gujarat na CM kon chhe", "lang": "gu", "action": "web_search", "slots": {"query": "Gujarat na CM kon chhe"}}
+{"text": "samjavo photosynthesis shu chhe", "lang": "gu", "action": "web_search", "slots": {"query": "photosynthesis shu chhe"}}
+{"text": "Parthiv Gohil ni mahiti apo", "lang": "gu", "action": "web_search", "slots": {"query": "Parthiv Gohil"}}
+{"text": "hellaro film ni story kehjo", "lang": "gu", "action": "web_search", "slots": {"query": "hellaro film ni story"}}
+{"text": "ek minute ahmedabad mumbai flight price shodho", "lang": "gu", "action": "web_search", "slots": {"query": "ahmedabad mumbai flight price"}}
+{"text": "chandi no bhav aaje batavo", "lang": "gu", "action": "web_search", "slots": {"query": "chandi no bhav aaje"}}
+{"text": "narendra modi vishe batavjo", "lang": "gu", "action": "web_search", "slots": {"query": "narendra modi"}}
+{"text": "Bhavnagar ma saara hotel shodho", "lang": "gu", "action": "web_search", "slots": {"query": "Bhavnagar ma saara hotel"}}
+{"text": "Amazon par sneakers shodho", "lang": "gu", "action": "web_search", "slots": {"site": "Amazon", "query": "sneakers"}}
+{"text": "undhiyu banavavani rit shodho", "lang": "gu", "action": "web_search", "slots": {"query": "undhiyu banavavani rit"}}
+{"text": "gujarat university admission last date shodho", "lang": "gu", "action": "web_search", "slots": {"query": "gujarat university admission last date"}}
+{"text": "Flipkart ma Samsung mobile shodho", "lang": "gu", "action": "web_search", "slots": {"site": "Flipkart", "query": "Samsung mobile"}}
+{"text": "navratri 2026 kyare chhe", "lang": "gu", "action": "web_search", "slots": {"query": "navratri 2026 kyare chhe"}}
+{"text": "gujarat titans next match kyare chhe", "lang": "gu", "action": "web_search", "slots": {"query": "gujarat titans next match kyare chhe"}}
+{"text": "અમદાવાદનું હવામાન બતાવો", "lang": "gu", "action": "web_search", "slots": {"query": "અમદાવાદનું હવામાન"}}
+{"text": "ગુજરાતના મુખ્યમંત્રી કોણ છે", "lang": "gu", "action": "web_search", "slots": {"query": "ગુજરાતના મુખ્યમંત્રી કોણ છે"}}
+{"text": "ઉંધિયું રેસીપી શોધો.", "lang": "gu", "action": "web_search", "slots": {"query": "ઉંધિયું રેસીપી"}}
+{"text": "સોનાનો ભાવ સર્ચ કરો", "lang": "gu", "action": "web_search", "slots": {"query": "સોનાનો ભાવ"}}
+{"text": "નરેન્દ્ર મોદી વિશે જણાવો", "lang": "gu", "action": "web_search", "slots": {"query": "નરેન્દ્ર મોદી"}}
+{"text": "Hellaro ફિલ્મની સ્ટોરી શોધો", "lang": "gu", "action": "web_search", "slots": {"query": "Hellaro ફિલ્મની સ્ટોરી"}}
+{"text": "Apple Music ma Darshan Raval vagaDo", "lang": "gu", "action": "play_media", "slots": {"app": "Apple Music", "query": "Darshan Raval"}}
+{"text": "old gujarati songs vagdo", "lang": "gu", "action": "play_media", "slots": {"query": "old gujarati songs"}}
+{"text": "Jai Ambe Maa aarti vagado", "lang": "gu", "action": "play_media", "slots": {"query": "Jai Ambe Maa aarti"}}
+{"text": "falguni pathak na garba chalavo", "lang": "gu", "action": "play_media", "slots": {"query": "falguni pathak"}}
+{"text": "hemant chauhan bhajan saambhdavo", "lang": "gu", "action": "play_media", "slots": {"query": "hemant chauhan bhajan"}}
+{"text": "ek kaam karo Osman Mir na lok geet vagaDo", "lang": "gu", "action": "play_media", "slots": {"query": "Osman Mir"}}
+{"text": "Chogada vagaDo", "lang": "gu", "action": "play_media", "slots": {"query": "Chogada"}}
+{"text": "youtube par geeta rabari vagdo", "lang": "gu", "action": "play_media", "slots": {"app": "youtube", "query": "geeta rabari"}}
+{"text": "please Amazon Music ma Shreya Ghoshal vagaado", "lang": "gu", "action": "play_media", "slots": {"app": "Amazon Music", "query": "Shreya Ghoshal"}}
+{"text": "youtube par hellaro film play karo.", "lang": "gu", "action": "play_media", "slots": {"app": "youtube", "query": "hellaro film"}}
+{"text": "Vaishnav Jan To vagaDo.", "lang": "gu", "action": "play_media", "slots": {"query": "Vaishnav Jan To"}}
+{"text": "Kinjal Dave na gaana vagaDo", "lang": "gu", "action": "play_media", "slots": {"query": "Kinjal Dave"}}
+{"text": "YouTube Music ma Sachin Jigar na gaana vagaDo", "lang": "gu", "action": "play_media", "slots": {"app": "YouTube Music", "query": "Sachin Jigar"}}
+{"text": "Jignesh Kaviraj na gaana vagaado", "lang": "gu", "action": "play_media", "slots": {"query": "Jignesh Kaviraj"}}
+{"text": "JioSaavn par Praful Dave na gaana vagaDo", "lang": "gu", "action": "play_media", "slots": {"app": "JioSaavn", "query": "Praful Dave"}}
+{"text": "are Wynk par Lata Mangeshkar vagado", "lang": "gu", "action": "play_media", "slots": {"app": "Wynk", "query": "Lata Mangeshkar"}}
+{"text": "rakesh barot na gaana play karo", "lang": "gu", "action": "play_media", "slots": {"query": "rakesh barot"}}
+{"text": "spotify par gaana vagado", "lang": "gu", "action": "play_media", "slots": {"app": "spotify"}}
+{"text": "suno arvind vegda nu gaanu vagado", "lang": "gu", "action": "play_media", "slots": {"query": "arvind vegda"}}
+{"text": "gaana ma atul purohit vagaado.", "lang": "gu", "action": "play_media", "slots": {"app": "gaana", "query": "atul purohit"}}
+{"text": "Mogal Maa bhajan vagdo", "lang": "gu", "action": "play_media", "slots": {"query": "Mogal Maa bhajan"}}
+{"text": "gaana vagaDo.", "lang": "gu", "action": "play_media", "slots": {}}
+{"text": "ek kaam karo kishore kumar na gaana vagado", "lang": "gu", "action": "play_media", "slots": {"query": "kishore kumar"}}
+{"text": "Maniraj Barot na gaana vagado", "lang": "gu", "action": "play_media", "slots": {"query": "Maniraj Barot"}}
+{"text": "Hanuman Chalisa play karo.", "lang": "gu", "action": "play_media", "slots": {"query": "Hanuman Chalisa"}}
+{"text": "lagan geet vagado", "lang": "gu", "action": "play_media", "slots": {"query": "lagan geet"}}
+{"text": "Kirtidan Gadhvi dayro vagaDo", "lang": "gu", "action": "play_media", "slots": {"query": "Kirtidan Gadhvi dayro"}}
+{"text": "કિંજલ દવે ના ગીતો વગાડો", "lang": "gu", "action": "play_media", "slots": {"query": "કિંજલ દવે"}}
+{"text": "યુટ્યુબ પર ગીતા રબારી વગાડો", "lang": "gu", "action": "play_media", "slots": {"app": "યુટ્યુબ", "query": "ગીતા રબારી"}}
+{"text": "ગરબા વગાડો", "lang": "gu", "action": "play_media", "slots": {"query": "ગરબા"}}
+{"text": "હનુમાન ચાલીસા વગાડો", "lang": "gu", "action": "play_media", "slots": {"query": "હનુમાન ચાલીસા"}}
+{"text": "જૂના ગુજરાતી ગીતો વગાડો", "lang": "gu", "action": "play_media", "slots": {"query": "જૂના ગુજરાતી ગીતો"}}
+{"text": "suno Jignesh bhai ne WhatsApp karo kal savare 7 vaage station par malo.", "lang": "gu", "action": "send_message", "slots": {"contact": "Jignesh bhai", "text": "kal savare 7 vaage station par malo"}}
+{"text": "chirag ne bolo have nikalyo chhu", "lang": "gu", "action": "send_message", "slots": {"contact": "chirag", "text": "have nikalyo chhu"}}
+{"text": "ek minute Mummy ne message karo ke hu moDo aavish", "lang": "gu", "action": "send_message", "slots": {"contact": "Mummy", "text": "hu moDo aavish"}}
+{"text": "Dhara ne WhatsApp karo", "lang": "gu", "action": "send_message", "slots": {"contact": "Dhara"}, "incomplete": true}
+{"text": "piyush bhai ne message kar ke tamaro order aavi gayo chhe", "lang": "gu", "action": "send_message", "slots": {"contact": "piyush bhai", "text": "tamaro order aavi gayo chhe"}}
+{"text": "hmm Nirali ne kaho ke meeting 4 vaage chhe", "lang": "gu", "action": "send_message", "slots": {"contact": "Nirali", "text": "meeting 4 vaage chhe"}}
+{"text": "dadi ne janavo ke navratri ma ghare aavish", "lang": "gu", "action": "send_message", "slots": {"contact": "dadi", "text": "navratri ma ghare aavish"}}
+{"text": "Foi ne bolo ke Happy birthday.", "lang": "gu", "action": "send_message", "slots": {"contact": "Foi", "text": "Happy birthday"}}
+{"text": "boss ne message karo ke tabiyat theek nathi aaje nahi aavu", "lang": "gu", "action": "send_message", "slots": {"contact": "boss", "text": "tabiyat theek nathi aaje nahi aavu"}}
+{"text": "Masi ne kaho ke Jai Shri Krishna", "lang": "gu", "action": "send_message", "slots": {"contact": "Masi", "text": "Jai Shri Krishna"}}
+{"text": "hmm meet ne moklo train late chhe", "lang": "gu", "action": "send_message", "slots": {"contact": "meet", "text": "train late chhe"}}
+{"text": "ek kaam karo patel sir ne message karo ke hu aaje late aavish.", "lang": "gu", "action": "send_message", "slots": {"contact": "patel sir", "text": "hu aaje late aavish"}}
+{"text": "jignesh bhai ne message karo", "lang": "gu", "action": "send_message", "slots": {"contact": "jignesh bhai"}, "incomplete": true}
+{"text": "WhatsApp par Kaka ne moklo gaadi nu bill bhari didhu chhe", "lang": "gu", "action": "send_message", "slots": {"contact": "Kaka", "text": "gaadi nu bill bhari didhu chhe"}}
+{"text": "Hetal ben ne moklo ke mane 10 min lagshe", "lang": "gu", "action": "send_message", "slots": {"contact": "Hetal ben", "text": "mane 10 min lagshe"}}
+{"text": "Papa ne kaho ke aaje jamva nahi aavu.", "lang": "gu", "action": "send_message", "slots": {"contact": "Papa", "text": "aaje jamva nahi aavu"}}
+{"text": "મમ્મી ને મેસેજ કરો કે હું મોડો આવીશ", "lang": "gu", "action": "send_message", "slots": {"contact": "મમ્મી", "text": "હું મોડો આવીશ"}}
+{"text": "પપ્પા ને કહો કે આજે જમવા નહીં આવું", "lang": "gu", "action": "send_message", "slots": {"contact": "પપ્પા", "text": "આજે જમવા નહીં આવું"}}
+{"text": "જીજ્ઞેશ ભાઈ ને વોટ્સએપ કરો કાલે સવારે સાત વાગ્યે મળીએ", "lang": "gu", "action": "send_message", "slots": {"contact": "જીજ્ઞેશ ભાઈ", "text": "કાલે સવારે સાત વાગ્યે મળીએ"}}
+{"text": "હેતલ બેન ને મોકલો કે ઘરે પહોંચી ગયો", "lang": "gu", "action": "send_message", "slots": {"contact": "હેતલ બેન", "text": "ઘરે પહોંચી ગયો"}}
+{"text": "aa box ma lakho invoice 4521 payment pending chhe.", "lang": "gu", "action": "type_text", "slots": {"text": "invoice 4521 payment pending chhe"}}
+{"text": "address ma lakho Satellite road, Ahmedabad", "lang": "gu", "action": "type_text", "slots": {"text": "Satellite road, Ahmedabad"}}
+{"text": "jai shri krishna lakhi do", "lang": "gu", "action": "type_text", "slots": {"text": "jai shri krishna"}}
+{"text": "ek minute hello team, aaj nu report mokalu chhu type kari do.", "lang": "gu", "action": "type_text", "slots": {"text": "hello team, aaj nu report mokalu chhu"}}
+{"text": "search box ma type karo ahmedabad rath yatra", "lang": "gu", "action": "type_text", "slots": {"text": "ahmedabad rath yatra"}}
+{"text": "name ma lakho hardik patel", "lang": "gu", "action": "type_text", "slots": {"text": "hardik patel"}}
+{"text": "Namaste, hu Kunal bolu chhu lakho", "lang": "gu", "action": "type_text", "slots": {"text": "Namaste, hu Kunal bolu chhu"}}
+{"text": "ek minute Notepad ma lakho dudh, bread, ande, shaak", "lang": "gu", "action": "type_text", "slots": {"text": "dudh, bread, ande, shaak"}}
+{"text": "email ma lakho Dear sir, mari rajaa manjur karo", "lang": "gu", "action": "type_text", "slots": {"text": "Dear sir, mari rajaa manjur karo"}}
+{"text": "lakho happy diwali", "lang": "gu", "action": "type_text", "slots": {"text": "happy diwali"}}
+{"text": "type karo thank you sir", "lang": "gu", "action": "type_text", "slots": {"text": "thank you sir"}}
+{"text": "આજે મીટિંગ પાંચ વાગ્યે છે લખો", "lang": "gu", "action": "type_text", "slots": {"text": "આજે મીટિંગ પાંચ વાગ્યે છે"}}
+{"text": "સરનામામાં લખો નવરંગપુરા, અમદાવાદ", "lang": "gu", "action": "type_text", "slots": {"text": "નવરંગપુરા, અમદાવાદ"}}
+{"text": "જય શ્રી કૃષ્ણ ટાઇપ કરો", "lang": "gu", "action": "type_text", "slots": {"text": "જય શ્રી કૃષ્ણ"}}
+{"text": "Next par click karo", "lang": "gu", "action": "click", "slots": {"target": "Next"}}
+{"text": "suno join ne click karo", "lang": "gu", "action": "click", "slots": {"target": "join"}}
+{"text": "Skip ad dabavo", "lang": "gu", "action": "click", "slots": {"target": "Skip ad"}}
+{"text": "pay now button dabavo", "lang": "gu", "action": "click", "slots": {"target": "pay now"}}
+{"text": "download par tap karo", "lang": "gu", "action": "click", "slots": {"target": "download"}}
+{"text": "bhai save button dabao", "lang": "gu", "action": "click", "slots": {"target": "save"}}
+{"text": "login dabavo", "lang": "gu", "action": "click", "slots": {"target": "login"}}
+{"text": "Sign in par click karo", "lang": "gu", "action": "click", "slots": {"target": "Sign in"}}
+{"text": "Add to cart par click karo", "lang": "gu", "action": "click", "slots": {"target": "Add to cart"}}
+{"text": "upload par click karo", "lang": "gu", "action": "click", "slots": {"target": "upload"}}
+{"text": "સબમિટ બટન દબાવો", "lang": "gu", "action": "click", "slots": {"target": "સબમિટ"}}
+{"text": "આગળ પર ક્લિક કરો", "lang": "gu", "action": "click", "slots": {"target": "આગળ"}}
+{"text": "screen par shu chhe te vancho", "lang": "gu", "action": "read_screen", "slots": {}}
+{"text": "aa screen vancho", "lang": "gu", "action": "read_screen", "slots": {}}
+{"text": "aa page ma shu lakhyu chhe.", "lang": "gu", "action": "read_screen", "slots": {}}
+{"text": "screen par je chhe te vanchi saambhdavo.", "lang": "gu", "action": "read_screen", "slots": {}}
+{"text": "aa email ma shu lakhyu chhe te vaancho", "lang": "gu", "action": "read_screen", "slots": {}}
+{"text": "સ્ક્રીન પર શું છે તે વાંચો", "lang": "gu", "action": "read_screen", "slots": {}}
+{"text": "ok cancel", "lang": "gu", "action": "cancel", "slots": {}}
+{"text": "please rehva de yaar", "lang": "gu", "action": "cancel", "slots": {}}
+{"text": "kai nai joiye", "lang": "gu", "action": "cancel", "slots": {}}
+{"text": "rehva do", "lang": "gu", "action": "cancel", "slots": {}}
+{"text": "રહેવા દો", "lang": "gu", "action": "cancel", "slots": {}}
+{"text": "savare 6 vaage alarm muko", "lang": "gu", "action": "unknown", "slots": {}}
+{"text": "Papa ne call karo", "lang": "gu", "action": "unknown", "slots": {}}
+{"text": "kem cho", "lang": "gu", "action": "unknown", "slots": {}}
+{"text": "laptop band karo", "lang": "gu", "action": "unknown", "slots": {}}
+{"text": "please brightness thodi vadharo", "lang": "gu", "action": "unknown", "slots": {}}
+{"text": "mane ek joke kaho", "lang": "gu", "action": "unknown", "slots": {}}
+{"text": "ઓછી બ્રાઇટનેસ કરો", "lang": "gu", "action": "unknown", "slots": {}}
+{"text": "pachhalu gaanu vagdo", "lang": "gu", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "resume karo", "lang": "gu", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "thodu roko yaar", "lang": "gu", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "aagalu gaanu vagado", "lang": "gu", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "pachhal nu gaanu lagavo", "lang": "gu", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "avaaj nano karo", "lang": "gu", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "gaanu fari chalu kro", "lang": "gu", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "sound mute kari do.", "lang": "gu", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "pause karo", "lang": "gu", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "gaanu band karo", "lang": "gu", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "avaaj ghatado", "lang": "gu", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "video pause karo.", "lang": "gu", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "next gaanu", "lang": "gu", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "biju gaanu lagavo", "lang": "gu", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "previous gaanu", "lang": "gu", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "pachhu chaalu karo", "lang": "gu", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "please avaaj vadharo", "lang": "gu", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "thodo avaaj vadharo", "lang": "gu", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "volume ochho karo", "lang": "gu", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "ગીત રોકો", "lang": "gu", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "અવાજ વધારો", "lang": "gu", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "આગલું ગીત વગાડો", "lang": "gu", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "અવાજ ઘટાડો", "lang": "gu", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "મ્યૂટ કરો", "lang": "gu", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "mane aaje no weather alarm set karo ne", "lang": "gu", "action": "unknown", "slots": {}}
+{"text": "volume nu brightness ghatado", "lang": "gu", "action": "unknown", "slots": {}}
+{"text": "mummy ne phone lagavo", "lang": "gu", "action": "unknown", "slots": {}}
+{"text": "રિમાઇન્ડર મૂકો", "lang": "gu", "action": "unknown", "slots": {}}
+{"text": "hmm ruko ruko kai nahi", "lang": "gu", "action": "cancel", "slots": {}}

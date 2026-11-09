@@ -1,0 +1,520 @@
+{"text": "WhatsApp kholo.", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "Zara whats app khol do na.", "action": "open_app", "slots": {"app": "whats app"}}
+{"text": "Chrome kholo jaldi.", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "Google Chrome start karo please.", "action": "open_app", "slots": {"app": "Google Chrome"}}
+{"text": "Edge browser chalu karo.", "action": "open_app", "slots": {"app": "Edge"}}
+{"text": "Microsoft Edge khol do.", "action": "open_app", "slots": {"app": "Microsoft Edge"}}
+{"text": "Firefox kholo yaar.", "action": "open_app", "slots": {"app": "Firefox"}}
+{"text": "Brave browser open karo.", "action": "open_app", "slots": {"app": "Brave"}}
+{"text": "You tube kholo.", "action": "open_app", "slots": {"app": "You tube"}}
+{"text": "YouTube wala app khol do zara.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "Spotify chalu karo.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "VLC player kholo.", "action": "open_app", "slots": {"app": "VLC player"}}
+{"text": "Vlc open karo na.", "action": "open_app", "slots": {"app": "Vlc"}}
+{"text": "Media player start karo.", "action": "open_app", "slots": {"app": "Media player"}}
+{"text": "Photos app kholo, kal ki photos dekhni hai.", "action": "open_app", "slots": {"app": "Photos"}}
+{"text": "Camera kholo zara.", "action": "open_app", "slots": {"app": "Camera"}}
+{"text": "Calculator chalu karo.", "action": "open_app", "slots": {"app": "Calculator"}}
+{"text": "Calculater khol do jaldi se.", "action": "open_app", "slots": {"app": "Calculater"}}
+{"text": "Notepad kholo.", "action": "open_app", "slots": {"app": "Notepad"}}
+{"text": "Note pad open karo yaar.", "action": "open_app", "slots": {"app": "Note pad"}}
+{"text": "Paint kholo, bacche ko drawing karni hai.", "action": "open_app", "slots": {"app": "Paint"}}
+{"text": "Snipping tool kholo.", "action": "open_app", "slots": {"app": "Snipping tool"}}
+{"text": "Screenshot wala snipping tool chalu karo.", "action": "open_app", "slots": {"app": "snipping tool"}}
+{"text": "Sticky notes khol do.", "action": "open_app", "slots": {"app": "Sticky notes"}}
+{"text": "Clock app kholo.", "action": "open_app", "slots": {"app": "Clock"}}
+{"text": "Alarms and clock kholo zara.", "action": "open_app", "slots": {"app": "Alarms and clock"}}
+{"text": "Weather app khol do.", "action": "open_app", "slots": {"app": "Weather"}}
+{"text": "Microsoft Store kholo.", "action": "open_app", "slots": {"app": "Microsoft Store"}}
+{"text": "Store wala app khol do.", "action": "open_app", "slots": {"app": "Store"}}
+{"text": "Settings kholo.", "action": "open_app", "slots": {"app": "Settings"}}
+{"text": "Setting khol do zara.", "action": "open_app", "slots": {"app": "Setting"}}
+{"text": "Control panel kholo.", "action": "open_app", "slots": {"app": "Control panel"}}
+{"text": "Task manager kholo jaldi, sab hang ho gaya.", "action": "open_app", "slots": {"app": "Task manager"}}
+{"text": "Task manger start karo.", "action": "open_app", "slots": {"app": "Task manger"}}
+{"text": "File explorer kholo.", "action": "open_app", "slots": {"app": "File explorer"}}
+{"text": "Mera files wala explorer khol do.", "action": "open_app", "slots": {"app": "explorer"}}
+{"text": "Command prompt kholo.", "action": "open_app", "slots": {"app": "Command prompt"}}
+{"text": "CMD chalu karo.", "action": "open_app", "slots": {"app": "CMD"}}
+{"text": "Terminal kholo.", "action": "open_app", "slots": {"app": "Terminal"}}
+{"text": "Windows terminal open karo.", "action": "open_app", "slots": {"app": "Windows terminal"}}
+{"text": "Power shell kholo.", "action": "open_app", "slots": {"app": "Power shell"}}
+{"text": "PowerShell chalu karo please.", "action": "open_app", "slots": {"app": "PowerShell"}}
+{"text": "Word kholo, letter likhna hai.", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "MS Word open karo.", "action": "open_app", "slots": {"app": "MS Word"}}
+{"text": "Microsoft Word khol do zara.", "action": "open_app", "slots": {"app": "Microsoft Word"}}
+{"text": "Excel kholo.", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "Power point kholo.", "action": "open_app", "slots": {"app": "Power point"}}
+{"text": "PPT kholo, presentation banana hai.", "action": "open_app", "slots": {"app": "PPT"}}
+{"text": "Outlook kholo.", "action": "open_app", "slots": {"app": "Outlook"}}
+{"text": "Out look khol do mail dekhne ke liye.", "action": "open_app", "slots": {"app": "Out look"}}
+{"text": "OneNote kholo.", "action": "open_app", "slots": {"app": "OneNote"}}
+{"text": "One drive kholo.", "action": "open_app", "slots": {"app": "One drive"}}
+{"text": "OneDrive chalu karo zara.", "action": "open_app", "slots": {"app": "OneDrive"}}
+{"text": "Teams kholo, meeting hai.", "action": "open_app", "slots": {"app": "Teams"}}
+{"text": "Microsoft Teams start karo.", "action": "open_app", "slots": {"app": "Microsoft Teams"}}
+{"text": "Zoom kholo.", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "Zoom wala app khol do, class shuru hone wali hai.", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "Google Meet kholo.", "action": "open_app", "slots": {"app": "Google Meet"}}
+{"text": "Meet khol do zara.", "action": "open_app", "slots": {"app": "Meet"}}
+{"text": "Skype kholo.", "action": "open_app", "slots": {"app": "Skype"}}
+{"text": "Telegram kholo.", "action": "open_app", "slots": {"app": "Telegram"}}
+{"text": "Tele gram khol do na.", "action": "open_app", "slots": {"app": "Tele gram"}}
+{"text": "Discord chalu karo.", "action": "open_app", "slots": {"app": "Discord"}}
+{"text": "Slack kholo.", "action": "open_app", "slots": {"app": "Slack"}}
+{"text": "Signal app khol do.", "action": "open_app", "slots": {"app": "Signal"}}
+{"text": "Instagram kholo.", "action": "open_app", "slots": {"app": "Instagram"}}
+{"text": "Insta kholo zara.", "action": "open_app", "slots": {"app": "Insta"}}
+{"text": "Netflix kholo.", "action": "open_app", "slots": {"app": "Netflix"}}
+{"text": "Netflix chalu karo, movie dekhni hai.", "action": "open_app", "slots": {"app": "Netflix"}}
+{"text": "Prime video kholo.", "action": "open_app", "slots": {"app": "Prime video"}}
+{"text": "Amazon Prime khol do.", "action": "open_app", "slots": {"app": "Amazon Prime"}}
+{"text": "Hotstar kholo.", "action": "open_app", "slots": {"app": "Hotstar"}}
+{"text": "JioHotstar chalu karo, match aa raha hai.", "action": "open_app", "slots": {"app": "JioHotstar"}}
+{"text": "Jio cinema kholo.", "action": "open_app", "slots": {"app": "Jio cinema"}}
+{"text": "JioSaavn kholo.", "action": "open_app", "slots": {"app": "JioSaavn"}}
+{"text": "Jio saavn app khol do.", "action": "open_app", "slots": {"app": "Jio saavn"}}
+{"text": "Notion kholo.", "action": "open_app", "slots": {"app": "Notion"}}
+{"text": "Obsidian kholo, notes dekhne hain.", "action": "open_app", "slots": {"app": "Obsidian"}}
+{"text": "VS Code kholo.", "action": "open_app", "slots": {"app": "VS Code"}}
+{"text": "vs code open karo jaldi.", "action": "open_app", "slots": {"app": "vs code"}}
+{"text": "Visual Studio Code chalu karo.", "action": "open_app", "slots": {"app": "Visual Studio Code"}}
+{"text": "Visual Studio kholo.", "action": "open_app", "slots": {"app": "Visual Studio"}}
+{"text": "Docker desktop start karo.", "action": "open_app", "slots": {"app": "Docker desktop"}}
+{"text": "Docker kholo zara.", "action": "open_app", "slots": {"app": "Docker"}}
+{"text": "Git bash kholo.", "action": "open_app", "slots": {"app": "Git bash"}}
+{"text": "Python IDLE kholo.", "action": "open_app", "slots": {"app": "Python IDLE"}}
+{"text": "Python wala idle khol do.", "action": "open_app", "slots": {"app": "idle"}}
+{"text": "R studio kholo.", "action": "open_app", "slots": {"app": "R studio"}}
+{"text": "Steam kholo, game khelna hai.", "action": "open_app", "slots": {"app": "Steam"}}
+{"text": "Xbox app kholo.", "action": "open_app", "slots": {"app": "Xbox"}}
+{"text": "Epic games kholo.", "action": "open_app", "slots": {"app": "Epic games"}}
+{"text": "Epic games launcher start karo.", "action": "open_app", "slots": {"app": "Epic games launcher"}}
+{"text": "Minecraft kholo.", "action": "open_app", "slots": {"app": "Minecraft"}}
+{"text": "Minecraft chalu karo bhai.", "action": "open_app", "slots": {"app": "Minecraft"}}
+{"text": "OBS kholo, recording karni hai.", "action": "open_app", "slots": {"app": "OBS"}}
+{"text": "OBS studio start karo.", "action": "open_app", "slots": {"app": "OBS studio"}}
+{"text": "Photoshop kholo.", "action": "open_app", "slots": {"app": "Photoshop"}}
+{"text": "Photo shop khol do.", "action": "open_app", "slots": {"app": "Photo shop"}}
+{"text": "Lightroom kholo.", "action": "open_app", "slots": {"app": "Lightroom"}}
+{"text": "Canva kholo, poster banana hai.", "action": "open_app", "slots": {"app": "Canva"}}
+{"text": "Adobe reader kholo.", "action": "open_app", "slots": {"app": "Adobe reader"}}
+{"text": "PDF reader khol do.", "action": "open_app", "slots": {"app": "PDF reader"}}
+{"text": "Acrobat chalu karo.", "action": "open_app", "slots": {"app": "Acrobat"}}
+{"text": "Clipchamp kholo, video edit karna hai.", "action": "open_app", "slots": {"app": "Clipchamp"}}
+{"text": "ChatGPT kholo.", "action": "open_app", "slots": {"app": "ChatGPT"}}
+{"text": "Chat GPT khol do zara.", "action": "open_app", "slots": {"app": "Chat GPT"}}
+{"text": "Claude kholo.", "action": "open_app", "slots": {"app": "Claude"}}
+{"text": "Copilot kholo.", "action": "open_app", "slots": {"app": "Copilot"}}
+{"text": "Co pilot chalu karo.", "action": "open_app", "slots": {"app": "Co pilot"}}
+{"text": "Phone link kholo.", "action": "open_app", "slots": {"app": "Phone link"}}
+{"text": "Tally kholo, hisaab dekhna hai.", "action": "open_app", "slots": {"app": "Tally"}}
+{"text": "Tally prime start karo.", "action": "open_app", "slots": {"app": "Tally prime"}}
+{"text": "AnyDesk kholo.", "action": "open_app", "slots": {"app": "AnyDesk"}}
+{"text": "Any desk khol do, remote support chahiye.", "action": "open_app", "slots": {"app": "Any desk"}}
+{"text": "RustDesk kholo.", "action": "open_app", "slots": {"app": "RustDesk"}}
+{"text": "Proton VPN chalu karo.", "action": "open_app", "slots": {"app": "Proton VPN"}}
+{"text": "VPN wala proton khol do.", "action": "open_app", "slots": {"app": "proton"}}
+{"text": "Everything search kholo.", "action": "open_app", "slots": {"app": "Everything"}}
+{"text": "Voice recorder kholo.", "action": "open_app", "slots": {"app": "Voice recorder"}}
+{"text": "Sound recorder chalu karo.", "action": "open_app", "slots": {"app": "Sound recorder"}}
+{"text": "Magnifier kholo, chhota dikh raha hai.", "action": "open_app", "slots": {"app": "Magnifier"}}
+{"text": "On screen keyboard kholo.", "action": "open_app", "slots": {"app": "On screen keyboard"}}
+{"text": "Narrator chalu karo.", "action": "open_app", "slots": {"app": "Narrator"}}
+{"text": "Bhai WhatsApp khol de.", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "Ek baar Chrome khol do.", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "Mujhe Excel chahiye, khol do.", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "Jaldi se Zoom start karo.", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "Telegram khol de bhai.", "action": "open_app", "slots": {"app": "Telegram"}}
+{"text": "Calculator khol na.", "action": "open_app", "slots": {"app": "Calculator"}}
+{"text": "Notepad khol de zara.", "action": "open_app", "slots": {"app": "Notepad"}}
+{"text": "Settings app open karo.", "action": "open_app", "slots": {"app": "Settings"}}
+{"text": "Browser kholo.", "action": "open_app", "slots": {"app": "Browser"}}
+{"text": "Chrome browser khol do please.", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "Word document wala app kholo.", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "Paint 3D kholo.", "action": "open_app", "slots": {"app": "Paint 3D"}}
+{"text": "Kya aap Outlook khol sakte ho?", "action": "open_app", "slots": {"app": "Outlook"}}
+{"text": "कृपया पावरपॉइंट खोलिए।", "action": "open_app", "slots": {"app": "पावरपॉइंट"}}
+{"text": "आउटलुक खोलिए।", "action": "open_app", "slots": {"app": "आउटलुक"}}
+{"text": "इंस्टाग्राम चलाओ।", "action": "open_app", "slots": {"app": "इंस्टाग्राम"}}
+{"text": "Instagram chalao.", "action": "open_app", "slots": {"app": "Instagram"}}
+{"text": "Insta chalavo.", "action": "open_app", "slots": {"app": "Insta"}}
+{"text": "Steam chalavo.", "action": "open_app", "slots": {"app": "Steam"}}
+{"text": "Discord ko kholo.", "action": "open_app", "slots": {"app": "Discord"}}
+{"text": "VLC ko chalu karo.", "action": "open_app", "slots": {"app": "VLC"}}
+{"text": "टीम्स खोल दो।", "action": "open_app", "slots": {"app": "टीम्स"}}
+{"text": "Zoom ka app chalu karo.", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "अभी व्हाट्सएप खोलो।", "action": "open_app", "slots": {"app": "व्हाट्सएप"}}
+{"text": "क्रोम खोलो।", "action": "open_app", "slots": {"app": "क्रोम"}}
+{"text": "यूट्यूब खोल दो।", "action": "open_app", "slots": {"app": "यूट्यूब"}}
+{"text": "स्पॉटिफाई चालू करो।", "action": "open_app", "slots": {"app": "स्पॉटिफाई"}}
+{"text": "कैलकुलेटर खोलो।", "action": "open_app", "slots": {"app": "कैलकुलेटर"}}
+{"text": "नोटपैड खोल दो।", "action": "open_app", "slots": {"app": "नोटपैड"}}
+{"text": "एक्सेल खोलो।", "action": "open_app", "slots": {"app": "एक्सेल"}}
+{"text": "ज़ूम चालू करो।", "action": "open_app", "slots": {"app": "ज़ूम"}}
+{"text": "टेलीग्राम खोलो।", "action": "open_app", "slots": {"app": "टेलीग्राम"}}
+{"text": "सेटिंग्स खोल दो।", "action": "open_app", "slots": {"app": "सेटिंग्स"}}
+{"text": "कैमरा खोलो।", "action": "open_app", "slots": {"app": "कैमरा"}}
+{"text": "नेटफ्लिक्स चालू करो।", "action": "open_app", "slots": {"app": "नेटफ्लिक्स"}}
+{"text": "पेंट खोलो।", "action": "open_app", "slots": {"app": "पेंट"}}
+{"text": "टास्क मैनेजर खोलो।", "action": "open_app", "slots": {"app": "टास्क मैनेजर"}}
+{"text": "वर्ड खोल दीजिए।", "action": "open_app", "slots": {"app": "वर्ड"}}
+{"text": "Clock khol do, time dekhna hai.", "action": "open_app", "slots": {"app": "Clock"}}
+{"text": "Weather kholo zara.", "action": "open_app", "slots": {"app": "Weather"}}
+{"text": "Store kholo, app download karna hai.", "action": "open_app", "slots": {"app": "Store"}}
+{"text": "Snip and sketch kholo.", "action": "open_app", "slots": {"app": "Snip and sketch"}}
+{"text": "Phone link chalu karo, phone connect karna hai.", "action": "open_app", "slots": {"app": "Phone link"}}
+{"text": "Copilot kholo na.", "action": "open_app", "slots": {"app": "Copilot"}}
+{"text": "Zara narrator chalu karo.", "action": "open_app", "slots": {"app": "narrator"}}
+{"text": "Google drive kholo.", "action": "open_app", "slots": {"app": "Google drive"}}
+{"text": "Groww app kholo.", "action": "open_app", "slots": {"app": "Groww"}}
+{"text": "PhonePe kholo.", "action": "open_app", "slots": {"app": "PhonePe"}}
+{"text": "WinRAR kholo.", "action": "open_app", "slots": {"app": "WinRAR"}}
+{"text": "7zip kholo.", "action": "open_app", "slots": {"app": "7zip"}}
+{"text": "Audacity kholo.", "action": "open_app", "slots": {"app": "Audacity"}}
+{"text": "Blender kholo.", "action": "open_app", "slots": {"app": "Blender"}}
+{"text": "Figma kholo.", "action": "open_app", "slots": {"app": "Figma"}}
+{"text": "Postman kholo.", "action": "open_app", "slots": {"app": "Postman"}}
+{"text": "PyCharm kholo.", "action": "open_app", "slots": {"app": "PyCharm"}}
+{"text": "IntelliJ kholo.", "action": "open_app", "slots": {"app": "IntelliJ"}}
+{"text": "Android studio kholo.", "action": "open_app", "slots": {"app": "Android studio"}}
+{"text": "Kya tum Notion khol sakte ho?", "action": "open_app", "slots": {"app": "Notion"}}
+{"text": "Ab VS Code chalu karo.", "action": "open_app", "slots": {"app": "VS Code"}}
+{"text": "WhatsApp open maadi.", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "Whats app tegi.", "action": "open_app", "slots": {"app": "Whats app"}}
+{"text": "Chrome open maadi please.", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "Google Chrome tegiri.", "action": "open_app", "slots": {"app": "Google Chrome"}}
+{"text": "Edge open maadi.", "action": "open_app", "slots": {"app": "Edge"}}
+{"text": "Firefox tegi.", "action": "open_app", "slots": {"app": "Firefox"}}
+{"text": "YouTube open maadi.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "You tube tegiri swalpa.", "action": "open_app", "slots": {"app": "You tube"}}
+{"text": "Spotify open maadi.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Spotify app tegi.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "VLC open maadi.", "action": "open_app", "slots": {"app": "VLC"}}
+{"text": "Photos tegi.", "action": "open_app", "slots": {"app": "Photos"}}
+{"text": "Camera open maadi.", "action": "open_app", "slots": {"app": "Camera"}}
+{"text": "Calculator tegi.", "action": "open_app", "slots": {"app": "Calculator"}}
+{"text": "ಎಕ್ಸೆಲ್ ತೆಗಿ.", "action": "open_app", "slots": {"app": "ಎಕ್ಸೆಲ್"}}
+{"text": "Notepad open maadi.", "action": "open_app", "slots": {"app": "Notepad"}}
+{"text": "Paint tegiri.", "action": "open_app", "slots": {"app": "Paint"}}
+{"text": "Snipping tool open maadi.", "action": "open_app", "slots": {"app": "Snipping tool"}}
+{"text": "Sticky notes tegi.", "action": "open_app", "slots": {"app": "Sticky notes"}}
+{"text": "Clock open maadi.", "action": "open_app", "slots": {"app": "Clock"}}
+{"text": "Weather app tegi.", "action": "open_app", "slots": {"app": "Weather"}}
+{"text": "Settings open maadi.", "action": "open_app", "slots": {"app": "Settings"}}
+{"text": "ಜೂಮ್ ಓಪನ್ ಮಾಡಿ.", "action": "open_app", "slots": {"app": "ಜೂಮ್"}}
+{"text": "Control panel open maadi.", "action": "open_app", "slots": {"app": "Control panel"}}
+{"text": "Task manager tegi bega.", "action": "open_app", "slots": {"app": "Task manager"}}
+{"text": "File explorer open maadi.", "action": "open_app", "slots": {"app": "File explorer"}}
+{"text": "Command prompt tegi.", "action": "open_app", "slots": {"app": "Command prompt"}}
+{"text": "Terminal open maadi.", "action": "open_app", "slots": {"app": "Terminal"}}
+{"text": "Word open maadi.", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "Excel tegi.", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "Excel open maadi swalpa.", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "Power point open maadi.", "action": "open_app", "slots": {"app": "Power point"}}
+{"text": "Outlook tegi.", "action": "open_app", "slots": {"app": "Outlook"}}
+{"text": "Teams open maadi, meeting ide.", "action": "open_app", "slots": {"app": "Teams"}}
+{"text": "Zoom tegi.", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "Zoom app open maadi please.", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "Google Meet open maadi.", "action": "open_app", "slots": {"app": "Google Meet"}}
+{"text": "Telegram tegi.", "action": "open_app", "slots": {"app": "Telegram"}}
+{"text": "Discord open maadi.", "action": "open_app", "slots": {"app": "Discord"}}
+{"text": "Instagram tegi.", "action": "open_app", "slots": {"app": "Instagram"}}
+{"text": "Netflix open maadi.", "action": "open_app", "slots": {"app": "Netflix"}}
+{"text": "Hotstar tegi, match nodbeku.", "action": "open_app", "slots": {"app": "Hotstar"}}
+{"text": "Prime video open maadi.", "action": "open_app", "slots": {"app": "Prime video"}}
+{"text": "JioSaavn tegi.", "action": "open_app", "slots": {"app": "JioSaavn"}}
+{"text": "Notion open maadi.", "action": "open_app", "slots": {"app": "Notion"}}
+{"text": "VS Code tegi.", "action": "open_app", "slots": {"app": "VS Code"}}
+{"text": "vs code open maadi.", "action": "open_app", "slots": {"app": "vs code"}}
+{"text": "Visual Studio open maadi.", "action": "open_app", "slots": {"app": "Visual Studio"}}
+{"text": "Docker Desktop tegi.", "action": "open_app", "slots": {"app": "Docker Desktop"}}
+{"text": "Git bash open maadi.", "action": "open_app", "slots": {"app": "Git bash"}}
+{"text": "Steam tegi.", "action": "open_app", "slots": {"app": "Steam"}}
+{"text": "Minecraft open maadi.", "action": "open_app", "slots": {"app": "Minecraft"}}
+{"text": "OBS studio tegi.", "action": "open_app", "slots": {"app": "OBS studio"}}
+{"text": "Photoshop open maadi.", "action": "open_app", "slots": {"app": "Photoshop"}}
+{"text": "Canva tegi.", "action": "open_app", "slots": {"app": "Canva"}}
+{"text": "Adobe acrobat open maadi.", "action": "open_app", "slots": {"app": "Adobe acrobat"}}
+{"text": "ChatGPT tegi.", "action": "open_app", "slots": {"app": "ChatGPT"}}
+{"text": "Claude open maadi.", "action": "open_app", "slots": {"app": "Claude"}}
+{"text": "Copilot tegi.", "action": "open_app", "slots": {"app": "Copilot"}}
+{"text": "Tally open maadi.", "action": "open_app", "slots": {"app": "Tally"}}
+{"text": "AnyDesk tegi.", "action": "open_app", "slots": {"app": "AnyDesk"}}
+{"text": "Voice recorder open maadi.", "action": "open_app", "slots": {"app": "Voice recorder"}}
+{"text": "Magnifier tegi.", "action": "open_app", "slots": {"app": "Magnifier"}}
+{"text": "Narrator open maadi.", "action": "open_app", "slots": {"app": "Narrator"}}
+{"text": "Swalpa Slack open maadi.", "action": "open_app", "slots": {"app": "Slack"}}
+{"text": "Dayavittu Skype tegiri.", "action": "open_app", "slots": {"app": "Skype"}}
+{"text": "OneDrive open maadi.", "action": "open_app", "slots": {"app": "OneDrive"}}
+{"text": "Lightroom tegi.", "action": "open_app", "slots": {"app": "Lightroom"}}
+{"text": "Microsoft Store open maadi.", "action": "open_app", "slots": {"app": "Microsoft Store"}}
+{"text": "PowerShell tegi.", "action": "open_app", "slots": {"app": "PowerShell"}}
+{"text": "Epic games open maadi.", "action": "open_app", "slots": {"app": "Epic games"}}
+{"text": "Xbox app tegi.", "action": "open_app", "slots": {"app": "Xbox"}}
+{"text": "ವಾಟ್ಸಾಪ್ ತೆಗಿ.", "action": "open_app", "slots": {"app": "ವಾಟ್ಸಾಪ್"}}
+{"text": "ಕ್ರೋಮ್ ಓಪನ್ ಮಾಡಿ.", "action": "open_app", "slots": {"app": "ಕ್ರೋಮ್"}}
+{"text": "ಯೂಟ್ಯೂಬ್ ತೆಗೆಯಿರಿ.", "action": "open_app", "slots": {"app": "ಯೂಟ್ಯೂಬ್"}}
+{"text": "ಕ್ಯಾಲ್ಕುಲೇಟರ್ ಓಪನ್ ಮಾಡಿ.", "action": "open_app", "slots": {"app": "ಕ್ಯಾಲ್ಕುಲೇಟರ್"}}
+{"text": "ಸ್ಪಾಟಿಫೈ ತೆಗಿ.", "action": "open_app", "slots": {"app": "ಸ್ಪಾಟಿಫೈ"}}
+{"text": "ಸೆಟ್ಟಿಂಗ್ಸ್ ಓಪನ್ ಮಾಡು.", "action": "open_app", "slots": {"app": "ಸೆಟ್ಟಿಂಗ್ಸ್"}}
+{"text": "WhatsApp thirandhu.", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "Whats app open pannu.", "action": "open_app", "slots": {"app": "Whats app"}}
+{"text": "Chrome open pannunga.", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "Google Chrome thira.", "action": "open_app", "slots": {"app": "Google Chrome"}}
+{"text": "Edge browser open pannu.", "action": "open_app", "slots": {"app": "Edge"}}
+{"text": "Firefox thirandhu vidu.", "action": "open_app", "slots": {"app": "Firefox"}}
+{"text": "YouTube open pannu.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "You tube thiranga please.", "action": "open_app", "slots": {"app": "You tube"}}
+{"text": "Spotify open pannu.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "செட்டிங்ஸ் ஓபன் பண்ணுங்க.", "action": "open_app", "slots": {"app": "செட்டிங்ஸ்"}}
+{"text": "VLC player open pannunga.", "action": "open_app", "slots": {"app": "VLC player"}}
+{"text": "Photos thira.", "action": "open_app", "slots": {"app": "Photos"}}
+{"text": "Camera open pannu.", "action": "open_app", "slots": {"app": "Camera"}}
+{"text": "Calculator thirandhu.", "action": "open_app", "slots": {"app": "Calculator"}}
+{"text": "டெலிகிராம் திறந்து.", "action": "open_app", "slots": {"app": "டெலிகிராம்"}}
+{"text": "Notepad open pannu.", "action": "open_app", "slots": {"app": "Notepad"}}
+{"text": "Paint thirandhu.", "action": "open_app", "slots": {"app": "Paint"}}
+{"text": "Snipping tool open pannu.", "action": "open_app", "slots": {"app": "Snipping tool"}}
+{"text": "Sticky notes open pannunga.", "action": "open_app", "slots": {"app": "Sticky notes"}}
+{"text": "Alarms open pannu.", "action": "open_app", "slots": {"app": "Alarms"}}
+{"text": "Weather thirandhu.", "action": "open_app", "slots": {"app": "Weather"}}
+{"text": "Settings open pannu.", "action": "open_app", "slots": {"app": "Settings"}}
+{"text": "Control panel thiranga.", "action": "open_app", "slots": {"app": "Control panel"}}
+{"text": "Task manager open pannu seekiram.", "action": "open_app", "slots": {"app": "Task manager"}}
+{"text": "File explorer thirandhu.", "action": "open_app", "slots": {"app": "File explorer"}}
+{"text": "Command prompt open pannu.", "action": "open_app", "slots": {"app": "Command prompt"}}
+{"text": "Terminal thirandhu.", "action": "open_app", "slots": {"app": "Terminal"}}
+{"text": "Word open pannunga.", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "Excel open pannu.", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "Power point thirandhu.", "action": "open_app", "slots": {"app": "Power point"}}
+{"text": "PowerPoint open pannunga please.", "action": "open_app", "slots": {"app": "PowerPoint"}}
+{"text": "Outlook open pannu.", "action": "open_app", "slots": {"app": "Outlook"}}
+{"text": "OneNote thirandhu.", "action": "open_app", "slots": {"app": "OneNote"}}
+{"text": "Teams open pannu, meeting irukku.", "action": "open_app", "slots": {"app": "Teams"}}
+{"text": "Zoom thirandhu.", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "Zoom open pannunga, class irukku.", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "Google Meet thira.", "action": "open_app", "slots": {"app": "Google Meet"}}
+{"text": "Telegram open pannu.", "action": "open_app", "slots": {"app": "Telegram"}}
+{"text": "Tele gram thirandhu.", "action": "open_app", "slots": {"app": "Tele gram"}}
+{"text": "Discord open pannu.", "action": "open_app", "slots": {"app": "Discord"}}
+{"text": "Instagram thirandhu.", "action": "open_app", "slots": {"app": "Instagram"}}
+{"text": "Netflix open pannunga.", "action": "open_app", "slots": {"app": "Netflix"}}
+{"text": "Hotstar thirandhu.", "action": "open_app", "slots": {"app": "Hotstar"}}
+{"text": "Prime video open pannu.", "action": "open_app", "slots": {"app": "Prime video"}}
+{"text": "JioSaavn thira.", "action": "open_app", "slots": {"app": "JioSaavn"}}
+{"text": "Obsidian open pannu.", "action": "open_app", "slots": {"app": "Obsidian"}}
+{"text": "VS Code thirandhu.", "action": "open_app", "slots": {"app": "VS Code"}}
+{"text": "Visual Studio Code open pannu.", "action": "open_app", "slots": {"app": "Visual Studio Code"}}
+{"text": "Docker open pannu.", "action": "open_app", "slots": {"app": "Docker"}}
+{"text": "Python IDLE thirandhu.", "action": "open_app", "slots": {"app": "Python IDLE"}}
+{"text": "RStudio open pannu.", "action": "open_app", "slots": {"app": "RStudio"}}
+{"text": "Steam thirandhu.", "action": "open_app", "slots": {"app": "Steam"}}
+{"text": "Minecraft open pannu da.", "action": "open_app", "slots": {"app": "Minecraft"}}
+{"text": "OBS thirandhu.", "action": "open_app", "slots": {"app": "OBS"}}
+{"text": "Photoshop open pannunga.", "action": "open_app", "slots": {"app": "Photoshop"}}
+{"text": "Canva thirandhu.", "action": "open_app", "slots": {"app": "Canva"}}
+{"text": "PDF reader open pannu.", "action": "open_app", "slots": {"app": "PDF reader"}}
+{"text": "Clipchamp thirandhu.", "action": "open_app", "slots": {"app": "Clipchamp"}}
+{"text": "ChatGPT open pannu.", "action": "open_app", "slots": {"app": "ChatGPT"}}
+{"text": "Claude thirandhu.", "action": "open_app", "slots": {"app": "Claude"}}
+{"text": "Copilot open pannu.", "action": "open_app", "slots": {"app": "Copilot"}}
+{"text": "Phone link thirandhu.", "action": "open_app", "slots": {"app": "Phone link"}}
+{"text": "Tally open pannunga.", "action": "open_app", "slots": {"app": "Tally"}}
+{"text": "RustDesk thirandhu.", "action": "open_app", "slots": {"app": "RustDesk"}}
+{"text": "Proton VPN open pannu.", "action": "open_app", "slots": {"app": "Proton VPN"}}
+{"text": "Everything open pannu.", "action": "open_app", "slots": {"app": "Everything"}}
+{"text": "Sound recorder thirandhu.", "action": "open_app", "slots": {"app": "Sound recorder"}}
+{"text": "On screen keyboard open pannu.", "action": "open_app", "slots": {"app": "On screen keyboard"}}
+{"text": "Konjam Signal open pannu.", "action": "open_app", "slots": {"app": "Signal"}}
+{"text": "Dhayavu seidhu Skype thirandhu.", "action": "open_app", "slots": {"app": "Skype"}}
+{"text": "Media player open pannu.", "action": "open_app", "slots": {"app": "Media player"}}
+{"text": "Git bash thirandhu.", "action": "open_app", "slots": {"app": "Git bash"}}
+{"text": "வாட்ஸ்அப் திற.", "action": "open_app", "slots": {"app": "வாட்ஸ்அப்"}}
+{"text": "குரோம் ஓபன் பண்ணு.", "action": "open_app", "slots": {"app": "குரோம்"}}
+{"text": "யூடியூப் திறந்து.", "action": "open_app", "slots": {"app": "யூடியூப்"}}
+{"text": "கால்குலேட்டர் ஓபன் பண்ணுங்க.", "action": "open_app", "slots": {"app": "கால்குலேட்டர்"}}
+{"text": "ஸ்பாட்டிஃபை திற.", "action": "open_app", "slots": {"app": "ஸ்பாட்டிஃபை"}}
+{"text": "நோட்பேட் ஓபன் பண்ணு.", "action": "open_app", "slots": {"app": "நோட்பேட்"}}
+{"text": "WhatsApp open cheyyi.", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "Whats app terevu.", "action": "open_app", "slots": {"app": "Whats app"}}
+{"text": "Chrome open cheyyandi.", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "Edge terevandi.", "action": "open_app", "slots": {"app": "Edge"}}
+{"text": "Firefox open cheyyi.", "action": "open_app", "slots": {"app": "Firefox"}}
+{"text": "YouTube terevu.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "Spotify open cheyyi.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "VLC terevu.", "action": "open_app", "slots": {"app": "VLC"}}
+{"text": "Photos open cheyyandi.", "action": "open_app", "slots": {"app": "Photos"}}
+{"text": "Camera terevu.", "action": "open_app", "slots": {"app": "Camera"}}
+{"text": "స్పాటిఫై ఓపెన్ చెయ్యి.", "action": "open_app", "slots": {"app": "స్పాటిఫై"}}
+{"text": "Notepad terevandi.", "action": "open_app", "slots": {"app": "Notepad"}}
+{"text": "Paint open cheyyi.", "action": "open_app", "slots": {"app": "Paint"}}
+{"text": "సెట్టింగ్స్ తెరువు.", "action": "open_app", "slots": {"app": "సెట్టింగ్స్"}}
+{"text": "Task manager open cheyyi tondaraga.", "action": "open_app", "slots": {"app": "Task manager"}}
+{"text": "File explorer terevu.", "action": "open_app", "slots": {"app": "File explorer"}}
+{"text": "Command prompt open cheyyandi.", "action": "open_app", "slots": {"app": "Command prompt"}}
+{"text": "Word open cheyyi.", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "Excel terevu.", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "Power point open cheyyandi.", "action": "open_app", "slots": {"app": "Power point"}}
+{"text": "Outlook terevu.", "action": "open_app", "slots": {"app": "Outlook"}}
+{"text": "Teams open cheyyi, meeting undi.", "action": "open_app", "slots": {"app": "Teams"}}
+{"text": "Zoom terevu.", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "Google Meet open cheyyi.", "action": "open_app", "slots": {"app": "Google Meet"}}
+{"text": "Telegram terevu.", "action": "open_app", "slots": {"app": "Telegram"}}
+{"text": "Discord open cheyyi.", "action": "open_app", "slots": {"app": "Discord"}}
+{"text": "Instagram terevandi.", "action": "open_app", "slots": {"app": "Instagram"}}
+{"text": "Netflix open cheyyi.", "action": "open_app", "slots": {"app": "Netflix"}}
+{"text": "Hotstar terevu.", "action": "open_app", "slots": {"app": "Hotstar"}}
+{"text": "Prime video open cheyyandi.", "action": "open_app", "slots": {"app": "Prime video"}}
+{"text": "VS Code terevu.", "action": "open_app", "slots": {"app": "VS Code"}}
+{"text": "Visual Studio open cheyyi.", "action": "open_app", "slots": {"app": "Visual Studio"}}
+{"text": "Steam terevu.", "action": "open_app", "slots": {"app": "Steam"}}
+{"text": "Minecraft open cheyyi.", "action": "open_app", "slots": {"app": "Minecraft"}}
+{"text": "OBS studio terevu.", "action": "open_app", "slots": {"app": "OBS studio"}}
+{"text": "Photoshop open cheyyi.", "action": "open_app", "slots": {"app": "Photoshop"}}
+{"text": "Canva terevandi.", "action": "open_app", "slots": {"app": "Canva"}}
+{"text": "ChatGPT open cheyyi.", "action": "open_app", "slots": {"app": "ChatGPT"}}
+{"text": "Copilot terevu.", "action": "open_app", "slots": {"app": "Copilot"}}
+{"text": "Tally open cheyyandi.", "action": "open_app", "slots": {"app": "Tally"}}
+{"text": "AnyDesk terevu.", "action": "open_app", "slots": {"app": "AnyDesk"}}
+{"text": "Snipping tool open cheyyi.", "action": "open_app", "slots": {"app": "Snipping tool"}}
+{"text": "Microsoft Store terevu.", "action": "open_app", "slots": {"app": "Microsoft Store"}}
+{"text": "Weather open cheyyi.", "action": "open_app", "slots": {"app": "Weather"}}
+{"text": "Konchem Notion open cheyyi.", "action": "open_app", "slots": {"app": "Notion"}}
+{"text": "Dayachesi Skype terevandi.", "action": "open_app", "slots": {"app": "Skype"}}
+{"text": "Slack open cheyyi.", "action": "open_app", "slots": {"app": "Slack"}}
+{"text": "JioSaavn terevu.", "action": "open_app", "slots": {"app": "JioSaavn"}}
+{"text": "వాట్సాప్ తెరువు.", "action": "open_app", "slots": {"app": "వాట్సాప్"}}
+{"text": "క్రోమ్ ఓపెన్ చెయ్యి.", "action": "open_app", "slots": {"app": "క్రోమ్"}}
+{"text": "యూట్యూబ్ తెరవండి.", "action": "open_app", "slots": {"app": "యూట్యూబ్"}}
+{"text": "కాలిక్యులేటర్ ఓపెన్ చెయ్యి.", "action": "open_app", "slots": {"app": "కాలిక్యులేటర్"}}
+{"text": "Open WhatsApp.", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "Please open Google Chrome.", "action": "open_app", "slots": {"app": "Google Chrome"}}
+{"text": "Launch Microsoft Edge.", "action": "open_app", "slots": {"app": "Microsoft Edge"}}
+{"text": "Open Firefox for me.", "action": "open_app", "slots": {"app": "Firefox"}}
+{"text": "Start Brave.", "action": "open_app", "slots": {"app": "Brave"}}
+{"text": "Can you open YouTube?", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "Open you tube please.", "action": "open_app", "slots": {"app": "you tube"}}
+{"text": "Launch Spotify.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Open VLC media player.", "action": "open_app", "slots": {"app": "VLC media player"}}
+{"text": "Open the Photos app.", "action": "open_app", "slots": {"app": "Photos"}}
+{"text": "Open the calculator.", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "Launch Notepad.", "action": "open_app", "slots": {"app": "Notepad"}}
+{"text": "Open paint.", "action": "open_app", "slots": {"app": "paint"}}
+{"text": "Start the snipping tool.", "action": "open_app", "slots": {"app": "snipping tool"}}
+{"text": "Open sticky notes.", "action": "open_app", "slots": {"app": "sticky notes"}}
+{"text": "Open the clock app.", "action": "open_app", "slots": {"app": "clock"}}
+{"text": "Open weather.", "action": "open_app", "slots": {"app": "weather"}}
+{"text": "Open Microsoft Store.", "action": "open_app", "slots": {"app": "Microsoft Store"}}
+{"text": "Open settings.", "action": "open_app", "slots": {"app": "settings"}}
+{"text": "Open control panel please.", "action": "open_app", "slots": {"app": "control panel"}}
+{"text": "Open task manager now.", "action": "open_app", "slots": {"app": "task manager"}}
+{"text": "Open file explorer.", "action": "open_app", "slots": {"app": "file explorer"}}
+{"text": "Open my files.", "action": "open_app", "slots": {"app": "files"}}
+{"text": "Start command prompt.", "action": "open_app", "slots": {"app": "command prompt"}}
+{"text": "Open the terminal.", "action": "open_app", "slots": {"app": "terminal"}}
+{"text": "Launch PowerShell.", "action": "open_app", "slots": {"app": "PowerShell"}}
+{"text": "Open Microsoft Word.", "action": "open_app", "slots": {"app": "Microsoft Word"}}
+{"text": "Start PowerPoint.", "action": "open_app", "slots": {"app": "PowerPoint"}}
+{"text": "Open power point.", "action": "open_app", "slots": {"app": "power point"}}
+{"text": "Open Outlook.", "action": "open_app", "slots": {"app": "Outlook"}}
+{"text": "Launch OneNote.", "action": "open_app", "slots": {"app": "OneNote"}}
+{"text": "Open OneDrive.", "action": "open_app", "slots": {"app": "OneDrive"}}
+{"text": "Open Microsoft Teams.", "action": "open_app", "slots": {"app": "Microsoft Teams"}}
+{"text": "Start Zoom.", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "Open Google Meet.", "action": "open_app", "slots": {"app": "Google Meet"}}
+{"text": "Open Skype.", "action": "open_app", "slots": {"app": "Skype"}}
+{"text": "Open Telegram.", "action": "open_app", "slots": {"app": "Telegram"}}
+{"text": "Launch Discord.", "action": "open_app", "slots": {"app": "Discord"}}
+{"text": "Open Slack.", "action": "open_app", "slots": {"app": "Slack"}}
+{"text": "Open Instagram.", "action": "open_app", "slots": {"app": "Instagram"}}
+{"text": "Open Netflix.", "action": "open_app", "slots": {"app": "Netflix"}}
+{"text": "Open Prime Video.", "action": "open_app", "slots": {"app": "Prime Video"}}
+{"text": "Open JioSaavn.", "action": "open_app", "slots": {"app": "JioSaavn"}}
+{"text": "Launch Obsidian.", "action": "open_app", "slots": {"app": "Obsidian"}}
+{"text": "Open VS Code.", "action": "open_app", "slots": {"app": "VS Code"}}
+{"text": "Open visual studio code please.", "action": "open_app", "slots": {"app": "visual studio code"}}
+{"text": "Start Docker Desktop.", "action": "open_app", "slots": {"app": "Docker Desktop"}}
+{"text": "Open Git Bash.", "action": "open_app", "slots": {"app": "Git Bash"}}
+{"text": "Open Python IDLE.", "action": "open_app", "slots": {"app": "Python IDLE"}}
+{"text": "Open RStudio.", "action": "open_app", "slots": {"app": "RStudio"}}
+{"text": "Launch Steam.", "action": "open_app", "slots": {"app": "Steam"}}
+{"text": "Open the Xbox app.", "action": "open_app", "slots": {"app": "Xbox"}}
+{"text": "Open Epic Games.", "action": "open_app", "slots": {"app": "Epic Games"}}
+{"text": "Launch Minecraft.", "action": "open_app", "slots": {"app": "Minecraft"}}
+{"text": "Start OBS.", "action": "open_app", "slots": {"app": "OBS"}}
+{"text": "Open Photoshop.", "action": "open_app", "slots": {"app": "Photoshop"}}
+{"text": "Open Lightroom.", "action": "open_app", "slots": {"app": "Lightroom"}}
+{"text": "Open Canva.", "action": "open_app", "slots": {"app": "Canva"}}
+{"text": "Open Adobe Acrobat.", "action": "open_app", "slots": {"app": "Adobe Acrobat"}}
+{"text": "Open Clipchamp.", "action": "open_app", "slots": {"app": "Clipchamp"}}
+{"text": "Open ChatGPT.", "action": "open_app", "slots": {"app": "ChatGPT"}}
+{"text": "Open Claude.", "action": "open_app", "slots": {"app": "Claude"}}
+{"text": "Launch Copilot.", "action": "open_app", "slots": {"app": "Copilot"}}
+{"text": "Open Phone Link.", "action": "open_app", "slots": {"app": "Phone Link"}}
+{"text": "Open Tally.", "action": "open_app", "slots": {"app": "Tally"}}
+{"text": "Start AnyDesk.", "action": "open_app", "slots": {"app": "AnyDesk"}}
+{"text": "Open RustDesk.", "action": "open_app", "slots": {"app": "RustDesk"}}
+{"text": "Start Proton VPN.", "action": "open_app", "slots": {"app": "Proton VPN"}}
+{"text": "Open Everything.", "action": "open_app", "slots": {"app": "Everything"}}
+{"text": "Open voice recorder.", "action": "open_app", "slots": {"app": "voice recorder"}}
+{"text": "Open the magnifier.", "action": "open_app", "slots": {"app": "magnifier"}}
+{"text": "Open on-screen keyboard.", "action": "open_app", "slots": {"app": "on-screen keyboard"}}
+{"text": "Turn on Narrator.", "action": "open_app", "slots": {"app": "Narrator"}}
+{"text": "Open whats app.", "action": "open_app", "slots": {"app": "whats app"}}
+{"text": "Fire up VS Code.", "action": "open_app", "slots": {"app": "VS Code"}}
+{"text": "Pull up Teams.", "action": "open_app", "slots": {"app": "Teams"}}
+{"text": "Get me Notepad.", "action": "open_app", "slots": {"app": "Notepad"}}
+{"text": "Open the browser.", "action": "open_app", "slots": {"app": "browser"}}
+{"text": "WhatsApp thurakku.", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "Chrome open cheyyu.", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "YouTube thurakku.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "Spotify open aakku.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Calculator thurakkoo.", "action": "open_app", "slots": {"app": "Calculator"}}
+{"text": "Zoom thurakku.", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "Teams open cheyyu.", "action": "open_app", "slots": {"app": "Teams"}}
+{"text": "Telegram thurakku.", "action": "open_app", "slots": {"app": "Telegram"}}
+{"text": "Netflix open cheyyu.", "action": "open_app", "slots": {"app": "Netflix"}}
+{"text": "Settings thurakku.", "action": "open_app", "slots": {"app": "Settings"}}
+{"text": "Word thurakkamo?", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "VS Code open cheyyu.", "action": "open_app", "slots": {"app": "VS Code"}}
+{"text": "Hotstar thurakku.", "action": "open_app", "slots": {"app": "Hotstar"}}
+{"text": "Instagram open aakku.", "action": "open_app", "slots": {"app": "Instagram"}}
+{"text": "Photoshop thurakku.", "action": "open_app", "slots": {"app": "Photoshop"}}
+{"text": "Notepad open cheyyu.", "action": "open_app", "slots": {"app": "Notepad"}}
+{"text": "Paint thurakku.", "action": "open_app", "slots": {"app": "Paint"}}
+{"text": "വാട്ട്സ്ആപ്പ് തുറക്കൂ.", "action": "open_app", "slots": {"app": "വാട്ട്സ്ആപ്പ്"}}
+{"text": "ക്രോം ഓപ്പൺ ചെയ്യൂ.", "action": "open_app", "slots": {"app": "ക്രോം"}}
+{"text": "യൂട്യൂബ് തുറക്കൂ.", "action": "open_app", "slots": {"app": "യൂട്യൂബ്"}}
+{"text": "WhatsApp ughad.", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "Chrome ughada.", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "YouTube chalu kar.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "Spotify ughad na.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Calculator ughad.", "action": "open_app", "slots": {"app": "Calculator"}}
+{"text": "Excel ughada please.", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "Teams ughad.", "action": "open_app", "slots": {"app": "Teams"}}
+{"text": "Word ughada.", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "Telegram ughad na.", "action": "open_app", "slots": {"app": "Telegram"}}
+{"text": "Netflix chalu kar.", "action": "open_app", "slots": {"app": "Netflix"}}
+{"text": "यूट्यूब चालू कर.", "action": "open_app", "slots": {"app": "यूट्यूब"}}
+{"text": "Steam ughad re.", "action": "open_app", "slots": {"app": "Steam"}}
+{"text": "Tally ughada.", "action": "open_app", "slots": {"app": "Tally"}}
+{"text": "व्हॉट्सॲप उघड.", "action": "open_app", "slots": {"app": "व्हॉट्सॲप"}}
+{"text": "क्रोम उघडा.", "action": "open_app", "slots": {"app": "क्रोम"}}
+{"text": "सेटिंग्ज उघड.", "action": "open_app", "slots": {"app": "सेटिंग्ज"}}
+{"text": "WhatsApp kholo to.", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "Chrome khulo.", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "YouTube khule dao.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "Calculator khulo.", "action": "open_app", "slots": {"app": "Calculator"}}
+{"text": "Excel khule dao.", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "Zoom chalu koro.", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "Teams khulo.", "action": "open_app", "slots": {"app": "Teams"}}
+{"text": "Word khule dao please.", "action": "open_app", "slots": {"app": "Word"}}
+{"text": "Netflix khulo.", "action": "open_app", "slots": {"app": "Netflix"}}
+{"text": "Hotstar chalu koro.", "action": "open_app", "slots": {"app": "Hotstar"}}
+{"text": "Telegram khulo.", "action": "open_app", "slots": {"app": "Telegram"}}
+{"text": "স্পটিফাই চালু করো।", "action": "open_app", "slots": {"app": "স্পটিফাই"}}
+{"text": "Discord khulo.", "action": "open_app", "slots": {"app": "Discord"}}
+{"text": "হোয়াটসঅ্যাপ খোলো।", "action": "open_app", "slots": {"app": "হোয়াটসঅ্যাপ"}}
+{"text": "ক্রোম খুলে দাও।", "action": "open_app", "slots": {"app": "ক্রোম"}}
+{"text": "ইউটিউব খোলো।", "action": "open_app", "slots": {"app": "ইউটিউব"}}

@@ -1,0 +1,645 @@
+{"text": "cancel it", "action": "cancel", "slots": {}}
+{"text": "stop stop", "action": "cancel", "slots": {}}
+{"text": "stop it", "action": "cancel", "slots": {}}
+{"text": "stop it please", "action": "cancel", "slots": {}}
+{"text": "nevermind yaar", "action": "cancel", "slots": {}}
+{"text": "leave it", "action": "cancel", "slots": {}}
+{"text": "leave it yaar", "action": "cancel", "slots": {}}
+{"text": "chhodo", "action": "cancel", "slots": {}}
+{"text": "chhodo yaar rehne do", "action": "cancel", "slots": {}}
+{"text": "rehne do na please", "action": "cancel", "slots": {}}
+{"text": "forget it", "action": "cancel", "slots": {}}
+{"text": "forget it yaar", "action": "cancel", "slots": {}}
+{"text": "no no leave it", "action": "cancel", "slots": {}}
+{"text": "no no cancel that", "action": "cancel", "slots": {}}
+{"text": "cancel that please", "action": "cancel", "slots": {}}
+{"text": "please cancel that", "action": "cancel", "slots": {}}
+{"text": "please cancel this request", "action": "cancel", "slots": {}}
+{"text": "cancel this request", "action": "cancel", "slots": {}}
+{"text": "cancel the request", "action": "cancel", "slots": {}}
+{"text": "cancel what I said", "action": "cancel", "slots": {}}
+{"text": "cancel whatever I just said", "action": "cancel", "slots": {}}
+{"text": "ignore what I said", "action": "cancel", "slots": {}}
+{"text": "ignore that", "action": "cancel", "slots": {}}
+{"text": "ignore that command", "action": "cancel", "slots": {}}
+{"text": "ignore my last command please", "action": "cancel", "slots": {}}
+{"text": "don't do it", "action": "cancel", "slots": {}}
+{"text": "don't do that", "action": "cancel", "slots": {}}
+{"text": "dont do anything", "action": "cancel", "slots": {}}
+{"text": "don't do anything now, leave it", "action": "cancel", "slots": {}}
+{"text": "no need", "action": "cancel", "slots": {}}
+{"text": "no need yaar", "action": "cancel", "slots": {}}
+{"text": "no need, leave it", "action": "cancel", "slots": {}}
+{"text": "no need for that now", "action": "cancel", "slots": {}}
+{"text": "it's ok no need", "action": "cancel", "slots": {}}
+{"text": "it's okay, leave it", "action": "cancel", "slots": {}}
+{"text": "okay leave it, I will do it myself", "action": "cancel", "slots": {}}
+{"text": "I will do it myself, cancel", "action": "cancel", "slots": {}}
+{"text": "I changed my mind", "action": "cancel", "slots": {}}
+{"text": "I changed my mind, cancel it", "action": "cancel", "slots": {}}
+{"text": "actually I changed my mind, don't do it", "action": "cancel", "slots": {}}
+{"text": "wait wait stop", "action": "cancel", "slots": {}}
+{"text": "hold on, cancel it", "action": "cancel", "slots": {}}
+{"text": "arre stop it", "action": "cancel", "slots": {}}
+{"text": "arre rehne do yaar", "action": "cancel", "slots": {}}
+{"text": "arre chhodo na", "action": "cancel", "slots": {}}
+{"text": "abort", "action": "cancel", "slots": {}}
+{"text": "abort it", "action": "cancel", "slots": {}}
+{"text": "abort the command", "action": "cancel", "slots": {}}
+{"text": "abort this please", "action": "cancel", "slots": {}}
+{"text": "stop the process", "action": "cancel", "slots": {}}
+{"text": "stop what you are doing", "action": "cancel", "slots": {}}
+{"text": "stop doing that", "action": "cancel", "slots": {}}
+{"text": "stop this right now", "action": "cancel", "slots": {}}
+{"text": "just stop", "action": "cancel", "slots": {}}
+{"text": "just cancel it", "action": "cancel", "slots": {}}
+{"text": "just leave it na", "action": "cancel", "slots": {}}
+{"text": "just forget about it", "action": "cancel", "slots": {}}
+{"text": "forget about it", "action": "cancel", "slots": {}}
+{"text": "forget what I told you", "action": "cancel", "slots": {}}
+{"text": "forget what I asked", "action": "cancel", "slots": {}}
+{"text": "drop it", "action": "cancel", "slots": {}}
+{"text": "drop it yaar", "action": "cancel", "slots": {}}
+{"text": "skip it", "action": "cancel", "slots": {}}
+{"text": "skip this one", "action": "cancel", "slots": {}}
+{"text": "not now", "action": "cancel", "slots": {}}
+{"text": "not now please, cancel", "action": "cancel", "slots": {}}
+{"text": "not now beta, later", "action": "cancel", "slots": {}}
+{"text": "later, cancel for now", "action": "cancel", "slots": {}}
+{"text": "cancel for now, I'll tell later", "action": "cancel", "slots": {}}
+{"text": "do one thing, cancel it", "action": "cancel", "slots": {}}
+{"text": "do one thing, just leave it", "action": "cancel", "slots": {}}
+{"text": "please stop, I don't want it", "action": "cancel", "slots": {}}
+{"text": "I don't want it, cancel", "action": "cancel", "slots": {}}
+{"text": "I don't want that anymore", "action": "cancel", "slots": {}}
+{"text": "I don't want to do this, stop", "action": "cancel", "slots": {}}
+{"text": "no thank you, cancel", "action": "cancel", "slots": {}}
+{"text": "no thanks, leave it", "action": "cancel", "slots": {}}
+{"text": "sorry sorry, cancel that", "action": "cancel", "slots": {}}
+{"text": "sorry wrong command, cancel", "action": "cancel", "slots": {}}
+{"text": "wrong one, cancel it", "action": "cancel", "slots": {}}
+{"text": "mistake, cancel that", "action": "cancel", "slots": {}}
+{"text": "that was a mistake, please cancel", "action": "cancel", "slots": {}}
+{"text": "by mistake I said, cancel it", "action": "cancel", "slots": {}}
+{"text": "galti se bola, cancel karo", "action": "cancel", "slots": {}}
+{"text": "cancel karo", "action": "cancel", "slots": {}}
+{"text": "cancel kar do", "action": "cancel", "slots": {}}
+{"text": "cancel kar do please", "action": "cancel", "slots": {}}
+{"text": "zara cancel kar do na", "action": "cancel", "slots": {}}
+{"text": "band karo, rehne do", "action": "cancel", "slots": {}}
+{"text": "it's fine, leave it ondu sari", "action": "cancel", "slots": {}}
+{"text": "konjam stop pannu, cancel", "action": "cancel", "slots": {}}
+{"text": "cancel it beda", "action": "cancel", "slots": {}}
+{"text": "vendam, cancel that", "action": "cancel", "slots": {}}
+{"text": "please beta, cancel this, I don't need it now", "action": "cancel", "slots": {}}
+{"text": "uncle here, please cancel whatever you are doing", "action": "cancel", "slots": {}}
+{"text": "madam please stop it, no need now", "action": "cancel", "slots": {}}
+{"text": "stop it, my son will do it later", "action": "cancel", "slots": {}}
+{"text": "cancel everything", "action": "cancel", "slots": {}}
+{"text": "cancel all of it", "action": "cancel", "slots": {}}
+{"text": "cancel the whole thing", "action": "cancel", "slots": {}}
+{"text": "call it off", "action": "cancel", "slots": {}}
+{"text": "call it off please", "action": "cancel", "slots": {}}
+{"text": "scratch that", "action": "cancel", "slots": {}}
+{"text": "undo that request, cancel", "action": "cancel", "slots": {}}
+{"text": "enough, stop", "action": "cancel", "slots": {}}
+{"text": "bas bas, cancel", "action": "cancel", "slots": {}}
+{"text": "bas karo", "action": "cancel", "slots": {}}
+{"text": "kancel it", "action": "cancel", "slots": {}}
+{"text": "cancle that", "action": "cancel", "slots": {}}
+{"text": "cancel dat", "action": "cancel", "slots": {}}
+{"text": "cansal it please", "action": "cancel", "slots": {}}
+{"text": "cancel maadu", "action": "cancel", "slots": {}}
+{"text": "beda", "action": "cancel", "slots": {}}
+{"text": "bidu bidu", "action": "cancel", "slots": {}}
+{"text": "beda bidi please", "action": "cancel", "slots": {}}
+{"text": "adu beda bidi", "action": "cancel", "slots": {}}
+{"text": "nillisu", "action": "cancel", "slots": {}}
+{"text": "nillisi please", "action": "cancel", "slots": {}}
+{"text": "stop maadu", "action": "cancel", "slots": {}}
+{"text": "stop maadi saaku", "action": "cancel", "slots": {}}
+{"text": "saaku bidu", "action": "cancel", "slots": {}}
+{"text": "saaku, beda", "action": "cancel", "slots": {}}
+{"text": "ondu nimisha, beda bidu", "action": "cancel", "slots": {}}
+{"text": "beda anta helde alla, bidu", "action": "cancel", "slots": {}}
+{"text": "ayyo beda beda", "action": "cancel", "slots": {}}
+{"text": "beda kano", "action": "cancel", "slots": {}}
+{"text": "beda kane", "action": "cancel", "slots": {}}
+{"text": "beda ri", "action": "cancel", "slots": {}}
+{"text": "beda swalpa bidi", "action": "cancel", "slots": {}}
+{"text": "please cancel maadi", "action": "cancel", "slots": {}}
+{"text": "dayavittu cancel maadi", "action": "cancel", "slots": {}}
+{"text": "dayavittu nillisi", "action": "cancel", "slots": {}}
+{"text": "adanna bidi, beda", "action": "cancel", "slots": {}}
+{"text": "aa kelsa beda bidu", "action": "cancel", "slots": {}}
+{"text": "haage bidu", "action": "cancel", "slots": {}}
+{"text": "haage bidi parvagilla", "action": "cancel", "slots": {}}
+{"text": "parvagilla beda", "action": "cancel", "slots": {}}
+{"text": "beda, nantara nodona", "action": "cancel", "slots": {}}
+{"text": "eega beda, aamele maadona", "action": "cancel", "slots": {}}
+{"text": "eega beda bidu yaar", "action": "cancel", "slots": {}}
+{"text": "mareyu, beda", "action": "cancel", "slots": {}}
+{"text": "adu mareto, beda", "action": "cancel", "slots": {}}
+{"text": "cancel maadbidu", "action": "cancel", "slots": {}}
+{"text": "cancel maadbidi please", "action": "cancel", "slots": {}}
+{"text": "cancel aagli", "action": "cancel", "slots": {}}
+{"text": "naanu helida request cancel maadi", "action": "cancel", "slots": {}}
+{"text": "hinde helidu beda", "action": "cancel", "slots": {}}
+{"text": "modlu helidu beda, cancel maadu", "action": "cancel", "slots": {}}
+{"text": "aa message kalsodu beda bidu", "action": "cancel", "slots": {}}
+{"text": "aa haadu haakodu beda, nillisu", "action": "cancel", "slots": {}}
+{"text": "app open maadodu beda bidu", "action": "cancel", "slots": {}}
+{"text": "search maadodu beda, cancel maadu", "action": "cancel", "slots": {}}
+{"text": "yenu maadbeda, bidu", "action": "cancel", "slots": {}}
+{"text": "enu beda", "action": "cancel", "slots": {}}
+{"text": "enoo beda bidi", "action": "cancel", "slots": {}}
+{"text": "hogli bidu", "action": "cancel", "slots": {}}
+{"text": "hogli beda", "action": "cancel", "slots": {}}
+{"text": "bittbidu", "action": "cancel", "slots": {}}
+{"text": "bittbidi", "action": "cancel", "slots": {}}
+{"text": "bittu bidu please", "action": "cancel", "slots": {}}
+{"text": "nanage beda adu", "action": "cancel", "slots": {}}
+{"text": "nange beda ri", "action": "cancel", "slots": {}}
+{"text": "idu beda", "action": "cancel", "slots": {}}
+{"text": "idella beda", "action": "cancel", "slots": {}}
+{"text": "bidappa", "action": "cancel", "slots": {}}
+{"text": "bidamma beda", "action": "cancel", "slots": {}}
+{"text": "bidi saar", "action": "cancel", "slots": {}}
+{"text": "saaku saaku nillisi", "action": "cancel", "slots": {}}
+{"text": "tadi beda", "action": "cancel", "slots": {}}
+{"text": "nillu nillu beda", "action": "cancel", "slots": {}}
+{"text": "ondu sala nillisi, beda", "action": "cancel", "slots": {}}
+{"text": "swalpa nillisi beda", "action": "cancel", "slots": {}}
+{"text": "zara cancel maadi", "action": "cancel", "slots": {}}
+{"text": "please beda bidi", "action": "cancel", "slots": {}}
+{"text": "sorry, beda bidi", "action": "cancel", "slots": {}}
+{"text": "beda yaar", "action": "cancel", "slots": {}}
+{"text": "beda guru", "action": "cancel", "slots": {}}
+{"text": "abba saaku, nillisu", "action": "cancel", "slots": {}}
+{"text": "beda anta helidini, cancel", "action": "cancel", "slots": {}}
+{"text": "bedaa", "action": "cancel", "slots": {}}
+{"text": "cancle maadu", "action": "cancel", "slots": {}}
+{"text": "cancel madu", "action": "cancel", "slots": {}}
+{"text": "kansal maadi", "action": "cancel", "slots": {}}
+{"text": "nilsu", "action": "cancel", "slots": {}}
+{"text": "nilisu beda", "action": "cancel", "slots": {}}
+{"text": "stap maadi", "action": "cancel", "slots": {}}
+{"text": "beda bidi bidi", "action": "cancel", "slots": {}}
+{"text": "ಕ್ಯಾನ್ಸಲ್ ಮಾಡು", "action": "cancel", "slots": {}}
+{"text": "ಬೇಡ", "action": "cancel", "slots": {}}
+{"text": "ನಿಲ್ಲಿಸು", "action": "cancel", "slots": {}}
+{"text": "ದಯವಿಟ್ಟು ನಿಲ್ಲಿಸಿ", "action": "cancel", "slots": {}}
+{"text": "ಬೇಡ ಬಿಡಿ ಪರವಾಗಿಲ್ಲ", "action": "cancel", "slots": {}}
+{"text": "ಸಾಕು ಬಿಡು", "action": "cancel", "slots": {}}
+{"text": "ಹಾಗೇ ಬಿಡು", "action": "cancel", "slots": {}}
+{"text": "ಅದು ಬೇಡ", "action": "cancel", "slots": {}}
+{"text": "ಈಗ ಬೇಡ, ಆಮೇಲೆ ನೋಡೋಣ", "action": "cancel", "slots": {}}
+{"text": "ಬಿಟ್ಟುಬಿಡು", "action": "cancel", "slots": {}}
+{"text": "ಹೋಗ್ಲಿ ಬಿಡು", "action": "cancel", "slots": {}}
+{"text": "ಏನೂ ಬೇಡ", "action": "cancel", "slots": {}}
+{"text": "ಕ್ಯಾನ್ಸಲ್ ಮಾಡಿ ಪ್ಲೀಸ್", "action": "cancel", "slots": {}}
+{"text": "ಸ್ಟಾಪ್ ಮಾಡು", "action": "cancel", "slots": {}}
+{"text": "ನಿಲ್ಲು ನಿಲ್ಲು ಬೇಡ", "action": "cancel", "slots": {}}
+{"text": "ಅಯ್ಯೋ ಬೇಡ ಬೇಡ", "action": "cancel", "slots": {}}
+{"text": "ಮೆಸೇಜ್ ಕಳಿಸೋದು ಬೇಡ ಬಿಡು", "action": "cancel", "slots": {}}
+{"text": "ನಾನು ಹೇಳಿದ್ದು ಕ್ಯಾನ್ಸಲ್ ಮಾಡಿ", "action": "cancel", "slots": {}}
+{"text": "ಬೇಡ ರೀ", "action": "cancel", "slots": {}}
+{"text": "ಸಾಕು ಸಾಕು ನಿಲ್ಲಿಸಿ", "action": "cancel", "slots": {}}
+{"text": "ಮರೆತುಬಿಡು ಅದನ್ನ", "action": "cancel", "slots": {}}
+{"text": "ದಯವಿಟ್ಟು ಕ್ಯಾನ್ಸಲ್ ಮಾಡಿ, ನನಗೆ ಅದು ಬೇಡ", "action": "cancel", "slots": {}}
+{"text": "ಬೇಡ ಕಣೋ", "action": "cancel", "slots": {}}
+{"text": "ಇದೆಲ್ಲ ಬೇಡ ಬಿಡಿ", "action": "cancel", "slots": {}}
+{"text": "ಬಿಡಪ್ಪ", "action": "cancel", "slots": {}}
+{"text": "ಸ್ವಲ್ಪ ನಿಲ್ಲಿಸಿ ಬೇಡ", "action": "cancel", "slots": {}}
+{"text": "ಹಾಡು ಹಾಕೋದು ಬೇಡ, ನಿಲ್ಲಿಸು", "action": "cancel", "slots": {}}
+{"text": "ಬೇಡ ಅಂತ ಹೇಳ್ದೆ ಅಲ್ವಾ, ಬಿಡು", "action": "cancel", "slots": {}}
+{"text": "ಬೇಡ ಬಿಡಿ ಸಾರ್", "action": "cancel", "slots": {}}
+{"text": "ಕ್ಯಾನ್ಸಲ್", "action": "cancel", "slots": {}}
+{"text": "nahi beta woh mat karo ab rehne do mujhe yaad aa gaya ki zaroorat nahi hai", "action": "cancel", "slots": {}}
+{"text": "please jo bhi chal raha hai usko cancel kar dijiye", "action": "cancel", "slots": {}}
+{"text": "uff band karo yaar", "action": "cancel", "slots": {}}
+{"text": "रहने दो बेटा बाद में देख लेंगे अभी कुछ मत करो", "action": "cancel", "slots": {}}
+{"text": "beda bidi, ondu nimisha yochane maadteeni", "action": "cancel", "slots": {}}
+{"text": "alla alla, beda bidi, naanu thappu helde", "action": "cancel", "slots": {}}
+{"text": "Nillisi saaku.", "action": "cancel", "slots": {}}
+{"text": "adi cancel cheyyandi please", "action": "cancel", "slots": {}}
+{"text": "oddu le aapeyi", "action": "cancel", "slots": {}}
+{"text": "inka vaddu, aapu", "action": "cancel", "slots": {}}
+{"text": "konchem aagu, vaddu idi", "action": "cancel", "slots": {}}
+{"text": "ee request cancel cheyyi ra", "action": "cancel", "slots": {}}
+{"text": "vaddhu ani cheppa kada stop cheyyi", "action": "cancel", "slots": {}}
+{"text": "please aapandi, naaku avasaram ledu", "action": "cancel", "slots": {}}
+{"text": "mundu cheppindi marchipo, vaddu", "action": "cancel", "slots": {}}
+{"text": "sare vaddu le, cancel", "action": "cancel", "slots": {}}
+{"text": "aapeyyandi babu, inka chalu", "action": "cancel", "slots": {}}
+{"text": "cheyyakandi, nenu tharvatha chusukuntanu", "action": "cancel", "slots": {}}
+{"text": "Vaddu.", "action": "cancel", "slots": {}}
+{"text": "stop cheyyi please", "action": "cancel", "slots": {}}
+{"text": "cancel chey", "action": "cancel", "slots": {}}
+{"text": "nakku vaddu andi idi cancel cheyandi", "action": "cancel", "slots": {}}
+{"text": "ade cheyyoddu, wait", "action": "cancel", "slots": {}}
+{"text": "inkemi cheyyakandi, aapandi please", "action": "cancel", "slots": {}}
+{"text": "radd kar", "action": "cancel", "slots": {}}
+{"text": "nako nako cancel kar", "action": "cancel", "slots": {}}
+{"text": "thamba, he nako", "action": "cancel", "slots": {}}
+{"text": "jau de re, cancel kar", "action": "cancel", "slots": {}}
+{"text": "nako mala he, band kar", "action": "cancel", "slots": {}}
+{"text": "aata nako, nantar baghu", "action": "cancel", "slots": {}}
+{"text": "krupaya cancel kara", "action": "cancel", "slots": {}}
+{"text": "thambva he sagla", "action": "cancel", "slots": {}}
+{"text": "he kaam radd kara please", "action": "cancel", "slots": {}}
+{"text": "nako re baba, sodun de", "action": "cancel", "slots": {}}
+{"text": "rahude, mi nantar sangto", "action": "cancel", "slots": {}}
+{"text": "band kar te, nako aahe", "action": "cancel", "slots": {}}
+{"text": "ruk ja, nako karu", "action": "cancel", "slots": {}}
+{"text": "cancel kara na zara", "action": "cancel", "slots": {}}
+{"text": "thamb thamb nako", "action": "cancel", "slots": {}}
+{"text": "Rahoo de.", "action": "cancel", "slots": {}}
+{"text": "thaak, cancel koro", "action": "cancel", "slots": {}}
+{"text": "thak, lagbe na", "action": "cancel", "slots": {}}
+{"text": "cancel kore dao please", "action": "cancel", "slots": {}}
+{"text": "na na thak, korte hobe na", "action": "cancel", "slots": {}}
+{"text": "bondho koro eta", "action": "cancel", "slots": {}}
+{"text": "eta cancel kore dao toh", "action": "cancel", "slots": {}}
+{"text": "chhere dao, dorkar nei", "action": "cancel", "slots": {}}
+{"text": "thamo, ar korte hobe na", "action": "cancel", "slots": {}}
+{"text": "ekhon na, pore korbo, thak", "action": "cancel", "slots": {}}
+{"text": "dada thak, cancel koro", "action": "cancel", "slots": {}}
+{"text": "ar lagbe na, bandho kore dao", "action": "cancel", "slots": {}}
+{"text": "bolchi to thak, cancel", "action": "cancel", "slots": {}}
+{"text": "thako thako", "action": "cancel", "slots": {}}
+{"text": "rehe dao baba, ar korte hobe na", "action": "cancel", "slots": {}}
+{"text": "Thak.", "action": "cancel", "slots": {}}
+{"text": "please oita cancel kore din", "action": "cancel", "slots": {}}
+{"text": "venda venda cancel cheyyu", "action": "cancel", "slots": {}}
+{"text": "athu venda, nirthu", "action": "cancel", "slots": {}}
+{"text": "cancel cheyyu please", "action": "cancel", "slots": {}}
+{"text": "ippo venda, pinne nokkam", "action": "cancel", "slots": {}}
+{"text": "nirthu, onnum cheyyanda", "action": "cancel", "slots": {}}
+{"text": "vendannu paranjille, cancel aakku", "action": "cancel", "slots": {}}
+{"text": "ithu venda chetta, nirthikko", "action": "cancel", "slots": {}}
+{"text": "mathi, nirtho", "action": "cancel", "slots": {}}
+{"text": "onnum venda, vittekku", "action": "cancel", "slots": {}}
+{"text": "cancel aakkikko please", "action": "cancel", "slots": {}}
+{"text": "venda, njan pinne parayam", "action": "cancel", "slots": {}}
+{"text": "nirthu nirthu", "action": "cancel", "slots": {}}
+{"text": "aa request venda, cancel", "action": "cancel", "slots": {}}
+{"text": "dayavayi cancel cheyyoo", "action": "cancel", "slots": {}}
+{"text": "Venta.", "action": "cancel", "slots": {}}
+{"text": "ninne kondu vendaa, nirthu", "action": "cancel", "slots": {}}
+{"text": "rehva do, cancel karo", "action": "cancel", "slots": {}}
+{"text": "nathi joitu, cancel kari do", "action": "cancel", "slots": {}}
+{"text": "bas, rehva de", "action": "cancel", "slots": {}}
+{"text": "cancel kari nakho please", "action": "cancel", "slots": {}}
+{"text": "aa kaam band karo", "action": "cancel", "slots": {}}
+{"text": "na na, nathi karvanu", "action": "cancel", "slots": {}}
+{"text": "mukki de, pachhi joishu", "action": "cancel", "slots": {}}
+{"text": "bas bhai, rehva do have", "action": "cancel", "slots": {}}
+{"text": "cancel karjo please", "action": "cancel", "slots": {}}
+{"text": "nai joie, rehva do", "action": "cancel", "slots": {}}
+{"text": "atkavi do aa", "action": "cancel", "slots": {}}
+{"text": "Rehva do.", "action": "cancel", "slots": {}}
+{"text": "mare nathi joitu, cancel karo zara", "action": "cancel", "slots": {}}
+{"text": "bas karo, have nahi", "action": "cancel", "slots": {}}
+{"text": "radd kari do aa request", "action": "cancel", "slots": {}}
+{"text": "rehan de, nahi chahida", "action": "cancel", "slots": {}}
+{"text": "cancel kar de please", "action": "cancel", "slots": {}}
+{"text": "bas kar, rehan de", "action": "cancel", "slots": {}}
+{"text": "nahi karna, chhad de", "action": "cancel", "slots": {}}
+{"text": "chhad yaar, cancel kar", "action": "cancel", "slots": {}}
+{"text": "ruk ja, nahi chahida hun", "action": "cancel", "slots": {}}
+{"text": "eh cancel kar dyo ji", "action": "cancel", "slots": {}}
+{"text": "rehan dyo, baad vich dekhange", "action": "cancel", "slots": {}}
+{"text": "na ji na, band karo", "action": "cancel", "slots": {}}
+{"text": "chad de, mainu nahi chahida", "action": "cancel", "slots": {}}
+{"text": "kirpa karke cancel kar do", "action": "cancel", "slots": {}}
+{"text": "Rehen de.", "action": "cancel", "slots": {}}
+{"text": "hun nahi, rehan de baaki", "action": "cancel", "slots": {}}
+{"text": "oye ruk, cancel kar", "action": "cancel", "slots": {}}
+{"text": "please never mind, vaddu", "action": "cancel", "slots": {}}
+{"text": "chhado chhado nako re", "action": "cancel", "slots": {}}
+{"text": "leave it yaar, venda", "action": "cancel", "slots": {}}
+{"text": "never mind, rehan de", "action": "cancel", "slots": {}}
+{"text": "stop it, thak", "action": "cancel", "slots": {}}
+{"text": "na thak, ami nijei korbo", "action": "cancel", "slots": {}}
+{"text": "canesl kar de", "action": "cancel", "slots": {}}
+{"text": "cancle cheyyi", "action": "cancel", "slots": {}}
+{"text": "kansal kari do", "action": "cancel", "slots": {}}
+{"text": "rahu dey naako", "action": "cancel", "slots": {}}
+{"text": "thaak koro na", "action": "cancel", "slots": {}}
+{"text": "vendaa nirthoo", "action": "cancel", "slots": {}}
+{"text": "bus kar rehnde", "action": "cancel", "slots": {}}
+{"text": "canshel kore dao", "action": "cancel", "slots": {}}
+{"text": "aunty ki cheppa kada, vaddu ani, please aapu ippude", "action": "cancel", "slots": {}}
+{"text": "amma ee message pampoddu, motham cancel cheyyandi", "action": "cancel", "slots": {}}
+{"text": "arre thamba, mala te nako aahe, sagla cancel kara aata", "action": "cancel", "slots": {}}
+{"text": "ki korcho, thamo, ami bolechi ar dorkar nei, cancel koro", "action": "cancel", "slots": {}}
+{"text": "ayyo venda, njan thettayi paranjathu, cancel aakku", "action": "cancel", "slots": {}}
+{"text": "na bhai na, aa khotu bolai gayu, cancel kari do", "action": "cancel", "slots": {}}
+{"text": "oho galat bol ditta, rehan de, cancel kar dyo ji", "action": "cancel", "slots": {}}
+{"text": "vendam", "action": "cancel", "slots": {}}
+{"text": "vendaam pa", "action": "cancel", "slots": {}}
+{"text": "cancel pannu", "action": "cancel", "slots": {}}
+{"text": "cancel pannidu please", "action": "cancel", "slots": {}}
+{"text": "venaam vidu", "action": "cancel", "slots": {}}
+{"text": "vidu pa", "action": "cancel", "slots": {}}
+{"text": "vidunga paravaala", "action": "cancel", "slots": {}}
+{"text": "paravaala vendam", "action": "cancel", "slots": {}}
+{"text": "stop pannu", "action": "cancel", "slots": {}}
+{"text": "nippattu", "action": "cancel", "slots": {}}
+{"text": "niruthu", "action": "cancel", "slots": {}}
+{"text": "niruthu pa podhum", "action": "cancel", "slots": {}}
+{"text": "podhum niruthu", "action": "cancel", "slots": {}}
+{"text": "konjam stop pannunga", "action": "cancel", "slots": {}}
+{"text": "ippo vendam vidunga", "action": "cancel", "slots": {}}
+{"text": "appuram paakalam ippo vendam", "action": "cancel", "slots": {}}
+{"text": "idhu ellam vendam cancel pannu", "action": "cancel", "slots": {}}
+{"text": "naan sonnadha cancel pannidu", "action": "cancel", "slots": {}}
+{"text": "munnadi sonnadhu vendam", "action": "cancel", "slots": {}}
+{"text": "andha request ah cancel pannunga please", "action": "cancel", "slots": {}}
+{"text": "ayyo vendam vendam", "action": "cancel", "slots": {}}
+{"text": "vendam da", "action": "cancel", "slots": {}}
+{"text": "summa iru vendam", "action": "cancel", "slots": {}}
+{"text": "le vidu da vendam", "action": "cancel", "slots": {}}
+{"text": "okay vendam cancel", "action": "cancel", "slots": {}}
+{"text": "illa illa vendam", "action": "cancel", "slots": {}}
+{"text": "illa vendam pa", "action": "cancel", "slots": {}}
+{"text": "vendaampa", "action": "cancel", "slots": {}}
+{"text": "vendaam cancal pannu", "action": "cancel", "slots": {}}
+{"text": "cansel pannu", "action": "cancel", "slots": {}}
+{"text": "cancle pannidu", "action": "cancel", "slots": {}}
+{"text": "vandam vidu", "action": "cancel", "slots": {}}
+{"text": "vendom", "action": "cancel", "slots": {}}
+{"text": "nirutthu", "action": "cancel", "slots": {}}
+{"text": "stap pannu", "action": "cancel", "slots": {}}
+{"text": "ventam vidunga", "action": "cancel", "slots": {}}
+{"text": "vidungo vendam", "action": "cancel", "slots": {}}
+{"text": "maranthudu adha", "action": "cancel", "slots": {}}
+{"text": "adha maranthudunga", "action": "cancel", "slots": {}}
+{"text": "adha vittudu", "action": "cancel", "slots": {}}
+{"text": "adha vittudunga please", "action": "cancel", "slots": {}}
+{"text": "naan maathi sollren ippo cancel pannu", "action": "cancel", "slots": {}}
+{"text": "thappa sonnen cancel pannu", "action": "cancel", "slots": {}}
+{"text": "thappa sollitten vendam", "action": "cancel", "slots": {}}
+{"text": "mistake ah sollitten adha cancel pannu", "action": "cancel", "slots": {}}
+{"text": "oru nimisham stop pannu vendam", "action": "cancel", "slots": {}}
+{"text": "konjam wait illa vendam cancel", "action": "cancel", "slots": {}}
+{"text": "sari sari vidunga", "action": "cancel", "slots": {}}
+{"text": "pochu vendam cancel", "action": "cancel", "slots": {}}
+{"text": "enakku adhu vendam", "action": "cancel", "slots": {}}
+{"text": "enakku idhu ippo thevai illa vidu", "action": "cancel", "slots": {}}
+{"text": "thevai illa", "action": "cancel", "slots": {}}
+{"text": "thevai illa cancel pannunga", "action": "cancel", "slots": {}}
+{"text": "onnum venam", "action": "cancel", "slots": {}}
+{"text": "onnum pannadha vidu", "action": "cancel", "slots": {}}
+{"text": "onnum pannavendam", "action": "cancel", "slots": {}}
+{"text": "edhuvum pannadhe", "action": "cancel", "slots": {}}
+{"text": "edhuvum pannaadheenga vidunga", "action": "cancel", "slots": {}}
+{"text": "nirutthunga please", "action": "cancel", "slots": {}}
+{"text": "please stop", "action": "cancel", "slots": {}}
+{"text": "please cancel pannunga thambi", "action": "cancel", "slots": {}}
+{"text": "kanna vendam pa vidu", "action": "cancel", "slots": {}}
+{"text": "amma solren vendam vidu", "action": "cancel", "slots": {}}
+{"text": "paati ku idhu vendam pa niruthu", "action": "cancel", "slots": {}}
+{"text": "thatha sonnadhu vendam cancel pannidu", "action": "cancel", "slots": {}}
+{"text": "ayyo romba late aagudhu vidu cancel", "action": "cancel", "slots": {}}
+{"text": "ippo time illa vendam vidu", "action": "cancel", "slots": {}}
+{"text": "naalaiku paakalam ippo cancel", "action": "cancel", "slots": {}}
+{"text": "cancel please", "action": "cancel", "slots": {}}
+{"text": "stop", "action": "cancel", "slots": {}}
+{"text": "leave it pa", "action": "cancel", "slots": {}}
+{"text": "leave it vendam", "action": "cancel", "slots": {}}
+{"text": "ok leave it cancel pannu", "action": "cancel", "slots": {}}
+{"text": "abort pannu", "action": "cancel", "slots": {}}
+{"text": "Stop pannunga.", "action": "cancel", "slots": {}}
+{"text": "Paravaala vidunga.", "action": "cancel", "slots": {}}
+{"text": "Naan sonnadhu vendam, cancel pannunga.", "action": "cancel", "slots": {}}
+{"text": "romba thanks aana ippo vendam vidunga", "action": "cancel", "slots": {}}
+{"text": "sorry ippo vendam cancel pannidunga", "action": "cancel", "slots": {}}
+{"text": "yo vendam nu sonnen la niruthu", "action": "cancel", "slots": {}}
+{"text": "nirutha sonnen la stop pannu", "action": "cancel", "slots": {}}
+{"text": "enna panra niruthu niruthu", "action": "cancel", "slots": {}}
+{"text": "dei niruthu da", "action": "cancel", "slots": {}}
+{"text": "podhum podhum vidu", "action": "cancel", "slots": {}}
+{"text": "seri adhu cancel", "action": "cancel", "slots": {}}
+{"text": "அதை கேன்சல் பண்ணு", "action": "cancel", "slots": {}}
+{"text": "வேண்டாம்", "action": "cancel", "slots": {}}
+{"text": "வேண்டாம் பா விடுங்க", "action": "cancel", "slots": {}}
+{"text": "நிறுத்து", "action": "cancel", "slots": {}}
+{"text": "நிறுத்துங்க ப்ளீஸ்", "action": "cancel", "slots": {}}
+{"text": "கேன்சல் பண்ணிடு", "action": "cancel", "slots": {}}
+{"text": "பரவாயில்லை வேண்டாம்", "action": "cancel", "slots": {}}
+{"text": "அதை விட்டுடு", "action": "cancel", "slots": {}}
+{"text": "விடுங்க வேண்டாம்", "action": "cancel", "slots": {}}
+{"text": "போதும் நிறுத்து", "action": "cancel", "slots": {}}
+{"text": "இப்போ வேண்டாம் அப்புறம் பாக்கலாம்", "action": "cancel", "slots": {}}
+{"text": "நான் சொன்னதை கேன்சல் பண்ணுங்க", "action": "cancel", "slots": {}}
+{"text": "தப்பா சொல்லிட்டேன் வேண்டாம்", "action": "cancel", "slots": {}}
+{"text": "ஒண்ணும் பண்ண வேண்டாம்", "action": "cancel", "slots": {}}
+{"text": "எதுவும் பண்ணாதே விடு", "action": "cancel", "slots": {}}
+{"text": "ஸ்டாப் பண்ணு", "action": "cancel", "slots": {}}
+{"text": "அய்யோ வேண்டாம் வேண்டாம்", "action": "cancel", "slots": {}}
+{"text": "சரி விடுங்க வேண்டாம்", "action": "cancel", "slots": {}}
+{"text": "தேவையில்லை கேன்சல் பண்ணு", "action": "cancel", "slots": {}}
+{"text": "முன்னாடி சொன்னது வேண்டாம் நிறுத்திடு", "action": "cancel", "slots": {}}
+{"text": "கொஞ்சம் நிறுத்துங்க அது வேண்டாம்", "action": "cancel", "slots": {}}
+{"text": "மறந்துடு அதை", "action": "cancel", "slots": {}}
+{"text": "click on submit", "action": "click", "slots": {"target": "submit"}}
+{"text": "click OK", "action": "click", "slots": {"target": "OK"}}
+{"text": "please click on the send button", "action": "click", "slots": {"target": "send"}}
+{"text": "press cancel button yaar", "action": "click", "slots": {"target": "cancel"}}
+{"text": "click on login", "action": "click", "slots": {"target": "login"}}
+{"text": "Can you click the sign in button for me", "action": "click", "slots": {"target": "sign in"}}
+{"text": "click download", "action": "click", "slots": {"target": "download"}}
+{"text": "go back, click the back button", "action": "click", "slots": {"target": "back"}}
+{"text": "close button pe click karo please", "action": "click", "slots": {"target": "close"}}
+{"text": "click yes", "action": "click", "slots": {"target": "yes"}}
+{"text": "Press accept.", "action": "click", "slots": {"target": "accept"}}
+{"text": "click the play button", "action": "click", "slots": {"target": "play"}}
+{"text": "press the search button na", "action": "click", "slots": {"target": "search"}}
+{"text": "click on the settings menu", "action": "click", "slots": {"target": "settings"}}
+{"text": "open the inbox tab by clicking it", "action": "click", "slots": {"target": "inbox"}}
+{"text": "do one thing, click on continue", "action": "click", "slots": {"target": "continue"}}
+{"text": "zara the proceed button press karo", "action": "click", "slots": {"target": "proceed"}}
+{"text": "click no", "action": "click", "slots": {"target": "no"}}
+{"text": "beta, just press that OK button for me please", "action": "click", "slots": {"target": "OK"}}
+{"text": "click on the first link", "action": "click", "slots": {"target": "first link"}}
+{"text": "Click the File menu.", "action": "click", "slots": {"target": "File"}}
+{"text": "click save", "action": "click", "slots": {"target": "save"}}
+{"text": "please press the pay now button", "action": "click", "slots": {"target": "pay now"}}
+{"text": "tap on log out", "action": "click", "slots": {"target": "log out"}}
+{"text": "click the sign up link", "action": "click", "slots": {"target": "sign up"}}
+{"text": "press the I agree button", "action": "click", "slots": {"target": "I agree"}}
+{"text": "click on add to cart", "action": "click", "slots": {"target": "add to cart"}}
+{"text": "Click buy now.", "action": "click", "slots": {"target": "buy now"}}
+{"text": "click on the home tab", "action": "click", "slots": {"target": "home"}}
+{"text": "press skip ad", "action": "click", "slots": {"target": "skip ad"}}
+{"text": "click the skip button yaar, this ad is too long", "action": "click", "slots": {"target": "skip"}}
+{"text": "click on reply", "action": "click", "slots": {"target": "reply"}}
+{"text": "press forward button", "action": "click", "slots": {"target": "forward"}}
+{"text": "click delete", "action": "click", "slots": {"target": "delete"}}
+{"text": "kindly click on the verify button", "action": "click", "slots": {"target": "verify"}}
+{"text": "click on resend OTP", "action": "click", "slots": {"target": "resend OTP"}}
+{"text": "press the get OTP button", "action": "click", "slots": {"target": "get OTP"}}
+{"text": "Click on the Edit menu please.", "action": "click", "slots": {"target": "Edit"}}
+{"text": "click view", "action": "click", "slots": {"target": "view"}}
+{"text": "click the help menu", "action": "click", "slots": {"target": "help"}}
+{"text": "press refresh", "action": "click", "slots": {"target": "refresh"}}
+{"text": "click the reload button", "action": "click", "slots": {"target": "reload"}}
+{"text": "click on the profile icon", "action": "click", "slots": {"target": "profile"}}
+{"text": "click on my account", "action": "click", "slots": {"target": "my account"}}
+{"text": "click like", "action": "click", "slots": {"target": "like"}}
+{"text": "click the share button", "action": "click", "slots": {"target": "share"}}
+{"text": "press pause", "action": "click", "slots": {"target": "pause"}}
+{"text": "click on full screen", "action": "click", "slots": {"target": "full screen"}}
+{"text": "click mute button", "action": "click", "slots": {"target": "mute"}}
+{"text": "Please click on the Downloads tab.", "action": "click", "slots": {"target": "Downloads"}}
+{"text": "click on the images tab", "action": "click", "slots": {"target": "images"}}
+{"text": "click the news tab na", "action": "click", "slots": {"target": "news"}}
+{"text": "click on apply filters", "action": "click", "slots": {"target": "apply filters"}}
+{"text": "click the confirm button", "action": "click", "slots": {"target": "confirm"}}
+{"text": "confirm button dabao please", "action": "click", "slots": {"target": "confirm"}}
+{"text": "click on place order", "action": "click", "slots": {"target": "place order"}}
+{"text": "click on track order", "action": "click", "slots": {"target": "track order"}}
+{"text": "click on compose", "action": "click", "slots": {"target": "compose"}}
+{"text": "click the new chat button", "action": "click", "slots": {"target": "new chat"}}
+{"text": "click the minimize button", "action": "click", "slots": {"target": "minimize"}}
+{"text": "press maximize", "action": "click", "slots": {"target": "maximize"}}
+{"text": "click on the X to close this popup", "action": "click", "slots": {"target": "X"}}
+{"text": "click allow", "action": "click", "slots": {"target": "allow"}}
+{"text": "press don't allow", "action": "click", "slots": {"target": "don't allow"}}
+{"text": "click on block", "action": "click", "slots": {"target": "block"}}
+{"text": "click on remind me later", "action": "click", "slots": {"target": "remind me later"}}
+{"text": "click the update now button", "action": "click", "slots": {"target": "update now"}}
+{"text": "press install", "action": "click", "slots": {"target": "install"}}
+{"text": "click finish", "action": "click", "slots": {"target": "finish"}}
+{"text": "click on the previous button", "action": "click", "slots": {"target": "previous"}}
+{"text": "click next page", "action": "click", "slots": {"target": "next page"}}
+{"text": "click on page two", "action": "click", "slots": {"target": "page two"}}
+{"text": "click on read more", "action": "click", "slots": {"target": "read more"}}
+{"text": "click show more", "action": "click", "slots": {"target": "show more"}}
+{"text": "click on forgot password link", "action": "click", "slots": {"target": "forgot password"}}
+{"text": "click on the contact us link at the bottom", "action": "click", "slots": {"target": "contact us"}}
+{"text": "click on the cart icon", "action": "click", "slots": {"target": "cart"}}
+{"text": "click the menu button, the three lines one", "action": "click", "slots": {"target": "menu"}}
+{"text": "click on the three dots", "action": "click", "slots": {"target": "three dots"}}
+{"text": "click on the video call button", "action": "click", "slots": {"target": "video call"}}
+{"text": "press end call", "action": "click", "slots": {"target": "end call"}}
+{"text": "click join meeting", "action": "click", "slots": {"target": "join meeting"}}
+{"text": "click on the leave button", "action": "click", "slots": {"target": "leave"}}
+{"text": "I am not able to find it, please click submit for me", "action": "click", "slots": {"target": "submit"}}
+{"text": "my eyes are weak beta, just click on the green OK button", "action": "click", "slots": {"target": "OK"}}
+{"text": "okay now click on next and then we will see", "action": "click", "slots": {"target": "next"}}
+{"text": "konjam click the login button", "action": "click", "slots": {"target": "login"}}
+{"text": "ondu click the continue button", "action": "click", "slots": {"target": "continue"}}
+{"text": "the blue sign in button, click that one", "action": "click", "slots": {"target": "sign in"}}
+{"text": "send button press karo", "action": "click", "slots": {"target": "send"}}
+{"text": "Search button pe click kar do.", "action": "click", "slots": {"target": "Search"}}
+{"text": "click on the cancel button not the OK", "action": "click", "slots": {"target": "cancel"}}
+{"text": "click on the Gmail tab at the top", "action": "click", "slots": {"target": "Gmail"}}
+{"text": "click on the second video", "action": "click", "slots": {"target": "second video"}}
+{"text": "click on check balance option", "action": "click", "slots": {"target": "check balance"}}
+{"text": "press the accept all cookies button", "action": "click", "slots": {"target": "accept all cookies"}}
+{"text": "click got it", "action": "click", "slots": {"target": "got it"}}
+{"text": "click on done", "action": "click", "slots": {"target": "done"}}
+{"text": "Clik on submit", "action": "click", "slots": {"target": "submit"}}
+{"text": "click on the nexd button", "action": "click", "slots": {"target": "nexd"}}
+{"text": "click on log in buttan", "action": "click", "slots": {"target": "log in"}}
+{"text": "click the dawnload button", "action": "click", "slots": {"target": "dawnload"}}
+{"text": "Click on the excep button.", "action": "click", "slots": {"target": "excep"}}
+{"text": "click on cancle", "action": "click", "slots": {"target": "cancle"}}
+{"text": "klick yes", "action": "click", "slots": {"target": "yes"}}
+{"text": "click on the setting option", "action": "click", "slots": {"target": "setting"}}
+{"text": "click on sub mit", "action": "click", "slots": {"target": "sub mit"}}
+{"text": "click on the insert tab", "action": "click", "slots": {"target": "insert"}}
+{"text": "click the history tab", "action": "click", "slots": {"target": "history"}}
+{"text": "press enter button on the screen", "action": "click", "slots": {"target": "enter"}}
+{"text": "zara next button daba do", "action": "click", "slots": {"target": "next"}}
+{"text": "OK pe click kar do please", "action": "click", "slots": {"target": "OK"}}
+{"text": "Sign in button dabana hai", "action": "click", "slots": {"target": "Sign in"}}
+{"text": "back button dabao", "action": "click", "slots": {"target": "back"}}
+{"text": "close kar do wo button, close pe click karo", "action": "click", "slots": {"target": "close"}}
+{"text": "Accept button daba do please", "action": "click", "slots": {"target": "Accept"}}
+{"text": "play button dabao", "action": "click", "slots": {"target": "play"}}
+{"text": "search button pe click karo", "action": "click", "slots": {"target": "search"}}
+{"text": "settings wale menu pe click karo", "action": "click", "slots": {"target": "settings"}}
+{"text": "home tab pe click kar do", "action": "click", "slots": {"target": "home"}}
+{"text": "beta zara wo neeche wala Next button daba do", "action": "click", "slots": {"target": "Next"}}
+{"text": "continue button dabao", "action": "click", "slots": {"target": "continue"}}
+{"text": "skip ad pe click karo", "action": "click", "slots": {"target": "skip ad"}}
+{"text": "Skip pe click kar do na", "action": "click", "slots": {"target": "Skip"}}
+{"text": "Allow button dabao", "action": "click", "slots": {"target": "Allow"}}
+{"text": "Apply button daba do", "action": "click", "slots": {"target": "Apply"}}
+{"text": "File menu pe click karo", "action": "click", "slots": {"target": "File"}}
+{"text": "Edit menu kholo click karke", "action": "click", "slots": {"target": "Edit"}}
+{"text": "View tab pe click karo", "action": "click", "slots": {"target": "View"}}
+{"text": "Compose button dabao", "action": "click", "slots": {"target": "Compose"}}
+{"text": "reply button pe click karo", "action": "click", "slots": {"target": "reply"}}
+{"text": "Delete button dabao", "action": "click", "slots": {"target": "Delete"}}
+{"text": "Finish button daba do", "action": "click", "slots": {"target": "Finish"}}
+{"text": "pay now button pe click karo", "action": "click", "slots": {"target": "pay now"}}
+{"text": "Add to cart pe click karo", "action": "click", "slots": {"target": "Add to cart"}}
+{"text": "Buy now button dabao", "action": "click", "slots": {"target": "Buy now"}}
+{"text": "Log out pe click karo", "action": "click", "slots": {"target": "Log out"}}
+{"text": "Sign out button daba do please", "action": "click", "slots": {"target": "Sign out"}}
+{"text": "Register button pe click karo", "action": "click", "slots": {"target": "Register"}}
+{"text": "Verify button dabao", "action": "click", "slots": {"target": "Verify"}}
+{"text": "Get OTP pe click karo", "action": "click", "slots": {"target": "Get OTP"}}
+{"text": "Resend OTP pe click kar do", "action": "click", "slots": {"target": "Resend OTP"}}
+{"text": "Confirm button daba do", "action": "click", "slots": {"target": "Confirm"}}
+{"text": "I agree wale box pe click karo", "action": "click", "slots": {"target": "I agree"}}
+{"text": "Previous button dabao", "action": "click", "slots": {"target": "Previous"}}
+{"text": "Refresh button pe click karo", "action": "click", "slots": {"target": "Refresh"}}
+{"text": "Contact us link pe click karo", "action": "click", "slots": {"target": "Contact us"}}
+{"text": "More options wale teen dots pe click karo", "action": "click", "slots": {"target": "More options"}}
+{"text": "Menu button dabao", "action": "click", "slots": {"target": "Menu"}}
+{"text": "Share button pe click karo", "action": "click", "slots": {"target": "Share"}}
+{"text": "Like button daba do", "action": "click", "slots": {"target": "Like"}}
+{"text": "Full screen button dabao", "action": "click", "slots": {"target": "Full screen"}}
+{"text": "Pause button pe click karo", "action": "click", "slots": {"target": "Pause"}}
+{"text": "Unmute button daba do", "action": "click", "slots": {"target": "Unmute"}}
+{"text": "Read more link pe click karo", "action": "click", "slots": {"target": "Read more"}}
+{"text": "Show more pe click kar do", "action": "click", "slots": {"target": "Show more"}}
+{"text": "Images tab pe click karo", "action": "click", "slots": {"target": "Images"}}
+{"text": "News tab pe click karo", "action": "click", "slots": {"target": "News"}}
+{"text": "Videos wale tab pe click kar do", "action": "click", "slots": {"target": "Videos"}}
+{"text": "Print button dabao", "action": "click", "slots": {"target": "Print"}}
+{"text": "Open button pe click karo", "action": "click", "slots": {"target": "Open"}}
+{"text": "Update now button dabao", "action": "click", "slots": {"target": "Update now"}}
+{"text": "Remind me later pe click karo", "action": "click", "slots": {"target": "Remind me later"}}
+{"text": "Got it button daba do", "action": "click", "slots": {"target": "Got it"}}
+{"text": "Close wala cross pe click karo", "action": "click", "slots": {"target": "Close"}}
+{"text": "Minimise button dabao", "action": "click", "slots": {"target": "Minimise"}}
+{"text": "Try again button daba do", "action": "click", "slots": {"target": "Try again"}}
+{"text": "submitt butten pe klik karo", "action": "click", "slots": {"target": "submitt"}}
+{"text": "nekst pe clik kar do", "action": "click", "slots": {"target": "nekst"}}
+{"text": "sain in pe klik karo", "action": "click", "slots": {"target": "sain in"}}
+{"text": "canse button dabao", "action": "click", "slots": {"target": "canse"}}
+{"text": "downlod pe klik karna", "action": "click", "slots": {"target": "downlod"}}
+{"text": "log in batan daba do zara", "action": "click", "slots": {"target": "log in"}}
+{"text": "sabmit kar do button pe click karke", "action": "click", "slots": {"target": "sabmit"}}
+{"text": "yaar jaldi se send pe click kar", "action": "click", "slots": {"target": "send"}}
+{"text": "arre wo blue wala Login button daba na", "action": "click", "slots": {"target": "Login"}}
+{"text": "please mere liye OK button pe ek baar click kar dijiye", "action": "click", "slots": {"target": "OK"}}
+{"text": "haan wo Continue button hai na, us pe click karo", "action": "click", "slots": {"target": "Continue"}}
+{"text": "सबमिट बटन दबाओ", "action": "click", "slots": {"target": "सबमिट"}}
+{"text": "ओके पर क्लिक कर दो", "action": "click", "slots": {"target": "ओके"}}
+{"text": "कैंसल वाला बटन दबाओ", "action": "click", "slots": {"target": "कैंसल"}}
+{"text": "लॉगिन पर क्लिक करो", "action": "click", "slots": {"target": "लॉगिन"}}
+{"text": "Sign in बटन दबा दो", "action": "click", "slots": {"target": "Sign in"}}
+{"text": "डाउनलोड पर क्लिक कर दीजिए", "action": "click", "slots": {"target": "डाउनलोड"}}
+{"text": "बैक बटन दबाओ ज़रा", "action": "click", "slots": {"target": "बैक"}}
+{"text": "yes पर क्लिक करो", "action": "click", "slots": {"target": "yes"}}
+{"text": "एक्सेप्ट बटन दबा दो", "action": "click", "slots": {"target": "एक्सेप्ट"}}
+{"text": "सर्च बटन दबाओ", "action": "click", "slots": {"target": "सर्च"}}
+{"text": "सेटिंग्स मेनू पर क्लिक करो", "action": "click", "slots": {"target": "सेटिंग्स"}}
+{"text": "होम टैब पर क्लिक कर दो", "action": "click", "slots": {"target": "होम"}}
+{"text": "कृपया सेव बटन दबा दीजिए", "action": "click", "slots": {"target": "सेव"}}
+{"text": "कन्फर्म पर क्लिक करो", "action": "click", "slots": {"target": "कन्फर्म"}}
+{"text": "आगे वाला बटन दबाओ", "action": "click", "slots": {"target": "आगे"}}
+{"text": "पीछे वाले बटन पर क्लिक करो", "action": "click", "slots": {"target": "पीछे"}}
+{"text": "हाँ वाले बटन पर क्लिक करो", "action": "click", "slots": {"target": "हाँ"}}
+{"text": "नहीं पर क्लिक कर दो", "action": "click", "slots": {"target": "नहीं"}}
+{"text": "Skip ad पर क्लिक करो", "action": "click", "slots": {"target": "Skip ad"}}
+{"text": "OTP भेजें वाले बटन पर क्लिक करो", "action": "click", "slots": {"target": "OTP भेजें"}}
+{"text": "Images टैब पर क्लिक करो", "action": "click", "slots": {"target": "Images"}}

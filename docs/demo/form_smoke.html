@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Bol OS form smoke test</title><link rel="stylesheet" href="form.css"></head>
+<body><main>
+<h1>Bol OS form smoke test</h1>
+<p class="demo-note">Local demo only. Use invented values. No details are stored.</p>
+<p>Use this short form to test explanation, private readback, field confirmation and separate submit confirmation.</p>
+<form action="/submit" method="post">
+<div class="row"><label for="name">Full name *</label><input id="name" name="name" type="text" required></div>
+<div class="row"><label for="mobile">Mobile number *</label><input id="mobile" name="mobile" type="tel"
+ pattern="[6-9][0-9]{9}" required></div>
+<div class="row"><label for="postal">PIN code *</label><input id="postal" name="postal" type="text"
+ pattern="[1-9][0-9]{5}" required></div>
+<button type="submit">Submit</button>
+</form>
+</main></body></html>

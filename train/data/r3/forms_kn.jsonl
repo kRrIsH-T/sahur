@@ -1,0 +1,120 @@
+{"text": "ee form alli enu bharti maadbeku", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "ee form yaavudakke anta helu", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "ee KYC form ge enenu beku", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "bank KYC form alli enu keLtare", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "Aadhaar update form bagge vivara kodi", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "PAN application form nalli enu tumbabeku helu", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "ration card form enu keLtaide", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "scholarship form ge yaava documents beku", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "pension form alli enenu bareyabeku", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "PM Kisan form bagge tilisi", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "gas connection form ge enu beku", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "voter ID form alli enu tumbabeku", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "job application form nalli enenu keLtare", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "school admission form bagge vivarisi", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "hospital registration form alli enu bareyabeku", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "insurance claim form ge enenu documents beku", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "what does this form need", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "ee form enu antha artha aagtilla swalpa helu", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "ee form alli IFSC andre enu", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "ee form alli yaavudu compulsory", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "idu enu form", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "ee page alli enu keLtidare", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "ee form nodi idu enu anta helu", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "ee application ge photo beka", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "ee form alli nominee anta keLtidare adu enu", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "ee form ge nanna Aadhaar beka", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "ee form alli yaavella details kodbeku", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "ee form alli ondondaagi enu keLtidare helu", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "ಈ ಫಾರ್ಮ್ ನಲ್ಲಿ ಏನು ತುಂಬಬೇಕು", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "ಈ ಫಾರ್ಮ್ ಯಾವುದಕ್ಕೆ ಅಂತ ಹೇಳಿ", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "ಈ ಅರ್ಜಿಗೆ ಯಾವ ದಾಖಲೆಗಳು ಬೇಕು", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "ಈ KYC ಫಾರ್ಮ್ ಬಗ್ಗೆ ವಿವರಿಸಿ", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "ರೇಷನ್ ಕಾರ್ಡ್ ಫಾರ್ಮ್ ನಲ್ಲಿ ಏನು ಕೇಳ್ತಾರೆ", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "ಈ ಫಾರ್ಮ್ ಅರ್ಥ ಆಗ್ತಿಲ್ಲ ವಿವರಿಸಿ", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "ಪಿಂಚಣಿ ಫಾರ್ಮ್ ನಲ್ಲಿ ಏನೇನು ಬರೆಯಬೇಕು", "lang": "kn", "action": "explain_form", "slots": {}}
+{"text": "form tumbalu sahaya maadi", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "nanna form tumbi kodi", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "ee KYC form tumbisi", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "form fill maadalu help maadi", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "ee form step by step tumbona", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "bank KYC form tumbi kodu", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "Aadhaar update form nanna details haaki tumbi", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "PAN card application tumbisi kodi", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "ration card form tumbalu help beku", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "scholarship form nannage tumbi kodi", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "pension form tumbisona", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "PM Kisan form fill maadi", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "gas connection form tumbalu sahaya maadi", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "voter ID form nanna jote tumbi", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "job application form fill maadi kodi", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "school admission form tumbalu nanage help maadi", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "hospital registration form tumbisi", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "insurance claim form nanna paravaagi tumbi", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "help me fill this form", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "fill this KYC form for me", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "nanna details haaki ee form tumbi", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "ee form neene tumbi bidu", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "form alli ondondu prashne keLi nanna uttara haaki", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "nanna profile inda ee form tumbi", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "mella mella ee form tumbalu help maadi", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "ee form nanna jote koodi tumbisu", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "nanna hesaru address haaki form tumbi", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "insurance claim ge ee form tumbi kodi", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "ಫಾರ್ಮ್ ತುಂಬಲು ಸಹಾಯ ಮಾಡಿ", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "ನನ್ನ ಫಾರ್ಮ್ ತುಂಬಿ ಕೊಡಿ", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "ಈ KYC ಫಾರ್ಮ್ ತುಂಬಿಸಿ", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "ಪಿಂಚಣಿ ಅರ್ಜಿ ತುಂಬಿ ಕೊಡಿ", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "ಈ ಫಾರ್ಮ್ ಅನ್ನು ನನ್ನ ಜೊತೆ ಸೇರಿ ತುಂಬಿ", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "ಆಧಾರ್ ತಿದ್ದುಪಡಿ ಫಾರ್ಮ್ ತುಂಬಲು ಸಹಾಯ ಮಾಡಿ", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "ವೋಟರ್ ಐಡಿ ಫಾರ್ಮ್ ತುಂಬಿಸಿ", "lang": "kn", "action": "fill_form", "slots": {}}
+{"text": "ee website nijavaagalu sari iddeya", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "ee site safe aagide ya", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "idu bank na asli site aa", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "ee link nambabahuda", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "ee website nakli aa", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "ee KYC site asli ya", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "ee SBI site sari ide ya", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "idu government site aa", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "ee site mosa alla ve", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "is this site safe", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "is this website real", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "ee site nambike ide aa", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "ee page fraud site aa", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "ee site ge nanna details kodabahuda", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "idu nija vaada Aadhaar site aa", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "ee UPI link safe aa", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "ee bank website asli o nakli o", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "ee website https ide aa safe aa", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "ee site yaarodu anta gottaa", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "ee link WhatsApp alli bandide idu asli aa", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "ee PAN site sari iddeya", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "ಈ ವೆಬ್ಸೈಟ್ ಅಸಲಿಯೇ", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "ಈ ಸೈಟ್ ಸುರಕ್ಷಿತವೇ", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "ಇದು ಬ್ಯಾಂಕಿನ ನಿಜವಾದ ಸೈಟಾ", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "ಈ ಲಿಂಕ್ ನಂಬಬಹುದಾ", "lang": "kn", "action": "check_site", "slots": {}}
+{"text": "screen mele enu bareditu odi helu", "lang": "kn", "action": "read_screen", "slots": {}}
+{"text": "screen alli enide helu", "lang": "kn", "action": "read_screen", "slots": {}}
+{"text": "ee page nalli enu kaanisutide odi", "lang": "kn", "action": "read_screen", "slots": {}}
+{"text": "ಸ್ಕ್ರೀನ್ ಓದಿ ಹೇಳಿ", "lang": "kn", "action": "read_screen", "slots": {}}
+{"text": "ee window alli enu ide heli", "lang": "kn", "action": "read_screen", "slots": {}}
+{"text": "ee box alli Ramesh Kumar anta type maadi", "lang": "kn", "action": "type_text", "slots": {"text": "Ramesh Kumar"}}
+{"text": "name box alli Lakshmi Devi anta bari", "lang": "kn", "action": "type_text", "slots": {"text": "Lakshmi Devi"}}
+{"text": "mobile number 9876543210 anta type maadi", "lang": "kn", "action": "type_text", "slots": {"text": "9876543210"}}
+{"text": "address alli 12th cross Jayanagar bengaluru anta bareyiri", "lang": "kn", "action": "type_text", "slots": {"text": "12th cross Jayanagar bengaluru"}}
+{"text": "email box nalli ramesh at gmail dot com anta type maadu", "lang": "kn", "action": "type_text", "slots": {"text": "ramesh at gmail dot com"}}
+{"text": "submit button otti", "lang": "kn", "action": "click", "slots": {"target": "submit"}}
+{"text": "Next mele click maadi", "lang": "kn", "action": "click", "slots": {"target": "Next"}}
+{"text": "upload button otti", "lang": "kn", "action": "click", "slots": {"target": "upload"}}
+{"text": "Continue ge click maadi", "lang": "kn", "action": "click", "slots": {"target": "Continue"}}
+{"text": "ಸೇವ್ ಬಟನ್ ಒತ್ತಿ", "lang": "kn", "action": "click", "slots": {"target": "ಸೇವ್"}}
+{"text": "KYC hege maaDodu", "lang": "kn", "action": "web_search", "slots": {"query": "KYC hege maaDodu"}}
+{"text": "PAN card ge apply maadodu hege", "lang": "kn", "action": "web_search", "slots": {"query": "PAN card ge apply maadodu hege"}}
+{"text": "ration card ge yaava documents beku hudku", "lang": "kn", "action": "web_search", "slots": {"query": "ration card ge yaava documents beku"}}
+{"text": "PM Kisan status hege nodbeku google maadi", "lang": "kn", "action": "web_search", "slots": {"query": "PM Kisan status hege nodbeku"}}
+{"text": "Aadhaar address change hege maaDodu hudku", "lang": "kn", "action": "web_search", "slots": {"query": "Aadhaar address change hege maaDodu"}}
+{"text": "UIDAI site open maadi", "lang": "kn", "action": "open_website", "slots": {"site": "UIDAI"}}
+{"text": "incometax dot gov dot in site open maadi", "lang": "kn", "action": "open_website", "slots": {"site": "incometax dot gov dot in"}}
+{"text": "SBI website open maadi", "lang": "kn", "action": "open_website", "slots": {"site": "SBI"}}
+{"text": "ಯುಐಡಿಎಐ ವೆಬ್ಸೈಟ್ ತೆರೆಯಿರಿ", "lang": "kn", "action": "open_website", "slots": {"site": "ಯುಐಡಿಎಐ"}}
+{"text": "Digilocker site tegiri", "lang": "kn", "action": "open_website", "slots": {"site": "Digilocker"}}

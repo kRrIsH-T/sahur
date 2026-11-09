@@ -1,0 +1,413 @@
+{"text": "chrome tegdu bengaluru weather hudku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "bengaluru weather"}}], "joiners": ["tegdu"]}
+{"text": "Chrome open maadi mattu gold rate today bangalore search maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "web_search", "slots": {"query": "gold rate today bangalore"}}], "joiners": ["mattu"]}
+{"text": "edge tegi aamele KCET 2026 result date nodu", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "KCET 2026 result date"}}], "joiners": ["aamele"]}
+{"text": "brave browser tegedu petrol price in mysuru heli", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "brave"}}, {"action": "web_search", "slots": {"query": "petrol price in mysuru"}}], "joiners": ["tegedu"]}
+{"text": "ಕ್ರೋಮ್ ತೆರೆದು ಇವತ್ತಿನ ಹವಾಮಾನ ಹುಡುಕು", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ಕ್ರೋಮ್"}}, {"action": "web_search", "slots": {"query": "ಇವತ್ತಿನ ಹವಾಮಾನ"}}], "joiners": ["ತೆರೆದು"]}
+{"text": "umm chrome open maadi amele sapta sagaradaache ello part 2 review hudki", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "sapta sagaradaache ello part 2 review"}}], "joiners": ["amele"]}
+{"text": "browser open madu mattu dk shivakumar latest news search madu", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "browser"}}, {"action": "web_search", "slots": {"query": "dk shivakumar latest news"}}], "joiners": ["mattu"]}
+{"text": "microsoft edge open maadi adaadmele bescom bill online payment hudku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "microsoft edge"}}, {"action": "web_search", "slots": {"query": "bescom bill online payment"}}], "joiners": ["adaadmele"]}
+{"text": "ಎಡ್ಜ್ ತೆರ್ದು ರಾಗಿ ಮುದ್ದೆ ಮಾಡೋದು ಹೇಗೆ ಸರ್ಚ್ ಮಾಡಿ", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ಎಡ್ಜ್"}}, {"action": "web_search", "slots": {"query": "ರಾಗಿ ಮುದ್ದೆ ಮಾಡೋದು ಹೇಗೆ"}}], "joiners": ["ತೆರ್ದು"]}
+{"text": "chrome launch maadi nantara namma metro last train timings nodi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "namma metro last train timings"}}], "joiners": ["nantara"]}
+{"text": "ಕ್ರೋಮ್ ಓಪನ್ ಮಾಡಿ ಆಮೇಲೆ ಕಾಂತಾರ ಚಾಪ್ಟರ್ 1 ಕಲೆಕ್ಷನ್ ಹುಡುಕಿ", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ಕ್ರೋಮ್"}}, {"action": "web_search", "slots": {"query": "ಕಾಂತಾರ ಚಾಪ್ಟರ್ 1 ಕಲೆಕ್ಷನ್"}}], "joiners": ["ಆಮೇಲೆ"]}
+{"text": "firefox open maadi then python list comprehension search maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "web_search", "slots": {"query": "python list comprehension"}}], "joiners": ["then"]}
+{"text": "chrome open maadkondu puneeth rajkumar birthday yavaga anta nodi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "puneeth rajkumar birthday yavaga"}}], "joiners": ["open maadkondu"]}
+{"text": "chrome tegi aa mele amazon alli bluetooth headphones under 2000 hudku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"site": "amazon", "query": "bluetooth headphones under 2000"}}], "joiners": ["aa mele"]}
+{"text": "edge open maadi mattu flipkart alli iphone 16 price nodi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"site": "flipkart", "query": "iphone 16 price"}}], "joiners": ["mattu"]}
+{"text": "krome open maadi and nearest petrol bunk hudku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "krome"}}, {"action": "web_search", "slots": {"query": "nearest petrol bunk"}}], "joiners": ["and"]}
+{"text": "ಎಡ್ಜ್ ತೆಗೆದು ಮೈಸೂರು ದಸರಾ ದಿನಾಂಕ ಹುಡುಕು", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ಎಡ್ಜ್"}}, {"action": "web_search", "slots": {"query": "ಮೈಸೂರು ದಸರಾ ದಿನಾಂಕ"}}], "joiners": ["ತೆಗೆದು"]}
+{"text": "Firefox start maadi mattu youtube alli excel pivot table tutorial hudku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Firefox"}}, {"action": "web_search", "slots": {"site": "youtube", "query": "excel pivot table tutorial"}}], "joiners": ["mattu"]}
+{"text": "chrome tegdu flipkart dot com open maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "flipkart dot com"}}], "joiners": ["tegdu"]}
+{"text": "edge open maadi mattu irctc website tegi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "open_website", "slots": {"site": "irctc"}}], "joiners": ["mattu"]}
+{"text": "firefox tegi amele github dot com ge hogi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "open_website", "slots": {"site": "github dot com"}}], "joiners": ["amele"]}
+{"text": "ಕ್ರೋಮ್ ತೆಗೆದು ಪ್ರಜಾವಾಣಿ ವೆಬ್ಸೈಟ್ ಓಪನ್ ಮಾಡಿ", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ಕ್ರೋಮ್"}}, {"action": "open_website", "slots": {"site": "ಪ್ರಜಾವಾಣಿ"}}], "joiners": ["ತೆಗೆದು"]}
+{"text": "chrome open madi aadmele karresults.nic.in open madi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "karresults.nic.in"}}], "joiners": ["aadmele"]}
+{"text": "brave open maadi then linkedin site tegi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "brave"}}, {"action": "open_website", "slots": {"site": "linkedin"}}], "joiners": ["then"]}
+{"text": "chrome open maadi bookmyshow website ge hogi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "bookmyshow"}}], "joiners": ["open maadi"]}
+{"text": "Edge browser tegi matte seva sindhu portal open maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Edge"}}, {"action": "open_website", "slots": {"site": "seva sindhu"}}], "joiners": ["matte"]}
+{"text": "youtube tegdu varaha roopam haaku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "varaha roopam"}}], "joiners": ["tegdu"]}
+{"text": "you tube open maadi mattu raghu dixit haadugalu haaku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "you tube"}}, {"action": "play_media", "slots": {"query": "raghu dixit"}}], "joiners": ["mattu"]}
+{"text": "spotify open maadi amele vijay prakash songs play maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "vijay prakash"}}], "joiners": ["amele"]}
+{"text": "ಯೂಟ್ಯೂಬ್ ತೆರೆದು ಬೊಂಬೆ ಹೇಳುತೈತೆ ಹಾಡು ಹಾಕು", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ಯೂಟ್ಯೂಬ್"}}, {"action": "play_media", "slots": {"query": "ಬೊಂಬೆ ಹೇಳುತೈತೆ"}}], "joiners": ["ತೆರೆದು"]}
+{"text": "jiosaavn tegi aamele old kannada songs haaku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "jiosaavn"}}, {"action": "play_media", "slots": {"query": "old kannada songs"}}], "joiners": ["aamele"]}
+{"text": "Spotify open maadkondu arijit singh play maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Spotify"}}, {"action": "play_media", "slots": {"query": "arijit singh"}}], "joiners": ["open maadkondu"]}
+{"text": "youtube music open maadi matte belageddu haaku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube music"}}, {"action": "play_media", "slots": {"query": "belageddu"}}], "joiners": ["matte"]}
+{"text": "gaana tegedu bhakti geethegalu haaku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "gaana"}}, {"action": "play_media", "slots": {"query": "bhakti geethegalu"}}], "joiners": ["tegedu"]}
+{"text": "ಸ್ಪಾಟಿಫೈ ಓಪನ್ ಮಾಡಿ ಮತ್ತು ಅನಿರುದ್ಧ್ ಹಾಡುಗಳು ಹಾಕಿ", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ಸ್ಪಾಟಿಫೈ"}}, {"action": "play_media", "slots": {"query": "ಅನಿರುದ್ಧ್"}}], "joiners": ["ಮತ್ತು"]}
+{"text": "youtube open maadi dr rajkumar haadu haaku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "dr rajkumar"}}], "joiners": ["open maadi"]}
+{"text": "youtube tegi adaadmele comedy khiladigalu latest episode haaku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "comedy khiladigalu latest episode"}}], "joiners": ["adaadmele"]}
+{"text": "VLC tegdu kirik party movie play maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "VLC"}}, {"action": "play_media", "slots": {"query": "kirik party"}}], "joiners": ["tegdu"]}
+{"text": "Spotify open maadi and chill kannada playlist haaku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Spotify"}}, {"action": "play_media", "slots": {"query": "chill kannada playlist"}}], "joiners": ["and"]}
+{"text": "ಯೂಟ್ಯೂಬ್ ತೆಗಿ ಆಮೇಲೆ ಪುನೀತ್ ರಾಜಕುಮಾರ್ ಹಾಡುಗಳು ಹಾಕು", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ಯೂಟ್ಯೂಬ್"}}, {"action": "play_media", "slots": {"query": "ಪುನೀತ್ ರಾಜಕುಮಾರ್"}}], "joiners": ["ಆಮೇಲೆ"]}
+{"text": "youtube open maadi aadmele mungaru male songs haaku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "mungaru male"}}], "joiners": ["aadmele"]}
+{"text": "spotify tegedu ajaneesh loknath bgm haaku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "ajaneesh loknath"}}], "joiners": ["tegedu"]}
+{"text": "notepad tegdu nale 10 gantege meeting ide anta type maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "nale 10 gantege meeting ide"}}], "joiners": ["tegdu"]}
+{"text": "Notepad open maadi mattu type maadi grocery list akki bele enne sakkare", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Notepad"}}, {"action": "type_text", "slots": {"text": "grocery list akki bele enne sakkare"}}], "joiners": ["mattu"]}
+{"text": "word open maadi amele dear sir i am writing to request leave type maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "word"}}, {"action": "type_text", "slots": {"text": "dear sir i am writing to request leave"}}], "joiners": ["amele"]}
+{"text": "ನೋಟ್ ಪ್ಯಾಡ್ ತೆರೆದು ನಾಳೆ ಬೆಳಿಗ್ಗೆ ಬ್ಯಾಂಕ್ ಗೆ ಹೋಗಬೇಕು ಅಂತ ಬರಿ", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ನೋಟ್ ಪ್ಯಾಡ್"}}, {"action": "type_text", "slots": {"text": "ನಾಳೆ ಬೆಳಿಗ್ಗೆ ಬ್ಯಾಂಕ್ ಗೆ ಹೋಗಬೇಕು"}}], "joiners": ["ತೆರೆದು"]}
+{"text": "Notepad ತೆರೆ ಮತ್ತೆ meeting nale ide anta bari", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Notepad"}}, {"action": "type_text", "slots": {"text": "meeting nale ide"}}], "joiners": ["ಮತ್ತೆ"]}
+{"text": "ms word open maadkondu project report chapter one introduction type maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ms word"}}, {"action": "type_text", "slots": {"text": "project report chapter one introduction"}}], "joiners": ["open maadkondu"]}
+{"text": "onenote tegi aamele bari physics notes unit 3", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "onenote"}}, {"action": "type_text", "slots": {"text": "physics notes unit 3"}}], "joiners": ["aamele"]}
+{"text": "wordpad terdu rent receipt for october anta type maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "wordpad"}}, {"action": "type_text", "slots": {"text": "rent receipt for october"}}], "joiners": ["terdu"]}
+{"text": "notepad tegeyi matte amma medicine 8 gantege anta bari", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "amma medicine 8 gantege"}}], "joiners": ["matte"]}
+{"text": "ವರ್ಡ್ ಓಪನ್ ಮಾಡಿ ಆಮೇಲೆ ಆತ್ಮೀಯ ಸ್ನೇಹಿತರೇ ಅಂತ ಟೈಪ್ ಮಾಡಿ", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ವರ್ಡ್"}}, {"action": "type_text", "slots": {"text": "ಆತ್ಮೀಯ ಸ್ನೇಹಿತರೇ"}}], "joiners": ["ಆಮೇಲೆ"]}
+{"text": "google docs open maadi and chapter 4 summary type maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "google docs"}}, {"action": "type_text", "slots": {"text": "chapter 4 summary"}}], "joiners": ["and"]}
+{"text": "note pad tegedu shopping list haalu mosaru bari", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "note pad"}}, {"action": "type_text", "slots": {"text": "shopping list haalu mosaru"}}], "joiners": ["tegedu"]}
+{"text": "settings open maadi mattu bluetooth mele click maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "settings"}}, {"action": "click", "slots": {"target": "bluetooth"}}], "joiners": ["mattu"]}
+{"text": "file explorer tegdu downloads click maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "file explorer"}}, {"action": "click", "slots": {"target": "downloads"}}], "joiners": ["tegdu"]}
+{"text": "ಜೂಮ್ ಓಪನ್ ಮಾಡಿ ಆಮೇಲೆ ಜಾಯಿನ್ ಮೀಟಿಂಗ್ ಬಟನ್ ಒತ್ತಿ", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ಜೂಮ್"}}, {"action": "click", "slots": {"target": "ಜಾಯಿನ್ ಮೀಟಿಂಗ್"}}], "joiners": ["ಆಮೇಲೆ"]}
+{"text": "ಸೆಟ್ಟಿಂಗ್ಸ್ ತೆರೆ ಮತ್ತು ವೈಫೈ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ಸೆಟ್ಟಿಂಗ್ಸ್"}}, {"action": "click", "slots": {"target": "ವೈಫೈ"}}], "joiners": ["ಮತ್ತು"]}
+{"text": "teams open maadi calendar tab click maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "teams"}}, {"action": "click", "slots": {"target": "calendar"}}], "joiners": ["open maadi"]}
+{"text": "outlook open maadi amele screen mele enide odi heli", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "outlook"}}, {"action": "read_screen", "slots": {}}], "joiners": ["amele"]}
+{"text": "ಔಟ್ಲುಕ್ ಓಪನ್ ಮಾಡಿ ಮತ್ತೆ ಸ್ಕ್ರೀನ್ ಓದು", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ಔಟ್ಲುಕ್"}}, {"action": "read_screen", "slots": {}}], "joiners": ["ಮತ್ತೆ"]}
+{"text": "whatsapp tegdu pavithra ge nale bartini anta message maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "pavithra", "text": "nale bartini"}}], "joiners": ["tegdu"]}
+{"text": "whats app open maadi mattu chikkappa ge function ge bartivi anta kalsu", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whats app"}}, {"action": "send_message", "slots": {"contact": "chikkappa", "text": "function ge bartivi"}}], "joiners": ["mattu"]}
+{"text": "whatsapp open madi aamele Girish ge msg kalsu ppt ready ide", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "Girish", "text": "ppt ready ide"}}], "joiners": ["aamele"]}
+{"text": "teams open maadi mattu outlook kooda open maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "teams"}}, {"action": "open_app", "slots": {"app": "outlook"}}], "joiners": ["mattu"]}
+{"text": "ವಿ ಎಸ್ ಕೋಡ್ ತೆಗಿ ಆಮೇಲೆ ಪೋಸ್ಟ್ಮ್ಯಾನ್ ಓಪನ್ ಮಾಡು", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ವಿ ಎಸ್ ಕೋಡ್"}}, {"action": "open_app", "slots": {"app": "ಪೋಸ್ಟ್ಮ್ಯಾನ್"}}], "joiners": ["ಆಮೇಲೆ"]}
+{"text": "obs open maadi and discord open maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "obs"}}, {"action": "open_app", "slots": {"app": "discord"}}], "joiners": ["and"]}
+{"text": "ಪೇಂಟ್ ತೆರೆ ಹಾಗೂ ಕ್ಯಾಲ್ಕುಲೇಟರ್ ತೆರೆ", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ಪೇಂಟ್"}}, {"action": "open_app", "slots": {"app": "ಕ್ಯಾಲ್ಕುಲೇಟರ್"}}], "joiners": ["ಹಾಗೂ"]}
+{"text": "amazon website tegi mattu kids school bag hudku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "amazon"}}, {"action": "web_search", "slots": {"query": "kids school bag"}}], "joiners": ["mattu"]}
+{"text": "gmail open maadi amele compose click maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "gmail"}}, {"action": "click", "slots": {"target": "compose"}}], "joiners": ["amele"]}
+{"text": "irctc dot co dot in tegi mattu login otti", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "irctc dot co dot in"}}, {"action": "click", "slots": {"target": "login"}}], "joiners": ["mattu"]}
+{"text": "ಫ್ಲಿಪ್ಕಾರ್ಟ್ ವೆಬ್ಸೈಟ್ ತೆರೆದು ಲಾಗಿನ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "ಫ್ಲಿಪ್ಕಾರ್ಟ್"}}, {"action": "click", "slots": {"target": "ಲಾಗಿನ್"}}], "joiners": ["ತೆರೆದು"]}
+{"text": "chatgpt dot com tegdu write a leave letter in kannada anta type maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "chatgpt dot com"}}, {"action": "type_text", "slots": {"text": "write a leave letter in kannada"}}], "joiners": ["tegdu"]}
+{"text": "haadu nilsi zoom open maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "zoom"}}], "joiners": ["nilsi"]}
+{"text": "music pause maadi mattu teams tegi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "teams"}}], "joiners": ["mattu"]}
+{"text": "sound mute maadi then skype open maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "open_app", "slots": {"app": "skype"}}], "joiners": ["then"]}
+{"text": "ಹಾಡು ನಿಲ್ಲಿಸಿ ಜಿಮೇಲ್ ಓಪನ್ ಮಾಡಿ", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_website", "slots": {"site": "ಜಿಮೇಲ್"}}], "joiners": ["ನಿಲ್ಲಿಸಿ"]}
+{"text": "ಮುಂದಿನ ಹಾಡು ಹಾಕು ಮತ್ತು ಸೌಂಡ್ ಸ್ವಲ್ಪ ಜಾಸ್ತಿ ಮಾಡು", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "next"}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["ಮತ್ತು"]}
+{"text": "volume kammi maadi aamele calculator tegi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "open_app", "slots": {"app": "calculator"}}], "joiners": ["aamele"]}
+{"text": "haadu pause maadi matte ok see you tomorrow anta type maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "type_text", "slots": {"text": "ok see you tomorrow"}}], "joiners": ["matte"]}
+{"text": "song matte shuru maadi mattu volume jaasti maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "resume"}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["mattu"]}
+{"text": "hinde haadu haaku aamele sound kammi maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "previous"}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["aamele"]}
+{"text": "music nilsi screen alli enide odi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "read_screen", "slots": {}}], "joiners": ["nilsi"]}
+{"text": "sound off maadi mattu appa ge meeting alli iddini anta message kalsu", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "send_message", "slots": {"contact": "appa", "text": "meeting alli iddini"}}], "joiners": ["mattu"]}
+{"text": "ಹಾಡು ಪಾಸ್ ಮಾಡಿ ಆಮೇಲೆ ಎಕ್ಸೆಲ್ ತೆರೆ", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "ಎಕ್ಸೆಲ್"}}], "joiners": ["ಆಮೇಲೆ"]}
+{"text": "mundina haadu haaku aadmele like button otti", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "next"}, {"action": "click", "slots": {"target": "like"}}], "joiners": ["aadmele"]}
+{"text": "amma ge oota aayta anta message kalsu mattu youtube open maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "amma", "text": "oota aayta"}}, {"action": "open_app", "slots": {"app": "youtube"}}], "joiners": ["mattu"]}
+{"text": "ravi ge msg maadi naanu 10 nimsha late anta aamele spotify open maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "ravi", "text": "naanu 10 nimsha late"}}, {"action": "open_app", "slots": {"app": "spotify"}}], "joiners": ["aamele"]}
+{"text": "akka ge whatsapp maadi happy birthday anta then birthday song haaku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "akka", "text": "happy birthday"}}, {"action": "play_media", "slots": {"query": "birthday song"}}], "joiners": ["then"]}
+{"text": "ಅಣ್ಣ ಗೆ ಬಸ್ ಹತ್ತಿದೀನಿ ಅಂತ ಮೆಸೇಜ್ ಕಳಿಸು ಮತ್ತು ಮ್ಯಾಪ್ಸ್ ತೆರೆ", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "ಅಣ್ಣ", "text": "ಬಸ್ ಹತ್ತಿದೀನಿ"}}, {"action": "open_app", "slots": {"app": "ಮ್ಯಾಪ್ಸ್"}}], "joiners": ["ಮತ್ತು"]}
+{"text": "Suresh sir ge message kalsi today i will work from home anta mattu traffic in silk board nodi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Suresh sir", "text": "today i will work from home"}}, {"action": "web_search", "slots": {"query": "traffic in silk board"}}], "joiners": ["mattu"]}
+{"text": "manju ge cricket 6 ke anta helu mattu darshan ge kooda bega baa anta kalsu", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "manju", "text": "cricket 6 ke"}}, {"action": "send_message", "slots": {"contact": "darshan", "text": "bega baa"}}], "joiners": ["mattu"]}
+{"text": "Shilpa madam ge assignment submit maadidini anta message kalsi teams open maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Shilpa madam", "text": "assignment submit maadidini"}}, {"action": "open_app", "slots": {"app": "teams"}}], "joiners": ["kalsi"]}
+{"text": "thamma ge bus stand alli iru anta msg haaku aamele haadu nilsu", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "thamma", "text": "bus stand alli iru"}}, {"action": "media_control", "slots": {}, "control": "pause"}], "joiners": ["aamele"]}
+{"text": "Rakshith ge link kalsta iddini anta helu matte google drive open maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Rakshith", "text": "link kalsta iddini"}}, {"action": "open_website", "slots": {"site": "google drive"}}], "joiners": ["matte"]}
+{"text": "hello sir good morning anta type maadi mattu send otti", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "hello sir good morning"}}, {"action": "click", "slots": {"target": "send"}}], "joiners": ["mattu"]}
+{"text": "manjunath type maadi amele search button click maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "manjunath"}}, {"action": "click", "slots": {"target": "search"}}], "joiners": ["amele"]}
+{"text": "ಟೈಪ್ ಮಾಡಿ ಧನ್ಯವಾದಗಳು ಆಮೇಲೆ ಸೆಂಡ್ ಒತ್ತಿ", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "ಧನ್ಯವಾದಗಳು"}}, {"action": "click", "slots": {"target": "ಸೆಂಡ್"}}], "joiners": ["ಆಮೇಲೆ"]}
+{"text": "bangalore to mysore anta baredu search buses otti", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "bangalore to mysore"}}, {"action": "click", "slots": {"target": "search buses"}}], "joiners": ["baredu"]}
+{"text": "9845012345 type maadi then get otp click maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "9845012345"}}, {"action": "click", "slots": {"target": "get otp"}}], "joiners": ["then"]}
+{"text": "kannada rajyotsava wishes anta type maadi mattu screen odi heli", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "kannada rajyotsava wishes"}}, {"action": "read_screen", "slots": {}}], "joiners": ["mattu"]}
+{"text": "search bar mele click maadi mattu kannada news type maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "search bar"}}, {"action": "type_text", "slots": {"text": "kannada news"}}], "joiners": ["mattu"]}
+{"text": "reply otti amele sure will do anta bari", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "reply"}}, {"action": "type_text", "slots": {"text": "sure will do"}}], "joiners": ["amele"]}
+{"text": "comment box mele click maadi super song anta type maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "comment"}}, {"action": "type_text", "slots": {"text": "super song"}}], "joiners": ["click maadi"]}
+{"text": "ಹುಡುಕು ಬಾಕ್ಸ್ ಮೇಲೆ ಒತ್ತಿ ಮೈಸೂರು ಪಾಕ್ ಅಂತ ಟೈಪ್ ಮಾಡಿ", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "ಹುಡುಕು"}}, {"action": "type_text", "slots": {"text": "ಮೈಸೂರು ಪಾಕ್"}}], "joiners": ["ಒತ್ತಿ"]}
+{"text": "file menu click maadi aamele save as otti", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "file"}}, {"action": "click", "slots": {"target": "save as"}}], "joiners": ["aamele"]}
+{"text": "inbox click maadi mattu screen alli enu ide heli", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "inbox"}}, {"action": "read_screen", "slots": {}}], "joiners": ["mattu"]}
+{"text": "download click maadi and Vinay ge file download aaytu anta msg maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "download"}}, {"action": "send_message", "slots": {"contact": "Vinay", "text": "file download aaytu"}}], "joiners": ["and"]}
+{"text": "screen alli enide odi aamele shwetha ge nodide anta kalsu", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "send_message", "slots": {"contact": "shwetha", "text": "nodide"}}], "joiners": ["aamele"]}
+{"text": "ee page odi heli mattu accept click maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "click", "slots": {"target": "accept"}}], "joiners": ["mattu"]}
+{"text": "india vs australia score heli mattu hotstar open maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "india vs australia score"}}, {"action": "open_app", "slots": {"app": "hotstar"}}], "joiners": ["mattu"]}
+{"text": "kempegowda airport flight status 6E 512 nodi aamele maava ge flight on time ide anta kalsu", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "kempegowda airport flight status 6E 512"}}, {"action": "send_message", "slots": {"contact": "maava", "text": "flight on time ide"}}], "joiners": ["aamele"]}
+{"text": "1 acre in square feet eshtu nodi aamele 43560 anta type maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "1 acre in square feet eshtu"}}, {"action": "type_text", "slots": {"text": "43560"}}], "joiners": ["aamele"]}
+{"text": "ಬೆಂಗಳೂರು ಟ್ರಾಫಿಕ್ ನೋಡಿ ಆಮೇಲೆ ಓಲಾ ಓಪನ್ ಮಾಡಿ", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "ಬೆಂಗಳೂರು ಟ್ರಾಫಿಕ್"}}, {"action": "open_app", "slots": {"app": "ಓಲಾ"}}], "joiners": ["ಆಮೇಲೆ"]}
+{"text": "spotify alli ilayaraja haaku mattu notepad open maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"app": "spotify", "query": "ilayaraja"}}, {"action": "open_app", "slots": {"app": "notepad"}}], "joiners": ["mattu"]}
+{"text": "lo fi beats haaku aamele assignment 2 answers type maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "lo fi beats"}}, {"action": "type_text", "slots": {"text": "assignment 2 answers"}}], "joiners": ["aamele"]}
+{"text": "tagaru banthu tagaru song haaku mattu volume jaasti maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "tagaru banthu tagaru"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["mattu"]}
+{"text": "yaare neenu cheluve haadu haaki word open maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "yaare neenu cheluve"}}, {"action": "open_app", "slots": {"app": "word"}}], "joiners": ["haaki"]}
+{"text": "youtube alli kantara climax haaku and chethan ge idu nodu maga anta kalsu", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"app": "youtube", "query": "kantara climax"}}, {"action": "send_message", "slots": {"contact": "chethan", "text": "idu nodu maga"}}], "joiners": ["and"]}
+{"text": "c ashwath bhavageethe haaku aadmele sound swalpa kammi maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "c ashwath bhavageethe"}}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["aadmele"]}
+{"text": "ಸಿಂಗಾರ ಸಿರಿಯೆ ಹಾಡು ಹಾಕು ಮತ್ತೆ ಕಾಂತಾರ ನಿರ್ದೇಶಕ ಯಾರು ಹುಡುಕು", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "ಸಿಂಗಾರ ಸಿರಿಯೆ"}}, {"action": "web_search", "slots": {"query": "ಕಾಂತಾರ ನಿರ್ದೇಶಕ ಯಾರು"}}], "joiners": ["ಮತ್ತೆ"]}
+{"text": "chrome open madi haagene kannada calendar 2027 hudku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "kannada calendar 2027"}}], "joiners": ["haagene"]}
+{"text": "prime video open maadi mattu 777 charlie haaku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "prime video"}}, {"action": "play_media", "slots": {"query": "777 charlie"}}], "joiners": ["mattu"]}
+{"text": "notepad open maadi jothege todo list anta type maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "todo list"}}], "joiners": ["jothege"]}
+{"text": "ವಾಟ್ಸಾಪ್ ತೆರೆದು ಅಮ್ಮ ಗೆ ಊಟ ಆಯ್ತಾ ಅಂತ ಕಳಿಸು", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ವಾಟ್ಸಾಪ್"}}, {"action": "send_message", "slots": {"contact": "ಅಮ್ಮ", "text": "ಊಟ ಆಯ್ತಾ"}}], "joiners": ["ತೆರೆದು"]}
+{"text": "chrome tegi then wikipedia alli hampi history hudku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"site": "wikipedia", "query": "hampi history"}}], "joiners": ["then"]}
+{"text": "Lokesh ge office ge bartiya anta whatsapp maadi amele chrome tegi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Lokesh", "text": "office ge bartiya"}}, {"action": "open_app", "slots": {"app": "chrome"}}], "joiners": ["amele"]}
+{"text": "ಹಾಡು ನಿಲ್ಲಿಸು ಮತ್ತು ಜೂಮ್ ಓಪನ್ ಮಾಡು", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "ಜೂಮ್"}}], "joiners": ["ಮತ್ತು"]}
+{"text": "ಕ್ರೋಮ್ ಓಪನ್ ಮಾಡಿ ಮತ್ತೆ ಯೂಟ್ಯೂಬ್ ಡಾಟ್ ಕಾಮ್ ಗೆ ಹೋಗಿ", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ಕ್ರೋಮ್"}}, {"action": "open_website", "slots": {"site": "ಯೂಟ್ಯೂಬ್ ಡಾಟ್ ಕಾಮ್"}}], "joiners": ["ಮತ್ತೆ"]}
+{"text": "powerpoint tegdu title alli annual day 2026 anta bari", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "powerpoint"}}, {"action": "type_text", "slots": {"text": "annual day 2026"}}], "joiners": ["tegdu"]}
+{"text": "ಅಕ್ಕ ಗೆ ಬರ್ತಿದೀನಿ ಅಂತ ಹೇಳು ಆಮೇಲೆ ಭಾವ ಗೆ ಸ್ಟೇಷನ್ ಗೆ ಬನ್ನಿ ಅಂತ ಕಳಿಸು", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "ಅಕ್ಕ", "text": "ಬರ್ತಿದೀನಿ"}}, {"action": "send_message", "slots": {"contact": "ಭಾವ", "text": "ಸ್ಟೇಷನ್ ಗೆ ಬನ್ನಿ"}}], "joiners": ["ಆಮೇಲೆ"]}
+{"text": "chrome tegdu amazon website open maadi aamele mixer grinder hudku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "amazon"}}, {"action": "web_search", "slots": {"query": "mixer grinder"}}], "joiners": ["tegdu", "aamele"]}
+{"text": "notepad open maadi mattu meeting minutes anta type maadi amele save otti", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "meeting minutes"}}, {"action": "click", "slots": {"target": "save"}}], "joiners": ["mattu", "amele"]}
+{"text": "haadu nilsi youtube open maadi mattu kannada news live haaku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "kannada news live"}}], "joiners": ["nilsi", "mattu"]}
+{"text": "edge terdu today kannada headlines hudku aamele screen odi heli", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "today kannada headlines"}}, {"action": "read_screen", "slots": {}}], "joiners": ["terdu", "aamele"]}
+{"text": "amma ge reach aade anta kalsu mattu spotify tegi then raghu dixit haaku", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "amma", "text": "reach aade"}}, {"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "raghu dixit"}}], "joiners": ["mattu", "then"]}
+{"text": "whatsapp tegdu search mele click maadi aamele ravi anta type maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "click", "slots": {"target": "search"}}, {"action": "type_text", "slots": {"text": "ravi"}}], "joiners": ["tegdu", "aamele"]}
+{"text": "teams open maadi mattu outlook aamele excel kooda tegi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "teams"}}, {"action": "open_app", "slots": {"app": "outlook"}}, {"action": "open_app", "slots": {"app": "excel"}}], "joiners": ["mattu", "aamele"]}
+{"text": "chrome open maadi amele bangalore weather tomorrow nodi mattu Harsha ge nale male barutte anta kalsu", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "bangalore weather tomorrow"}}, {"action": "send_message", "slots": {"contact": "Harsha", "text": "nale male barutte"}}], "joiners": ["amele", "mattu"]}
+{"text": "ವರ್ಡ್ ತೆರೆದು ರಜೆ ಅರ್ಜಿ ಅಂತ ಟೈಪ್ ಮಾಡಿ ಮತ್ತು ಸೇವ್ ಒತ್ತಿ", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ವರ್ಡ್"}}, {"action": "type_text", "slots": {"text": "ರಜೆ ಅರ್ಜಿ"}}, {"action": "click", "slots": {"target": "ಸೇವ್"}}], "joiners": ["ತೆರೆದು", "ಮತ್ತು"]}
+{"text": "sound mute maadi then outlook open maadi mattu screen odi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "open_app", "slots": {"app": "outlook"}}, {"action": "read_screen", "slots": {}}], "joiners": ["then", "mattu"]}
+{"text": "youtube tegdu hodi ombattu haaku aamele volume jaasti maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "hodi ombattu"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["tegdu", "aamele"]}
+{"text": "gmail open maadi mattu compose otti aadmele hi team please find attached anta type maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "gmail"}}, {"action": "click", "slots": {"target": "compose"}}, {"action": "type_text", "slots": {"text": "hi team please find attached"}}], "joiners": ["mattu", "aadmele"]}
+{"text": "firefox tegi aamele kseab sslc result 2026 hudku matte karresults dot nic dot in open maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "web_search", "slots": {"query": "kseab sslc result 2026"}}, {"action": "open_website", "slots": {"site": "karresults dot nic dot in"}}], "joiners": ["aamele", "matte"]}
+{"text": "search box otti mattu kannada movies 2026 anta type maadi aamele enter otti", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "search"}}, {"action": "type_text", "slots": {"text": "kannada movies 2026"}}, {"action": "click", "slots": {"target": "enter"}}], "joiners": ["mattu", "aamele"]}
+{"text": "chrome open maadi and irctc tegi then book ticket click maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "irctc"}}, {"action": "click", "slots": {"target": "book ticket"}}], "joiners": ["and", "then"]}
+{"text": "appa ge bartini anta helu mattu amma ge oota beda anta kalsu aamele maps open maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "appa", "text": "bartini"}}, {"action": "send_message", "slots": {"contact": "amma", "text": "oota beda"}}, {"action": "open_app", "slots": {"app": "maps"}}], "joiners": ["mattu", "aamele"]}
+{"text": "excel tegedu name anta type maadi matte marks anta bari", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "excel"}}, {"action": "type_text", "slots": {"text": "name"}}, {"action": "type_text", "slots": {"text": "marks"}}], "joiners": ["tegedu", "matte"]}
+{"text": "haadu pause maadi mattu tejas ge call maadtini anta kalsu aamele haadu matte shuru maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "send_message", "slots": {"contact": "tejas", "text": "call maadtini"}}, {"action": "media_control", "slots": {}, "control": "resume"}], "joiners": ["mattu", "aamele"]}
+{"text": "spotify tegdu sid sriram haaku mattu vs code open maadi", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "sid sriram"}}, {"action": "open_app", "slots": {"app": "vs code"}}], "joiners": ["tegdu", "mattu"]}
+{"text": "chrome open maadi then gst rate on gold hudku aamele 3 percent anta notepad alli bari", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "gst rate on gold"}}, {"action": "type_text", "slots": {"text": "3 percent"}}], "joiners": ["then", "aamele"]}
+{"text": "screen odi mattu approved anta type maadi aamele submit otti", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "type_text", "slots": {"text": "approved"}}, {"action": "click", "slots": {"target": "submit"}}], "joiners": ["mattu", "aamele"]}
+{"text": "ಕ್ರೋಮ್ ತೆರೆದು ಫ್ಲಿಪ್ಕಾರ್ಟ್ ಓಪನ್ ಮಾಡಿ ಆಮೇಲೆ ಮೊಬೈಲ್ ಕವರ್ ಹುಡುಕು", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ಕ್ರೋಮ್"}}, {"action": "open_website", "slots": {"site": "ಫ್ಲಿಪ್ಕಾರ್ಟ್"}}, {"action": "web_search", "slots": {"query": "ಮೊಬೈಲ್ ಕವರ್"}}], "joiners": ["ತೆರೆದು", "ಆಮೇಲೆ"]}
+{"text": "settings tegdu display mele click maadi aamele night light otti", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "settings"}}, {"action": "click", "slots": {"target": "display"}}, {"action": "click", "slots": {"target": "night light"}}], "joiners": ["tegdu", "aamele"]}
+{"text": "today gold rate hudku mattu notepad tegi aadmele gold rate note anta bari", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "today gold rate"}}, {"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "gold rate note"}}], "joiners": ["mattu", "aadmele"]}
+{"text": "youtube open maadi nantara 777 charlie trailer haaku mattu divya ge trailer nodu anta kalsu", "lang": "kn", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "777 charlie trailer"}}, {"action": "send_message", "slots": {"contact": "divya", "text": "trailer nodu"}}], "joiners": ["nantara", "mattu"]}
+{"text": "tom and jerry haaku", "lang": "kn", "action": "play_media", "slots": {"query": "tom and jerry"}}
+{"text": "youtube alli tom and jerry cartoon haaku", "lang": "kn", "action": "play_media", "slots": {"app": "youtube", "query": "tom and jerry"}}
+{"text": "salt and pepper chicken recipe hudku", "lang": "kn", "action": "web_search", "slots": {"query": "salt and pepper chicken recipe"}}
+{"text": "ರಾಮ ಮತ್ತು ಲಕ್ಷ್ಮಣ ಕಥೆ ಹಾಕು", "lang": "kn", "action": "play_media", "slots": {"query": "ರಾಮ ಮತ್ತು ಲಕ್ಷ್ಮಣ ಕಥೆ"}}
+{"text": "pride and prejudice movie bagge heli", "lang": "kn", "action": "web_search", "slots": {"query": "pride and prejudice"}}
+{"text": "simon and garfunkel songs play maadi", "lang": "kn", "action": "play_media", "slots": {"query": "simon and garfunkel"}}
+{"text": "johnson and johnson share price nodi", "lang": "kn", "action": "web_search", "slots": {"query": "johnson and johnson share price"}}
+{"text": "marks and spencer website open maadi", "lang": "kn", "action": "open_website", "slots": {"site": "marks and spencer"}}
+{"text": "netflix alli fast and furious 7 haaku", "lang": "kn", "action": "play_media", "slots": {"app": "netflix", "query": "fast and furious 7"}}
+{"text": "beauty and the beast movie haaku", "lang": "kn", "action": "play_media", "slots": {"query": "beauty and the beast"}}
+{"text": "bread and butter pudding recipe search maadi", "lang": "kn", "action": "web_search", "slots": {"query": "bread and butter pudding recipe"}}
+{"text": "laurel and hardy videos haaku", "lang": "kn", "action": "play_media", "slots": {"query": "laurel and hardy"}}
+{"text": "rajma mattu anna maadodu hege hudku", "lang": "kn", "action": "web_search", "slots": {"query": "rajma mattu anna maadodu hege"}}
+{"text": "jack and jones site open maadi", "lang": "kn", "action": "open_website", "slots": {"site": "jack and jones"}}
+{"text": "ಶಿವ ಮತ್ತು ಪಾರ್ವತಿ ಕಥೆ ಹಾಕು", "lang": "kn", "action": "play_media", "slots": {"query": "ಶಿವ ಮತ್ತು ಪಾರ್ವತಿ ಕಥೆ"}}
+{"text": "ಅಕ್ಕಿ ಮತ್ತು ಬೇಳೆ ಬೆಲೆ ಇವತ್ತು ಹುಡುಕು", "lang": "kn", "action": "web_search", "slots": {"query": "ಅಕ್ಕಿ ಮತ್ತು ಬೇಳೆ ಬೆಲೆ ಇವತ್ತು"}}
+{"text": "amma ge message kalsu oota maadi aamele malko anta", "lang": "kn", "action": "send_message", "slots": {"contact": "amma", "text": "oota maadi aamele malko"}}
+{"text": "ravi ge helu meeting aada mele call maadtini", "lang": "kn", "action": "send_message", "slots": {"contact": "ravi", "text": "meeting aada mele call maadtini"}}
+{"text": "akka ge msg maadi haalu mattu mosaru tagondu baa", "lang": "kn", "action": "send_message", "slots": {"contact": "akka", "text": "haalu mattu mosaru tagondu baa"}}
+{"text": "Suresh ge whatsapp maadi report mail maadi then call maadi anta", "lang": "kn", "action": "send_message", "slots": {"contact": "Suresh", "text": "report mail maadi then call maadi"}}
+{"text": "ಅಪ್ಪ ಗೆ ಊಟ ಮಾಡಿ ಮತ್ತೆ ಮಾತ್ರೆ ತಗೊಳ್ಳಿ ಅಂತ ಮೆಸೇಜ್ ಕಳಿಸು", "lang": "kn", "action": "send_message", "slots": {"contact": "ಅಪ್ಪ", "text": "ಊಟ ಮಾಡಿ ಮತ್ತೆ ಮಾತ್ರೆ ತಗೊಳ್ಳಿ"}}
+{"text": "Pooja ge bus hatti aamele phone maadu anta kalsu", "lang": "kn", "action": "send_message", "slots": {"contact": "Pooja", "text": "bus hatti aamele phone maadu"}}
+{"text": "Kiran ge msg kalsu laptop and charger tagondu baa", "lang": "kn", "action": "send_message", "slots": {"contact": "Kiran", "text": "laptop and charger tagondu baa"}}
+{"text": "ಮಂಜು ಗೆ ಹೇಳು ಕ್ಲಾಸ್ ಮುಗಿದ ನಂತರ ಸಿಗೋಣ ಅಂತ", "lang": "kn", "action": "send_message", "slots": {"contact": "ಮಂಜು", "text": "ಕ್ಲಾಸ್ ಮುಗಿದ ನಂತರ ಸಿಗೋಣ"}}
+{"text": "ajji ge naanu bandu amele kathe heltini anta message maadi", "lang": "kn", "action": "send_message", "slots": {"contact": "ajji", "text": "naanu bandu amele kathe heltini"}}
+{"text": "Deepak bro ge ticket book maadi mattu screenshot kalsu anta whatsapp maadi", "lang": "kn", "action": "send_message", "slots": {"contact": "Deepak bro", "text": "ticket book maadi mattu screenshot kalsu"}}
+{"text": "ಸ್ನೇಹಾ ಗೆ ಬಾಗಿಲು ತೆರೆದು ಇಡು ಅಂತ ಮೆಸೇಜ್ ಮಾಡು", "lang": "kn", "action": "send_message", "slots": {"contact": "ಸ್ನೇಹಾ", "text": "ಬಾಗಿಲು ತೆರೆದು ಇಡು"}}
+{"text": "type maadi haalu mattu mosaru tagondu baa", "lang": "kn", "action": "type_text", "slots": {"text": "haalu mattu mosaru tagondu baa"}}
+{"text": "ರವಿ ಮತ್ತು ಸೀಮಾ ನಾಳೆ ಬರ್ತಾರೆ ಅಂತ ಬರಿ", "lang": "kn", "action": "type_text", "slots": {"text": "ರವಿ ಮತ್ತು ಸೀಮಾ ನಾಳೆ ಬರ್ತಾರೆ"}}
+{"text": "first chapter odi aamele notes bari anta type maadi", "lang": "kn", "action": "type_text", "slots": {"text": "first chapter odi aamele notes bari"}}
+{"text": "terms and conditions apply anta type maadi", "lang": "kn", "action": "type_text", "slots": {"text": "terms and conditions apply"}}
+{"text": "ಟೈಪ್ ಮಾಡಿ ಅಕ್ಕಿ ಮತ್ತು ಬೇಳೆ ಎರಡು ಕೆಜಿ", "lang": "kn", "action": "type_text", "slots": {"text": "ಅಕ್ಕಿ ಮತ್ತು ಬೇಳೆ ಎರಡು ಕೆಜಿ"}}
+{"text": "window teredu kelsa maadi anta type maadi", "lang": "kn", "action": "type_text", "slots": {"text": "window teredu kelsa maadi"}}
+{"text": "meeting then lunch then demo anta bari", "lang": "kn", "action": "type_text", "slots": {"text": "meeting then lunch then demo"}}
+{"text": "nantara nodona anta type maadu", "lang": "kn", "action": "type_text", "slots": {"text": "nantara nodona"}}
+{"text": "yes and thank you anta reply type maadi", "lang": "kn", "action": "type_text", "slots": {"text": "yes and thank you"}}
+{"text": "type maadu bill pay maadi matte receipt kalsi", "lang": "kn", "action": "type_text", "slots": {"text": "bill pay maadi matte receipt kalsi"}}
+{"text": "ಮೊದಲು ಸ್ನಾನ ಆಮೇಲೆ ತಿಂಡಿ ಅಂತ ಬರಿ", "lang": "kn", "action": "type_text", "slots": {"text": "ಮೊದಲು ಸ್ನಾನ ಆಮೇಲೆ ತಿಂಡಿ"}}
+{"text": "romeo and juliet songs haaku", "lang": "kn", "action": "play_media", "slots": {"query": "romeo and juliet"}}
+{"text": "spotify alli hall and oates haaku", "lang": "kn", "action": "play_media", "slots": {"app": "spotify", "query": "hall and oates"}}
+{"text": "ulidavaru kandanthe and godhi banna sadharana mykattu director yaaru", "lang": "kn", "action": "web_search", "slots": {"query": "ulidavaru kandanthe and godhi banna sadharana mykattu director yaaru"}}
+{"text": "fast and furious hobbs and shaw release year hudku", "lang": "kn", "action": "web_search", "slots": {"query": "fast and furious hobbs and shaw release year"}}
+{"text": "bigg boss kannada elimination and voting nodi", "lang": "kn", "action": "web_search", "slots": {"query": "bigg boss kannada elimination and voting"}}
+{"text": "youtube nalli mother and son kannada short film haaku", "lang": "kn", "action": "play_media", "slots": {"app": "youtube", "query": "mother and son kannada short film"}}
+{"text": "difference between mattu and haagu in kannada grammar heli", "lang": "kn", "action": "web_search", "slots": {"query": "difference between mattu and haagu in kannada grammar"}}
+{"text": "terms and conditions link mele click maadi", "lang": "kn", "action": "click", "slots": {"target": "terms and conditions"}}
+{"text": "save and continue button otti", "lang": "kn", "action": "click", "slots": {"target": "save and continue"}}
+{"text": "ಸೇವ್ ಮತ್ತು ಮುಂದುವರಿಸಿ ಒತ್ತಿ", "lang": "kn", "action": "click", "slots": {"target": "ಸೇವ್ ಮತ್ತು ಮುಂದುವರಿಸಿ"}}
+{"text": "sign in and sync mele click maadi", "lang": "kn", "action": "click", "slots": {"target": "sign in and sync"}}
+{"text": "dakshin kannada and udupi news site open maadi", "lang": "kn", "action": "open_website", "slots": {"site": "dakshin kannada and udupi news"}}
+{"text": "ದಸರಾ ಮತ್ತು ದೀಪಾವಳಿ ರಜೆ ದಿನಗಳು ಹುಡುಕು", "lang": "kn", "action": "web_search", "slots": {"query": "ದಸರಾ ಮತ್ತು ದೀಪಾವಳಿ ರಜೆ ದಿನಗಳು"}}
+{"text": "how to open zip file and extract search maadi", "lang": "kn", "action": "web_search", "slots": {"query": "how to open zip file and extract"}}
+{"text": "jiosaavn nalli naanu mattu varalakshmi haadugalu haaku", "lang": "kn", "action": "play_media", "slots": {"app": "jiosaavn", "query": "naanu mattu varalakshmi"}}
+{"text": "tom and jerry game open maadi", "lang": "kn", "action": "open_app", "slots": {"app": "tom and jerry game"}}
+{"text": "shah rukh khan and kajol movies list hudku", "lang": "kn", "action": "web_search", "slots": {"query": "shah rukh khan and kajol movies list"}}
+{"text": "ammanu mattu magalu serial latest episode haaku", "lang": "kn", "action": "play_media", "slots": {"query": "ammanu mattu magalu serial latest episode"}}
+{"text": "Divya ge nale class ide and assignment submit maadbeku anta kalsu", "lang": "kn", "action": "send_message", "slots": {"contact": "Divya", "text": "nale class ide and assignment submit maadbeku"}}
+{"text": "ok sir i will come and collect anta type maadi", "lang": "kn", "action": "type_text", "slots": {"text": "ok sir i will come and collect"}}
+{"text": "notepad tegi", "lang": "kn", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "ಎಕ್ಸೆಲ್ ಓಪನ್ ಮಾಡಿ", "lang": "kn", "action": "open_app", "slots": {"app": "ಎಕ್ಸೆಲ್"}}
+{"text": "calculator chalu maadi", "lang": "kn", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "paint open madu", "lang": "kn", "action": "open_app", "slots": {"app": "paint"}}
+{"text": "file explorer tegeyi", "lang": "kn", "action": "open_app", "slots": {"app": "file explorer"}}
+{"text": "vs code open maadi please", "lang": "kn", "action": "open_app", "slots": {"app": "vs code"}}
+{"text": "zoom app open maadi", "lang": "kn", "action": "open_app", "slots": {"app": "zoom"}}
+{"text": "microsoft teams start maadi", "lang": "kn", "action": "open_app", "slots": {"app": "microsoft teams"}}
+{"text": "ಟೆಲಿಗ್ರಾಮ್ ತೆಗಿ", "lang": "kn", "action": "open_app", "slots": {"app": "ಟೆಲಿಗ್ರಾಮ್"}}
+{"text": "steam launch maadi", "lang": "kn", "action": "open_app", "slots": {"app": "steam"}}
+{"text": "snipping tool open maadi", "lang": "kn", "action": "open_app", "slots": {"app": "snipping tool"}}
+{"text": "command prompt tegi", "lang": "kn", "action": "open_app", "slots": {"app": "command prompt"}}
+{"text": "powershell open madi", "lang": "kn", "action": "open_app", "slots": {"app": "powershell"}}
+{"text": "photoshop open maadu", "lang": "kn", "action": "open_app", "slots": {"app": "photoshop"}}
+{"text": "ಕ್ಯಾಲ್ಕುಲೇಟರ್ ತೆರೆ", "lang": "kn", "action": "open_app", "slots": {"app": "ಕ್ಯಾಲ್ಕುಲೇಟರ್"}}
+{"text": "ವರ್ಡ್ ಓಪನ್ ಮಾಡಿ", "lang": "kn", "action": "open_app", "slots": {"app": "ವರ್ಡ್"}}
+{"text": "ಸ್ಪಾಟಿಫೈ ತೆಗಿ", "lang": "kn", "action": "open_app", "slots": {"app": "ಸ್ಪಾಟಿಫೈ"}}
+{"text": "aa whatsapp open maadi swalpa", "lang": "kn", "action": "open_app", "slots": {"app": "whatsapp"}}
+{"text": "browser tegi", "lang": "kn", "action": "open_app", "slots": {"app": "browser"}}
+{"text": "camera on maadi", "lang": "kn", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "notion open madi", "lang": "kn", "action": "open_app", "slots": {"app": "notion"}}
+{"text": "ಸೆಟ್ಟಿಂಗ್ಸ್ ಓಪನ್ ಮಾಡು", "lang": "kn", "action": "open_app", "slots": {"app": "ಸೆಟ್ಟಿಂಗ್ಸ್"}}
+{"text": "android studio start maadi", "lang": "kn", "action": "open_app", "slots": {"app": "android studio"}}
+{"text": "flipkart website open maadi", "lang": "kn", "action": "open_website", "slots": {"site": "flipkart"}}
+{"text": "amazon dot in tegi", "lang": "kn", "action": "open_website", "slots": {"site": "amazon dot in"}}
+{"text": "irctc site open maadi", "lang": "kn", "action": "open_website", "slots": {"site": "irctc"}}
+{"text": "prajavani dot net open maadi", "lang": "kn", "action": "open_website", "slots": {"site": "prajavani dot net"}}
+{"text": "ಉದಯವಾಣಿ ವೆಬ್ಸೈಟ್ ತೆಗಿ", "lang": "kn", "action": "open_website", "slots": {"site": "ಉದಯವಾಣಿ"}}
+{"text": "cricbuzz dot com open madi", "lang": "kn", "action": "open_website", "slots": {"site": "cricbuzz dot com"}}
+{"text": "github website open maadu", "lang": "kn", "action": "open_website", "slots": {"site": "github"}}
+{"text": "leetcode dot com tegi", "lang": "kn", "action": "open_website", "slots": {"site": "leetcode dot com"}}
+{"text": "bbmp site open maadi", "lang": "kn", "action": "open_website", "slots": {"site": "bbmp"}}
+{"text": "ksrtc dot in open maadi", "lang": "kn", "action": "open_website", "slots": {"site": "ksrtc dot in"}}
+{"text": "myntra website ge hogi", "lang": "kn", "action": "open_website", "slots": {"site": "myntra"}}
+{"text": "digilocker site tegi", "lang": "kn", "action": "open_website", "slots": {"site": "digilocker"}}
+{"text": "ವಿಜಯ ಕರ್ನಾಟಕ ವೆಬ್ಸೈಟ್ ಓಪನ್ ಮಾಡಿ", "lang": "kn", "action": "open_website", "slots": {"site": "ವಿಜಯ ಕರ್ನಾಟಕ"}}
+{"text": "ಸೇವಾ ಸಿಂಧು ಸೈಟ್ ತೆರೆ", "lang": "kn", "action": "open_website", "slots": {"site": "ಸೇವಾ ಸಿಂಧು"}}
+{"text": "redbus open maadi website", "lang": "kn", "action": "open_website", "slots": {"site": "redbus"}}
+{"text": "wikipedia dot org ge hogu", "lang": "kn", "action": "open_website", "slots": {"site": "wikipedia dot org"}}
+{"text": "coursera site open madu", "lang": "kn", "action": "open_website", "slots": {"site": "coursera"}}
+{"text": "practo website tegi", "lang": "kn", "action": "open_website", "slots": {"site": "practo"}}
+{"text": "tv9 kannada website open maadi", "lang": "kn", "action": "open_website", "slots": {"site": "tv9 kannada"}}
+{"text": "kantara director yaaru", "lang": "kn", "action": "web_search", "slots": {"query": "kantara director yaaru"}}
+{"text": "bengaluru weather heli", "lang": "kn", "action": "web_search", "slots": {"query": "bengaluru weather"}}
+{"text": "Puneeth Rajkumar bagge heli", "lang": "kn", "action": "web_search", "slots": {"query": "Puneeth Rajkumar"}}
+{"text": "yash next movie yavaga release heli", "lang": "kn", "action": "web_search", "slots": {"query": "yash next movie yavaga release"}}
+{"text": "mysore to ooty distance eshtu", "lang": "kn", "action": "web_search", "slots": {"query": "mysore to ooty distance eshtu"}}
+{"text": "gold rate today nodi", "lang": "kn", "action": "web_search", "slots": {"query": "gold rate today"}}
+{"text": "kgf chapter 3 release date hudku", "lang": "kn", "action": "web_search", "slots": {"query": "kgf chapter 3 release date"}}
+{"text": "belageddu song lyrics hudku", "lang": "kn", "action": "web_search", "slots": {"query": "belageddu song lyrics"}}
+{"text": "who sang varaha roopam", "lang": "en", "action": "web_search", "slots": {"query": "who sang varaha roopam"}}
+{"text": "vijay prakash yaaru", "lang": "kn", "action": "web_search", "slots": {"query": "vijay prakash yaaru"}}
+{"text": "ಕರ್ನಾಟಕ ಮುಖ್ಯಮಂತ್ರಿ ಯಾರು", "lang": "kn", "action": "web_search", "slots": {"query": "ಕರ್ನಾಟಕ ಮುಖ್ಯಮಂತ್ರಿ ಯಾರು"}}
+{"text": "nandi hills timings search maadi", "lang": "kn", "action": "web_search", "slots": {"query": "nandi hills timings"}}
+{"text": "ಬಿಸಿಬೇಳೆ ಬಾತ್ ರೆಸಿಪಿ ಹುಡುಕು", "lang": "kn", "action": "web_search", "slots": {"query": "ಬಿಸಿಬೇಳೆ ಬಾತ್ ರೆಸಿಪಿ"}}
+{"text": "india vs pakistan match score heli", "lang": "kn", "action": "web_search", "slots": {"query": "india vs pakistan match score"}}
+{"text": "amazon alli running shoes hudku", "lang": "kn", "action": "web_search", "slots": {"site": "amazon", "query": "running shoes"}}
+{"text": "youtube alli mysore pak recipe search maadi", "lang": "kn", "action": "web_search", "slots": {"site": "youtube", "query": "mysore pak recipe"}}
+{"text": "ಕನ್ನಡ ರಾಜ್ಯೋತ್ಸವ ಯಾವಾಗ", "lang": "kn", "action": "web_search", "slots": {"query": "ಕನ್ನಡ ರಾಜ್ಯೋತ್ಸವ ಯಾವಾಗ"}}
+{"text": "ಸುದೀಪ್ ಹೊಸ ಸಿನಿಮಾ ಬಗ್ಗೆ ಹೇಳು", "lang": "kn", "action": "web_search", "slots": {"query": "ಸುದೀಪ್ ಹೊಸ ಸಿನಿಮಾ"}}
+{"text": "ಇವತ್ತಿನ ಸುದ್ದಿ ಹುಡುಕು", "lang": "kn", "action": "web_search", "slots": {"query": "ಇವತ್ತಿನ ಸುದ್ದಿ"}}
+{"text": "ಹಂಪಿ ಇತಿಹಾಸ ಬಗ್ಗೆ ಹೇಳಿ", "lang": "kn", "action": "web_search", "slots": {"query": "ಹಂಪಿ ಇತಿಹಾಸ"}}
+{"text": "photosynthesis andre enu heli", "lang": "kn", "action": "web_search", "slots": {"query": "photosynthesis andre enu"}}
+{"text": "dollar rate eshtide nodi", "lang": "kn", "action": "web_search", "slots": {"query": "dollar rate eshtide"}}
+{"text": "nearest hospital in malleshwaram hudku", "lang": "kn", "action": "web_search", "slots": {"query": "nearest hospital in malleshwaram"}}
+{"text": "777 charlie imdb rating eshtu", "lang": "kn", "action": "web_search", "slots": {"query": "777 charlie imdb rating eshtu"}}
+{"text": "dr rajkumar bagge swalpa heli", "lang": "kn", "action": "web_search", "slots": {"query": "dr rajkumar"}}
+{"text": "hampi to badami bus hudku", "lang": "kn", "action": "web_search", "slots": {"query": "hampi to badami bus"}}
+{"text": "flipkart nalli redmi note 14 price nodi", "lang": "kn", "action": "web_search", "slots": {"site": "flipkart", "query": "redmi note 14 price"}}
+{"text": "hosa pension scheme details search madu", "lang": "kn", "action": "web_search", "slots": {"query": "hosa pension scheme details"}}
+{"text": "ipl 2026 schedule hudki", "lang": "kn", "action": "web_search", "slots": {"query": "ipl 2026 schedule"}}
+{"text": "rcb next match yavaga", "lang": "kn", "action": "web_search", "slots": {"query": "rcb next match yavaga"}}
+{"text": "spotify alli raghu dixit haaku", "lang": "kn", "action": "play_media", "slots": {"app": "spotify", "query": "raghu dixit"}}
+{"text": "vijay prakash haadugalu haaku", "lang": "kn", "action": "play_media", "slots": {"query": "vijay prakash"}}
+{"text": "youtube nalli kirik party songs play maadi", "lang": "kn", "action": "play_media", "slots": {"app": "youtube", "query": "kirik party"}}
+{"text": "varaha roopam haaku", "lang": "kn", "action": "play_media", "slots": {"query": "varaha roopam"}}
+{"text": "old kannada songs haaku", "lang": "kn", "action": "play_media", "slots": {"query": "old kannada songs"}}
+{"text": "spb hits play maadi", "lang": "kn", "action": "play_media", "slots": {"query": "spb"}}
+{"text": "jiosaavn alli sanjith hegde haaku", "lang": "kn", "action": "play_media", "slots": {"app": "jiosaavn", "query": "sanjith hegde"}}
+{"text": "ಭಾವಗೀತೆಗಳು ಹಾಕು", "lang": "kn", "action": "play_media", "slots": {"query": "ಭಾವಗೀತೆಗಳು"}}
+{"text": "gaana nalli bhakti songs play maadi", "lang": "kn", "action": "play_media", "slots": {"app": "gaana", "query": "bhakti songs"}}
+{"text": "lo-fi music haaku", "lang": "kn", "action": "play_media", "slots": {"query": "lo-fi music"}}
+{"text": "youtube music alli anuradha bhat haaku", "lang": "kn", "action": "play_media", "slots": {"app": "youtube music", "query": "anuradha bhat"}}
+{"text": "ಬೆಳಗೆದ್ದು ಹಾಡು ಹಾಕು", "lang": "kn", "action": "play_media", "slots": {"query": "ಬೆಳಗೆದ್ದು"}}
+{"text": "ಯೂಟ್ಯೂಬ್ ಅಲ್ಲಿ ರಾಜಕುಮಾರ್ ಹಾಡುಗಳು ಹಾಕು", "lang": "kn", "action": "play_media", "slots": {"app": "ಯೂಟ್ಯೂಬ್", "query": "ರಾಜಕುಮಾರ್"}}
+{"text": "ಏನಾದ್ರು ಹಾಡು ಹಾಕು", "lang": "kn", "action": "play_media", "slots": {}}
+{"text": "saalutillave play maadi", "lang": "kn", "action": "play_media", "slots": {"query": "saalutillave"}}
+{"text": "wynk alli arjun janya haaku", "lang": "kn", "action": "play_media", "slots": {"app": "wynk", "query": "arjun janya"}}
+{"text": "amazon music nalli workout music haaku", "lang": "kn", "action": "play_media", "slots": {"app": "amazon music", "query": "workout music"}}
+{"text": "ಹನುಮಾನ್ ಚಾಲೀಸಾ ಪ್ಲೇ ಮಾಡಿ", "lang": "kn", "action": "play_media", "slots": {"query": "ಹನುಮಾನ್ ಚಾಲೀಸಾ"}}
+{"text": "ajaneesh loknath bgm haaku", "lang": "kn", "action": "play_media", "slots": {"query": "ajaneesh loknath"}}
+{"text": "apple music alli anirudh haaku", "lang": "kn", "action": "play_media", "slots": {"app": "apple music", "query": "anirudh"}}
+{"text": "spotify alli music haaku", "lang": "kn", "action": "play_media", "slots": {"app": "spotify"}}
+{"text": "yaare neenu cheluve song haaku", "lang": "kn", "action": "play_media", "slots": {"query": "yaare neenu cheluve"}}
+{"text": "mungaru maleye haaku please", "lang": "kn", "action": "play_media", "slots": {"query": "mungaru maleye"}}
+{"text": "puneeth rajkumar songs haaku", "lang": "kn", "action": "play_media", "slots": {"query": "puneeth rajkumar"}}
+{"text": "hotstar nalli bigg boss kannada haaku", "lang": "kn", "action": "play_media", "slots": {"app": "hotstar", "query": "bigg boss kannada"}}
+{"text": "haadu nilsu", "lang": "kn", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "pause maadi", "lang": "kn", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "haadu matte shuru maadi", "lang": "kn", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "mundina haadu", "lang": "kn", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "next song haaku", "lang": "kn", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "ಹಿಂದಿನ ಹಾಡು ಹಾಕು", "lang": "kn", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "previous song play maadi", "lang": "kn", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "sound jaasti maadi", "lang": "kn", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "volume swalpa hechchu maadi", "lang": "kn", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "sound kammi maadi", "lang": "kn", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "ವಾಲ್ಯೂಮ್ ಕಡಿಮೆ ಮಾಡು", "lang": "kn", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "mute maadi", "lang": "kn", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "sound band maadi", "lang": "kn", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "ಹಾಡು ನಿಲ್ಲಿಸು", "lang": "kn", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "ಮುಂದಿನ ಹಾಡು ಹಾಕು", "lang": "kn", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "ಸೌಂಡ್ ಜಾಸ್ತಿ ಮಾಡು", "lang": "kn", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "resume maadi", "lang": "kn", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "amma ge naanu late aagtini anta message kalsu", "lang": "kn", "action": "send_message", "slots": {"contact": "amma", "text": "naanu late aagtini"}}
+{"text": "ravi ge msg maadi nale office ge bartiya", "lang": "kn", "action": "send_message", "slots": {"contact": "ravi", "text": "nale office ge bartiya"}}
+{"text": "appa ge whatsapp maadi reach aade anta", "lang": "kn", "action": "send_message", "slots": {"contact": "appa", "text": "reach aade"}}
+{"text": "Mahesh sir ge message kalsu today i am on leave", "lang": "kn", "action": "send_message", "slots": {"contact": "Mahesh sir", "text": "today i am on leave"}}
+{"text": "akka ge helu happy birthday anta", "lang": "kn", "action": "send_message", "slots": {"contact": "akka", "text": "happy birthday"}}
+{"text": "Raghu ge match 7 ge shuru anta msg haaku", "lang": "kn", "action": "send_message", "slots": {"contact": "Raghu", "text": "match 7 ge shuru"}}
+{"text": "ಅಮ್ಮ ಗೆ ಊಟ ಆಯ್ತು ಅಂತ ಮೆಸೇಜ್ ಕಳಿಸು", "lang": "kn", "action": "send_message", "slots": {"contact": "ಅಮ್ಮ", "text": "ಊಟ ಆಯ್ತು"}}
+{"text": "ತಮ್ಮ ಗೆ ಬೇಗ ಮನೆಗೆ ಬಾ ಅಂತ ಹೇಳು", "lang": "kn", "action": "send_message", "slots": {"contact": "ತಮ್ಮ", "text": "ಬೇಗ ಮನೆಗೆ ಬಾ"}}
+{"text": "Nandini ge notes kalsu please anta message maadi", "lang": "kn", "action": "send_message", "slots": {"contact": "Nandini", "text": "notes kalsu please"}}
+{"text": "Basavaraj ge msg kalsi payment aagide anta", "lang": "kn", "action": "send_message", "slots": {"contact": "Basavaraj", "text": "payment aagide"}}
+{"text": "Akshatha ge whatsapp ellidiya anta kalsu", "lang": "kn", "action": "send_message", "slots": {"contact": "Akshatha", "text": "ellidiya"}}
+{"text": "bartini 10 nimsha anta Chethan ge kalsu", "lang": "kn", "action": "send_message", "slots": {"text": "bartini 10 nimsha", "contact": "Chethan"}}
+{"text": "ದೊಡ್ಡಪ್ಪ ಗೆ ನಮಸ್ಕಾರ ಆರೋಗ್ಯ ಹೇಗಿದೆ ಅಂತ ಮೆಸೇಜ್ ಮಾಡಿ", "lang": "kn", "action": "send_message", "slots": {"contact": "ದೊಡ್ಡಪ್ಪ", "text": "ನಮಸ್ಕಾರ ಆರೋಗ್ಯ ಹೇಗಿದೆ"}}
+{"text": "Tejas ge helu ppt ready maadu anta", "lang": "kn", "action": "send_message", "slots": {"contact": "Tejas", "text": "ppt ready maadu"}}
+{"text": "Shwetha ge msg kalsu call me when free", "lang": "kn", "action": "send_message", "slots": {"contact": "Shwetha", "text": "call me when free"}}
+{"text": "ajja ge train hatti aaytu anta kalisu", "lang": "kn", "action": "send_message", "slots": {"contact": "ajja", "text": "train hatti aaytu"}}
+{"text": "Kavya ge message kalsu movie ge baartiya", "lang": "kn", "action": "send_message", "slots": {"contact": "Kavya", "text": "movie ge baartiya"}}
+{"text": "maava ge car service ge kottidini anta whatsapp maadi", "lang": "kn", "action": "send_message", "slots": {"contact": "maava", "text": "car service ge kottidini"}}
+{"text": "ravi ge message kalsu", "lang": "kn", "action": "send_message", "slots": {"contact": "ravi"}, "incomplete": true}
+{"text": "Girish ge whatsapp maadi", "lang": "kn", "action": "send_message", "slots": {"contact": "Girish"}, "incomplete": true}
+{"text": "hello how are you anta type maadi", "lang": "kn", "action": "type_text", "slots": {"text": "hello how are you"}}
+{"text": "type maadi meeting postponed to monday", "lang": "kn", "action": "type_text", "slots": {"text": "meeting postponed to monday"}}
+{"text": "ನಮಸ್ಕಾರ ಅಂತ ಬರಿ", "lang": "kn", "action": "type_text", "slots": {"text": "ನಮಸ್ಕಾರ"}}
+{"text": "dear customer your order is ready type maadu", "lang": "kn", "action": "type_text", "slots": {"text": "dear customer your order is ready"}}
+{"text": "ಟೈಪ್ ಮಾಡಿ ಶುಭೋದಯ", "lang": "kn", "action": "type_text", "slots": {"text": "ಶುಭೋದಯ"}}
+{"text": "ಧನ್ಯವಾದಗಳು ಸರ್ ಅಂತ ಬರಿ", "lang": "kn", "action": "type_text", "slots": {"text": "ಧನ್ಯವಾದಗಳು ಸರ್"}}
+{"text": "ok noted anta type maadi", "lang": "kn", "action": "type_text", "slots": {"text": "ok noted"}}
+{"text": "invoice number 4521 type maadi", "lang": "kn", "action": "type_text", "slots": {"text": "invoice number 4521"}}
+{"text": "bari today i learnt python loops", "lang": "kn", "action": "type_text", "slots": {"text": "today i learnt python loops"}}
+{"text": "happy deepavali to all anta type maadi", "lang": "kn", "action": "type_text", "slots": {"text": "happy deepavali to all"}}
+{"text": "address 12th cross jayanagar anta bari", "lang": "kn", "action": "type_text", "slots": {"text": "address 12th cross jayanagar"}}
+{"text": "sari nodona anta type madi", "lang": "kn", "action": "type_text", "slots": {"text": "sari nodona"}}
+{"text": "kannada rajyotsavada shubhashayagalu type maadi", "lang": "kn", "action": "type_text", "slots": {"text": "kannada rajyotsavada shubhashayagalu"}}
+{"text": "see you at 5 anta type maadu", "lang": "kn", "action": "type_text", "slots": {"text": "see you at 5"}}
+{"text": "ನಾಳೆ ಬರ್ತೀನಿ ಅಂತ ಟೈಪ್ ಮಾಡು", "lang": "kn", "action": "type_text", "slots": {"text": "ನಾಳೆ ಬರ್ತೀನಿ"}}
+{"text": "please find the attached file anta bari", "lang": "kn", "action": "type_text", "slots": {"text": "please find the attached file"}}
+{"text": "submit button otti", "lang": "kn", "action": "click", "slots": {"target": "submit"}}
+{"text": "next mele click maadi", "lang": "kn", "action": "click", "slots": {"target": "next"}}
+{"text": "ಲಾಗಿನ್ ಕ್ಲಿಕ್ ಮಾಡಿ", "lang": "kn", "action": "click", "slots": {"target": "ಲಾಗಿನ್"}}
+{"text": "ok otti", "lang": "kn", "action": "click", "slots": {"target": "ok"}}
+{"text": "sign up button mele click madi", "lang": "kn", "action": "click", "slots": {"target": "sign up"}}
+{"text": "download otti", "lang": "kn", "action": "click", "slots": {"target": "download"}}
+{"text": "ಸಬ್ಮಿಟ್ ಒತ್ತಿ", "lang": "kn", "action": "click", "slots": {"target": "ಸಬ್ಮಿಟ್"}}
+{"text": "ಮುಂದೆ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ", "lang": "kn", "action": "click", "slots": {"target": "ಮುಂದೆ"}}
+{"text": "skip ad otti", "lang": "kn", "action": "click", "slots": {"target": "skip ad"}}
+{"text": "cancel button click maadu", "lang": "kn", "action": "click", "slots": {"target": "cancel"}}
+{"text": "home tab mele click maadi", "lang": "kn", "action": "click", "slots": {"target": "home"}}
+{"text": "add to cart otti", "lang": "kn", "action": "click", "slots": {"target": "add to cart"}}
+{"text": "play button otti", "lang": "kn", "action": "click", "slots": {"target": "play"}}
+{"text": "back click maadi", "lang": "kn", "action": "click", "slots": {"target": "back"}}
+{"text": "screen alli enide odi", "lang": "kn", "action": "read_screen", "slots": {}}
+{"text": "screen mele enu ide heli", "lang": "kn", "action": "read_screen", "slots": {}}
+{"text": "idu enu anta odi heli", "lang": "kn", "action": "read_screen", "slots": {}}
+{"text": "ಈ ಪೇಜ್ ಓದಿ ಹೇಳು", "lang": "kn", "action": "read_screen", "slots": {}}
+{"text": "ಸ್ಕ್ರೀನ್ ಓದು", "lang": "kn", "action": "read_screen", "slots": {}}
+{"text": "ಸ್ಕ್ರೀನ್ ಮೇಲೆ ಏನಿದೆ ಹೇಳು", "lang": "kn", "action": "read_screen", "slots": {}}
+{"text": "screen read maadi", "lang": "kn", "action": "read_screen", "slots": {}}
+{"text": "ee message enu helta ide odi", "lang": "kn", "action": "read_screen", "slots": {}}
+{"text": "ee error enu anta explain maadi screen nodi", "lang": "kn", "action": "read_screen", "slots": {}}
+{"text": "screen nalli enu bardide", "lang": "kn", "action": "read_screen", "slots": {}}
+{"text": "beda bidi", "lang": "kn", "action": "cancel", "slots": {}}
+{"text": "cancel maadi", "lang": "kn", "action": "cancel", "slots": {}}
+{"text": "bitbidi beda", "lang": "kn", "action": "cancel", "slots": {}}
+{"text": "ಬೇಡ ಬಿಡು", "lang": "kn", "action": "cancel", "slots": {}}
+{"text": "ಇರ್ಲಿ ಬಿಡಿ ಬೇಡ", "lang": "kn", "action": "cancel", "slots": {}}
+{"text": "stop stop beda", "lang": "kn", "action": "cancel", "slots": {}}
+{"text": "ಕ್ಯಾನ್ಸಲ್ ಮಾಡು", "lang": "kn", "action": "cancel", "slots": {}}
+{"text": "aa beda adu bidu", "lang": "kn", "action": "cancel", "slots": {}}
+{"text": "brightness jaasti maadi", "lang": "kn", "action": "unknown", "slots": {}}
+{"text": "ಬೆಳಿಗ್ಗೆ ಆರು ಗಂಟೆಗೆ ಅಲಾರಾಂ ಇಡು", "lang": "kn", "action": "unknown", "slots": {}}
+{"text": "amma ge call maadi", "lang": "kn", "action": "unknown", "slots": {}}
+{"text": "computer shut down maadi", "lang": "kn", "action": "unknown", "slots": {}}
+{"text": "nange bore aagtide", "lang": "kn", "action": "unknown", "slots": {}}
+{"text": "wifi off maadi", "lang": "kn", "action": "unknown", "slots": {}}
+{"text": "ಲೈಟ್ ಆಫ್ ಮಾಡು", "lang": "kn", "action": "unknown", "slots": {}}
+{"text": "hmm sari sari", "lang": "kn", "action": "unknown", "slots": {}}
+{"text": "10 nimsha timer ittu", "lang": "kn", "action": "unknown", "slots": {}}
+{"text": "bluetooth on maadi", "lang": "kn", "action": "unknown", "slots": {}}
+{"text": "Spotify", "lang": "none", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "notepad", "lang": "none", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "next", "lang": "none", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "pause", "lang": "none", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "mute", "lang": "none", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "youtube.com", "lang": "none", "action": "open_website", "slots": {"site": "youtube.com"}}
+{"text": "chrome", "lang": "none", "action": "open_app", "slots": {"app": "chrome"}}

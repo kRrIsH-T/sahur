@@ -1,0 +1,120 @@
+{"text": "what does this form need", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "what do i have to fill in this form", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "explain this bank KYC form to me", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "tell me what this form is asking", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "what is this form for", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "what documents does this form need", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "which fields are compulsory in this form", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "please explain this Aadhaar update form", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "what is this PAN application form asking me", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "explain me this ration card form", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "what all is needed for this scholarship form", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "can you explain what this pension form wants", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "what do they want in this PM-Kisan form", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "this gas connection form is confusing explain it", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "what is this voter ID form about", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "tell me about this job application form", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "what do I need to put in this school admission form", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "explain the hospital registration form", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "what is this insurance claim form asking for", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "i don't understand this form can you explain", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "what is nominee in this form", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "explain this form in simple words", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "what information is this form asking", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "how many things do I need to fill in this form", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "which documents should i keep ready for this form", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "tell me what this KYC form is about", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "explain this form to me like I am a child", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "what does this page want me to fill", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "this form has so many boxes what do they mean", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "explain the fields on this form one by one", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "what is this form for and what do I need", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "read this form and tell me what to fill", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "Which photos do I need for this form", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "what is the IFSC thing in this form", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "tell me what is mandatory in this application", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "help me understand this form", "lang": "en", "action": "explain_form", "slots": {}}
+{"text": "help me fill this form", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "please fill this form for me", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "fill the KYC form", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "help me fill this bank KYC form", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "fill my form", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "can you fill this form step by step", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "fill this Aadhaar update form for me", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "help me with this PAN application", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "fill my ration card form", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "please help me fill the scholarship form", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "fill the pension form with my details", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "fill this PM-Kisan form for me", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "help me fill the gas connection form", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "fill my voter ID form", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "help me fill this job application", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "fill the school admission form for my son", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "help me with the hospital registration form", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "fill the insurance claim form please", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "start filling this form", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "let's fill this form together", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "fill this form using my saved details", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "fill this form I will tell you the answers", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "guide me through this form", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "I want to fill this form, help me", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "fill in the KYC form for me please", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "can you fill my application form", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "help me fill out this form", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "fill the form with my profile", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "do this form for me", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "ask me the questions and fill this form", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "please fill my KYC details in this form", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "fill it for me I don't know how", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "help me complete this form", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "fill this form one field at a time", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "my pension form needs to be filled please help", "lang": "en", "action": "fill_form", "slots": {}}
+{"text": "is this website real", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "is this site safe", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "is this bank site genuine", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "is this a fake website", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "can I trust this site", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "is this the real SBI website", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "check if this site is safe", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "is this link safe to open", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "this KYC website looks fishy is it real", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "is this the official Aadhaar site", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "check this website for me", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "is it safe to enter my details here", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "is this site genuine or a scam", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "someone sent me this link is it real", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "is this a real government website", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "tell me if this site is fake", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "is this the actual income tax site", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "verify this website", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "is this site safe for my bank details", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "does this look like a fake bank site", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "is this PAN site official", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "is it safe to fill this form on this site", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "my son sent this link is this site okay", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "is this website asli", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "can you check whether this site is a scam", "lang": "en", "action": "check_site", "slots": {}}
+{"text": "type my name Ramesh Kumar", "lang": "en", "action": "type_text", "slots": {"text": "Ramesh Kumar"}}
+{"text": "type 9876543210", "lang": "en", "action": "type_text", "slots": {"text": "9876543210"}}
+{"text": "write my address as 12 Gandhi Road Mysore", "lang": "en", "action": "type_text", "slots": {"text": "my address as 12 Gandhi Road Mysore"}}
+{"text": "type my father's name Suresh Kumar", "lang": "en", "action": "type_text", "slots": {"text": "my father's name Suresh Kumar"}}
+{"text": "write ramesh at gmail dot com", "lang": "en", "action": "type_text", "slots": {"text": "ramesh at gmail dot com"}}
+{"text": "click submit", "lang": "en", "action": "click", "slots": {"target": "submit"}}
+{"text": "press the next button", "lang": "en", "action": "click", "slots": {"target": "next"}}
+{"text": "click on upload document", "lang": "en", "action": "click", "slots": {"target": "upload document"}}
+{"text": "click the verify button", "lang": "en", "action": "click", "slots": {"target": "verify"}}
+{"text": "click on continue", "lang": "en", "action": "click", "slots": {"target": "continue"}}
+{"text": "what is written on the screen", "lang": "en", "action": "read_screen", "slots": {}}
+{"text": "read the screen", "lang": "en", "action": "read_screen", "slots": {}}
+{"text": "read out what is on the page", "lang": "en", "action": "read_screen", "slots": {}}
+{"text": "what does the screen say", "lang": "en", "action": "read_screen", "slots": {}}
+{"text": "how to do KYC online", "lang": "en", "action": "web_search", "slots": {"query": "how to do KYC online"}}
+{"text": "how to link Aadhaar with PAN", "lang": "en", "action": "web_search", "slots": {"query": "how to link Aadhaar with PAN"}}
+{"text": "search PM-Kisan beneficiary status", "lang": "en", "action": "web_search", "slots": {"query": "PM-Kisan beneficiary status"}}
+{"text": "what is the last date for PAN Aadhaar linking", "lang": "en", "action": "web_search", "slots": {"query": "what is the last date for PAN Aadhaar linking"}}
+{"text": "how to apply for a ration card", "lang": "en", "action": "web_search", "slots": {"query": "how to apply for a ration card"}}
+{"text": "open UIDAI website", "lang": "en", "action": "open_website", "slots": {"site": "UIDAI"}}
+{"text": "open the income tax website", "lang": "en", "action": "open_website", "slots": {"site": "income tax"}}
+{"text": "open sbi dot co dot in", "lang": "en", "action": "open_website", "slots": {"site": "sbi dot co dot in"}}
+{"text": "go to the digilocker website", "lang": "en", "action": "open_website", "slots": {"site": "digilocker"}}
+{"text": "open the pm kisan site", "lang": "en", "action": "open_website", "slots": {"site": "pm kisan"}}

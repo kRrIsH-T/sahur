@@ -1,0 +1,210 @@
+{"id": 1, "lang": "mr", "text": "Tally ughad.", "action": "open_app", "slots": {"app": "Tally"}}
+{"id": 2, "lang": "mr", "text": "Busy software chalu kar.", "action": "open_app", "slots": {"app": "Busy"}}
+{"id": 3, "lang": "hi-en", "text": "WhatsApp kholo jara.", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"id": 4, "lang": "mr", "text": "Calculator ughad na.", "action": "open_app", "slots": {"app": "Calculator"}}
+{"id": 5, "lang": "hi-en", "text": "Excel open karo, stock ka hisaab dekhna hai.", "action": "open_app", "slots": {"app": "Excel"}}
+{"id": 6, "lang": "mr", "text": "Chrome chalu kar.", "action": "open_app", "slots": {"app": "Chrome"}}
+{"id": 7, "lang": "mr", "text": "नोटपॅड उघड.", "action": "open_app", "slots": {"app": "नोटपॅड"}}
+{"id": 8, "lang": "mr", "text": "YouTube ughad.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"id": 9, "lang": "mr", "text": "Vyapar app open kar re.", "action": "open_app", "slots": {"app": "Vyapar"}}
+{"id": 10, "lang": "mr", "text": "SBI chi website ughad.", "action": "open_website", "slots": {"site": "SBI"}}
+{"id": 11, "lang": "en", "text": "Open onlinesbi dot com.", "action": "open_website", "slots": {"site": "onlinesbi dot com"}}
+{"id": 12, "lang": "hi-en", "text": "gst dot gov dot in kholo.", "action": "open_website", "slots": {"site": "gst dot gov dot in"}}
+{"id": 13, "lang": "hi-en", "text": "HDFC bank ki site kholo.", "action": "open_website", "slots": {"site": "HDFC bank"}}
+{"id": 14, "lang": "mr", "text": "Amazon chi site ughad.", "action": "open_website", "slots": {"site": "Amazon"}}
+{"id": 15, "lang": "mr", "text": "इंडियामार्ट ची वेबसाइट उघड.", "action": "open_website", "slots": {"site": "इंडियामार्ट"}}
+{"id": 16, "lang": "mr", "text": "Cosmos bank chi website open kar.", "action": "open_website", "slots": {"site": "Cosmos bank"}}
+{"id": 17, "lang": "mr", "text": "Aaj sonyacha bhav kay ahe.", "action": "web_search", "slots": {"query": "Aaj sonyacha bhav kay ahe"}}
+{"id": 18, "lang": "mr", "text": "Pune cha weather sang.", "action": "web_search", "slots": {"query": "Pune cha weather"}}
+{"id": 19, "lang": "mr", "text": "भीमसेन जोशी कोण होते?", "action": "web_search", "slots": {"query": "भीमसेन जोशी कोण होते"}}
+{"id": 20, "lang": "hi-en", "text": "Natsamrat picture kab release hua tha.", "action": "web_search", "slots": {"query": "Natsamrat picture kab release hua tha"}}
+{"id": 21, "lang": "hi-en", "text": "Deva Shree Ganesha gaana kisne gaaya hai.", "action": "web_search", "slots": {"query": "Deva Shree Ganesha gaana kisne gaaya hai"}}
+{"id": 22, "lang": "hi-en", "text": "GST kya hai samjhao.", "action": "web_search", "slots": {"query": "GST kya hai"}}
+{"id": 23, "lang": "en", "text": "Explain UPI.", "action": "web_search", "slots": {"query": "UPI"}}
+{"id": 24, "lang": "mr", "text": "Sairat movie madhe kon heroine hoti?", "action": "web_search", "slots": {"query": "Sairat movie madhe kon heroine hoti"}}
+{"id": 25, "lang": "hi-en", "text": "Dollar ka rate kitna hai aaj.", "action": "web_search", "slots": {"query": "Dollar ka rate kitna hai aaj"}}
+{"id": 26, "lang": "mr", "text": "आज मार्केट यार्ड मध्ये कांद्याचा भाव काय आहे?", "action": "web_search", "slots": {"query": "आज मार्केट यार्ड मध्ये कांद्याचा भाव काय आहे"}}
+{"id": 27, "lang": "mr", "text": "Income tax return kasa bharaycha te samjav.", "action": "web_search", "slots": {"query": "Income tax return kasa bharaycha"}}
+{"id": 28, "lang": "hi-en", "text": "Ajay Atul kaun hai.", "action": "web_search", "slots": {"query": "Ajay Atul kaun hai"}}
+{"id": 29, "lang": "mr", "text": "YouTube var Ganpati aarti search kar.", "action": "web_search", "slots": {"query": "Ganpati aarti", "site": "YouTube"}}
+{"id": 30, "lang": "hi-en", "text": "Amazon pe thermal printer roll dhundho.", "action": "web_search", "slots": {"query": "thermal printer roll", "site": "Amazon"}}
+{"id": 31, "lang": "mr", "text": "Google var Tally GST entry kashi karaychi shodh.", "action": "web_search", "slots": {"query": "Tally GST entry kashi karaychi", "site": "Google"}}
+{"id": 32, "lang": "hi-en", "text": "Flipkart pe barcode scanner ka price dekho.", "action": "web_search", "slots": {"query": "barcode scanner ka price", "site": "Flipkart"}}
+{"id": 33, "lang": "mr", "text": "YouTube var Ganpati aarti lav.", "action": "play_media", "slots": {"app": "YouTube", "query": "Ganpati aarti"}}
+{"id": 34, "lang": "mr", "text": "Bhimsen Joshi chi gaani lav.", "action": "play_media", "slots": {"query": "Bhimsen Joshi"}}
+{"id": 35, "lang": "hi-en", "text": "हनुमान चालीसा चलाओ.", "action": "play_media", "slots": {"query": "हनुमान चालीसा"}}
+{"id": 36, "lang": "hi-en", "text": "Spotify pe Ajay Atul ke gaane chalao.", "action": "play_media", "slots": {"app": "Spotify", "query": "Ajay Atul"}}
+{"id": 37, "lang": "hi-en", "text": "Kuch bhajan laga do.", "action": "play_media", "slots": {"query": "bhajan"}}
+{"id": 38, "lang": "mr", "text": "Kahitari gaani lav re.", "action": "play_media", "slots": {}}
+{"id": 39, "lang": "en", "text": "Play Shiv Tandav Stotram on YouTube.", "action": "play_media", "slots": {"app": "YouTube", "query": "Shiv Tandav Stotram"}}
+{"id": 40, "lang": "mr", "text": "विठ्ठल अभंग लाव.", "action": "play_media", "slots": {"query": "विठ्ठल अभंग"}}
+{"id": 41, "lang": "mr", "text": "JioSaavn var Lata Mangeshkar lav.", "action": "play_media", "slots": {"app": "JioSaavn", "query": "Lata Mangeshkar"}}
+{"id": 42, "lang": "hi-en", "text": "You tube pe Om Jai Jagdish Hare chalao.", "action": "play_media", "slots": {"app": "You tube", "query": "Om Jai Jagdish Hare"}}
+{"id": 43, "lang": "mr", "text": "Old Marathi songs lav.", "action": "play_media", "slots": {"query": "Old Marathi songs"}}
+{"id": 44, "lang": "hi-en", "text": "Zingaat gaana chalavo.", "action": "play_media", "slots": {"query": "Zingaat"}}
+{"id": 45, "lang": "mr", "text": "Gaana thamb.", "action": "media_control", "control": "pause", "slots": {}}
+{"id": 46, "lang": "mr", "text": "Pudhcha gaana lav.", "action": "media_control", "control": "next", "slots": {}}
+{"id": 47, "lang": "mr", "text": "आवाज वाढव.", "action": "media_control", "control": "volume_up", "slots": {}}
+{"id": 48, "lang": "hi-en", "text": "Awaaz kam karo thoda.", "action": "media_control", "control": "volume_down", "slots": {}}
+{"id": 49, "lang": "hi-en", "text": "Phir se chalu karo.", "action": "media_control", "control": "resume", "slots": {}}
+{"id": 50, "lang": "mr", "text": "Aawaz band kar.", "action": "media_control", "control": "mute", "slots": {}}
+{"id": 51, "lang": "mr", "text": "मागचं गाणं लाव.", "action": "media_control", "control": "previous", "slots": {}}
+{"id": 52, "lang": "hi-en", "text": "Agla bhajan lagao.", "action": "media_control", "control": "next", "slots": {}}
+{"id": 53, "lang": "mr", "text": "Suresh la WhatsApp kar ki maal udya pathav.", "action": "send_message", "slots": {"contact": "Suresh", "text": "maal udya pathav"}}
+{"id": 54, "lang": "hi-en", "text": "Ramesh bhai ko message bhejo ki payment kal tak kar dunga.", "action": "send_message", "slots": {"contact": "Ramesh bhai", "text": "payment kal tak kar dunga"}}
+{"id": 55, "lang": "mr", "text": "Patil saheb la sang ki dukan aaj ek vajta ughdel.", "action": "send_message", "slots": {"contact": "Patil saheb", "text": "dukan aaj ek vajta ughdel"}}
+{"id": 56, "lang": "mr", "text": "Bayko la message kar, ghari yayla ushir hoil.", "action": "send_message", "slots": {"contact": "Bayko", "text": "ghari yayla ushir hoil"}}
+{"id": 57, "lang": "en", "text": "Send WhatsApp to Mehta ji that order is ready.", "action": "send_message", "slots": {"contact": "Mehta ji", "text": "order is ready"}}
+{"id": 58, "lang": "mr", "text": "गुप्ता जी ला मेसेज पाठव की बिल पाठवलं आहे.", "action": "send_message", "slots": {"contact": "गुप्ता जी", "text": "बिल पाठवलं आहे"}}
+{"id": 59, "lang": "mr", "text": "Sunil la message pathav.", "action": "send_message", "slots": {"contact": "Sunil"}}
+{"id": 60, "lang": "mr", "text": "Type kar Shree Ganesh Traders.", "action": "type_text", "slots": {"text": "Shree Ganesh Traders"}}
+{"id": 61, "lang": "hi-en", "text": "Likho total amount paanch hazaar do sau.", "action": "type_text", "slots": {"text": "total amount paanch hazaar do sau"}}
+{"id": 62, "lang": "hi-en", "text": "Ganesh Kulkarni type karo.", "action": "type_text", "slots": {"text": "Ganesh Kulkarni"}}
+{"id": 63, "lang": "mr", "text": "धन्यवाद पुन्हा या असं लिही.", "action": "type_text", "slots": {"text": "धन्यवाद पुन्हा या"}}
+{"id": 64, "lang": "mr", "text": "Submit button dabav.", "action": "click", "slots": {"target": "Submit"}}
+{"id": 65, "lang": "hi-en", "text": "Login pe click karo.", "action": "click", "slots": {"target": "Login"}}
+{"id": 66, "lang": "mr", "text": "प्रिंट वर क्लिक कर.", "action": "click", "slots": {"target": "प्रिंट"}}
+{"id": 67, "lang": "mr", "text": "Screen var kay lihilay te vachun dakhav.", "action": "read_screen", "slots": {}}
+{"id": 68, "lang": "hi-en", "text": "Ye screen pe kya likha hai padh ke sunao.", "action": "read_screen", "slots": {}}
+{"id": 69, "lang": "mr", "text": "Rahu de, kahi nako.", "action": "cancel", "slots": {}}
+{"id": 70, "lang": "mr", "text": "Computer band kar.", "action": "unknown", "slots": {}}
+{"id": 71, "lang": "te", "text": "Valorant open cheyyi.", "action": "open_app", "slots": {"app": "Valorant"}}
+{"id": 72, "lang": "te", "text": "Bhai VS Code open chey ra.", "action": "open_app", "slots": {"app": "VS Code"}}
+{"id": 73, "lang": "hi-en", "text": "Discord kholo yaar.", "action": "open_app", "slots": {"app": "Discord"}}
+{"id": 74, "lang": "te", "text": "Spotify open cheyyi bro.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"id": 75, "lang": "hi-en", "text": "Steam launch karo.", "action": "open_app", "slots": {"app": "Steam"}}
+{"id": 76, "lang": "te", "text": "క్రోమ్ ఓపెన్ చెయ్యి", "action": "open_app", "slots": {"app": "క్రోమ్"}}
+{"id": 77, "lang": "en", "text": "Open command prompt.", "action": "open_app", "slots": {"app": "command prompt"}}
+{"id": 78, "lang": "te", "text": "Notepad open chesko ra.", "action": "open_app", "slots": {"app": "Notepad"}}
+{"id": 79, "lang": "te", "text": "Epic games launcher start chey.", "action": "open_app", "slots": {"app": "Epic games launcher"}}
+{"id": 80, "lang": "te", "text": "Leetcode dot com open cheyyi.", "action": "open_website", "slots": {"site": "Leetcode dot com"}}
+{"id": 81, "lang": "hi-en", "text": "GitHub website open karo.", "action": "open_website", "slots": {"site": "GitHub"}}
+{"id": 82, "lang": "hi-en", "text": "Codeforces site kholo bhai.", "action": "open_website", "slots": {"site": "Codeforces"}}
+{"id": 83, "lang": "en", "text": "Open stack overflow dot com.", "action": "open_website", "slots": {"site": "stack overflow dot com"}}
+{"id": 84, "lang": "te", "text": "Instagram website open chey ra.", "action": "open_website", "slots": {"site": "Instagram"}}
+{"id": 85, "lang": "te", "text": "జీమెయిల్ సైట్ ఓపెన్ చెయ్యి", "action": "open_website", "slots": {"site": "జీమెయిల్"}}
+{"id": 86, "lang": "hi-en", "text": "Chat gpt dot com open karo.", "action": "open_website", "slots": {"site": "Chat gpt dot com"}}
+{"id": 87, "lang": "te", "text": "Sid Sriram evaru?", "action": "web_search", "slots": {"query": "Sid Sriram evaru"}}
+{"id": 88, "lang": "en", "text": "Explain recursion in simple words.", "action": "web_search", "slots": {"query": "recursion in simple words"}}
+{"id": 89, "lang": "te", "text": "Pushpa 2 box office collection entha?", "action": "web_search", "slots": {"query": "Pushpa 2 box office collection entha"}}
+{"id": 90, "lang": "hi-en", "text": "Anirudh ke baare mein batao.", "action": "web_search", "slots": {"query": "Anirudh"}}
+{"id": 91, "lang": "en", "text": "Who sang Kurchi Madatha Petti?", "action": "web_search", "slots": {"query": "Who sang Kurchi Madatha Petti"}}
+{"id": 92, "lang": "te", "text": "Hyderabad lo weather ela undi?", "action": "web_search", "slots": {"query": "Hyderabad lo weather ela undi"}}
+{"id": 93, "lang": "te", "text": "DSA ante enti cheppu.", "action": "web_search", "slots": {"query": "DSA ante enti"}}
+{"id": 94, "lang": "hi-en", "text": "Samjhao binary search kaise kaam karta hai.", "action": "web_search", "slots": {"query": "binary search kaise kaam karta hai"}}
+{"id": 95, "lang": "te", "text": "Kalki movie rating enti?", "action": "web_search", "slots": {"query": "Kalki movie rating enti"}}
+{"id": 96, "lang": "te", "text": "ఆర్ఆర్ఆర్ సినిమా డైరెక్టర్ ఎవరు?", "action": "web_search", "slots": {"query": "ఆర్ఆర్ఆర్ సినిమా డైరెక్టర్ ఎవరు"}}
+{"id": 97, "lang": "te", "text": "Python lo list and tuple difference cheppu bro.", "action": "web_search", "slots": {"query": "Python lo list and tuple difference"}}
+{"id": 98, "lang": "hi-en", "text": "भाई RCB का अगला मैच कब है?", "action": "web_search", "slots": {"query": "RCB का अगला मैच कब है"}}
+{"id": 99, "lang": "te", "text": "YouTube lo DSA full course search chey.", "action": "web_search", "slots": {"query": "DSA full course", "site": "YouTube"}}
+{"id": 100, "lang": "hi-en", "text": "Amazon pe gaming mouse dhundho.", "action": "web_search", "slots": {"query": "gaming mouse", "site": "Amazon"}}
+{"id": 101, "lang": "en", "text": "Search React hooks tutorial on YouTube.", "action": "web_search", "slots": {"query": "React hooks tutorial", "site": "YouTube"}}
+{"id": 102, "lang": "te", "text": "Flipkart lo mechanical keyboard vethuku.", "action": "web_search", "slots": {"query": "mechanical keyboard", "site": "Flipkart"}}
+{"id": 103, "lang": "te", "text": "Spotify lo Anirudh songs play chey.", "action": "play_media", "slots": {"app": "Spotify", "query": "Anirudh"}}
+{"id": 104, "lang": "en", "text": "Play lo-fi beats for coding.", "action": "play_media", "slots": {"query": "lo-fi beats for coding"}}
+{"id": 105, "lang": "hi-en", "text": "Cold play chalao Spotify pe.", "action": "play_media", "slots": {"app": "Spotify", "query": "Cold play"}}
+{"id": 106, "lang": "te", "text": "Samajavaragamana song play cheyyi.", "action": "play_media", "slots": {"query": "Samajavaragamana"}}
+{"id": 107, "lang": "te", "text": "You tube lo Kurchi Madatha Petti video chalavo.", "action": "play_media", "slots": {"app": "You tube", "query": "Kurchi Madatha Petti"}}
+{"id": 108, "lang": "hi-en", "text": "Kuch Arijit ke sad songs bajao.", "action": "play_media", "slots": {"query": "Arijit ke sad songs"}}
+{"id": 109, "lang": "en", "text": "Play Blinding Lights by The Weeknd.", "action": "play_media", "slots": {"query": "Blinding Lights by The Weeknd"}}
+{"id": 110, "lang": "te", "text": "Sid Sriram melody songs pettu.", "action": "play_media", "slots": {"query": "Sid Sriram melody songs"}}
+{"id": 111, "lang": "te", "text": "Telugu mass songs play chey ra.", "action": "play_media", "slots": {"query": "Telugu mass songs"}}
+{"id": 112, "lang": "te", "text": "స్పాటిఫై లో దేవర సాంగ్స్ ప్లే చెయ్యి", "action": "play_media", "slots": {"app": "స్పాటిఫై", "query": "దేవర"}}
+{"id": 113, "lang": "hi-en", "text": "गाना चलाओ", "action": "play_media", "slots": {}}
+{"id": 114, "lang": "hi-en", "text": "YouTube Music pe Diljit chalao.", "action": "play_media", "slots": {"app": "YouTube Music", "query": "Diljit"}}
+{"id": 115, "lang": "te", "text": "Pause chey.", "action": "media_control", "control": "pause", "slots": {}}
+{"id": 116, "lang": "te", "text": "Next song pettu.", "action": "media_control", "control": "next", "slots": {}}
+{"id": 117, "lang": "te", "text": "Volume penchu.", "action": "media_control", "control": "volume_up", "slots": {}}
+{"id": 118, "lang": "hi-en", "text": "Awaaz kam karo yaar.", "action": "media_control", "control": "volume_down", "slots": {}}
+{"id": 119, "lang": "hi-en", "text": "Mute karo.", "action": "media_control", "control": "mute", "slots": {}}
+{"id": 120, "lang": "te", "text": "Previous song play chey.", "action": "media_control", "control": "previous", "slots": {}}
+{"id": 121, "lang": "en", "text": "Resume the song.", "action": "media_control", "control": "resume", "slots": {}}
+{"id": 122, "lang": "te", "text": "పాట ఆపు", "action": "media_control", "control": "pause", "slots": {}}
+{"id": 123, "lang": "te", "text": "Rahul ki WhatsApp lo message pampu ra nenu late ga vastha ani.", "action": "send_message", "slots": {"contact": "Rahul", "text": "nenu late ga vastha"}}
+{"id": 124, "lang": "te", "text": "Amma ki message chey, dinner ki vasthunna ani.", "action": "send_message", "slots": {"contact": "Amma", "text": "dinner ki vasthunna"}}
+{"id": 125, "lang": "hi-en", "text": "Vikram ko bolo ki lab record kal dunga.", "action": "send_message", "slots": {"contact": "Vikram", "text": "lab record kal dunga"}}
+{"id": 126, "lang": "en", "text": "Send a WhatsApp message to Sai saying bro come online for Valo.", "action": "send_message", "slots": {"contact": "Sai", "text": "bro come online for Valo"}}
+{"id": 127, "lang": "te", "text": "Nani ki WhatsApp chey, assignment pdf pampu ani.", "action": "send_message", "slots": {"contact": "Nani", "text": "assignment pdf pampu"}}
+{"id": 128, "lang": "hi-en", "text": "Priya ko message karo ki notes bhej de please.", "action": "send_message", "slots": {"contact": "Priya", "text": "notes bhej de please"}}
+{"id": 129, "lang": "te", "text": "అన్నయ్యకి మెసేజ్ పంపు నేను బయలుదేరాను అని", "action": "send_message", "slots": {"contact": "అన్నయ్య", "text": "నేను బయలుదేరాను"}}
+{"id": 130, "lang": "hi-en", "text": "Type karo hello world.", "action": "type_text", "slots": {"text": "hello world"}}
+{"id": 131, "lang": "te", "text": "Type chey gg well played.", "action": "type_text", "slots": {"text": "gg well played"}}
+{"id": 132, "lang": "en", "text": "Type import numpy as np.", "action": "type_text", "slots": {"text": "import numpy as np"}}
+{"id": 133, "lang": "hi-en", "text": "Likho bhai kal milte hain.", "action": "type_text", "slots": {"text": "bhai kal milte hain"}}
+{"id": 134, "lang": "te", "text": "సబ్మిట్ బటన్ నొక్కు", "action": "click", "slots": {"target": "సబ్మిట్"}}
+{"id": 135, "lang": "hi-en", "text": "Accept pe click karo.", "action": "click", "slots": {"target": "Accept"}}
+{"id": 136, "lang": "en", "text": "Click on Run.", "action": "click", "slots": {"target": "Run"}}
+{"id": 137, "lang": "te", "text": "Screen meeda em undo chaduvu.", "action": "read_screen", "slots": {}}
+{"id": 138, "lang": "hi-en", "text": "स्क्रीन पे क्या लिखा है पढ़ो", "action": "read_screen", "slots": {}}
+{"id": 139, "lang": "te", "text": "Vaddu le, cancel.", "action": "cancel", "slots": {}}
+{"id": 140, "lang": "te", "text": "Brightness thagginchu.", "action": "unknown", "slots": {}}
+{"id": 141, "lang": "kn", "text": "WhatsApp open maadi.", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"id": 142, "lang": "kn", "text": "ಕ್ಯಾಲ್ಕುಲೇಟರ್ ತೆಗಿ.", "action": "open_app", "slots": {"app": "ಕ್ಯಾಲ್ಕುಲೇಟರ್"}}
+{"id": 143, "lang": "kn", "text": "Note pad tegiri.", "action": "open_app", "slots": {"app": "Note pad"}}
+{"id": 144, "lang": "ta", "text": "Spotify open pannunga.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"id": 145, "lang": "kn", "text": "MS Word open maadappa.", "action": "open_app", "slots": {"app": "MS Word"}}
+{"id": 146, "lang": "ta", "text": "Chrome ah open pannu.", "action": "open_app", "slots": {"app": "Chrome"}}
+{"id": 147, "lang": "kn", "text": "Paint application open maadi please.", "action": "open_app", "slots": {"app": "Paint"}}
+{"id": 148, "lang": "kn", "text": "ಝೂಮ್ ಅಪ್ಲಿಕೇಶನ್ ತೆರೆಯಿರಿ.", "action": "open_app", "slots": {"app": "ಝೂಮ್"}}
+{"id": 149, "lang": "ta", "text": "File Explorer open pannu.", "action": "open_app", "slots": {"app": "File Explorer"}}
+{"id": 150, "lang": "kn", "text": "Prajavani website open maadi.", "action": "open_website", "slots": {"site": "Prajavani"}}
+{"id": 151, "lang": "kn", "text": "Vijaya Karnataka dot com open maadi.", "action": "open_website", "slots": {"site": "Vijaya Karnataka dot com"}}
+{"id": 152, "lang": "ta", "text": "The Hindu website open pannunga.", "action": "open_website", "slots": {"site": "The Hindu"}}
+{"id": 153, "lang": "en", "text": "Open dinamalar dot com.", "action": "open_website", "slots": {"site": "dinamalar dot com"}}
+{"id": 154, "lang": "kn", "text": "ಪ್ರಜಾವಾಣಿ ವೆಬ್ ಸೈಟ್ ತೆಗೆಯಿರಿ.", "action": "open_website", "slots": {"site": "ಪ್ರಜಾವಾಣಿ"}}
+{"id": 155, "lang": "kn", "text": "IRCTC site open maadi.", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"id": 156, "lang": "ta", "text": "Wikipedia page open pannu.", "action": "open_website", "slots": {"site": "Wikipedia"}}
+{"id": 157, "lang": "en", "text": "Who is P Susheela?", "action": "web_search", "slots": {"query": "Who is P Susheela"}}
+{"id": 158, "lang": "ta", "text": "M S Subbulakshmi yaaru?", "action": "web_search", "slots": {"query": "M S Subbulakshmi yaaru"}}
+{"id": 159, "lang": "kn", "text": "Mysore weather hegide heli.", "action": "web_search", "slots": {"query": "Mysore weather hegide"}}
+{"id": 160, "lang": "kn", "text": "Indu chinnada bele eshtu?", "action": "web_search", "slots": {"query": "Indu chinnada bele eshtu"}}
+{"id": 161, "lang": "en", "text": "Explain GST in simple words.", "action": "web_search", "slots": {"query": "GST in simple words"}}
+{"id": 162, "lang": "kn", "text": "Bangarada Manushya film yaavaga release aaytu?", "action": "web_search", "slots": {"query": "Bangarada Manushya film yaavaga release aaytu"}}
+{"id": 163, "lang": "ta", "text": "Indraiya Tamil Nadu news sollunga.", "action": "web_search", "slots": {"query": "Indraiya Tamil Nadu news"}}
+{"id": 164, "lang": "en", "text": "Who sang Naguva Nayana?", "action": "web_search", "slots": {"query": "Who sang Naguva Nayana"}}
+{"id": 165, "lang": "kn", "text": "ಕುವೆಂಪು ಬಗ್ಗೆ ಹೇಳಿ.", "action": "web_search", "slots": {"query": "ಕುವೆಂಪು"}}
+{"id": 166, "lang": "ta", "text": "இளையராஜா பற்றி சொல்லுங்க.", "action": "web_search", "slots": {"query": "இளையராஜா"}}
+{"id": 167, "lang": "kn", "text": "Explain maadi blood pressure yaake jaasti aagutte.", "action": "web_search", "slots": {"query": "blood pressure yaake jaasti aagutte"}}
+{"id": 168, "lang": "ta", "text": "Thillana Mohanambal padathula yaar nadichanga?", "action": "web_search", "slots": {"query": "Thillana Mohanambal padathula yaar nadichanga"}}
+{"id": 169, "lang": "kn", "text": "YouTube alli Kuvempu kavanagalu hudku.", "action": "web_search", "slots": {"query": "Kuvempu kavanagalu", "site": "YouTube"}}
+{"id": 170, "lang": "ta", "text": "Amazon la reading glasses search pannu.", "action": "web_search", "slots": {"query": "reading glasses", "site": "Amazon"}}
+{"id": 171, "lang": "kn", "text": "Wikipedia alli Hampi itihaasa hudukiri.", "action": "web_search", "slots": {"query": "Hampi itihaasa", "site": "Wikipedia"}}
+{"id": 172, "lang": "en", "text": "Search for BP machine on Flipkart.", "action": "web_search", "slots": {"query": "BP machine", "site": "Flipkart"}}
+{"id": 173, "lang": "kn", "text": "Rajkumar haadugalu haaki.", "action": "play_media", "slots": {"query": "Rajkumar"}}
+{"id": 174, "lang": "kn", "text": "YouTube alli Bombe Helutaite haadu haaki.", "action": "play_media", "slots": {"app": "YouTube", "query": "Bombe Helutaite"}}
+{"id": 175, "lang": "en", "text": "Play M S Subbulakshmi Suprabhatam on Spotify.", "action": "play_media", "slots": {"app": "Spotify", "query": "M S Subbulakshmi Suprabhatam"}}
+{"id": 176, "lang": "ta", "text": "TMS paattu podu.", "action": "play_media", "slots": {"query": "TMS"}}
+{"id": 177, "lang": "kn", "text": "Old Kannada songs haaki.", "action": "play_media", "slots": {"query": "Old Kannada songs"}}
+{"id": 178, "lang": "kn", "text": "Carnatic music play maadi.", "action": "play_media", "slots": {"query": "Carnatic music"}}
+{"id": 179, "lang": "ta", "text": "you tube la Kurai Ondrum Illai podunga.", "action": "play_media", "slots": {"app": "you tube", "query": "Kurai Ondrum Illai"}}
+{"id": 180, "lang": "kn", "text": "ಪಿ ಬಿ ಶ್ರೀನಿವಾಸ್ ಹಾಡುಗಳನ್ನು ಹಾಕಿ.", "action": "play_media", "slots": {"query": "ಪಿ ಬಿ ಶ್ರೀನಿವಾಸ್"}}
+{"id": 181, "lang": "kn", "text": "JioSaavn alli S Janaki songs haaki.", "action": "play_media", "slots": {"app": "JioSaavn", "query": "S Janaki"}}
+{"id": 182, "lang": "kn", "text": "Yaavudaadru haadu haaki.", "action": "play_media", "slots": {}}
+{"id": 183, "lang": "kn", "text": "YouTube nalli TV9 Kannada live haaki.", "action": "play_media", "slots": {"app": "YouTube", "query": "TV9 Kannada live"}}
+{"id": 184, "lang": "ta", "text": "எம் எஸ் விஸ்வநாதன் பாடல்கள் போடு.", "action": "play_media", "slots": {"query": "எம் எஸ் விஸ்வநாதன்"}}
+{"id": 185, "lang": "kn", "text": "Haadu nillisi.", "action": "media_control", "control": "pause", "slots": {}}
+{"id": 186, "lang": "kn", "text": "Mundina haadu.", "action": "media_control", "control": "next", "slots": {}}
+{"id": 187, "lang": "kn", "text": "Sound jaasti maadi.", "action": "media_control", "control": "volume_up", "slots": {}}
+{"id": 188, "lang": "ta", "text": "Konjam sound kammi pannu.", "action": "media_control", "control": "volume_down", "slots": {}}
+{"id": 189, "lang": "kn", "text": "Hindina haadu haaki.", "action": "media_control", "control": "previous", "slots": {}}
+{"id": 190, "lang": "kn", "text": "Mute maadi.", "action": "media_control", "control": "mute", "slots": {}}
+{"id": 191, "lang": "ta", "text": "Thirumba play pannunga.", "action": "media_control", "control": "resume", "slots": {}}
+{"id": 192, "lang": "kn", "text": "ಸೌಂಡ್ ಕಡಿಮೆ ಮಾಡಿ.", "action": "media_control", "control": "volume_down", "slots": {}}
+{"id": 193, "lang": "kn", "text": "Divya ge message kalisi naanu oota maadide anta.", "action": "send_message", "slots": {"contact": "Divya", "text": "naanu oota maadide"}}
+{"id": 194, "lang": "en", "text": "Send a WhatsApp message to Ravi saying call me tonight.", "action": "send_message", "slots": {"contact": "Ravi", "text": "call me tonight"}}
+{"id": 195, "lang": "ta", "text": "Akka ku message anuppu, naan nalaikku varen.", "action": "send_message", "slots": {"contact": "Akka", "text": "naan nalaikku varen"}}
+{"id": 196, "lang": "kn", "text": "Shankar ge WhatsApp alli happy birthday anta kalisi.", "action": "send_message", "slots": {"contact": "Shankar", "text": "happy birthday"}}
+{"id": 197, "lang": "kn", "text": "ಸುಮಾ ಗೆ ಮೆಸೇಜ್ ಕಳಿಸಿ ನಾಳೆ ಬರ್ತೀನಿ ಅಂತ.", "action": "send_message", "slots": {"contact": "ಸುಮಾ", "text": "ನಾಳೆ ಬರ್ತೀನಿ"}}
+{"id": 198, "lang": "ta", "text": "Lakshmi kku WhatsApp pannu, temple ku 6 mani ku polaam.", "action": "send_message", "slots": {"contact": "Lakshmi", "text": "temple ku 6 mani ku polaam"}}
+{"id": 199, "lang": "kn", "text": "Ramesh ge message maadi.", "action": "send_message", "slots": {"contact": "Ramesh"}}
+{"id": 200, "lang": "kn", "text": "Type maadi, Priya vidyarthigale, naale class ide.", "action": "type_text", "slots": {"text": "Priya vidyarthigale, naale class ide"}}
+{"id": 201, "lang": "ta", "text": "Type pannu dear all good morning.", "action": "type_text", "slots": {"text": "dear all good morning"}}
+{"id": 202, "lang": "en", "text": "Type Happy Deepavali to all.", "action": "type_text", "slots": {"text": "Happy Deepavali to all"}}
+{"id": 203, "lang": "kn", "text": "ಶುಭೋದಯ ಅಂತ ಟೈಪ್ ಮಾಡಿ.", "action": "type_text", "slots": {"text": "ಶುಭೋದಯ"}}
+{"id": 204, "lang": "kn", "text": "Send button click maadi.", "action": "click", "slots": {"target": "Send"}}
+{"id": 205, "lang": "kn", "text": "Login mele click maadi.", "action": "click", "slots": {"target": "Login"}}
+{"id": 206, "lang": "ta", "text": "Skip ad button press pannu.", "action": "click", "slots": {"target": "Skip ad"}}
+{"id": 207, "lang": "kn", "text": "Screen mele enide odi heli.", "action": "read_screen", "slots": {}}
+{"id": 208, "lang": "ta", "text": "Screen la enna irukku nu padichu sollu.", "action": "read_screen", "slots": {}}
+{"id": 209, "lang": "kn", "text": "Beda bidi, cancel.", "action": "cancel", "slots": {}}
+{"id": 210, "lang": "kn", "text": "Brightness kammi maadi.", "action": "unknown", "slots": {}}

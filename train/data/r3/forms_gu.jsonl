@@ -1,0 +1,120 @@
+{"text": "રેશન કાર્ડ ફોર્મ ભરો", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "Aadhaar update mate shu documents joie", "lang": "gu", "action": "web_search", "slots": {"query": "Aadhaar update mate shu documents joie"}}
+{"text": "બેંક કેવાયસી ફોર્મ સમજાવો", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "aa PAN vali site sachi chhe shu", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "aa form ni mahiti aapo", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "help me fill this form", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "chalo form bharie", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "shu aa SBI ni sachi website chhe", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "digilocker dot gov dot in kholo", "lang": "gu", "action": "open_website", "slots": {"site": "digilocker dot gov dot in"}}
+{"text": "aa form ma shu bharvanu chhe", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "aa form shena mate chhe samjavo", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "mari profile thi aa form bhari do", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "mari mahiti thi aa form bhari apo", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "aa UPI nu page sachu chhe ne", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "maru Aadhaar update form bharo", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "insurance claim form etle shu samjavo", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "maru pension form bhari apo", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "school admission form na fields samjavo", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "tell me what to fill in this form", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "upload button dabavo", "lang": "gu", "action": "click", "slots": {"target": "upload"}}
+{"text": "aa website par form bharvu safe chhe", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "aa site fraud to nathi ne", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "aa form ma IFSC kyathi lakhvanu te samjavo", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "Next button par click karo", "lang": "gu", "action": "click", "slots": {"target": "Next"}}
+{"text": "dikra nu school admission form bhari apo", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "scholarship form bharva ma help karo", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "is it a genuine website", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "what is on the screen", "lang": "gu", "action": "read_screen", "slots": {}}
+{"text": "KYC kevi rite karay", "lang": "gu", "action": "web_search", "slots": {"query": "KYC kevi rite karay"}}
+{"text": "form bharva ma madad karo", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "lakho ke maru naam Ramesh Kumar chhe", "lang": "gu", "action": "type_text", "slots": {"text": "maru naam Ramesh Kumar chhe"}}
+{"text": "what does this form need", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "bank KYC jaldi bhari do", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "gas connection nu form bhari apo", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "ration card kevi rite banavay", "lang": "gu", "action": "web_search", "slots": {"query": "ration card kevi rite banavay"}}
+{"text": "fill this KYC form for me", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "PM-Kisan form ma shu aapvanu chhe", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "મારું ફોર્મ ભરી દો", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "રેશન કાર્ડનું ફોર્મ શું માંગે છે", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "પાન કાર્ડનું ફોર્મ ભરાવી આપો", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "scholarship form ni last date shu chhe kaho", "lang": "gu", "action": "web_search", "slots": {"query": "scholarship form ni last date shu chhe"}}
+{"text": "aa form bharva ma mari madad karo", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "kyanya aa site nakli to nathi ne", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "shu aa sarkari ni sachi site chhe", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "aa form ma nominee no matlab shu", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "આધાર અપડેટ ફોર્મમાં શું લખવાનું છે", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "પેન્શન ફોર્મ વિશે કહો", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "ek ek kari ne form na sawal pucho", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "aa KYC form bhari apo", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "income tax ni website kholo", "lang": "gu", "action": "open_website", "slots": {"site": "income tax"}}
+{"text": "લખો હું કાલે આવીશ", "lang": "gu", "action": "type_text", "slots": {"text": "હું કાલે આવીશ"}}
+{"text": "aa form bhari do ne", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "PM-Kisan form bharvu chhe madad karo", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "સ્ક્રીન પર શું લખ્યું છે", "lang": "gu", "action": "read_screen", "slots": {}}
+{"text": "shu aa page par potani details nakhvi safe chhe", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "aa KYC vali site barabar chhe shu", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "SBI ni website kholo", "lang": "gu", "action": "open_website", "slots": {"site": "SBI"}}
+{"text": "screen par shu lakhyu chhe", "lang": "gu", "action": "read_screen", "slots": {}}
+{"text": "aa form mara mate bhari do yaar", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "આ બેંકની સાઇટ બરાબર છે ને", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "આ ફોર્મમાં શું ભરવાનું છે", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "aa form shena mate chhe bhai", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "hospital registration form bhari do", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "aa page par shu dekhay chhe", "lang": "gu", "action": "read_screen", "slots": {}}
+{"text": "ફોર્મ ભરવામાં મદદ કરો", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "aa form mate kya kagalo joie", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "aa site par bharoso kari shakay shu", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "type karo 9876543210", "lang": "gu", "action": "type_text", "slots": {"text": "9876543210"}}
+{"text": "PAN card kevi rite bane", "lang": "gu", "action": "web_search", "slots": {"query": "PAN card kevi rite bane"}}
+{"text": "job application form bharva ma madad karo", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "what is this form asking for", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "job application form shu puchhe chhe", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "explain this KYC form to me", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "is this a fake site", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "PAN application form bhari apo", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "aa site kharekhar bank ni chhe shu", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "આ સરકારી સાઇટ સાચી છે કે નહીં", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "વીમા ક્લેમ ફોર્મ ભરી દો", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "form ma ketli vastu puchhi chhe", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "ahiya lakho ramesh dot kumar at gmail dot com", "lang": "gu", "action": "type_text", "slots": {"text": "ramesh dot kumar at gmail dot com"}}
+{"text": "maru form bhari do", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "mane aa form samjatu nathi", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "aa bank ni site barabar chhe ne", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "Aadhaar update form ma shu shu lakhvanu chhe", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "આ લિંક નકલી તો નથી ને", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "UIDAI ni site kholo", "lang": "gu", "action": "open_website", "slots": {"site": "UIDAI"}}
+{"text": "incometax dot gov dot in kholo", "lang": "gu", "action": "open_website", "slots": {"site": "incometax dot gov dot in"}}
+{"text": "શું આ વેબસાઇટ સાચી છે", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "shu aa site safe chhe", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "screen vanchi saambhdavo", "lang": "gu", "action": "read_screen", "slots": {}}
+{"text": "સબમિટ બટન દબાવી દો", "lang": "gu", "action": "click", "slots": {"target": "સબમિટ"}}
+{"text": "શું આ સાઇટ સેફ છે", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "mane WhatsApp par aa link aavi chhe shu te sachi chhe", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "aa form jara samjavi aapo ne", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "hospital registration form ma shu lakhvanu chhe", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "is this site safe", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "continue par click karo", "lang": "gu", "action": "click", "slots": {"target": "continue"}}
+{"text": "mane aa form bharatu nathi tame bhari do", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "shu aa website sachi chhe", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "type karo Gandhi Road Ahmedabad", "lang": "gu", "action": "type_text", "slots": {"text": "Gandhi Road Ahmedabad"}}
+{"text": "આ ફોર્મ શેના માટે છે સમજાવો", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "scholarship form ma kya kya documents joshe", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "please fill the form", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "form bharvanu chalu karo", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "gas connection nu form kevi rite bharvu te kaho", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "aa bank KYC form shu puchhe chhe", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "KYC form ma shu shu aapvu padshe", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "આ કેવાયસી ફોર્મ ભરી આપો", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "ration card nu form shu mange chhe", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "aa link sachi chhe ke fake", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "voter ID form mari pase bharavo", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "voter ID form ma shu shu joie", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "પેન્શનનું ફોર્મ ભરવામાં મદદ કરો", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "submit dabavo", "lang": "gu", "action": "click", "slots": {"target": "submit"}}
+{"text": "pension form vishe kaho", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "PAN application form samjavo", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "check karo aa website barabar chhe ke nahi", "lang": "gu", "action": "check_site", "slots": {}}
+{"text": "insurance claim form bharva ma madad joie chhe", "lang": "gu", "action": "fill_form", "slots": {}}
+{"text": "aa form ma kai kai vastu jaruri chhe", "lang": "gu", "action": "explain_form", "slots": {}}
+{"text": "ration card nu form bharo", "lang": "gu", "action": "fill_form", "slots": {}}

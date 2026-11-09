@@ -1,0 +1,120 @@
+{"text": "indha form la enna nirappanum", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "indha form edhukku nu sollunga", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "indha KYC form ku enna venum", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "bank KYC form la enna ketkuraanga", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "Aadhaar update form pathi sollunga", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "PAN application la enna ezhudhanum", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "ration card form la enna ketpaanga", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "scholarship form ku enna documents venum", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "pension form la enna ezhudha vendum", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "PM Kisan form pathi vilakkam sollunga", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "gas connection form ku enna venum", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "voter ID form la enna nirappanum", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "job application form la enna ketkuraanga", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "school admission form pathi sollunga", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "hospital registration form la enna ezhudhanum", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "insurance claim form ku enna papers venum", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "what does this form need", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "indha form enna nu puriyala konjam sollunga", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "indha form la IFSC na enna", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "indha form la ethu kattaayam", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "idhu enna form", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "indha page la enna ketkuraanga", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "indha form ah paathu enna nu sollu", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "indha application ku photo venuma", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "indha form la nominee na enna", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "indha form ku en Aadhaar venuma", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "indha form la enna details kudukanum", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "indha form la ovvonna sollunga", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "இந்த ஃபார்ம்ல என்ன நிரப்பணும்", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "இந்த ஃபார்ம் எதுக்கு சொல்லுங்க", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "இந்த விண்ணப்பத்துக்கு என்ன ஆவணங்கள் வேணும்", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "இந்த KYC ஃபார்ம் பத்தி விளக்குங்க", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "ரேஷன் கார்டு ஃபார்ம்ல என்ன கேக்கறாங்க", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "இந்த ஃபார்ம் புரியல விளக்குங்க", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "பென்ஷன் ஃபார்ம்ல என்னென்ன எழுதணும்", "lang": "ta", "action": "explain_form", "slots": {}}
+{"text": "form nirappa udhavi pannunga", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "en form ah nirappi kudunga", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "indha KYC form ah nirappunga", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "form fill panna help pannunga", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "indha form ah step by step nirappalaam", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "bank KYC form nirappi kudu", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "Aadhaar update form en details pottu nirappunga", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "PAN card application nirappi kudunga", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "ration card form nirappa help venum", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "scholarship form ah enakku nirappi kudunga", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "pension form nirappalaam", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "PM Kisan form fill pannunga", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "gas connection form nirappa udhavi pannunga", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "voter ID form en kooda sernthu nirappunga", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "job application form fill pannidunga", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "school admission form nirappa enakku help pannunga", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "hospital registration form nirappunga", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "insurance claim form en sarbaa nirappunga", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "help me fill this form", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "fill this KYC form for me", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "en details pottu indha form ah nirappu", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "indha form ah nee nirappidu", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "form la ovvoru kelviyaa ketu en pathil pottu nirappu", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "en profile la irundhu indha form nirappu", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "melladhaa indha form nirappa udhavi pannunga", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "indha form ah en kooda sernthu nirappu", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "en per address pottu form nirappunga", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "insurance claim ku indha form ah nirappi kudunga", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "ஃபார்ம் நிரப்ப உதவி பண்ணுங்க", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "என் ஃபார்மை நிரப்பி கொடுங்க", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "இந்த KYC ஃபார்ம் நிரப்புங்க", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "பென்ஷன் விண்ணப்பத்தை நிரப்பி கொடுங்க", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "இந்த ஃபார்மை என் கூட சேர்ந்து நிரப்புங்க", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "ஆதார் திருத்த ஃபார்ம் நிரப்ப உதவுங்க", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "வோட்டர் ஐடி ஃபார்ம் நிரப்புங்க", "lang": "ta", "action": "fill_form", "slots": {}}
+{"text": "indha website unmaiyaana dhaana", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "indha site safe ah", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "idhu bank oda original site ah", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "indha link nambalaama", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "indha website poli ah", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "indha KYC site original ah", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "indha SBI site sariyaa", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "idhu government site ah", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "indha site mosadi illaiye", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "is this site safe", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "is this website real", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "indha site nambikkai aana dhaa", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "indha page fraud site ah", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "indha site la en details kudukkalaama", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "idhu unmaiyaana Aadhaar site ah", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "indha UPI link safe ah", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "indha bank website original ah illa duplicate ah", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "indha website https irukku safe ah", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "indha site yaarodadhu nu theriyuma", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "indha link WhatsApp la vandhuchu idhu original ah", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "indha PAN site sariyaa", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "இந்த வெப்சைட் உண்மையானதா", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "இந்த சைட் பாதுகாப்பானதா", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "இது வங்கியோட உண்மையான சைட்டா", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "இந்த லிங்க் நம்பலாமா", "lang": "ta", "action": "check_site", "slots": {}}
+{"text": "screen la enna ezhudhi irukku padichu sollunga", "lang": "ta", "action": "read_screen", "slots": {}}
+{"text": "screen la enna irukku sollu", "lang": "ta", "action": "read_screen", "slots": {}}
+{"text": "indha page la enna theriyudhu padi", "lang": "ta", "action": "read_screen", "slots": {}}
+{"text": "ஸ்கிரீன்ல என்ன இருக்கு படிச்சு சொல்லுங்க", "lang": "ta", "action": "read_screen", "slots": {}}
+{"text": "indha window la enna irukku sollunga", "lang": "ta", "action": "read_screen", "slots": {}}
+{"text": "indha box la Ramesh Kumar nu type pannu", "lang": "ta", "action": "type_text", "slots": {"text": "Ramesh Kumar"}}
+{"text": "name box la Lakshmi Devi nu ezhudhu", "lang": "ta", "action": "type_text", "slots": {"text": "Lakshmi Devi"}}
+{"text": "mobile number 9876543210 nu type pannunga", "lang": "ta", "action": "type_text", "slots": {"text": "9876543210"}}
+{"text": "address la 12th cross Anna Nagar Chennai nu ezhudhunga", "lang": "ta", "action": "type_text", "slots": {"text": "12th cross Anna Nagar Chennai"}}
+{"text": "email box la ramesh at gmail dot com nu type pannu", "lang": "ta", "action": "type_text", "slots": {"text": "ramesh at gmail dot com"}}
+{"text": "submit button ah amukku", "lang": "ta", "action": "click", "slots": {"target": "submit"}}
+{"text": "Next mela click pannu", "lang": "ta", "action": "click", "slots": {"target": "Next"}}
+{"text": "upload button ah amukku", "lang": "ta", "action": "click", "slots": {"target": "upload"}}
+{"text": "Continue ku click pannunga", "lang": "ta", "action": "click", "slots": {"target": "Continue"}}
+{"text": "சேவ் பட்டனை அழுத்து", "lang": "ta", "action": "click", "slots": {"target": "சேவ்"}}
+{"text": "KYC eppadi pannuvadhu", "lang": "ta", "action": "web_search", "slots": {"query": "KYC eppadi pannuvadhu"}}
+{"text": "PAN card ku eppadi apply pannuradhu", "lang": "ta", "action": "web_search", "slots": {"query": "PAN card ku eppadi apply pannuradhu"}}
+{"text": "ration card ku enna documents venum thedu", "lang": "ta", "action": "web_search", "slots": {"query": "ration card ku enna documents venum"}}
+{"text": "PM Kisan status eppadi paakkuradhu google pannu", "lang": "ta", "action": "web_search", "slots": {"query": "PM Kisan status eppadi paakkuradhu"}}
+{"text": "Aadhaar address change eppadi pannuvadhu thedu", "lang": "ta", "action": "web_search", "slots": {"query": "Aadhaar address change eppadi pannuvadhu"}}
+{"text": "UIDAI website open pannu", "lang": "ta", "action": "open_website", "slots": {"site": "UIDAI"}}
+{"text": "incometax dot gov dot in site thira", "lang": "ta", "action": "open_website", "slots": {"site": "incometax dot gov dot in"}}
+{"text": "SBI website open pannunga", "lang": "ta", "action": "open_website", "slots": {"site": "SBI"}}
+{"text": "யுஐடிஏஐ வெப்சைட் திற", "lang": "ta", "action": "open_website", "slots": {"site": "யுஐடிஏஐ"}}
+{"text": "Digilocker site open pannu", "lang": "ta", "action": "open_website", "slots": {"site": "Digilocker"}}

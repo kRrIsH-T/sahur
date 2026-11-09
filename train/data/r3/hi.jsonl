@@ -1,0 +1,417 @@
+{"text": "chrome kholo aur bangalore ka weather search karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "bangalore ka weather"}}], "joiners": ["aur"]}
+{"text": "Chrome khol ke weather dikhao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "web_search", "slots": {"query": "weather"}}], "joiners": ["ke"]}
+{"text": "edge open karke ipl points table dekho", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "ipl points table"}}], "joiners": ["karke"]}
+{"text": "फायरफॉक्स खोलो फिर पेट्रोल का रेट ढूंढो", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "फायरफॉक्स"}}, {"action": "web_search", "slots": {"query": "पेट्रोल का रेट"}}], "joiners": ["फिर"]}
+{"text": "brave browser chalu karo fir search karo nearest pvr kahan hai", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "brave"}}, {"action": "web_search", "slots": {"query": "nearest pvr kahan hai"}}], "joiners": ["fir"]}
+{"text": "browser kholo and search karo gold rate today", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "browser"}}, {"action": "web_search", "slots": {"query": "gold rate today"}}], "joiners": ["and"]}
+{"text": "umm google chrome open karo uske baad dollar to rupee rate batao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "google chrome"}}, {"action": "web_search", "slots": {"query": "dollar to rupee rate"}}], "joiners": ["uske baad"]}
+{"text": "क्रोम खोलो और दिल्ली का मौसम बताओ", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "क्रोम"}}, {"action": "web_search", "slots": {"query": "दिल्ली का मौसम"}}], "joiners": ["और"]}
+{"text": "edge kholke aaj ka sensex dikhao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "aaj ka sensex"}}], "joiners": ["ke"]}
+{"text": "Firefox start karo then search karo python tutorial for beginners", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Firefox"}}, {"action": "web_search", "slots": {"query": "python tutorial for beginners"}}], "joiners": ["then"]}
+{"text": "opera kholo aur phir search karo train 12951 ka status", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "opera"}}, {"action": "web_search", "slots": {"query": "train 12951 ka status"}}], "joiners": ["aur phir"]}
+{"text": "chrome kholo n search karo best phones under 20000", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "best phones under 20000"}}], "joiners": ["n"]}
+{"text": "browser open kar ke cricbuzz pe live score dekho", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "browser"}}, {"action": "web_search", "slots": {"site": "cricbuzz", "query": "live score"}}], "joiners": ["kar ke"]}
+{"text": "edge kholo or covid ke naye cases search karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "covid ke naye cases"}}], "joiners": ["or"]}
+{"text": "chrome chalao aur google karo shahrukh khan ki nayi movie kaun si hai", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "shahrukh khan ki nayi movie kaun si hai"}}], "joiners": ["aur"]}
+{"text": "pehle chrome kholo phir amazon pe headphones dhundho", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"site": "amazon", "query": "headphones"}}], "joiners": ["phir"]}
+{"text": "ब्राउज़र खोल के आज की खबरें दिखाओ", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ब्राउज़र"}}, {"action": "web_search", "slots": {"query": "आज की खबरें"}}], "joiners": ["के"]}
+{"text": "Chrome kholo uske bad Flipkart pe iphone 15 ka price check karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "web_search", "slots": {"site": "Flipkart", "query": "iphone 15 ka price"}}], "joiners": ["uske bad"]}
+{"text": "firefox khol do aur wikipedia pe taj mahal search karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "web_search", "slots": {"site": "wikipedia", "query": "taj mahal"}}], "joiners": ["aur"]}
+{"text": "chrome kholo yaar aur fir dekho kal pune mein baarish hogi kya", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "kal pune mein baarish hogi kya"}}], "joiners": ["aur fir"]}
+{"text": "chrome kholo aur youtube dot com pe jao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "youtube dot com"}}], "joiners": ["aur"]}
+{"text": "edge khol ke irctc ki website kholo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "open_website", "slots": {"site": "irctc"}}], "joiners": ["ke"]}
+{"text": "फायरफॉक्स ओपन करो फिर जीमेल डॉट कॉम खोलो", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "फायरफॉक्स"}}, {"action": "open_website", "slots": {"site": "जीमेल डॉट कॉम"}}], "joiners": ["फिर"]}
+{"text": "chrome start karke netflix ki site pe jao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "netflix"}}], "joiners": ["karke"]}
+{"text": "browser kholo then linkedin website open karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "browser"}}, {"action": "open_website", "slots": {"site": "linkedin"}}], "joiners": ["then"]}
+{"text": "क्रोम खोलो फिर फ्लिपकार्ट की वेबसाइट खोलो", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "क्रोम"}}, {"action": "open_website", "slots": {"site": "फ्लिपकार्ट"}}], "joiners": ["फिर"]}
+{"text": "brave kholo aur hotstar dot com kholo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "brave"}}, {"action": "open_website", "slots": {"site": "hotstar dot com"}}], "joiners": ["aur"]}
+{"text": "edge open karne ke baad sbi online ki site kholo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "open_website", "slots": {"site": "sbi online"}}], "joiners": ["ke baad"]}
+{"text": "outlook kholo fir github dot com pe jao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "outlook"}}, {"action": "open_website", "slots": {"site": "github dot com"}}], "joiners": ["fir"]}
+{"text": "chrome kholo aur uske baad makemytrip ki website kholo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "makemytrip"}}], "joiners": ["aur", "uske baad"]}
+{"text": "youtube kholo aur arijit ke gaane chalao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "arijit"}}], "joiners": ["aur"]}
+{"text": "YouTube khol ke Arijit Singh ke gaane chalao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "YouTube"}}, {"action": "play_media", "slots": {"query": "Arijit Singh"}}], "joiners": ["ke"]}
+{"text": "spotify kholo phir lofi music lagao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "lofi music"}}], "joiners": ["phir"]}
+{"text": "स्पॉटिफाई ओपन करके दिलजीत दोसांझ के गाने बजाओ", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "स्पॉटिफाई"}}, {"action": "play_media", "slots": {"query": "दिलजीत दोसांझ"}}], "joiners": ["करके"]}
+{"text": "youtube open karo then carryminati chalao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "carryminati"}}], "joiners": ["then"]}
+{"text": "gaana app kholo aur bhakti songs chalao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "gaana"}}, {"action": "play_media", "slots": {"query": "bhakti songs"}}], "joiners": ["aur"]}
+{"text": "wynk kholo fir punjabi songs lagao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "wynk"}}, {"action": "play_media", "slots": {"query": "punjabi songs"}}], "joiners": ["fir"]}
+{"text": "यूट्यूब खोलो और कपिल शर्मा शो चलाओ", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "यूट्यूब"}}, {"action": "play_media", "slots": {"query": "कपिल शर्मा शो"}}], "joiners": ["और"]}
+{"text": "amazon music open karke AP Dhillon ke songs chalao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "amazon music"}}, {"action": "play_media", "slots": {"query": "AP Dhillon"}}], "joiners": ["karke"]}
+{"text": "youtube kholo uske baad mrbeast ka video lagao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "mrbeast"}}], "joiners": ["uske baad"]}
+{"text": "Spotify chalu karo and play karo the weeknd", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Spotify"}}, {"action": "play_media", "slots": {"query": "the weeknd"}}], "joiners": ["and"]}
+{"text": "jio saavn kholo phir sonu nigam ke gaane bajao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "jio saavn"}}, {"action": "play_media", "slots": {"query": "sonu nigam"}}], "joiners": ["phir"]}
+{"text": "youtube kholke dhruv rathee ka video chalao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "dhruv rathee"}}], "joiners": ["ke"]}
+{"text": "spotify kholo aur phir 90s bollywood hits lagao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "90s bollywood hits"}}], "joiners": ["aur phir"]}
+{"text": "स्पॉटिफाई खोल के अरिजीत सिंह के गाने बजाओ", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "स्पॉटिफाई"}}, {"action": "play_media", "slots": {"query": "अरिजीत सिंह"}}], "joiners": ["के"]}
+{"text": "you tube open kar ke bb ki vines chalao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "you tube"}}, {"action": "play_media", "slots": {"query": "bb ki vines"}}], "joiners": ["kar ke"]}
+{"text": "apple music kholo then taylor swift play karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "apple music"}}, {"action": "play_media", "slots": {"query": "taylor swift"}}], "joiners": ["then"]}
+{"text": "gaana band karo aur chrome kholo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "chrome"}}], "joiners": ["aur"]}
+{"text": "म्यूजिक पॉज़ करो फिर व्हाट्सएप खोलो", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "व्हाट्सएप"}}], "joiners": ["फिर"]}
+{"text": "gaana rok ke zoom kholo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "zoom"}}], "joiners": ["ke"]}
+{"text": "agla gaana lagao aur awaaz badhao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "next"}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["aur"]}
+{"text": "volume kam karo phir teams kholo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "open_app", "slots": {"app": "teams"}}], "joiners": ["phir"]}
+{"text": "song pause kar ke notepad kholo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "notepad"}}], "joiners": ["kar ke"]}
+{"text": "गाना रोको और कैलकुलेटर खोलो", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "कैलकुलेटर"}}], "joiners": ["और"]}
+{"text": "mute karo and outlook open karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "open_app", "slots": {"app": "outlook"}}], "joiners": ["and"]}
+{"text": "music resume karo uske baad volume badhao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "resume"}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["uske baad"]}
+{"text": "spotify pe imagine dragons chalao aur awaaz tez karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"app": "spotify", "query": "imagine dragons"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["aur"]}
+{"text": "youtube pe lata mangeshkar ke gaane lagao phir volume kam kar do", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"app": "youtube", "query": "lata mangeshkar"}}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["phir"]}
+{"text": "gaana pause karo fir mummy ko bolo ki main aa gaya", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "send_message", "slots": {"contact": "mummy", "text": "main aa gaya"}}], "joiners": ["fir"]}
+{"text": "next song lagao n volume up karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "next"}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["n"]}
+{"text": "आवाज़ कम करो और अगला गाना लगाओ", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "media_control", "slots": {}, "control": "next"}], "joiners": ["और"]}
+{"text": "notepad kholo aur likho kal meeting das baje hai", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "kal meeting das baje hai"}}], "joiners": ["aur"]}
+{"text": "Notepad khol ke type karo grocery list doodh anda bread", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Notepad"}}, {"action": "type_text", "slots": {"text": "grocery list doodh anda bread"}}], "joiners": ["ke"]}
+{"text": "word kholo phir likho dear sir i am writing to inform you", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "word"}}, {"action": "type_text", "slots": {"text": "dear sir i am writing to inform you"}}], "joiners": ["phir"]}
+{"text": "ms word open karke heading likho project report", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ms word"}}, {"action": "type_text", "slots": {"text": "project report"}}], "joiners": ["karke"]}
+{"text": "wordpad kholo then type karo happy diwali to all", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "wordpad"}}, {"action": "type_text", "slots": {"text": "happy diwali to all"}}], "joiners": ["then"]}
+{"text": "स्टिकी नोट्स खोलो और लिखो बिजली का बिल भरना है", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "स्टिकी नोट्स"}}, {"action": "type_text", "slots": {"text": "बिजली का बिल भरना है"}}], "joiners": ["और"]}
+{"text": "onenote khol ke likho chapter 5 revise karna hai", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "onenote"}}, {"action": "type_text", "slots": {"text": "chapter 5 revise karna hai"}}], "joiners": ["ke"]}
+{"text": "नोटपैड खोलो और लिखो आज का काम पूरा हुआ", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "नोटपैड"}}, {"action": "type_text", "slots": {"text": "आज का काम पूरा हुआ"}}], "joiners": ["और"]}
+{"text": "teams kholo uske baad type karo good morning everyone", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "teams"}}, {"action": "type_text", "slots": {"text": "good morning everyone"}}], "joiners": ["uske baad"]}
+{"text": "whatsapp kholo aur type karo kya haal hai", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "type_text", "slots": {"text": "kya haal hai"}}], "joiners": ["aur"]}
+{"text": "notepad++ kholke likho print hello world", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad++"}}, {"action": "type_text", "slots": {"text": "print hello world"}}], "joiners": ["ke"]}
+{"text": "vs code kholo phir type karo import numpy as np", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "vs code"}}, {"action": "type_text", "slots": {"text": "import numpy as np"}}], "joiners": ["phir"]}
+{"text": "slack open karke type karo standup mein 5 min late hoon", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "slack"}}, {"action": "type_text", "slots": {"text": "standup mein 5 min late hoon"}}], "joiners": ["karke"]}
+{"text": "note pad chalu karo and write karo dear diary", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "note pad"}}, {"action": "type_text", "slots": {"text": "dear diary"}}], "joiners": ["and"]}
+{"text": "नोटपैड खोल के लिखो मम्मी का जन्मदिन 12 तारीख को है", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "नोटपैड"}}, {"action": "type_text", "slots": {"text": "मम्मी का जन्मदिन 12 तारीख को है"}}], "joiners": ["के"]}
+{"text": "word kholo or likho resignation letter", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "word"}}, {"action": "type_text", "slots": {"text": "resignation letter"}}], "joiners": ["or"]}
+{"text": "settings kholo aur bluetooth pe click karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "settings"}}, {"action": "click", "slots": {"target": "bluetooth"}}], "joiners": ["aur"]}
+{"text": "file explorer khol ke downloads pe click karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "file explorer"}}, {"action": "click", "slots": {"target": "downloads"}}], "joiners": ["ke"]}
+{"text": "क्रोम खोलो फिर न्यू टैब पर क्लिक करो", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "क्रोम"}}, {"action": "click", "slots": {"target": "न्यू टैब"}}], "joiners": ["फिर"]}
+{"text": "zoom kholo aur join meeting button dabao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "zoom"}}, {"action": "click", "slots": {"target": "join meeting"}}], "joiners": ["aur"]}
+{"text": "teams open karke calendar tab pe click karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "teams"}}, {"action": "click", "slots": {"target": "calendar"}}], "joiners": ["karke"]}
+{"text": "सेटिंग्स खोलो फिर वाई-फाई पर क्लिक करो", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "सेटिंग्स"}}, {"action": "click", "slots": {"target": "वाई-फाई"}}], "joiners": ["फिर"]}
+{"text": "outlook kholo then new email pe click karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "outlook"}}, {"action": "click", "slots": {"target": "new email"}}], "joiners": ["then"]}
+{"text": "spotify kholo fir liked songs pe click karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "click", "slots": {"target": "liked songs"}}], "joiners": ["fir"]}
+{"text": "microsoft store khol ke library pe click karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "microsoft store"}}, {"action": "click", "slots": {"target": "library"}}], "joiners": ["ke"]}
+{"text": "whatsapp kholo uske baad archived pe click karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "click", "slots": {"target": "archived"}}], "joiners": ["uske baad"]}
+{"text": "sign in pe click karo phir email likho rahul123 at gmail dot com", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "sign in"}}, {"action": "type_text", "slots": {"text": "rahul123 at gmail dot com"}}], "joiners": ["phir"]}
+{"text": "search box pe click karo aur type karo wireless mouse", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "search box"}}, {"action": "type_text", "slots": {"text": "wireless mouse"}}], "joiners": ["aur"]}
+{"text": "likho hello sir aur send button dabao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "hello sir"}}, {"action": "click", "slots": {"target": "send"}}], "joiners": ["aur"]}
+{"text": "सब्सक्राइब बटन दबाओ और बेल आइकन पर क्लिक करो", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "सब्सक्राइब"}}, {"action": "click", "slots": {"target": "बेल आइकन"}}], "joiners": ["और"]}
+{"text": "skip ad pe click karo phir volume badhao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "skip ad"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["phir"]}
+{"text": "type karo thank you so much and submit pe click karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "thank you so much"}}, {"action": "click", "slots": {"target": "submit"}}], "joiners": ["and"]}
+{"text": "accept pe click karo uske baad screen padh ke sunao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "accept"}}, {"action": "read_screen", "slots": {}}], "joiners": ["uske baad"]}
+{"text": "सर्च बार पर क्लिक करो और लिखो पुणे से मुंबई बस", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "सर्च बार"}}, {"action": "type_text", "slots": {"text": "पुणे से मुंबई बस"}}], "joiners": ["और"]}
+{"text": "rahul ko message karo ki main late hoon aur phir spotify kholo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "rahul", "text": "main late hoon"}}, {"action": "open_app", "slots": {"app": "spotify"}}], "joiners": ["aur phir"]}
+{"text": "पापा को व्हाट्सएप करो घर पहुंच गया फिर यूट्यूब खोलो", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "पापा", "text": "घर पहुंच गया"}}, {"action": "open_app", "slots": {"app": "यूट्यूब"}}], "joiners": ["फिर"]}
+{"text": "नेहा को बोलो कि 5 बजे मिलते हैं उसके बाद ज़ूम खोलो", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "नेहा", "text": "5 बजे मिलते हैं"}}, {"action": "open_app", "slots": {"app": "ज़ूम"}}], "joiners": ["उसके बाद"]}
+{"text": "whatsapp kholo aur bhaiya ko bolo ki khana kha liya", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "bhaiya", "text": "khana kha liya"}}], "joiners": ["aur"]}
+{"text": "whatsapp khol ke priya ko message bhejo happy birthday", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "priya", "text": "happy birthday"}}], "joiners": ["ke"]}
+{"text": "मम्मी को बोलो कि मैं निकल गया हूँ और फिर गाना चलाओ", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "मम्मी", "text": "मैं निकल गया हूँ"}}, {"action": "play_media", "slots": {}}], "joiners": ["और फिर"]}
+{"text": "ankit ko msg karo meeting cancel ho gayi hai then outlook kholo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "ankit", "text": "meeting cancel ho gayi hai"}}, {"action": "open_app", "slots": {"app": "outlook"}}], "joiners": ["then"]}
+{"text": "sharma ji ko message karo ki rent bhej diya and paytm kholo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "sharma ji", "text": "rent bhej diya"}}, {"action": "open_app", "slots": {"app": "paytm"}}], "joiners": ["and"]}
+{"text": "gaana pause karo aur deepak ko bolo call back karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "send_message", "slots": {"contact": "deepak", "text": "call back karo"}}], "joiners": ["aur"]}
+{"text": "boss ko message bhejo running late phir google maps kholo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "boss", "text": "running late"}}, {"action": "open_app", "slots": {"app": "google maps"}}], "joiners": ["phir"]}
+{"text": "chhotu ko bolo ki homework kar le uske baad cartoon chalao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "chhotu", "text": "homework kar le"}}, {"action": "play_media", "slots": {"query": "cartoon"}}], "joiners": ["uske baad"]}
+{"text": "didi ko message karo ki train late hai fir irctc ki site kholo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "didi", "text": "train late hai"}}, {"action": "open_website", "slots": {"site": "irctc"}}], "joiners": ["fir"]}
+{"text": "whatsapp kholke vikram bhai ko bolo ki kal milte hain", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "vikram bhai", "text": "kal milte hain"}}], "joiners": ["ke"]}
+{"text": "whatsapp kholo aur screen padh ke sunao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "read_screen", "slots": {}}], "joiners": ["aur"]}
+{"text": "gaana band karo aur screen pe kya hai batao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "read_screen", "slots": {}}], "joiners": ["aur"]}
+{"text": "chrome kholo uske baad ye page padh ke sunao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "read_screen", "slots": {}}], "joiners": ["uske baad"]}
+{"text": "स्क्रीन पढ़ के सुनाओ और फिर नोटपैड खोलो", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "open_app", "slots": {"app": "नोटपैड"}}], "joiners": ["और फिर"]}
+{"text": "ok pe click karo aur jo screen pe hai wo padho", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "ok"}}, {"action": "read_screen", "slots": {}}], "joiners": ["aur"]}
+{"text": "screen pe kya likha hai batao then reply likho thik hai", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "type_text", "slots": {"text": "thik hai"}}], "joiners": ["then"]}
+{"text": "adobe reader kholo and read karo screen", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "adobe reader"}}, {"action": "read_screen", "slots": {}}], "joiners": ["and"]}
+{"text": "टीम्स खोलो फिर आउटलुक खोलो", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "टीम्स"}}, {"action": "open_app", "slots": {"app": "आउटलुक"}}], "joiners": ["फिर"]}
+{"text": "कल का मौसम बताओ और फिर कुछ ग़ज़लें चलाओ", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "कल का मौसम"}}, {"action": "play_media", "slots": {"query": "ग़ज़लें"}}], "joiners": ["और फिर"]}
+{"text": "amazon dot in kholo aur wahan running shoes dhundho", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "amazon dot in"}}, {"action": "web_search", "slots": {"query": "running shoes"}}], "joiners": ["aur"]}
+{"text": "virat kohli ki age batao phir youtube pe virat ke highlights chalao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "virat kohli ki age"}}, {"action": "play_media", "slots": {"app": "youtube", "query": "virat ke highlights"}}], "joiners": ["phir"]}
+{"text": "vlc kholo aur volume kam karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "vlc"}}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["aur"]}
+{"text": "camera app kholo phir photo button dabao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "camera"}}, {"action": "click", "slots": {"target": "photo"}}], "joiners": ["phir"]}
+{"text": "arre yaar telegram kholo after that search bar pe click karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "telegram"}}, {"action": "click", "slots": {"target": "search bar"}}], "joiners": ["after that"]}
+{"text": "discord kholo baad mein type karo bhai online aaja", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "discord"}}, {"action": "type_text", "slots": {"text": "bhai online aaja"}}], "joiners": ["baad mein"]}
+{"text": "Excel open karo tab likho january ka hisaab", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Excel"}}, {"action": "type_text", "slots": {"text": "january ka hisaab"}}], "joiners": ["tab"]}
+{"text": "powerpoint kholo saath hi spotify pe bhajan lagao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "powerpoint"}}, {"action": "play_media", "slots": {"app": "spotify", "query": "bhajan"}}], "joiners": ["saath hi"]}
+{"text": "edge kholo phir uske baad aaj ka gold rate search karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "aaj ka gold rate"}}], "joiners": ["phir", "uske baad"]}
+{"text": "umm whatsapp web kholo aur sapna ko bolo kal call karti hoon", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "whatsapp web"}}, {"action": "send_message", "slots": {"contact": "sapna", "text": "kal call karti hoon"}}], "joiners": ["aur"]}
+{"text": "gaana thoda dheere karo and then screen padho", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "read_screen", "slots": {}}], "joiners": ["and then"]}
+{"text": "chrome ko kholke fir rohit sharma ki century search karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "rohit sharma ki century"}}], "joiners": ["ke", "fir"]}
+{"text": "ok button dabane ke baad notepad kholo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "ok"}}, {"action": "open_app", "slots": {"app": "notepad"}}], "joiners": ["ke baad"]}
+{"text": "paint kholo uske baad brush pe click karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "paint"}}, {"action": "click", "slots": {"target": "brush"}}], "joiners": ["uske baad"]}
+{"text": "chrome kholo aur phir chat gpt dot com pe jao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "chat gpt dot com"}}], "joiners": ["aur phir"]}
+{"text": "zoom kholo n mute pe click karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "zoom"}}, {"action": "click", "slots": {"target": "mute"}}], "joiners": ["n"]}
+{"text": "chrome kholo, youtube dot com pe jao aur arijit ke gaane chalao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "youtube dot com"}}, {"action": "play_media", "slots": {"query": "arijit"}}], "joiners": ["aur"]}
+{"text": "gaana pause karo, whatsapp kholo aur mummy ko bolo ki aa raha hoon", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "mummy", "text": "aa raha hoon"}}], "joiners": ["aur"]}
+{"text": "notepad kholo phir likho shopping list aur save pe click karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "shopping list"}}, {"action": "click", "slots": {"target": "save"}}], "joiners": ["phir", "aur"]}
+{"text": "edge khol ke google pe weather search karo phir screen padh ke sunao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"site": "google", "query": "weather"}}, {"action": "read_screen", "slots": {}}], "joiners": ["ke", "phir"]}
+{"text": "spotify kholo, liked songs pe click karo uske baad volume badhao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "click", "slots": {"target": "liked songs"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["uske baad"]}
+{"text": "chrome kholo aur flipkart kholo phir boat headphones search karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "flipkart"}}, {"action": "web_search", "slots": {"query": "boat headphones"}}], "joiners": ["aur", "phir"]}
+{"text": "youtube kholo then mohammed rafi ke gaane chalao aur volume badhao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "mohammed rafi"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["then", "aur"]}
+{"text": "volume kam karo, teams kholo phir join pe click karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "open_app", "slots": {"app": "teams"}}, {"action": "click", "slots": {"target": "join"}}], "joiners": ["phir"]}
+{"text": "word kholo, likho dear team aur phir bold pe click karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "word"}}, {"action": "type_text", "slots": {"text": "dear team"}}, {"action": "click", "slots": {"target": "bold"}}], "joiners": ["aur phir"]}
+{"text": "क्रोम खोलो, विकिपीडिया खोलो और फिर ताजमहल सर्च करो", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "क्रोम"}}, {"action": "open_website", "slots": {"site": "विकिपीडिया"}}, {"action": "web_search", "slots": {"query": "ताजमहल"}}], "joiners": ["और फिर"]}
+{"text": "whatsapp khol ke rohan ko bolo ki 10 min mein aaunga phir spotify kholo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "rohan", "text": "10 min mein aaunga"}}, {"action": "open_app", "slots": {"app": "spotify"}}], "joiners": ["ke", "phir"]}
+{"text": "browser kholo, irctc dot co dot in pe jao fir login pe click karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "browser"}}, {"action": "open_website", "slots": {"site": "irctc dot co dot in"}}, {"action": "click", "slots": {"target": "login"}}], "joiners": ["fir"]}
+{"text": "gaana band karo aur outlook kholo uske baad new mail pe click karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "outlook"}}, {"action": "click", "slots": {"target": "new mail"}}], "joiners": ["aur", "uske baad"]}
+{"text": "calculator kholo phir notepad kholo aur likho total 4500", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "calculator"}}, {"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "total 4500"}}], "joiners": ["phir", "aur"]}
+{"text": "spotify kholo aur kk ke gaane lagao then awaaz thodi kam karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "kk"}}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["aur", "then"]}
+{"text": "screen padh ke batao, phir ok dabao aur chrome kholo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "click", "slots": {"target": "ok"}}, {"action": "open_app", "slots": {"app": "chrome"}}], "joiners": ["phir", "aur"]}
+{"text": "firefox kholo, youtube kholo aur honey singh chalao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "honey singh"}}], "joiners": ["aur"]}
+{"text": "edge kholo phir chatgpt dot com pe jao aur likho write a leave application", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "open_website", "slots": {"site": "chatgpt dot com"}}, {"action": "type_text", "slots": {"text": "write a leave application"}}], "joiners": ["phir", "aur"]}
+{"text": "file explorer kholo, documents pe click karo phir resume pe click karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "file explorer"}}, {"action": "click", "slots": {"target": "documents"}}, {"action": "click", "slots": {"target": "resume"}}], "joiners": ["phir"]}
+{"text": "नोटपैड खोलो, लिखो कल छुट्टी है और सेव पर क्लिक करो", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "नोटपैड"}}, {"action": "type_text", "slots": {"text": "कल छुट्टी है"}}, {"action": "click", "slots": {"target": "सेव"}}], "joiners": ["और"]}
+{"text": "music resume karo, volume badhao aur next gaana lagao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "resume"}, {"action": "media_control", "slots": {}, "control": "volume_up"}, {"action": "media_control", "slots": {}, "control": "next"}], "joiners": ["aur"]}
+{"text": "zoom kholo uske baad join pe click karo phir meeting id type karo 845 221 9087", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "zoom"}}, {"action": "click", "slots": {"target": "join"}}, {"action": "type_text", "slots": {"text": "845 221 9087"}}], "joiners": ["uske baad", "phir"]}
+{"text": "jiosaavn kholo, bhajan lagao aur volume kam karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "jiosaavn"}}, {"action": "play_media", "slots": {"query": "bhajan"}}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["aur"]}
+{"text": "chrome khol ke gmail dot com kholo aur compose pe click karo", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "gmail dot com"}}, {"action": "click", "slots": {"target": "compose"}}], "joiners": ["ke", "aur"]}
+{"text": "anil ko bolo ki file bhej di hai phir teams kholo aur screen padh ke sunao", "lang": "hi", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "anil", "text": "file bhej di hai"}}, {"action": "open_app", "slots": {"app": "teams"}}, {"action": "read_screen", "slots": {}}], "joiners": ["phir", "aur"]}
+{"text": "tom and jerry chalao", "lang": "hi", "action": "play_media", "slots": {"query": "tom and jerry"}}
+{"text": "Tom aur Jerry cartoon lagao youtube pe", "lang": "hi", "action": "play_media", "slots": {"app": "youtube", "query": "Tom aur Jerry cartoon"}}
+{"text": "ram aur shyam film lagao", "lang": "hi", "action": "play_media", "slots": {"query": "ram aur shyam"}}
+{"text": "seeta aur geeta chalao", "lang": "hi", "action": "play_media", "slots": {"query": "seeta aur geeta"}}
+{"text": "phir hera pheri lagao", "lang": "hi", "action": "play_media", "slots": {"query": "phir hera pheri"}}
+{"text": "phir bhi dil hai hindustani ka gaana chalao", "lang": "hi", "action": "play_media", "slots": {"query": "phir bhi dil hai hindustani"}}
+{"text": "phir le aaya dil sunao", "lang": "hi", "action": "play_media", "slots": {"query": "phir le aaya dil"}}
+{"text": "spotify pe aur ho chalao", "lang": "hi", "action": "play_media", "slots": {"app": "spotify", "query": "aur ho"}}
+{"text": "Phir Kabhi song lagao", "lang": "hi", "action": "play_media", "slots": {"query": "Phir Kabhi"}}
+{"text": "phir na aisi raat aayegi bajao", "lang": "hi", "action": "play_media", "slots": {"query": "phir na aisi raat aayegi"}}
+{"text": "fast and furious ka trailer chalao", "lang": "hi", "action": "play_media", "slots": {"query": "fast and furious ka trailer"}}
+{"text": "youtube pe pride and prejudice chalao", "lang": "hi", "action": "play_media", "slots": {"app": "youtube", "query": "pride and prejudice"}}
+{"text": "rock and roll music lagao", "lang": "hi", "action": "play_media", "slots": {"query": "rock and roll music"}}
+{"text": "main aur charles movie chalao", "lang": "hi", "action": "play_media", "slots": {"query": "main aur charles"}}
+{"text": "netflix pe saas bahu aur flamingo chalao", "lang": "hi", "action": "play_media", "slots": {"app": "netflix", "query": "saas bahu aur flamingo"}}
+{"text": "aur pyaar ho gaya ke gaane chalao", "lang": "hi", "action": "play_media", "slots": {"query": "aur pyaar ho gaya"}}
+{"text": "टॉम एंड जेरी चलाओ", "lang": "hi", "action": "play_media", "slots": {"query": "टॉम एंड जेरी"}}
+{"text": "राम और श्याम फिल्म चलाओ", "lang": "hi", "action": "play_media", "slots": {"query": "राम और श्याम"}}
+{"text": "फिर हेरा फेरी लगाओ", "lang": "hi", "action": "play_media", "slots": {"query": "फिर हेरा फेरी"}}
+{"text": "phir se ud chala chalao", "lang": "hi", "action": "play_media", "slots": {"query": "phir se ud chala"}}
+{"text": "mr and mrs mahi ka trailer chalao", "lang": "hi", "action": "play_media", "slots": {"query": "mr and mrs mahi ka trailer"}}
+{"text": "simon and garfunkel chalao spotify pe", "lang": "hi", "action": "play_media", "slots": {"app": "spotify", "query": "simon and garfunkel"}}
+{"text": "phir mohabbat song chalao", "lang": "hi", "action": "play_media", "slots": {"query": "phir mohabbat"}}
+{"text": "black and white wale purane gaane lagao", "lang": "hi", "action": "play_media", "slots": {"query": "black and white wale purane gaane"}}
+{"text": "salt and pepper chicken recipe search karo", "lang": "hi", "action": "web_search", "slots": {"query": "salt and pepper chicken recipe"}}
+{"text": "dal aur chawal mein kitni calories hoti hai", "lang": "hi", "action": "web_search", "slots": {"query": "dal aur chawal mein kitni calories hoti hai"}}
+{"text": "aloo aur matar ki sabzi kaise banate hain", "lang": "hi", "action": "web_search", "slots": {"query": "aloo aur matar ki sabzi kaise banate hain"}}
+{"text": "ram aur shyam film kab release hui thi", "lang": "hi", "action": "web_search", "slots": {"query": "ram aur shyam film kab release hui thi"}}
+{"text": "tom and jerry kisne banaya tha", "lang": "hi", "action": "web_search", "slots": {"query": "tom and jerry kisne banaya tha"}}
+{"text": "bhagat singh aur sukhdev ke baare mein batao", "lang": "hi", "action": "web_search", "slots": {"query": "bhagat singh aur sukhdev"}}
+{"text": "tata aur reliance ka share price batao", "lang": "hi", "action": "web_search", "slots": {"query": "tata aur reliance ka share price"}}
+{"text": "phir hera pheri ki cast kaun hai", "lang": "hi", "action": "web_search", "slots": {"query": "phir hera pheri ki cast kaun hai"}}
+{"text": "pehle aur doosre vishwa yudh mein kya fark hai", "lang": "hi", "action": "web_search", "slots": {"query": "pehle aur doosre vishwa yudh mein kya fark hai"}}
+{"text": "iphone aur samsung mein kaun sa better hai", "lang": "hi", "action": "web_search", "slots": {"query": "iphone aur samsung mein kaun sa better hai"}}
+{"text": "भारत और पाकिस्तान का मैच कब है", "lang": "hi", "action": "web_search", "slots": {"query": "भारत और पाकिस्तान का मैच कब है"}}
+{"text": "डॉलर और रुपये का रेट बताओ", "lang": "hi", "action": "web_search", "slots": {"query": "डॉलर और रुपये का रेट"}}
+{"text": "amazon pe salt and pepper shakers dhundho", "lang": "hi", "action": "web_search", "slots": {"site": "amazon", "query": "salt and pepper shakers"}}
+{"text": "youtube pe ram aur sita ki kahani search karo", "lang": "hi", "action": "web_search", "slots": {"site": "youtube", "query": "ram aur sita ki kahani"}}
+{"text": "black and decker drill ka price search karo", "lang": "hi", "action": "web_search", "slots": {"query": "black and decker drill ka price"}}
+{"text": "mummy ko bolo ki khana bana do aur jaldi aao", "lang": "hi", "action": "send_message", "slots": {"contact": "mummy", "text": "khana bana do aur jaldi aao"}}
+{"text": "rahul ko message karo pehle ghar ja phir office aana", "lang": "hi", "action": "send_message", "slots": {"contact": "rahul", "text": "pehle ghar ja phir office aana"}}
+{"text": "पापा को बोलो दवाई ले लेना और सो जाना", "lang": "hi", "action": "send_message", "slots": {"contact": "पापा", "text": "दवाई ले लेना और सो जाना"}}
+{"text": "neha ko whatsapp karo ki movie ke baad dinner karenge", "lang": "hi", "action": "send_message", "slots": {"contact": "neha", "text": "movie ke baad dinner karenge"}}
+{"text": "bhaiya ko bolo ki market jaake doodh aur bread le aana", "lang": "hi", "action": "send_message", "slots": {"contact": "bhaiya", "text": "market jaake doodh aur bread le aana"}}
+{"text": "ankit ko msg karo meeting khatam karke call karna", "lang": "hi", "action": "send_message", "slots": {"contact": "ankit", "text": "meeting khatam karke call karna"}}
+{"text": "दीदी को बोलो कि सब्ज़ी और फल ले आना", "lang": "hi", "action": "send_message", "slots": {"contact": "दीदी", "text": "सब्ज़ी और फल ले आना"}}
+{"text": "मम्मी को मैसेज करो कि मैं खाना खाके फिर निकलूंगा", "lang": "hi", "action": "send_message", "slots": {"contact": "मम्मी", "text": "मैं खाना खाके फिर निकलूंगा"}}
+{"text": "boss ko message bhejo i will finish the report and then call you", "lang": "hi", "action": "send_message", "slots": {"contact": "boss", "text": "i will finish the report and then call you"}}
+{"text": "sita ko bolo ki kapde dho ke sukha dena uske baad bazaar jaana", "lang": "hi", "action": "send_message", "slots": {"contact": "sita", "text": "kapde dho ke sukha dena uske baad bazaar jaana"}}
+{"text": "likho ki ravi aur seema aa rahe hain", "lang": "hi", "action": "type_text", "slots": {"text": "ravi aur seema aa rahe hain"}}
+{"text": "type karo milk eggs and bread", "lang": "hi", "action": "type_text", "slots": {"text": "milk eggs and bread"}}
+{"text": "likho pehle report bhejna phir call karna", "lang": "hi", "action": "type_text", "slots": {"text": "pehle report bhejna phir call karna"}}
+{"text": "type karo terms and conditions apply", "lang": "hi", "action": "type_text", "slots": {"text": "terms and conditions apply"}}
+{"text": "लिखो राम और श्याम कल आएंगे", "lang": "hi", "action": "type_text", "slots": {"text": "राम और श्याम कल आएंगे"}}
+{"text": "likho lunch ke baad meeting hai", "lang": "hi", "action": "type_text", "slots": {"text": "lunch ke baad meeting hai"}}
+{"text": "terms and conditions pe click karo", "lang": "hi", "action": "click", "slots": {"target": "terms and conditions"}}
+{"text": "save and exit dabao", "lang": "hi", "action": "click", "slots": {"target": "save and exit"}}
+{"text": "mail and calendar kholo", "lang": "hi", "action": "open_app", "slots": {"app": "mail and calendar"}}
+{"text": "movies and tv app kholo", "lang": "hi", "action": "open_app", "slots": {"app": "movies and tv"}}
+{"text": "आलू और प्याज़ का भाव बताओ", "lang": "hi", "action": "web_search", "slots": {"query": "आलू और प्याज़ का भाव"}}
+{"text": "notepad kholo", "lang": "hi", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "Calculator chalu karo", "lang": "hi", "action": "open_app", "slots": {"app": "Calculator"}}
+{"text": "umm vs code open karo", "lang": "hi", "action": "open_app", "slots": {"app": "vs code"}}
+{"text": "zoom wala app kholo", "lang": "hi", "action": "open_app", "slots": {"app": "zoom"}}
+{"text": "MS Teams start karo", "lang": "hi", "action": "open_app", "slots": {"app": "MS Teams"}}
+{"text": "excel khol do yaar", "lang": "hi", "action": "open_app", "slots": {"app": "excel"}}
+{"text": "powerpoint open karna", "lang": "hi", "action": "open_app", "slots": {"app": "powerpoint"}}
+{"text": "ms paint kholo", "lang": "hi", "action": "open_app", "slots": {"app": "ms paint"}}
+{"text": "file explorer kholo", "lang": "hi", "action": "open_app", "slots": {"app": "file explorer"}}
+{"text": "task manager chalu karo", "lang": "hi", "action": "open_app", "slots": {"app": "task manager"}}
+{"text": "control panel open kar do", "lang": "hi", "action": "open_app", "slots": {"app": "control panel"}}
+{"text": "snipping tool kholo", "lang": "hi", "action": "open_app", "slots": {"app": "snipping tool"}}
+{"text": "टेलीग्राम खोलो", "lang": "hi", "action": "open_app", "slots": {"app": "टेलीग्राम"}}
+{"text": "discord open karo bhai", "lang": "hi", "action": "open_app", "slots": {"app": "discord"}}
+{"text": "steam kholo", "lang": "hi", "action": "open_app", "slots": {"app": "steam"}}
+{"text": "photoshop chalao", "lang": "hi", "action": "open_app", "slots": {"app": "photoshop"}}
+{"text": "OBS studio kholo", "lang": "hi", "action": "open_app", "slots": {"app": "OBS studio"}}
+{"text": "anydesk open karo", "lang": "hi", "action": "open_app", "slots": {"app": "anydesk"}}
+{"text": "tally kholo", "lang": "hi", "action": "open_app", "slots": {"app": "tally"}}
+{"text": "कैलकुलेटर खोलो", "lang": "hi", "action": "open_app", "slots": {"app": "कैलकुलेटर"}}
+{"text": "नोटपैड चालू करो", "lang": "hi", "action": "open_app", "slots": {"app": "नोटपैड"}}
+{"text": "वर्ड खोलो", "lang": "hi", "action": "open_app", "slots": {"app": "वर्ड"}}
+{"text": "एक्सेल ओपन करो", "lang": "hi", "action": "open_app", "slots": {"app": "एक्सेल"}}
+{"text": "Spotify", "lang": "none", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Notepad", "lang": "none", "action": "open_app", "slots": {"app": "Notepad"}}
+{"text": "whatsapp kholo jaldi", "lang": "hi", "action": "open_app", "slots": {"app": "whatsapp"}}
+{"text": "camera on karo", "lang": "hi", "action": "open_app", "slots": {"app": "camera"}}
+{"text": "kolo crome", "lang": "hi", "action": "open_app", "slots": {"app": "crome"}}
+{"text": "settings kholo", "lang": "hi", "action": "open_app", "slots": {"app": "settings"}}
+{"text": "amazon ki website kholo", "lang": "hi", "action": "open_website", "slots": {"site": "amazon"}}
+{"text": "flipkart dot com kholo", "lang": "hi", "action": "open_website", "slots": {"site": "flipkart dot com"}}
+{"text": "open irctc dot co dot in", "lang": "hi", "action": "open_website", "slots": {"site": "irctc dot co dot in"}}
+{"text": "netflix ki site pe jao", "lang": "hi", "action": "open_website", "slots": {"site": "netflix"}}
+{"text": "github dot com open karo", "lang": "hi", "action": "open_website", "slots": {"site": "github dot com"}}
+{"text": "wikipedia kholo", "lang": "hi", "action": "open_website", "slots": {"site": "wikipedia"}}
+{"text": "zomato ki website open karo", "lang": "hi", "action": "open_website", "slots": {"site": "zomato"}}
+{"text": "moneycontrol dot com kholo", "lang": "hi", "action": "open_website", "slots": {"site": "moneycontrol dot com"}}
+{"text": "sbi ki website pe le chalo", "lang": "hi", "action": "open_website", "slots": {"site": "sbi"}}
+{"text": "geeksforgeeks website kholo", "lang": "hi", "action": "open_website", "slots": {"site": "geeksforgeeks"}}
+{"text": "अमेज़न की वेबसाइट खोलो", "lang": "hi", "action": "open_website", "slots": {"site": "अमेज़न"}}
+{"text": "फ्लिपकार्ट डॉट कॉम खोलो", "lang": "hi", "action": "open_website", "slots": {"site": "फ्लिपकार्ट डॉट कॉम"}}
+{"text": "w w w dot nykaa dot com kholo", "lang": "hi", "action": "open_website", "slots": {"site": "w w w dot nykaa dot com"}}
+{"text": "swiggy ki site kholo na", "lang": "hi", "action": "open_website", "slots": {"site": "swiggy"}}
+{"text": "cricbuzz website kholo", "lang": "hi", "action": "open_website", "slots": {"site": "cricbuzz"}}
+{"text": "hotstar dot com pe le chalo", "lang": "hi", "action": "open_website", "slots": {"site": "hotstar dot com"}}
+{"text": "bangalore ka weather batao", "lang": "hi", "action": "web_search", "slots": {"query": "bangalore ka weather"}}
+{"text": "india ka prime minister kaun hai", "lang": "hi", "action": "web_search", "slots": {"query": "india ka prime minister kaun hai"}}
+{"text": "amitabh bachchan ki age kitni hai", "lang": "hi", "action": "web_search", "slots": {"query": "amitabh bachchan ki age kitni hai"}}
+{"text": "shah rukh khan ke baare mein batao", "lang": "hi", "action": "web_search", "slots": {"query": "shah rukh khan"}}
+{"text": "jawan movie ka box office collection", "lang": "hi", "action": "web_search", "slots": {"query": "jawan movie ka box office collection"}}
+{"text": "pathaan kisne direct ki", "lang": "hi", "action": "web_search", "slots": {"query": "pathaan kisne direct ki"}}
+{"text": "photosynthesis kya hai samjhao", "lang": "hi", "action": "web_search", "slots": {"query": "photosynthesis kya hai"}}
+{"text": "samjhao black hole kya hota hai", "lang": "hi", "action": "web_search", "slots": {"query": "black hole kya hota hai"}}
+{"text": "google karo nearest atm", "lang": "hi", "action": "web_search", "slots": {"query": "nearest atm"}}
+{"text": "youtube pe cooking videos search karo", "lang": "hi", "action": "web_search", "slots": {"site": "youtube", "query": "cooking videos"}}
+{"text": "Flipkart pe redmi note 13 ka price dekho", "lang": "hi", "action": "web_search", "slots": {"site": "Flipkart", "query": "redmi note 13 ka price"}}
+{"text": "kal mumbai mein baarish hogi kya", "lang": "hi", "action": "web_search", "slots": {"query": "kal mumbai mein baarish hogi kya"}}
+{"text": "ipl 2026 ka schedule batao", "lang": "hi", "action": "web_search", "slots": {"query": "ipl 2026 ka schedule"}}
+{"text": "Arijit Singh kaun hai", "lang": "hi", "action": "web_search", "slots": {"query": "Arijit Singh kaun hai"}}
+{"text": "kesariya ke lyrics dikhao", "lang": "hi", "action": "web_search", "slots": {"query": "kesariya ke lyrics"}}
+{"text": "12th fail movie ki cast batao", "lang": "hi", "action": "web_search", "slots": {"query": "12th fail movie ki cast"}}
+{"text": "sachin tendulkar ne kitni centuries banayi", "lang": "hi", "action": "web_search", "slots": {"query": "sachin tendulkar ne kitni centuries banayi"}}
+{"text": "ताजमहल किसने बनवाया था", "lang": "hi", "action": "web_search", "slots": {"query": "ताजमहल किसने बनवाया था"}}
+{"text": "lata mangeshkar ka janam kab hua tha", "lang": "hi", "action": "web_search", "slots": {"query": "lata mangeshkar ka janam kab hua tha"}}
+{"text": "दिल्ली का मौसम बताओ", "lang": "hi", "action": "web_search", "slots": {"query": "दिल्ली का मौसम"}}
+{"text": "भारत के राष्ट्रपति कौन हैं", "lang": "hi", "action": "web_search", "slots": {"query": "भारत के राष्ट्रपति कौन हैं"}}
+{"text": "शाहरुख खान की नई फिल्म कौन सी है", "lang": "hi", "action": "web_search", "slots": {"query": "शाहरुख खान की नई फिल्म कौन सी है"}}
+{"text": "पनीर बटर मसाला की रेसिपी बताओ", "lang": "hi", "action": "web_search", "slots": {"query": "पनीर बटर मसाला की रेसिपी"}}
+{"text": "chandrayaan 3 kab launch hua tha", "lang": "hi", "action": "web_search", "slots": {"query": "chandrayaan 3 kab launch hua tha"}}
+{"text": "wikipedia pe mahatma gandhi search karo", "lang": "hi", "action": "web_search", "slots": {"site": "wikipedia", "query": "mahatma gandhi"}}
+{"text": "umm bhai stree 2 ka review batao", "lang": "hi", "action": "web_search", "slots": {"query": "stree 2 ka review"}}
+{"text": "kalki 2898 ad ka director kaun hai", "lang": "hi", "action": "web_search", "slots": {"query": "kalki 2898 ad ka director kaun hai"}}
+{"text": "diljit dosanjh ke baare mein batao", "lang": "hi", "action": "web_search", "slots": {"query": "diljit dosanjh"}}
+{"text": "सचिन तेंदुलकर के बारे में बताओ", "lang": "hi", "action": "web_search", "slots": {"query": "सचिन तेंदुलकर"}}
+{"text": "arijit singh ke gaane chalao", "lang": "hi", "action": "play_media", "slots": {"query": "arijit singh"}}
+{"text": "spotify pe diljit chalao", "lang": "hi", "action": "play_media", "slots": {"app": "spotify", "query": "diljit"}}
+{"text": "youtube pe kapil sharma show lagao", "lang": "hi", "action": "play_media", "slots": {"app": "youtube", "query": "kapil sharma show"}}
+{"text": "gaana chalao", "lang": "hi", "action": "play_media", "slots": {}}
+{"text": "kuch music bajao", "lang": "hi", "action": "play_media", "slots": {}}
+{"text": "old hindi songs chalao", "lang": "hi", "action": "play_media", "slots": {"query": "old hindi songs"}}
+{"text": "subah ke bhajans chalao", "lang": "hi", "action": "play_media", "slots": {"query": "subah ke bhajans"}}
+{"text": "jiosaavn pe sonu nigam bajao", "lang": "none", "action": "play_media", "slots": {"app": "jiosaavn", "query": "sonu nigam"}}
+{"text": "play kesariya", "lang": "hi", "action": "play_media", "slots": {"query": "kesariya"}}
+{"text": "tum hi ho play karo", "lang": "hi", "action": "play_media", "slots": {"query": "tum hi ho"}}
+{"text": "rafi sahab ke gaane lagao", "lang": "hi", "action": "play_media", "slots": {"query": "rafi sahab"}}
+{"text": "wynk pe punjabi songs chalao", "lang": "hi", "action": "play_media", "slots": {"app": "wynk", "query": "punjabi songs"}}
+{"text": "gaana app pe ghazals bajao", "lang": "hi", "action": "play_media", "slots": {"app": "gaana", "query": "ghazals"}}
+{"text": "amazon music pe ap dhillon chalao", "lang": "hi", "action": "play_media", "slots": {"app": "amazon music", "query": "ap dhillon"}}
+{"text": "youtube music pe hanuman chalisa lagao", "lang": "hi", "action": "play_media", "slots": {"app": "youtube music", "query": "hanuman chalisa"}}
+{"text": "spotify pe arijit ki playlist chalao", "lang": "hi", "action": "play_media", "slots": {"app": "spotify", "query": "arijit ki playlist"}}
+{"text": "apple music pe the local train chalao", "lang": "hi", "action": "play_media", "slots": {"app": "apple music", "query": "the local train"}}
+{"text": "अपना बना ले चलाओ", "lang": "hi", "action": "play_media", "slots": {"query": "अपना बना ले"}}
+{"text": "पुराने गाने चलाओ", "lang": "hi", "action": "play_media", "slots": {"query": "पुराने गाने"}}
+{"text": "यूट्यूब पर भजन चलाओ", "lang": "hi", "action": "play_media", "slots": {"app": "यूट्यूब", "query": "भजन"}}
+{"text": "स्पॉटिफाई पर लता मंगेशकर चलाओ", "lang": "hi", "action": "play_media", "slots": {"app": "स्पॉटिफाई", "query": "लता मंगेशकर"}}
+{"text": "kuch romantic songs lagao na", "lang": "hi", "action": "play_media", "slots": {"query": "romantic songs"}}
+{"text": "panchayat season 3 chalao", "lang": "hi", "action": "play_media", "slots": {"query": "panchayat season 3"}}
+{"text": "prateek kuhad sunao", "lang": "hi", "action": "play_media", "slots": {"query": "prateek kuhad"}}
+{"text": "sufi music chalao", "lang": "hi", "action": "play_media", "slots": {"query": "sufi music"}}
+{"text": "spotify pe workout mix chalao", "lang": "hi", "action": "play_media", "slots": {"app": "spotify", "query": "workout mix"}}
+{"text": "सोनू निगम के गाने सुनाओ", "lang": "hi", "action": "play_media", "slots": {"query": "सोनू निगम"}}
+{"text": "gaana rok do", "lang": "hi", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "pause", "lang": "none", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "next", "lang": "none", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "agla gaana", "lang": "hi", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "pichla gaana chalao", "lang": "hi", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "awaaz badhao", "lang": "hi", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "volume kam karo", "lang": "hi", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "mute kar do", "lang": "hi", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "gaana wapas chalao", "lang": "hi", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "resume karo", "lang": "hi", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "thoda aawaz tez karo", "lang": "hi", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "song skip karo", "lang": "hi", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "previous song lagao", "lang": "hi", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "music ruko", "lang": "hi", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "गाना रोको", "lang": "hi", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "अगला गाना चलाओ", "lang": "hi", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "आवाज़ बढ़ाओ", "lang": "hi", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "म्यूट करो", "lang": "hi", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "volume up", "lang": "none", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "fir se chalao jo chal raha tha", "lang": "hi", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "आवाज़ धीरे करो", "lang": "hi", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "rahul ko message karo ki main late hoon", "lang": "hi", "action": "send_message", "slots": {"contact": "rahul", "text": "main late hoon"}}
+{"text": "mummy ko bolo khana mat banana", "lang": "hi", "action": "send_message", "slots": {"contact": "mummy", "text": "khana mat banana"}}
+{"text": "papa ko whatsapp karo ki gaadi le li", "lang": "hi", "action": "send_message", "slots": {"contact": "papa", "text": "gaadi le li"}}
+{"text": "priya didi ko bhejo happy birthday", "lang": "hi", "action": "send_message", "slots": {"contact": "priya didi", "text": "happy birthday"}}
+{"text": "vikas sir ko message bhejo ki aaj class nahi aaunga", "lang": "hi", "action": "send_message", "slots": {"contact": "vikas sir", "text": "aaj class nahi aaunga"}}
+{"text": "ghar pahunch gaya ye maa ko bhej do", "lang": "hi", "action": "send_message", "slots": {"contact": "maa", "text": "ghar pahunch gaya"}}
+{"text": "सोनू को बोलो पैसे भेज दिए", "lang": "hi", "action": "send_message", "slots": {"contact": "सोनू", "text": "पैसे भेज दिए"}}
+{"text": "boss ko msg karo stuck in traffic", "lang": "hi", "action": "send_message", "slots": {"contact": "boss", "text": "stuck in traffic"}}
+{"text": "bhabhi ko message karo ki raat ko dinner pe aa rahe hain", "lang": "hi", "action": "send_message", "slots": {"contact": "bhabhi", "text": "raat ko dinner pe aa rahe hain"}}
+{"text": "अंकित को मैसेज करो कि कल मिलते हैं", "lang": "hi", "action": "send_message", "slots": {"contact": "अंकित", "text": "कल मिलते हैं"}}
+{"text": "पापा को बोलो कि मैं ठीक हूँ", "lang": "hi", "action": "send_message", "slots": {"contact": "पापा", "text": "मैं ठीक हूँ"}}
+{"text": "दीदी को भेजो कि ट्रेन टाइम पर है", "lang": "hi", "action": "send_message", "slots": {"contact": "दीदी", "text": "ट्रेन टाइम पर है"}}
+{"text": "nanu ko bolo ki dawai time pe le lena", "lang": "hi", "action": "send_message", "slots": {"contact": "nanu", "text": "dawai time pe le lena"}}
+{"text": "gupta ji ko message karo ki rent transfer kar diya", "lang": "hi", "action": "send_message", "slots": {"contact": "gupta ji", "text": "rent transfer kar diya"}}
+{"text": "akash ko text karo ki pizza order kar diya", "lang": "hi", "action": "send_message", "slots": {"contact": "akash", "text": "pizza order kar diya"}}
+{"text": "rohit ko message karo", "lang": "hi", "action": "send_message", "slots": {"contact": "rohit"}, "incomplete": true}
+{"text": "मम्मी को मैसेज भेजो", "lang": "hi", "action": "send_message", "slots": {"contact": "मम्मी"}, "incomplete": true}
+{"text": "likho kal meeting hai", "lang": "hi", "action": "type_text", "slots": {"text": "kal meeting hai"}}
+{"text": "type karo dear sir", "lang": "hi", "action": "type_text", "slots": {"text": "dear sir"}}
+{"text": "ye likho main kal nahi aa paunga", "lang": "hi", "action": "type_text", "slots": {"text": "main kal nahi aa paunga"}}
+{"text": "type karo thank you for your support", "lang": "hi", "action": "type_text", "slots": {"text": "thank you for your support"}}
+{"text": "हैप्पी न्यू ईयर लिख दो", "lang": "hi", "action": "type_text", "slots": {"text": "हैप्पी न्यू ईयर"}}
+{"text": "likho ki report kal tak bhej dunga", "lang": "hi", "action": "type_text", "slots": {"text": "report kal tak bhej dunga"}}
+{"text": "subject mein likho leave application", "lang": "hi", "action": "type_text", "slots": {"text": "leave application"}}
+{"text": "type karo order number 45821", "lang": "hi", "action": "type_text", "slots": {"text": "order number 45821"}}
+{"text": "लिखो आज की मीटिंग कैंसल है", "lang": "hi", "action": "type_text", "slots": {"text": "आज की मीटिंग कैंसल है"}}
+{"text": "टाइप करो शुभ प्रभात", "lang": "hi", "action": "type_text", "slots": {"text": "शुभ प्रभात"}}
+{"text": "type kar do good morning sir", "lang": "hi", "action": "type_text", "slots": {"text": "good morning sir"}}
+{"text": "type karo regards comma amit", "lang": "hi", "action": "type_text", "slots": {"text": "regards comma amit"}}
+{"text": "kuch type karo", "lang": "hi", "action": "type_text", "slots": {}, "incomplete": true}
+{"text": "submit button dabao", "lang": "hi", "action": "click", "slots": {"target": "submit"}}
+{"text": "next pe click karo", "lang": "hi", "action": "click", "slots": {"target": "next"}}
+{"text": "login button pe click kar do", "lang": "hi", "action": "click", "slots": {"target": "login"}}
+{"text": "skip ad dabao", "lang": "hi", "action": "click", "slots": {"target": "skip ad"}}
+{"text": "accept all pe click karo", "lang": "hi", "action": "click", "slots": {"target": "accept all"}}
+{"text": "download pe click karo", "lang": "hi", "action": "click", "slots": {"target": "download"}}
+{"text": "cancel button dabao", "lang": "hi", "action": "click", "slots": {"target": "cancel"}}
+{"text": "settings wale icon pe click karo", "lang": "hi", "action": "click", "slots": {"target": "settings"}}
+{"text": "सबमिट बटन दबाओ", "lang": "hi", "action": "click", "slots": {"target": "सबमिट"}}
+{"text": "ओके पर क्लिक करो", "lang": "hi", "action": "click", "slots": {"target": "ओके"}}
+{"text": "home tab pe click karo", "lang": "hi", "action": "click", "slots": {"target": "home"}}
+{"text": "screen pe kya likha hai batao", "lang": "hi", "action": "read_screen", "slots": {}}
+{"text": "ye padh ke sunao", "lang": "hi", "action": "read_screen", "slots": {}}
+{"text": "screen padho", "lang": "hi", "action": "read_screen", "slots": {}}
+{"text": "is page pe kya hai bolo", "lang": "hi", "action": "read_screen", "slots": {}}
+{"text": "स्क्रीन पर क्या लिखा है पढ़ो", "lang": "hi", "action": "read_screen", "slots": {}}
+{"text": "ye error kya bol raha hai samjhao", "lang": "hi", "action": "read_screen", "slots": {}}
+{"text": "jo screen pe hai wo padh do zara", "lang": "hi", "action": "read_screen", "slots": {}}
+{"text": "rehne do", "lang": "hi", "action": "cancel", "slots": {}}
+{"text": "cancel", "lang": "none", "action": "cancel", "slots": {}}
+{"text": "chhodo yaar", "lang": "hi", "action": "cancel", "slots": {}}
+{"text": "kuch mat karo", "lang": "hi", "action": "cancel", "slots": {}}
+{"text": "nahi nahi ruko cancel karo", "lang": "hi", "action": "cancel", "slots": {}}
+{"text": "रहने दो", "lang": "hi", "action": "cancel", "slots": {}}
+{"text": "bas rehne do koi baat nahi", "lang": "hi", "action": "cancel", "slots": {}}
+{"text": "brightness badhao", "lang": "hi", "action": "unknown", "slots": {}}
+{"text": "kal subah 6 baje ka alarm laga do", "lang": "hi", "action": "unknown", "slots": {}}
+{"text": "papa ko call karo", "lang": "hi", "action": "unknown", "slots": {}}
+{"text": "computer shutdown kar do", "lang": "hi", "action": "unknown", "slots": {}}
+{"text": "tum kaise ho", "lang": "hi", "action": "unknown", "slots": {}}
+{"text": "umm wo kya tha", "lang": "hi", "action": "unknown", "slots": {}}
+{"text": "wifi band kar do", "lang": "hi", "action": "unknown", "slots": {}}
+{"text": "laptop restart karo", "lang": "hi", "action": "unknown", "slots": {}}
+{"text": "स्क्रीन की ब्राइटनेस कम करो", "lang": "hi", "action": "unknown", "slots": {}}
+{"text": "मम्मी को कॉल लगाओ", "lang": "hi", "action": "unknown", "slots": {}}
+{"text": "timer laga do 10 minute ka", "lang": "hi", "action": "unknown", "slots": {}}
+{"text": "hmm acha theek hai", "lang": "hi", "action": "unknown", "slots": {}}
+{"text": "पावरपॉइंट खोलो", "lang": "hi", "action": "open_app", "slots": {"app": "पावरपॉइंट"}}
+{"text": "आईआरसीटीसी की वेबसाइट खोलो", "lang": "hi", "action": "open_website", "slots": {"site": "आईआरसीटीसी"}}
+{"text": "अमिताभ बच्चन की उम्र कितनी है", "lang": "hi", "action": "web_search", "slots": {"query": "अमिताभ बच्चन की उम्र कितनी है"}}
+{"text": "यूट्यूब पर हनुमान चालीसा लगाओ", "lang": "hi", "action": "play_media", "slots": {"app": "यूट्यूब", "query": "हनुमान चालीसा"}}
+{"text": "राहुल को बोलो कि मैं पांच मिनट में आ रहा हूँ", "lang": "hi", "action": "send_message", "slots": {"contact": "राहुल", "text": "मैं पांच मिनट में आ रहा हूँ"}}
+{"text": "टाइप करो धन्यवाद सर", "lang": "hi", "action": "type_text", "slots": {"text": "धन्यवाद सर"}}
+{"text": "डाउनलोड बटन पर क्लिक करो", "lang": "hi", "action": "click", "slots": {"target": "डाउनलोड"}}
+{"text": "ये पेज पढ़ के सुनाओ", "lang": "hi", "action": "read_screen", "slots": {}}
+{"text": "छोड़ो कोई बात नहीं", "lang": "hi", "action": "cancel", "slots": {}}
+{"text": "कंप्यूटर बंद कर दो", "lang": "hi", "action": "unknown", "slots": {}}

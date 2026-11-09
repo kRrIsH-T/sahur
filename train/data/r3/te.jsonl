@@ -1,0 +1,426 @@
+{"text": "chrome open chesi hyderabad weather chupinchu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "hyderabad weather"}}], "joiners": ["chesi"]}
+{"text": "Edge open cheyyi mariyu gold rate today Vijayawada search cheyyi", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Edge"}}, {"action": "web_search", "slots": {"query": "gold rate today Vijayawada"}}], "joiners": ["mariyu"]}
+{"text": "brave browser open chey tarvatha prabhas next movie enti ani search chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "brave"}}, {"action": "web_search", "slots": {"query": "prabhas next movie enti"}}], "joiners": ["tarvatha"]}
+{"text": "Google Chrome open chesi Tirupati darshan tickets vethuku", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Google Chrome"}}, {"action": "web_search", "slots": {"query": "Tirupati darshan tickets"}}], "joiners": ["chesi"]}
+{"text": "browser open cheyi and TS EAMCET results search cheyi", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "browser"}}, {"action": "web_search", "slots": {"query": "TS EAMCET results"}}], "joiners": ["and"]}
+{"text": "chrome teruvu then petrol price in guntur cheppu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "petrol price in guntur"}}], "joiners": ["then"]}
+{"text": "edge open chesaka Sunrisers match eppudu ani chudu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "Sunrisers match eppudu"}}], "joiners": ["chesaka"]}
+{"text": "Chrome ని తెరిచి బంగారం ధర ఎంత ఉందో వెతుకు", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "web_search", "slots": {"query": "బంగారం ధర ఎంత ఉందో"}}], "joiners": ["తెరిచి"]}
+{"text": "firefox open chey aa tarvata Hyderabad to Vizag train timings search chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "web_search", "slots": {"query": "Hyderabad to Vizag train timings"}}], "joiners": ["aa tarvata"]}
+{"text": "um chrome open cheyyandi taruvata Chiranjeevi age entha", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "Chiranjeevi age entha"}}], "joiners": ["taruvata"]}
+{"text": "edge browser open chey mariu python list comprehension ante enti search chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "python list comprehension ante enti"}}], "joiners": ["mariu"]}
+{"text": "Chrome open cheyyi tarwata Mahesh Babu kotha cinema release date chudu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "web_search", "slots": {"query": "Mahesh Babu kotha cinema release date"}}], "joiners": ["tarwata"]}
+{"text": "క్రోమ్ ఓపెన్ చేసి వైజాగ్ వెదర్ చెప్పు", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "క్రోమ్"}}, {"action": "web_search", "slots": {"query": "వైజాగ్ వెదర్"}}], "joiners": ["చేసి"]}
+{"text": "chrome open chei inka dollar rate entha undo chudu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "dollar rate entha undo"}}], "joiners": ["inka"]}
+{"text": "Edge teruvu aa taruvatha Allu Arjun Pushpa 2 collections search cheyyi", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Edge"}}, {"action": "web_search", "slots": {"query": "Allu Arjun Pushpa 2 collections"}}], "joiners": ["aa taruvatha"]}
+{"text": "chrome open cheyyi after that amazon lo bluetooth earphones search cheyyi", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "bluetooth earphones", "site": "amazon"}}], "joiners": ["after that"]}
+{"text": "firefox therichi flipkart lo redmi phones vethuku", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "web_search", "slots": {"query": "redmi phones", "site": "flipkart"}}], "joiners": ["therichi"]}
+{"text": "Brave open chesi youtube lo telugu cooking videos search chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Brave"}}, {"action": "web_search", "slots": {"query": "telugu cooking videos", "site": "youtube"}}], "joiners": ["chesi"]}
+{"text": "ఎడ్జ్ తెరువు మరియు ఈరోజు వార్తలు వెతుకు", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ఎడ్జ్"}}, {"action": "web_search", "slots": {"query": "ఈరోజు వార్తలు"}}], "joiners": ["మరియు"]}
+{"text": "chrome open chesi Rajamouli evaru ani search chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "Rajamouli evaru"}}], "joiners": ["chesi"]}
+{"text": "గూగుల్ క్రోమ్ ఓపెన్ చేసి హైదరాబాద్ నుండి తిరుపతి బస్సులు వెతుకు", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "గూగుల్ క్రోమ్"}}, {"action": "web_search", "slots": {"query": "హైదరాబాద్ నుండి తిరుపతి బస్సులు"}}], "joiners": ["చేసి"]}
+{"text": "chrome ఓపెన్ చేసి IPL score వెతుకు", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "IPL score"}}], "joiners": ["చేసి"]}
+{"text": "chrome open chesi eenadu dot net open cheyyi", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "eenadu dot net"}}], "joiners": ["chesi"]}
+{"text": "edge terichi irctc website open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "open_website", "slots": {"site": "irctc"}}], "joiners": ["terichi"]}
+{"text": "Chrome open cheyyi tarvata sakshi website teruvu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "open_website", "slots": {"site": "sakshi"}}], "joiners": ["tarvata"]}
+{"text": "browser open chesi greatandhra dot com ki vellu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "browser"}}, {"action": "open_website", "slots": {"site": "greatandhra dot com"}}], "joiners": ["chesi"]}
+{"text": "క్రోమ్ తెరిచి ఫ్లిప్కార్ట్ సైట్ ఓపెన్ చెయ్యి", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "క్రోమ్"}}, {"action": "open_website", "slots": {"site": "ఫ్లిప్కార్ట్"}}], "joiners": ["తెరిచి"]}
+{"text": "edge open chey and then linkedin dot com open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "open_website", "slots": {"site": "linkedin dot com"}}], "joiners": ["and then"]}
+{"text": "Brave terichi 123telugu site open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Brave"}}, {"action": "open_website", "slots": {"site": "123telugu"}}], "joiners": ["terichi"]}
+{"text": "chrome open chesaka meeseva website open cheyyandi", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "meeseva"}}], "joiners": ["chesaka"]}
+{"text": "firefox open cheyi taruvatha github dot com open cheyi", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "open_website", "slots": {"site": "github dot com"}}], "joiners": ["taruvatha"]}
+{"text": "chrome open chey aatarvata bookmyshow open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "bookmyshow"}}], "joiners": ["aatarvata"]}
+{"text": "క్రోమ్ తెరువు తరువాత అమెజాన్ వెబ్సైట్ ఓపెన్ చెయ్యి", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "క్రోమ్"}}, {"action": "open_website", "slots": {"site": "అమెజాన్"}}], "joiners": ["తరువాత"]}
+{"text": "Edge తెరిచి Wikipedia ఓపెన్ చెయ్యి", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Edge"}}, {"action": "open_website", "slots": {"site": "Wikipedia"}}], "joiners": ["తెరిచి"]}
+{"text": "youtube open chesi naatu naatu song pettu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "naatu naatu"}}], "joiners": ["chesi"]}
+{"text": "Spotify open cheyyi mariyu Sid Sriram songs play cheyyi", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Spotify"}}, {"action": "play_media", "slots": {"query": "Sid Sriram"}}], "joiners": ["mariyu"]}
+{"text": "youtube terichi Butta Bomma video play chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "Butta Bomma"}}], "joiners": ["terichi"]}
+{"text": "jiosaavn open chey tarvata SPB old songs pettu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "jiosaavn"}}, {"action": "play_media", "slots": {"query": "SPB old songs"}}], "joiners": ["tarvata"]}
+{"text": "YouTube ki velli Allu Arjun songs pettu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "YouTube"}}, {"action": "play_media", "slots": {"query": "Allu Arjun"}}], "joiners": ["velli"]}
+{"text": "spotify open chesaka devotional songs pettu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "devotional songs"}}], "joiners": ["chesaka"]}
+{"text": "యూట్యూబ్ తెరిచి సామజవరగమన పాట పెట్టు", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "యూట్యూబ్"}}, {"action": "play_media", "slots": {"query": "సామజవరగమన"}}], "joiners": ["తెరిచి"]}
+{"text": "spotify open chey then Anirudh hits play chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "Anirudh hits"}}], "joiners": ["then"]}
+{"text": "Youtube open cheyi aa tarvatha Mangli bathukamma song pettu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Youtube"}}, {"action": "play_media", "slots": {"query": "Mangli bathukamma"}}], "joiners": ["aa tarvatha"]}
+{"text": "wynk open chesi Rahul Sipligunj songs vinipinchu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "wynk"}}, {"action": "play_media", "slots": {"query": "Rahul Sipligunj"}}], "joiners": ["chesi"]}
+{"text": "YouTube Music open cheyyi and Chuttamalle play cheyyi", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "YouTube Music"}}, {"action": "play_media", "slots": {"query": "Chuttamalle"}}], "joiners": ["and"]}
+{"text": "youtube open chey taruvata Hanuman Chalisa pettu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "Hanuman Chalisa"}}], "joiners": ["taruvata"]}
+{"text": "gaana app open chesi Ghantasala paatalu pettu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "gaana"}}, {"action": "play_media", "slots": {"query": "Ghantasala"}}], "joiners": ["chesi"]}
+{"text": "youtube open cheyi inka Venkateswara suprabhatam pettu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "Venkateswara suprabhatam"}}], "joiners": ["inka"]}
+{"text": "స్పాటిఫై ఓపెన్ చేసి దేవి శ్రీ ప్రసాద్ పాటలు ప్లే చెయ్యి", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "స్పాటిఫై"}}, {"action": "play_media", "slots": {"query": "దేవి శ్రీ ప్రసాద్"}}], "joiners": ["చేసి"]}
+{"text": "Netflix open chesi Baahubali pettu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Netflix"}}, {"action": "play_media", "slots": {"query": "Baahubali"}}], "joiners": ["chesi"]}
+{"text": "యూట్యూబ్ ఓపెన్ చెయ్యి మరియు అల్లు అర్జున్ పాటలు ప్లే చెయ్యి", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "యూట్యూబ్"}}, {"action": "play_media", "slots": {"query": "అల్లు అర్జున్"}}], "joiners": ["మరియు"]}
+{"text": "YouTube తెరిచి Sid Sriram songs పెట్టు", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "YouTube"}}, {"action": "play_media", "slots": {"query": "Sid Sriram"}}], "joiners": ["తెరిచి"]}
+{"text": "paata aapi Notepad open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "Notepad"}}], "joiners": ["aapi"]}
+{"text": "music pause chesi Zoom open cheyyi", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "Zoom"}}], "joiners": ["chesi"]}
+{"text": "song aapu mariyu Teams open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "Teams"}}], "joiners": ["mariyu"]}
+{"text": "volume penchu and next song pettu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_up"}, {"action": "media_control", "slots": {}, "control": "next"}], "joiners": ["and"]}
+{"text": "next song pettu tarvata volume konchem taggincu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "next"}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["tarvata"]}
+{"text": "paata aapesi amma ki message pampu nenu meeting lo unna ani", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "send_message", "slots": {"contact": "amma", "text": "nenu meeting lo unna"}}], "joiners": ["aapesi"]}
+{"text": "pause chey then outlook open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "outlook"}}], "joiners": ["then"]}
+{"text": "పాట ఆపి వర్డ్ ఓపెన్ చెయ్యి", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "వర్డ్"}}], "joiners": ["ఆపి"]}
+{"text": "sound mute chesi screen lo emundo chadivi vinipinchu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "read_screen", "slots": {}}], "joiners": ["chesi"]}
+{"text": "music aapu aa tarvata Calculator open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "Calculator"}}], "joiners": ["aa tarvata"]}
+{"text": "malli play cheyyi mariyu volume penchu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "resume"}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["mariyu"]}
+{"text": "previous song pettu inka volume penchu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "previous"}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["inka"]}
+{"text": "mute chey taruvata Teams lo join meeda click chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "click", "slots": {"target": "join"}}], "joiners": ["taruvata"]}
+{"text": "paata aapi YouTube lo cricket highlights search chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "web_search", "slots": {"query": "cricket highlights", "site": "YouTube"}}], "joiners": ["aapi"]}
+{"text": "volume taggichi Spotify lo Ilaiyaraaja songs pettu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "play_media", "slots": {"query": "Ilaiyaraaja", "app": "Spotify"}}], "joiners": ["taggichi"]}
+{"text": "సౌండ్ పెంచు మరియు తర్వాత పాట పెట్టు", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_up"}, {"action": "media_control", "slots": {}, "control": "next"}], "joiners": ["మరియు"]}
+{"text": "పాట ఆపు ఆ తరువాత జూమ్ ఓపెన్ చెయ్యి", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "జూమ్"}}], "joiners": ["ఆ తరువాత"]}
+{"text": "వాల్యూమ్ తగ్గించి నోట్ప్యాడ్ తెరువు", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "open_app", "slots": {"app": "నోట్ప్యాడ్"}}], "joiners": ["తగ్గించి"]}
+{"text": "Srinu ki message pampu nenu vastunna ani tarvata Spotify open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Srinu", "text": "nenu vastunna"}}, {"action": "open_app", "slots": {"app": "Spotify"}}], "joiners": ["tarvata"]}
+{"text": "amma ki whatsapp lo cheppu lunch ayyindi ani mariyu youtube open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "amma", "text": "lunch ayyindi"}}, {"action": "open_app", "slots": {"app": "youtube"}}], "joiners": ["mariyu"]}
+{"text": "Pavan ki message cheyyi 5 mins lo vastha ani then chrome open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Pavan", "text": "5 mins lo vastha"}}, {"action": "open_app", "slots": {"app": "chrome"}}], "joiners": ["then"]}
+{"text": "Lakshmi akka ki msg pampu happy birthday akka ani aa tarvata birthday songs pettu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Lakshmi akka", "text": "happy birthday akka"}}, {"action": "play_media", "slots": {"query": "birthday songs"}}], "joiners": ["aa tarvata"]}
+{"text": "Ravi ki meeting link pampanu ani message pampi Zoom open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Ravi", "text": "meeting link pampanu"}}, {"action": "open_app", "slots": {"app": "Zoom"}}], "joiners": ["pampi"]}
+{"text": "నాన్నకి మెసేజ్ పంపు బస్ ఎక్కాను అని తర్వాత మ్యూజిక్ ఆపు", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "నాన్న", "text": "బస్ ఎక్కాను"}}, {"action": "media_control", "slots": {}, "control": "pause"}], "joiners": ["తర్వాత"]}
+{"text": "Sravani ki cheppu notes pampistha ani and file explorer open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Sravani", "text": "notes pampistha"}}, {"action": "open_app", "slots": {"app": "file explorer"}}], "joiners": ["and"]}
+{"text": "bava ki message pampu train late undi ani taruvatha irctc site open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "bava", "text": "train late undi"}}, {"action": "open_website", "slots": {"site": "irctc"}}], "joiners": ["taruvatha"]}
+{"text": "Teja ki msg cheyyi match ki ready ga undu ani inka cricbuzz open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Teja", "text": "match ki ready ga undu"}}, {"action": "open_website", "slots": {"site": "cricbuzz"}}], "joiners": ["inka"]}
+{"text": "Ramesh sir ki message pampu today leave kavali sir ani tarvata Outlook open cheyyi", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Ramesh sir", "text": "today leave kavali sir"}}, {"action": "open_app", "slots": {"app": "Outlook"}}], "joiners": ["tarvata"]}
+{"text": "Harika ki whatsapp message chey reach ayyanu ani mariu paata pettu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Harika", "text": "reach ayyanu"}}, {"action": "play_media", "slots": {}}], "joiners": ["mariu"]}
+{"text": "Chinna ki cheppu dinner ki ravadam ledu ani then music pause chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Chinna", "text": "dinner ki ravadam ledu"}}, {"action": "media_control", "slots": {}, "control": "pause"}], "joiners": ["then"]}
+{"text": "అమ్మకి మెసేజ్ పంపు భోజనం అయ్యింది అని ఆ తర్వాత స్పాటిఫై ఓపెన్ చెయ్యి", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "అమ్మ", "text": "భోజనం అయ్యింది"}}, {"action": "open_app", "slots": {"app": "స్పాటిఫై"}}], "joiners": ["ఆ తర్వాత"]}
+{"text": "Ravi కి message పంపు late అవుతుంది అని మరియు Teams open చెయ్యి", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Ravi", "text": "late అవుతుంది"}}, {"action": "open_app", "slots": {"app": "Teams"}}], "joiners": ["మరియు"]}
+{"text": "notepad open chesi hello andaru ani type chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "hello andaru"}}], "joiners": ["chesi"]}
+{"text": "Word open cheyyi mariyu Dear Sir ani type cheyyi", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Word"}}, {"action": "type_text", "slots": {"text": "Dear Sir"}}], "joiners": ["mariyu"]}
+{"text": "notepad terichi repu meeting 10 ki ani raayi", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "repu meeting 10 ki"}}], "joiners": ["terichi"]}
+{"text": "Sticky Notes open chey tarvata milk konali ani type chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Sticky Notes"}}, {"action": "type_text", "slots": {"text": "milk konali"}}], "joiners": ["tarvata"]}
+{"text": "నోట్ప్యాడ్ తెరిచి రేపు సెలవు అని టైప్ చెయ్యి", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "నోట్ప్యాడ్"}}, {"action": "type_text", "slots": {"text": "రేపు సెలవు"}}], "joiners": ["తెరిచి"]}
+{"text": "notepad open chey then shopping list colon rice dal oil ani type chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "shopping list colon rice dal oil"}}], "joiners": ["then"]}
+{"text": "word open chesi naa peru Venkatesh ani type chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "word"}}, {"action": "type_text", "slots": {"text": "naa peru Venkatesh"}}], "joiners": ["chesi"]}
+{"text": "Notepad open chei aa tarvata Ammamma birthday March 12 ani type chei", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Notepad"}}, {"action": "type_text", "slots": {"text": "Ammamma birthday March 12"}}], "joiners": ["aa tarvata"]}
+{"text": "Excel open cheyyi and total expenses ani type cheyyi", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Excel"}}, {"action": "type_text", "slots": {"text": "total expenses"}}], "joiners": ["and"]}
+{"text": "VS Code open chesi print hello world ani type chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "VS Code"}}, {"action": "type_text", "slots": {"text": "print hello world"}}], "joiners": ["chesi"]}
+{"text": "notepad open chesi type chey good morning team", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "good morning team"}}], "joiners": ["chesi"]}
+{"text": "నోట్ప్యాడ్ ఓపెన్ చేసి నమస్తే అని టైప్ చెయ్యి", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "నోట్ప్యాడ్"}}, {"action": "type_text", "slots": {"text": "నమస్తే"}}], "joiners": ["చేసి"]}
+{"text": "Settings open chesi Bluetooth meeda click chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Settings"}}, {"action": "click", "slots": {"target": "Bluetooth"}}], "joiners": ["chesi"]}
+{"text": "Zoom open cheyyi tarvata join meeting button nokku", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Zoom"}}, {"action": "click", "slots": {"target": "join meeting"}}], "joiners": ["tarvata"]}
+{"text": "Teams open chey mariyu Calendar tab meeda click chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Teams"}}, {"action": "click", "slots": {"target": "Calendar"}}], "joiners": ["mariyu"]}
+{"text": "outlook terichi New mail meeda click cheyyi", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "outlook"}}, {"action": "click", "slots": {"target": "New mail"}}], "joiners": ["terichi"]}
+{"text": "Paint open chesi Brush pai click chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Paint"}}, {"action": "click", "slots": {"target": "Brush"}}], "joiners": ["chesi"]}
+{"text": "జూమ్ తెరిచి జాయిన్ బటన్ నొక్కు", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "జూమ్"}}, {"action": "click", "slots": {"target": "జాయిన్"}}], "joiners": ["తెరిచి"]}
+{"text": "File Explorer open chesi Downloads meeda click cheyyi", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "File Explorer"}}, {"action": "click", "slots": {"target": "Downloads"}}], "joiners": ["chesi"]}
+{"text": "ఎక్సెల్ ఓపెన్ చేసి సేవ్ మీద క్లిక్ చెయ్యి", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ఎక్సెల్"}}, {"action": "click", "slots": {"target": "సేవ్"}}], "joiners": ["చేసి"]}
+{"text": "gmail open chesi Compose meeda click chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "gmail"}}, {"action": "click", "slots": {"target": "Compose"}}], "joiners": ["chesi"]}
+{"text": "youtube dot com open chey tarvata Telugu comedy scenes search chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "youtube dot com"}}, {"action": "web_search", "slots": {"query": "Telugu comedy scenes"}}], "joiners": ["tarvata"]}
+{"text": "amazon website open chesi Sign in nokku", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "amazon"}}, {"action": "click", "slots": {"target": "Sign in"}}], "joiners": ["chesi"]}
+{"text": "irctc site open cheyyi mariyu Login meeda click cheyyi", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "irctc"}}, {"action": "click", "slots": {"target": "Login"}}], "joiners": ["mariyu"]}
+{"text": "aha dot video open chey then Unstoppable episode pettu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "aha dot video"}}, {"action": "play_media", "slots": {"query": "Unstoppable episode"}}], "joiners": ["then"]}
+{"text": "wikipedia open chesi Sri Sri gurinchi search chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "wikipedia"}}, {"action": "web_search", "slots": {"query": "Sri Sri"}}], "joiners": ["chesi"]}
+{"text": "chatgpt dot com open chesi summarize this article ani type chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "chatgpt dot com"}}, {"action": "type_text", "slots": {"text": "summarize this article"}}], "joiners": ["chesi"]}
+{"text": "swiggy website open chey inka biryani search chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "swiggy"}}, {"action": "web_search", "slots": {"query": "biryani"}}], "joiners": ["inka"]}
+{"text": "Hyderabad weather search chesi Spotify open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "Hyderabad weather"}}, {"action": "open_app", "slots": {"app": "Spotify"}}], "joiners": ["chesi"]}
+{"text": "gold rate entha undo chudu tarvata Lakshmi ki message pampu gold konaddu ani", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "gold rate entha undo"}}, {"action": "send_message", "slots": {"contact": "Lakshmi", "text": "gold konaddu"}}], "joiners": ["tarvata"]}
+{"text": "cricket score cheppu mariyu youtube lo highlights pettu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "cricket score"}}, {"action": "play_media", "slots": {"query": "highlights", "app": "youtube"}}], "joiners": ["mariyu"]}
+{"text": "Kalki 2898 AD review search chey and trailer play chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "Kalki 2898 AD review"}}, {"action": "play_media", "slots": {"query": "trailer"}}], "joiners": ["and"]}
+{"text": "ఈరోజు వాతావరణం చెప్పు తర్వాత పాట పెట్టు", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "ఈరోజు వాతావరణం"}}, {"action": "play_media", "slots": {}}], "joiners": ["తర్వాత"]}
+{"text": "train status vethuku then Nanna ki message cheyyi train late ani", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "train status"}}, {"action": "send_message", "slots": {"contact": "Nanna", "text": "train late"}}], "joiners": ["then"]}
+{"text": "screen lo emundo chadivi Ravi ki message pampu chusanu ani", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "send_message", "slots": {"contact": "Ravi", "text": "chusanu"}}], "joiners": ["chadivi"]}
+{"text": "ee page chaduvu tarvata Next meeda click chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "click", "slots": {"target": "Next"}}], "joiners": ["tarvata"]}
+{"text": "screen meeda unnadi cheppu mariyu save button nokku", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "click", "slots": {"target": "save"}}], "joiners": ["mariyu"]}
+{"text": "స్క్రీన్ మీద ఏముందో చదువు తర్వాత ఓకే నొక్కు", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "click", "slots": {"target": "ఓకే"}}], "joiners": ["తర్వాత"]}
+{"text": "Chrome open chesi screen lo emundo cheppu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "read_screen", "slots": {}}], "joiners": ["chesi"]}
+{"text": "స్క్రీన్ చదివి వినిపించు తర్వాత నెక్స్ట్ మీద క్లిక్ చెయ్యి", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "click", "slots": {"target": "నెక్స్ట్"}}], "joiners": ["తర్వాత"]}
+{"text": "send meeda click chesi Notepad open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "send"}}, {"action": "open_app", "slots": {"app": "Notepad"}}], "joiners": ["chesi"]}
+{"text": "OK button nokki thank you ani type chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "OK"}}, {"action": "type_text", "slots": {"text": "thank you"}}], "joiners": ["nokki"]}
+{"text": "regards Srinivas ani type chesi send meeda click chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "regards Srinivas"}}, {"action": "click", "slots": {"target": "send"}}], "joiners": ["chesi"]}
+{"text": "meeting ki late avtha ani type cheyyi mariyu Send button nokku", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "meeting ki late avtha"}}, {"action": "click", "slots": {"target": "Send"}}], "joiners": ["mariyu"]}
+{"text": "Accept meeda click chesi YouTube open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "Accept"}}, {"action": "open_app", "slots": {"app": "YouTube"}}], "joiners": ["chesi"]}
+{"text": "Skip Ad nokku tarvata volume penchu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "Skip Ad"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["tarvata"]}
+{"text": "Downloads folder click chey aa tarvata Photos open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "Downloads"}}, {"action": "open_app", "slots": {"app": "Photos"}}], "joiners": ["aa tarvata"]}
+{"text": "Calculator open chey and Notepad kuda open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Calculator"}}, {"action": "open_app", "slots": {"app": "Notepad"}}], "joiners": ["and"]}
+{"text": "Excel open chesi PowerPoint kuda open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Excel"}}, {"action": "open_app", "slots": {"app": "PowerPoint"}}], "joiners": ["chesi"]}
+{"text": "VS Code open chey tarvata Postman open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "VS Code"}}, {"action": "open_app", "slots": {"app": "Postman"}}], "joiners": ["tarvata"]}
+{"text": "Telegram open chey inka WhatsApp open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Telegram"}}, {"action": "open_app", "slots": {"app": "WhatsApp"}}], "joiners": ["inka"]}
+{"text": "Steam open chesi GTA 5 search chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Steam"}}, {"action": "web_search", "slots": {"query": "GTA 5"}}], "joiners": ["chesi"]}
+{"text": "chrome open chesi gmail open chey tarvata compose meeda click chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "gmail"}}, {"action": "click", "slots": {"target": "compose"}}], "joiners": ["chesi", "tarvata"]}
+{"text": "Spotify open chesi Sid Sriram songs pettu mariyu volume penchu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Spotify"}}, {"action": "play_media", "slots": {"query": "Sid Sriram"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["chesi", "mariyu"]}
+{"text": "notepad terichi hello ani type chey tarvata save meeda click chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "hello"}}, {"action": "click", "slots": {"target": "save"}}], "joiners": ["terichi", "tarvata"]}
+{"text": "paata aapi amma ki message pampu vastunna ani aa tarvata chrome open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "send_message", "slots": {"contact": "amma", "text": "vastunna"}}, {"action": "open_app", "slots": {"app": "chrome"}}], "joiners": ["aapi", "aa tarvata"]}
+{"text": "youtube open chey then Naatu Naatu pettu and volume penchu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "Naatu Naatu"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["then", "and"]}
+{"text": "edge open chesi amazon website open chey mariyu Sign in nokku", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "open_website", "slots": {"site": "amazon"}}, {"action": "click", "slots": {"target": "Sign in"}}], "joiners": ["chesi", "mariyu"]}
+{"text": "Word open chesi Dear team ani type chesi Save meeda click chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Word"}}, {"action": "type_text", "slots": {"text": "Dear team"}}, {"action": "click", "slots": {"target": "Save"}}], "joiners": ["chesi"]}
+{"text": "browser open chesi weather search chey inka youtube lo news pettu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "browser"}}, {"action": "web_search", "slots": {"query": "weather"}}, {"action": "play_media", "slots": {"query": "news", "app": "youtube"}}], "joiners": ["chesi", "inka"]}
+{"text": "క్రోమ్ తెరిచి జీమెయిల్ ఓపెన్ చెయ్యి తర్వాత కంపోజ్ నొక్కు", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "క్రోమ్"}}, {"action": "open_website", "slots": {"site": "జీమెయిల్"}}, {"action": "click", "slots": {"target": "కంపోజ్"}}], "joiners": ["తెరిచి", "తర్వాత"]}
+{"text": "music aapu tarvata notepad open chey mariyu meeting notes ani type chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "meeting notes"}}], "joiners": ["tarvata", "mariyu"]}
+{"text": "Teams open chesi Chat meeda click chey then Hi all ani type chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Teams"}}, {"action": "click", "slots": {"target": "Chat"}}, {"action": "type_text", "slots": {"text": "Hi all"}}], "joiners": ["chesi", "then"]}
+{"text": "spotify open chesi Thaman songs pettu tarvata Bunny ki message pampu song super ga undi ani", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "Thaman"}}, {"action": "send_message", "slots": {"contact": "Bunny", "text": "song super ga undi"}}], "joiners": ["chesi", "tarvata"]}
+{"text": "screen lo emundo cheppu aa tarvata OK click chey mariyu Notepad open chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "click", "slots": {"target": "OK"}}, {"action": "open_app", "slots": {"app": "Notepad"}}], "joiners": ["aa tarvata", "mariyu"]}
+{"text": "firefox open chesi flipkart open chey tarvata iphone 16 search chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "open_website", "slots": {"site": "flipkart"}}, {"action": "web_search", "slots": {"query": "iphone 16"}}], "joiners": ["chesi", "tarvata"]}
+{"text": "YouTube ఓపెన్ చేసి నాటు నాటు పెట్టు మరియు సౌండ్ పెంచు", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "YouTube"}}, {"action": "play_media", "slots": {"query": "నాటు నాటు"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["చేసి", "మరియు"]}
+{"text": "volume taggichi next song pettu then Swathi ki message cheyyi call chestha ani", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_down"}, {"action": "media_control", "slots": {}, "control": "next"}, {"action": "send_message", "slots": {"contact": "Swathi", "text": "call chestha"}}], "joiners": ["taggichi", "then"]}
+{"text": "excel open chey and budget 2025 ani type chey and Save nokku", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "excel"}}, {"action": "type_text", "slots": {"text": "budget 2025"}}, {"action": "click", "slots": {"target": "Save"}}], "joiners": ["and"]}
+{"text": "File Explorer terichi Documents click chey tarvata resume meeda click chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "File Explorer"}}, {"action": "click", "slots": {"target": "Documents"}}, {"action": "click", "slots": {"target": "resume"}}], "joiners": ["terichi", "tarvata"]}
+{"text": "Chrome open cheyyi taruvata cricbuzz open chey aa taruvata live score meeda click chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "open_website", "slots": {"site": "cricbuzz"}}, {"action": "click", "slots": {"target": "live score"}}], "joiners": ["taruvata", "aa taruvata"]}
+{"text": "నోట్ప్యాడ్ తెరిచి రేపు పరీక్ష అని టైప్ చెయ్యి ఆ తర్వాత సేవ్ నొక్కు", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "నోట్ప్యాడ్"}}, {"action": "type_text", "slots": {"text": "రేపు పరీక్ష"}}, {"action": "click", "slots": {"target": "సేవ్"}}], "joiners": ["తెరిచి", "ఆ తర్వాత"]}
+{"text": "jiosaavn open chesi Chitra songs pettu mariu volume taggincu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "jiosaavn"}}, {"action": "play_media", "slots": {"query": "Chitra"}}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["chesi", "mariu"]}
+{"text": "Outlook open chey then New mail click chey then Hello sir ani type chey", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Outlook"}}, {"action": "click", "slots": {"target": "New mail"}}, {"action": "type_text", "slots": {"text": "Hello sir"}}], "joiners": ["then"]}
+{"text": "paata aapi chrome open chesi Hyderabad traffic update vetuku", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "Hyderabad traffic update"}}], "joiners": ["aapi", "chesi"]}
+{"text": "Ravi ki message pampu bayaludheratunna ani tarvata music pettu inka volume penchu", "lang": "te", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Ravi", "text": "bayaludheratunna"}}, {"action": "play_media", "slots": {}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["tarvata", "inka"]}
+{"text": "Tom and Jerry pettu", "lang": "te", "action": "play_media", "slots": {"query": "Tom and Jerry"}}
+{"text": "youtube lo Tom and Jerry cartoon pettu", "lang": "te", "action": "play_media", "slots": {"query": "Tom and Jerry cartoon", "app": "youtube"}}
+{"text": "salt and pepper chicken recipe search chey", "lang": "te", "action": "web_search", "slots": {"query": "salt and pepper chicken recipe"}}
+{"text": "Romeo and Juliet story enti", "lang": "te", "action": "web_search", "slots": {"query": "Romeo and Juliet story enti"}}
+{"text": "Netflix lo Mr and Mrs Smith pettu", "lang": "te", "action": "play_media", "slots": {"query": "Mr and Mrs Smith", "app": "Netflix"}}
+{"text": "Fast and Furious 7 gurinchi cheppu", "lang": "te", "action": "web_search", "slots": {"query": "Fast and Furious 7"}}
+{"text": "Simon and Garfunkel songs spotify lo pettu", "lang": "te", "action": "play_media", "slots": {"query": "Simon and Garfunkel", "app": "spotify"}}
+{"text": "black and white movies youtube lo play chey", "lang": "te", "action": "play_media", "slots": {"query": "black and white movies", "app": "youtube"}}
+{"text": "rock and roll music pettu", "lang": "te", "action": "play_media", "slots": {"query": "rock and roll music"}}
+{"text": "Johnson and Johnson share price entha", "lang": "te", "action": "web_search", "slots": {"query": "Johnson and Johnson share price entha"}}
+{"text": "terms and conditions meeda click chey", "lang": "te", "action": "click", "slots": {"target": "terms and conditions"}}
+{"text": "Save and Continue button nokku", "lang": "te", "action": "click", "slots": {"target": "Save and Continue"}}
+{"text": "Find and Replace pai click cheyyi", "lang": "te", "action": "click", "slots": {"target": "Find and Replace"}}
+{"text": "Amma ki message pampu nenu office ki velli tarvata call chestha ani", "lang": "te", "action": "send_message", "slots": {"contact": "Amma", "text": "nenu office ki velli tarvata call chestha"}}
+{"text": "Lakshmi ki message pampu cinema chusi tarvata dinner ki veldam ani", "lang": "te", "action": "send_message", "slots": {"contact": "Lakshmi", "text": "cinema chusi tarvata dinner ki veldam"}}
+{"text": "Teja ki cheppu bus digi call chesi cheppu ani", "lang": "te", "action": "send_message", "slots": {"contact": "Teja", "text": "bus digi call chesi cheppu"}}
+{"text": "Swathi akka ki message cheyyi laptop open chesi mail check cheyyi ani", "lang": "te", "action": "send_message", "slots": {"contact": "Swathi akka", "text": "laptop open chesi mail check cheyyi"}}
+{"text": "Nanna ki msg pampu current bill katti receipt WhatsApp lo petti pampistha ani", "lang": "te", "action": "send_message", "slots": {"contact": "Nanna", "text": "current bill katti receipt WhatsApp lo petti pampistha"}}
+{"text": "type chey rice mariyu pappu techhukura", "lang": "te", "action": "type_text", "slots": {"text": "rice mariyu pappu techhukura"}}
+{"text": "door terichi lopaliki ra ani type cheyyi", "lang": "te", "action": "type_text", "slots": {"text": "door terichi lopaliki ra"}}
+{"text": "Bunny ki message pampu exam rasi tarvata cricket adukundam", "lang": "te", "action": "send_message", "slots": {"contact": "Bunny", "text": "exam rasi tarvata cricket adukundam"}}
+{"text": "ఆవకాయ మరియు గోంగూర పచ్చడి recipe వెతుకు", "lang": "te", "action": "web_search", "slots": {"query": "ఆవకాయ మరియు గోంగూర పచ్చడి recipe"}}
+{"text": "Sankranthi tarvata school holidays eppudu", "lang": "te", "action": "web_search", "slots": {"query": "Sankranthi tarvata school holidays eppudu"}}
+{"text": "Prabhas mariyu Anushka kalisi chesina movies list", "lang": "te", "action": "web_search", "slots": {"query": "Prabhas mariyu Anushka kalisi chesina movies list"}}
+{"text": "Ram Charan and NTR RRR collections entha", "lang": "te", "action": "web_search", "slots": {"query": "Ram Charan and NTR RRR collections entha"}}
+{"text": "Chiranjeevi and Balakrishna movies clash eppudu", "lang": "te", "action": "web_search", "slots": {"query": "Chiranjeevi and Balakrishna movies clash eppudu"}}
+{"text": "Pavan ki message cheyyi YouTube open chesi naa video chudu ani", "lang": "te", "action": "send_message", "slots": {"contact": "Pavan", "text": "YouTube open chesi naa video chudu"}}
+{"text": "type cheyyi first Chrome open chesi tarvata login avvu", "lang": "te", "action": "type_text", "slots": {"text": "first Chrome open chesi tarvata login avvu"}}
+{"text": "Pride and Prejudice book gurinchi cheppu", "lang": "te", "action": "web_search", "slots": {"query": "Pride and Prejudice book"}}
+{"text": "Harry Potter and the Chamber of Secrets pettu", "lang": "te", "action": "play_media", "slots": {"query": "Harry Potter and the Chamber of Secrets"}}
+{"text": "Beauty and the Beast songs play chey", "lang": "te", "action": "play_media", "slots": {"query": "Beauty and the Beast"}}
+{"text": "Shiva and Parvati kalyanam story cheppu", "lang": "te", "action": "web_search", "slots": {"query": "Shiva and Parvati kalyanam story"}}
+{"text": "dosa and chutney ela cheyyali", "lang": "te", "action": "web_search", "slots": {"query": "dosa and chutney ela cheyyali"}}
+{"text": "పాలు మరియు తేనె ఆరోగ్యానికి మంచిదా", "lang": "te", "action": "web_search", "slots": {"query": "పాలు మరియు తేనె ఆరోగ్యానికి మంచిదా"}}
+{"text": "Ravi ki message pampu tarvata matladukundam ani", "lang": "te", "action": "send_message", "slots": {"contact": "Ravi", "text": "tarvata matladukundam"}}
+{"text": "Sai ki message pampu ok then see you tomorrow", "lang": "te", "action": "send_message", "slots": {"contact": "Sai", "text": "ok then see you tomorrow"}}
+{"text": "type chey I will call you and then explain", "lang": "te", "action": "type_text", "slots": {"text": "I will call you and then explain"}}
+{"text": "write cheyyi meeting tarvata lunch untundi", "lang": "te", "action": "type_text", "slots": {"text": "meeting tarvata lunch untundi"}}
+{"text": "Keerthi ki whatsapp chey movie ki tickets book chesi cheptha ani", "lang": "te", "action": "send_message", "slots": {"contact": "Keerthi", "text": "movie ki tickets book chesi cheptha"}}
+{"text": "Divya madam ki message pampu assignment complete chesi submit chesanu ani", "lang": "te", "action": "send_message", "slots": {"contact": "Divya madam", "text": "assignment complete chesi submit chesanu"}}
+{"text": "Privacy and security meeda click chey", "lang": "te", "action": "click", "slots": {"target": "Privacy and security"}}
+{"text": "Mahesh Babu and Trivikram kotha cinema peru enti", "lang": "te", "action": "web_search", "slots": {"query": "Mahesh Babu and Trivikram kotha cinema peru enti"}}
+{"text": "Love and Thunder movie review", "lang": "te", "action": "web_search", "slots": {"query": "Love and Thunder movie review"}}
+{"text": "notepad lo type chey Ravi and Seema vastunnaru", "lang": "te", "action": "type_text", "slots": {"text": "Ravi and Seema vastunnaru"}}
+{"text": "రాయి రవి మరియు సీమ వస్తున్నారు", "lang": "te", "action": "type_text", "slots": {"text": "రవి మరియు సీమ వస్తున్నారు"}}
+{"text": "అమ్మకి మెసేజ్ పంపు స్నానం చేసి వస్తా అని", "lang": "te", "action": "send_message", "slots": {"contact": "అమ్మ", "text": "స్నానం చేసి వస్తా"}}
+{"text": "Venkat ki message pampu nenu dinner chesi tarvata call chestha", "lang": "te", "action": "send_message", "slots": {"contact": "Venkat", "text": "nenu dinner chesi tarvata call chestha"}}
+{"text": "Anjali ki cheppu file open chesi page 5 chudu ani", "lang": "te", "action": "send_message", "slots": {"contact": "Anjali", "text": "file open chesi page 5 chudu"}}
+{"text": "Tatayya ki message pampu medicine teesukuni tarvata padukondi ani", "lang": "te", "action": "send_message", "slots": {"contact": "Tatayya", "text": "medicine teesukuni tarvata padukondi"}}
+{"text": "naa resume lo skills colon Python and SQL ani type chey", "lang": "te", "action": "type_text", "slots": {"text": "skills colon Python and SQL"}}
+{"text": "Questions and Answers tab meeda click chey", "lang": "te", "action": "click", "slots": {"target": "Questions and Answers"}}
+{"text": "Teja ki message cheyyi game mariyu dinner rendu ready ani", "lang": "te", "action": "send_message", "slots": {"contact": "Teja", "text": "game mariyu dinner rendu ready"}}
+{"text": "Rajesh anna ki cheppu shop terichi key pakkinti vallaki ivvu ani", "lang": "te", "action": "send_message", "slots": {"contact": "Rajesh anna", "text": "shop terichi key pakkinti vallaki ivvu"}}
+{"text": "నాన్నకి చెప్పు పని అయిపోయిన తర్వాత ఫోన్ చేస్తా అని", "lang": "te", "action": "send_message", "slots": {"contact": "నాన్న", "text": "పని అయిపోయిన తర్వాత ఫోన్ చేస్తా"}}
+{"text": "టామ్ అండ్ జెర్రీ పెట్టు", "lang": "te", "action": "play_media", "slots": {"query": "టామ్ అండ్ జెర్రీ"}}
+{"text": "రోమియో అండ్ జూలియట్ కథ ఏమిటి", "lang": "te", "action": "web_search", "slots": {"query": "రోమియో అండ్ జూలియట్ కథ ఏమిటి"}}
+{"text": "టైప్ చెయ్యి తలుపు తెరిచి లోపలికి రా", "lang": "te", "action": "type_text", "slots": {"text": "తలుపు తెరిచి లోపలికి రా"}}
+{"text": "సంక్రాంతి తర్వాత సెలవులు ఎప్పుడు", "lang": "te", "action": "web_search", "slots": {"query": "సంక్రాంతి తర్వాత సెలవులు ఎప్పుడు"}}
+{"text": "రామ్ చరణ్ మరియు ఎన్టీఆర్ సినిమా పేరు ఏమిటి", "lang": "te", "action": "web_search", "slots": {"query": "రామ్ చరణ్ మరియు ఎన్టీఆర్ సినిమా పేరు ఏమిటి"}}
+{"text": "సేవ్ అండ్ కంటిన్యూ మీద క్లిక్ చెయ్యి", "lang": "te", "action": "click", "slots": {"target": "సేవ్ అండ్ కంటిన్యూ"}}
+{"text": "రవికి మెసేజ్ పంపు భోజనం చేసి బయలుదేరుతా అని", "lang": "te", "action": "send_message", "slots": {"contact": "రవి", "text": "భోజనం చేసి బయలుదేరుతా"}}
+{"text": "tarvata paata pettu", "lang": "te", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "notepad open cheyyi", "lang": "te", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "vs code open chey ra", "lang": "te", "action": "open_app", "slots": {"app": "vs code"}}
+{"text": "Zoom app open cheyyandi", "lang": "te", "action": "open_app", "slots": {"app": "Zoom"}}
+{"text": "file explorer open chesko", "lang": "te", "action": "open_app", "slots": {"app": "file explorer"}}
+{"text": "Photoshop start chey", "lang": "te", "action": "open_app", "slots": {"app": "Photoshop"}}
+{"text": "MS Word open chey", "lang": "te", "action": "open_app", "slots": {"app": "MS Word"}}
+{"text": "Settings open chey", "lang": "te", "action": "open_app", "slots": {"app": "Settings"}}
+{"text": "spotify", "lang": "none", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "Notepad", "lang": "none", "action": "open_app", "slots": {"app": "Notepad"}}
+{"text": "Teams open cheyyi meeting undi", "lang": "te", "action": "open_app", "slots": {"app": "Teams"}}
+{"text": "Snipping Tool open chey", "lang": "te", "action": "open_app", "slots": {"app": "Snipping Tool"}}
+{"text": "VLC player open chey", "lang": "te", "action": "open_app", "slots": {"app": "VLC"}}
+{"text": "Discord launch chey", "lang": "te", "action": "open_app", "slots": {"app": "Discord"}}
+{"text": "నోట్ప్యాడ్ ఓపెన్ చెయ్యి", "lang": "te", "action": "open_app", "slots": {"app": "నోట్ప్యాడ్"}}
+{"text": "క్యాలిక్యులేటర్ తెరువు", "lang": "te", "action": "open_app", "slots": {"app": "క్యాలిక్యులేటర్"}}
+{"text": "వాట్సాప్ ఓపెన్ చెయ్యి", "lang": "te", "action": "open_app", "slots": {"app": "వాట్సాప్"}}
+{"text": "Command Prompt open chey", "lang": "te", "action": "open_app", "slots": {"app": "Command Prompt"}}
+{"text": "Sticky Notes kavali open chey", "lang": "te", "action": "open_app", "slots": {"app": "Sticky Notes"}}
+{"text": "steam open chey game aadali", "lang": "te", "action": "open_app", "slots": {"app": "steam"}}
+{"text": "YouTube", "lang": "none", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "టెలిగ్రామ్ తెరువు", "lang": "te", "action": "open_app", "slots": {"app": "టెలిగ్రామ్"}}
+{"text": "eenadu website open chey", "lang": "te", "action": "open_website", "slots": {"site": "eenadu"}}
+{"text": "sakshi dot com open cheyyi", "lang": "te", "action": "open_website", "slots": {"site": "sakshi dot com"}}
+{"text": "irctc site open chey", "lang": "te", "action": "open_website", "slots": {"site": "irctc"}}
+{"text": "flipkart website teruvu", "lang": "te", "action": "open_website", "slots": {"site": "flipkart"}}
+{"text": "gmail open chey", "lang": "te", "action": "open_website", "slots": {"site": "gmail"}}
+{"text": "youtube dot com open cheyi", "lang": "te", "action": "open_website", "slots": {"site": "youtube dot com"}}
+{"text": "idlebrain dot com open chey", "lang": "te", "action": "open_website", "slots": {"site": "idlebrain dot com"}}
+{"text": "meeseva website open cheyyandi", "lang": "te", "action": "open_website", "slots": {"site": "meeseva"}}
+{"text": "tsrtc online website open chey", "lang": "te", "action": "open_website", "slots": {"site": "tsrtc online"}}
+{"text": "github.com", "lang": "none", "action": "open_website", "slots": {"site": "github.com"}}
+{"text": "ఈనాడు వెబ్సైట్ ఓపెన్ చెయ్యి", "lang": "te", "action": "open_website", "slots": {"site": "ఈనాడు"}}
+{"text": "అమెజాన్ సైట్ తెరువు", "lang": "te", "action": "open_website", "slots": {"site": "అమెజాన్"}}
+{"text": "chatgpt website open chey", "lang": "te", "action": "open_website", "slots": {"site": "chatgpt"}}
+{"text": "cricbuzz dot com teruvu", "lang": "te", "action": "open_website", "slots": {"site": "cricbuzz dot com"}}
+{"text": "repu vizag lo varsham padtunda", "lang": "te", "action": "web_search", "slots": {"query": "repu vizag lo varsham padtunda"}}
+{"text": "Prabhas kotha cinema eppudu release", "lang": "te", "action": "web_search", "slots": {"query": "Prabhas kotha cinema eppudu release"}}
+{"text": "Chiranjeevi age entha", "lang": "te", "action": "web_search", "slots": {"query": "Chiranjeevi age entha"}}
+{"text": "Mahesh babu wife evaru", "lang": "te", "action": "web_search", "slots": {"query": "Mahesh babu wife evaru"}}
+{"text": "SP Balasubrahmanyam gurinchi cheppu", "lang": "te", "action": "web_search", "slots": {"query": "SP Balasubrahmanyam"}}
+{"text": "Samajavaragamana song lyrics", "lang": "te", "action": "web_search", "slots": {"query": "Samajavaragamana song lyrics"}}
+{"text": "Naatu Naatu evaru padaru", "lang": "te", "action": "web_search", "slots": {"query": "Naatu Naatu evaru padaru"}}
+{"text": "pulihora ela cheyyali", "lang": "te", "action": "web_search", "slots": {"query": "pulihora ela cheyyali"}}
+{"text": "gongura pachadi recipe vetuku", "lang": "te", "action": "web_search", "slots": {"query": "gongura pachadi recipe"}}
+{"text": "petrol rate Vijayawada lo entha", "lang": "te", "action": "web_search", "slots": {"query": "petrol rate Vijayawada lo entha"}}
+{"text": "IPL score cheppu", "lang": "te", "action": "web_search", "slots": {"query": "IPL score"}}
+{"text": "Sunrisers next match eppudu", "lang": "te", "action": "web_search", "slots": {"query": "Sunrisers next match eppudu"}}
+{"text": "photosynthesis ante enti explain chey", "lang": "te", "action": "web_search", "slots": {"query": "photosynthesis ante enti"}}
+{"text": "amazon lo boat earphones vethuku", "lang": "te", "action": "web_search", "slots": {"query": "boat earphones", "site": "amazon"}}
+{"text": "youtube lo telugu cooking videos search cheyyi", "lang": "te", "action": "web_search", "slots": {"query": "telugu cooking videos", "site": "youtube"}}
+{"text": "flipkart lo samsung phones under 20000 chudu", "lang": "te", "action": "web_search", "slots": {"query": "samsung phones under 20000", "site": "flipkart"}}
+{"text": "Rajamouli next movie enti", "lang": "te", "action": "web_search", "slots": {"query": "Rajamouli next movie enti"}}
+{"text": "Kalki 2898 AD box office collection", "lang": "te", "action": "web_search", "slots": {"query": "Kalki 2898 AD box office collection"}}
+{"text": "హైదరాబాద్ వాతావరణం ఎలా ఉంది", "lang": "te", "action": "web_search", "slots": {"query": "హైదరాబాద్ వాతావరణం ఎలా ఉంది"}}
+{"text": "ఎన్టీఆర్ దేవర సినిమా గురించి చెప్పు", "lang": "te", "action": "web_search", "slots": {"query": "ఎన్టీఆర్ దేవర సినిమా"}}
+{"text": "బంగారం ధర ఈరోజు ఎంత", "lang": "te", "action": "web_search", "slots": {"query": "బంగారం ధర ఈరోజు ఎంత"}}
+{"text": "తిరుమల దర్శనం టికెట్లు ఎలా బుక్ చేయాలి", "lang": "te", "action": "web_search", "slots": {"query": "తిరుమల దర్శనం టికెట్లు ఎలా బుక్ చేయాలి"}}
+{"text": "Allu Arjun height entha", "lang": "te", "action": "web_search", "slots": {"query": "Allu Arjun height entha"}}
+{"text": "Ilaiyaraaja evaru", "lang": "te", "action": "web_search", "slots": {"query": "Ilaiyaraaja evaru"}}
+{"text": "who directed Arjun Reddy cheppu", "lang": "te", "action": "web_search", "slots": {"query": "who directed Arjun Reddy"}}
+{"text": "Hanu-Man movie OTT lo eppudu vastundi", "lang": "te", "action": "web_search", "slots": {"query": "Hanu-Man movie OTT lo eppudu vastundi"}}
+{"text": "నాటు నాటు పాట ఎవరు రాశారు", "lang": "te", "action": "web_search", "slots": {"query": "నాటు నాటు పాట ఎవరు రాశారు"}}
+{"text": "em ra Sai Pallavi kotha movie enti", "lang": "te", "action": "web_search", "slots": {"query": "Sai Pallavi kotha movie enti"}}
+{"text": "Sid Sriram songs pettu", "lang": "te", "action": "play_media", "slots": {"query": "Sid Sriram"}}
+{"text": "spotify lo Anirudh songs play chey", "lang": "te", "action": "play_media", "slots": {"query": "Anirudh", "app": "spotify"}}
+{"text": "Butta Bomma pettu", "lang": "te", "action": "play_media", "slots": {"query": "Butta Bomma"}}
+{"text": "youtube lo Oo Antava song pettu", "lang": "te", "action": "play_media", "slots": {"query": "Oo Antava", "app": "youtube"}}
+{"text": "paata pettu", "lang": "te", "action": "play_media", "slots": {}}
+{"text": "music play chey", "lang": "te", "action": "play_media", "slots": {}}
+{"text": "old telugu songs play cheyyi", "lang": "te", "action": "play_media", "slots": {"query": "old telugu songs"}}
+{"text": "Ghantasala paatalu vinipinchu", "lang": "te", "action": "play_media", "slots": {"query": "Ghantasala"}}
+{"text": "jiosaavn lo devotional songs pettu", "lang": "te", "action": "play_media", "slots": {"query": "devotional songs", "app": "jiosaavn"}}
+{"text": "Annamayya keerthanalu pettu", "lang": "te", "action": "play_media", "slots": {"query": "Annamayya keerthanalu"}}
+{"text": "Hanuman chalisa play chey", "lang": "te", "action": "play_media", "slots": {"query": "Hanuman chalisa"}}
+{"text": "Mangli songs pettandi", "lang": "te", "action": "play_media", "slots": {"query": "Mangli"}}
+{"text": "youtube lo Pushpa 2 trailer pettu", "lang": "te", "action": "play_media", "slots": {"query": "Pushpa 2 trailer", "app": "youtube"}}
+{"text": "Chuttamalle play cheyyi", "lang": "te", "action": "play_media", "slots": {"query": "Chuttamalle"}}
+{"text": "Thaman BGM pettu spotify lo", "lang": "te", "action": "play_media", "slots": {"query": "Thaman BGM", "app": "spotify"}}
+{"text": "Kalaavathi song pettu", "lang": "te", "action": "play_media", "slots": {"query": "Kalaavathi"}}
+{"text": "పాట పెట్టు", "lang": "te", "action": "play_media", "slots": {}}
+{"text": "సిద్ శ్రీరామ్ పాటలు పెట్టు", "lang": "te", "action": "play_media", "slots": {"query": "సిద్ శ్రీరామ్"}}
+{"text": "ఘంటసాల పాటలు వినిపించు", "lang": "te", "action": "play_media", "slots": {"query": "ఘంటసాల"}}
+{"text": "youtube music lo Chitra songs pettu", "lang": "te", "action": "play_media", "slots": {"query": "Chitra", "app": "youtube music"}}
+{"text": "Wynk lo Rahul Sipligunj pettu", "lang": "te", "action": "play_media", "slots": {"query": "Rahul Sipligunj", "app": "Wynk"}}
+{"text": "kids rhymes pettu youtube lo", "lang": "te", "action": "play_media", "slots": {"query": "kids rhymes", "app": "youtube"}}
+{"text": "Spotify lo naa liked songs pettu", "lang": "te", "action": "play_media", "slots": {"query": "liked songs", "app": "Spotify"}}
+{"text": "Venkateswara suprabhatam pettu", "lang": "te", "action": "play_media", "slots": {"query": "Venkateswara suprabhatam"}}
+{"text": "gaana lo SPB hits pettu", "lang": "te", "action": "play_media", "slots": {"query": "SPB hits", "app": "gaana"}}
+{"text": "spotify lo music pettu", "lang": "te", "action": "play_media", "slots": {"app": "spotify"}}
+{"text": "paata aapu", "lang": "te", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "pause chey", "lang": "te", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "పాట ఆపు", "lang": "te", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "pause", "lang": "none", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "malli play chey", "lang": "te", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "resume", "lang": "none", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "మళ్ళీ ప్లే చెయ్యి", "lang": "te", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "next song pettu", "lang": "te", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "next", "lang": "none", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "skip chey ee paata", "lang": "te", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "venakati paata pettu", "lang": "te", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "previous song pettu", "lang": "te", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "volume penchu", "lang": "te", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "వాల్యూమ్ పెంచు", "lang": "te", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "volume taggincu", "lang": "te", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "sound thagginchu konchem", "lang": "te", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "mute chey", "lang": "te", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "sound mute cheyyi", "lang": "te", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Ravi ki message pampu nenu late avthanu ani", "lang": "te", "action": "send_message", "slots": {"contact": "Ravi", "text": "nenu late avthanu"}}
+{"text": "amma ki whatsapp lo cheppu nenu bayaludheranu ani", "lang": "te", "action": "send_message", "slots": {"contact": "amma", "text": "nenu bayaludheranu"}}
+{"text": "Srinu ki msg chey match ki vastunnava", "lang": "te", "action": "send_message", "slots": {"contact": "Srinu", "text": "match ki vastunnava"}}
+{"text": "nanna ki message pettu bus ekkanu", "lang": "te", "action": "send_message", "slots": {"contact": "nanna", "text": "bus ekkanu"}}
+{"text": "Lakshmi ki message pampandi happy birthday ani", "lang": "te", "action": "send_message", "slots": {"contact": "Lakshmi", "text": "happy birthday"}}
+{"text": "Pavan anna ki cheppu shop ki vellanu ani", "lang": "te", "action": "send_message", "slots": {"contact": "Pavan anna", "text": "shop ki vellanu"}}
+{"text": "Ramesh sir ki message pampu today class ki raalenu sir ani", "lang": "te", "action": "send_message", "slots": {"contact": "Ramesh sir", "text": "today class ki raalenu sir"}}
+{"text": "Divya madam ki whatsapp message chey assignment submit chesanu ani", "lang": "te", "action": "send_message", "slots": {"contact": "Divya madam", "text": "assignment submit chesanu"}}
+{"text": "bava ki message pampu reach ayyava", "lang": "te", "action": "send_message", "slots": {"contact": "bava", "text": "reach ayyava"}}
+{"text": "ammamma ki cheppu sunday vastham ani", "lang": "te", "action": "send_message", "slots": {"contact": "ammamma", "text": "sunday vastham"}}
+{"text": "Chinna ki message chey homework chesava", "lang": "te", "action": "send_message", "slots": {"contact": "Chinna", "text": "homework chesava"}}
+{"text": "Raju mama ki msg pampu rent pampanu ani", "lang": "te", "action": "send_message", "slots": {"contact": "Raju mama", "text": "rent pampanu"}}
+{"text": "రవికి మెసేజ్ పంపు నేను వస్తున్నా అని", "lang": "te", "action": "send_message", "slots": {"contact": "రవి", "text": "నేను వస్తున్నా"}}
+{"text": "అమ్మకి వాట్సాప్ లో చెప్పు భోజనం చేశాను అని", "lang": "te", "action": "send_message", "slots": {"contact": "అమ్మ", "text": "భోజనం చేశాను"}}
+{"text": "Harika ki whatsapp chey ready ga undu 6 ki pick chestha", "lang": "te", "action": "send_message", "slots": {"contact": "Harika", "text": "ready ga undu 6 ki pick chestha"}}
+{"text": "Venkat garu ki message pampu meeting postpone ayyindi ani", "lang": "te", "action": "send_message", "slots": {"contact": "Venkat garu", "text": "meeting postpone ayyindi"}}
+{"text": "Sai ki cheppu notes pampu ani", "lang": "te", "action": "send_message", "slots": {"contact": "Sai", "text": "notes pampu"}}
+{"text": "nenu reach ayyanu ani amma ki pampu", "lang": "te", "action": "send_message", "slots": {"contact": "amma", "text": "nenu reach ayyanu"}}
+{"text": "Vadina ki message pampu cake order chesanu", "lang": "te", "action": "send_message", "slots": {"contact": "Vadina", "text": "cake order chesanu"}}
+{"text": "నాన్నకి మెసేజ్ చెయ్యి ట్రైన్ లేట్ అని", "lang": "te", "action": "send_message", "slots": {"contact": "నాన్న", "text": "ట్రైన్ లేట్"}}
+{"text": "Keerthi ki message pampu", "lang": "te", "action": "send_message", "slots": {"contact": "Keerthi"}, "incomplete": true}
+{"text": "hello how are you ani type chey", "lang": "te", "action": "type_text", "slots": {"text": "hello how are you"}}
+{"text": "type cheyyi dear sir I need leave tomorrow", "lang": "te", "action": "type_text", "slots": {"text": "dear sir I need leave tomorrow"}}
+{"text": "naa peru Sravani ani rayi", "lang": "te", "action": "type_text", "slots": {"text": "naa peru Sravani"}}
+{"text": "meeting at 5 pm ani type cheyyandi", "lang": "te", "action": "type_text", "slots": {"text": "meeting at 5 pm"}}
+{"text": "thank you so much ani type chey", "lang": "te", "action": "type_text", "slots": {"text": "thank you so much"}}
+{"text": "repu office ki ravatledu ani raayi", "lang": "te", "action": "type_text", "slots": {"text": "repu office ki ravatledu"}}
+{"text": "నమస్కారం అని టైప్ చెయ్యి", "lang": "te", "action": "type_text", "slots": {"text": "నమస్కారం"}}
+{"text": "రేపు సెలవు కావాలి అని రాయి", "lang": "te", "action": "type_text", "slots": {"text": "రేపు సెలవు కావాలి"}}
+{"text": "address lo Madhapur Hyderabad ani type chey", "lang": "te", "action": "type_text", "slots": {"text": "Madhapur Hyderabad"}}
+{"text": "happy diwali andariki ani type chey", "lang": "te", "action": "type_text", "slots": {"text": "happy diwali andariki"}}
+{"text": "invoice number 4521 ani type cheyyi", "lang": "te", "action": "type_text", "slots": {"text": "invoice number 4521"}}
+{"text": "subject lo project update ani rayi", "lang": "te", "action": "type_text", "slots": {"text": "project update"}}
+{"text": "type chey nenu ivala work from home chestunna", "lang": "te", "action": "type_text", "slots": {"text": "nenu ivala work from home chestunna"}}
+{"text": "type chey", "lang": "te", "action": "type_text", "slots": {}, "incomplete": true}
+{"text": "submit button nokku", "lang": "te", "action": "click", "slots": {"target": "submit"}}
+{"text": "Next meeda click chey", "lang": "te", "action": "click", "slots": {"target": "Next"}}
+{"text": "sign in pai click cheyyi", "lang": "te", "action": "click", "slots": {"target": "sign in"}}
+{"text": "download button press chey", "lang": "te", "action": "click", "slots": {"target": "download"}}
+{"text": "OK nokku", "lang": "te", "action": "click", "slots": {"target": "OK"}}
+{"text": "Login meeda click cheyandi", "lang": "te", "action": "click", "slots": {"target": "Login"}}
+{"text": "skip ad nokku", "lang": "te", "action": "click", "slots": {"target": "skip ad"}}
+{"text": "Cancel button pai click chey", "lang": "te", "action": "click", "slots": {"target": "Cancel"}}
+{"text": "సబ్మిట్ బటన్ నొక్కు", "lang": "te", "action": "click", "slots": {"target": "సబ్మిట్"}}
+{"text": "నెక్స్ట్ మీద క్లిక్ చెయ్యి", "lang": "te", "action": "click", "slots": {"target": "నెక్స్ట్"}}
+{"text": "Add to cart meeda click chey", "lang": "te", "action": "click", "slots": {"target": "Add to cart"}}
+{"text": "Yes button nokku", "lang": "te", "action": "click", "slots": {"target": "Yes"}}
+{"text": "screen lo emundo chadivi vinipinchu", "lang": "te", "action": "read_screen", "slots": {}}
+{"text": "ee page lo emundi cheppu", "lang": "te", "action": "read_screen", "slots": {}}
+{"text": "screen chaduvu", "lang": "te", "action": "read_screen", "slots": {}}
+{"text": "idi enti screen meeda explain chey", "lang": "te", "action": "read_screen", "slots": {}}
+{"text": "స్క్రీన్ మీద ఏముందో చదువు", "lang": "te", "action": "read_screen", "slots": {}}
+{"text": "ee message chadivi vinipinchu", "lang": "te", "action": "read_screen", "slots": {}}
+{"text": "screen meeda unna text chaduvu", "lang": "te", "action": "read_screen", "slots": {}}
+{"text": "naaku ee error enti cheppu screen lo", "lang": "te", "action": "read_screen", "slots": {}}
+{"text": "vaddu", "lang": "te", "action": "cancel", "slots": {}}
+{"text": "cancel chey", "lang": "te", "action": "cancel", "slots": {}}
+{"text": "vaddule vadilei", "lang": "te", "action": "cancel", "slots": {}}
+{"text": "emi cheyyakandi", "lang": "te", "action": "cancel", "slots": {}}
+{"text": "aagu aagu vaddu", "lang": "te", "action": "cancel", "slots": {}}
+{"text": "parledu vaddu le", "lang": "te", "action": "cancel", "slots": {}}
+{"text": "రద్దు చెయ్యి", "lang": "te", "action": "cancel", "slots": {}}
+{"text": "cancel", "lang": "none", "action": "cancel", "slots": {}}
+{"text": "వద్దు", "lang": "te", "action": "cancel", "slots": {}}
+{"text": "brightness penchu", "lang": "te", "action": "unknown", "slots": {}}
+{"text": "alarm pettu 6 ki", "lang": "te", "action": "unknown", "slots": {}}
+{"text": "amma ki call chey", "lang": "te", "action": "unknown", "slots": {}}
+{"text": "computer shutdown chey", "lang": "te", "action": "unknown", "slots": {}}
+{"text": "nuvvu ela unnav", "lang": "te", "action": "unknown", "slots": {}}
+{"text": "wifi off cheyyi", "lang": "te", "action": "unknown", "slots": {}}
+{"text": "bluetooth on chey", "lang": "te", "action": "unknown", "slots": {}}
+{"text": "timer pettu 10 minutes", "lang": "te", "action": "unknown", "slots": {}}
+{"text": "screenshot teeyi", "lang": "te", "action": "unknown", "slots": {}}
+{"text": "బ్రైట్నెస్ తగ్గించు", "lang": "te", "action": "unknown", "slots": {}}
+{"text": "ఏం చేస్తున్నావు", "lang": "te", "action": "unknown", "slots": {}}
+{"text": "um aa em ledu", "lang": "te", "action": "unknown", "slots": {}}
+{"text": "system restart cheyyi", "lang": "te", "action": "unknown", "slots": {}}
+{"text": "nenu ninna cinema chusa chala bagundi", "lang": "te", "action": "unknown", "slots": {}}
+{"text": "టీమ్స్ ఓపెన్ చెయ్యి", "lang": "te", "action": "open_app", "slots": {"app": "టీమ్స్"}}
+{"text": "క్రోమ్ తెరువు", "lang": "te", "action": "open_app", "slots": {"app": "క్రోమ్"}}
+{"text": "ఐఆర్సీటీసీ వెబ్సైట్ ఓపెన్ చెయ్యి", "lang": "te", "action": "open_website", "slots": {"site": "ఐఆర్సీటీసీ"}}
+{"text": "ప్రభాస్ తర్వాతి సినిమా ఏమిటి", "lang": "te", "action": "web_search", "slots": {"query": "ప్రభాస్ తర్వాతి సినిమా ఏమిటి"}}
+{"text": "చిరంజీవి వయసు ఎంత", "lang": "te", "action": "web_search", "slots": {"query": "చిరంజీవి వయసు ఎంత"}}
+{"text": "పెట్రోల్ ధర ఎంత ఉంది", "lang": "te", "action": "web_search", "slots": {"query": "పెట్రోల్ ధర ఎంత ఉంది"}}
+{"text": "మహేష్ బాబు గురించి చెప్పు", "lang": "te", "action": "web_search", "slots": {"query": "మహేష్ బాబు"}}
+{"text": "యూట్యూబ్ లో నాటు నాటు పాట పెట్టు", "lang": "te", "action": "play_media", "slots": {"query": "నాటు నాటు", "app": "యూట్యూబ్"}}
+{"text": "ఇళయరాజా పాటలు ప్లే చెయ్యి", "lang": "te", "action": "play_media", "slots": {"query": "ఇళయరాజా"}}
+{"text": "భక్తి పాటలు పెట్టు", "lang": "te", "action": "play_media", "slots": {"query": "భక్తి పాటలు"}}
+{"text": "సౌండ్ తగ్గించు", "lang": "te", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "తర్వాతి పాట", "lang": "te", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "మ్యూట్ చెయ్యి", "lang": "te", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "సాయికి మెసేజ్ పంపు రేపు కలుద్దాం అని", "lang": "te", "action": "send_message", "slots": {"contact": "సాయి", "text": "రేపు కలుద్దాం"}}
+{"text": "ధన్యవాదాలు అని టైప్ చెయ్యి", "lang": "te", "action": "type_text", "slots": {"text": "ధన్యవాదాలు"}}
+{"text": "లాగిన్ మీద క్లిక్ చెయ్యి", "lang": "te", "action": "click", "slots": {"target": "లాగిన్"}}
+{"text": "ఈ పేజీలో ఏముంది చెప్పు", "lang": "te", "action": "read_screen", "slots": {}}
+{"text": "అలారం పెట్టు ఆరు గంటలకు", "lang": "te", "action": "unknown", "slots": {}}
+{"text": "ఆపేయ్ వద్దులే", "lang": "te", "action": "cancel", "slots": {}}

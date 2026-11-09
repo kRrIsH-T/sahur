@@ -1,0 +1,420 @@
+{"text": "ashi hi banvabanvi chi story sang", "lang": "mr", "action": "web_search", "slots": {"query": "ashi hi banvabanvi chi story"}}
+{"text": "Chrome open kara ani pune che aajche weather sanga ani OneNote ugadh please", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "web_search", "slots": {"query": "pune che aajche weather"}}, {"action": "open_app", "slots": {"app": "OneNote"}}], "joiners": ["ani", "ani"]}
+{"text": "pause kara ani mag spotify vr atif aslam chi gaani laava", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "play_media", "slots": {"query": "atif aslam", "app": "spotify"}}], "joiners": ["ani mag"]}
+{"text": "ata pause kar ani mag firefox ugadh", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "firefox"}}], "joiners": ["ani mag"]}
+{"text": "Sonu Nigam ani Shreya Ghoshal duet laav", "lang": "mr", "action": "play_media", "slots": {"query": "Sonu Nigam ani Shreya Ghoshal duet"}}
+{"text": "he type kar Jai Maharashtra", "lang": "mr", "action": "type_text", "slots": {"text": "Jai Maharashtra"}}
+{"text": "chrome open karun best laptop under 50000 sang", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "best laptop under 50000"}}], "joiners": ["open karun"]}
+{"text": "Shivaji Maharaj jayanti kadhi aahe shodha ani OneNote ughad re tyanantar ithe liha pune to goa bus", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "Shivaji Maharaj jayanti kadhi aahe"}}, {"action": "open_app", "slots": {"app": "OneNote"}}, {"action": "type_text", "slots": {"text": "pune to goa bus"}}], "joiners": ["ani", "tyanantar"]}
+{"text": "bluetooth chalu kar", "lang": "mr", "action": "unknown", "slots": {}}
+{"text": "जिओसावन उघडा नंतर लता मंगेशकर चं गाणं लावा प्लीज", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "जिओसावन"}}, {"action": "play_media", "slots": {"query": "लता मंगेशकर"}}], "joiners": ["नंतर"]}
+{"text": "pooja la whatsapp kar ki jevan banvun thev mag telegram chalu kar", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "pooja", "text": "jevan banvun thev"}}, {"action": "open_app", "slots": {"app": "telegram"}}], "joiners": ["mag"]}
+{"text": "calculator ughdun de", "lang": "mr", "action": "open_app", "slots": {"app": "calculator"}}
+{"text": "म्यूट कर, मग नोटपॅड उघडून दे", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "open_app", "slots": {"app": "नोटपॅड"}}], "joiners": ["मग"]}
+{"text": "sairat cinema cha director kon aahe", "lang": "mr", "action": "web_search", "slots": {"query": "sairat cinema cha director kon aahe"}}
+{"text": "पुढचं गाणं", "lang": "mr", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "नोटपॅड सुरू कर", "lang": "mr", "action": "open_app", "slots": {"app": "नोटपॅड"}}
+{"text": "liha mazha email id rohan at gmail dot com", "lang": "mr", "action": "type_text", "slots": {"text": "mazha email id rohan at gmail dot com"}}
+{"text": "edge ughadlyavar best laptop under 50000 shodh na", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "best laptop under 50000"}}], "joiners": ["ughadlyavar"]}
+{"text": "ajay atul kon aahet search kar, ani mag zingaat che gaane chalva.", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "ajay atul kon aahet"}}, {"action": "play_media", "slots": {"query": "zingaat"}}], "joiners": ["ani mag"]}
+{"text": "login button dabav", "lang": "mr", "action": "click", "slots": {"target": "login"}}
+{"text": "YouTube Music ughad ani asha bhosale che songs chalva", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "YouTube Music"}}, {"action": "play_media", "slots": {"query": "asha bhosale"}}], "joiners": ["ani"]}
+{"text": "Lagna Pahave Karun cha cast sang", "lang": "mr", "action": "web_search", "slots": {"query": "Lagna Pahave Karun cha cast"}}
+{"text": "टॉम अँड जेरी लाव", "lang": "mr", "action": "play_media", "slots": {"query": "टॉम अँड जेरी"}}
+{"text": "notes madhe liha udya dentist appointment 4 vajta", "lang": "mr", "action": "type_text", "slots": {"text": "udya dentist appointment 4 vajta"}}
+{"text": "mavshi la message kar ki tu ani kaka kadhi yenar", "lang": "mr", "action": "send_message", "slots": {"contact": "mavshi", "text": "tu ani kaka kadhi yenar"}}
+{"text": "pause karun Bela Shende chi gaani laava", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "play_media", "slots": {"query": "Bela Shende"}}], "joiners": ["karun"]}
+{"text": "sairat chi gaani chalva", "lang": "mr", "action": "play_media", "slots": {"query": "sairat"}}
+{"text": "MS Word chalu karun tyanantar liha mi udya office la yeto", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "MS Word"}}, {"action": "type_text", "slots": {"text": "mi udya office la yeto"}}], "joiners": ["chalu karun", "tyanantar"]}
+{"text": "dada la sang ki mi late honar aahe", "lang": "mr", "action": "send_message", "slots": {"contact": "dada", "text": "mi late honar aahe"}}
+{"text": "Edge suru karun ani IPL cha schedule shodh", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Edge"}}, {"action": "web_search", "slots": {"query": "IPL cha schedule"}}], "joiners": ["suru karun", "ani"]}
+{"text": "are yaar edge ughad mag youtube war red kurta for men search kar", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "red kurta for men", "site": "youtube"}}], "joiners": ["mag"]}
+{"text": "pune che aajche weather sanga", "lang": "mr", "action": "web_search", "slots": {"query": "pune che aajche weather"}}
+{"text": "hya page var kay aahe sang", "lang": "mr", "action": "read_screen", "slots": {}}
+{"text": "screen vachun dakhva", "lang": "mr", "action": "read_screen", "slots": {}}
+{"text": "ताईला सांग की उद्या शाळा आणि ऑफिस बंद आहे", "lang": "mr", "action": "send_message", "slots": {"contact": "ताई", "text": "उद्या शाळा आणि ऑफिस बंद आहे"}}
+{"text": "kanda ani batata cha bhav kiti aahe", "lang": "mr", "action": "web_search", "slots": {"query": "kanda ani batata cha bhav kiti aahe"}}
+{"text": "JioSaavn open karun asha bhosale che gaane chalva, tyanantar awaz jara jorat kar", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "JioSaavn"}}, {"action": "play_media", "slots": {"query": "asha bhosale"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["open karun", "tyanantar"]}
+{"text": "गाणं बंद कर, मग कॅल्क्युलेटर उघड", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "कॅल्क्युलेटर"}}], "joiners": ["मग"]}
+{"text": "क्रोम ओपन कर आणि मग मुंबई लोकल टाइमटेबल शोध", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "क्रोम"}}, {"action": "web_search", "slots": {"query": "मुंबई लोकल टाइमटेबल"}}], "joiners": ["आणि मग"]}
+{"text": "awaz thoda halu kar", "lang": "mr", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "arre Sneha la msg kar ki mi udya yeto tyanantar spotify open kar, tyanantar Kishore Kumar che songs laava", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Sneha", "text": "mi udya yeto"}}, {"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "Kishore Kumar"}}], "joiners": ["tyanantar", "tyanantar"]}
+{"text": "google chrome ugadh ani pudhe cricket score sanga bara", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "google chrome"}}, {"action": "web_search", "slots": {"query": "cricket score"}}], "joiners": ["ani pudhe"]}
+{"text": "word ughadun ani pudhe liha mi udya office la yeto", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "word"}}, {"action": "type_text", "slots": {"text": "mi udya office la yeto"}}], "joiners": ["ughadun", "ani pudhe"]}
+{"text": "volume up", "lang": "none", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "ajay atul kon aahet shodh, nantar a r rahman chi gaani laava", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "ajay atul kon aahet"}}, {"action": "play_media", "slots": {"query": "a r rahman"}}], "joiners": ["nantar"]}
+{"text": "cricket score sang ani onenote chalu kar ani tyanantar type kara mi udya office la yeto", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "cricket score"}}, {"action": "open_app", "slots": {"app": "onenote"}}, {"action": "type_text", "slots": {"text": "mi udya office la yeto"}}], "joiners": ["ani", "ani tyanantar"]}
+{"text": "sneha la msg kar ki mi udya yeto ani tyanantar powerpoint ughad na", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "sneha", "text": "mi udya yeto"}}, {"action": "open_app", "slots": {"app": "powerpoint"}}], "joiners": ["ani tyanantar"]}
+{"text": "gaani parat chalu kar", "lang": "mr", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "jio saavn var marathi hit songs laav", "lang": "mr", "action": "play_media", "slots": {"query": "marathi hit songs", "app": "jio saavn"}}
+{"text": "liha dear sir mi aajari aahe ani udya yenar nahi", "lang": "mr", "action": "type_text", "slots": {"text": "dear sir mi aajari aahe ani udya yenar nahi"}}
+{"text": "एक्सेल उघडून ओके बटन दाबा", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "एक्सेल"}}, {"action": "click", "slots": {"target": "ओके"}}], "joiners": ["उघडून"]}
+{"text": "Tom and Jerry cha release date sang", "lang": "mr", "action": "web_search", "slots": {"query": "Tom and Jerry cha release date"}}
+{"text": "mute karun ani Teams open kara", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "open_app", "slots": {"app": "Teams"}}], "joiners": ["karun", "ani"]}
+{"text": "Mukta Barve cha navin picture konta aahe", "lang": "mr", "action": "web_search", "slots": {"query": "Mukta Barve cha navin picture konta aahe"}}
+{"text": "स्पॉटिफाय ओपन कर आणि मग शंकर महादेवन ची गाणी लाव, आणि व्हॉल्यूम कमी कर", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "स्पॉटिफाय"}}, {"action": "play_media", "slots": {"query": "शंकर महादेवन"}}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["आणि मग", "आणि"]}
+{"text": "aaj sone cha bhav kiti aahe", "lang": "mr", "action": "web_search", "slots": {"query": "aaj sone cha bhav kiti aahe"}}
+{"text": "name field var click kara nantar ithe liha mazha email id rohan at gmail dot com", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "name field"}}, {"action": "type_text", "slots": {"text": "mazha email id rohan at gmail dot com"}}], "joiners": ["nantar"]}
+{"text": "youtube war Tom and Jerry cartoon laav", "lang": "mr", "action": "play_media", "slots": {"query": "Tom and Jerry cartoon", "app": "youtube"}}
+{"text": "स्क्रीनवर काय लिहिलंय ते वाच", "lang": "mr", "action": "read_screen", "slots": {}}
+{"text": "nilu phule yanchi mahiti sanga", "lang": "mr", "action": "web_search", "slots": {"query": "nilu phule"}}
+{"text": "zara ms word ughadun ithe liha udya dentist appointment 4 vajta", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "ms word"}}, {"action": "type_text", "slots": {"text": "udya dentist appointment 4 vajta"}}], "joiners": ["ughadun"]}
+{"text": "वर्ड सुरू कर त्यानंतर लिही शुभ सकाळ", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "वर्ड"}}, {"action": "type_text", "slots": {"text": "शुभ सकाळ"}}], "joiners": ["त्यानंतर"]}
+{"text": "chrome suru kar ani best laptop under 50000 search kara mag notepad ughad na.", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "best laptop under 50000"}}, {"action": "open_app", "slots": {"app": "notepad"}}], "joiners": ["ani", "mag"]}
+{"text": "awaz band kar", "lang": "mr", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "mumbai te pune train timing shodh", "lang": "mr", "action": "web_search", "slots": {"query": "mumbai te pune train timing"}}
+{"text": "shreya ghoshal che gaane laava ani zara volume kami kara please", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "shreya ghoshal"}}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["ani zara"]}
+{"text": "he kay lihile aahe te vacha mag firefox open kar", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "open_app", "slots": {"app": "firefox"}}], "joiners": ["mag"]}
+{"text": "whatsapp ughada na", "lang": "mr", "action": "open_app", "slots": {"app": "whatsapp"}}
+{"text": "Ludo and Snakes ughad", "lang": "mr", "action": "open_app", "slots": {"app": "Ludo and Snakes"}}
+{"text": "purane marathi gaani laav", "lang": "mr", "action": "play_media", "slots": {"query": "purane marathi gaani"}}
+{"text": "edge ughdun sakal chya batmya sang", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "sakal chya batmya"}}], "joiners": ["ughdun"]}
+{"text": "chala hawa yeu dya cha episode youtube war laav", "lang": "mr", "action": "play_media", "slots": {"query": "chala hawa yeu dya cha episode", "app": "youtube"}}
+{"text": "Gaana ughdun dya ani tyanantar powade play kar ani pudhe awaz vadhva", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Gaana"}}, {"action": "play_media", "slots": {"query": "powade"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["ani tyanantar", "ani pudhe"]}
+{"text": "Shivaji Maharaj ani Aurangzeb yancha itihas sang", "lang": "mr", "action": "web_search", "slots": {"query": "Shivaji Maharaj ani Aurangzeb yancha itihas"}}
+{"text": "aai la message pathva", "lang": "mr", "action": "send_message", "slots": {"contact": "aai"}, "incomplete": true}
+{"text": "vlc player ughad", "lang": "mr", "action": "open_app", "slots": {"app": "vlc player"}}
+{"text": "tuzha nav kay aahe", "lang": "mr", "action": "unknown", "slots": {}}
+{"text": "इथे लिही उद्या मीटिंग आहे", "lang": "mr", "action": "type_text", "slots": {"text": "उद्या मीटिंग आहे"}}
+{"text": "chrome suru karun zomato chi site open kar ani zara ha error kasla aahe te sang", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "zomato"}}, {"action": "read_screen", "slots": {}}], "joiners": ["suru karun", "ani zara"]}
+{"text": "aai la sang ki mi udya yeto", "lang": "mr", "action": "send_message", "slots": {"contact": "aai", "text": "mi udya yeto"}}
+{"text": "लिहा आई आणि बाबा", "lang": "mr", "action": "type_text", "slots": {"text": "आई आणि बाबा"}}
+{"text": "shant music laav", "lang": "mr", "action": "play_media", "slots": {"query": "shant music"}}
+{"text": "गाणं लाव", "lang": "mr", "action": "play_media", "slots": {}}
+{"text": "chrome ughadun, ani mahavitaran chi website dakhva", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "mahavitaran"}}], "joiners": ["ughadun", "ani"]}
+{"text": "ganpati aarti lyrics shodh", "lang": "mr", "action": "web_search", "slots": {"query": "ganpati aarti lyrics"}}
+{"text": "mute kar, mag Notes ughad na", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "open_app", "slots": {"app": "Notes"}}], "joiners": ["mag"]}
+{"text": "Terms and Conditions var click kara", "lang": "mr", "action": "click", "slots": {"target": "Terms and Conditions"}}
+{"text": "jiosaavn chalu kar mag bela shende che gaane laava mag awaz kami kar", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "jiosaavn"}}, {"action": "play_media", "slots": {"query": "bela shende"}}, {"action": "media_control", "slots": {}, "control": "volume_down"}], "joiners": ["mag", "mag"]}
+{"text": "सचिन तेंडुलकर कोण आहे", "lang": "mr", "action": "web_search", "slots": {"query": "सचिन तेंडुलकर कोण आहे"}}
+{"text": "flipkart chi site ughdun, cricket score google kar.", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "flipkart"}}, {"action": "web_search", "slots": {"query": "cricket score"}}], "joiners": ["ughdun"]}
+{"text": "awaz kami kar", "lang": "mr", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "word ughadun type kara dear sir please find attached report mag save button daba", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "word"}}, {"action": "type_text", "slots": {"text": "dear sir please find attached report"}}, {"action": "click", "slots": {"target": "save"}}], "joiners": ["ughadun", "mag"]}
+{"text": "Spotify", "lang": "none", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Hall and Oates laav", "lang": "mr", "action": "play_media", "slots": {"query": "Hall and Oates"}}
+{"text": "whatsapp open karun Prasad la sang ki gadi service la dili aahe", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "Prasad", "text": "gadi service la dili aahe"}}], "joiners": ["open karun"]}
+{"text": "ek kaam kar chrome suru kar mag github dot com ughad na", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "github dot com"}}], "joiners": ["mag"]}
+{"text": "video thambvun spotify vr bela shende chi gaani laava", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "play_media", "slots": {"query": "bela shende", "app": "spotify"}}], "joiners": ["thambvun"]}
+{"text": "type kara mazha email id rohan at gmail dot com jhala ki save var click kara", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "mazha email id rohan at gmail dot com"}}, {"action": "click", "slots": {"target": "save"}}], "joiners": ["jhala ki"]}
+{"text": "आयआरसीटीसी ची वेबसाइट उघड", "lang": "mr", "action": "open_website", "slots": {"site": "आयआरसीटीसी"}}
+{"text": "ata amit la message kar doodh gheun ye jhala ki settings ughada", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "amit", "text": "doodh gheun ye"}}, {"action": "open_app", "slots": {"app": "settings"}}], "joiners": ["jhala ki"]}
+{"text": "भाऊ जिओसावन उघडून दे नंतर लावणी चालव प्लीज", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "जिओसावन"}}, {"action": "play_media", "slots": {"query": "लावणी"}}], "joiners": ["नंतर"]}
+{"text": "file explorer ugadh aani screen vachun dakhva", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "file explorer"}}, {"action": "read_screen", "slots": {}}], "joiners": ["aani"]}
+{"text": "ओके बटन दाबा", "lang": "mr", "action": "click", "slots": {"target": "ओके"}}
+{"text": "ek kaam kar Gaana chalu kar, ani mag powade chalu kar", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Gaana"}}, {"action": "play_media", "slots": {"query": "powade"}}], "joiners": ["ani mag"]}
+{"text": "submit var click kar", "lang": "mr", "action": "click", "slots": {"target": "submit"}}
+{"text": "आईला सांग की मी उशिरा येतो", "lang": "mr", "action": "send_message", "slots": {"contact": "आई", "text": "मी उशिरा येतो"}}
+{"text": "Save and Continue button daba", "lang": "mr", "action": "click", "slots": {"target": "Save and Continue"}}
+{"text": "Chrome chalu karun aani lokmat chi website dakhva", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "open_website", "slots": {"site": "lokmat"}}], "joiners": ["chalu karun", "aani"]}
+{"text": "Sneha la sang ki cake ani gift gheun ye", "lang": "mr", "action": "send_message", "slots": {"contact": "Sneha", "text": "cake ani gift gheun ye"}}
+{"text": "क्रोम चालू कर मग लोकमत ची साइट उघडा", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "क्रोम"}}, {"action": "open_website", "slots": {"site": "लोकमत"}}], "joiners": ["मग"]}
+{"text": "Wynk var kishore kumar chi gaani laava", "lang": "mr", "action": "play_media", "slots": {"query": "kishore kumar", "app": "Wynk"}}
+{"text": "टाईप कर शुभ दीपावली", "lang": "mr", "action": "type_text", "slots": {"text": "शुभ दीपावली"}}
+{"text": "गाणं थांबव", "lang": "mr", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Edge open karun youtube war wireless mouse search kar please", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Edge"}}, {"action": "web_search", "slots": {"query": "wireless mouse", "site": "youtube"}}], "joiners": ["open karun"]}
+{"text": "नको रद्द कर", "lang": "mr", "action": "cancel", "slots": {}}
+{"text": "aai la message pathv jevan banvun thev", "lang": "mr", "action": "send_message", "slots": {"contact": "aai", "text": "jevan banvun thev"}}
+{"text": "spotify la suru kar", "lang": "mr", "action": "open_app", "slots": {"app": "spotify"}}
+{"text": "continue kar na", "lang": "mr", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "लिहा नमस्कार सर", "lang": "mr", "action": "type_text", "slots": {"text": "नमस्कार सर"}}
+{"text": "search button dabava jhala ki ithe liha aaj chi meeting udya aahe", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "search"}}, {"action": "type_text", "slots": {"text": "aaj chi meeting udya aahe"}}], "joiners": ["jhala ki"]}
+{"text": "Marks and Spencer chi site ughada", "lang": "mr", "action": "open_website", "slots": {"site": "Marks and Spencer"}}
+{"text": "liha dudh ani ande ani bread", "lang": "mr", "action": "type_text", "slots": {"text": "dudh ani ande ani bread"}}
+{"text": "onenote ughad re ani tyanantar liha re shubh sakal", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "onenote"}}, {"action": "type_text", "slots": {"text": "shubh sakal"}}], "joiners": ["ani tyanantar"]}
+{"text": "zingaat laav", "lang": "mr", "action": "play_media", "slots": {"query": "zingaat"}}
+{"text": "youtube chalu karun, ajay atul chi gaani laav na", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube"}}, {"action": "play_media", "slots": {"query": "ajay atul"}}], "joiners": ["chalu karun"]}
+{"text": "WhatsApp", "lang": "none", "action": "open_app", "slots": {"app": "WhatsApp"}}
+{"text": "Telegram open karun aai la message pathva ki mi ghari pohchlo", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Telegram"}}, {"action": "send_message", "slots": {"contact": "aai", "text": "mi ghari pohchlo"}}], "joiners": ["open karun"]}
+{"text": "ajay atul chi gaani laav", "lang": "mr", "action": "play_media", "slots": {"query": "ajay atul"}}
+{"text": "ganpati aarti laav", "lang": "mr", "action": "play_media", "slots": {"query": "ganpati aarti"}}
+{"text": "Sachin ani Virat madhe kon best aahe", "lang": "mr", "action": "web_search", "slots": {"query": "Sachin ani Virat madhe kon best aahe"}}
+{"text": "mavshi la sang ki prasad gheun yete", "lang": "mr", "action": "send_message", "slots": {"contact": "mavshi", "text": "prasad gheun yete"}}
+{"text": "Sant Tukaram yanchya abhangachi mahiti sanga", "lang": "mr", "action": "web_search", "slots": {"query": "Sant Tukaram yanchya abhangachi mahiti"}}
+{"text": "arre notepad suru kar", "lang": "mr", "action": "open_app", "slots": {"app": "notepad"}}
+{"text": "edge open kara ani mag dr amol kolhe kon aahet shodh", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "dr amol kolhe kon aahet"}}], "joiners": ["ani mag"]}
+{"text": "notes ughdun ithe liha invoice number 4521, nantar save var click kar", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notes"}}, {"action": "type_text", "slots": {"text": "invoice number 4521"}}, {"action": "click", "slots": {"target": "save"}}], "joiners": ["ughdun", "nantar"]}
+{"text": "sign in var click kar", "lang": "mr", "action": "click", "slots": {"target": "sign in"}}
+{"text": "mama la sang ki ganpati la ya", "lang": "mr", "action": "send_message", "slots": {"contact": "mama", "text": "ganpati la ya"}}
+{"text": "JioSaavn ughadlyavar purane marathi gaani laav tyanantar next gaani", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "JioSaavn"}}, {"action": "play_media", "slots": {"query": "purane marathi gaani"}}, {"action": "media_control", "slots": {}, "control": "next"}], "joiners": ["ughadlyavar", "tyanantar"]}
+{"text": "nako", "lang": "mr", "action": "cancel", "slots": {}}
+{"text": "Chrome ughada ani tyanantar sakal chi site open kar", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "open_website", "slots": {"site": "sakal"}}], "joiners": ["ani tyanantar"]}
+{"text": "video thambvun, mag telegram chalu kar", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "telegram"}}], "joiners": ["thambvun", "mag"]}
+{"text": "वर्ड ओपन करून, लिही जय महाराष्ट्र", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "वर्ड"}}, {"action": "type_text", "slots": {"text": "जय महाराष्ट्र"}}], "joiners": ["ओपन करून"]}
+{"text": "reminder set kar udya dudh aanaycha", "lang": "mr", "action": "unknown", "slots": {}}
+{"text": "Edge suru kar, ani tyanantar BookMyShow website ughad", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Edge"}}, {"action": "open_website", "slots": {"site": "BookMyShow"}}], "joiners": ["ani tyanantar"]}
+{"text": "whatsapp web chalu karun ani lagech mama na whatsapp kar ki gadi service la dili aahe", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp web"}}, {"action": "send_message", "slots": {"contact": "mama", "text": "gadi service la dili aahe"}}], "joiners": ["chalu karun", "ani lagech"]}
+{"text": "you tube suru karun arijit singh chi gaani laava.", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "you tube"}}, {"action": "play_media", "slots": {"query": "arijit singh"}}], "joiners": ["suru karun"]}
+{"text": "अलार्म लाव सकाळी सहाचा", "lang": "mr", "action": "unknown", "slots": {}}
+{"text": "एज चालू करून फ्लिपकार्ट ची साइट उघड", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "एज"}}, {"action": "open_website", "slots": {"site": "फ्लिपकार्ट"}}], "joiners": ["चालू करून"]}
+{"text": "youtube war lavni laav", "lang": "mr", "action": "play_media", "slots": {"query": "lavni", "app": "youtube"}}
+{"text": "maghchi gaani laav", "lang": "mr", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "address bar war click kar ani tithe liha pune to goa bus", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "address bar"}}, {"action": "type_text", "slots": {"text": "pune to goa bus"}}], "joiners": ["ani"]}
+{"text": "youtube music var shreya ghoshal chi gaani laav", "lang": "mr", "action": "play_media", "slots": {"query": "shreya ghoshal", "app": "youtube music"}}
+{"text": "baba na message pathva ki gadi service la dili aahe", "lang": "mr", "action": "send_message", "slots": {"contact": "baba", "text": "gadi service la dili aahe"}}
+{"text": "are yaar WhatsApp ughdun samor kay aahe te sang.", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "WhatsApp"}}, {"action": "read_screen", "slots": {}}], "joiners": ["ughdun"]}
+{"text": "ho Telegram ughadun Prasad la message kar jevan banvun thev", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Telegram"}}, {"action": "send_message", "slots": {"contact": "Prasad", "text": "jevan banvun thev"}}], "joiners": ["ughadun"]}
+{"text": "दादाला मेसेज कर की मी येतो आणि मग जेवतो", "lang": "mr", "action": "send_message", "slots": {"contact": "दादा", "text": "मी येतो आणि मग जेवतो"}}
+{"text": "व्हिडिओ थांबव आणि त्यानंतर कॅल्क्युलेटर उघडा", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "कॅल्क्युलेटर"}}], "joiners": ["आणि त्यानंतर"]}
+{"text": "maharashtra times chi site ughad", "lang": "mr", "action": "open_website", "slots": {"site": "maharashtra times"}}
+{"text": "calendar ughadun dakhva", "lang": "mr", "action": "open_app", "slots": {"app": "calendar"}}
+{"text": "मागचं गाणं लाव", "lang": "mr", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Word suru kar ani tyanantar type kar namaskar mi prasad boltoy", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Word"}}, {"action": "type_text", "slots": {"text": "namaskar mi prasad boltoy"}}], "joiners": ["ani tyanantar"]}
+{"text": "video thambav", "lang": "mr", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "screen var kay lihile aahe te vacha", "lang": "mr", "action": "read_screen", "slots": {}}
+{"text": "whatsapp chalu kar mag boss la sang ki doodh gheun ye", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "boss", "text": "doodh gheun ye"}}], "joiners": ["mag"]}
+{"text": "mpsc chi official website ughad", "lang": "mr", "action": "open_website", "slots": {"site": "mpsc"}}
+{"text": "Sachin dada la sang ki match chi ticket book keli", "lang": "mr", "action": "send_message", "slots": {"contact": "Sachin dada", "text": "match chi ticket book keli"}}
+{"text": "व्हॉट्सॲप उघड", "lang": "mr", "action": "open_app", "slots": {"app": "व्हॉट्सॲप"}}
+{"text": "edge ughada mag ganpati visarjan muhurat sanga", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "ganpati visarjan muhurat"}}], "joiners": ["mag"]}
+{"text": "firefox ughad nantar mahavitaran cha website ughada tyanantar screen var kay lihile aahe te vacha", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "open_website", "slots": {"site": "mahavitaran"}}, {"action": "read_screen", "slots": {}}], "joiners": ["nantar", "tyanantar"]}
+{"text": "ya document madhe liha shubh sakal", "lang": "mr", "action": "type_text", "slots": {"text": "shubh sakal"}}
+{"text": "अजय अतुल ची गाणी लाव", "lang": "mr", "action": "play_media", "slots": {"query": "अजय अतुल"}}
+{"text": "क्रोम उघड नंतर मोदक रेसिपी सांग", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "क्रोम"}}, {"action": "web_search", "slots": {"query": "मोदक रेसिपी"}}], "joiners": ["नंतर"]}
+{"text": "mama na msg kar ki party kuthe aahe nantar YouTube Music open kara aani A R Rahman che songs laav", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "mama", "text": "party kuthe aahe"}}, {"action": "open_app", "slots": {"app": "YouTube Music"}}, {"action": "play_media", "slots": {"query": "A R Rahman"}}], "joiners": ["nantar", "aani"]}
+{"text": "pavsala kadhi suru hoil", "lang": "mr", "action": "web_search", "slots": {"query": "pavsala kadhi suru hoil"}}
+{"text": "type kar thank you and best regards", "lang": "mr", "action": "type_text", "slots": {"text": "thank you and best regards"}}
+{"text": "bhaktigeete laav", "lang": "mr", "action": "play_media", "slots": {"query": "bhaktigeete"}}
+{"text": "Johnson and Johnson chi website ughad", "lang": "mr", "action": "open_website", "slots": {"site": "Johnson and Johnson"}}
+{"text": "liha aaj chi meeting udya aahe", "lang": "mr", "action": "type_text", "slots": {"text": "aaj chi meeting udya aahe"}}
+{"text": "pause kara mag notepad open kar ani type kar mi udya office la yeto", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "mi udya office la yeto"}}], "joiners": ["mag", "ani"]}
+{"text": "boss la message kar ki mi aaj wfh karnar aahe", "lang": "mr", "action": "send_message", "slots": {"contact": "boss", "text": "mi aaj wfh karnar aahe"}}
+{"text": "Telegram chalu kara", "lang": "mr", "action": "open_app", "slots": {"app": "Telegram"}}
+{"text": "awaz jara jorat kar", "lang": "mr", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "mobile la call laav", "lang": "mr", "action": "unknown", "slots": {}}
+{"text": "Zoom ugadh ani mag screen var kay chalu aahe te sang.", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Zoom"}}, {"action": "read_screen", "slots": {}}], "joiners": ["ani mag"]}
+{"text": "liha ki Ravi ani Seema yet aahet", "lang": "mr", "action": "type_text", "slots": {"text": "Ravi ani Seema yet aahet"}}
+{"text": "Prasad la whatsapp kar ki meeting 5 vajta aahe", "lang": "mr", "action": "send_message", "slots": {"contact": "Prasad", "text": "meeting 5 vajta aahe"}}
+{"text": "ajay atul kon aahet sang ani mag marathi hit songs chalu kar yaar", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "ajay atul kon aahet"}}, {"action": "play_media", "slots": {"query": "marathi hit songs"}}], "joiners": ["ani mag"]}
+{"text": "excel open kar", "lang": "mr", "action": "open_app", "slots": {"app": "excel"}}
+{"text": "Ajay Atul kon aahet", "lang": "mr", "action": "web_search", "slots": {"query": "Ajay Atul kon aahet"}}
+{"text": "Ani Dr Kashinath Ghanekar cha trailer laav", "lang": "mr", "action": "play_media", "slots": {"query": "Ani Dr Kashinath Ghanekar cha trailer"}}
+{"text": "टाईप कर मी येतो आणि मग बोलतो", "lang": "mr", "action": "type_text", "slots": {"text": "मी येतो आणि मग बोलतो"}}
+{"text": "Ajay ani Atul chi gaani laav", "lang": "mr", "action": "play_media", "slots": {"query": "Ajay ani Atul"}}
+{"text": "Rohit la sang ki mi late hoin mag tu pudhe ja", "lang": "mr", "action": "send_message", "slots": {"contact": "Rohit", "text": "mi late hoin mag tu pudhe ja"}}
+{"text": "tell me about Dr Babasaheb Ambedkar", "lang": "mr", "action": "web_search", "slots": {"query": "Dr Babasaheb Ambedkar"}}
+{"text": "google kar maharashtra cha mukhyamantri kon", "lang": "mr", "action": "web_search", "slots": {"query": "maharashtra cha mukhyamantri kon"}}
+{"text": "next", "lang": "none", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "type kar salt and pepper", "lang": "mr", "action": "type_text", "slots": {"text": "salt and pepper"}}
+{"text": "chrome ughad", "lang": "mr", "action": "open_app", "slots": {"app": "chrome"}}
+{"text": "compose button daba, ani liha invoice number 4521", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "compose"}}, {"action": "type_text", "slots": {"text": "invoice number 4521"}}], "joiners": ["ani"]}
+{"text": "firefox ughadlyavar Shivaji Maharaj jayanti kadhi aahe sanga", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "web_search", "slots": {"query": "Shivaji Maharaj jayanti kadhi aahe"}}], "joiners": ["ughadlyavar"]}
+{"text": "tu kasa aahes", "lang": "mr", "action": "unknown", "slots": {}}
+{"text": "lofi music laav", "lang": "mr", "action": "play_media", "slots": {"query": "lofi music"}}
+{"text": "liha ki mi office la jato ani mag ghari yeto", "lang": "mr", "action": "type_text", "slots": {"text": "mi office la jato ani mag ghari yeto"}}
+{"text": "google chrome ughdun dya, ani zara modak recipe search kar please", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "google chrome"}}, {"action": "web_search", "slots": {"query": "modak recipe"}}], "joiners": ["ani zara"]}
+{"text": "वर्ड सुरू कर, नंतर लिहा जय महाराष्ट्र नंतर सेव्ह वर क्लिक करा", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "वर्ड"}}, {"action": "type_text", "slots": {"text": "जय महाराष्ट्र"}}, {"action": "click", "slots": {"target": "सेव्ह"}}], "joiners": ["नंतर", "नंतर"]}
+{"text": "laptop shutdown kar", "lang": "mr", "action": "unknown", "slots": {}}
+{"text": "zingaat cha meaning sanga mag ajay atul chi gaani laava.", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "zingaat cha meaning"}}, {"action": "play_media", "slots": {"query": "ajay atul"}}], "joiners": ["mag"]}
+{"text": "लता मंगेशकर यांच्याबद्दल सांग", "lang": "mr", "action": "web_search", "slots": {"query": "लता मंगेशकर"}}
+{"text": "अजय अतुल लावा त्यानंतर म्यूट कर प्लीज", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "अजय अतुल"}}, {"action": "media_control", "slots": {}, "control": "mute"}], "joiners": ["त्यानंतर"]}
+{"text": "he liha Ram ani Shyam", "lang": "mr", "action": "type_text", "slots": {"text": "Ram ani Shyam"}}
+{"text": "pause", "lang": "none", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "राम आणि श्याम चित्रपटाचा दिग्दर्शक कोण आहे", "lang": "mr", "action": "web_search", "slots": {"query": "राम आणि श्याम चित्रपटाचा दिग्दर्शक कोण आहे"}}
+{"text": "Wynk ughadlyavar koligeet laava", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Wynk"}}, {"action": "play_media", "slots": {"query": "koligeet"}}], "joiners": ["ughadlyavar"]}
+{"text": "rahu de", "lang": "mr", "action": "cancel", "slots": {}}
+{"text": "Rahul la bol ki party kuthe aahe", "lang": "mr", "action": "send_message", "slots": {"contact": "Rahul", "text": "party kuthe aahe"}}
+{"text": "ॲमेझॉन वर चप्पल शोधा", "lang": "mr", "action": "web_search", "slots": {"query": "चप्पल", "site": "ॲमेझॉन"}}
+{"text": "aai la sang ki bhaji ani poli kar", "lang": "mr", "action": "send_message", "slots": {"contact": "aai", "text": "bhaji ani poli kar"}}
+{"text": "आवाज कमी कर", "lang": "mr", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Instagram ughad na", "lang": "mr", "action": "open_app", "slots": {"app": "Instagram"}}
+{"text": "WhatsApp ughadlyavar Pooja la bola ki mi late honar aahe", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "WhatsApp"}}, {"action": "send_message", "slots": {"contact": "Pooja", "text": "mi late honar aahe"}}], "joiners": ["ughadlyavar"]}
+{"text": "Ravi la sang ki udya shala nahi ani office pan band aahe", "lang": "mr", "action": "send_message", "slots": {"contact": "Ravi", "text": "udya shala nahi ani office pan band aahe"}}
+{"text": "gaana ughad re, nantar asha bhosale chi gaani laava", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "gaana"}}, {"action": "play_media", "slots": {"query": "asha bhosale"}}], "joiners": ["nantar"]}
+{"text": "फायरफॉक्स सुरू कर आणि मुंबई लोकल टाइमटेबल शोध", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "फायरफॉक्स"}}, {"action": "web_search", "slots": {"query": "मुंबई लोकल टाइमटेबल"}}], "joiners": ["आणि"]}
+{"text": "zomato website open kar", "lang": "mr", "action": "open_website", "slots": {"site": "zomato"}}
+{"text": "name field var click kar, ani mag type kara pune to goa bus", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "click", "slots": {"target": "name field"}}, {"action": "type_text", "slots": {"text": "pune to goa bus"}}], "joiners": ["ani mag"]}
+{"text": "zoom ughada tyanantar next var click kara", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "zoom"}}, {"action": "click", "slots": {"target": "next"}}], "joiners": ["tyanantar"]}
+{"text": "next gaani", "lang": "mr", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "dhoni cha vayas kiti aahe", "lang": "mr", "action": "web_search", "slots": {"query": "dhoni cha vayas kiti aahe"}}
+{"text": "Prasad la msg kar ki ticket book keli ani tula pathvli", "lang": "mr", "action": "send_message", "slots": {"contact": "Prasad", "text": "ticket book keli ani tula pathvli"}}
+{"text": "amazon dot in ughad", "lang": "mr", "action": "open_website", "slots": {"site": "amazon dot in"}}
+{"text": "send var click kara zara", "lang": "mr", "action": "click", "slots": {"target": "send"}}
+{"text": "महाराष्ट्राचा मुख्यमंत्री कोण आहे", "lang": "mr", "action": "web_search", "slots": {"query": "महाराष्ट्राचा मुख्यमंत्री कोण आहे"}}
+{"text": "bhau wikipedia dot org open karun, maharashtra cha mukhyamantri kon aahe shodha please", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "wikipedia dot org"}}, {"action": "web_search", "slots": {"query": "maharashtra cha mukhyamantri kon aahe"}}], "joiners": ["open karun"]}
+{"text": "notes open kar nantar liha udya dentist appointment 4 vajta", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notes"}}, {"action": "type_text", "slots": {"text": "udya dentist appointment 4 vajta"}}], "joiners": ["nantar"]}
+{"text": "Aai la sang ki doodh ani ande aanayche aahet", "lang": "mr", "action": "send_message", "slots": {"contact": "Aai", "text": "doodh ani ande aanayche aahet"}}
+{"text": "volume vadhav", "lang": "mr", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Romeo and Juliet cha theme music laav", "lang": "mr", "action": "play_media", "slots": {"query": "Romeo and Juliet cha theme music"}}
+{"text": "वर्ड उघडून दे", "lang": "mr", "action": "open_app", "slots": {"app": "वर्ड"}}
+{"text": "ms word open kara", "lang": "mr", "action": "open_app", "slots": {"app": "ms word"}}
+{"text": "mala vs code suru karaycha aahe", "lang": "mr", "action": "open_app", "slots": {"app": "vs code"}}
+{"text": "spotify suru karun anuradha paudwal chi gaani laav na", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "spotify"}}, {"action": "play_media", "slots": {"query": "anuradha paudwal"}}], "joiners": ["suru karun"]}
+{"text": "ajoba la sang ki mi suttit yetoy", "lang": "mr", "action": "send_message", "slots": {"contact": "ajoba", "text": "mi suttit yetoy"}}
+{"text": "OneNote ughadun type kara mazha email id rohan at gmail dot com", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "OneNote"}}, {"action": "type_text", "slots": {"text": "mazha email id rohan at gmail dot com"}}], "joiners": ["ughadun"]}
+{"text": "chrome ugadh mag next button daba please", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "click", "slots": {"target": "next"}}], "joiners": ["mag"]}
+{"text": "Sunidhi Chauhan che songs laav", "lang": "mr", "action": "play_media", "slots": {"query": "Sunidhi Chauhan"}}
+{"text": "स्पॉटिफाय चालू कर", "lang": "mr", "action": "open_app", "slots": {"app": "स्पॉटिफाय"}}
+{"text": "अरे कॅल्क्युलेटर उघडून आणि मग हा एरर काय आहे ते सांग", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "कॅल्क्युलेटर"}}, {"action": "read_screen", "slots": {}}], "joiners": ["उघडून", "आणि मग"]}
+{"text": "type kara gharchi list dudh bread ande, ani tyanantar submit button dabav.", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "gharchi list dudh bread ande"}}, {"action": "click", "slots": {"target": "submit"}}], "joiners": ["ani tyanantar"]}
+{"text": "irctc website ughada", "lang": "mr", "action": "open_website", "slots": {"site": "irctc"}}
+{"text": "wifi band kar", "lang": "mr", "action": "unknown", "slots": {}}
+{"text": "udya sakali 6 vajta alarm laav", "lang": "mr", "action": "unknown", "slots": {}}
+{"text": "pudhchi gaani laav", "lang": "mr", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "अजय आणि अतुल ची गाणी लाव", "lang": "mr", "action": "play_media", "slots": {"query": "अजय आणि अतुल"}}
+{"text": "gaani thambva", "lang": "mr", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "spotify war Beauty and the Beast soundtrack laav", "lang": "mr", "action": "play_media", "slots": {"query": "Beauty and the Beast soundtrack", "app": "spotify"}}
+{"text": "bhau edge chalu karun aaj sone cha bhav kiti aahe sanga na", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "aaj sone cha bhav kiti aahe"}}], "joiners": ["chalu karun"]}
+{"text": "tai la bola ki mi pune la jaun nantar phone karto", "lang": "mr", "action": "send_message", "slots": {"contact": "tai", "text": "mi pune la jaun nantar phone karto"}}
+{"text": "screen var kay chalu aahe te sang ani mag whatsapp ugadh", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "open_app", "slots": {"app": "whatsapp"}}], "joiners": ["ani mag"]}
+{"text": "Chrome ughad na tya nantar maharashtra cha mukhyamantri kon aahe shodha", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Chrome"}}, {"action": "web_search", "slots": {"query": "maharashtra cha mukhyamantri kon aahe"}}], "joiners": ["tya nantar"]}
+{"text": "क्रोम चालू कर मग आजचा सोन्याचा भाव सांग", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "क्रोम"}}, {"action": "web_search", "slots": {"query": "आजचा सोन्याचा भाव"}}], "joiners": ["मग"]}
+{"text": "chhod he nako aata", "lang": "mr", "action": "cancel", "slots": {}}
+{"text": "type kar my name is Rohan Patil", "lang": "mr", "action": "type_text", "slots": {"text": "my name is Rohan Patil"}}
+{"text": "Calculator ughadlyavar ani lagech screen vachun dakhva", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Calculator"}}, {"action": "read_screen", "slots": {}}], "joiners": ["ughadlyavar", "ani lagech"]}
+{"text": "settings tab var click kar", "lang": "mr", "action": "click", "slots": {"target": "settings"}}
+{"text": "boss la message kar ki mi meeting attend karun mag call karto", "lang": "mr", "action": "send_message", "slots": {"contact": "boss", "text": "mi meeting attend karun mag call karto"}}
+{"text": "mute karun Spotify open kar", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "mute"}, {"action": "open_app", "slots": {"app": "Spotify"}}], "joiners": ["karun"]}
+{"text": "notes open karun ithe liha mazha email id rohan at gmail dot com", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notes"}}, {"action": "type_text", "slots": {"text": "mazha email id rohan at gmail dot com"}}], "joiners": ["open karun"]}
+{"text": "sachin tendulkar kon aahe", "lang": "mr", "action": "web_search", "slots": {"query": "sachin tendulkar kon aahe"}}
+{"text": "YouTube ughadun nantar lata mangeshkar chi gaani laava", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "YouTube"}}, {"action": "play_media", "slots": {"query": "lata mangeshkar"}}], "joiners": ["ughadun", "nantar"]}
+{"text": "aaji la message pathva ki mi thik aahe", "lang": "mr", "action": "send_message", "slots": {"contact": "aaji", "text": "mi thik aahe"}}
+{"text": "gaana var Asha Bhosale laav", "lang": "mr", "action": "play_media", "slots": {"query": "Asha Bhosale", "app": "gaana"}}
+{"text": "मोदक रेसिपी सर्च कर आणि आदर्श शिंदे लावा", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "मोदक रेसिपी"}}, {"action": "play_media", "slots": {"query": "आदर्श शिंदे"}}], "joiners": ["आणि"]}
+{"text": "zara sakal chya batmya search kar tasach wordpad ughad mag type kara jai maharashtra", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "web_search", "slots": {"query": "sakal chya batmya"}}, {"action": "open_app", "slots": {"app": "wordpad"}}, {"action": "type_text", "slots": {"text": "jai maharashtra"}}], "joiners": ["tasach", "mag"]}
+{"text": "amazon var headphones shodh", "lang": "mr", "action": "web_search", "slots": {"query": "headphones", "site": "amazon"}}
+{"text": "नोटपॅड चालू कर मग इथे लिही मी उद्या ऑफिसला येतो", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "नोटपॅड"}}, {"action": "type_text", "slots": {"text": "मी उद्या ऑफिसला येतो"}}], "joiners": ["मग"]}
+{"text": "BookMyShow chi website ughada", "lang": "mr", "action": "open_website", "slots": {"site": "BookMyShow"}}
+{"text": "gaani laav", "lang": "mr", "action": "play_media", "slots": {}}
+{"text": "यूट्यूब वर भक्तीगीते लाव", "lang": "mr", "action": "play_media", "slots": {"query": "भक्तीगीते", "app": "यूट्यूब"}}
+{"text": "next var click kara", "lang": "mr", "action": "click", "slots": {"target": "next"}}
+{"text": "mute", "lang": "none", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "mahavitaran chi site ughad", "lang": "mr", "action": "open_website", "slots": {"site": "mahavitaran"}}
+{"text": "youtube var anuradha paudwal chi gaani laav na, tyanantar volume up kar", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "anuradha paudwal", "app": "youtube"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["tyanantar"]}
+{"text": "aai la phone laav", "lang": "mr", "action": "unknown", "slots": {}}
+{"text": "liha re invoice number 4521, mag Send button dabava lavkar", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "invoice number 4521"}}, {"action": "click", "slots": {"target": "Send"}}], "joiners": ["mag"]}
+{"text": "natya sangeet laav", "lang": "mr", "action": "play_media", "slots": {"query": "natya sangeet"}}
+{"text": "pani puri ani bhel puri recipe shodha", "lang": "mr", "action": "web_search", "slots": {"query": "pani puri ani bhel puri recipe"}}
+{"text": "aaj kay jevan banvu", "lang": "mr", "action": "unknown", "slots": {}}
+{"text": "gaani band kara", "lang": "mr", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "kaka na whatsapp var sang ki gaadi pathvato", "lang": "mr", "action": "send_message", "slots": {"contact": "kaka", "text": "gaadi pathvato"}}
+{"text": "baba na message pathva ki me ghari yeto ani mag jevto", "lang": "mr", "action": "send_message", "slots": {"contact": "baba", "text": "me ghari yeto ani mag jevto"}}
+{"text": "ha error kasla aahe samjavun sang", "lang": "mr", "action": "read_screen", "slots": {}}
+{"text": "mavshi la whatsapp kar ki doodh gheun ye, mag Outlook suru kar", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "mavshi", "text": "doodh gheun ye"}}, {"action": "open_app", "slots": {"app": "Outlook"}}], "joiners": ["mag"]}
+{"text": "यूट्यूब चालू करून आशा भोसले लाव, आणि मग पुढचं गाणं ना", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "यूट्यूब"}}, {"action": "play_media", "slots": {"query": "आशा भोसले"}}, {"action": "media_control", "slots": {}, "control": "next"}], "joiners": ["चालू करून", "आणि मग"]}
+{"text": "edge ughadun amazon war running shoes shodh re", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "edge"}}, {"action": "web_search", "slots": {"query": "running shoes", "site": "amazon"}}], "joiners": ["ughadun"]}
+{"text": "search box madhe type kar pune to goa bus", "lang": "mr", "action": "type_text", "slots": {"text": "pune to goa bus"}}
+{"text": "sakal chi website dakhva", "lang": "mr", "action": "open_website", "slots": {"site": "sakal"}}
+{"text": "ek kaam kar JioSaavn ughadun ani mag marathi hit songs laav", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "JioSaavn"}}, {"action": "play_media", "slots": {"query": "marathi hit songs"}}], "joiners": ["ughadun", "ani mag"]}
+{"text": "Lagna Pahave Karun movie youtube war laav", "lang": "mr", "action": "play_media", "slots": {"query": "Lagna Pahave Karun movie", "app": "youtube"}}
+{"text": "यूट्यूब उघडून जुनी मराठी गाणी लावा ना", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "यूट्यूब"}}, {"action": "play_media", "slots": {"query": "जुनी मराठी गाणी"}}], "joiners": ["उघडून"]}
+{"text": "bhau whatsapp ughdun, pooja la whatsapp kar ki mi late honar aahe", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "whatsapp"}}, {"action": "send_message", "slots": {"contact": "pooja", "text": "mi late honar aahe"}}], "joiners": ["ughdun"]}
+{"text": "gaani thambvun ani google chrome chalu kar", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "google chrome"}}], "joiners": ["thambvun", "ani"]}
+{"text": "Google Chrome ughadun, maharashtra cha mukhyamantri kon aahe sanga na", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Google Chrome"}}, {"action": "web_search", "slots": {"query": "maharashtra cha mukhyamantri kon aahe"}}], "joiners": ["ughadun"]}
+{"text": "Tom and Jerry cha game suru kar", "lang": "mr", "action": "open_app", "slots": {"app": "Tom and Jerry cha game"}}
+{"text": "Sneha la whatsapp kar", "lang": "mr", "action": "send_message", "slots": {"contact": "Sneha"}, "incomplete": true}
+{"text": "Natu Natu video youtube war laav", "lang": "mr", "action": "play_media", "slots": {"query": "Natu Natu video", "app": "youtube"}}
+{"text": "zoom wala app ughad", "lang": "mr", "action": "open_app", "slots": {"app": "zoom"}}
+{"text": "romeo and juliet chi mahiti sanga", "lang": "mr", "action": "web_search", "slots": {"query": "romeo and juliet"}}
+{"text": "H and M chi website ughad", "lang": "mr", "action": "open_website", "slots": {"site": "H and M"}}
+{"text": "स्पॉटिफाय उघडून, भक्तीगीते चालव", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "स्पॉटिफाय"}}, {"action": "play_media", "slots": {"query": "भक्तीगीते"}}], "joiners": ["उघडून"]}
+{"text": "लोकमत ची साइट उघडा", "lang": "mr", "action": "open_website", "slots": {"site": "लोकमत"}}
+{"text": "cancel kar", "lang": "mr", "action": "cancel", "slots": {}}
+{"text": "प्रसादला मेसेज पाठव की मी येतोय", "lang": "mr", "action": "send_message", "slots": {"contact": "प्रसाद", "text": "मी येतोय"}}
+{"text": "brightness kami kar", "lang": "mr", "action": "unknown", "slots": {}}
+{"text": "ok button daba", "lang": "mr", "action": "click", "slots": {"target": "ok"}}
+{"text": "Amazon Music var devotional laav", "lang": "mr", "action": "play_media", "slots": {"query": "devotional", "app": "Amazon Music"}}
+{"text": "आईला सांग की भाजी आणि पोळी कर", "lang": "mr", "action": "send_message", "slots": {"contact": "आई", "text": "भाजी आणि पोळी कर"}}
+{"text": "awaz vadhva", "lang": "mr", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "flipkart cha website ughad ani tyanantar ajay atul che nave gaane sang", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "flipkart"}}, {"action": "web_search", "slots": {"query": "ajay atul che nave gaane"}}], "joiners": ["ani tyanantar"]}
+{"text": "search icon var click kara", "lang": "mr", "action": "click", "slots": {"target": "search"}}
+{"text": "wynk suru kar, ani shankar mahadevan chi gaani laava", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "wynk"}}, {"action": "play_media", "slots": {"query": "shankar mahadevan"}}], "joiners": ["ani"]}
+{"text": "ho Rohit sir la message pathva ki meeting 5 vajta aahe, jhala ki Outlook ughad lavkar", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Rohit sir", "text": "meeting 5 vajta aahe"}}, {"action": "open_app", "slots": {"app": "Outlook"}}], "joiners": ["jhala ki"]}
+{"text": "Sunidhi Chauhan che gaane laav na ani mag awaz band kar na", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "Sunidhi Chauhan"}}, {"action": "media_control", "slots": {}, "control": "mute"}], "joiners": ["ani mag"]}
+{"text": "Sachin dada la msg kar ki mi suttit yetoy ani tyanantar Teams ughdun dya", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Sachin dada", "text": "mi suttit yetoy"}}, {"action": "open_app", "slots": {"app": "Teams"}}], "joiners": ["ani tyanantar"]}
+{"text": "chrome ughad nantar puran poli recipe google kar", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "puran poli recipe"}}], "joiners": ["nantar"]}
+{"text": "notepad chalu kar ani mag type kara udya dentist appointment 4 vajta", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "udya dentist appointment 4 vajta"}}], "joiners": ["ani mag"]}
+{"text": "ithe liha Tom and Jerry", "lang": "mr", "action": "type_text", "slots": {"text": "Tom and Jerry"}}
+{"text": "powerpoint ughda", "lang": "mr", "action": "open_app", "slots": {"app": "powerpoint"}}
+{"text": "ek kaam kar MS Word ughada jhala ki tithe liha shubh sakal", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "MS Word"}}, {"action": "type_text", "slots": {"text": "shubh sakal"}}], "joiners": ["jhala ki"]}
+{"text": "Spotify chalu kar", "lang": "mr", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "are yaar Prasad la sang ki udya shala nahi tyanantar Wynk ughdun dya", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "Prasad", "text": "udya shala nahi"}}, {"action": "open_app", "slots": {"app": "Wynk"}}], "joiners": ["tyanantar"]}
+{"text": "petrol cha rate kiti aahe pune madhe", "lang": "mr", "action": "web_search", "slots": {"query": "petrol cha rate kiti aahe pune madhe"}}
+{"text": "he popup kashala aala sang na", "lang": "mr", "action": "read_screen", "slots": {}}
+{"text": "Wynk open karun Arijit Singh che gaane laav", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Wynk"}}, {"action": "play_media", "slots": {"query": "Arijit Singh"}}], "joiners": ["open karun"]}
+{"text": "स्क्रीनची ब्राइटनेस कमी कर", "lang": "mr", "action": "unknown", "slots": {}}
+{"text": "type kar dear sir please find attached report", "lang": "mr", "action": "type_text", "slots": {"text": "dear sir please find attached report"}}
+{"text": "सबमिट वर क्लिक कर", "lang": "mr", "action": "click", "slots": {"target": "सबमिट"}}
+{"text": "जिओसावन वर जुनी मराठी गाणी लाव", "lang": "mr", "action": "play_media", "slots": {"query": "जुनी मराठी गाणी", "app": "जिओसावन"}}
+{"text": "यूट्यूब उघड त्यानंतर अजय अतुल चं गाणं चालव ना", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "यूट्यूब"}}, {"action": "play_media", "slots": {"query": "अजय अतुल"}}], "joiners": ["त्यानंतर"]}
+{"text": "WhatsApp open kar jhala ki aaji la msg kar ki mi late honar aahe", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "WhatsApp"}}, {"action": "send_message", "slots": {"contact": "aaji", "text": "mi late honar aahe"}}], "joiners": ["jhala ki"]}
+{"text": "हा एरर काय आहे ते सांग", "lang": "mr", "action": "read_screen", "slots": {}}
+{"text": "म्यूट कर", "lang": "mr", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "pause kar ani gaana var sonu nigam che gaane laav na", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "play_media", "slots": {"query": "sonu nigam", "app": "gaana"}}], "joiners": ["ani"]}
+{"text": "Simon and Garfunkel chi gaani laav", "lang": "mr", "action": "play_media", "slots": {"query": "Simon and Garfunkel"}}
+{"text": "download button dabava", "lang": "mr", "action": "click", "slots": {"target": "download"}}
+{"text": "firefox suru karun, nantar shivaji maharaj jayanti kadhi aahe search kar", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "web_search", "slots": {"query": "shivaji maharaj jayanti kadhi aahe"}}], "joiners": ["suru karun", "nantar"]}
+{"text": "mute kar", "lang": "mr", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "मोदक रेसिपी शोधा", "lang": "mr", "action": "web_search", "slots": {"query": "मोदक रेसिपी"}}
+{"text": "कांदा आणि बटाट्याचा भाव किती आहे", "lang": "mr", "action": "web_search", "slots": {"query": "कांदा आणि बटाट्याचा भाव किती आहे"}}
+{"text": "settings ughad", "lang": "mr", "action": "open_app", "slots": {"app": "settings"}}
+{"text": "type kar thank you so much for your help", "lang": "mr", "action": "type_text", "slots": {"text": "thank you so much for your help"}}
+{"text": "liha subject line project update", "lang": "mr", "action": "type_text", "slots": {"text": "subject line project update"}}
+{"text": "ata firefox chalu karun, best laptop under 50000 google kar", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "web_search", "slots": {"query": "best laptop under 50000"}}], "joiners": ["chalu karun"]}
+{"text": "Chrome", "lang": "none", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "pause kar aani wordpad ugadh, mag ithe liha gharchi list dudh bread ande", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "wordpad"}}, {"action": "type_text", "slots": {"text": "gharchi list dudh bread ande"}}], "joiners": ["aani", "mag"]}
+{"text": "flipkart war mobile cover shodha", "lang": "mr", "action": "web_search", "slots": {"query": "mobile cover", "site": "flipkart"}}
+{"text": "mavshi la message pathva ki mi ghari pohchlo, jhala ki youtube music ughad na ani adarsh shinde chi gaani laava", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "mavshi", "text": "mi ghari pohchlo"}}, {"action": "open_app", "slots": {"app": "youtube music"}}, {"action": "play_media", "slots": {"query": "adarsh shinde"}}], "joiners": ["jhala ki", "ani"]}
+{"text": "आवाज वाढव", "lang": "mr", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "ithe liha namaskar mi prasad boltoy", "lang": "mr", "action": "type_text", "slots": {"text": "namaskar mi prasad boltoy"}}
+{"text": "Chhatrapati Shivaji Maharaj kon hote", "lang": "mr", "action": "web_search", "slots": {"query": "Chhatrapati Shivaji Maharaj kon hote"}}
+{"text": "ram ani shyam movie madhe kon hota", "lang": "mr", "action": "web_search", "slots": {"query": "ram ani shyam movie madhe kon hota"}}
+{"text": "झिंगाट गाणं लावा", "lang": "mr", "action": "play_media", "slots": {"query": "झिंगाट"}}
+{"text": "गुगल डॉक्स ओपन करून, इथे लिही जय महाराष्ट्र", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "गुगल डॉक्स"}}, {"action": "type_text", "slots": {"text": "जय महाराष्ट्र"}}], "joiners": ["ओपन करून"]}
+{"text": "दादाला सांग की उद्या भेटू", "lang": "mr", "action": "send_message", "slots": {"contact": "दादा", "text": "उद्या भेटू"}}
+{"text": "Rohit sir la message pathva ki assignment udya submit karto", "lang": "mr", "action": "send_message", "slots": {"contact": "Rohit sir", "text": "assignment udya submit karto"}}
+{"text": "notepad ughad ani tyanantar liha re aaj chi meeting udya aahe", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "aaj chi meeting udya aahe"}}], "joiners": ["ani tyanantar"]}
+{"text": "फायरफॉक्स चालू करून पेट्रोलचा दर सांग", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "फायरफॉक्स"}}, {"action": "web_search", "slots": {"query": "पेट्रोलचा दर"}}], "joiners": ["चालू करून"]}
+{"text": "youtube music ughdun, jhala ki ajay atul che songs laava", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "youtube music"}}, {"action": "play_media", "slots": {"query": "ajay atul"}}], "joiners": ["ughdun", "jhala ki"]}
+{"text": "volume vadhav ani mag edge suru kar", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "volume_up"}, {"action": "open_app", "slots": {"app": "edge"}}], "joiners": ["ani mag"]}
+{"text": "ind vs aus match cha score sang", "lang": "mr", "action": "web_search", "slots": {"query": "ind vs aus match cha score"}}
+{"text": "gaani band kara ani mag notepad ughad ani ithe liha happy diwali to all", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "media_control", "slots": {}, "control": "pause"}, {"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "happy diwali to all"}}], "joiners": ["ani mag", "ani"]}
+{"text": "कॅल्क्युलेटर उघडा", "lang": "mr", "action": "open_app", "slots": {"app": "कॅल्क्युलेटर"}}
+{"text": "type kara dear sir please find attached report nantar submit var click kar.", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "dear sir please find attached report"}}, {"action": "click", "slots": {"target": "submit"}}], "joiners": ["nantar"]}
+{"text": "ho firefox open kara ani zara play var click kara.", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "firefox"}}, {"action": "click", "slots": {"target": "play"}}], "joiners": ["ani zara"]}
+{"text": "Ani Dr Kashinath Ghanekar movie cha director kon", "lang": "mr", "action": "web_search", "slots": {"query": "Ani Dr Kashinath Ghanekar movie cha director kon"}}
+{"text": "youtube war cooking videos shodh", "lang": "mr", "action": "web_search", "slots": {"query": "cooking videos", "site": "youtube"}}
+{"text": "meeting sathi teams ughad", "lang": "mr", "action": "open_app", "slots": {"app": "teams"}}
+{"text": "ho chrome ugadh, ani Pune metro cha route search kara, aani Notes open kara", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "web_search", "slots": {"query": "Pune metro cha route"}}, {"action": "open_app", "slots": {"app": "Notes"}}], "joiners": ["ani", "aani"]}
+{"text": "राहू दे", "lang": "mr", "action": "cancel", "slots": {}}
+{"text": "Kaka sathi kirtan laav", "lang": "mr", "action": "play_media", "slots": {"query": "kirtan"}}
+{"text": "Outlook ughdun dya", "lang": "mr", "action": "open_app", "slots": {"app": "Outlook"}}
+{"text": "salt and pepper chicken recipe shodh", "lang": "mr", "action": "web_search", "slots": {"query": "salt and pepper chicken recipe"}}
+{"text": "Notepad", "lang": "none", "action": "open_app", "slots": {"app": "Notepad"}}
+{"text": "एज उघडून, दहावीचा निकाल कधी लागणार सर्च कर, आणि नोटपॅड उघडा", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "एज"}}, {"action": "web_search", "slots": {"query": "दहावीचा निकाल कधी लागणार"}}, {"action": "open_app", "slots": {"app": "नोटपॅड"}}], "joiners": ["उघडून", "आणि"]}
+{"text": "Bonnie and Clyde cha trailer chalva", "lang": "mr", "action": "play_media", "slots": {"query": "Bonnie and Clyde cha trailer"}}
+{"text": "शंकर महादेवन ची गाणी लाव त्यानंतर आवाज वाढव", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "शंकर महादेवन"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["त्यानंतर"]}
+{"text": "tithe liha happy diwali to all nantar send var click kar", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "type_text", "slots": {"text": "happy diwali to all"}}, {"action": "click", "slots": {"target": "send"}}], "joiners": ["nantar"]}
+{"text": "स्पॉटिफाय वर लावणी लाव", "lang": "mr", "action": "play_media", "slots": {"query": "लावणी", "app": "स्पॉटिफाय"}}
+{"text": "esakal dot com ughad", "lang": "mr", "action": "open_website", "slots": {"site": "esakal dot com"}}
+{"text": "spotify var arijit singh laav", "lang": "mr", "action": "play_media", "slots": {"query": "arijit singh", "app": "spotify"}}
+{"text": "paint ughada zara", "lang": "mr", "action": "open_app", "slots": {"app": "paint"}}
+{"text": "Dungeons and Dragons ughad", "lang": "mr", "action": "open_app", "slots": {"app": "Dungeons and Dragons"}}
+{"text": "chrome ughdun sakal cha website ughada", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "open_website", "slots": {"site": "sakal"}}], "joiners": ["ughdun"]}
+{"text": "pause kar", "lang": "mr", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "chrome suru karun download button dabava", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "chrome"}}, {"action": "click", "slots": {"target": "download"}}], "joiners": ["suru karun"]}
+{"text": "aaji la message pathva ki meeting 5 vajta aahe tyanantar chrome open kara", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "send_message", "slots": {"contact": "aaji", "text": "meeting 5 vajta aahe"}}, {"action": "open_app", "slots": {"app": "chrome"}}], "joiners": ["tyanantar"]}
+{"text": "क्रोम उघडा ना", "lang": "mr", "action": "open_app", "slots": {"app": "क्रोम"}}
+{"text": "bhau youtube dot com open kar ani pune che aajche weather shodha", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_website", "slots": {"site": "youtube dot com"}}, {"action": "web_search", "slots": {"query": "pune che aajche weather"}}], "joiners": ["ani"]}
+{"text": "lata mangeshkar yanchyabaddal sanga", "lang": "mr", "action": "web_search", "slots": {"query": "lata mangeshkar"}}
+{"text": "samor kay aahe te vachun dakhva", "lang": "mr", "action": "read_screen", "slots": {}}
+{"text": "are yaar he kay lihile aahe te vacha ani zoom ughdun dya", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "read_screen", "slots": {}}, {"action": "open_app", "slots": {"app": "zoom"}}], "joiners": ["ani"]}
+{"text": "a r rahman che gaane laav tyanantar awaz vadhva lavkar", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "play_media", "slots": {"query": "a r rahman"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["tyanantar"]}
+{"text": "github dot com ughad", "lang": "mr", "action": "open_website", "slots": {"site": "github dot com"}}
+{"text": "natsamrat movie madhe kon kon hota", "lang": "mr", "action": "web_search", "slots": {"query": "natsamrat movie madhe kon kon hota"}}
+{"text": "mama la sang ki ganpati sathi modak ani karanji kar", "lang": "mr", "action": "send_message", "slots": {"contact": "mama", "text": "ganpati sathi modak ani karanji kar"}}
+{"text": "Sneha la message kar tu kuthe aahes", "lang": "mr", "action": "send_message", "slots": {"contact": "Sneha", "text": "tu kuthe aahes"}}
+{"text": "Gaana open kara aani Anuradha Paudwal chi gaani laav na", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "Gaana"}}, {"action": "play_media", "slots": {"query": "Anuradha Paudwal"}}], "joiners": ["aani"]}
+{"text": "पुण्याचे हवामान सांग", "lang": "mr", "action": "web_search", "slots": {"query": "पुण्याचे हवामान"}}
+{"text": "ho notepad ughadun ithe liha aaj chi meeting udya aahe", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "notepad"}}, {"action": "type_text", "slots": {"text": "aaj chi meeting udya aahe"}}], "joiners": ["ughadun"]}
+{"text": "aaji la sang ki mi pahile market la jato aani mag ghari yeto", "lang": "mr", "action": "send_message", "slots": {"contact": "aaji", "text": "mi pahile market la jato aani mag ghari yeto"}}
+{"text": "you tube open karun mag gaani laav", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "you tube"}}, {"action": "play_media", "slots": {}}], "joiners": ["open karun", "mag"]}
+{"text": "aata nako rahu de", "lang": "mr", "action": "cancel", "slots": {}}
+{"text": "JioSaavn chalu kar, nantar Sairat chi gaani chalu kar ani volume up kar.", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "JioSaavn"}}, {"action": "play_media", "slots": {"query": "Sairat chi gaani"}}, {"action": "media_control", "slots": {}, "control": "volume_up"}], "joiners": ["nantar", "ani"]}
+{"text": "Pride and Prejudice cha marathi anuvad shodh", "lang": "mr", "action": "web_search", "slots": {"query": "Pride and Prejudice cha marathi anuvad"}}
+{"text": "YouTube Music ughdun dya, ani kahitari laav please", "lang": "mr", "action": "multi", "slots": {}, "steps": [{"action": "open_app", "slots": {"app": "YouTube Music"}}, {"action": "play_media", "slots": {}}], "joiners": ["ani"]}
+{"text": "Mumbai ani Pune madhla distance kiti aahe", "lang": "mr", "action": "web_search", "slots": {"query": "Mumbai ani Pune madhla distance kiti aahe"}}
+{"text": "tai la whatsapp kar ki rakhi pathvali aahe", "lang": "mr", "action": "send_message", "slots": {"contact": "tai", "text": "rakhi pathvali aahe"}}
+{"text": "file explorer ughad", "lang": "mr", "action": "open_app", "slots": {"app": "file explorer"}}
+{"text": "flipkart chi website ughad", "lang": "mr", "action": "open_website", "slots": {"site": "flipkart"}}
+{"text": "dada la whatsapp kar ki exam jhali ani result udya", "lang": "mr", "action": "send_message", "slots": {"contact": "dada", "text": "exam jhali ani result udya"}}
+{"text": "Apple Music var Taylor Swift play kar", "lang": "mr", "action": "play_media", "slots": {"query": "Taylor Swift", "app": "Apple Music"}}

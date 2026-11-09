@@ -1,0 +1,43 @@
+[project]
+name = "sahur"
+version = "0.1.0"
+description = "Sahur: voice control for Windows in Indian languages, built on Gnani Prisma and Timbre"
+requires-python = ">=3.12"
+dependencies = [
+    "keyboard>=0.13.5",
+    "laya>=0.4.21",
+    "numpy>=2.5.4",
+    "openai>=3.42.1",
+    "pydantic>=2.14.2",
+    "python-dotenv>=1.2.4",
+    "pywin32>=312",
+    "pywinauto>=0.6.9",
+    "requests>=2.34.2",
+    "sounddevice>=0.5.6",
+    "webrtcvad-wheels>=2.0.14.post1",
+    "websockets>=17.4",
+    "winrt-runtime>=4.1.0",
+    "winrt-windows-foundation>=4!10.0.28000.2957",
+    "winrt-windows-media-control>=4!10.0.28000.2957",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.17.3",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+# pywinauto ships a docstring with an invalid escape; not ours to fix.
+filterwarnings = ["ignore:invalid escape sequence:SyntaxWarning"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B"]
+ignore = ["E402"]
+
+

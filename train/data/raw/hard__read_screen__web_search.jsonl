@@ -1,0 +1,160 @@
+{"text": "is email mein kya likha hai", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "Screen pe kya likha hai padh ke sunao.", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ye message kisne bheja aur kya likha hai padho", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "is page pe petrol ka rate kitna dikha raha hai", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "screen pe jo weather dikh raha hai wo batao", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ye khabar jo khuli hai uska matlab samjhao", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "is article mein kya bataya hai padh do", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "bank ka jo sms screen pe khula hai usme kitna paisa likha hai", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "is bill mein total kitna likha hai", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ye form mein kya kya bharna hai batao", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "Screen pe jo error aaya hai wo kya keh raha hai.", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ye popup kya bol raha hai", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "is website pe train ka time kya likha hai", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "scorecard jo khula hai usme score kya dikha raha hai", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "yahan pe jo recipe khuli hai wo padh ke sunao", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "is document ka pehla paragraph padho", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "mere saamne jo likha hai wo samajh nahi aa raha, batao kya hai", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ye wala notice kya keh raha hai", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ispe jo naam likha hai wo padho", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "inbox mein sabse upar wala mail padh do", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ye chitthi mein kya likha hai", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "is screen par dawai ka naam kya likha hai", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "is page ka heading kya hai", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ye jo table khula hai usme kya hai samjhao", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ye jo page khula hai wo kis baare mein hai", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ye ticket pe seat number kya likha hai", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ye scheme wala page jo khula hai usme eligibility kya likhi hai", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "Screen pe jo news dikh rahi hai usko padho.", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ye video ke neeche jo likha hai wo padho", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "abhi jo whatsapp message khula hai wo sunao", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "is result page pe mere marks kitne likhe hain", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ye jo rate list dikh rahi hai usme tamatar ka bhav kya hai", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ispe kya likha hai zara bolo", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ye button ke upar kya likha hai", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ye jo khula hai usme last date kya likhi hai", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "screen alli enide helu", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ee message alli enu barediddare odi", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ee page alli bele eshtu ide antha helu", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ee email odi helu", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "illi enu bardide", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ee bill alli total eshtu ide", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "screen mele kaanta iro suddi odi", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "screen la enna irukku sollu", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "indha message la enna ezhudhi irukku padi", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "indha page la vilai evlo nu kaatudhu sollu", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "indha email ah padichu sollu", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "inga enna ezhudhi irukku", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "screen la irukura news ah padi", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "indha bill la total evlo podirukku", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "What does this email say?", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "Read out what's on my screen.", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "what is written in this message", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "tell me the price shown on this page", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "explain this error message on the screen", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "what does this page say about the refund", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "read the weather shown on this page", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "who is this email from", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "what's the total on this invoice", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "summarise this article I have open", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "read the headline on the screen", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "what is the score shown here", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "इस ईमेल में क्या लिखा है", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "स्क्रीन पर क्या लिखा है पढ़ो", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ये मैसेज पढ़ के सुनाओ", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ಈ ಪುಟದಲ್ಲಿ ಏನಿದೆ ಹೇಳು", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ಸ್ಕ್ರೀನ್ ಮೇಲೆ ಏನು ಬರೆದಿದೆ ಓದು", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "இந்த மெசேஜ்ல என்ன இருக்கு படி", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ஸ்கிரீன்ல என்ன எழுதியிருக்கு சொல்லு", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "is mail me kya likha he", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "screen par jo dikh raha he wo padh", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ye page pe sone ka bhav kitna likha hai", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "jo khabar khuli hai usme kya hua bataya hai", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "is pdf mein kya likha hai samjha do", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ye notification kya keh rahi hai", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "yahan likha hua padh ke batao", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ye bijli ka bill screen pe hai, kitna bharna hai", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "Ye otp wala message kya bol raha hai?", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "is page pe kya kya options hain batao", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "ye jo screen pe hai wo hindi mein samjhao", "action": "read_screen", "app": null, "group": "hard"}
+{"text": "aaj ki taaza khabar kya hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "aaj mausam kaisa rahega", "action": "web_search", "app": null, "group": "hard"}
+{"text": "petrol ka rate kitna hai aaj", "action": "web_search", "app": null, "group": "hard"}
+{"text": "sone ka bhav kya chal raha hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "India ke match ka score kya hua", "action": "web_search", "app": null, "group": "hard"}
+{"text": "PM kisan yojana mein kitna paisa milta hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "Delhi se Patna train ka time kya hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "tamatar ka bhav aaj mandi mein kitna hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "diabetes mein kya khana chahiye", "action": "web_search", "app": null, "group": "hard"}
+{"text": "aadhaar card kaise update karte hain", "action": "web_search", "app": null, "group": "hard"}
+{"text": "paracetamol kis kaam aati hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "Kal barish hogi kya?", "action": "web_search", "app": null, "group": "hard"}
+{"text": "pension yojana ki last date kya hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "Google karo bijli bill online kaise bhare", "action": "web_search", "app": null, "group": "hard"}
+{"text": "dollar ka rate kya hai aaj", "action": "web_search", "app": null, "group": "hard"}
+{"text": "Ayodhya mandir kitne baje khulta hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "gas cylinder ka naya rate kya hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "Lucknow mein aaj ka tapmaan kitna hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "10th ka result kab aayega", "action": "web_search", "app": null, "group": "hard"}
+{"text": "chaawal ka bhav kitna chal raha hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "Diwali kis din hai is saal", "action": "web_search", "app": null, "group": "hard"}
+{"text": "bhagwan ram ka janam kahan hua tha", "action": "web_search", "app": null, "group": "hard"}
+{"text": "mobile recharge ka sabse sasta plan kaunsa hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "ayushman card ke liye kaun eligible hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "Bharat ki rajdhani kya hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "cricket world cup kisne jeeta", "action": "web_search", "app": null, "group": "hard"}
+{"text": "sugar ki bimari ke lakshan kya hain", "action": "web_search", "app": null, "group": "hard"}
+{"text": "aaj share market kaisa raha", "action": "web_search", "app": null, "group": "hard"}
+{"text": "kisan credit card kaise banta hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "passport banane mein kitne din lagte hain", "action": "web_search", "app": null, "group": "hard"}
+{"text": "Chennai mein baarish ki kya khabar hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "ghutne ke dard ka gharelu ilaaj batao", "action": "web_search", "app": null, "group": "hard"}
+{"text": "ivattu weather hege ide", "action": "web_search", "app": null, "group": "hard"}
+{"text": "Bengaluru alli petrol bele eshtu", "action": "web_search", "app": null, "group": "hard"}
+{"text": "ivattina suddi enu", "action": "web_search", "app": null, "group": "hard"}
+{"text": "chinnada bele eshtu ide ivattu", "action": "web_search", "app": null, "group": "hard"}
+{"text": "India match score eshtu aaytu", "action": "web_search", "app": null, "group": "hard"}
+{"text": "Mysore palace yaavaga open irutte", "action": "web_search", "app": null, "group": "hard"}
+{"text": "raitha yojane bagge maahiti hudukku", "action": "web_search", "app": null, "group": "hard"}
+{"text": "inniki weather eppadi irukku", "action": "web_search", "app": null, "group": "hard"}
+{"text": "Chennai la thangam vilai evlo", "action": "web_search", "app": null, "group": "hard"}
+{"text": "inniki news enna", "action": "web_search", "app": null, "group": "hard"}
+{"text": "match score enna aachu", "action": "web_search", "app": null, "group": "hard"}
+{"text": "Madurai kovil eppo thirakkum", "action": "web_search", "app": null, "group": "hard"}
+{"text": "ration card eppadi apply pannuradhu", "action": "web_search", "app": null, "group": "hard"}
+{"text": "naalaiku mazhai varumaa", "action": "web_search", "app": null, "group": "hard"}
+{"text": "What is the weather today?", "action": "web_search", "app": null, "group": "hard"}
+{"text": "latest news headlines", "action": "web_search", "app": null, "group": "hard"}
+{"text": "what's the price of onion today", "action": "web_search", "app": null, "group": "hard"}
+{"text": "who won yesterday's match", "action": "web_search", "app": null, "group": "hard"}
+{"text": "how to apply for a pan card", "action": "web_search", "app": null, "group": "hard"}
+{"text": "what is the gold rate in Mumbai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "when is the next train to Pune", "action": "web_search", "app": null, "group": "hard"}
+{"text": "symptoms of dengue", "action": "web_search", "app": null, "group": "hard"}
+{"text": "how many days left for Diwali", "action": "web_search", "app": null, "group": "hard"}
+{"text": "what is the capital of Australia", "action": "web_search", "app": null, "group": "hard"}
+{"text": "nearest hospital kahan hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "what is the meaning of the word serendipity", "action": "web_search", "app": null, "group": "hard"}
+{"text": "how to check pf balance", "action": "web_search", "app": null, "group": "hard"}
+{"text": "who is the chief minister of Karnataka", "action": "web_search", "app": null, "group": "hard"}
+{"text": "आज मौसम कैसा है", "action": "web_search", "app": null, "group": "hard"}
+{"text": "आज की ताज़ा खबर क्या है", "action": "web_search", "app": null, "group": "hard"}
+{"text": "सोने का भाव क्या है", "action": "web_search", "app": null, "group": "hard"}
+{"text": "ಇವತ್ತಿನ ಹವಾಮಾನ ಹೇಗಿದೆ", "action": "web_search", "app": null, "group": "hard"}
+{"text": "ಪೆಟ್ರೋಲ್ ಬೆಲೆ ಎಷ್ಟು", "action": "web_search", "app": null, "group": "hard"}
+{"text": "இன்னிக்கு தங்கம் விலை என்ன", "action": "web_search", "app": null, "group": "hard"}
+{"text": "இன்றைய செய்தி என்ன", "action": "web_search", "app": null, "group": "hard"}
+{"text": "aaj desh mein kya khabar hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "internet pe dekho ki bank kitne baje khulta hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "Google pe dekho aaj ka mandi bhav", "action": "web_search", "app": null, "group": "hard"}
+{"text": "mausam vibhag ne kal ke liye kya kaha", "action": "web_search", "app": null, "group": "hard"}
+{"text": "aaj sensex kitna hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "vriddha pension kitni milti hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "bp high ho to kya karein", "action": "web_search", "app": null, "group": "hard"}
+{"text": "Patna ka pin code kya hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "sabse paas wala atm kahan hai", "action": "web_search", "app": null, "group": "hard"}
+{"text": "ye batao Ambani kitne amir hain", "action": "web_search", "app": null, "group": "hard"}
+{"text": "RBI ne interest rate badhaya kya", "action": "web_search", "app": null, "group": "hard"}
+{"text": "aaj ekadashi hai kya", "action": "web_search", "app": null, "group": "hard"}
+{"text": "Kal Mumbai mein kitni garmi padegi.", "action": "web_search", "app": null, "group": "hard"}
+{"text": "ye message ka matlab kya hai, samjhao zara", "action": "read_screen", "app": null, "group": "hard"}

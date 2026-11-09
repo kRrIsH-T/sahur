@@ -1,0 +1,210 @@
+{"id": 1, "lang": "hi-en", "text": "Beta, zara WhatsApp khol dijiye, family group dekhna hai.", "action": "open_app", "slots": {"app": "what's app"}, "typed": "Beta zara what's app khol dijiye, family group dekhna hai."}
+{"id": 2, "lang": "hi-en", "text": "Kripya Microsoft Word chalu kar dijiye.", "action": "open_app", "slots": {"app": "Microsoft Word"}, "typed": "Kripya Microsoft Word chalu kar dijiye."}
+{"id": 3, "lang": "hi-en", "text": "Calculator khol do bhai, thoda hisab lagana hai.", "action": "open_app", "slots": {"app": "Calculator"}, "typed": "Calculator khol do bhai, thoda hisaab lagana hai."}
+{"id": 4, "lang": "hi-en", "text": "Chrome browser khol dijiye saara.", "action": "open_app", "slots": {"app": "Chrome"}, "typed": "Chrome browser khol dijiye zara."}
+{"id": 5, "lang": "hi-en", "text": "Zara Excel khol dijiye, pension ka hisab dekhna hai.", "action": "open_app", "slots": {"app": "एक्सेल"}, "typed": "ज़रा एक्सेल खोल दीजिए, पेंशन का हिसाब देखना है।"}
+{"id": 6, "lang": "hi-en", "text": "Mahrbani karke WSL player start kar dijiye.", "action": "open_app", "slots": {"app": "VLC"}, "typed": "Mehrbani karke VLC player start kar dijiye."}
+{"id": 7, "lang": "hi-en", "text": "Notepad open kijiye, kuch likhna hai.", "action": "open_app", "slots": {"app": "Notepad"}, "typed": "Notepad open kijiye, kuch likhna hai."}
+{"id": 8, "lang": "hi-en", "text": "Spotify wala app khol dijiye beta.", "action": "open_app", "slots": {"app": "Spotify"}, "typed": "Spotify wala app khol dijiye beta."}
+{"id": 9, "lang": "hi-en", "text": "zara paint khol do, putty ke liye drawing banani hai.", "action": "open_app", "slots": {"app": "Paint"}, "typed": "Zara Paint khol do, pote ke liye drawing banani hai."}
+{"id": 10, "lang": "hi-en", "text": "File Explorer kholiye, photo wala folder dekhna hai.", "action": "open_app", "slots": {"app": "फाइल एक्सप्लोरर"}, "typed": "फाइल एक्सप्लोरर खोलिए, फोटो वाला फोल्डर देखना है।"}
+{"id": 11, "lang": "hi-en", "text": "एस बी आई ki website khol dijiye, passbook dekhni hai.", "action": "open_website", "slots": {"site": "SBI"}, "typed": "SBI ki website khol dijiye, passbook dekhni hai."}
+{"id": 12, "lang": "hi-en", "text": "Kripya online speed dot com kholiye.", "action": "open_website", "slots": {"site": "onlinesbi dot com"}, "typed": "Kripya onlinesbi dot com kholiye."}
+{"id": 13, "lang": "hi-en", "text": "Dainik Jagran ki site kholo zara.", "action": "open_website", "slots": {"site": "Dainik Jagran"}, "typed": "Dainik Jagran ki site kholo zara."}
+{"id": 14, "lang": "hi-en", "text": "BETAIRCTC.CO.IN khol do, ticket dekhna hai.", "action": "open_website", "slots": {"site": "irctc dot co dot in"}, "typed": "Beta, irctc dot co dot in khol do, ticket dekhna hai."}
+{"id": 15, "lang": "hi-en", "text": "Amir Uzala ka website khol dijiye.", "action": "open_website", "slots": {"site": "Amar Ujala"}, "typed": "Amar Ujala ka website khol dijiye."}
+{"id": 16, "lang": "hi-en", "text": "NDTV ki website kholiye.", "action": "open_website", "slots": {"site": "एनडीटीवी"}, "typed": "एनडीटीवी की वेबसाइट खोलिए।"}
+{"id": 17, "lang": "hi-en", "text": "Zara Income Tax dot gov dot in wali site kholiye, return ka status dekhna hai.", "action": "open_website", "slots": {"site": "incometax dot gov dot in"}, "typed": "Zara incometax dot gov dot in wali site kholiye, return ka status dekhna hai."}
+{"id": 18, "lang": "hi-en", "text": "Punjab National Bank ki website padh le chaliye.", "action": "open_website", "slots": {"site": "Punjab National Bank"}, "typed": "Punjab National Bank ki website par le chaliye."}
+{"id": 19, "lang": "hi-en", "text": "Aaj Lucknow ka mausam kaisa rahega?", "action": "web_search", "slots": {"query": "Aaj Lucknow ka mausam kaisa rahega"}, "typed": "Aaj Lucknow ka mausam kaisa rahega?"}
+{"id": 20, "lang": "hi-en", "text": "Anup Jalota ji ke baare mein kuch बताइए।", "action": "web_search", "slots": {"query": "Anup Jalota ji"}, "typed": "Anup Jalota ji ke baare mein kuch bataiye."}
+{"id": 21, "lang": "hi-en", "text": "ye radio head kaun hai? poota bahut sunta hai.", "action": "web_search", "slots": {"query": "radio head kaun hai"}, "typed": "Ye radio head kaun hai, pota bahut sunta hai?"}
+{"id": 22, "lang": "hi-en", "text": "Shule film kab release hui thi?", "action": "web_search", "slots": {"query": "Sholay film kab release hui thi"}, "typed": "Sholay film kab release hui thi?"}
+{"id": 23, "lang": "hi-en", "text": "Zara samjhaye ki repo rate kya hota hai?", "action": "web_search", "slots": {"query": "repo rate kya hota hai"}, "typed": "Zara samjhaiye ki repo rate kya hota hai."}
+{"id": 24, "lang": "hi-en", "text": "Explain karo, UPI fraud se kaise bachen?", "action": "web_search", "slots": {"query": "UPI fraud se kaise bachein"}, "typed": "Explain karo UPI fraud se kaise bachein."}
+{"id": 25, "lang": "hi-en", "text": "Hanuman Chalisa kisne likhi thi?", "action": "web_search", "slots": {"query": "Hanuman Chalisa kisne likhi thi"}, "typed": "Hanuman Chalisa kisne likhi thi?"}
+{"id": 26, "lang": "hi-en", "text": "Aaj ki taja khabar bataiye.", "action": "web_search", "slots": {"query": "Aaj ki taaza khabar"}, "typed": "Aaj ki taaza khabar bataiye."}
+{"id": 27, "lang": "hi-en", "text": "पंकज उदास की गज़लों के बारे में बताइये।", "action": "web_search", "slots": {"query": "पंकज उधास की ग़ज़लों"}, "typed": "पंकज उधास की ग़ज़लों के बारे में बताइए।"}
+{"id": 28, "lang": "hi-en", "text": "Senior Citizen FD par sabse zyada vyaj kaun sa bank deta hai?", "action": "web_search", "slots": {"query": "Senior citizen FD par sabse zyada byaaj kaun sa bank deta hai"}, "typed": "Senior citizen FD par sabse zyada byaaj kaun sa bank deta hai?"}
+{"id": 29, "lang": "hi-en", "text": "Husang lag ja gaale, zara bataiye.", "action": "web_search", "slots": {"query": "Who sang Lag Ja Gale"}, "typed": "Who sang Lag Ja Gale, zara bataiye."}
+{"id": 30, "lang": "hi-en", "text": "YouTube pe Premanand ji Maharaj ke pravachan search kijiye.", "action": "web_search", "slots": {"query": "Premanand ji Maharaj ke pravachan", "site": "YouTube"}, "typed": "YouTube pe Premanand ji Maharaj ke pravachan search kijiye."}
+{"id": 31, "lang": "hi-en", "text": "Amazon par Omron ki BP machine dhundie.", "action": "web_search", "slots": {"query": "Omron ki BP machine", "site": "Amazon"}, "typed": "Amazon par Omron ki BP machine dhundhiye."}
+{"id": 32, "lang": "hi-en", "text": "Google Pay search karo Lucknow mein achha eye hospital.", "action": "web_search", "slots": {"query": "Lucknow mein achha eye hospital", "site": "Google"}, "typed": "Google pe search karo Lucknow mein achha eye hospital."}
+{"id": 33, "lang": "hi-en", "text": "Flipkart par reading chashma khojiye.", "action": "web_search", "slots": {"query": "रीडिंग चश्मा", "site": "फ्लिपकार्ट"}, "typed": "फ्लिपकार्ट पर रीडिंग चश्मा खोजिए।"}
+{"id": 34, "lang": "hi-en", "text": "Spotify pe radio head chalaiye, poote ne bataya tha.", "action": "play_media", "slots": {"app": "Spotify", "query": "Radiohead"}, "typed": "Spotify pe Radiohead chalaiye, pote ne bataya tha."}
+{"id": 35, "lang": "hi-en", "text": "Anuradha Podwal ji ka Hanuman Chalisa chalaiye.", "action": "play_media", "slots": {"query": "Anuradha Paudwal ji ka Hanuman Chalisa"}, "typed": "Anuradha Paudwal ji ka Hanuman Chalisa chalaiye."}
+{"id": 36, "lang": "hi-en", "text": "YouTube par Jagjit Singh ki hatho se chulo tum lagaiye.", "action": "play_media", "slots": {"app": "YouTube", "query": "Jagjit Singh ki Hothon Se Chhu Lo Tum"}, "typed": "YouTube par Jagjit Singh ki Hothon Se Chhu Lo Tum lagaiye."}
+{"id": 37, "lang": "hi-en", "text": "subah ke bhajan chalao zara.", "action": "play_media", "slots": {"query": "Subah ke bhajan"}, "typed": "Subah ke bhajan chalao zara."}
+{"id": 38, "lang": "hi-en", "text": "Kishore Kumar ke gaane bajaiye.", "action": "play_media", "slots": {"query": "Kishore Kumar"}, "typed": "Kishore Kumar ke gaane bajaiye."}
+{"id": 39, "lang": "hi-en", "text": "जियो सावन pe मुकेश ke gaane sunaiye.", "action": "play_media", "slots": {"app": "JioSaavn", "query": "Mukesh"}, "typed": "JioSaavn pe Mukesh ke gaane sunaiye."}
+{"id": 40, "lang": "hi-en", "text": "koi achha sa gaana chala dijiye.", "action": "play_media", "slots": {}, "typed": "Koi achha sa gaana chala dijiye."}
+{"id": 41, "lang": "hi-en", "text": "Aaj tak live news chalaye YouTube par.", "action": "play_media", "slots": {"app": "YouTube", "query": "Aaj tak live news"}, "typed": "Aaj tak live news chalaiye YouTube par."}
+{"id": 42, "lang": "hi-en", "text": "bhajan sunaiye, man shant karna hai.", "action": "play_media", "slots": {"query": "भजन"}, "typed": "भजन सुनाइए, मन शांत करना है।"}
+{"id": 43, "lang": "hi-en", "text": "YouTube par Ramayan ka pehla episode chala vo.", "action": "play_media", "slots": {"app": "you tube", "query": "Ramayan ka pehla episode"}, "typed": "you tube pe Ramayan ka pehla episode chalavo."}
+{"id": 44, "lang": "en", "text": "Play Om Jai Jagdish Hare on Spotify, please.", "action": "play_media", "slots": {"app": "Spotify", "query": "Om Jai Jagdish Hare"}, "typed": "Play Om Jai Jagdish Hare on Spotify please."}
+{"id": 45, "lang": "hi-en", "text": "लता जी, \"का आए मेरे वादन\" के लोगो बजाइए।", "action": "play_media", "slots": {"query": "Lata ji ka Ae Mere Watan Ke Logon"}, "typed": "Lata ji ka Ae Mere Watan Ke Logon bajaiye."}
+{"id": 46, "lang": "hi-en", "text": "Gaana thoda rock dijiye, phone aa raha hai.", "action": "media_control", "control": "pause", "slots": {}, "typed": "Gaana thoda rok dijiye, phone aa raha hai."}
+{"id": 47, "lang": "hi-en", "text": "agla gaana lagaiye.", "action": "media_control", "control": "next", "slots": {}, "typed": "Agla gaana lagaiye."}
+{"id": 48, "lang": "hi-en", "text": "Awaaz thodi badha dijiye, sunai nahi de raha.", "action": "media_control", "control": "volume_up", "slots": {}, "typed": "Awaaz thodi badha dijiye, sunai nahi de raha."}
+{"id": 49, "lang": "hi-en", "text": "Awaaz kam karo beta, bahut tez hai.", "action": "media_control", "control": "volume_down", "slots": {}, "typed": "Aawaz kam karo beta, bahut tez hai."}
+{"id": 50, "lang": "hi-en", "text": "Phir se chalu kar dijiye jahan roka tha.", "action": "media_control", "control": "resume", "slots": {}, "typed": "Phir se chalu kar dijiye jahan roka tha."}
+{"id": 51, "lang": "hi-en", "text": "pichla wala gaana phir se lagaiye.", "action": "media_control", "control": "previous", "slots": {}, "typed": "पिछला वाला गाना फिर से लगाइए।"}
+{"id": 52, "lang": "hi-en", "text": "Bilkul awaaz band kar do mute kar do.", "action": "media_control", "control": "mute", "slots": {}, "typed": "Bilkul awaaz band kar do, mute kar do."}
+{"id": 53, "lang": "hi-en", "text": "family group mein bhej dijiye ki sab ko Diwali ki shubkaamnaayein.", "action": "send_message", "slots": {"contact": "Family group", "text": "sabko Diwali ki shubhkamnayein"}, "typed": "Family group mein bhej dijiye ki sabko Diwali ki shubhkamnayein."}
+{"id": 54, "lang": "hi-en", "text": "बेटा, राहुल को WhatsApp कर दो कि मैं शाम को पाँच बजे आऊँगा।", "action": "send_message", "slots": {"contact": "Rahul", "text": "main shaam ko paanch baje aaunga"}, "typed": "Beta Rahul ko WhatsApp kar do ki main shaam ko paanch baje aaunga."}
+{"id": 55, "lang": "hi-en", "text": "शर्मा जी को मैसेज भेजिए कि कल सुबह पार्क में मिलते हैं।", "action": "send_message", "slots": {"contact": "Sharma ji", "text": "kal subah park mein milte hain"}, "typed": "Sharma ji ko message bhejiye ki kal subah park mein milte hain."}
+{"id": 56, "lang": "hi-en", "text": "Priya ko bolo ki doai leli hai, chinta na karein.", "action": "send_message", "slots": {"contact": "Bitiya", "text": "dawai le li hai, chinta na kare"}, "typed": "Bitiya ko bolo ki dawai le li hai, chinta na kare."}
+{"id": 57, "lang": "hi-en", "text": "WhatsApp pe Gupta ji ko likhiye, janmadin ki hardik badhai.", "action": "send_message", "slots": {"contact": "Gupta ji", "text": "janamdin ki hardik badhai"}, "typed": "what's app pe Gupta ji ko likhiye, janamdin ki hardik badhai."}
+{"id": 58, "lang": "hi-en", "text": "Sunita ko WhatsApp par bhejo ki khana ban gaya hai.", "action": "send_message", "slots": {"contact": "सुनीता", "text": "खाना बन गया है"}, "typed": "सुनीता को व्हाट्सएप पर भेजो कि खाना बन गया है।"}
+{"id": 59, "lang": "hi-en", "text": "Likhie, adarinya branch manager mahoday.", "action": "type_text", "slots": {"text": "aadarniya branch manager mahoday"}, "typed": "Likhiye, aadarniya branch manager mahoday."}
+{"id": 60, "lang": "hi-en", "text": "टाइप कीजिए कि मैं इस महीने की पेंशन स्लिप चाहता हूँ।", "action": "type_text", "slots": {"text": "main is mahine ki pension slip chahta hoon"}, "typed": "Type kijiye ki main is mahine ki pension slip chahta hoon."}
+{"id": 61, "lang": "hi-en", "text": "search box mein Lucknow mail type karo.", "action": "type_text", "slots": {"text": "Lucknow Mail"}, "typed": "Search box mein Lucknow Mail type karo."}
+{"id": 62, "lang": "hi-en", "text": "Yahan likhe, \"dhanyavad sahit aapka vishwaspatra.\"", "action": "type_text", "slots": {"text": "धन्यवाद सहित, आपका विश्वासपात्र"}, "typed": "यहाँ लिखिए धन्यवाद सहित, आपका विश्वासपात्र।"}
+{"id": 63, "lang": "hi-en", "text": "Login button daba dijiye.", "action": "click", "slots": {"target": "लॉगिन"}, "typed": "लॉगिन बटन दबा दीजिए।"}
+{"id": 64, "lang": "hi-en", "text": "Zara next pe click kariye.", "action": "click", "slots": {"target": "Next"}, "typed": "Zara Next pe click kariye."}
+{"id": 65, "lang": "hi-en", "text": "Download statement wala link dabaiye.", "action": "click", "slots": {"target": "Download statement"}, "typed": "Download statement wala link dabaiye."}
+{"id": 66, "lang": "hi-en", "text": "Screenpipe kya likha hai? Zara padh ke sunaiye, chashma nahi mil raha.", "action": "read_screen", "slots": {}, "typed": "Screen par kya likha hai zara padh ke sunaiye, chashma nahi mil raha."}
+{"id": 67, "lang": "hi-en", "text": "ye jo screen pe aaya hai, iska matlab samjhayein.", "action": "read_screen", "slots": {}, "typed": "Ye jo screen pe aaya hai iska matlab samjhaiye."}
+{"id": 68, "lang": "hi-en", "text": "Are rehne dijiye, kuch mat kijiye.", "action": "cancel", "slots": {}, "typed": "Arre rehne dijiye, kuch mat kijiye."}
+{"id": 69, "lang": "hi-en", "text": "screen ki roshni thodi kam kar dijiye, aankhon mein chub rahi hai.", "action": "unknown", "slots": {}, "typed": "Screen ki roshni thodi kam kar dijiye, aankhon mein chubh rahi hai."}
+{"id": 70, "lang": "hi-en", "text": "aap bahut acche ho beta, bhagwan bhala kare.", "action": "unknown", "slots": {}, "typed": "आप बहुत अच्छे हो बेटा, भगवान भला करे।"}
+{"id": 71, "lang": "kn", "text": "VS Code open madte.", "action": "open_app", "slots": {"app": "VS Code"}, "typed": "VS Code open maadi."}
+{"id": 72, "lang": "ta", "text": "ಸ್ಲ್ಯಾಕ್ app open பண்ணು.", "action": "open_app", "slots": {"app": "Slack"}, "typed": "Slack ah open pannu."}
+{"id": 73, "lang": "kn", "text": "Postman launch maadi bro.", "action": "open_app", "slots": {"app": "Postman"}, "typed": "Postman launch maadi bro."}
+{"id": 74, "lang": "ta", "text": "Docker Desktop start pannura.", "action": "open_app", "slots": {"app": "Docker Desktop"}, "typed": "Docker Desktop start pannu da."}
+{"id": 75, "lang": "kn", "text": "Spotify open madi.", "action": "open_app", "slots": {"app": "ಸ್ಪಾಟಿಫೈ"}, "typed": "ಸ್ಪಾಟಿಫೈ ಓಪನ್ ಮಾಡಿ."}
+{"id": 76, "lang": "en", "text": "Open Notion.", "action": "open_app", "slots": {"app": "Notion"}, "typed": "Open Notion."}
+{"id": 77, "lang": "kn", "text": "File Explorer open maabe, downloads not be go.", "action": "open_app", "slots": {"app": "File explorer"}, "typed": "File explorer open maadi, downloads nodbeku."}
+{"id": 78, "lang": "ta", "text": "Themes open pannu, stand up start agudhu.", "action": "open_app", "slots": {"app": "Teams"}, "typed": "Teams open pannu, standup start aagudhu."}
+{"id": 79, "lang": "ta", "text": "Terminal open pannu.", "action": "open_app", "slots": {"app": "டெர்மினல்"}, "typed": "டெர்மினல் ஓபன் பண்ணு."}
+{"id": 80, "lang": "kn", "text": "Obsidian app open madhi.", "action": "open_app", "slots": {"app": "Obsidian"}, "typed": "Obsidian app open maadi."}
+{"id": 81, "lang": "kn", "text": "giga.com open maabe", "action": "open_website", "slots": {"site": "github dot com"}, "typed": "github dot com open maadi."}
+{"id": 82, "lang": "ta", "text": "Swiggy website open pannu.", "action": "open_website", "slots": {"site": "Swiggy"}, "typed": "Swiggy website open pannu."}
+{"id": 83, "lang": "en", "text": "OpenStack overflow dot com.", "action": "open_website", "slots": {"site": "stackoverflow dot com"}, "typed": "Open stackoverflow dot com."}
+{"id": 84, "lang": "kn", "text": "Latest site open maadi.", "action": "open_website", "slots": {"site": "LeetCode"}, "typed": "LeetCode site open maadi."}
+{"id": 85, "lang": "ta", "text": "Hacker news open pannu.", "action": "open_website", "slots": {"site": "Hacker News"}, "typed": "Hacker News open pannu."}
+{"id": 86, "lang": "kn", "text": "Chat GPT dot com open madte.", "action": "open_website", "slots": {"site": "chat gpt dot com"}, "typed": "chat gpt dot com open maadi."}
+{"id": 87, "lang": "kn", "text": "Money Control website open my day.", "action": "open_website", "slots": {"site": "ಮನಿಕಂಟ್ರೋಲ್"}, "typed": "ಮನಿಕಂಟ್ರೋಲ್ ವೆಬ್ಸೈಟ್ ಓಪನ್ ಮಾಡಿ."}
+{"id": 88, "lang": "en", "text": "Open the BBMP website.", "action": "open_website", "slots": {"site": "BBMP"}, "typed": "Open the BBMP website."}
+{"id": 89, "lang": "kn", "text": "Radio head yaaru?", "action": "web_search", "slots": {"query": "Radiohead yaaru"}, "typed": "Radiohead yaaru?"}
+{"id": 90, "lang": "en", "text": "Tell me about Radio Head.", "action": "web_search", "slots": {"query": "radio head"}, "typed": "Tell me about radio head."}
+{"id": 91, "lang": "en", "text": "Explain Kubernetes pods, v s deployments.", "action": "web_search", "slots": {"query": "Kubernetes pods vs deployments"}, "typed": "Explain Kubernetes pods vs deployments."}
+{"id": 92, "lang": "ta", "text": "Anirudh latest movie edhu?", "action": "web_search", "slots": {"query": "Anirudh latest movie edhu"}, "typed": "Anirudh latest movie edhu?"}
+{"id": 93, "lang": "kn", "text": "Kantara chapter ondu box office collection eshtu?", "action": "web_search", "slots": {"query": "Kantara chapter 1 box office collection eshtu"}, "typed": "Kantara chapter 1 box office collection eshtu?"}
+{"id": 94, "lang": "en", "text": "Who sang Kanne Kalaima ne?", "action": "web_search", "slots": {"query": "Who sang Kanne Kalaimaane"}, "typed": "Who sang Kanne Kalaimaane?"}
+{"id": 95, "lang": "kn", "text": "Bangalore weather has it day I was too.", "action": "web_search", "slots": {"query": "Bangalore weather hegide ivattu"}, "typed": "Bangalore weather hegide ivattu?"}
+{"id": 96, "lang": "ta", "text": "RustDesk checker explain pannu.", "action": "web_search", "slots": {"query": "Rust borrow checker"}, "typed": "Rust borrow checker explain pannu."}
+{"id": 97, "lang": "kn", "text": "ಇಂದು ಸಿಲ್ಕ್ ಬೋರ್ಡ್ ಟ್ರಾಫಿಕ್ ಹೇಗಿದೆ?", "action": "web_search", "slots": {"query": "ಇಂದು ಸಿಲ್ಕ್ ಬೋರ್ಡ್ ಟ್ರಾಫಿಕ್ ಹೇಗಿದೆ"}, "typed": "ಇಂದು ಸಿಲ್ಕ್ ಬೋರ್ಡ್ ಟ್ರಾಫಿಕ್ ಹೇಗಿದೆ?"}
+{"id": 98, "lang": "kn", "text": "Creep song lyrics. Hello.", "action": "web_search", "slots": {"query": "Creep song lyrics"}, "typed": "Creep song lyrics helu."}
+{"id": 99, "lang": "ta", "text": "Ilay Raja yaar.", "action": "web_search", "slots": {"query": "இளையராஜா யார்"}, "typed": "இளையராஜா யார்?"}
+{"id": 100, "lang": "kn", "text": "YouTube ally system design videos would go.", "action": "web_search", "slots": {"query": "system design videos", "site": "YouTube"}, "typed": "YouTube alli system design videos hudku."}
+{"id": 101, "lang": "ta", "text": "Swiggy la biryani search pannu.", "action": "web_search", "slots": {"query": "biryani", "site": "Swiggy"}, "typed": "Swiggy la biryani search pannu."}
+{"id": 102, "lang": "kn", "text": "Git Hub nalli first API template search madi.", "action": "web_search", "slots": {"query": "fastapi templates", "site": "GitHub"}, "typed": "GitHub nalli fastapi templates search maadi."}
+{"id": 103, "lang": "ta", "text": "Amazon, eBay, mechanical keyboard, The Ru.", "action": "web_search", "slots": {"query": "mechanical keyboard", "site": "Amazon"}, "typed": "Amazon la mechanical keyboard thedu."}
+{"id": 104, "lang": "kn", "text": "Spotify, Ali Radio, Head HQ.", "action": "play_media", "slots": {"app": "Spotify", "query": "Radiohead"}, "typed": "Spotify alli Radiohead haaku."}
+{"id": 105, "lang": "en", "text": "Play radio head on Spotify.", "action": "play_media", "slots": {"app": "Spotify", "query": "radio head"}, "typed": "Play radio head on Spotify."}
+{"id": 106, "lang": "ta", "text": "Anirudh songs podu.", "action": "play_media", "slots": {"query": "Anirudh"}, "typed": "Anirudh songs podu."}
+{"id": 107, "lang": "ta", "text": "YouTube la low-fi coding music play pannu.", "action": "play_media", "slots": {"app": "you tube", "query": "lo-fi coding music"}, "typed": "you tube la lo-fi coding music play pannu."}
+{"id": 108, "lang": "en", "text": "Play can a kalay mane?", "action": "play_media", "slots": {"query": "Kanne Kalaimaane"}, "typed": "Play Kanne Kalaimaane."}
+{"id": 109, "lang": "kn", "text": "Vijay Prakash songs play maadi.", "action": "play_media", "slots": {"query": "Vijay Prakash"}, "typed": "Vijay Prakash songs play maadi."}
+{"id": 110, "lang": "kn", "text": "Spotify ally Raghu Dixit hadu haku.", "action": "play_media", "slots": {"app": "ಸ್ಪಾಟಿಫೈ", "query": "ರಘು ದೀಕ್ಷಿತ್"}, "typed": "ಸ್ಪಾಟಿಫೈ ಅಲ್ಲಿ ರಘು ದೀಕ್ಷಿತ್ ಹಾಡು ಹಾಕು."}
+{"id": 111, "lang": "kn", "text": "yaavudadro song haaku.", "action": "play_media", "slots": {}, "typed": "Yaavudaadru song haaku."}
+{"id": 112, "lang": "kn", "text": "YouTube music Ali A.R. Rahman playlist play madte.", "action": "play_media", "slots": {"app": "YouTube Music", "query": "AR Rahman playlist"}, "typed": "YouTube Music alli AR Rahman playlist play maadi."}
+{"id": 113, "lang": "ta", "text": "Spotify will discover weekly podu.", "action": "play_media", "slots": {"app": "Spotify", "query": "Discover Weekly"}, "typed": "Spotify la Discover Weekly podu."}
+{"id": 114, "lang": "en", "text": "Play some cold play.", "action": "play_media", "slots": {"query": "Coldplay"}, "typed": "Play some Coldplay."}
+{"id": 115, "lang": "ta", "text": "Jio Seven last said, \"Sriram hits podu.\"", "action": "play_media", "slots": {"app": "JioSaavn", "query": "Sid Sriram"}, "typed": "JioSaavn la Sid Sriram hits podu."}
+{"id": 116, "lang": "kn", "text": "Pause my be", "action": "media_control", "control": "pause", "slots": {}, "typed": "Pause maadi."}
+{"id": 117, "lang": "kn", "text": "Next song haaku.", "action": "media_control", "control": "next", "slots": {}, "typed": "Next song haaku."}
+{"id": 118, "lang": "ta", "text": "Volume consume increase pannu.", "action": "media_control", "control": "volume_up", "slots": {}, "typed": "Volume konjam increase pannu."}
+{"id": 119, "lang": "kn", "text": "Sound kammi maadi.", "action": "media_control", "control": "volume_down", "slots": {}, "typed": "Sound kammi maadi."}
+{"id": 120, "lang": "kn", "text": "haadu mundu varisu.", "action": "media_control", "control": "resume", "slots": {}, "typed": "ಹಾಡು ಮುಂದುವರಿಸು."}
+{"id": 121, "lang": "ta", "text": "Previous song code", "action": "media_control", "control": "previous", "slots": {}, "typed": "Previous song podu."}
+{"id": 122, "lang": "kn", "text": "mute madi bro, call bahte.", "action": "media_control", "control": "mute", "slots": {}, "typed": "Mute maadi bro, call bartide."}
+{"id": 123, "lang": "kn", "text": "Rahul ge WhatsApp alli message maadi, I'll be late to stand up.", "action": "send_message", "slots": {"contact": "Rahul", "text": "I'll be late to standup"}, "typed": "Rahul ge WhatsApp alli message maadi, I'll be late to standup."}
+{"id": 124, "lang": "ta", "text": "Amma ku message anuppu, Saptenno.", "action": "send_message", "slots": {"contact": "Amma", "text": "saapten"}, "typed": "Amma ku message anuppu, saapten nu."}
+{"id": 125, "lang": "kn", "text": "WhatsApp alli Priya ge hello, ivattu dinner cancel anta.", "action": "send_message", "slots": {"contact": "Priya", "text": "ivattu dinner cancel"}, "typed": "what's app alli Priya ge helu ivattu dinner cancel anta."}
+{"id": 126, "lang": "ta", "text": "Send a WhatsApp to Karthik saying, \"PR merge punnetin.\"", "action": "send_message", "slots": {"contact": "Karthik", "text": "PR merge pannitten"}, "typed": "Send a WhatsApp to Karthik saying PR merge pannitten."}
+{"id": 127, "lang": "kn", "text": "Amma ki WhatsApp maadi reach ade anta?", "action": "send_message", "slots": {"contact": "Appa", "text": "reach aade"}, "typed": "Appa ge WhatsApp maadi, reach aade anta."}
+{"id": 128, "lang": "ta", "text": "Akka kitta message pannu, naan veettuku vare.", "action": "send_message", "slots": {"contact": "அக்கா", "text": "நான் வீட்டுக்கு வரேன்"}, "typed": "அக்கா கிட்ட மெசேஜ் பண்ணு நான் வீட்டுக்கு வரேன்."}
+{"id": 129, "lang": "kn", "text": "Type Madhi, L G T M merging now.", "action": "type_text", "slots": {"text": "LGTM, merging now"}, "typed": "Type maadi: LGTM, merging now."}
+{"id": 130, "lang": "ta", "text": "Type \"Pannu Fix Null Check in Login Handler\".", "action": "type_text", "slots": {"text": "fix null check in login handler"}, "typed": "Type pannu fix null check in login handler."}
+{"id": 131, "lang": "en", "text": "Right, thanks for the review, will update the PR.", "action": "type_text", "slots": {"text": "thanks for the review, will update the PR"}, "typed": "Write thanks for the review, will update the PR."}
+{"id": 132, "lang": "kn", "text": "Type madi nale sigona.", "action": "type_text", "slots": {"text": "ನಾಳೆ ಸಿಗೋಣ"}, "typed": "ಟೈಪ್ ಮಾಡಿ ನಾಳೆ ಸಿಗೋಣ."}
+{"id": 133, "lang": "kn", "text": "Merge pull request button click madhi.", "action": "click", "slots": {"target": "Merge pull request"}, "typed": "Merge pull request button click maadi."}
+{"id": 134, "lang": "ta", "text": "Sign and Mail-ai click pannu.", "action": "click", "slots": {"target": "Sign in"}, "typed": "Sign in mele click pannu."}
+{"id": 135, "lang": "kn", "text": "Please order button press madi.", "action": "click", "slots": {"target": "Place order"}, "typed": "Place order button press maadi."}
+{"id": 136, "lang": "kn", "text": "screen mele enide oodi helu.", "action": "read_screen", "slots": {}, "typed": "ಸ್ಕ್ರೀನ್ ಮೇಲೆ ಏನಿದೆ ಓದಿ ಹೇಳು."}
+{"id": 137, "lang": "en", "text": "What's this error on screen? Read it out.", "action": "read_screen", "slots": {}, "typed": "What's this error on screen, read it out."}
+{"id": 138, "lang": "kn", "text": "beda beda cancel maadi", "action": "cancel", "slots": {}, "typed": "Beda beda, cancel maadi."}
+{"id": 139, "lang": "ta", "text": "greepness kammi pannu.", "action": "unknown", "slots": {}, "typed": "Brightness kammi pannu."}
+{"id": 140, "lang": "ta", "text": "Lollama bug daydu.", "action": "unknown", "slots": {}, "typed": "Lol semma bug da idhu."}
+{"id": 141, "lang": "ml", "text": "Microsoft Word thurakku.", "action": "open_app", "slots": {"app": "Microsoft Word"}, "typed": "Microsoft Word thurakku."}
+{"id": 142, "lang": "ml", "text": "PowerPoint open to you, class presentation undo.", "action": "open_app", "slots": {"app": "PowerPoint"}, "typed": "PowerPoint open cheyyu, class presentation undu."}
+{"id": 143, "lang": "ml", "text": "Magnifier on cheyamu?", "action": "open_app", "slots": {"app": "Magnifier"}, "typed": "Magnifier on cheyyamo?"}
+{"id": 144, "lang": "ta", "text": "Calculator open pannu.", "action": "open_app", "slots": {"app": "Calculator"}, "typed": "Calculator open pannu."}
+{"id": 145, "lang": "en", "text": "Please open the Narrator app.", "action": "open_app", "slots": {"app": "Narrator"}, "typed": "Please open the Narrator app."}
+{"id": 146, "lang": "te", "text": "Chrome open chey.", "action": "open_app", "slots": {"app": "క్రోమ్"}, "typed": "క్రోమ్ ఓపెన్ చెయ్యి."}
+{"id": 147, "lang": "hi-en", "text": "Zoom kholo, meeting hai abhi.", "action": "open_app", "slots": {"app": "Zoom"}, "typed": "Zoom kholo, meeting hai abhi."}
+{"id": 148, "lang": "ml", "text": "Themes tharaku.", "action": "open_app", "slots": {"app": "ടീംസ്"}, "typed": "ടീംസ് തുറക്കൂ."}
+{"id": 149, "lang": "ml", "text": "File Explorer open to you?", "action": "open_app", "slots": {"app": "File explorer"}, "typed": "File explorer open cheyyu."}
+{"id": 150, "lang": "ta", "text": "Notepad teray.", "action": "open_app", "slots": {"app": "நோட்பேட்"}, "typed": "நோட்பேட் திற."}
+{"id": 151, "lang": "en", "text": "Open the Kerala SCERT website.", "action": "open_website", "slots": {"site": "Kerala SCERT"}, "typed": "Open the Kerala SCERT website."}
+{"id": 152, "lang": "ml", "text": "Wikipedia.org open to you.", "action": "open_website", "slots": {"site": "Wikipedia dot org"}, "typed": "Wikipedia dot org open cheyyu."}
+{"id": 153, "lang": "ml", "text": "Bixby site thurakku.", "action": "open_website", "slots": {"site": "Diksha"}, "typed": "Diksha site thurakku."}
+{"id": 154, "lang": "ta", "text": "gmail.com open pannu.", "action": "open_website", "slots": {"site": "Gmail dot com"}, "typed": "Gmail dot com open pannu."}
+{"id": 155, "lang": "ml", "text": "Matrubhumi website open cheyamo?", "action": "open_website", "slots": {"site": "Mathrubhumi"}, "typed": "Mathrubhumi website open cheyyamo?"}
+{"id": 156, "lang": "en", "text": "open can academy dot org please.", "action": "open_website", "slots": {"site": "khanacademy dot org"}, "typed": "Open khanacademy dot org please."}
+{"id": 157, "lang": "hi-en", "text": "Indian Express ki site kholo.", "action": "open_website", "slots": {"site": "Indian Express"}, "typed": "Indian Express ki site kholo."}
+{"id": 158, "lang": "ml", "text": "Sky to Victors website torakku.", "action": "open_website", "slots": {"site": "കൈറ്റ് വിക്ടേഴ്സ്"}, "typed": "കൈറ്റ് വിക്ടേഴ്സ് വെബ്സൈറ്റ് തുറക്കൂ."}
+{"id": 159, "lang": "ml", "text": "K S Chitra, are you?", "action": "web_search", "slots": {"query": "K S Chithra aaranu"}, "typed": "K S Chithra aaranu?"}
+{"id": 160, "lang": "en", "text": "Explain photosynthesis for class seven.", "action": "web_search", "slots": {"query": "photosynthesis for class seven"}, "typed": "Explain photosynthesis for class seven."}
+{"id": 161, "lang": "en", "text": "Who composed the music for Roja film?", "action": "web_search", "slots": {"query": "Who composed the music for Roja film"}, "typed": "Who composed the music for Roja film?"}
+{"id": 162, "lang": "ml", "text": "Kerala il ethra districts undo?", "action": "web_search", "slots": {"query": "Kerala il ethra districts undu"}, "typed": "Kerala il ethra districts undu?"}
+{"id": 163, "lang": "te", "text": "R Rahman gurinchi cheppu.", "action": "web_search", "slots": {"query": "A R Rahman"}, "typed": "A R Rahman gurinchi cheppu."}
+{"id": 164, "lang": "hi-en", "text": "रेडियो हेडबैंड ke baare mein batao.", "action": "web_search", "slots": {"query": "Radio head band"}, "typed": "Radio head band ke baare mein batao."}
+{"id": 165, "lang": "ml", "text": "Mani Chitra Thajoo movie director R.", "action": "web_search", "slots": {"query": "Manichitrathazhu movie director aaru"}, "typed": "Manichitrathazhu movie director aaru?"}
+{"id": 166, "lang": "ta", "text": "Kuchilainnaiku weather appude.", "action": "web_search", "slots": {"query": "Kochi la innaikku weather eppadi"}, "typed": "Kochi la innaikku weather eppadi?"}
+{"id": 167, "lang": "en", "text": "Explain the water cycle in simple words.", "action": "web_search", "slots": {"query": "the water cycle in simple words"}, "typed": "Explain the water cycle in simple words."}
+{"id": 168, "lang": "ml", "text": "Mallaree song pade thuvaraanu.", "action": "web_search", "slots": {"query": "Malare song paadiyathu aaranu"}, "typed": "Malare song paadiyathu aaranu?"}
+{"id": 169, "lang": "ml", "text": "Gandhi ji janichathu enthanu?", "action": "web_search", "slots": {"query": "ഗാന്ധിജി ജനിച്ചത് എന്നാണ്"}, "typed": "ഗാന്ധിജി ജനിച്ചത് എന്നാണ്?"}
+{"id": 170, "lang": "ta", "text": "Vaikkum Muhammad Bashir patri sollunga.", "action": "web_search", "slots": {"query": "வைக்கம் முகமது பஷீர்"}, "typed": "வைக்கம் முகமது பஷீர் பற்றி சொல்லுங்க."}
+{"id": 171, "lang": "ml", "text": "YouTube, you'll photosynthsise animation video search to you.", "action": "web_search", "slots": {"query": "photosynthesis animation video", "site": "YouTube"}, "typed": "YouTube il photosynthesis animation video search cheyyu."}
+{"id": 172, "lang": "ta", "text": "Amazon alla reading glasses thedu.", "action": "web_search", "slots": {"query": "reading glasses", "site": "Amazon"}, "typed": "Amazon la reading glasses thedu."}
+{"id": 173, "lang": "te", "text": "Wikipedia lo Kalpana Chawla search che.", "action": "web_search", "slots": {"query": "Kalpana Chawla", "site": "Wikipedia"}, "typed": "Wikipedia lo Kalpana Chawla search chey."}
+{"id": 174, "lang": "hi-en", "text": "Flipkart pe large print keyboard dhundho.", "action": "web_search", "slots": {"query": "large print keyboard", "site": "Flipkart"}, "typed": "Flipkart pe large print keyboard dhundho."}
+{"id": 175, "lang": "ml", "text": "Spotify IL Radio head plays you.", "action": "play_media", "slots": {"app": "Spotify", "query": "radio head"}, "typed": "Spotify il radio head play cheyyu."}
+{"id": 176, "lang": "en", "text": "Play Yesu Das songs.", "action": "play_media", "slots": {"query": "Yesudas"}, "typed": "Play Yesudas songs."}
+{"id": 177, "lang": "ta", "text": "Ilya Raja, part two for you.", "action": "play_media", "slots": {"query": "Ilayaraja"}, "typed": "Ilayaraja paattu podu."}
+{"id": 178, "lang": "ta", "text": "YouTube la cane kalaymane song play pannu.", "action": "play_media", "slots": {"app": "YouTube", "query": "Kanne Kalaimane"}, "typed": "YouTube la Kanne Kalaimane song play pannu."}
+{"id": 179, "lang": "hi-en", "text": "Kuch soft Malayalam melodies chalao.", "action": "play_media", "slots": {"query": "soft Malayalam melodies"}, "typed": "Kuch soft Malayalam melodies chalao."}
+{"id": 180, "lang": "te", "text": "Jio Seven loose sidh Sriram songs play che.", "action": "play_media", "slots": {"app": "JioSaavn", "query": "Sid Sriram"}, "typed": "JioSaavn lo Sid Sriram songs play chey."}
+{"id": 181, "lang": "en", "text": "Play national anthem on YouTube.", "action": "play_media", "slots": {"app": "you tube", "query": "national anthem"}, "typed": "Play national anthem on you tube."}
+{"id": 182, "lang": "ml", "text": "paattu veku", "action": "play_media", "slots": {}, "typed": "പാട്ട് വെക്കൂ."}
+{"id": 183, "lang": "ml", "text": "Spotify il Arijit Singh ente pattu viku.", "action": "play_media", "slots": {"app": "Spotify", "query": "Arijit Singh"}, "typed": "Spotify il Arijit Singh nte paattu vekku."}
+{"id": 184, "lang": "hi-en", "text": "Kids rhymes YouTube pe lagaao.", "action": "play_media", "slots": {"app": "YouTube", "query": "Kids rhymes"}, "typed": "Kids rhymes YouTube pe lagao."}
+{"id": 185, "lang": "ta", "text": "gana app la old tamil songs podunga.", "action": "play_media", "slots": {"app": "Gaana", "query": "old Tamil songs"}, "typed": "Gaana app la old Tamil songs podunga."}
+{"id": 186, "lang": "ml", "text": "Book a theme pen play.", "action": "play_media", "slots": {"query": "Mukkathe Penne"}, "typed": "Mukkathe Penne play cheyyu."}
+{"id": 187, "lang": "ml", "text": "Pattun neerthu", "action": "media_control", "control": "pause", "slots": {}, "typed": "Paattu nirthu."}
+{"id": 188, "lang": "ta", "text": "Next song podu.", "action": "media_control", "control": "next", "slots": {}, "typed": "Next song podu."}
+{"id": 189, "lang": "ml", "text": "shabdang kootu", "action": "media_control", "control": "volume_up", "slots": {}, "typed": "ശബ്ദം കൂട്ടൂ."}
+{"id": 190, "lang": "ta", "text": "Sound konjam kammi pannu.", "action": "media_control", "control": "volume_down", "slots": {}, "typed": "Sound konjam kammi pannu."}
+{"id": 191, "lang": "te", "text": "Previous song played here.", "action": "media_control", "control": "previous", "slots": {}, "typed": "Previous song play chey."}
+{"id": 192, "lang": "en", "text": "Resume the music.", "action": "media_control", "control": "resume", "slots": {}, "typed": "Resume the music."}
+{"id": 193, "lang": "hi-en", "text": "Awaaz band karo", "action": "media_control", "control": "mute", "slots": {}, "typed": "Awaaz band karo."}
+{"id": 194, "lang": "ml", "text": "Amma, kku WhatsApp al message ayakk, nanjan late avu memu.", "action": "send_message", "slots": {"contact": "Amma", "text": "njan late aavum"}, "typed": "Amma kku WhatsApp il message ayakku, njan late aavum ennu."}
+{"id": 195, "lang": "en", "text": "Send a WhatsApp to Priya teacher that tomorrow's class is cancelled.", "action": "send_message", "slots": {"contact": "Priya teacher", "text": "tomorrow's class is cancelled"}, "typed": "Send a WhatsApp to Priya teacher that tomorrow's class is cancelled."}
+{"id": 196, "lang": "ta", "text": "Ravi ku message anuppu, nalakku meeting irukkunnu.", "action": "send_message", "slots": {"contact": "Ravi", "text": "naalaikku meeting irukku"}, "typed": "Ravi ku message anuppu, naalaikku meeting irukku nu."}
+{"id": 197, "lang": "te", "text": "Suresh ki WhatsApp lo message pampoo, I will call you evening any.", "action": "send_message", "slots": {"contact": "Suresh", "text": "I will call you evening"}, "typed": "Suresh ki WhatsApp lo message pampu, I will call you evening ani."}
+{"id": 198, "lang": "hi-en", "text": "Meenu ko bolo ki homework bhej de.", "action": "send_message", "slots": {"contact": "Meenu", "text": "homework bhej de"}, "typed": "Meenu ko bolo ki homework bhej de."}
+{"id": 199, "lang": "ml", "text": "chechi-kku message ayakkuyo, njan veettilethiyennu.", "action": "send_message", "slots": {"contact": "ചേച്ചി", "text": "ഞാൻ വീട്ടിൽ എത്തി"}, "typed": "ചേച്ചിക്ക് മെസ്സേജ് അയക്കൂ, ഞാൻ വീട്ടിൽ എത്തി എന്ന്."}
+{"id": 200, "lang": "ml", "text": "Typed to you, dear parents, the P T A meeting is on Friday.", "action": "type_text", "slots": {"text": "Dear parents, the PTA meeting is on Friday"}, "typed": "Type cheyyu, Dear parents, the PTA meeting is on Friday."}
+{"id": 201, "lang": "ml", "text": "type cheyyoo, naale avadhiyanu.", "action": "type_text", "slots": {"text": "നാളെ അവധിയാണ്"}, "typed": "ടൈപ്പ് ചെയ്യൂ, നാളെ അവധിയാണ്."}
+{"id": 202, "lang": "ta", "text": "Type Pannu, Good Morning Students.", "action": "type_text", "slots": {"text": "good morning students"}, "typed": "Type pannu good morning students."}
+{"id": 203, "lang": "hi-en", "text": "Likhun ki aaj ka homework page twenty.", "action": "type_text", "slots": {"text": "aaj ka homework page twenty"}, "typed": "Likho ki aaj ka homework page twenty."}
+{"id": 204, "lang": "ml", "text": "Submit button amarthu.", "action": "click", "slots": {"target": "Submit"}, "typed": "Submit button amarthu."}
+{"id": 205, "lang": "en", "text": "Click on the sign in link.", "action": "click", "slots": {"target": "Sign in"}, "typed": "Click on the Sign in link."}
+{"id": 206, "lang": "hi-en", "text": "Download bhi click karo.", "action": "click", "slots": {"target": "Download"}, "typed": "Download pe click karo."}
+{"id": 207, "lang": "ml", "text": "Screeni lenthanu ishu therikku naathu why chudharu?", "action": "read_screen", "slots": {}, "typed": "Screen il enthaanu ezhuthiyirikkunnathu, vaayichu tharu."}
+{"id": 208, "lang": "en", "text": "What is written on the screen? Read it out please.", "action": "read_screen", "slots": {}, "typed": "What is written on the screen, read it out please."}
+{"id": 209, "lang": "ml", "text": "venda, vitteku.", "action": "cancel", "slots": {}, "typed": "വേണ്ട, വിട്ടേക്ക്."}
+{"id": 210, "lang": "ml", "text": "Screen brightness kootu.", "action": "unknown", "slots": {}, "typed": "Screen brightness koottu."}

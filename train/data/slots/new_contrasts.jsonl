@@ -1,0 +1,520 @@
+{"text": "Arijit Singh ke baare mein batao.", "action": "web_search", "slots": {"query": "Arijit Singh"}}
+{"text": "Arijit Singh ke kuch gaane chala do na.", "action": "play_media", "slots": {"query": "Arijit Singh"}}
+{"text": "Creep ke lyrics.", "action": "web_search", "slots": {"query": "Creep ke lyrics"}}
+{"text": "Creep chalao.", "action": "play_media", "slots": {"query": "Creep"}}
+{"text": "Ye radio head band kaun hai?", "action": "web_search", "slots": {"query": "Ye radio head band kaun hai"}}
+{"text": "Radio head chalao na.", "action": "play_media", "slots": {"query": "Radio head"}}
+{"text": "Who actually sang Kesariya in Brahmastra?", "action": "web_search", "slots": {"query": "Who actually sang Kesariya in Brahmastra"}}
+{"text": "Play Kesariya.", "action": "play_media", "slots": {"query": "Kesariya"}}
+{"text": "Shreya Ghoshal ki age kitni hai?", "action": "web_search", "slots": {"query": "Shreya Ghoshal ki age kitni hai"}}
+{"text": "Shreya Ghoshal ka koi gaana bajao.", "action": "play_media", "slots": {"query": "Shreya Ghoshal"}}
+{"text": "Tum Hi Ho kisne gaaya tha?", "action": "web_search", "slots": {"query": "Tum Hi Ho kisne gaaya tha"}}
+{"text": "Tum Hi Ho bajao zara.", "action": "play_media", "slots": {"query": "Tum Hi Ho"}}
+{"text": "Coldplay ka next India concert kab hai?", "action": "web_search", "slots": {"query": "Coldplay ka next India concert kab hai"}}
+{"text": "Coldplay ke songs laga do.", "action": "play_media", "slots": {"query": "Coldplay"}}
+{"text": "Ilayaraja pathi sollu.", "action": "web_search", "slots": {"query": "Ilayaraja"}}
+{"text": "Ilayaraja melodies konjam podu.", "action": "play_media", "slots": {"query": "Ilayaraja melodies"}}
+{"text": "SPB yaaru antha helu.", "action": "web_search", "slots": {"query": "SPB yaaru"}}
+{"text": "SPB haadu haaku.", "action": "play_media", "slots": {"query": "SPB"}}
+{"text": "Anirudh gurinchi cheppu.", "action": "web_search", "slots": {"query": "Anirudh"}}
+{"text": "Anirudh songs pettu.", "action": "play_media", "slots": {"query": "Anirudh"}}
+{"text": "Lata Mangeshkar ko Bharat Ratna kab mila?", "action": "web_search", "slots": {"query": "Lata Mangeshkar ko Bharat Ratna kab mila"}}
+{"text": "Lata Mangeshkar ke purane gaane sunao.", "action": "play_media", "slots": {"query": "Lata Mangeshkar ke purane gaane"}}
+{"text": "Bohemian Rhapsody ka matlab kya hai?", "action": "web_search", "slots": {"query": "Bohemian Rhapsody ka matlab kya hai"}}
+{"text": "Bohemian Rhapsody play karo Spotify pe.", "action": "play_media", "slots": {"query": "Bohemian Rhapsody", "app": "Spotify"}}
+{"text": "Tell me about A R Rahman.", "action": "web_search", "slots": {"query": "A R Rahman"}}
+{"text": "Play some A R Rahman.", "action": "play_media", "slots": {"query": "A R Rahman"}}
+{"text": "Kishore Kumar ke kitne gaane hain?", "action": "web_search", "slots": {"query": "Kishore Kumar ke kitne gaane hain"}}
+{"text": "Kishore Kumar ke hits chalao.", "action": "play_media", "slots": {"query": "Kishore Kumar ke hits"}}
+{"text": "Pushpa movie ki story kya hai?", "action": "web_search", "slots": {"query": "Pushpa movie ki story kya hai"}}
+{"text": "Pushpa ke songs YouTube pe chalao.", "action": "play_media", "slots": {"query": "Pushpa", "app": "YouTube"}}
+{"text": "Naatu Naatu ko Oscar mila tha kya?", "action": "web_search", "slots": {"query": "Naatu Naatu ko Oscar mila tha kya"}}
+{"text": "Naatu Naatu pettandi.", "action": "play_media", "slots": {"query": "Naatu Naatu"}}
+{"text": "Diljit Dosanjh ki nayi film kaunsi hai?", "action": "web_search", "slots": {"query": "Diljit Dosanjh ki nayi film kaunsi hai"}}
+{"text": "Diljit da gaana laao ji.", "action": "play_media", "slots": {"query": "Diljit"}}
+{"text": "Sid Sriram ethra vayassund?", "action": "web_search", "slots": {"query": "Sid Sriram ethra vayassund"}}
+{"text": "Sid Sriram paattu vekku.", "action": "play_media", "slots": {"query": "Sid Sriram"}}
+{"text": "Kumar Sanu ka asli naam kya hai?", "action": "web_search", "slots": {"query": "Kumar Sanu ka asli naam kya hai"}}
+{"text": "Kumar Sanu ke romantic gaane chala do.", "action": "play_media", "slots": {"query": "Kumar Sanu ke romantic gaane"}}
+{"text": "Who is the lead singer of Radiohead?", "action": "web_search", "slots": {"query": "Who is the lead singer of Radiohead"}}
+{"text": "Put on Radiohead.", "action": "play_media", "slots": {"query": "Radiohead"}}
+{"text": "Karma Police ke lyrics dikhao.", "action": "web_search", "slots": {"query": "Karma Police ke lyrics"}}
+{"text": "Karma Police laga do.", "action": "play_media", "slots": {"query": "Karma Police"}}
+{"text": "Ed Sheeran ka Shape of You kis saal aaya tha?", "action": "web_search", "slots": {"query": "Ed Sheeran ka Shape of You kis saal aaya tha"}}
+{"text": "Shape of You chala do please.", "action": "play_media", "slots": {"query": "Shape of You"}}
+{"text": "Ed Sheeran India kab aa raha hai?", "action": "web_search", "slots": {"query": "Ed Sheeran India kab aa raha hai"}}
+{"text": "Ed Sheeran ke gaane JioSaavn pe chalao.", "action": "play_media", "slots": {"query": "Ed Sheeran", "app": "JioSaavn"}}
+{"text": "Kannada Rajyotsava haadugala itihasa helu.", "action": "web_search", "slots": {"query": "Kannada Rajyotsava haadugala itihasa"}}
+{"text": "Kannada Rajyotsava haadugalu haaku.", "action": "play_media", "slots": {"query": "Kannada Rajyotsava haadugalu"}}
+{"text": "Hanuman Chalisa ka arth samjhao.", "action": "web_search", "slots": {"query": "Hanuman Chalisa ka arth"}}
+{"text": "Hanuman Chalisa Gulshan Kumar wala sunao.", "action": "play_media", "slots": {"query": "Hanuman Chalisa Gulshan Kumar wala"}}
+{"text": "Taylor Swift ke kitne Grammy hain?", "action": "web_search", "slots": {"query": "Taylor Swift ke kitne Grammy hain"}}
+{"text": "Taylor Swift ka Love Story chalao.", "action": "play_media", "slots": {"query": "Taylor Swift ka Love Story"}}
+{"text": "Rabindra Sangeet ki shuruaat kisne ki?", "action": "web_search", "slots": {"query": "Rabindra Sangeet ki shuruaat kisne ki"}}
+{"text": "Rabindra Sangeet chalao.", "action": "play_media", "slots": {"query": "Rabindra Sangeet"}}
+{"text": "Ami Shotti Bolchi gaanta ke gaye che?", "action": "web_search", "slots": {"query": "Ami Shotti Bolchi gaanta ke gaye che"}}
+{"text": "Ami Shotti Bolchi gaanta chalao.", "action": "play_media", "slots": {"query": "Ami Shotti Bolchi"}}
+{"text": "Ajay Atul baddal mahiti sanga.", "action": "web_search", "slots": {"query": "Ajay Atul baddal mahiti"}}
+{"text": "Ajay Atul chi gaani laav.", "action": "play_media", "slots": {"query": "Ajay Atul"}}
+{"text": "Zingaat gaana kis film ka hai?", "action": "web_search", "slots": {"query": "Zingaat gaana kis film ka hai"}}
+{"text": "Zingaat lagao, party hai.", "action": "play_media", "slots": {"query": "Zingaat"}}
+{"text": "Ranveer Allahbadia ke baare mein kuch batao.", "action": "web_search", "slots": {"query": "Ranveer Allahbadia"}}
+{"text": "Ranveer Allahbadia ka podcast YouTube pe lagao.", "action": "play_media", "slots": {"query": "Ranveer Allahbadia ka podcast", "app": "YouTube"}}
+{"text": "Lo-fi music padhai ke liye accha hai kya?", "action": "web_search", "slots": {"query": "Lo-fi music padhai ke liye accha hai kya"}}
+{"text": "Padhai ke liye lo-fi music chalao.", "action": "play_media", "slots": {"query": "lo-fi music"}}
+{"text": "Ghazal aur qawwali mein kya fark hai?", "action": "web_search", "slots": {"query": "Ghazal aur qawwali mein kya fark hai"}}
+{"text": "Jagjit Singh ki ghazalein lagao.", "action": "play_media", "slots": {"query": "Jagjit Singh ki ghazalein"}}
+{"text": "Search who composed Vande Mataram.", "action": "web_search", "slots": {"query": "who composed Vande Mataram"}}
+{"text": "Vande Mataram play karo.", "action": "play_media", "slots": {"query": "Vande Mataram"}}
+{"text": "KGF ka music director yaaru?", "action": "web_search", "slots": {"query": "KGF ka music director yaaru"}}
+{"text": "KGF songs haaku Spotify alli.", "action": "play_media", "slots": {"query": "KGF", "app": "Spotify"}}
+{"text": "Rowdy Baby gaanaku evvalavu views irukku?", "action": "web_search", "slots": {"query": "Rowdy Baby gaanaku evvalavu views irukku"}}
+{"text": "Rowdy Baby podu.", "action": "play_media", "slots": {"query": "Rowdy Baby"}}
+{"text": "Yesudas ethra paattu paadi?", "action": "web_search", "slots": {"query": "Yesudas ethra paattu paadi"}}
+{"text": "Yesudas bhakti gaanam vekkamo?", "action": "play_media", "slots": {"query": "Yesudas bhakti gaanam"}}
+{"text": "Kal Ho Naa Ho movie kaisi hai?", "action": "web_search", "slots": {"query": "Kal Ho Naa Ho movie kaisi hai"}}
+{"text": "Kal Ho Naa Ho ka title song chalao.", "action": "play_media", "slots": {"query": "Kal Ho Naa Ho ka title song"}}
+{"text": "Imagine Dragons ka Believer kis album mein hai?", "action": "web_search", "slots": {"query": "Imagine Dragons ka Believer kis album mein hai"}}
+{"text": "Imagine Dragons ka Believer bajao.", "action": "play_media", "slots": {"query": "Imagine Dragons ka Believer"}}
+{"text": "Nusrat Fateh Ali Khan kaun the?", "action": "web_search", "slots": {"query": "Nusrat Fateh Ali Khan kaun the"}}
+{"text": "Nusrat Fateh Ali Khan ki qawwali sunni hai, chalao.", "action": "play_media", "slots": {"query": "Nusrat Fateh Ali Khan ki qawwali"}}
+{"text": "Google karo Badshah ki net worth.", "action": "web_search", "slots": {"query": "Badshah ki net worth"}}
+{"text": "Badshah ke party songs lagao.", "action": "play_media", "slots": {"query": "Badshah ke party songs"}}
+{"text": "Pink Floyd ka Wish You Were Here kis baare mein hai?", "action": "web_search", "slots": {"query": "Pink Floyd ka Wish You Were Here kis baare mein hai"}}
+{"text": "Wish You Were Here by Pink Floyd chalao.", "action": "play_media", "slots": {"query": "Wish You Were Here by Pink Floyd"}}
+{"text": "Mohit Chauhan ka hometown kaunsa hai?", "action": "web_search", "slots": {"query": "Mohit Chauhan ka hometown kaunsa hai"}}
+{"text": "Mohit Chauhan ke sad songs chalao raat ko.", "action": "play_media", "slots": {"query": "Mohit Chauhan ke sad songs"}}
+{"text": "Thom Yorke ki age kya hai?", "action": "web_search", "slots": {"query": "Thom Yorke ki age kya hai"}}
+{"text": "Thom Yorke ke solo songs bajao.", "action": "play_media", "slots": {"query": "Thom Yorke ke solo songs"}}
+{"text": "MS Subbulakshmi bagge swalpa helu.", "action": "web_search", "slots": {"query": "MS Subbulakshmi"}}
+{"text": "MS Subbulakshmi suprabhatam haaku.", "action": "play_media", "slots": {"query": "MS Subbulakshmi suprabhatam"}}
+{"text": "Raag aur thaat mein kya antar hai?", "action": "web_search", "slots": {"query": "Raag aur thaat mein kya antar hai"}}
+{"text": "Raag Yaman sunao.", "action": "play_media", "slots": {"query": "Raag Yaman"}}
+{"text": "Sairat movie ka box office collection sanga.", "action": "web_search", "slots": {"query": "Sairat movie ka box office collection"}}
+{"text": "Sairat che songs laav YouTube var.", "action": "play_media", "slots": {"query": "Sairat", "app": "YouTube"}}
+{"text": "Tell me the lyrics of Kun Faya Kun.", "action": "web_search", "slots": {"query": "the lyrics of Kun Faya Kun"}}
+{"text": "Kun Faya Kun play kardo.", "action": "play_media", "slots": {"query": "Kun Faya Kun"}}
+{"text": "Arijit ka pehla gaana kaunsa tha?", "action": "web_search", "slots": {"query": "Arijit ka pehla gaana kaunsa tha"}}
+{"text": "Arijit ka koi naya gaana lagao.", "action": "play_media", "slots": {"query": "Arijit ka koi naya gaana"}}
+{"text": "Sonu Nigam ki biography padhni hai, dhundho.", "action": "web_search", "slots": {"query": "Sonu Nigam ki biography"}}
+{"text": "Sonu Nigam ka Abhi Mujh Mein Kahin chalao.", "action": "play_media", "slots": {"query": "Sonu Nigam ka Abhi Mujh Mein Kahin"}}
+{"text": "Prateek Kuhad ke concert tickets kitne ke hain?", "action": "web_search", "slots": {"query": "Prateek Kuhad ke concert tickets kitne ke hain"}}
+{"text": "Prateek Kuhad chalao Spotify pe.", "action": "play_media", "slots": {"query": "Prateek Kuhad", "app": "Spotify"}}
+{"text": "अरिजीत सिंह के बारे में बताओ।", "action": "web_search", "slots": {"query": "अरिजीत सिंह"}}
+{"text": "अरिजीत सिंह के गाने बजा दो।", "action": "play_media", "slots": {"query": "अरिजीत सिंह"}}
+{"text": "இளையராஜா பற்றி கொஞ்சம் சொல்லு.", "action": "web_search", "slots": {"query": "இளையராஜா"}}
+{"text": "இளையராஜா பாட்டு கொஞ்சம் போடுங்க.", "action": "play_media", "slots": {"query": "இளையராஜா"}}
+{"text": "ಪುನೀತ್ ರಾಜ್‌ಕುಮಾರ್ ಬಗ್ಗೆ ಹೇಳು.", "action": "web_search", "slots": {"query": "ಪುನೀತ್ ರಾಜ್‌ಕುಮಾರ್"}}
+{"text": "ಪುನೀತ್ ರಾಜ್‌ಕುಮಾರ್ ಹಾಡುಗಳು ಹಾಕು.", "action": "play_media", "slots": {"query": "ಪುನೀತ್ ರಾಜ್‌ಕುಮಾರ್"}}
+{"text": "ঝুম গানটা কে গেয়েছে?", "action": "web_search", "slots": {"query": "ঝুম গানটা কে গেয়েছে"}}
+{"text": "ঝুম গানটা চালাও।", "action": "play_media", "slots": {"query": "ঝুম"}}
+{"text": "శ్రీరామ నవమి పాటల గురించి చెప్పు.", "action": "web_search", "slots": {"query": "శ్రీరామ నవమి పాటల"}}
+{"text": "శ్రీరామ నవమి పాటలు పెట్టు.", "action": "play_media", "slots": {"query": "శ్రీరామ నవమి పాటలు"}}
+{"text": "Amazon kholo.", "action": "open_app", "slots": {"app": "Amazon"}}
+{"text": "Amazon ki website kholo zara.", "action": "open_website", "slots": {"site": "Amazon"}}
+{"text": "Amazon pe headphones dhundho.", "action": "web_search", "slots": {"site": "Amazon", "query": "headphones"}}
+{"text": "Flipkart open karo.", "action": "open_app", "slots": {"app": "Flipkart"}}
+{"text": "Flipkart dot com kholo.", "action": "open_website", "slots": {"site": "Flipkart dot com"}}
+{"text": "Flipkart pe 20000 ke andar phone dikhao.", "action": "web_search", "slots": {"site": "Flipkart", "query": "20000 ke andar phone"}}
+{"text": "Netflix chalu karo.", "action": "open_app", "slots": {"app": "Netflix"}}
+{"text": "Netflix ki site open karo.", "action": "open_website", "slots": {"site": "Netflix"}}
+{"text": "Netflix pe koi achhi thriller series search karo.", "action": "web_search", "slots": {"site": "Netflix", "query": "koi achhi thriller series"}}
+{"text": "YouTube kholo bas.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "Open youtube dot com.", "action": "open_website", "slots": {"site": "youtube dot com"}}
+{"text": "YouTube pe paneer butter masala recipe search karo.", "action": "web_search", "slots": {"site": "YouTube", "query": "paneer butter masala recipe"}}
+{"text": "You tube open maadi.", "action": "open_app", "slots": {"app": "You tube"}}
+{"text": "You tube alli Kannada comedy hudku.", "action": "web_search", "slots": {"site": "You tube", "query": "Kannada comedy"}}
+{"text": "Chrome kholo.", "action": "open_app", "slots": {"app": "Chrome"}}
+{"text": "Chrome mein Wikipedia ki website kholo.", "action": "open_website", "slots": {"site": "Wikipedia"}}
+{"text": "Wikipedia pe Mahatma Gandhi dhundho.", "action": "web_search", "slots": {"site": "Wikipedia", "query": "Mahatma Gandhi"}}
+{"text": "Wikipedia khol do.", "action": "open_website", "slots": {"site": "Wikipedia"}}
+{"text": "Instagram konjam open pannu.", "action": "open_app", "slots": {"app": "Instagram"}}
+{"text": "instagram dot com open pannu.", "action": "open_website", "slots": {"site": "instagram dot com"}}
+{"text": "Instagram la Virat Kohli profile thedu.", "action": "web_search", "slots": {"site": "Instagram", "query": "Virat Kohli profile"}}
+{"text": "Swiggy kholo bhook lagi hai.", "action": "open_app", "slots": {"app": "Swiggy"}}
+{"text": "Swiggy ki website khol do.", "action": "open_website", "slots": {"site": "Swiggy"}}
+{"text": "Swiggy pe biryani search karo.", "action": "web_search", "slots": {"site": "Swiggy", "query": "biryani"}}
+{"text": "Zomato open cheyyi.", "action": "open_app", "slots": {"app": "Zomato"}}
+{"text": "Zomato lo dosa places vethuku.", "action": "web_search", "slots": {"site": "Zomato", "query": "dosa places"}}
+{"text": "Zomato website open cheyyi.", "action": "open_website", "slots": {"site": "Zomato"}}
+{"text": "Open Microsoft Word for my letter.", "action": "open_app", "slots": {"app": "Microsoft Word"}}
+{"text": "How to make a table in Microsoft Word?", "action": "web_search", "slots": {"query": "How to make a table in Microsoft Word"}}
+{"text": "Excel kholo, sheet banani hai.", "action": "open_app", "slots": {"app": "Excel"}}
+{"text": "Excel mein VLOOKUP kaise lagate hain?", "action": "web_search", "slots": {"query": "Excel mein VLOOKUP kaise lagate hain"}}
+{"text": "PowerPoint start karo.", "action": "open_app", "slots": {"app": "PowerPoint"}}
+{"text": "PowerPoint mein animation kaise daalte hain batao.", "action": "web_search", "slots": {"query": "PowerPoint mein animation kaise daalte hain"}}
+{"text": "IRCTC ki website kholo.", "action": "open_website", "slots": {"site": "IRCTC"}}
+{"text": "IRCTC pe Chennai Express ka status dekho.", "action": "web_search", "slots": {"site": "IRCTC", "query": "Chennai Express ka status"}}
+{"text": "Open irctc dot co dot in.", "action": "open_website", "slots": {"site": "irctc dot co dot in"}}
+{"text": "Gmail ki website kholo.", "action": "open_website", "slots": {"site": "Gmail"}}
+{"text": "Gmail mein attachment size limit kitni hai?", "action": "web_search", "slots": {"query": "Gmail mein attachment size limit kitni hai"}}
+{"text": "Outlook open karo.", "action": "open_app", "slots": {"app": "Outlook"}}
+{"text": "Outlook dot com kholo.", "action": "open_website", "slots": {"site": "Outlook dot com"}}
+{"text": "Telegram chalu maadu.", "action": "open_app", "slots": {"app": "Telegram"}}
+{"text": "Telegram yaake ban aaytu antha hudku.", "action": "web_search", "slots": {"query": "Telegram yaake ban aaytu"}}
+{"text": "Mera VS Code khol do.", "action": "open_app", "slots": {"app": "VS Code"}}
+{"text": "VS Code mein Python extension kaise install karein?", "action": "web_search", "slots": {"query": "VS Code mein Python extension kaise install karein"}}
+{"text": "Notepad open pannunga.", "action": "open_app", "slots": {"app": "Notepad"}}
+{"text": "Calculator chalu karo jaldi.", "action": "open_app", "slots": {"app": "Calculator"}}
+{"text": "15 percent of 2400 kitna hota hai?", "action": "web_search", "slots": {"query": "15 percent of 2400 kitna hota hai"}}
+{"text": "File Explorer khol ke rakho.", "action": "open_app", "slots": {"app": "File Explorer"}}
+{"text": "Windows Settings kholo.", "action": "open_app", "slots": {"app": "Windows Settings"}}
+{"text": "Steam pe GTA 5 ka price check karo.", "action": "web_search", "slots": {"site": "Steam", "query": "GTA 5 ka price"}}
+{"text": "Steam ki website kholo.", "action": "open_website", "slots": {"site": "Steam"}}
+{"text": "Zoom meeting mein background kaise badle?", "action": "web_search", "slots": {"query": "Zoom meeting mein background kaise badle"}}
+{"text": "Microsoft Teams start karo meeting hai.", "action": "open_app", "slots": {"app": "Microsoft Teams"}}
+{"text": "Hotstar open karo match dekhna hai.", "action": "open_app", "slots": {"app": "Hotstar"}}
+{"text": "Hotstar pe aaj ka match kab hai?", "action": "web_search", "slots": {"site": "Hotstar", "query": "aaj ka match kab hai"}}
+{"text": "Hotstar dot com kholo.", "action": "open_website", "slots": {"site": "Hotstar dot com"}}
+{"text": "Prime Video kholo bhai.", "action": "open_app", "slots": {"app": "Prime Video"}}
+{"text": "Prime Video pe nayi Malayalam movies thirayu.", "action": "web_search", "slots": {"site": "Prime Video", "query": "nayi Malayalam movies"}}
+{"text": "Open the Prime Video website.", "action": "open_website", "slots": {"site": "Prime Video"}}
+{"text": "Moneycontrol ki site kholo.", "action": "open_website", "slots": {"site": "Moneycontrol"}}
+{"text": "Moneycontrol pe Reliance ka share price dekho.", "action": "web_search", "slots": {"site": "Moneycontrol", "query": "Reliance ka share price"}}
+{"text": "Cricbuzz kholo.", "action": "open_website", "slots": {"site": "Cricbuzz"}}
+{"text": "Cricbuzz pe India Australia ka score batao.", "action": "web_search", "slots": {"site": "Cricbuzz", "query": "India Australia ka score"}}
+{"text": "Myntra website open karo.", "action": "open_website", "slots": {"site": "Myntra"}}
+{"text": "Myntra app kholo.", "action": "open_app", "slots": {"app": "Myntra"}}
+{"text": "Myntra pe kurta under 1000 dhundho.", "action": "web_search", "slots": {"site": "Myntra", "query": "kurta under 1000"}}
+{"text": "Naukri dot com open karo.", "action": "open_website", "slots": {"site": "Naukri dot com"}}
+{"text": "Naukri pe Bangalore mein Python jobs dhundho.", "action": "web_search", "slots": {"site": "Naukri", "query": "Bangalore mein Python jobs"}}
+{"text": "LinkedIn ki site khol do zara.", "action": "open_website", "slots": {"site": "LinkedIn"}}
+{"text": "LinkedIn app open karo.", "action": "open_app", "slots": {"app": "LinkedIn"}}
+{"text": "LinkedIn pe Infosys HR search karo.", "action": "web_search", "slots": {"site": "LinkedIn", "query": "Infosys HR"}}
+{"text": "ChatGPT ki website kholo.", "action": "open_website", "slots": {"site": "ChatGPT"}}
+{"text": "Open chat gpt dot com.", "action": "open_website", "slots": {"site": "chat gpt dot com"}}
+{"text": "Spotify open karo.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Spotify ki website khol do.", "action": "open_website", "slots": {"site": "Spotify"}}
+{"text": "Spotify premium ka price kitna hai India mein?", "action": "web_search", "slots": {"query": "Spotify premium ka price kitna hai India mein"}}
+{"text": "Google Maps website kholo.", "action": "open_website", "slots": {"site": "Google Maps"}}
+{"text": "Google Maps pe nearest petrol pump dhundho.", "action": "web_search", "slots": {"site": "Google Maps", "query": "nearest petrol pump"}}
+{"text": "BookMyShow ki site kholo.", "action": "open_website", "slots": {"site": "BookMyShow"}}
+{"text": "BookMyShow pe aaj ke Kantara shows dekho.", "action": "web_search", "slots": {"site": "BookMyShow", "query": "aaj ke Kantara shows"}}
+{"text": "Meesho site open maadi.", "action": "open_website", "slots": {"site": "Meesho"}}
+{"text": "Meesho alli saree hudku.", "action": "web_search", "slots": {"site": "Meesho", "query": "saree"}}
+{"text": "Github dot com pe jao.", "action": "open_website", "slots": {"site": "Github dot com"}}
+{"text": "GitHub pe face recognition project dhundho.", "action": "web_search", "slots": {"site": "GitHub", "query": "face recognition project"}}
+{"text": "GitHub Desktop open karo.", "action": "open_app", "slots": {"app": "GitHub Desktop"}}
+{"text": "अमेज़न खोलो।", "action": "open_app", "slots": {"app": "अमेज़न"}}
+{"text": "अमेज़न की साइट खोल दो।", "action": "open_website", "slots": {"site": "अमेज़न"}}
+{"text": "अमेज़न पर स्पोर्ट्स जूते ढूंढो।", "action": "web_search", "slots": {"site": "अमेज़न", "query": "स्पोर्ट्स जूते"}}
+{"text": "ಫ್ಲಿಪ್‌ಕಾರ್ಟ್ ವೆಬ್‌ಸೈಟ್ ತೆರೆ.", "action": "open_website", "slots": {"site": "ಫ್ಲಿಪ್‌ಕಾರ್ಟ್"}}
+{"text": "ಫ್ಲಿಪ್‌ಕಾರ್ಟ್ ಅಲ್ಲಿ ಮೊಬೈಲ್ ಹುಡುಕು.", "action": "web_search", "slots": {"site": "ಫ್ಲಿಪ್‌ಕಾರ್ಟ್", "query": "ಮೊಬೈಲ್"}}
+{"text": "யூடியூப் ஆப் ஓபன் பண்ணுங்க.", "action": "open_app", "slots": {"app": "யூடியூப்"}}
+{"text": "யூடியூப்ல சமையல் வீடியோ தேடு.", "action": "web_search", "slots": {"site": "யூடியூப்", "query": "சமையல் வீடியோ"}}
+{"text": "Gaana band karo.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Arre chhodo, rehne do ab.", "action": "cancel", "slots": {}}
+{"text": "Brightness thoda kam karo.", "action": "unknown", "slots": {}}
+{"text": "Volume kam karo.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Volume thoda badhao.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Brightness thodi badhao.", "action": "unknown", "slots": {}}
+{"text": "Song ko pause kar do.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Laptop band kar do.", "action": "unknown", "slots": {}}
+{"text": "Gaana phir se chalu karo.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Wifi chalu kar do please.", "action": "unknown", "slots": {}}
+{"text": "Agla gaana lagao.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Pichla gaana wapas lagao.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Nahi nahi, wo mat kholo, cancel.", "action": "cancel", "slots": {}}
+{"text": "Awaaz bilkul band kar do.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Phone ki ghanti band kar do.", "action": "unknown", "slots": {}}
+{"text": "Music ruko zara.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Ruko, mujhe kuch nahi chahiye.", "action": "cancel", "slots": {}}
+{"text": "Kal subah 6 baje ka alarm laga do.", "action": "unknown", "slots": {}}
+{"text": "Sound jor se karo.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Screen ki roshni jor se karo.", "action": "unknown", "slots": {}}
+{"text": "Ye gaana pasand nahi, next.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Ye command bhool jao.", "action": "cancel", "slots": {}}
+{"text": "Kal wala gaana mujhe bahut pasand aaya.", "action": "unknown", "slots": {}}
+{"text": "Haadu nillisu.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Beda bidu, bekilla.", "action": "cancel", "slots": {}}
+{"text": "Brightness kammi maadu.", "action": "unknown", "slots": {}}
+{"text": "Volume kammi maadu.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Mundina haadu haaku.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Hindina haadu matte haaku.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Bluetooth on maadu.", "action": "unknown", "slots": {}}
+{"text": "Paattu niruthu.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Vendaam, vidu.", "action": "cancel", "slots": {}}
+{"text": "Brightness konjam kammi pannu.", "action": "unknown", "slots": {}}
+{"text": "Saththam kammi pannu.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Volume konjam ethu.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Adutha paattu podunga.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Amma ku phone pannu.", "action": "unknown", "slots": {}}
+{"text": "Paata aapandi.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Vaddu le, aapeyi.", "action": "cancel", "slots": {}}
+{"text": "Brightness thagginchu.", "action": "unknown", "slots": {}}
+{"text": "Volume thagginchu.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Paata malli start cheyyi.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "System shutdown cheyyi.", "action": "unknown", "slots": {}}
+{"text": "Paattu onnu nirthu.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Venda, athu cancel cheyyu.", "action": "cancel", "slots": {}}
+{"text": "Volume onnu koottu.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Screen brightness koottu.", "action": "unknown", "slots": {}}
+{"text": "Gaana jara thamba.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Kahi nako, rahu de.", "action": "cancel", "slots": {}}
+{"text": "Aawaaz kami kar.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Brightness kami kar.", "action": "unknown", "slots": {}}
+{"text": "Gaan ta thamao.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Thak, kichhu korte hobe na.", "action": "cancel", "slots": {}}
+{"text": "Awaj ta barao.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Brightness ta komao.", "action": "unknown", "slots": {}}
+{"text": "Pause the music.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Oh never mind, leave that.", "action": "cancel", "slots": {}}
+{"text": "Dim the screen.", "action": "unknown", "slots": {}}
+{"text": "Turn it down a bit.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Skip this track please.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "Forget it, stop.", "action": "cancel", "slots": {}}
+{"text": "Gaane ko mute karo.", "action": "media_control", "slots": {}, "control": "mute"}
+{"text": "Mic mute karo meeting mein.", "action": "unknown", "slots": {}}
+{"text": "Resume karo jo chal raha tha.", "action": "media_control", "slots": {}, "control": "resume"}
+{"text": "Download resume karo.", "action": "unknown", "slots": {}}
+{"text": "Video roko.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "Search mat karo, rehne do.", "action": "cancel", "slots": {}}
+{"text": "Printer chalu karo.", "action": "unknown", "slots": {}}
+{"text": "Wapas pichhla wala song.", "action": "media_control", "slots": {}, "control": "previous"}
+{"text": "Mujhe neend aa rahi hai.", "action": "unknown", "slots": {}}
+{"text": "Thoda loud karo yaar.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "AC ka temperature kam karo.", "action": "unknown", "slots": {}}
+{"text": "Awaaz dheemi karo, baby so raha hai.", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "Chalo chhodo, baad mein karenge.", "action": "cancel", "slots": {}}
+{"text": "गाना बंद करो।", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "छोड़ो, रहने दो।", "action": "cancel", "slots": {}}
+{"text": "ब्राइटनेस कम करो।", "action": "unknown", "slots": {}}
+{"text": "आवाज़ थोड़ी कम करो।", "action": "media_control", "slots": {}, "control": "volume_down"}
+{"text": "ಮುಂದಿನ ಹಾಡು ಹಾಕಿ.", "action": "media_control", "slots": {}, "control": "next"}
+{"text": "ಏನೂ ಬೇಡ ಬಿಡು.", "action": "cancel", "slots": {}}
+{"text": "பாட்டை கொஞ்சம் நிறுத்து.", "action": "media_control", "slots": {}, "control": "pause"}
+{"text": "பிரைட்னஸ் குறை.", "action": "unknown", "slots": {}}
+{"text": "వాల్యూమ్ కొంచెం పెంచు.", "action": "media_control", "slots": {}, "control": "volume_up"}
+{"text": "Screen pe ye kya likha hai samjhao.", "action": "read_screen", "slots": {}}
+{"text": "Photosynthesis samjhao.", "action": "web_search", "slots": {"query": "Photosynthesis"}}
+{"text": "Is page pe jo error aa raha hai wo samjhao.", "action": "read_screen", "slots": {}}
+{"text": "Error 404 ka matlab kya hai?", "action": "web_search", "slots": {"query": "Error 404 ka matlab kya hai"}}
+{"text": "Ye naya email padh ke sunao.", "action": "read_screen", "slots": {}}
+{"text": "Formal email kaise likhte hain?", "action": "web_search", "slots": {"query": "Formal email kaise likhte hain"}}
+{"text": "Screen pe jo article khula hai uska summary do.", "action": "read_screen", "slots": {}}
+{"text": "Chandrayaan 3 ka summary batao.", "action": "web_search", "slots": {"query": "Chandrayaan 3 ka summary"}}
+{"text": "Ye graph kya dikha raha hai?", "action": "read_screen", "slots": {}}
+{"text": "Bar graph aur histogram mein kya fark hai?", "action": "web_search", "slots": {"query": "Bar graph aur histogram mein kya fark hai"}}
+{"text": "Is form mein kya kya bharna hai batao.", "action": "read_screen", "slots": {}}
+{"text": "PAN card form kaise bharte hain?", "action": "web_search", "slots": {"query": "PAN card form kaise bharte hain"}}
+{"text": "Screen alli enu bardide odi helu.", "action": "read_screen", "slots": {}}
+{"text": "Kannada sahitya bagge helu.", "action": "web_search", "slots": {"query": "Kannada sahitya"}}
+{"text": "Ee page alli iruva news odu.", "action": "read_screen", "slots": {}}
+{"text": "Indina Bengaluru news hudku.", "action": "web_search", "slots": {"query": "Indina Bengaluru news"}}
+{"text": "Screen la enna irukku nu padichu sollu.", "action": "read_screen", "slots": {}}
+{"text": "Thirukkural na enna nu sollu.", "action": "web_search", "slots": {"query": "Thirukkural na enna"}}
+{"text": "Indha message enna solludhu?", "action": "read_screen", "slots": {}}
+{"text": "Indha varusham Diwali eppo?", "action": "web_search", "slots": {"query": "Indha varusham Diwali eppo"}}
+{"text": "Screen meeda unnadi chadivi cheppu.", "action": "read_screen", "slots": {}}
+{"text": "Gravity ante enti cheppu.", "action": "web_search", "slots": {"query": "Gravity ante enti"}}
+{"text": "Ee screen lo error enti?", "action": "read_screen", "slots": {}}
+{"text": "Blue screen error enduku vastundi?", "action": "web_search", "slots": {"query": "Blue screen error enduku vastundi"}}
+{"text": "Screenil ulla kaaryam vaayichu tharu.", "action": "read_screen", "slots": {}}
+{"text": "Onam ente charitram parayu.", "action": "web_search", "slots": {"query": "Onam ente charitram"}}
+{"text": "Screen var kay lihila aahe te vaach.", "action": "read_screen", "slots": {}}
+{"text": "Shivaji Maharaj yanchi mahiti sanga.", "action": "web_search", "slots": {"query": "Shivaji Maharaj yanchi mahiti"}}
+{"text": "Screen e ki lekha ache porhe shonao.", "action": "read_screen", "slots": {}}
+{"text": "Durga Puja ki bhabe shuru holo?", "action": "web_search", "slots": {"query": "Durga Puja ki bhabe shuru holo"}}
+{"text": "Read what's on my screen.", "action": "read_screen", "slots": {}}
+{"text": "Read about the French Revolution.", "action": "web_search", "slots": {"query": "the French Revolution"}}
+{"text": "Explain this code on the screen.", "action": "read_screen", "slots": {}}
+{"text": "Explain recursion in Python.", "action": "web_search", "slots": {"query": "recursion in Python"}}
+{"text": "What does this popup on my screen say?", "action": "read_screen", "slots": {}}
+{"text": "What does GST stand for in India?", "action": "web_search", "slots": {"query": "What does GST stand for in India"}}
+{"text": "Is table mein sabse zyada marks kiske hain dekh ke batao.", "action": "read_screen", "slots": {}}
+{"text": "Class 10 board exam mein topper kaun tha?", "action": "web_search", "slots": {"query": "Class 10 board exam mein topper kaun tha"}}
+{"text": "Ye jo Spotify pe gaana chal raha hai uska naam screen se padho.", "action": "read_screen", "slots": {}}
+{"text": "Spotify pe sabse zyada suna gaya gaana kaunsa hai?", "action": "web_search", "slots": {"query": "Spotify pe sabse zyada suna gaya gaana kaunsa hai"}}
+{"text": "WhatsApp pe Raju ne jo bheja hai wo padh ke sunao.", "action": "read_screen", "slots": {}}
+{"text": "WhatsApp pe message kaise schedule karte hain?", "action": "web_search", "slots": {"query": "WhatsApp pe message kaise schedule karte hain"}}
+{"text": "YouTube pe jo video khula hai uska title kya hai?", "action": "read_screen", "slots": {}}
+{"text": "YouTube pe sabse zyada views wala video kaunsa hai?", "action": "web_search", "slots": {"query": "YouTube pe sabse zyada views wala video kaunsa hai"}}
+{"text": "Is bill mein total kitna hai?", "action": "read_screen", "slots": {}}
+{"text": "Bijli bill online kaise bharein?", "action": "web_search", "slots": {"query": "Bijli bill online kaise bharein"}}
+{"text": "Ye PDF kis baare mein hai, short mein batao.", "action": "read_screen", "slots": {}}
+{"text": "Climate change kya hai, short mein batao.", "action": "web_search", "slots": {"query": "Climate change kya hai"}}
+{"text": "Ye wala paragraph Hindi mein samjhao.", "action": "read_screen", "slots": {}}
+{"text": "Newton ka teesra niyam Hindi mein samjhao.", "action": "web_search", "slots": {"query": "Newton ka teesra niyam Hindi mein"}}
+{"text": "Screen pe jo poem hai uska matlab batao.", "action": "read_screen", "slots": {}}
+{"text": "Madhushala poem ka matlab batao.", "action": "web_search", "slots": {"query": "Madhushala poem ka matlab"}}
+{"text": "स्क्रीन पर जो लिखा है वो पढ़ के सुनाओ।", "action": "read_screen", "slots": {}}
+{"text": "प्रकाश संश्लेषण समझाओ।", "action": "web_search", "slots": {"query": "प्रकाश संश्लेषण"}}
+{"text": "ಸ್ಕ್ರೀನ್ ಮೇಲೆ ಏನಿದೆ ಓದು.", "action": "read_screen", "slots": {}}
+{"text": "ಮೈಸೂರು ದಸರಾ ಬಗ್ಗೆ ಹೇಳು.", "action": "web_search", "slots": {"query": "ಮೈಸೂರು ದಸರಾ"}}
+{"text": "ஸ்கிரீன்ல என்ன இருக்குன்னு சொல்லு.", "action": "read_screen", "slots": {}}
+{"text": "பொங்கல் ஏன் கொண்டாடுறோம்?", "action": "web_search", "slots": {"query": "பொங்கல் ஏன் கொண்டாடுறோம்"}}
+{"text": "Raju ko WhatsApp karo ki main late hoon.", "action": "send_message", "slots": {"contact": "Raju", "text": "main late hoon"}}
+{"text": "Type karo main late hoon.", "action": "type_text", "slots": {"text": "main late hoon"}}
+{"text": "Late hone pe boss ko kya bolein?", "action": "web_search", "slots": {"query": "Late hone pe boss ko kya bolein"}}
+{"text": "Mummy ko message bhejo ki khana mat banana.", "action": "send_message", "slots": {"contact": "Mummy", "text": "khana mat banana"}}
+{"text": "Likho khana mat banana aaj.", "action": "type_text", "slots": {"text": "khana mat banana aaj"}}
+{"text": "Bina tel ke khana kaise banaye?", "action": "web_search", "slots": {"query": "Bina tel ke khana kaise banaye"}}
+{"text": "Priya ko bolo happy birthday.", "action": "send_message", "slots": {"contact": "Priya", "text": "happy birthday"}}
+{"text": "Is box mein happy birthday Priya likho.", "action": "type_text", "slots": {"text": "happy birthday Priya"}}
+{"text": "Happy birthday wishes in Hindi dhundho.", "action": "web_search", "slots": {"query": "Happy birthday wishes in Hindi"}}
+{"text": "Send a WhatsApp to Karan saying the meeting is at 5.", "action": "send_message", "slots": {"contact": "Karan", "text": "the meeting is at 5"}}
+{"text": "Type the meeting is at 5.", "action": "type_text", "slots": {"text": "the meeting is at 5"}}
+{"text": "What time is the RBI meeting today?", "action": "web_search", "slots": {"query": "What time is the RBI meeting today"}}
+{"text": "Amma ge WhatsApp maadu naanu barthini antha.", "action": "send_message", "slots": {"contact": "Amma", "text": "naanu barthini"}}
+{"text": "Type maadu naanu barthini.", "action": "type_text", "slots": {"text": "naanu barthini"}}
+{"text": "Mysore ge bus timings hudku.", "action": "web_search", "slots": {"query": "Mysore ge bus timings"}}
+{"text": "Anna ku message anuppu naan veetuku varen nu.", "action": "send_message", "slots": {"contact": "Anna", "text": "naan veetuku varen"}}
+{"text": "Ithula type pannu naan veetuku varen.", "action": "type_text", "slots": {"text": "naan veetuku varen"}}
+{"text": "Chennai la indha weekend enna nadakudhu nu thedu.", "action": "web_search", "slots": {"query": "Chennai la indha weekend enna nadakudhu"}}
+{"text": "Ravi ki message pampu repu kaludham ani.", "action": "send_message", "slots": {"contact": "Ravi", "text": "repu kaludham"}}
+{"text": "Ikkada type cheyyi repu kaludham.", "action": "type_text", "slots": {"text": "repu kaludham"}}
+{"text": "Repu Hyderabad lo varsham padutunda?", "action": "web_search", "slots": {"query": "Repu Hyderabad lo varsham padutunda"}}
+{"text": "Chechikku message ayakku njan ethi ennu.", "action": "send_message", "slots": {"contact": "Chechi", "text": "njan ethi"}}
+{"text": "Type cheyyu njan ethi.", "action": "type_text", "slots": {"text": "njan ethi"}}
+{"text": "Aai la sang mi nighalo.", "action": "send_message", "slots": {"contact": "Aai", "text": "mi nighalo"}}
+{"text": "Lihi mi nighalo.", "action": "type_text", "slots": {"text": "mi nighalo"}}
+{"text": "Didi ke WhatsApp koro ami pouche gechi.", "action": "send_message", "slots": {"contact": "Didi", "text": "ami pouche gechi"}}
+{"text": "Type koro ami pouche gechi.", "action": "type_text", "slots": {"text": "ami pouche gechi"}}
+{"text": "Kolkata te aaj ki brishti hobe?", "action": "web_search", "slots": {"query": "Kolkata te aaj ki brishti hobe"}}
+{"text": "Sharma ji ko bata do ki order dispatch ho gaya.", "action": "send_message", "slots": {"contact": "Sharma ji", "text": "order dispatch ho gaya"}}
+{"text": "Customer reply mein likho order dispatch ho gaya.", "action": "type_text", "slots": {"text": "order dispatch ho gaya"}}
+{"text": "Order dispatch hone mein kitna time lagta hai Amazon pe?", "action": "web_search", "slots": {"query": "Order dispatch hone mein kitna time lagta hai Amazon pe"}}
+{"text": "Papa ko WhatsApp pe bolo gaadi ki chabi table pe hai.", "action": "send_message", "slots": {"contact": "Papa", "text": "gaadi ki chabi table pe hai"}}
+{"text": "Note mein likho gaadi ki chabi table pe hai.", "action": "type_text", "slots": {"text": "gaadi ki chabi table pe hai"}}
+{"text": "Neha ko message karo ki kal Spotify playlist bhej dena.", "action": "send_message", "slots": {"contact": "Neha", "text": "kal Spotify playlist bhej dena"}}
+{"text": "Type karo Spotify playlist link.", "action": "type_text", "slots": {"text": "Spotify playlist link"}}
+{"text": "Spotify playlist kaise share karte hain?", "action": "web_search", "slots": {"query": "Spotify playlist kaise share karte hain"}}
+{"text": "Vikram bhai ko bolo YouTube link dekh lo.", "action": "send_message", "slots": {"contact": "Vikram bhai", "text": "YouTube link dekh lo"}}
+{"text": "Search bar mein YouTube Premium likho.", "action": "type_text", "slots": {"text": "YouTube Premium"}}
+{"text": "YouTube Premium ka family plan kitne ka hai?", "action": "web_search", "slots": {"query": "YouTube Premium ka family plan kitne ka hai"}}
+{"text": "Dost ko bolo Radiohead ka concert book kar le.", "action": "send_message", "slots": {"contact": "Dost", "text": "Radiohead ka concert book kar le"}}
+{"text": "Likh do Radiohead concert tickets.", "action": "type_text", "slots": {"text": "Radiohead concert tickets"}}
+{"text": "Radiohead concert tickets kahan milenge?", "action": "web_search", "slots": {"query": "Radiohead concert tickets kahan milenge"}}
+{"text": "What's app karo Ankit ko ki notes bhej de.", "action": "send_message", "slots": {"contact": "Ankit", "text": "notes bhej de"}}
+{"text": "Type karo please send the notes.", "action": "type_text", "slots": {"text": "please send the notes"}}
+{"text": "Class 12 physics notes PDF dhundho.", "action": "web_search", "slots": {"query": "Class 12 physics notes PDF"}}
+{"text": "Manager ko message karo I will join in ten minutes.", "action": "send_message", "slots": {"contact": "Manager", "text": "I will join in ten minutes"}}
+{"text": "Chat box mein likho I will join in ten minutes.", "action": "type_text", "slots": {"text": "I will join in ten minutes"}}
+{"text": "Tell Meena on WhatsApp that dinner is ready.", "action": "send_message", "slots": {"contact": "Meena", "text": "dinner is ready"}}
+{"text": "Write dinner is ready in the message box.", "action": "type_text", "slots": {"text": "dinner is ready"}}
+{"text": "Quick dinner recipes for two dhundho.", "action": "web_search", "slots": {"query": "Quick dinner recipes for two"}}
+{"text": "Bhabhi ko bolo ki Gudiya school se aa gayi.", "action": "send_message", "slots": {"contact": "Bhabhi", "text": "Gudiya school se aa gayi"}}
+{"text": "Gudiya school se aa gayi type kar do.", "action": "type_text", "slots": {"text": "Gudiya school se aa gayi"}}
+{"text": "Akka ki cheppu nenu bus ekkanu ani.", "action": "send_message", "slots": {"contact": "Akka", "text": "nenu bus ekkanu"}}
+{"text": "Type cheyyi nenu bus ekkanu.", "action": "type_text", "slots": {"text": "nenu bus ekkanu"}}
+{"text": "APSRTC bus booking ela cheyyali?", "action": "web_search", "slots": {"query": "APSRTC bus booking ela cheyyali"}}
+{"text": "Suresh ge helu naale office illa.", "action": "send_message", "slots": {"contact": "Suresh", "text": "naale office illa"}}
+{"text": "Bari naale office illa.", "action": "type_text", "slots": {"text": "naale office illa"}}
+{"text": "Naale bank holiday idya?", "action": "web_search", "slots": {"query": "Naale bank holiday idya"}}
+{"text": "राजू को मैसेज करो कि मैं आ रहा हूँ।", "action": "send_message", "slots": {"contact": "राजू", "text": "मैं आ रहा हूँ"}}
+{"text": "टाइप करो मैं आ रहा हूँ।", "action": "type_text", "slots": {"text": "मैं आ रहा हूँ"}}
+{"text": "दिल्ली में आज मौसम कैसा है?", "action": "web_search", "slots": {"query": "दिल्ली में आज मौसम कैसा है"}}
+{"text": "ಅಮ್ಮನಿಗೆ ಹೇಳು ನಾನು ಊಟ ಮಾಡಿದೆ ಅಂತ.", "action": "send_message", "slots": {"contact": "ಅಮ್ಮ", "text": "ನಾನು ಊಟ ಮಾಡಿದೆ"}}
+{"text": "ಟೈಪ್ ಮಾಡು ನಾನು ಊಟ ಮಾಡಿದೆ.", "action": "type_text", "slots": {"text": "ನಾನು ಊಟ ಮಾಡಿದೆ"}}
+{"text": "அப்பாவுக்கு மெசேஜ் அனுப்பு நான் கிளம்பிட்டேன்.", "action": "send_message", "slots": {"contact": "அப்பா", "text": "நான் கிளம்பிட்டேன்"}}
+{"text": "டைப் பண்ணு நான் கிளம்பிட்டேன்.", "action": "type_text", "slots": {"text": "நான் கிளம்பிட்டேன்"}}
+{"text": "Spotify kholo yaar.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Spotify pe gaana chalao.", "action": "play_media", "slots": {"app": "Spotify"}}
+{"text": "Spotify pe Radiohead chalao.", "action": "play_media", "slots": {"app": "Spotify", "query": "Radiohead"}}
+{"text": "Open Spotify for me.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Play Radiohead on Spotify.", "action": "play_media", "slots": {"query": "Radiohead", "app": "Spotify"}}
+{"text": "Play radio head on spotify.", "action": "play_media", "slots": {"query": "radio head", "app": "spotify"}}
+{"text": "YouTube Music open karo.", "action": "open_app", "slots": {"app": "YouTube Music"}}
+{"text": "YouTube Music pe Hanumankind chalao.", "action": "play_media", "slots": {"app": "YouTube Music", "query": "Hanumankind"}}
+{"text": "JioSaavn chalu karo.", "action": "open_app", "slots": {"app": "JioSaavn"}}
+{"text": "JioSaavn pe old Hindi songs chalao.", "action": "play_media", "slots": {"app": "JioSaavn", "query": "old Hindi songs"}}
+{"text": "Gaana app kholo.", "action": "open_app", "slots": {"app": "Gaana"}}
+{"text": "Gaana app pe bhajans lagao.", "action": "play_media", "slots": {"app": "Gaana", "query": "bhajans"}}
+{"text": "Wynk kholo.", "action": "open_app", "slots": {"app": "Wynk"}}
+{"text": "Wynk pe Punjabi songs bajao.", "action": "play_media", "slots": {"app": "Wynk", "query": "Punjabi songs"}}
+{"text": "Apple Music open maadu.", "action": "open_app", "slots": {"app": "Apple Music"}}
+{"text": "Apple Music alli Vijay Prakash haadu haaku.", "action": "play_media", "slots": {"app": "Apple Music", "query": "Vijay Prakash"}}
+{"text": "Amazon Music kholo.", "action": "open_app", "slots": {"app": "Amazon Music"}}
+{"text": "Amazon Music pe workout playlist chalao.", "action": "play_media", "slots": {"app": "Amazon Music", "query": "workout playlist"}}
+{"text": "Spotify open pannunga.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Spotify la Anirudh paattu podu.", "action": "play_media", "slots": {"app": "Spotify", "query": "Anirudh"}}
+{"text": "Spotify open cheyyandi.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Spotify lo Thaman songs pettu.", "action": "play_media", "slots": {"app": "Spotify", "query": "Thaman"}}
+{"text": "Spotify onnu thurakku.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Spotify il Vineeth Sreenivasan paattu vekku.", "action": "play_media", "slots": {"app": "Spotify", "query": "Vineeth Sreenivasan"}}
+{"text": "Spotify ughad.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Spotify var Marathi lavani laav.", "action": "play_media", "slots": {"app": "Spotify", "query": "Marathi lavani"}}
+{"text": "Spotify e Arijit er gaan chalao.", "action": "play_media", "slots": {"app": "Spotify", "query": "Arijit"}}
+{"text": "Zara YouTube khol do.", "action": "open_app", "slots": {"app": "YouTube"}}
+{"text": "YouTube pe Arijit chalao.", "action": "play_media", "slots": {"app": "YouTube", "query": "Arijit"}}
+{"text": "YouTube pe Peppa Pig chala do bacchon ke liye.", "action": "play_media", "slots": {"app": "YouTube", "query": "Peppa Pig"}}
+{"text": "You tube khol do jaldi.", "action": "open_app", "slots": {"app": "You tube"}}
+{"text": "You tube pe Honey Singh ka naya video chalavo.", "action": "play_media", "slots": {"app": "You tube", "query": "Honey Singh ka naya video"}}
+{"text": "Kuch music chalao.", "action": "play_media", "slots": {}}
+{"text": "Koi bhi gaana chalao.", "action": "play_media", "slots": {}}
+{"text": "Music app kholo.", "action": "open_app", "slots": {"app": "Music"}}
+{"text": "Windows Media Player chalu karo.", "action": "open_app", "slots": {"app": "Windows Media Player"}}
+{"text": "Media Player mein koi gaana chalao.", "action": "play_media", "slots": {"app": "Media Player"}}
+{"text": "VLC player open karo.", "action": "open_app", "slots": {"app": "VLC"}}
+{"text": "Spotify start kar do, aur kuch mat karo.", "action": "open_app", "slots": {"app": "Spotify"}}
+{"text": "Spotify start karke Coldplay laga do.", "action": "play_media", "slots": {"app": "Spotify", "query": "Coldplay"}}
+{"text": "Netflix kholo movie dekhni hai.", "action": "open_app", "slots": {"app": "Netflix"}}
+{"text": "Netflix pe Sacred Games chalao.", "action": "play_media", "slots": {"app": "Netflix", "query": "Sacred Games"}}
+{"text": "Hotstar kholo please.", "action": "open_app", "slots": {"app": "Hotstar"}}
+{"text": "Hotstar pe Panchayat chala do.", "action": "play_media", "slots": {"app": "Hotstar", "query": "Panchayat"}}
+{"text": "Prime Video open karo.", "action": "open_app", "slots": {"app": "Prime Video"}}
+{"text": "Prime Video pe Mirzapur season 3 lagao.", "action": "play_media", "slots": {"app": "Prime Video", "query": "Mirzapur season 3"}}
+{"text": "Play some lo-fi beats.", "action": "play_media", "slots": {"query": "lo-fi beats"}}
+{"text": "Raat ke liye soothing music lagao.", "action": "play_media", "slots": {"query": "soothing music"}}
+{"text": "Bhakti songs chalao Spotify pe.", "action": "play_media", "slots": {"query": "Bhakti songs", "app": "Spotify"}}
+{"text": "Spotify pe mera Liked Songs chalao.", "action": "play_media", "slots": {"app": "Spotify", "query": "mera Liked Songs"}}
+{"text": "Spotify pe Discover Weekly bajao.", "action": "play_media", "slots": {"app": "Spotify", "query": "Discover Weekly"}}
+{"text": "Podcasts app kholo.", "action": "open_app", "slots": {"app": "Podcasts"}}
+{"text": "Spotify pe The Ranveer Show podcast chalao.", "action": "play_media", "slots": {"app": "Spotify", "query": "The Ranveer Show podcast"}}
+{"text": "स्पॉटिफ़ाई खोलो।", "action": "open_app", "slots": {"app": "स्पॉटिफ़ाई"}}
+{"text": "स्पॉटिफ़ाई पर रेडियोहेड चलाओ।", "action": "play_media", "slots": {"app": "स्पॉटिफ़ाई", "query": "रेडियोहेड"}}
+{"text": "ಸ್ಪಾಟಿಫೈ ತೆರೆ.", "action": "open_app", "slots": {"app": "ಸ್ಪಾಟಿಫೈ"}}
+{"text": "ಸ್ಪಾಟಿಫೈ ಅಲ್ಲಿ ರಾಜ್‌ಕುಮಾರ್ ಹಾಡು ಹಾಕು.", "action": "play_media", "slots": {"app": "ಸ್ಪಾಟಿಫೈ", "query": "ರಾಜ್‌ಕುಮಾರ್"}}
+{"text": "యూట్యూబ్ లో బాలయ్య సాంగ్స్ పెట్టు.", "action": "play_media", "slots": {"app": "యూట్యూబ్", "query": "బాలయ్య"}}
+{"text": "যুটিউব খোলো।", "action": "open_app", "slots": {"app": "যুটিউব"}}
+{"text": "Kal maine Spotify pe Radiohead suna tha.", "action": "unknown", "slots": {}}
+{"text": "Kal wala Radiohead Spotify pe phir se chalao.", "action": "play_media", "slots": {"query": "Radiohead", "app": "Spotify"}}
+{"text": "Raju ne WhatsApp kiya tha.", "action": "unknown", "slots": {}}
+{"text": "Raju ko WhatsApp karo ki main pahunch gaya.", "action": "send_message", "slots": {"contact": "Raju", "text": "main pahunch gaya"}}
+{"text": "Mera YouTube channel kal 1000 subscribers cross kar gaya.", "action": "unknown", "slots": {}}
+{"text": "Arijit Singh ki awaaz bahut sweet hai yaar.", "action": "unknown", "slots": {}}
+{"text": "Amazon ka parcel aaj nahi aaya.", "action": "unknown", "slots": {}}
+{"text": "Pichle hafte Netflix pe ek accha show dekha.", "action": "unknown", "slots": {}}
+{"text": "Mummy ko Instagram chalana nahi aata.", "action": "unknown", "slots": {}}
+{"text": "Spotify ka subscription khatam ho gaya lagta hai.", "action": "unknown", "slots": {}}
+{"text": "Coldplay ka concert miss ho gaya, bahut dukh hua.", "action": "unknown", "slots": {}}
+{"text": "Ye Excel sheet boss ne bheji thi.", "action": "unknown", "slots": {}}
+{"text": "Nenna Spotify alli tumba haadu kelde.", "action": "unknown", "slots": {}}
+{"text": "Avanu WhatsApp alli photo kalsidda.", "action": "unknown", "slots": {}}
+{"text": "Ilayaraja paattu ellam super ah irukkum.", "action": "unknown", "slots": {}}
+{"text": "Neenga YouTube la enna paakureenga?", "action": "unknown", "slots": {}}
+{"text": "Ninna Anirudh concert ki vellanu.", "action": "unknown", "slots": {}}
+{"text": "Instagram lo naa friend reel chesadu.", "action": "unknown", "slots": {}}
+{"text": "Ente amma WhatsApp il ellarkkum good morning ayakkum.", "action": "unknown", "slots": {}}
+{"text": "Kaal mi Spotify var Ajay Atul aikla.", "action": "unknown", "slots": {}}
+{"text": "Amar bhai Spotify te shudhu Rabindra Sangeet shone.", "action": "unknown", "slots": {}}
+{"text": "I was listening to Radiohead all night.", "action": "unknown", "slots": {}}
+{"text": "My brother uses Zoom for his classes.", "action": "unknown", "slots": {}}
+{"text": "Did you watch the Coldplay video I sent?", "action": "unknown", "slots": {}}
+{"text": "Arre Priya, tumne Chrome update kiya kya?", "action": "unknown", "slots": {}}
+{"text": "Haan haan, main WhatsApp pe hi hoon.", "action": "unknown", "slots": {}}
+{"text": "Lata ji jaisi singer koi nahi.", "action": "unknown", "slots": {}}
+{"text": "Uff, yeh Teams meeting kitni lambi chal rahi hai.", "action": "unknown", "slots": {}}
+{"text": "Kishore Kumar ke gaane papa ko bahut pasand the.", "action": "unknown", "slots": {}}
+{"text": "Ganna bahut mehenga ho gaya hai.", "action": "unknown", "slots": {}}
+{"text": "Arey yaar, mic on hai kya?", "action": "unknown", "slots": {}}
+{"text": "Hello hello, sunai de raha hai?", "action": "unknown", "slots": {}}
+{"text": "Uh, wo, kya bol raha tha main.", "action": "unknown", "slots": {}}
+{"text": "Kal Ravi ki shaadi mein Badshah ke gaane baje the.", "action": "unknown", "slots": {}}
+{"text": "Ye Amazon wala delivery boy fir se late hai.", "action": "unknown", "slots": {}}
+{"text": "YouTube pe kal maine ek funny video dekha tha.", "action": "unknown", "slots": {}}
+{"text": "YouTube pe koi funny video chalao.", "action": "play_media", "slots": {"app": "YouTube", "query": "funny video"}}
+{"text": "Flipkart ki sale kab khatam hogi pata nahi.", "action": "unknown", "slots": {}}
+{"text": "Flipkart ki Big Billion Days sale kab khatam hogi?", "action": "web_search", "slots": {"query": "Flipkart ki Big Billion Days sale kab khatam hogi"}}
+{"text": "Suresh ne bola tha Spotify accha hai.", "action": "unknown", "slots": {}}
+{"text": "Nanna Spotify account yaaru login maadidru gottilla.", "action": "unknown", "slots": {}}
+{"text": "Sir avaru Zoom alli late aagi bandru.", "action": "unknown", "slots": {}}
+{"text": "Calendar mein kal ka reminder laga do.", "action": "unknown", "slots": {}}
+{"text": "Raju ko call lagao.", "action": "unknown", "slots": {}}
+{"text": "Pankha tez karo.", "action": "unknown", "slots": {}}
+{"text": "Computer restart karo.", "action": "unknown", "slots": {}}
+{"text": "मैंने कल स्पॉटिफ़ाई पर रेडियोहेड सुना था।", "action": "unknown", "slots": {}}
+{"text": "राजू ने व्हाट्सएप किया था।", "action": "unknown", "slots": {}}
+{"text": "நேத்து யூடியூப்ல ஒரு படம் பார்த்தேன்.", "action": "unknown", "slots": {}}
+{"text": "ನಿನ್ನೆ ವಾಟ್ಸಾಪ್ ಅಲ್ಲಿ ಅಮ್ಮ ಮೆಸೇಜ್ ಮಾಡಿದ್ರು.", "action": "unknown", "slots": {}}
+{"text": "কাল রাতে স্পটিফাইতে রেডিওহেড শুনছিলাম।", "action": "unknown", "slots": {}}

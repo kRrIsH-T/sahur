@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>री-केवाईसी अपडेट - डेमो ग्रामीण बैंक</title>
+<link rel="stylesheet" href="form.css">
+</head>
+<!--
+  Bol OS demo page: the Hindi version of kyc_bank.html (same fields, same order, same validation), for testing
+  the form assistant with Devanagari labels, options and error messages. The bank is fictional and nothing typed
+  here leaves this PC: serve.py discards every submission.
+-->
+<body
+  data-msg-required="यह जानकारी भरना ज़रूरी है।"
+  data-msg-pattern="कृपया सही जानकारी भरें।"
+  data-msg-summary="कृपया नीचे दी गई {n} गलतियाँ ठीक करें।"
+  data-msg-summary-one="कृपया नीचे दी गई गलती ठीक करें।"
+  data-msg-otp-demo="यह डेमो पेज है: कोई ओटीपी नहीं भेजा गया।">
+<header class="bank">
+  <span class="brand">डेमो ग्रामीण बैंक</span>
+  <span class="tag">Bol OS की जाँच के लिए काल्पनिक बैंक। असली जानकारी न भरें।</span>
+</header>
+<main>
+  <h1>अपनी केवाईसी जानकारी अपडेट करें</h1>
+  <p class="lead">बचत खाताधारकों के लिए समय-समय पर होने वाला री-केवाईसी। <span class="req">*</span> वाले खाने भरना ज़रूरी है।</p>
+  <p class="demo-note">यह डेमो फॉर्म है। केवल बनावटी जाँच-जानकारी भरें।</p>
+  <div id="summary" role="alert" hidden></div>
+
+  <form data-demo action="/submit" method="post" novalidate>
+    <fieldset>
+      <legend>व्यक्तिगत जानकारी</legend>
+      <div class="row">
+        <label for="full_name">पूरा नाम (आधार के अनुसार)<span class="req">*</span></label>
+        <input id="full_name" name="full_name" type="text" required autocomplete="name"
+               aria-describedby="full_name-help full_name-error">
+        <span class="help" id="full_name-help">नाम ठीक वैसा ही लिखें जैसा आधार कार्ड पर छपा है।</span>
+        <span class="error" id="full_name-error"></span>
+      </div>
+      <div class="row">
+        <label for="father_name">पिता / पति या पत्नी का नाम<span class="req">*</span></label>
+        <input id="father_name" name="father_name" type="text" required aria-describedby="father_name-error">
+        <span class="error" id="father_name-error"></span>
+      </div>
+      <div class="row">
+        <label for="dob">जन्म तिथि<span class="req">*</span></label>
+        <input id="dob" name="dob" type="date" required min="1900-01-01" max="2008-12-31"
+               aria-describedby="dob-error" data-msg-pattern="आपकी उम्र कम से कम 18 साल होनी चाहिए।">
+        <span class="error" id="dob-error"></span>
+      </div>
+      <div class="row">
+        <fieldset class="choices-group" style="border:0;padding:0;margin:0">
+          <legend class="label" style="padding:0;font-weight:500">लिंग<span class="req">*</span></legend>
+          <div class="choices">
+            <label><input type="radio" name="gender" value="male" required aria-describedby="gender-error"> पुरुष</label>
+            <label><input type="radio" name="gender" value="female" required> महिला</label>
+            <label><input type="radio" name="gender" value="transgender" required> ट्रांसजेंडर</label>
+          </div>
+        </fieldset>
+        <span class="error" id="gender-error"></span>
+      </div>
+      <div class="row">
+        <label for="marital">वैवाहिक स्थिति</label>
+        <select id="marital" name="marital">
+          <option value="">चुनें</option>
+          <option>अविवाहित</option>
+          <option>विवाहित</option>
+          <option>विधवा / विधुर</option>
+          <option>तलाकशुदा</option>
+        </select>
+      </div>
+      <div class="row">
+        <label for="mobile">मोबाइल नंबर<span class="req">*</span></label>
+        <input id="mobile" name="mobile" type="tel" required inputmode="numeric" maxlength="10"
+               placeholder="10 अंकों का मोबाइल नंबर" data-pattern="[6-9][0-9]{9}"
+               data-msg-pattern="10 अंकों का सही मोबाइल नंबर भरें।" aria-describedby="mobile-error">
+        <span class="error" id="mobile-error"></span>
+      </div>
+      <div class="row">
+        <label for="email">ईमेल पता</label>
+        <input id="email" name="email" type="email" placeholder="name@example.com"
+               data-pattern="[^@\s]+@[^@\s]+\.[^@\s]+" data-msg-pattern="सही ईमेल पता भरें।"
+               aria-describedby="email-error">
+        <span class="error" id="email-error"></span>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>पहचान दस्तावेज़</legend>
+      <div class="row">
+        <label for="aadhaar">आधार नंबर<span class="req">*</span></label>
+        <input id="aadhaar" name="aadhaar" type="text" required inputmode="numeric" maxlength="14"
+               data-pattern="[0-9]{4} ?[0-9]{4} ?[0-9]{4}" data-msg-pattern="आधार नंबर में 12 अंक होने चाहिए।"
+               aria-describedby="aadhaar-help aadhaar-error">
+        <span class="help" id="aadhaar-help">आधार कार्ड के सामने छपा 12 अंकों का नंबर।</span>
+        <span class="error" id="aadhaar-error"></span>
+      </div>
+      <div class="row">
+        <label for="pan">पैन नंबर<span class="req">*</span></label>
+        <input id="pan" name="pan" type="text" required maxlength="10" placeholder="ABCDE1234F"
+               data-pattern="[A-Za-z]{5}[0-9]{4}[A-Za-z]" data-msg-pattern="पैन नंबर सही ढंग से नहीं लिखा है।"
+               aria-describedby="pan-error">
+        <span class="error" id="pan-error"></span>
+      </div>
+      <div class="row">
+        <span class="label">सीकेवाईसी नंबर</span>
+        <input id="ckyc" name="ckyc" type="text" aria-label="सीकेवाईसी नंबर (अगर हो)" placeholder="14 अंक, अगर आपके पास है">
+      </div>
+      <div class="row">
+        <label for="aadhaar_photo">आधार अपलोड करें (सामने का हिस्सा)</label>
+        <input id="aadhaar_photo" name="aadhaar_photo" type="file" accept="image/*,.pdf">
+        <span class="help">JPG, PNG या PDF, 2 MB तक।</span>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>पता</legend>
+      <div class="row">
+        <label for="address">स्थायी पता<span class="req">*</span></label>
+        <textarea id="address" name="address" required aria-describedby="address-error"></textarea>
+        <span class="error" id="address-error"></span>
+      </div>
+      <div class="row">
+        <label for="city">शहर / कस्बा / गाँव<span class="req">*</span></label>
+        <input id="city" name="city" type="text" required aria-describedby="city-error">
+        <span class="error" id="city-error"></span>
+      </div>
+      <div class="row">
+        <label for="state">राज्य<span class="req">*</span></label>
+        <select id="state" name="state" required aria-describedby="state-error">
+          <option value="">राज्य चुनें</option>
+          <option>आंध्र प्रदेश</option>
+          <option>बिहार</option>
+          <option>गुजरात</option>
+          <option>कर्नाटक</option>
+          <option>केरल</option>
+          <option>मध्य प्रदेश</option>
+          <option>महाराष्ट्र</option>
+          <option>पंजाब</option>
+          <option>राजस्थान</option>
+          <option>तमिलनाडु</option>
+          <option>तेलंगाना</option>
+          <option>उत्तर प्रदेश</option>
+          <option>पश्चिम बंगाल</option>
+        </select>
+        <span class="error" id="state-error"></span>
+      </div>
+      <div class="row">
+        <label for="pin">पिन कोड<span class="req">*</span></label>
+        <input id="pin" name="pin" type="text" required inputmode="numeric" maxlength="6"
+               data-pattern="[1-9][0-9]{5}" data-msg-pattern="पिन कोड में 6 अंक होने चाहिए।"
+               aria-describedby="pin-error">
+        <span class="error" id="pin-error"></span>
+      </div>
+      <div class="row check">
+        <label><input id="same_address" name="same_address" type="checkbox" checked>
+          पत्राचार का पता स्थायी पते जैसा ही है</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>बैंक और व्यवसाय</legend>
+      <div class="row">
+        <span class="label" id="account-label">बचत खाता संख्या<span class="req">*</span></span>
+        <input id="account" name="account" type="text" required inputmode="numeric"
+               aria-labelledby="account-label" data-pattern="[0-9]{9,18}"
+               data-msg-pattern="खाता संख्या में 9 से 18 अंक होने चाहिए।" aria-describedby="account-error">
+        <span class="error" id="account-error"></span>
+      </div>
+      <div class="row">
+        <label for="ifsc">आईएफएससी कोड<span class="req">*</span></label>
+        <input id="ifsc" name="ifsc" type="text" required maxlength="11"
+               data-pattern="[A-Za-z]{4}0[A-Za-z0-9]{6}" data-msg-pattern="आईएफएससी कोड सही नहीं है।"
+               aria-describedby="ifsc-help ifsc-error">
+        <span class="help" id="ifsc-help">11 अक्षर, पासबुक और चेकबुक पर छपे होते हैं।</span>
+        <span class="error" id="ifsc-error"></span>
+      </div>
+      <div class="row">
+        <label for="occupation">व्यवसाय</label>
+        <select id="occupation" name="occupation">
+          <option value="">चुनें</option>
+          <option>नौकरीपेशा</option>
+          <option>स्वरोज़गार</option>
+          <option>किसान</option>
+          <option>विद्यार्थी</option>
+          <option>गृहिणी</option>
+          <option>सेवानिवृत्त</option>
+          <option>अन्य</option>
+        </select>
+      </div>
+      <div class="row">
+        <label for="income">सालाना आय</label>
+        <select id="income" name="income">
+          <option value="">चुनें</option>
+          <option>1 लाख से कम</option>
+          <option>1 से 5 लाख</option>
+          <option>5 से 10 लाख</option>
+          <option>10 लाख से ज़्यादा</option>
+        </select>
+      </div>
+      <div class="row">
+        <input id="nominee" name="nominee" type="text" placeholder="नॉमिनी का नाम (अगर चाहें)">
+      </div>
+      <div class="row">
+        <fieldset style="border:0;padding:0;margin:0">
+          <legend class="label" style="padding:0;font-weight:500">क्या आप राजनीतिक रूप से जुड़े व्यक्ति (पीईपी) हैं?</legend>
+          <div class="choices">
+            <label><input type="radio" name="pep" value="yes"> हाँ</label>
+            <label><input type="radio" name="pep" value="no" checked> नहीं</label>
+          </div>
+        </fieldset>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>सत्यापन</legend>
+      <div class="row captcha">
+        <img src="captcha.svg" width="140" height="44" alt="कैप्चा चित्र">
+        <div>
+          <label for="captcha">चित्र में दिखे अक्षर भरें</label>
+          <input id="captcha" name="captcha" type="text" autocomplete="off">
+        </div>
+      </div>
+      <div class="row">
+        <label for="otp">मोबाइल पर आया ओटीपी भरें</label>
+        <div class="otp">
+          <input id="otp" name="otp" type="text" inputmode="numeric" maxlength="6" autocomplete="one-time-code">
+          <button type="button" id="send-otp">ओटीपी भेजें</button>
+          <span id="otp-status" class="help"></span>
+        </div>
+      </div>
+      <div class="row check">
+        <label><input id="declare" name="declare" type="checkbox" required aria-describedby="declare-error">
+          मैं घोषणा करता/करती हूँ कि ऊपर दी गई जानकारी सही है<span class="req">*</span></label>
+        <span class="error" id="declare-error"></span>
+      </div>
+    </fieldset>
+
+    <div class="actions">
+      <button type="reset">मिटाएँ</button>
+      <button type="submit" class="primary">जमा करें</button>
+    </div>
+  </form>
+</main>
+<footer>डेमो ग्रामीण बैंक काल्पनिक है। यह पेज Bol OS की जाँच के लिए बना है।</footer>
+<script src="form.js"></script>
+</body>
+</html>

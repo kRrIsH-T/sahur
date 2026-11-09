@@ -1,0 +1,120 @@
+{"text": "ee form lo emi nimpali", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "ee form enduku cheppandi", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "ee KYC form ki emi kavali", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "bank KYC form lo emi adugutaru", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "Aadhaar update form gurinchi cheppandi", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "PAN application lo emi rayali", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "ration card form lo emi adugutaru", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "scholarship form ki a documents kavali", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "pension form lo ememi rayali", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "PM Kisan form gurinchi vivarinchandi", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "gas connection form ki emi kavali", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "voter ID form lo emi nimpali", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "job application form lo emi adugutunnaru", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "school admission form gurinchi cheppu", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "hospital registration form lo emi rayali", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "insurance claim form ki a papers kavali", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "what does this form need", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "ee form artham kaavatledu konchem cheppandi", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "ee form lo IFSC ante enti", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "ee form lo edi compulsory", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "idi a form", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "ee page lo emi adugutunnaru", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "ee form chusi idi enti cheppu", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "ee application ki photo kavala", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "ee form lo nominee ante enti", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "ee form ki naa Aadhaar kavala", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "ee form lo a details ivvali", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "ee form lo okokkati cheppandi", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "ఈ ఫారం లో ఏమి నింపాలి", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "ఈ ఫారం ఎందుకో చెప్పండి", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "ఈ దరఖాస్తుకు ఏ పత్రాలు కావాలి", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "ఈ KYC ఫారం గురించి వివరించండి", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "రేషన్ కార్డ్ ఫారం లో ఏమి అడుగుతారు", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "ఈ ఫారం అర్థం కావట్లేదు వివరించండి", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "పెన్షన్ ఫారం లో ఏమేమి రాయాలి", "lang": "te", "action": "explain_form", "slots": {}}
+{"text": "form nimpadaniki sahayam cheyyandi", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "naa form nimpi ivvandi", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "ee KYC form nimpandi", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "form fill cheyyadaniki help cheyyandi", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "ee form step by step nimpudam", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "bank KYC form nimpi ivvu", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "Aadhaar update form naa details petti nimpandi", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "PAN card application nimpi ivvandi", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "ration card form nimpadaniki help kavali", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "scholarship form naaku nimpi ivvandi", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "pension form nimpudam", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "PM Kisan form fill cheyyandi", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "gas connection form nimpadaniki sahayam cheyyi", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "voter ID form naatho kalisi nimpandi", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "job application form fill chesi ivvandi", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "school admission form nimpadaniki naaku help cheyyandi", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "hospital registration form nimpandi", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "insurance claim form naa tarafuna nimpandi", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "help me fill this form", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "fill this KYC form for me", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "naa details petti ee form nimpu", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "ee form nuvve nimpeyyi", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "form lo prati prashna adigi naa jawabu petti nimpu", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "naa profile nundi ee form nimpu", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "mellaga ee form nimpadaniki sahayam cheyyandi", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "ee form naatho kalisi nimpu", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "naa peru address petti form nimpandi", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "insurance claim ki ee form nimpi ivvandi", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "ఫారం నింపడానికి సహాయం చేయండి", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "నా ఫారం నింపి ఇవ్వండి", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "ఈ KYC ఫారం నింపండి", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "పెన్షన్ దరఖాస్తు నింపి ఇవ్వండి", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "ఈ ఫారం నాతో కలిసి నింపండి", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "ఆధార్ సవరణ ఫారం నింపడానికి సహాయం చేయండి", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "ఓటర్ ఐడి ఫారం నింపండి", "lang": "te", "action": "fill_form", "slots": {}}
+{"text": "ee website nijamainadena", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "ee site safe aa", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "idi bank asli site aa", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "ee link nammocha", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "ee website nakili aa", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "ee KYC site asli aa", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "ee SBI site sarainadena", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "idi government site aa", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "ee site mosam kaadu kada", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "is this site safe", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "is this website real", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "ee site nammakam aina daa", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "ee page fraud site aa", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "ee site lo naa details ivvocha", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "idi nijamaina Aadhaar site aa", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "ee UPI link safe aa", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "ee bank website asli aa nakili aa", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "ee website https undi safe aa", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "ee site evarido telusa", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "ee link WhatsApp lo vachindi idi asli aa", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "ee PAN site sarainadena", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "ఈ వెబ్సైట్ నిజమైనదేనా", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "ఈ సైట్ సురక్షితమేనా", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "ఇది బ్యాంక్ అసలు సైటా", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "ఈ లింక్ నమ్మొచ్చా", "lang": "te", "action": "check_site", "slots": {}}
+{"text": "screen lo emi rasundo chadivi cheppu", "lang": "te", "action": "read_screen", "slots": {}}
+{"text": "screen lo emundi cheppu", "lang": "te", "action": "read_screen", "slots": {}}
+{"text": "ee page lo emi kanipistundi chadavandi", "lang": "te", "action": "read_screen", "slots": {}}
+{"text": "స్క్రీన్ మీద ఏముందో చదివి చెప్పండి", "lang": "te", "action": "read_screen", "slots": {}}
+{"text": "ee window lo emundo cheppandi", "lang": "te", "action": "read_screen", "slots": {}}
+{"text": "ee box lo Ramesh Kumar ani type cheyyi", "lang": "te", "action": "type_text", "slots": {"text": "Ramesh Kumar"}}
+{"text": "name box lo Lakshmi Devi ani rayi", "lang": "te", "action": "type_text", "slots": {"text": "Lakshmi Devi"}}
+{"text": "mobile number 9876543210 ani type cheyyandi", "lang": "te", "action": "type_text", "slots": {"text": "9876543210"}}
+{"text": "address lo 12th cross Kukatpally Hyderabad ani rayandi", "lang": "te", "action": "type_text", "slots": {"text": "12th cross Kukatpally Hyderabad"}}
+{"text": "email box lo ramesh at gmail dot com ani type cheyyi", "lang": "te", "action": "type_text", "slots": {"text": "ramesh at gmail dot com"}}
+{"text": "submit button nokku", "lang": "te", "action": "click", "slots": {"target": "submit"}}
+{"text": "Next meeda click cheyyi", "lang": "te", "action": "click", "slots": {"target": "Next"}}
+{"text": "upload button nokku", "lang": "te", "action": "click", "slots": {"target": "upload"}}
+{"text": "Continue ki click cheyyandi", "lang": "te", "action": "click", "slots": {"target": "Continue"}}
+{"text": "సేవ్ బటన్ నొక్కు", "lang": "te", "action": "click", "slots": {"target": "సేవ్"}}
+{"text": "KYC ela cheyyali", "lang": "te", "action": "web_search", "slots": {"query": "KYC ela cheyyali"}}
+{"text": "PAN card ki ela apply cheyyali", "lang": "te", "action": "web_search", "slots": {"query": "PAN card ki ela apply cheyyali"}}
+{"text": "ration card ki a documents kavali vetuku", "lang": "te", "action": "web_search", "slots": {"query": "ration card ki a documents kavali"}}
+{"text": "PM Kisan status ela chudali google cheyyi", "lang": "te", "action": "web_search", "slots": {"query": "PM Kisan status ela chudali"}}
+{"text": "Aadhaar address change ela cheyyali vetuku", "lang": "te", "action": "web_search", "slots": {"query": "Aadhaar address change ela cheyyali"}}
+{"text": "UIDAI website open cheyyi", "lang": "te", "action": "open_website", "slots": {"site": "UIDAI"}}
+{"text": "incometax dot gov dot in site open cheyyi", "lang": "te", "action": "open_website", "slots": {"site": "incometax dot gov dot in"}}
+{"text": "SBI website open cheyyandi", "lang": "te", "action": "open_website", "slots": {"site": "SBI"}}
+{"text": "యూఐడిఏఐ వెబ్సైట్ తెరవండి", "lang": "te", "action": "open_website", "slots": {"site": "యూఐడిఏఐ"}}
+{"text": "Digilocker site open chey", "lang": "te", "action": "open_website", "slots": {"site": "Digilocker"}}
