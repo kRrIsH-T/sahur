@@ -384,6 +384,8 @@ def describe_step(step: Step) -> tuple[str, str, str]:
         return "Click", _text(f, "target"), ""
     if action == "show_how":  # the goal is the heard sentence right above: say what happens instead
         return "Show how", "on your screen", "step by step"
+    if action == "answer":  # the words are the reply shown right below: don't print them twice
+        return "Answer", "in words", ""
     if action == "cancel":
         return "Cancel", "nothing to do", ""
     if action == "unknown":

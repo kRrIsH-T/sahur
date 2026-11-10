@@ -21,7 +21,7 @@ MAX_REPLY_CHARS = 600  # of each remembered reply: enough to send or type an ans
 class Turn:
     said: str  # the user's words
     did: tuple[dict, ...]  # the actions taken, as plain dicts
-    reply: str  # what Sahur said back
+    reply: str  # the conversational answer, if any
     at: float = field(default_factory=time.monotonic, compare=False)
 
 
@@ -85,6 +85,39 @@ _WORD = re.compile("[\\wऀ-ॣ०-෿‌‍]+")
 
 def _words(text: str) -> list[str]:
     return _WORD.findall(unicodedata.normalize("NFC", text).casefold())
+
+
+# The user asks for a search by name: open it at once, whatever the words around it are. Romanised spellings
+# are matched by shape because Prisma writes what it hears ("dhundo", "dhoondho", "dhondho").
+_SEARCH = re.compile(
+    r"\b(?:search|sarch|serch|google|googal|gugal|find|look\s?up|browse|"
+    r"dh[ou]+n?dh?\w*|kho+j\w*|khu?n?j\w*|tala+sh\w*|"  # Hindi, Bengali, Punjabi
+    r"hudu?k\w*|th?ed[ui]\w*|ve[dt]h?[ua]k\w*|shodh\w*|th?ira(?:y|nj)\w*|labh\w*)\b"
+    "|सर्च|गूगल|ढूंढ|ढूँढ|ढूंढ़|ढूँढ़|खोज|तलाश|शोध|ಹುಡುಕ|ಸರ್ಚ್|ಗೂಗಲ್|தேடு|தேட|கூகுள்|వెతుకు|వెతక|సెర్చ్|గూగుల్|"
+    "തിരയ|തിരഞ്ഞ|സെർച്ച്|ഗൂഗിൾ|খোঁজ|খুঁজ|সার্চ|গুগল|શોધ|સર્ચ|ગૂગલ|ਲੱਭ|ਖੋਜ|ਸਰਚ|ਗੂਗਲ",
+    re.IGNORECASE,
+)
+# What only today's web knows. A question about these is searched without asking System 2 first: it could
+# only say that it does not know.
+_LIVE = re.compile(
+    r"\b(?:weather|forecast|temperature|mausam|mosam|taapmaan|tapman|barish|baarish|news|headlines?|khabar\w*|"
+    r"samachar|score|scores|price|prices|rate|rates|daam|keemat|kimat|bhaav|bhav|stock|stocks|sensex|nifty|"
+    r"traffic|pnr|havamaana|suddi|vaanilai|seithi|vaatavaranam|vartalu|havaman|batmya|kalavastha|vartha|"
+    r"abohawa|khobor)\b"
+    "|मौसम|तापमान|बारिश|खबर|ख़बर|समाचार|कीमत|क़ीमत|दाम|भाव|ಹವಾಮಾನ|ಸುದ್ದಿ|ಬೆಲೆ|வானிலை|செய்தி|விலை|వాతావరణం|వార్తలు|ధర|"
+    "हवामान|बातम्या|किंमत|കാലാവസ്ഥ|വാർത്ത|വില|আবহাওয়া|খবর|দাম|હવામાન|સમાચાર|ભાવ|ਮੌਸਮ|ਖ਼ਬਰ|ਖਬਰ|ਕੀਮਤ",
+    re.IGNORECASE,
+)
+
+
+def asks_for_search(command: str) -> bool:
+    """Does the user name the search itself ("Google pe dhundho", "search karo")?"""
+    return bool(_SEARCH.search(unicodedata.normalize("NFC", command)))
+
+
+def needs_live_facts(command: str) -> bool:
+    """Is it about something that changes by the hour (weather, news, prices, scores)?"""
+    return bool(_LIVE.search(unicodedata.normalize("NFC", command)))
 
 
 def refers_back(command: str) -> bool:

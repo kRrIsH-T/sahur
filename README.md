@@ -11,7 +11,7 @@ words to open an app, learn a task step by step, or fill in a form one field at 
 
 > "Raju ko WhatsApp karo ki 5 minute lagenge" -> Sahur reads the message back. Say "haan" to open the draft in WhatsApp, then check the name and message and press **Send**.
 > "Spotify pe Radiohead chalao" -> Spotify starts Radiohead. "Gaana rok do" pauses it.
-> "Lata Mangeshkar ke baare mein batao" -> a search about her, not a song.
+> "Lata Mangeshkar ke baare mein batao" -> Sahur tells you about her, aloud. "Unke gaane YouTube pe chalao" then plays her songs.
 > "Maine ek file download ki hai, use kholo" -> Sahur opens the newest file in Downloads.
 
 Built for people who can't type easily: motor or vision impairments, elderly users, low literacy.
@@ -65,7 +65,8 @@ tap/hold hotkey -> streaming Prisma v3.0 (Gnani), with REST fallback
             -> System 1 (our own from-scratch models, on the laptop, ~1 ms):
                  action model: which of 11 actions, calibrated, abstains when unsure
                  slot tagger:  which words are the app, site, song, contact, message, button
-            -> System 2 (Codex CLI, gpt-6-luna at low effort; or Gemini), only for what System 1 is unsure of
+            -> System 2 (Claude or Codex CLI, or Gemini), for what System 1 is unsure of, and for
+               questions and follow-ups, with the last few turns of the conversation
             -> typed Action (validated, the only thing the executor accepts)
             -> your preferences: the music/video service you usually use, names you taught it
             -> spoken read-back + "haan" before opening a WhatsApp draft
@@ -79,7 +80,8 @@ Models never touch the computer directly. Unclear commands do nothing and ask ag
 |---|---|
 | `open_app` | "VS Code khol do", "ಕ್ಯಾಲ್ಕುಲೇಟರ್ ತೆರೆ", "Zoom wala app open karo" (any of the PC's apps) |
 | `open_website` | "Flipkart ki website kholo", "open github dot com", "IRCTC site kholo" |
-| `web_search` | "Bangalore ka weather batao", "Radiohead kaun hai", "Amazon pe running shoes dhundho" |
+| `web_search` | "Bangalore ka weather batao", "Radiohead ke baare mein search karo", "Amazon pe running shoes dhundho" |
+| `answer` | "Radiohead kaun hai", "photosynthesis kya hota hai", "aaj kaun sa din hai", "tum kya kar sakti ho" (spoken reply, below) |
 | `find_file` | "Budget report file dhoondo", "Open budget report PDF" |
 | `open_recent_download` | "Maine ek file download ki hai, use kholo", "Open my latest download" |
 | `play_media` | "Spotify pe Radiohead chalao", "YouTube pe Arijit ke gaane", "kuch lo-fi bajao" |
@@ -90,6 +92,39 @@ Models never touch the computer directly. Unclear commands do nothing and ask ag
 | `click` | "submit button dabao" |
 | `show_how` | "Settings mein Bluetooth kaise kholte hain, dikhao", "folder banana sikhao" (guide mode, below) |
 | `cancel` | "rehne do" |
+
+### Questions and follow-ups
+
+Ask Sahur something and it answers aloud in your language instead of opening a search page:
+"Narendra Modi kaun hai?", "What is the capital of Karnataka?", "ek joke sunao", "tum kaun ho". Then carry on
+from the answer, the way you would with a person:
+
+| You say next | Sahur |
+|---|---|
+| "unki umar kitni hai?" / "and Tamil Nadu?" | answers about the same person, or the same question about the new place |
+| "unke baare mein Google pe search karo" | opens a search for Narendra Modi |
+| "yeh Raju ko bhej do" | reads the answer back and, after "haan", opens it as a WhatsApp draft to Raju |
+| "ise likh do" / "type that" | types the answer where your cursor is |
+| "isko YouTube pe chalao" (after "Spotify pe Pink Floyd chalao") | plays Pink Floyd on YouTube |
+| "Phir se dikhao" (after a lesson) | shows the same lesson again |
+
+- **What is answered and what is searched.** A question System 2 can answer from general knowledge is
+  answered. "Search karo", "dhundho", "Google pe ..." or a named site always opens the search, and so do live
+  facts (weather, news, prices, scores), which a model cannot know. Today's date and time are answered.
+- **What stays instant.** Commands System 1 is sure of ("Calculator kholo", "gaana rok do", "ise rok do") run
+  locally as before. System 2 is asked, once per command, when the words point back at the conversation
+  ("isko", "unke", "that"), ask a question, are small talk System 1 would drop, ask to "play" nothing in
+  particular, or name an app this PC does not have ("Cidian kholu" opens Obsidian). An answer takes 4-6 s
+  with the Claude CLI; if System 2 is unreachable a question falls back to a web search.
+- **What Sahur can't do** gets a sentence instead of "didn't catch that": "brightness kam karo" is answered
+  with what it can do instead, and "Camera kholo aur meri photo lo" opens Camera and says the button is yours.
+- **Reply language.** Native script decides it. For romanised speech System 2 reads the words itself, so
+  "Karnataka da rajadhani yaavudu?" is answered in Kannada even when the small local detector is unsure.
+- **Memory and privacy.** The last four turns are kept in memory for three minutes and sent to System 2 only
+  with a command that needs it. Conversation memory stays in RAM. When command history is enabled, Sahur
+  records commands and decisions locally. Messages, dictated text, form answers, file names and what was
+  read from the screen never enter conversation memory. Follow-ups and answers never become habits.
+  The names of the apps on this PC go to System 2 only with a request to open one.
 
 ### Finding files by voice
 
@@ -137,8 +172,8 @@ page and explains what to do next. This also works for Wi‑Fi, Bluetooth and Ni
   "teach me"), a how-word with a show verb ("kaise ... dikhao"), a how-word with a computer word ("Bluetooth
   kaise on karein"), or applying for a document ("PAN card ke liye apply karna hai"). Show and teach verbs are
   also matched by shape, because Prisma writes what it hears (dikaho, bikhau, dekhako, shikha were all real
-  transcripts). "Biryani kaise banate hain" stays a web search, "photos dikhao" and "Bluetooth on karo" stay
-  normal commands. On the frozen eval sets, 3 of 600 commands (all web searches) now start a lesson instead.
+  transcripts). "Biryani kaise banate hain" stays a question (answered aloud, or searched without System 2),
+  "photos dikhao" and "Bluetooth on karo" stay normal commands. On the frozen eval sets, 3 of 600 commands (all web searches) now start a lesson instead.
   `show_how` is not a System 1 class and never becomes training data or a habit.
 - Sahur starts talking at once ("theek hai, main screen par dikhati hoon") while the first plan is made.
 - The general guide starts from an official site's home page (`https://` on `*.gov.in`, `*.nic.in`, or
@@ -165,8 +200,10 @@ copy .env.example .env                    # then fill in GNANI_API_KEY
 copy contacts.example.json contacts.json  # your contacts, with names in every script you say them
 ```
 
-System 2 is the Codex CLI when it is installed and signed in (`codex login`); set `LLM_PROVIDER=openai`
-and `GEMINI_API_KEY` to use Gemini instead.
+System 2 is the Codex CLI when it is installed and signed in (`codex login`). Set `LLM_PROVIDER=claude` to
+use the Claude Code CLI instead (`claude auth login`; the fastest for spoken answers, about 4-6 s), or
+`LLM_PROVIDER=openai` and `GEMINI_API_KEY` to use Gemini. With a CLI provider, a Gemini key in `.env` is the
+automatic backup when the CLI fails or runs out of usage.
 
 If voice setup is incomplete, Sahur opens its settings page so you can check what still needs to be set up
 and test your microphone and chime.
@@ -340,8 +377,12 @@ uv run python eval/make_speech_set.py eval/commands_v5.jsonl eval/commands_v5_sp
 Codex answers used in scoring are saved in `eval/results/system2_answers.json` (keyed by model, effort and
 prompt version), so the numbers can be re-checked without new calls.
 
-**Without System 2** (`DECIDER=fast`, or Codex unavailable) the app still does what System 1 is sure of, and
-searches or plays with System 1's own query when unsure of it. Messages, typing and clicks are never guessed.
+**Without System 2** (`DECIDER=fast`, or no provider reachable) the app still does what System 1 is sure of, and
+searches or plays with System 1's own query when unsure of it. A question opens a web search instead of being
+answered aloud, and a follow-up is taken as a command on its own. Messages, typing and clicks are never guessed.
+
+**Claude as System 2** runs `claude -p` with no tools, no user settings, hooks or MCP servers, and nothing
+saved to session history.
 
 **Codex as System 2** runs `codex exec` with the user's config ignored, a read-only sandbox, an empty working
 folder and its tools switched off (shell, browser, computer use, plugins), so text on the screen being read

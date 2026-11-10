@@ -307,3 +307,45 @@ cp1252 console. Results in Chrome: 20/20 in hi, ta, kn, te, mr, bn and en; Hindi
 (was 13).
 
 
+
+## Questions, follow-ups and conversation memory, 11 November 2026
+
+Until now every question became a browser search, and nothing remembered the command before. The history
+showed what that cost: "Narendra Modi kaun hai?" opened Google, "Are you code expert?" tried to open an app
+called "Are you code", "mere liye sau shabd bolo" and "WSL install karein" were "not understood", and "Phir se
+dikhao" after a lesson resumed the music.
+
+- `bolos/actions.py` has an `answer` action (the words to say). Only System 2 chooses it, so it is not in
+  `ACTION_DESCRIPTIONS`, is never training data and is never a habit.
+- `bolos/conversation.py` keeps the last four turns for three minutes, in memory only, and recognises a
+  command that points back at them (pronouns in the ten languages), a request to search, and live facts.
+  Messages, dictated text, forms, files and screen read-outs are never added.
+- `LLM.converse` (`bolos/llm.py`) is one System 2 call that sees the conversation, the date and time, and the
+  reply language. It returns 1-3 steps (an answer alone or last) and the language it heard. `resolve`,
+  `resolve_steps`, `fill` and `correct` are unchanged, so the saved System 2 answers behind the README's
+  scores still match their prompts.
+- `bolos/pipeline.py` asks it, once per command, when the words point back at the conversation, for a
+  question System 1 would search, for chatter System 1 drops as unknown, for "play" with nothing clear to
+  play, for an app this PC does not have (the installed names go along, so "Cidian" becomes Obsidian), and
+  wherever `resolve_steps` was asked before. When it has nothing usable, what System 1 is sure of still
+  runs. Where System 1 was sure of something else, and for a bare "haan" to an offer, only answers, opening,
+  searching and playing are accepted: never typing, a click or a message. A follow-up is never a habit.
+- Reply language: the script decides; otherwise System 2 reads the words and the local detector's guess is
+  only its fallback.
+
+Verified: 2,314 tests pass (85 new in `tests/test_conversation.py`), ruff is clean. Live, through the real
+Assistant, System 1 models, app catalogue and the Claude CLI (haiku, low effort), with a runner that records
+instead of acting: about 45 turns in Hindi, English, Kannada, Tamil, Telugu and Marathi, covering answers,
+continued questions, "search that", "send that to Raju" (read back first), "type that", "play it on YouTube",
+"haan" to an offer, small talk, requests Sahur cannot do, and plain commands, which stayed local and instant.
+Answers took 3.6-7 s. The real entry point (`python -m bolos --text --no-speech`) answered a question and its
+follow-up and logged them without learning a habit. Timbre synthesised a 751-character answer (59 s of audio)
+over REST and SSE, first audio after 0.44 s.
+
+Not verified: answers spoken through the speaker and heard through the microphone in one session, and the
+downstream actions on the real desktop (the live runs recorded them instead of opening anything).
+
+Known weak spot: before System 2 has read the words, "one moment" is said in the language the small local
+detector guesses, which for some Hinglish sentences is Gujarati or Punjabi ("brightness kam karo", "haan
+search kar do"). The answer that follows is in the right language. The fix is a better language head, not a
+rule here.

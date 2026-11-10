@@ -125,6 +125,17 @@ class Executor:
             return Outcome(True, "file_open_manually" if should_open else "file_found")
         return Outcome(False, "file_unavailable")
 
+    def app_names(self) -> list[str]:
+        """The apps on this PC, shortest names first (the well-known ones: Chrome, Notepad, Spotify)."""
+        return sorted(self.catalog.names(), key=len)
+
+    def knows_app(self, spoken: str) -> bool:
+        """Would open_app find something for this name? Asked before acting on a doubtful "open X"."""
+        from bolos.executor import sites
+
+        learned = self.preferences.app_names if self.preferences else None
+        return self.catalog.find(spoken, learned) is not None or sites.known(spoken)
+
     def open_app(self, spoken: str) -> Outcome:
         """An installed app; else a website of that name ("Netflix kholo" without the app)."""
         from bolos.executor import apps, play, sites

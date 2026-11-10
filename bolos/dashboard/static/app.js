@@ -17,6 +17,7 @@ const ACTIONS = { open_app: "Open an app", web_search: "Search the web", open_we
   find_file: "Find or open a file", open_recent_download: "Open a recent download",
   read_screen: "Read the screen", fill_form: "Fill a form", play_media: "Play music or video",
   send_message: "Send a message", show_how: "Show how", multi: "Several steps", type_text: "Type text",
+  answer: "Answer a question", media_control: "Control music or video", click: "Click a button",
   "not understood": "Not understood" };
 const ICONS = { ok: "✓", warn: "!", fail: "×" };
 const BARS = 44;

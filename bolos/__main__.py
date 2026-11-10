@@ -108,7 +108,7 @@ class SpokenVoice:
         self.listener.close()
 
     def speak(self, text, language):
-        print(f"bolos: {text}")
+        print(f"sahur: {text}")
         return self.silent or self.listener.speak(text, language)
 
     def listen(self):
@@ -151,7 +151,7 @@ class TypedVoice:
             self.tts = CachedTimbre(settings)
 
     def speak(self, text, language):
-        print(f"bolos: {text}")
+        print(f"sahur: {text}")
         if self.tts:
             from bolos.audio import play_wav
 

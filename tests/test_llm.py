@@ -256,5 +256,6 @@ def test_claude_llm_raises_when_not_logged_in(monkeypatch):
 def test_claude_llm_text_answer(monkeypatch):
     import json
 
-    llm = _claude(monkeypatch, json.dumps({"type": "result", "is_error": False, "result": "screen par Hello likha hai"}))
+    result = {"type": "result", "is_error": False, "result": "screen par Hello likha hai"}
+    llm = _claude(monkeypatch, json.dumps(result))
     assert llm._text("sys", "user") == "screen par Hello likha hai"

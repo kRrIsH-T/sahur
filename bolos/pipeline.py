@@ -6,14 +6,21 @@ Understanding goes from cheapest to most expensive and stops at the first sure a
 3. System 2 (the LLM), only for what System 1 is unsure of: the fields alone, or the whole command
 Without System 2, System 1's own fields are still used to open, search and play; messages, typing and
 clicks are never guessed.
+
+System 2 also holds the conversation (bolos.conversation, LLM.converse): it answers a question aloud instead
+of opening a search, and gives a follow-up its missing words ("unke baare mein search karo"). It is asked
+with the last few turns when a command points back at them, asks something, is chatter System 1 would
+drop, or names an app this PC does not have.
 """
 
 import logging
+import re
 import time
 from dataclasses import dataclass
 from typing import Callable, Protocol
 
 from bolos import actions as a
+from bolos.conversation import Conversation, Turn, asks_for_search, needs_live_facts, refers_back
 from bolos.decide import FastParser, Parse
 from bolos.executor import Outcome
 from bolos.responses import is_yes, join_replies, refuses_command, say, script_language, split_correction
@@ -21,7 +28,16 @@ from bolos.responses import is_yes, join_replies, refuses_command, say, script_l
 log = logging.getLogger(__name__)
 QUERY_ACTIONS = {"web_search", "play_media"}
 NEVER_GUESSED = {"send_message", "type_text", "click"}
+# Turns the conversation never keeps: the user's own words to someone, what is on their screen or in their
+# files and forms, and a cancel, which says nothing about what comes next.
+NOT_REMEMBERED = ({"send_message", "type_text", "read_screen", "drive_screen", "cancel"}
+                  | a.FORM_ACTIONS | a.FILE_ACTIONS)
+# What System 2 may choose when System 1 was sure of something else, or when the user only said "haan" to an
+# offer: things that are said, opened, searched or played. Typing, clicking and messages need the user's own
+# clear words.
+HARMLESS = {"answer", "web_search", "open_app", "open_website", "play_media", "media_control", "cancel"}
 MAX_COMMAND_CHARS = 4096  # keep pasted documents out of the speech-oriented slot tagger
+SHORT_COMMAND_WORDS = 3  # too few for the local language detector to be trusted over the conversation
 
 
 class Parser(Protocol):
@@ -44,6 +60,9 @@ Status = Callable[[str, str], None]  # (field, value), e.g. ("action", "send_mes
 class Understood:
     action: a.Action
     source: str  # "habit", "system1", "system2" (it chose the action) or "system2_fields" (it only filled them)
+    # False when the conversation helped System 2: "isko YouTube pe chalao" means something else next time,
+    # so it must not become a habit.
+    learnable: bool = True
 
 
 class Assistant:
@@ -67,6 +86,9 @@ class Assistant:
         if self.language_detector is None and isinstance(parser, FastParser):
             self.language_detector = parser.detect_language
         self.language: str | None = None
+        self._language_sure = False  # did the script (or the caller) settle this command's language?
+        self._wait_language: str | None = None  # the language of "one moment", when not the command's own
+        self.conversation = Conversation()  # in memory only: what a follow-up can refer to
         self._last: tuple[str, list[a.Action], str | None, str | None] | None = None
         self._announced = False
 
@@ -78,9 +100,10 @@ class Assistant:
         parse = self.parser.parse(command) if self.parser else None
         return self._understand_parse(command, parse)
 
-    def _understand_parse(self, command: str, parse: Parse | None) -> Understood | None:
+    def _understand_parse(self, command: str, parse: Parse | None, remote: bool = True) -> Understood | None:
+        """`remote` False: System 2 was already asked about this command and had nothing usable."""
         if parse is None or not parse.sure or (parse.action == "media_control" and not parse.control):
-            return self._resolve(command)
+            return self._resolve(command) if remote else None
         if parse.action == "unknown":
             return None
         if parse.action == "media_control":
@@ -88,7 +111,7 @@ class Assistant:
         if not parse.unsure:
             action = _build(parse.action, parse.slots)
             return Understood(action, "system1") if action else None
-        return self._fill(command, parse)
+        return self._fill(command, parse, remote)
 
     def _resolve(self, command: str) -> Understood | None:
         """System 2 picks the action and its fields."""
@@ -106,9 +129,9 @@ class Assistant:
             return None
         return None if action.action == "unknown" else Understood(action, "system2")
 
-    def _fill(self, command: str, parse: Parse) -> Understood | None:
+    def _fill(self, command: str, parse: Parse, remote: bool = True) -> Understood | None:
         """System 1 is sure of the action, not of all its fields."""
-        if self.llm is not None:
+        if self.llm is not None and remote:
             from bolos.llm import SlotError
 
             try:
@@ -130,7 +153,8 @@ class Assistant:
     def _thinking(self, call):
         """Acknowledge the wait before a remote decision; the overlay owns its running timer."""
         if not self._announced:
-            self.voice.speak(say("one_moment", self.language), self.language)
+            language = self._wait_language or self.language
+            self.voice.speak(say("one_moment", language), language)
             self._announced = True
         self.status("state", "thinking")
         started = time.monotonic()
@@ -150,8 +174,14 @@ class Assistant:
 
         if refuses_command(command):
             return [Understood(a.Cancel(), "system1")]
+        turns = self.conversation.recent()
         if is_yes(command) or command.strip().rstrip(".!?").casefold() == "go ahead":
-            return []  # An answer on its own cannot authorize a new action.
+            # A yes on its own cannot authorize a new action, with one exception: Sahur's last answer made
+            # an offer ("aap kahein to settings khol doon"), and what it offered is harmless.
+            if (turns and any(step.get("action") == "answer" for step in turns[-1].did)
+                    and self.llm is not None and hasattr(self.llm, "converse")):
+                return self._converse(command, turns, only=HARMLESS)
+            return []
         if command.lstrip().casefold().startswith(("close ", "please close ")):
             return []  # There is no direct close command. Never turn it into opening the app.
         if file_action := parse_file_request(command):
@@ -173,19 +203,39 @@ class Assistant:
             return [Understood(a.ShowHow(goal=command.strip()), "system1")]
         if self.preferences and (habit := self.preferences.recall(command)):
             return [Understood(habit, "habit")]
+        if turns and (again := _same_lesson_again(command, turns[-1])):
+            return [Understood(again, "system1")]
         parse = self.parser.parse(command) if self.parser else None
         if parse and parse.language and self.language_detector is None and not known_language:
             self.language = parse.language
             self.status("language", self.language)
+        # System 2 is asked about a command at most once. When it has nothing usable, what System 1 is sure
+        # of still runs, and the rest is asked again rather than guessed. (Form, guide and file requests
+        # were settled above without touching it.)
+        chat = self.llm is not None and hasattr(self.llm, "converse")
+        asked = False
+        # A follow-up: only the conversation says what "isko" or "unke baare mein" is. "Ise rok do" needs no
+        # help: the music playing is the only thing it can mean.
+        if chat and turns and refers_back(command) and not _is_control(parse):
+            asked = True
+            only = HARMLESS if parse and parse.sure and parse.action == "web_search" else None
+            if steps := self._converse(command, turns, parse, only=only):
+                return steps
         if self.parser and (parts := split(command, self.parser, parse)):
             actions = [action_of(self.parser.parse(part)) for part in parts]
             if any(action is None for action in actions):
                 return []
             return [Understood(action, "system1") for action in chain(actions)]
+        if chat and not asked and self._worth_a_conversation(command, parse):
+            asked = True
+            if steps := self._converse(command, turns, parse, only=HARMLESS):
+                return steps
         unresolved = bool(self.parser and needs_step_resolution(command, self.parser, parse))
         if (parse and parse.action == MULTI) or unresolved:
-            if not self.llm or not hasattr(self.llm, "resolve_steps"):
+            if asked or not self.llm or not hasattr(self.llm, "resolve_steps"):
                 return []
+            if chat:
+                return self._converse(command, turns, parse)
             try:
                 actions = self._thinking(lambda: self.llm.resolve_steps(command))
                 if not actions or len(actions) > 3 or any(s.action in {"unknown", "cancel"} for s in actions):
@@ -197,6 +247,10 @@ class Assistant:
         # System 2 can find boundaries the local splitter could not understand. Keep its one-command
         # fallback for backends that implement only resolve().
         if (parse is None or not parse.sure) and self.llm and hasattr(self.llm, "resolve_steps"):
+            if asked:
+                return []
+            if chat:
+                return self._converse(command, turns, parse)
             try:
                 actions = self._thinking(lambda: self.llm.resolve_steps(command))
                 if not actions or len(actions) > 3 or any(s.action == "unknown" for s in actions):
@@ -207,8 +261,60 @@ class Assistant:
             except Exception:
                 log.warning("Could not resolve the command")
                 return []
-        understood = self._understand_parse(command, parse)
+        understood = self._understand_parse(command, parse, remote=not asked)
         return [understood] if understood else []
+
+    def _worth_a_conversation(self, command: str, parse: Parse | None) -> bool:
+        """Is this a command System 1 is sure of, but that a spoken answer would serve better?
+        - a question: System 1 only knows how to search for it. A request to search, or for live facts
+          (weather, news, prices), still opens the search at once.
+        - chatter System 1 drops as "unknown" ("tum kaun ho", "thank you", "brightness kam karo").
+        - "open X" where this PC has no X: often a misheard question ("Are you code expert?").
+        - "play" without a clear thing to play: "ek joke sunao" asks Sahur to tell one."""
+        if parse is None or not parse.sure:
+            return False  # an unsure command is asked about anyway
+        if parse.action == "web_search":
+            return not (parse.slots.get("site") or asks_for_search(command) or needs_live_facts(command))
+        if parse.action == "unknown":
+            return bool(_SPOKEN_WORD.search(command))
+        if parse.action == "play_media":
+            return "query" in parse.unsure
+        if parse.action == "open_app" and not parse.unsure:
+            knows_app = getattr(self.runner, "knows_app", None)
+            return callable(knows_app) and not knows_app(parse.slots.get("app", ""))
+        return False
+
+    def _converse(self, command: str, turns: list[Turn], parse: Parse | None = None, *,
+                  only: set[str] | None = None) -> list[Understood]:
+        """System 2's steps for the command, with the conversation in front of it. Nothing when it is down,
+        does not know either, or chose an action outside `only`: the caller falls back to what System 1 is
+        sure of."""
+        from bolos.compound import chain
+
+        # The names of this PC's apps go along only with a request to open one, where a misheard name
+        # ("Cidian kholu") can then be matched to the real app.
+        app_names = getattr(self.runner, "app_names", None)
+        apps = app_names() if parse and parse.action == "open_app" and callable(app_names) else ()
+        try:
+            heard = self._thinking(lambda: self.llm.converse(
+                command, self.language, turns, language_sure=self._language_sure, apps=apps))
+        except Exception as e:  # quota, network, timeout, an unusable answer: don't act on a guess
+            log.warning("System 2 could not follow the conversation (%s)", type(e).__name__)
+            return []
+        if heard.language and not self._language_sure:
+            # System 2 read the words where the local detector could not: reply in the language it heard.
+            self.language = heard.language
+            self.status("language", self.language)
+        actions = heard.steps
+        if not actions or len(actions) > 3 or any(step.action == "unknown" for step in actions):
+            return []
+        if len(actions) > 1 and any(step.action == "cancel" for step in actions):
+            return []
+        if only is not None and any(step.action not in only for step in actions):
+            log.info("System 2 chose %s where only harmless actions are taken", [s.action for s in actions])
+            return []
+        # With the conversation's help the same words mean something else next time: never a habit.
+        return [Understood(step, "system2", learnable=not turns) for step in chain(actions)]
 
     def _apply_dialogue_language(self, command: str, known_language: str | None) -> None:
         """Use the dialogue's language-specific wording when the transcript gives no explicit language."""
@@ -258,7 +364,7 @@ class Assistant:
             self.preferences.note_media_app(command, action.query, action.app)
         # Only when System 2 chose the action too: a habit made from System 1's action would keep a wrong
         # one forever, past any later fix to the model.
-        if understood.source == "system2":
+        if understood.source == "system2" and understood.learnable:
             self.preferences.learn_habit(command, action)
 
     def handle(self, command: str, language: str | None, trigger: str | None = None) -> Outcome:
@@ -274,8 +380,18 @@ class Assistant:
         # Habits and corrections can reply without running the action parser.
         known_language = script_language(command) or language
         detected = self.language_detector(command) if not known_language and self.language_detector else None
+        # Only the script, or a language given with the command, is certain. The local detector's guess is
+        # right for most commands but not for short ones ("and Tamil Nadu?" is not Tamil), so when System 2
+        # is asked anyway it reads the words itself and the guess is only its fallback.
+        self._language_sure = bool(known_language)
+        # "One moment" is said before System 2 has read the words. For a few words in the middle of a
+        # conversation the detector's guess is the least reliable ("and Tamil Nadu?" is not Tamil), so that
+        # line stays in the conversation's language; the reply itself follows the command's.
+        short = len(command.split()) <= SHORT_COMMAND_WORDS
+        previous = self.language if not known_language and short and self.conversation.recent() else None
         self.language = (known_language or detected or self.language
                          or getattr(self.voice, "user_language", None) or "hi-IN")
+        self._wait_language = previous
         self.status("language", self.language)
         return known_language
 
@@ -296,6 +412,7 @@ class Assistant:
         executed: list[a.Action] = []
         outcome = Outcome(False, "error")
         correction_of = None
+        answer = ""  # only the answer is eligible for a later "type that" or "send that"
         try:
             if hasattr(self.runner, "begin"):
                 self.runner.begin()
@@ -370,7 +487,8 @@ class Assistant:
                     if outcome.ok:
                         # A whole compound must never become a habit for just its first/last step.
                         if not correction_of:
-                            self.learn(command, Understood(action, understood.source if len(plan) == 1 else "system1"))
+                            self.learn(command, Understood(action, understood.source if len(plan) == 1
+                                                           else "system1", understood.learnable))
                     if isinstance(action, a.ReadScreen) and outcome.key in {
                         "screen", "screen_unavailable", "guide_form", "focus_changed",
                     }:
@@ -379,6 +497,9 @@ class Assistant:
                         (action.action in a.FORM_ACTIONS and self.forms) or action.action in a.GUIDE_ACTIONS
                     ):
                         pass  # form sessions and guides already speak their own prompts and final result
+                    elif isinstance(action, a.Answer) and outcome.ok:
+                        answer = action.text
+                        replies.append(action.text)  # Sahur's own sentences, said as they are
                     else:
                         replies.append(say(outcome.key, self.language, **outcome.detail))
                 if not outcome.ok or outcome.key == "message_draft":
@@ -426,8 +547,12 @@ class Assistant:
                 self._last = (command, executed, self.language, entry_id)
             elif executed or split_correction(command) is None:
                 self._last = None
+            if executed and not form_intent and all(s.action.action not in NOT_REMEMBERED for s in plan):
+                self.conversation.add(command, executed, answer)
 
     def _execute(self, action: a.Action, language: str | None, *, form_request: str | None = None) -> Outcome:
+        if isinstance(action, a.Answer):
+            return Outcome(True, "answered")  # nothing to do on the computer: the words are the answer
         if isinstance(action, a.ShowHow):
             return self._show_how(action, language)
         if isinstance(action, a.DriveScreen) and self.guide:
@@ -509,6 +634,24 @@ class Assistant:
         self.voice.speak(text, language)
         self.status("state", "done" if outcome.ok else outcome.key)
         return outcome
+
+
+_SPOKEN_WORD = re.compile(r"[^\W\d_]{2,}")  # at least one real word: not silence, a cough or a lone digit
+
+
+def _is_control(parse: Parse | None) -> bool:
+    """A media control System 1 is sure of ("ise rok do"): it acts on what is playing, whatever came before."""
+    return bool(parse and parse.sure and parse.action == "media_control" and parse.control)
+
+
+def _same_lesson_again(command: str, last: Turn) -> a.ShowHow | None:
+    """"Phir se dikhao" right after a lesson: the same lesson once more. Without this the words alone mean
+    "play it again" to System 1."""
+    from bolos.guide.intent import control
+
+    if len(last.did) == 1 and last.did[0].get("action") == "show_how" and control(command) == "repeat":
+        return a.ShowHow(goal=last.did[0]["goal"])
+    return None
 
 
 READBACK_MAX_CHARS = 400  # a whole window's text read aloud is minutes long and too much for one spoken reply

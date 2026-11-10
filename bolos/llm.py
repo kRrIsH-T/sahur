@@ -12,6 +12,7 @@ import subprocess
 import tempfile
 import threading
 import time
+from dataclasses import dataclass
 from pathlib import Path
 
 from pydantic import ValidationError
@@ -167,13 +168,27 @@ CONVERSE_ACTIONS = {
     **{name: a.ACTION_DESCRIPTIONS[name] for name in _LAST_CHOICES},
 }
 MAX_ANSWER_CHARS = 900  # about a minute of speech: longer is cut at a sentence end
+MAX_APP_NAMES = 150  # of this PC's apps shown to System 2 when the request is to open one
+
+
+@dataclass(frozen=True)
+class Heard:
+    """What LLM.converse made of a request."""
+
+    steps: list[a.Action]
+    # The language the person spoke (a bolos.responses.LANGUAGE_NAMES key), when System 2 was asked to tell
+    # because the local detector could not: romanised Kannada and Hindi look alike to a small model.
+    language: str | None = None
 
 
 def _converse_example(turns: list[tuple[str, list[dict], str]], request: str, language: str,
                       steps: list[dict]) -> str:
+    from bolos.responses import LANGUAGE_NAMES
+
+    code = next(code for code, name in LANGUAGE_NAMES.items() if name == language)
     return (f"{_conversation([Turn(said, tuple(did), reply) for said, did, reply in turns])}\n"
             f"Reply language: {language}\nRequest: {request}\n"
-            f"JSON: {json.dumps({'steps': steps}, ensure_ascii=False)}")
+            f"JSON: {json.dumps({'steps': steps, 'language': code}, ensure_ascii=False)}")
 
 
 _MODI = ("Narendra Modi kaun hai?", [{"action": "answer"}],
@@ -181,6 +196,8 @@ _MODI = ("Narendra Modi kaun hai?", [{"action": "answer"}],
 _FLOYD = ("Spotify pe Pink Floyd chalao", [{"action": "play_media", "query": "Pink Floyd", "app": "Spotify"}],
           "Spotify पर Pink Floyd चला रही हूँ।")
 _CAPITAL = ("what is the capital of Karnataka", [{"action": "answer"}], "The capital of Karnataka is Bengaluru.")
+_BRIGHTNESS = ("brightness kam karo", [{"action": "answer"}],
+               "ब्राइटनेस मैं अभी खुद नहीं बदल सकती। आप कहें तो सेटिंग्स खोल दूँ।")
 # Each shows one rule: answer from knowledge, search for live facts, resolve a pronoun from the conversation,
 # act on the previous answer, continue a question, say what can't be done, stay silent on noise.
 CONVERSE_EXAMPLES = [
@@ -202,8 +219,8 @@ CONVERSE_EXAMPLES = [
     ([], "neenu yaaru?", "Kannada",
      [{"action": "answer", "reply": "ನಾನು ಸಾಹುರ್, ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್‌ನ ಧ್ವನಿ ಸಹಾಯಕಿ. ಆ್ಯಪ್ ತೆರೆಯುವುದು, ಹುಡುಕುವುದು, ಹಾಡು "
                                     "ಹಾಕುವುದು ಮತ್ತು ನಿಮ್ಮ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸುವುದು ನನ್ನ ಕೆಲಸ."}]),
-    ([], "brightness kam karo", "Hindi",
-     [{"action": "answer", "reply": "ब्राइटनेस मैं अभी खुद नहीं बदल सकती। आप कहें तो डिस्प्ले की सेटिंग्स खोल दूँ।"}]),
+    ([], "brightness kam karo", "Hindi", [{"action": "answer", "reply": _BRIGHTNESS[2]}]),
+    ([_BRIGHTNESS], "haan", "Hindi", [{"action": "open_app", "app": "Settings"}]),
     ([], "Camera kholo aur meri photo lo", "Hindi",
      [{"action": "open_app", "app": "Camera"},
       {"action": "answer", "reply": "फ़ोटो लेने के लिए कैमरे का बटन आपको खुद दबाना होगा।"}]),
@@ -216,15 +233,19 @@ CONVERSE_EXAMPLES = [
 
 
 def _conversation(turns) -> str:
-    """The turns so far as the prompt shows them. An answer's words appear once, as what Sahur said."""
+    """The turns so far as the prompt shows them. An answer's words appear once, as what Sahur said. What
+    Sahur says after an action ("Searched for ...") is left out: it only repeats the action, and "send that"
+    must never send it."""
     if not turns:
         return "Conversation so far: (nothing yet)"
     lines = ["Conversation so far:"]
     for turn in turns:
         did = [{k: v for k, v in step.items() if not (step.get("action") == "answer" and k == "text")}
                for step in turn.did]
+        answered = any(step.get("action") == "answer" for step in turn.did)
         lines.append(f"Person: {turn.said}")
-        lines.append(f"Sahur did {json.dumps(did, ensure_ascii=False)} and said: {turn.reply}")
+        lines.append(f"Sahur did {json.dumps(did, ensure_ascii=False)}"
+                     + (f" and said: {turn.reply}" if answered and turn.reply else ""))
     return "\n".join(lines)
 
 
@@ -292,16 +313,22 @@ class LLM:
             raise SlotError(f"LLM returned an unusable step among {[act.action for act in actions]}")
         return actions
 
-    def converse(self, command: str, language: str | None = None, turns=(), now=None) -> list[a.Action]:
+    def converse(self, command: str, language: str | None = None, turns=(), now=None, *,
+                 language_sure: bool = True, apps=()) -> Heard:
         """What the person wants now, as 1-3 actions, knowing what was just said (`turns`, oldest first:
         bolos.conversation.Turn). Unlike resolve_steps it can answer aloud (a.Answer, written in `language`),
         and a follow-up gets its missing words from the conversation: "unke baare mein search karo" after a
-        question about a person searches for that person. A lone Unknown means it should be asked again."""
+        question about a person searches for that person. A lone Unknown means it should be asked again.
+
+        `language_sure` False: `language` is only the fallback, so System 2 replies in the language it hears
+        and reports which one that was. `apps`: names of the apps on this PC, given when the request is to
+        open one, so a misheard name ("Cidian") can be matched to the real one ("Obsidian")."""
         from datetime import datetime
 
         from bolos.responses import LANGUAGE_NAMES, lang_key
 
         name = LANGUAGE_NAMES[lang_key(language)]
+        codes = ", ".join(f"{code} ({spoken})" for code, spoken in LANGUAGE_NAMES.items())
         options = "\n".join(f"- {k}: {v}" for k, v in CONVERSE_ACTIONS.items())
         rules = "\n".join(f"- {f}: {FIELD_RULES[f]}" for f in ALL_FIELDS)
         system = (
@@ -318,8 +345,9 @@ class LLM:
             "- reply: for answer, the words to say aloud, written in the reply language in its own script "
             "(names and English words may stay in Latin letters). One to three short, friendly sentences, at "
             "most about 50 words unless the person asks for more. Plain speech only: no lists, markdown, emoji, "
-            "links or symbols. Be accurate, and say when you are not sure instead of guessing. You are Sahur "
-            "and speak as a woman (Hindi: \"कर सकती हूँ\").\n"
+            "links or symbols. Be accurate: if you do not know, say so in a few words instead of guessing, "
+            "and add no disclaimer to an answer you do know. Your name is Sahur (साहुर) and you speak as a "
+            "woman (Hindi: \"कर सकती हूँ\").\n"
             "Use an empty string for every other field and for anything the person did not say.\n"
             "Answer or search: prefer answer for a question you can answer well. Use web_search when the person "
             "asks for a search, or when a correct answer needs information newer than your knowledge. Never "
@@ -329,18 +357,39 @@ class LLM:
             "\"unke baare mein search karo\" is a web_search for \"Narendra Modi\". A short continued question "
             "(\"aur Delhi ka?\") asks the previous question about the new thing. \"Send it\", \"type it\", "
             "\"search it\" or \"play it\" act on what was just said: to send or type your previous answer, "
-            "copy its words into text. If the new request has nothing to do with the conversation, ignore the "
-            "conversation.\n"
+            "copy its words into text (\"it\" is then your most recent answer, however many actions came "
+            "after it). A bare \"haan\" or \"yes\" accepts what your previous answer offered: do "
+            "that; if it offered nothing, return unknown. Offer only what you can do. If the new request has "
+            "nothing to do with the conversation, ignore the conversation.\n"
             "An answer step comes alone, or last after the things you can do. If the words are noise, cut off "
-            "or not meant for you, return unknown as the only step; never guess an action.\n\n"
+            "or not meant for you, return unknown as the only step; never guess an action.\n"
+            f"Also return \"language\": the code of the language the person spoke, one of {codes}. Speech "
+            "arrives in Latin letters, so go by the words: \"yaavudu\", \"tere\", \"maadu\" are Kannada, "
+            "\"enna\", \"pannu\" Tamil, \"emiti\", \"cheyyi\" Telugu, \"kay\", \"ughad\" Marathi. The name of a "
+            "place, person, app or song says nothing about the language: \"and Tamil Nadu?\" is English. When "
+            "the request has too few other words to tell, keep the language of the conversation so far. When "
+            "the reply language is given as \"the language the person spoke\", write the reply in that "
+            "language.\n\n"
             + "\n\n".join(_converse_example(*example) for example in CONVERSE_EXAMPLES)
         )
-        user = (f"Now: {(now or datetime.now()).strftime('%A, %d %B %Y, %I:%M %p')}\n{_conversation(turns)}\n"
-                f"Reply language: {name}\nRequest: {command}\nJSON:")
-        schema = {"type": "object", "additionalProperties": False, "required": ["steps"],
+        reply_language = name if language_sure else (
+            f"the language the person spoke (a small local model guessed {name}: go by the words, and use "
+            "this guess only when they do not tell)")
+        installed = ""
+        if apps:
+            installed = ("Apps on this PC: " + ", ".join(list(apps)[:MAX_APP_NAMES]) + "\n"
+                         "The request was transcribed from speech, so an app's name can arrive misspelt or "
+                         "without its first sound. For open_app give the listed app that sounds closest "
+                         "(\"Cidian\" -> \"Obsidian\", \"Crome\" -> \"Google Chrome\"); keep the name as said "
+                         "only when nothing in the list sounds like it.\n")
+        user = (f"Now: {(now or datetime.now()).strftime('%A, %d %B %Y, %I:%M %p')}\n{installed}"
+                f"{_conversation(turns)}\nReply language: {reply_language}\nRequest: {command}\nJSON:")
+        schema = {"type": "object", "additionalProperties": False, "required": ["steps", "language"],
                   "properties": {"steps": {"type": "array",
-                                           "items": _flat_schema(["action", *ALL_FIELDS, "reply"])}}}
-        steps = self._structured(system, user, schema).get("steps")
+                                           "items": _flat_schema(["action", *ALL_FIELDS, "reply"])},
+                                 "language": {"type": "string", "enum": list(LANGUAGE_NAMES)}}}
+        data = self._structured(system, user, schema)
+        steps = data.get("steps")
         if not isinstance(steps, list) or not steps or not all(isinstance(step, dict) for step in steps):
             raise SlotError(f"LLM returned no steps: {steps!r}")
         if len(steps) > MAX_STEPS:
@@ -349,7 +398,8 @@ class LLM:
         names = [act.action for act in actions]
         if len(actions) > 1 and ({"unknown", "cancel"} & set(names) or "answer" in names[:-1]):
             raise SlotError(f"LLM returned an unusable step among {names}")
-        return actions
+        spoke = data.get("language")
+        return Heard(actions, spoke if spoke in LANGUAGE_NAMES else None)
 
     def correct(self, previous_command: str, previous_action: a.Action, correction: str) -> a.Action:
         """What the user wanted instead ("galat tha, Spotify pe chalao" after "Radiohead chalao" played on
@@ -388,7 +438,7 @@ class LLM:
             "You help a person who cannot see the screen well or is new to computers. "
             + ("Given a screenshot of their screen and the visible text of the window in front, say in 2-4 short "
                "spoken sentences which app or website is open, what it is showing, and the main thing they can "
-               "do next. Ignore the Bol OS companion sprite and details card. " if image else
+               "do next. Ignore the Sahur companion sprite and details card. " if image else
                "Given the visible text of the current window, say in 2-4 short spoken sentences what the window "
                "is and the most important things on it. ")
             + (f"The person asks: {question!r}. Answer their question using the screen context. If you "
@@ -477,7 +527,7 @@ CODEX_TIMEOUT_SECONDS = 45
 
 
 # Codex is only asked to answer in text. Its tools are switched off, not just discouraged in the prompt:
-# commands can carry text Bol OS didn't write (the screen being read aloud), which must not be able to make
+# commands can carry text Sahur did not write (the screen being read aloud), which must not be able to make
 # Codex read files on this PC.
 CODEX_DISABLED_FEATURES = ("shell_tool", "unified_exec", "browser_use", "browser_use_external", "computer_use",
                            "apps", "plugins", "code_mode_host", "skill_search", "tool_suggest", "goals",

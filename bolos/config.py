@@ -32,7 +32,8 @@ class Settings:
     llm_api_key: str
     llm_model: str
     llm_rpm: int  # requests per minute to stay under; 0 means no pacing
-    llm_provider: str  # "codex" (Codex CLI), "claude" (Claude Code CLI) or "openai" (any OpenAI-compatible API: Gemini, Evon, ...)
+    # "codex" (Codex CLI), "claude" (Claude Code CLI) or "openai" (any OpenAI-compatible API: Gemini, Evon, ...)
+    llm_provider: str
     codex_path: str
     codex_model: str
     codex_effort: str
