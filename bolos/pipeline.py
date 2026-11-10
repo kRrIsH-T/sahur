@@ -14,13 +14,14 @@ from dataclasses import dataclass
 from typing import Callable, Protocol
 
 from bolos import actions as a
-from bolos.decide import Parse
+from bolos.decide import FastParser, Parse
 from bolos.executor import Outcome
-from bolos.responses import is_yes, join_replies, say, script_language, split_correction
+from bolos.responses import is_yes, join_replies, refuses_command, say, script_language, split_correction
 
 log = logging.getLogger(__name__)
 QUERY_ACTIONS = {"web_search", "play_media"}
 NEVER_GUESSED = {"send_message", "type_text", "click"}
+MAX_COMMAND_CHARS = 4096  # keep pasted documents out of the speech-oriented slot tagger
 
 
 class Parser(Protocol):
@@ -48,7 +49,8 @@ class Understood:
 class Assistant:
     def __init__(self, parser: Parser | None, llm, runner: Runner, voice: Voice,
                  status: Status = lambda *_: None, contacts=None, preferences=None, learning: bool = True,
-                 forms=None, history=None, guide=None, screenshot=None):
+                 forms=None, history=None, guide=None, screenshot=None,
+                 language_detector: Callable[[str], str | None] | None = None):
         self.parser = parser  # None: System 2 decides everything (DECIDER=llm)
         self.llm = llm
         self.runner = runner
@@ -61,6 +63,9 @@ class Assistant:
         self.history = history if learning else None
         self.guide = guide  # bolos.guide.session.Guide: "dikhao" requests
         self.screenshot = screenshot  # () -> Path | None: a picture of the screen for "screen par kya hai"
+        self.language_detector = language_detector
+        if self.language_detector is None and isinstance(parser, FastParser):
+            self.language_detector = parser.detect_language
         self.language: str | None = None
         self._last: tuple[str, list[a.Action], str | None, str | None] | None = None
         self._announced = False
@@ -134,33 +139,44 @@ class Assistant:
         finally:
             self.status("thinking", time.monotonic() - started)
 
-    def _plan(self, command: str, reported_language: str | None = None) -> list[Understood]:
+    def _plan(self, command: str, known_language: str | None = None) -> list[Understood]:
         """Resolve every step before running any of them. A partial plan executes nothing."""
+        if len(command) > MAX_COMMAND_CHARS:
+            return []
         from bolos.compound import MULTI, action_of, chain, needs_step_resolution, split
+        from bolos.file_intent import parse_file_request
         from bolos.forms.intent import intent
         from bolos.guide.intent import is_guide_request, screen_language, takeover_goal
 
+        if refuses_command(command):
+            return [Understood(a.Cancel(), "system1")]
+        if is_yes(command) or command.strip().rstrip(".!?").casefold() == "go ahead":
+            return []  # An answer on its own cannot authorize a new action.
+        if command.lstrip().casefold().startswith(("close ", "please close ")):
+            return []  # There is no direct close command. Never turn it into opening the app.
+        if file_action := parse_file_request(command):
+            return [Understood(file_action, "system1")]
         # Resolve form and guide dialogues before they fall through to the general action model.
         name = intent(command)
         lesson = is_guide_request(command)
         if name and not (name == "upload_file" and lesson):
-            self._detect_language(command, reported_language)
+            self._apply_dialogue_language(command, known_language)
             return [Understood(a.parse_action({"action": name}), "system1")]
         if goal := takeover_goal(command):
-            self._detect_language(command, reported_language)
+            self._apply_dialogue_language(command, known_language)
             return [Understood(a.DriveScreen(goal=goal), "system1")]
         if screen_language(command):
-            self._detect_language(command, reported_language)
+            self._apply_dialogue_language(command, known_language)
             return [Understood(a.ReadScreen(), "system1")]
         if lesson:
-            self._detect_language(command, reported_language)
+            self._apply_dialogue_language(command, known_language)
             return [Understood(a.ShowHow(goal=command.strip()), "system1")]
         if self.preferences and (habit := self.preferences.recall(command)):
             return [Understood(habit, "habit")]
         parse = self.parser.parse(command) if self.parser else None
-        if parse and parse.language and not script_language(command):
+        if parse and parse.language and self.language_detector is None and not known_language:
             self.language = parse.language
-        self.status("language", self.language)
+            self.status("language", self.language)
         if self.parser and (parts := split(command, self.parser, parse)):
             actions = [action_of(self.parser.parse(part)) for part in parts]
             if any(action is None for action in actions):
@@ -194,16 +210,11 @@ class Assistant:
         understood = self._understand_parse(command, parse)
         return [understood] if understood else []
 
-    def _detect_language(self, command: str, reported_language: str | None) -> None:
-        """Use cues from the dialogue before falling back to the general language classifier."""
+    def _apply_dialogue_language(self, command: str, known_language: str | None) -> None:
+        """Use the dialogue's language-specific wording when the transcript gives no explicit language."""
         from bolos.guide.intent import language_hint
 
-        if reported_language:
-            return
-        detected = language_hint(command)
-        if detected is None and (detector := getattr(type(self.parser), "detect_language", None)):
-            detected = detector(self.parser, command)
-        if detected:
+        if not known_language and (detected := language_hint(command)):
             self.language = detected
             self.status("language", detected)
 
@@ -228,14 +239,15 @@ class Assistant:
             return True
         self.status("state", "confirming")
         if isinstance(action, a.Click):
-            spoken = self.voice.speak(say("confirm_click", language, target=action.target), language)
+            prompt = say("confirm_click", language, target=action.target)
+            self.status("reply", prompt)
+            spoken = self.voice.speak(prompt, language)
         else:
             spoken = self.voice.speak(say("confirm_send", language, contact=action.contact, text=action.text), language)
         if spoken is False:
-            return False  # an interrupted/failed readback cannot authorize sending or clicking
+            return False  # an interrupted or failed readback cannot authorize the action
         followup = getattr(self.voice, "followup", self.voice.listen)
         reply = followup()
-        self.status("reply", reply[0] if reply else "")
         return bool(reply) and is_yes(reply[0])
 
     def learn(self, command: str, understood: Understood) -> None:
@@ -258,17 +270,28 @@ class Assistant:
             return self.handle(pending, None, trigger)
         return outcome
 
-    def _handle(self, command: str, language: str | None, trigger: str | None = None) -> Outcome:
-        self.language = (script_language(command) or language or self.language
+    def _set_language(self, command: str, language: str | None) -> str | None:
+        # Habits and corrections can reply without running the action parser.
+        known_language = script_language(command) or language
+        detected = self.language_detector(command) if not known_language and self.language_detector else None
+        self.language = (known_language or detected or self.language
                          or getattr(self.voice, "user_language", None) or "hi-IN")
+        self.status("language", self.language)
+        return known_language
+
+    def _handle(self, command: str, language: str | None, trigger: str | None = None) -> Outcome:
         self._announced = False
+        if len(command) > MAX_COMMAND_CHARS:
+            self.status("heard", "")
+            return self._reply(Outcome(False, "not_understood"), language or self.language
+                               or getattr(self.voice, "user_language", None))
         from bolos.forms.intent import intent
 
         form_intent = intent(command)
         self.status("heard", "[form request]" if form_intent else command)
-        self.status("language", self.language)
         self.status("state", "understanding")
         started = time.monotonic()
+        known_language = self._set_language(command, language)
         plan: list[Understood] = []
         executed: list[a.Action] = []
         outcome = Outcome(False, "error")
@@ -277,7 +300,7 @@ class Assistant:
             if hasattr(self.runner, "begin"):
                 self.runner.begin()
             correction = split_correction(command)
-            if correction is not None:
+            if correction is not None and not refuses_command(command):
                 previous = self._last
                 if self.preferences:
                     forgot = self.preferences.forget_last() if self.learning else self.preferences.has_undo()
@@ -294,17 +317,20 @@ class Assistant:
                     return self._reply(outcome, self.language)
                 correction_of = previous
                 fixed = self._thinking(lambda: self.llm.correct(previous[0], previous[1][0], command))
-                if fixed.action in {"unknown", "cancel"} | a.FORM_ACTIONS:
+                if fixed.action in {"unknown", "cancel"} | a.FORM_ACTIONS | a.FILE_ACTIONS:
                     outcome = Outcome(False, "not_understood")
                     return self._reply(outcome, self.language)
                 plan = [Understood(fixed, "system2")]
             else:
                 if self.preferences:
                     self.preferences.begin_command()
-                plan = self._plan(command, language)
+                plan = self._plan(command, known_language)
             if not plan:
                 outcome = Outcome(False, "not_understood")
                 return self._reply(outcome, self.language)
+            if form_intent and plan[0].action.action in a.FILE_ACTIONS:
+                form_intent = None
+                self.status("heard", command)
             # Dialogues must run alone: otherwise the later step could submit or overwrite the form.
             if len(plan) > 1 and any(step.action.action in a.DIALOGUE_ACTIONS for step in plan):
                 outcome = Outcome(False, "not_understood")
@@ -332,7 +358,11 @@ class Assistant:
                     self.status("action", action.model_dump_json())
                     self.status("state", "executing")
                     form_request = command if form_intent == "fill_form" else None
-                    outcome = self._execute(action, self.language, form_request=form_request)
+                    try:
+                        outcome = self._execute(action, self.language, form_request=form_request)
+                    except Exception:
+                        log.warning("Could not execute %s", action.action)
+                        outcome = Outcome(False, "error")
                     if outcome.key == "screen":
                         question = command if len(plan) == 1 else ""
                         outcome = self._read_screen(outcome, self.language, question)
@@ -345,16 +375,21 @@ class Assistant:
                         "screen", "screen_unavailable", "guide_form", "focus_changed",
                     }:
                         pass  # screen descriptions are spoken and shown by _read_screen
-                    elif (action.action in a.FORM_ACTIONS and self.forms) or action.action in a.GUIDE_ACTIONS:
+                    elif outcome.key != "error" and (
+                        (action.action in a.FORM_ACTIONS and self.forms) or action.action in a.GUIDE_ACTIONS
+                    ):
                         pass  # form sessions and guides already speak their own prompts and final result
                     else:
                         replies.append(say(outcome.key, self.language, **outcome.detail))
-                if not outcome.ok:
+                if not outcome.ok or outcome.key == "message_draft":
                     if index < len(plan) - 1:
                         replies.append(say("steps_stopped", self.language))
+                        outcome = Outcome(False, outcome.key, outcome.detail)
                     break
             if replies:
-                self.voice.speak(join_replies(replies, self.language), self.language)
+                text = join_replies(replies, self.language)
+                self.status("reply", text)
+                self.voice.speak(text, self.language)
             self.status("state", "done" if outcome.ok else outcome.key)
             if outcome.ok and correction_of and executed and self.learning:
                 if self.preferences:
@@ -375,13 +410,19 @@ class Assistant:
             if self.history:
                 # Use the plan as well as the executed steps to redact a cancelled message, too.
                 private_form = form_intent or any(s.action.action in a.FORM_ACTIONS for s in plan)
-                entry_id = self.history.record("[form request]" if private_form else command, self.language,
+                private_file = any(s.action.action in a.FILE_ACTIONS for s in plan)
+                transcript = "[file request]" if private_file else "[form request]" if private_form else command
+                steps = [s.action.model_dump(exclude={"query"}) if s.action.action in a.FILE_ACTIONS else s.action
+                         for s in plan]
+                entry_id = self.history.record(transcript, self.language,
                                                source=plan[0].source if plan else None,
-                                               steps=[step.action for step in plan], outcome=outcome.key,
+                                               steps=steps, outcome=outcome.key,
                                                timings={"total": (time.monotonic() - started) * 1000},
                                                trigger=trigger, ok=outcome.ok)
-            if executed and outcome.ok and all(s.action not in {"send_message", "type_text"} | a.DIALOGUE_ACTIONS
-                                              for s in executed):
+            if executed and outcome.ok and all(
+                s.action not in {"cancel", "send_message", "type_text"} | a.DIALOGUE_ACTIONS | a.FILE_ACTIONS
+                for s in executed
+            ):
                 self._last = (command, executed, self.language, entry_id)
             elif executed or split_correction(command) is None:
                 self._last = None
@@ -404,30 +445,34 @@ class Assistant:
         return self.runner.execute(action)
 
     def _fill_form(self, language: str | None, request: str | None) -> Outcome:
-        if request and self.guide and not self.forms.has_fillable_form():
+        from bolos.guide.intent import new_pan_request
+
+        if request and self.guide and (new_pan_request(request) or not self.forms.has_fillable_form()):
             from bolos.forms.intent import lookup_request
 
             outcome = self.guide.run(lookup_request(request), language, find_form=True)
-            if outcome.key != "guide_form_ready":
-                return outcome
+            return self._fill_found_form(outcome, language)
         return self.forms.fill(language)
 
     def _show_how(self, action: a.ShowHow, language: str | None) -> Outcome:
+        from bolos.guide.intent import new_pan_request, settings_toggle_lesson, wallpaper_lesson, wants_form
+
         if self.guide is None:
             outcome = Outcome(False, "guide_unavailable")
             self.voice.speak(say(outcome.key, language), language)
             return outcome
-        # The guide sends screenshots to System 2. A form with details already typed in stays with the local
-        # form assistant, which never sends field values anywhere. (An empty box, like a chat app's message
-        # box, is no reason to refuse: that check used to block every lesson.)
-        if self.forms and self.forms.shows_personal_details():
-            outcome = Outcome(False, "guide_form")
-            self.voice.speak(say(outcome.key, language), language)
-            return outcome
-        outcome = self.guide.run(action.goal, language)
+        # These known destinations open locally. General lessons must still leave private windows alone.
+        goal = action.goal
+        if self.forms and not (new_pan_request(goal) or settings_toggle_lesson(goal) or wallpaper_lesson(goal)):
+            if self.forms.shows_personal_details():
+                key = "guide_form" if wants_form(goal) else "guide_switch_app"
+                return self._reply(Outcome(False, key), language)
+        return self._fill_found_form(self.guide.run(goal, language), language)
+
+    def _fill_found_form(self, outcome: Outcome, language: str | None) -> Outcome:
         if outcome.key == "guide_form_ready" and self.forms:
-            # The lesson led to the form ("PAN card ke liye apply karna hai"): the private form session takes
-            # over, asking for each answer and entering it only after a yes. No more screenshots from here.
+            if expected_url := outcome.detail.get("expected_url"):
+                return self.forms.fill(language, expected_url=expected_url)
             return self.forms.fill(language)
         return outcome
 
@@ -453,14 +498,28 @@ class Assistant:
         if not spoken.strip():
             outcome = Outcome(False, "screen_unavailable")
             spoken = say(outcome.key, language)
+        spoken = _brief(spoken)
         self.status("reply", spoken)
         self.voice.speak(spoken, language)
         return outcome
 
     def _reply(self, outcome: Outcome, language: str | None) -> Outcome:
-        self.voice.speak(say(outcome.key, language, **outcome.detail), language)
+        text = say(outcome.key, language, **outcome.detail)
+        self.status("reply", text)
+        self.voice.speak(text, language)
         self.status("state", "done" if outcome.ok else outcome.key)
         return outcome
+
+
+READBACK_MAX_CHARS = 400  # a whole window's text read aloud is minutes long and too much for one spoken reply
+
+
+def _brief(text: str, limit: int = READBACK_MAX_CHARS) -> str:
+    """The start of `text`, cut at a word boundary, for when the screen is read back without System 2."""
+    text = " ".join(text.split())
+    if len(text) <= limit:
+        return text
+    return text[:limit].rsplit(" ", 1)[0].rstrip(",;:") + "..."
 
 
 def _build(name: str, slots: dict[str, str]) -> a.Action | None:

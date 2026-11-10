@@ -1,16 +1,18 @@
 """The dashboard: saved settings, applying them to a running Bol OS, statistics and the local web server."""
 
 import json
+import socket
 from dataclasses import replace
-from datetime import date
+from datetime import date, datetime
 from http.client import HTTPConnection
 
 import pytest
 
 from bolos.config import load_settings
-from bolos.controls import Controls
+from bolos.controls import Controls, MicMeter
 from bolos.dashboard import stats
-from bolos.dashboard.server import Dashboard
+from bolos.dashboard.server import Dashboard, find_dashboard
+from bolos.history import History
 from bolos.hotkey import HotkeyError
 from bolos.overlay import OverlayState, place
 from bolos.user_settings import SettingError, UserSettings, env_defaults
@@ -55,6 +57,8 @@ def test_saved_values_override_settings(tmp_path):
     {"hotkey": "ctrl+nonsense"},
     {"stt_languages": []},
     {"stt_languages": ["xx-IN"]},
+    {"stt_languages": ["hi-IN", {}]},
+    {"user_language": []},
     {"tts_voice": "Avinash"},  # a man's voice would contradict the feminine replies
     {"widget_visible": "yes"},
     {"codex_model": "   "},
@@ -72,6 +76,15 @@ def test_an_unreadable_or_bad_file_falls_back_to_defaults(tmp_path):
     assert store(tmp_path).get("widget_visible") is True
     s = store(tmp_path, {"widget_corner": "middle", "chimes": False})
     assert s.get("widget_corner") == "bottom-right" and s.get("chimes") is False
+    s = store(tmp_path, {"user_language": {}, "stt_languages": ["hi-IN", {}], "chimes": False})
+    assert s.get("user_language") == "hi-IN" and s.get("stt_languages") == ["hi-IN", "en-IN"]
+    assert s.get("chimes") is False
+
+
+def test_a_device_name_retains_its_exact_spacing(tmp_path):
+    s = store(tmp_path)
+    s.update({"input_device": "USB  microphone (headset)"})
+    assert store(tmp_path).get("input_device") == "USB  microphone (headset)"
 
 
 # Applying them to a running Bol OS
@@ -87,18 +100,18 @@ class FakeListener:
     def __init__(self, fail_hotkey=False, fail_mic=False):
         self.hotkey, self.input_device, self.earcons = "ctrl+space", None, True
         self.player, self.settings = FakePlayer(), None
-        self.mic_level, self.mic_error = 0.4, None
+        self.mic_level, self.mic_error, self.hotkey_error = 0.4, None, None
         self.fail_hotkey, self.fail_mic = fail_hotkey, fail_mic
 
     def set_hotkey(self, combination):
         if self.fail_hotkey:
             raise HotkeyError("taken")
-        self.hotkey = combination
+        self.hotkey, self.hotkey_error = combination, None
 
     def set_input_device(self, device):
         if self.fail_mic:
             raise OSError("device busy")
-        self.input_device = device
+        self.input_device, self.mic_error = device, None
 
     def update_settings(self, settings):
         self.settings = settings
@@ -154,6 +167,58 @@ def test_a_change_that_cannot_be_applied_is_not_saved(tmp_path, monkeypatch, cha
         controls.update({"chimes": False, **change})
     assert controls.store.get("chimes") is True and voice.listener.earcons is True
     assert voice.listener.hotkey == "ctrl+space" and voice.listener.input_device is None
+
+
+def test_a_failed_second_live_change_restores_the_first(tmp_path, monkeypatch):
+    controls, voice = running(tmp_path, monkeypatch, fail_mic=True)
+    with pytest.raises(SettingError, match="couldn't use that microphone"):
+        controls.update({"hotkey": "ctrl+alt+b", "input_device": "USB mic"})
+    assert voice.listener.hotkey == controls.store.get("hotkey") == "ctrl+space"
+
+
+def test_a_failed_settings_write_does_not_change_live_or_saved_settings(tmp_path, monkeypatch):
+    controls, voice = running(tmp_path, monkeypatch)
+    controls.store.path.mkdir()  # replacing a directory with the settings file must fail
+    with pytest.raises(SettingError, match="couldn't save your changes"):
+        controls.update({"hotkey": "ctrl+alt+b", "input_device": "USB mic", "chimes": False})
+    assert voice.listener.hotkey == controls.store.get("hotkey") == "ctrl+space"
+    assert voice.listener.input_device is None and controls.store.get("input_device") == ""
+    assert voice.listener.earcons and controls.store.get("chimes")
+    assert list(tmp_path.iterdir()) == [controls.store.path]  # no abandoned temporary files
+
+
+def test_the_saved_microphone_and_shortcut_can_be_retried(tmp_path, monkeypatch):
+    controls, voice = running(tmp_path, monkeypatch)
+    voice.listener.mic_error, voice.listener.hotkey_error = "Connect your microphone.", "Choose a new shortcut."
+    checks = {check.id: check for check in controls.checks()}
+    assert checks["mic_error"].level == checks["hotkey_error"].level == "fail"
+    assert controls.test("microphone") == "microphone"
+    assert controls.update({"hotkey": "ctrl+space"}) == {}
+    assert voice.listener.mic_error is voice.listener.hotkey_error is None
+
+
+def test_a_failed_meter_start_closes_the_stream_and_backs_off(monkeypatch):
+    calls = []
+
+    class Stream:
+        def __init__(self, **kwargs):
+            calls.append("open")
+
+        def start(self):
+            raise OSError("device busy")
+
+        def stop(self):
+            raise OSError("never started")
+
+        def close(self):
+            calls.append("close")
+
+    monkeypatch.setattr("sounddevice.InputStream", Stream)
+    monkeypatch.setattr("bolos.controls.time.monotonic", lambda: 5)
+    meter = MicMeter()
+    assert meter.read(None) == meter.read(None) == 0
+    assert "Windows microphone settings" in meter.error
+    assert calls == ["open", "close"]
 
 
 def test_options_read_at_start_ask_for_a_restart(tmp_path, monkeypatch):
@@ -274,7 +339,7 @@ def request(dashboard, method, path, body=None, headers=None):
 
 def test_the_page_and_its_files_are_served(server):
     status, data, response = request(server, "GET", "/")
-    assert status == 200 and b"Bol OS" in data and "default-src 'self'" in response.getheader("Content-Security-Policy")
+    assert status == 200 and b"Sahur" in data and "default-src 'self'" in response.getheader("Content-Security-Policy")
     for path in ("/app.js", "/app.css", "/favicon.svg"):
         assert request(server, "GET", path)[0] == 200
     assert request(server, "GET", "/../bolos/config.py")[0] == 404
@@ -290,6 +355,33 @@ def test_the_api_saves_settings_and_reports_errors(server):
     assert any(o["key"] == "widget_corner" and o["changed"] for o in state["options"])
     stats_ = json.loads(request(server, "GET", "/api/stats")[1])
     assert stats_["total"] == 1
+
+
+def test_the_api_handles_missing_devices_and_a_failed_sound_check(server, monkeypatch):
+    def unavailable(*args):
+        raise OSError("audio API unavailable")
+
+    monkeypatch.setattr("bolos.audio.devices", unavailable)
+    monkeypatch.setattr("bolos.audio.Player.play", unavailable)
+    monkeypatch.setattr("bolos.controls.load_settings", lambda *_: replace(BASE, gnani_api_key=""))
+    status, data, _ = request(server, "GET", "/api/state")
+    assert status == 200
+    checks = {c["id"]: c for c in json.loads(data)["checks"]}
+    assert checks["input_device"]["label"] == "No microphone found"
+    assert checks["gnani"]["label"] == "Voice service needs setup"
+    status, data, _ = request(server, "POST", "/api/test", {"what": "speaker"})
+    assert status == 422 and "Try the chime" in json.loads(data)["error"]
+    status, data, _ = request(server, "POST", "/api/test", {"what": "chime"})
+    assert status == 422 and "Windows Sound settings" in json.loads(data)["error"]
+
+
+def test_stats_can_read_mixed_history_and_skip_truncated_records(server):
+    data = [entry("2026-11-07T10:00:00"), entry("2026-11-08T10:00:00+05:30", ms=float("nan")),
+            {"id": {}, "time": "2026-11-08"}, {"id": "legacy", "time": "2026-11-09", "language": []}]
+    server.history_path.write_bytes("".join(json.dumps(e) + "\n" for e in data).encode() + b'{"id":"\xef')
+    status, data, _ = request(server, "GET", "/api/stats")
+    assert status == 200 and json.loads(data)["total"] == 3
+    assert json.loads(data)["median_ms"] == 900
 
 
 def test_other_sites_cannot_use_it(server):
@@ -311,7 +403,41 @@ def test_starting_the_statistics_afresh_keeps_the_old_history(server):
     assert json.loads(request(server, "GET", "/api/stats")[1])["total"] == 0
 
 
+def test_two_archives_in_the_same_second_keep_both_histories(tmp_path, monkeypatch):
+    class FrozenDateTime(datetime):
+        @classmethod
+        def now(cls, tz=None):
+            return cls(2026, 11, 10)
+
+    monkeypatch.setattr("bolos.history.datetime", FrozenDateTime)
+    history = History(tmp_path / "history.jsonl")
+    history.record("open the calculator")
+    first = history.archive()
+    history.record("open the calendar")
+    second = history.archive()
+    assert first != second
+    assert "open the calculator" in first.read_text(encoding="utf-8")
+    assert "open the calendar" in second.read_text(encoding="utf-8")
+
+
 def test_a_standalone_dashboard_steps_aside_for_a_starting_bol_os(server):
     assert json.loads(request(server, "GET", "/api/ping")[1]) == {"app": "bolos-dashboard", "running": False}
     status, _, _ = request(server, "POST", "/api/shutdown", {})
     assert status == 200 and server.stopped.wait(3)
+
+
+def test_open_settings_finds_and_hands_off_a_fallback_port(tmp_path):
+    with socket.socket() as occupied:
+        occupied.bind(("127.0.0.1", 0))
+        port = occupied.getsockname()[1]
+        standalone = Dashboard(Controls(store(tmp_path)), None, port=port)
+        voice = Dashboard(Controls(store(tmp_path), voice=FakeVoice(FakeListener())), None, port=port)
+        try:
+            standalone.start()
+            assert standalone.port != port and find_dashboard(port) == standalone.port
+            voice.start()
+            assert standalone.stopped.wait(3)
+            assert voice.port == standalone.port and find_dashboard(port) == voice.port
+        finally:
+            voice.close()
+            standalone.close()

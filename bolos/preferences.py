@@ -34,7 +34,8 @@ VIDEO_WORDS = re.compile(r"\b(video|videos|movie|movies|film|trailer|trailers|vl
 DEFAULT_APPS = {"music": "Spotify", "video": "YouTube"}
 MAX_HABITS = 500
 # Personal or one-off: a message always goes through the full check, dictated text is never stored.
-NEVER_HABITS = a.RISKY_ACTIONS | a.DIALOGUE_ACTIONS | {"type_text", "unknown", "cancel"}
+# An answer is said once: the same question later ("kitne baje hain") may have a different one.
+NEVER_HABITS = a.RISKY_ACTIONS | a.DIALOGUE_ACTIONS | a.FILE_ACTIONS | {"type_text", "answer", "unknown", "cancel"}
 # Punctuation, but not Indic vowel signs and viramas (which \w doesn't cover): "खोलो" and "खेलो" differ.
 _PUNCT = re.compile("[^\\w\\sऀ-ॣ०-෿]")
 _MISSING = object()
@@ -62,14 +63,17 @@ class Preferences:
         self._lock = threading.Lock()
         data = self._read()
         self.media: dict[str, Counter] = {}
-        self.media_names: dict[str, str] = data.get("media_names", {})  # service key -> name as first said
-        for kind, counts in data.get("media", {}).items():
+        self.media_names: dict[str, str] = _string_values(data, "media_names")  # key -> name as first said
+        for kind, counts in _mapping(data, "media").items():
+            if kind not in DEFAULT_APPS or not isinstance(counts, dict):
+                continue
             merged = self.media.setdefault(kind, Counter())
             for name, n in counts.items():  # older files counted raw names: merge spellings
-                merged[service_key(name)] += n
-                self.media_names.setdefault(service_key(name), name)
-        self.app_names: dict[str, str] = data.get("app_names", {})
-        self.habits: dict[str, dict] = data.get("habits", {})
+                if type(n) is int and n > 0 and (key := service_key(name)):
+                    merged[key] += n
+                    self.media_names.setdefault(key, name)
+        self.app_names: dict[str, str] = _string_values(data, "app_names")
+        self.habits: dict[str, dict] = {k: v for k, v in _mapping(data, "habits").items() if isinstance(v, dict)}
         # What the current command changed: (table, key, value before), undone by forget_last.
         self._undo: list[tuple[str, str, object]] = []
 
@@ -102,8 +106,12 @@ class Preferences:
             data = {"media": {k: dict(v) for k, v in self.media.items()}, "media_names": self.media_names,
                     "app_names": self.app_names, "habits": self.habits}
             tmp = self.path.with_suffix(".tmp")
-            tmp.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
-            tmp.replace(self.path)
+            try:
+                tmp.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+                tmp.replace(self.path)
+            except (OSError, UnicodeError):
+                # Learning is optional. A locked or unwritable file must not turn a completed action into a failure.
+                log.warning("Could not save learned preferences")
 
     # Media services
 
@@ -144,6 +152,8 @@ class Preferences:
         try:
             action = a.parse_action({f: v for f, v in data.items() if f != "source"})
         except ValueError:
+            return None
+        if action.action in NEVER_HABITS:
             return None
         self.habits[k] = self.habits.pop(k)  # most recently used last
         self._undo.append(("habits", k, _MISSING))
@@ -237,3 +247,12 @@ class Preferences:
         if changed:
             self.save()
         return changed
+
+
+def _mapping(data: dict, key: str) -> dict:
+    value = data.get(key)
+    return value if isinstance(value, dict) else {}
+
+
+def _string_values(data: dict, key: str) -> dict[str, str]:
+    return {k: v for k, v in _mapping(data, key).items() if isinstance(v, str) and v.strip()}

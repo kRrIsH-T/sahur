@@ -215,7 +215,7 @@ def test_header_wording():
     assert ov.header(st, 0) == ("Listening", ov.STATE_COLOURS["listening"], "tapped Ctrl+Space")
     st.apply("state", "thinking", 0)
     st.apply("thinking", 4.21, 0)
-    assert ov.header(st, 0)[2] == "4.2 s · asking Codex"
+    assert ov.header(st, 0)[2] == "4.2 s · asking System 2"
     st.apply("state", "contact_not_found", 1)
     assert ov.header(st, 1)[:2] == ("Contact not found", ov.STATE_COLOURS["error"])
     st.apply("state", "disk_on_fire", 2)

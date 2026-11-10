@@ -247,6 +247,8 @@ class Player:
         """Block until played. False if interrupted."""
         block = max(1, int(rate * self.BLOCK_S))
         samples = np.asarray(samples, dtype=np.int16)
+        if not samples.size:
+            return False
         return self.play_stream((samples[i:i + block] for i in range(0, len(samples), block)), rate)
 
     def play_stream(self, chunks: Iterable[np.ndarray], rate: int, prebuffer_s: float = 0.0) -> bool:
@@ -265,6 +267,8 @@ class Player:
                 if stopped():
                     return False
                 chunk = np.asarray(chunk, dtype=np.int16).reshape(-1)
+                if not len(chunk):
+                    continue
                 if stream is None:
                     pending.append(chunk)
                     pending_n += len(chunk)
@@ -282,11 +286,13 @@ class Player:
         finally:
             if stream is not None:
                 try:
-                    if stopped():
-                        stream.abort()
-                    else:
-                        stream.stop()  # waits for the queued audio to finish playing
-                    stream.close()
+                    try:
+                        if stopped():
+                            stream.abort()
+                        else:
+                            stream.stop()  # waits for the queued audio to finish playing
+                    finally:
+                        stream.close()
                 except sd.PortAudioError:
                     log.debug("closing the output stream failed", exc_info=True)
             with self._lock:
@@ -303,7 +309,14 @@ class Player:
 
 def _open_output(rate: int, device: int | None = None):
     stream = sd.OutputStream(samplerate=rate, channels=1, dtype="int16", device=device)
-    stream.start()
+    try:
+        stream.start()
+    except BaseException:
+        try:
+            stream.close()
+        except Exception:
+            log.debug("closing an output stream that failed to start", exc_info=True)
+        raise
     return stream
 
 
@@ -324,9 +337,9 @@ def _play_detached(samples: np.ndarray, rate: int, device: int | None = None) ->
         log.warning("Could not play an earcon", exc_info=True)
 
 
-def play_wav(data: bytes, device: int | None = None) -> None:
+def play_wav(data: bytes, device: int | None = None) -> bool:
     samples, rate = read_wav(data)
-    Player(device).play(samples, rate)
+    return Player(device).play(samples, rate)
 
 
 def record_while_held(hotkey: str) -> bytes | None:

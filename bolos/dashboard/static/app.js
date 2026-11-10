@@ -1,4 +1,4 @@
-// Bol OS dashboard: talks to bolos/dashboard/server.py on this computer only.
+// Sahur dashboard: talks to bolos/dashboard/server.py on this computer only.
 "use strict";
 
 const STATE = {
@@ -7,18 +7,21 @@ const STATE = {
   thinking: ["Thinking", "#f2b64a"], confirming: ["Waiting for your yes", "#ff9d5c"],
   guiding: ["Showing you on screen", "#ff8a1f"], executing: ["Doing it", "#5ea8ff"], done: ["Done", "#4bd583"],
   error: ["Something went wrong", "#f47272"], warning: ["Needs a look", "#f2b64a"],
+  microphone_unavailable: ["Check your microphone", "#f47272"],
+  shortcut_unavailable: ["Check your keyboard shortcut", "#f47272"],
 };
 const BUSY = new Set(["listening", "hearing", "transcribing", "understanding", "thinking", "executing", "guiding"]);
 const LANGUAGES = { hi: "Hindi", en: "English", kn: "Kannada", ta: "Tamil", te: "Telugu", mr: "Marathi",
   ml: "Malayalam", bn: "Bengali", gu: "Gujarati", pa: "Punjabi" };
 const ACTIONS = { open_app: "Open an app", web_search: "Search the web", open_website: "Open a website",
+  find_file: "Find or open a file", open_recent_download: "Open a recent download",
   read_screen: "Read the screen", fill_form: "Fill a form", play_media: "Play music or video",
   send_message: "Send a message", show_how: "Show how", multi: "Several steps", type_text: "Type text",
   "not understood": "Not understood" };
 const ICONS = { ok: "✓", warn: "!", fail: "×" };
 const BARS = 44;
 const GROUP_NAMES = { Sound: "Sound", Widget: "On screen", Voice: "Voice and language", Privacy: "Privacy",
-  Brain: "Thinking" };
+  Brain: "Advanced" };
 
 const $ = (id) => document.getElementById(id);
 const el = (tag, props = {}, ...children) => {
@@ -38,9 +41,14 @@ async function api(path, body) {
     method: "POST", body: JSON.stringify(body),
     headers: { "Content-Type": "application/json", "X-Bolos": "1" },
   };
-  const response = await fetch(path, options);
+  let response;
+  try {
+    response = await fetch(path, { ...options, signal: body === undefined ? AbortSignal.timeout(4000) : undefined });
+  } catch (error) {
+    throw new Error("Couldn't reach Sahur. Open Sahur and try again.", { cause: error });
+  }
   const data = await response.json().catch(() => ({}));
-  if (!response.ok) throw new Error(data.error || `Request failed (${response.status})`);
+  if (!response.ok) throw new Error(data.error || "Sahur couldn't finish this. Try again.");
   return data;
 }
 
@@ -58,17 +66,18 @@ function toast(text, bad = false) {
 // Live state, checks, banners
 
 let current = null;  // the last /api/state
+let stateRequest = 0;
 const controls = {};  // option key -> { row, sync(value) }
 
 function showState(s) {
   const pill = $("state");
   let label, colour, busy = false;
   if (!s.running) {
-    [label, colour] = ["Bol OS is not running", "#f47272"];
+    [label, colour] = ["Sahur is closed", "#f47272"];
   } else {
-    [label, colour] = STATE[s.live.state] || [s.live.state, "#8f96a1"];
+    [label, colour] = STATE[s.live.state] || ["Sahur is open", "#8f96a1"];
     busy = BUSY.has(s.live.state);
-    if (s.dry_run) label += " (dry run)";
+    if (s.dry_run) label += " (practice mode)";
   }
   $("state-text").textContent = label;
   pill.querySelector(".dot").style.background = colour;
@@ -76,6 +85,11 @@ function showState(s) {
 }
 
 function showChecks(s) {
+  const blocked = s.checks.some((c) => c.level === "fail" && ["mic_error", "hotkey_error", "gnani"].includes(c.id));
+  const hint = $("speak-hint");
+  hint.hidden = !s.voice_commands || blocked;
+  hint.textContent = `Tap ${pretty(s.values.hotkey)}, wait for “Listening”, then say what you want Sahur to do.`;
+  $("retry-mic").hidden = !s.checks.some((c) => c.id === "mic_error");
   const list = $("checks");
   list.replaceChildren(...s.checks.map((c) => el("li", { class: c.level },
     el("span", { class: "icon", "aria-hidden": "true", text: ICONS[c.level] }),
@@ -91,13 +105,13 @@ function showBanners(s) {
   const names = s.restart_needed.map((k) => s.options.find((o) => o.key === k)?.label).filter(Boolean);
   restart.hidden = names.length === 0;
   restart.textContent = names.length
-    ? `Restart Bol OS to start using: ${names.join(", ")}.` : "";
+    ? `Close and reopen Sahur to use the new settings for ${names.join(", ")}.` : "";
   $("settings-note").textContent = s.running
-    ? "Changes apply straight away and are saved for next time."
-    : "Bol OS is not running: changes are saved and used when it starts.";
+    ? "Changes are saved as you make them. Settings marked “After restart” take effect when you reopen Sahur."
+    : "Changes are saved now and will take effect when you open Sahur.";
   const hello = $("test-welcome");
-  hello.disabled = !s.running;
-  hello.title = s.running ? "" : "Start Bol OS to see the pointer";
+  hello.disabled = !s.buddy_available;
+  hello.title = s.buddy_available ? "" : "Open Sahur with its desktop companion to preview it.";
 }
 
 function deviceLabel(kind, name) {
@@ -111,9 +125,11 @@ function showDevices(s) {
   $("spk-name").textContent = `Speaker: ${deviceLabel("output", s.values.output_device)}`;
 }
 
-async function refreshState() {
+async function refreshState(forceKey) {
+  const request = ++stateRequest;
   try {
     const s = await api("/api/state");
+    if (request !== stateRequest) return;
     current = s;
     $("offline").hidden = true;
     showState(s);
@@ -121,9 +137,11 @@ async function refreshState() {
     showBanners(s);
     showDevices(s);
     if (!$("groups").childElementCount) buildSettings(s);
-    else for (const o of s.options) controls[o.key]?.sync(s.values[o.key], o);
+    else for (const o of s.options) {
+      controls[o.key]?.sync(s.values[o.key], forceKey === o.key || forceKey === "all");
+    }
   } catch (error) {
-    $("offline").hidden = false;
+    if (request === stateRequest) $("offline").hidden = false;
   }
 }
 
@@ -149,21 +167,25 @@ function drawMeter(level, quiet) {
 }
 
 let meterTimer;
+let meterPending = false;
 async function pollLevel() {
   clearTimeout(meterTimer);
-  if (document.hidden) return;
+  if (document.hidden || meterPending) return;
+  meterPending = true;
   try {
     const data = await api("/api/level");
     // While Bol OS talks it ignores the microphone, so the bars go grey rather than looking broken.
     const speaking = data.state === "executing" || data.state === "done";
     drawMeter(data.level || 0, speaking);
-    $("meter-hint").textContent = data.error
-      ? `The microphone could not be opened: ${data.error}`
-      : "Say something. The bars follow your voice.";
+    const hint = data.error || "Say something. The bars follow your voice.";
+    if ($("meter-hint").textContent !== hint) $("meter-hint").textContent = hint;
   } catch (error) {
     drawMeter(0, true);
+    $("meter-hint").textContent = "Waiting to reconnect to Sahur.";
+  } finally {
+    meterPending = false;
+    meterTimer = setTimeout(pollLevel, 100);
   }
-  meterTimer = setTimeout(pollLevel, 100);
 }
 
 // ------------------------------------------------------------------------------------------------------------
@@ -171,17 +193,25 @@ async function pollLevel() {
 
 async function change(key, value) {
   const control = controls[key];
+  if (control.pending) return;
+  control.pending = true;
   control.row.classList.remove("saved");
+  control.row.setAttribute("aria-busy", "true");
   control.error.hidden = true;
   try {
-    await api("/api/settings", { changes: { [key]: value } });
+    const { changed } = await api("/api/settings", { changes: { [key]: value } });
+    if (key in changed) current.values[key] = changed[key];
     control.row.classList.add("saved");
     setTimeout(() => control.row.classList.remove("saved"), 1800);
   } catch (error) {
     control.error.textContent = error.message;
     control.error.hidden = false;
+  } finally {
+    control.sync(current.values[key], true);
+    control.row.removeAttribute("aria-busy");
+    control.pending = false;
   }
-  await refreshState();
+  await refreshState(key);
 }
 
 function toggleControl(option, id) {
@@ -205,7 +235,7 @@ function segmentsControl(option) {
 function selectControl(option, id) {
   const select = el("select", { id, onchange: () => change(option.key, select.value) });
   for (const [value, text] of Object.entries(option.choices)) select.append(el("option", { value, text }));
-  return { node: select, sync: (value) => { if (document.activeElement !== select) select.value = value; } };
+  return { node: select, sync: (value, force) => { if (force || document.activeElement !== select) select.value = value; } };
 }
 
 function chipsControl(option) {
@@ -226,8 +256,8 @@ function chipsControl(option) {
 function deviceControl(option, id) {
   const kind = option.kind === "input_device" ? "input" : "output";
   const select = el("select", { id, onchange: () => change(option.key, select.value) });
-  return { node: select, sync: (value) => {
-    if (document.activeElement === select) return;
+  return { node: select, sync: (value, force) => {
+    if (!force && document.activeElement === select) return;
     const listed = current.devices[kind];
     const defaultName = listed.find((d) => d.default)?.name;
     const entries = [["", defaultName ? `Windows default (${defaultName})` : "Windows default"],
@@ -267,7 +297,7 @@ function hotkeyControl(option, id) {
     if (!key) return;  // a modifier on its own: keep waiting for the key
     const parts = [event.ctrlKey && "ctrl", event.altKey && "alt", event.shiftKey && "shift", event.metaKey && "win"]
       .filter(Boolean);
-    if (!parts.length) { input.value = "Add Ctrl, Alt or Shift"; return; }
+    if (!parts.length) { input.value = "Add Ctrl, Alt, Shift or Win"; return; }
     const combination = [...parts, key].join("+");
     input.blur();
     change(option.key, combination);
@@ -286,7 +316,9 @@ function buildControl(option, id) {
     default: {
       const input = el("input", { type: "text", id, spellcheck: "false",
         onchange: () => change(option.key, input.value) });
-      return { node: input, sync: (value) => { if (document.activeElement !== input) input.value = value; } };
+      return { node: input, sync: (value, force) => {
+        if (force || document.activeElement !== input) input.value = value;
+      } };
     }
   }
 }
@@ -311,12 +343,14 @@ function buildSettings(s) {
         && control.node.tagName !== "DIV";
       const name = labelled ? el("label", { for: id, text: option.label }) : el("span", { class: "name", text: option.label });
       if (!option.live) name.append(el("span", { class: "tag", text: "After restart" }));
-      const error = el("p", { class: "error", role: "alert" });
+      const error = el("p", { id: `${id}-error`, class: "error", role: "alert" });
       error.hidden = true;
+      const help = option.help ? el("p", { id: `${id}-help`, class: "help", text: option.help }) : null;
+      control.node.setAttribute("aria-describedby", [help?.id, error.id].filter(Boolean).join(" "));
       const row = box.appendChild(el("div", { class: wide ? "row stack" : "row" }, name, control.node,
-        option.help ? el("p", { class: "help", text: option.help }) : null, error));
+        help, error));
       controls[option.key] = { row, error, sync: control.sync };
-      control.sync(s.values[option.key], option);
+      control.sync(s.values[option.key]);
     }
   }
 }
@@ -325,25 +359,33 @@ function buildSettings(s) {
 // Sound checks, reset, archive
 
 function wireButtons() {
+  let checkingSound = false;
   document.querySelectorAll("[data-test]").forEach((button) => button.addEventListener("click", async () => {
+    if (checkingSound) return;
+    checkingSound = true;
     button.disabled = true;
+    $("said").textContent = "Checking…";
     try {
       const { playing } = await api("/api/test", { what: button.dataset.test });
-      $("said").textContent = playing === "chime" ? "Playing the start chime."
-        : playing === "welcome" ? "Look for Sahur on your desktop." : `Playing: “${playing}”`;
+      $("said").textContent = playing === "chime" ? "Did you hear the chime? If it was quiet, turn up your volume."
+        : playing === "welcome" ? "Look for Sahur on your desktop."
+          : playing === "microphone" ? "Say something and check that the bars move."
+            : `You should have heard “${playing}”`;
     } catch (error) {
       $("said").textContent = error.message;
     } finally {
-      setTimeout(() => { button.disabled = false; }, 1500);
+      checkingSound = false;
+      button.disabled = false;
+      await refreshState();
     }
   }));
   $("reset").addEventListener("click", async () => {
-    if (!confirm("Put every setting back to its default (from .env)?")) return;
+    if (!confirm("Restore the original Sahur settings?")) return;
     try {
       await api("/api/reset", {});
       toast("Settings reset to the defaults");
     } catch (error) { toast(error.message, true); }
-    refreshState();
+    refreshState("all");
   });
   $("archive").addEventListener("click", async () => {
     if (!confirm("Start the statistics afresh? The current history is kept in a renamed file next to it.")) return;
@@ -476,7 +518,10 @@ function recent(rows) {
 
 async function refreshStats() {
   let stats;
-  try { stats = await api("/api/stats"); } catch (error) { return; }
+  try { stats = await api("/api/stats"); } catch (error) {
+    $("stats-note").textContent = "Couldn't load your statistics. Sahur will try again shortly.";
+    return;
+  }
   const empty = stats.total === 0;
   $("stats-empty").hidden = !empty;
   $("stats-body").hidden = empty;
@@ -502,7 +547,7 @@ wireButtons();
 refreshState();
 refreshStats();
 pollLevel();
-setInterval(refreshState, 3000);
+setInterval(refreshState, 5000);
 setInterval(refreshStats, 15000);
 let resizeTimer;
 window.addEventListener("resize", () => {

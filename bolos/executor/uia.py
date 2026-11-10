@@ -1,8 +1,8 @@
 """Windows UI Automation: type into the focused field, click by name, read the screen."""
 
 import difflib
-import re
 import time
+import unicodedata
 
 import win32clipboard
 import win32gui
@@ -13,12 +13,13 @@ CLICKABLE = {"Button", "Hyperlink", "MenuItem", "TabItem", "ListItem", "TreeItem
 READABLE = {"Text", "Hyperlink", "ListItem", "Header", "DataItem"}
 EDITABLE = {"Edit", "Document"}
 CLICK_MATCH_CUTOFF = 0.8
-_NOT_WORD = re.compile(r"[^\w\s]+")
 
 
 def _label(text: str) -> str:
     """Button label without decoration: "Next >" and "OK..." become "next" and "ok"."""
-    return " ".join(_NOT_WORD.sub(" ", text.casefold()).split())
+    folded = unicodedata.normalize("NFC", text.casefold())
+    words = "".join(c if unicodedata.category(c)[0] in "LMN" else " " for c in folded)
+    return " ".join(words.split())
 
 
 class ControlNotFound(Exception):
@@ -47,21 +48,12 @@ def _focused_field_kind() -> str:
 
 
 def match_label(target: str, labels: list[str]) -> str | None:
-    """The label (as given, already _label-normalised) to press for a spoken target, or None.
-
-    Clicks require confirmation and only an exact label or a near-identical one (a recognition slip
-    like "Sumbit") may be pressed; "Delete" must never match "Delete all", nor "Sign in" "Sign up".
-    """
+    """Find a close label for the guide's visual pointer. Automatic clicks require an exact match."""
     key = _label(target)
     if key in labels:
         return key
     close = difflib.get_close_matches(key, labels, n=1, cutoff=CLICK_MATCH_CUTOFF)
     return close[0] if close else None
-
-
-def _foreground():
-    hwnd = win32gui.GetForegroundWindow()
-    return _window(win32gui.GetAncestor(hwnd, 2) or hwnd)  # GA_ROOT, including UWP apps with a focused child
 
 
 def _window(hwnd):
@@ -109,32 +101,32 @@ def type_text(text: str) -> None:
 
 
 def click(target: str, *, binding=None) -> str:
-    """Click the visible control whose name best matches the spoken target. Returns its name."""
+    """Click the single visible control with the confirmed name. Returns its name."""
+    from bolos.guide.screen import Rect
+
     hwnd = win32gui.GetForegroundWindow()
     root = (win32gui.GetAncestor(hwnd, 2) or hwnd) if hwnd else 0
     if binding is not None and root != binding[0]:
         raise ControlNotFound(target)
     key = _label(target)
-    candidates = {}
-    for ctrl in _foreground().descendants():
+    candidates = []
+    for ctrl in _window(root).descendants():
         info = ctrl.element_info
-        if info.control_type in CLICKABLE and info.name and ctrl.is_visible() and ctrl.is_enabled():
-            if binding is not None and _label(info.name) != key:
-                continue
-            candidates.setdefault(_label(info.name), []).append(ctrl)
-    hit = key if binding is not None else match_label(target, list(candidates))
-    if len(candidates.get(hit, [])) != 1 or win32gui.GetForegroundWindow() != hwnd:
+        if (info.control_type in CLICKABLE and info.name and key and _label(info.name) == key
+                and ctrl.is_visible() and ctrl.is_enabled()):
+            candidates.append(ctrl)
+    if len(candidates) != 1:
         raise ControlNotFound(target)
-    control, = candidates[hit]
+    control, = candidates
     label = control.element_info.name
-    if binding is not None:
-        from bolos.guide.screen import Rect
-
-        rect = control.rectangle()
-        current = Rect(rect.left, rect.top, rect.right, rect.bottom)
-        at_point = win32gui.WindowFromPoint(current.center)
-        if not current.near(binding[1], 6) or not at_point or (win32gui.GetAncestor(at_point, 2) or at_point) != root:
-            raise ControlNotFound(target)
+    rect = control.rectangle()
+    current = Rect(rect.left, rect.top, rect.right, rect.bottom)
+    if binding is not None and not current.near(binding[1], 6):
+        raise ControlNotFound(target)
+    at_point = win32gui.WindowFromPoint(current.center)
+    if (not at_point or (win32gui.GetAncestor(at_point, 2) or at_point) != root
+            or win32gui.GetForegroundWindow() != hwnd):
+        raise ControlNotFound(target)
     control.click_input()
     return label
 

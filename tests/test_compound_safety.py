@@ -73,3 +73,12 @@ def test_no_boundary_means_no_extra_parse():
     assert not needs_step_resolution("aur", parser)
     assert not needs_step_resolution("", parser)
     assert parser.calls == []
+
+
+def test_kept_participle_at_end_of_a_music_title_is_not_a_boundary():
+    command = "YouTube lo Kurchi Madatha Petti video chalavo"
+    whole = Parse("play_media", True, {"query": "Kurchi Madatha Petti", "app": "YouTube"})
+    parser = Parser({"YouTube lo Kurchi Madatha Petti": Parse("play_media", True, {"query": "Kurchi Madatha"}),
+                     "video chalavo": Parse("media_control", True, control="resume")})
+    assert split(command, parser, whole) is None
+    assert not needs_step_resolution(command, parser, whole)

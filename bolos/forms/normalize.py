@@ -420,6 +420,11 @@ def choose(options, text: str) -> str:
         matches = [o for o in options if re.match(_OPTION_MEANING[meaning], _plain(o))]
         if len(matches) == 1:
             return matches[0]
+    if len(words) >= 2:
+        # A person can name the distinctive part of a long option, such as “Indian Citizen”.
+        matches = [o for o in options if f" {said} " in f" {_plain(o)} "]
+        if len(matches) == 1:
+            return matches[0]
     raise InvalidValue("choice")
 
 

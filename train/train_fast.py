@@ -194,17 +194,18 @@ def fit_thresholds(conf: np.ndarray, pred: np.ndarray, gold: np.ndarray, names: 
             for k, name in enumerate(names)}
 
 
-def fit_language_thresholds(conf: np.ndarray, pred: np.ndarray, gold: np.ndarray) -> tuple[dict[str, float], float]:
+def fit_language_thresholds(conf: np.ndarray, pred: np.ndarray, gold: np.ndarray,
+                            target: float = LANGUAGE_TARGET_ERROR) -> tuple[dict[str, float], float]:
     """Per-language thresholds, and the pooled one over every language.
 
     With ~50 held-out rows per language, a language the model predicts rarely (often "none") can't show the
-    target error on its own: even with no mistakes, (0 + 1) / (n + 1) <= 5% needs 19 accepted rows. Such a
+    target error on its own: even with no mistakes, the default 5% target needs 19 accepted rows. Such a
     language uses the pooled threshold, which is certified on all languages together, provided its own
     predictions above that threshold contain no error. A language never predicted on held-out rows stays
     never-sure, and one with enough rows keeps its own threshold (higher or lower than the pooled one)."""
-    pooled = lowest_safe_threshold(conf, pred == gold, LANGUAGE_TARGET_ERROR)
-    thresholds = fit_thresholds(conf, pred, gold, LANGUAGE_NAMES, {}, LANGUAGE_TARGET_ERROR)
-    enough = 1 / LANGUAGE_TARGET_ERROR - 1
+    pooled = lowest_safe_threshold(conf, pred == gold, target)
+    thresholds = fit_thresholds(conf, pred, gold, LANGUAGE_NAMES, {}, target)
+    enough = 1 / target - 1
     for k, name in enumerate(LANGUAGE_NAMES):
         mine = pred == k
         if thresholds[name] < 1.0 or pooled >= 1.0 or not mine.any() or mine.sum() / CAL_AUG_COPIES >= enough:

@@ -70,7 +70,7 @@ _FORMAT_ERROR = re.compile(r"valid|incorrect|format|must (be|have|contain|start)
                            r"अमान्य|गलत|सही", re.I)
 
 
-def page_error(message: str, form, language: str | None) -> str:
+def page_error(message: str, form, language: str | None) -> str | None:
     """One page error ('Mobile number: Please enter a valid number') explained in the user's language."""
     fields = sorted(getattr(form, "fields", ()) or (), key=lambda f: -len(f.label))
     text = message.strip()
@@ -78,7 +78,7 @@ def page_error(message: str, form, language: str | None) -> str:
     if field is None:
         field = next((f for f in fields if f.label and f.label.casefold() in text.casefold()), None)
     if field is None:
-        return prompt("page_error_raw", language, message=text)
+        return None  # an unknown page message may echo an entered value
     if _REQUIRED_ERROR.search(text) and not _FORMAT_ERROR.search(text):
         hint = prompt("required", language)
     else:
@@ -90,5 +90,5 @@ def page_errors(messages: list[str], form, language: str | None) -> list[str]:
     if not messages:
         return []
     lines = [prompt("page_errors", language, count=len(messages))]
-    lines += [page_error(m, form, language) for m in messages]
+    lines += [text for message in messages if (text := page_error(message, form, language)) is not None]
     return lines

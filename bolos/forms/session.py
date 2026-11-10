@@ -14,6 +14,7 @@ value is visible in the box on screen. Values never appear in status events, out
 
 import re
 from dataclasses import dataclass, field, replace
+from urllib.parse import urlsplit
 
 from bolos.executor import Outcome
 from bolos.forms import explain as explainer
@@ -76,6 +77,10 @@ _DONE = _phrases(
     "mudinjadhu|aipoyindi|ayipoyindi|zhala|jhala|kazhinju|hoye geche|hoyeche|thai gayu|thayu|ho gaya ji|"
     "ho gya ji|bhar ditta|ho gaya hai",
     "हो गया|भर दिया|ಆಯ್ತು|ಮುಗಿಯಿತು|முடிந்தது|ముగిసింది|అయిపోయింది|झाले|झालं|കഴിഞ്ഞു|হয়ে গেছে|થઈ ગયું|ਹੋ ਗਿਆ")
+_NO_MIDDLE_NAME = _phrases(
+    "none|no|no middle name|i have no middle name|i don't have one|i dont have one|"
+    "nahi|nahin|nahi hai|middle name nahi hai|"
+    "नहीं|नहीं है|मेरा बीच का नाम नहीं है|ಇಲ್ಲ|இல்லை|లేదు|नाही|ഇല്ല|নেই|નથી|ਨਹੀਂ")
 _MORE = _phrases(
     "more|tell more|details|all|aur|aur batao|sab|sab batao|innu|innu heli|innum|innum sollu|inka|inka cheppu|"
     "aankhi|anakhi|aankhi sanga|innum parayu|kooduthal|aro|aro bolo|vadhu|vadhu kaho|hor|hor dasso|sabh",
@@ -119,6 +124,11 @@ class FieldsBackend:
 
         return fields.scan()
 
+    def scan_for_filling(self):
+        from bolos.forms import fields
+
+        return fields.scan(options=False)
+
     def peek(self):
         """Inspect the window used for screen context without opening any dropdown."""
         from bolos.forms import fields
@@ -126,17 +136,32 @@ class FieldsBackend:
 
         return fields.scan(user_window(), options=False)
 
-    def _current(self, form, target):
+    def rescan(self, form, *, option_key: str | None = None):
         from bolos.forms import fields
 
-        fresh = fields.scan(form.hwnd, options=False)
-        if (fresh.url or "") != (form.url or ""):
+        fresh = (fields.scan(form.hwnd, options=False) if option_key is None
+                 else fields.scan(form.hwnd, option_key=option_key))
+        if (fresh.hwnd, fresh.url, fresh.title) != (form.hwnd, form.url, form.title):
             raise FormChanged("The page changed")
+        if not {f.key for f in form.fields}.intersection(f.key for f in fresh.fields):
+            raise FormChanged("The form is no longer on the page")
+        return fresh
+
+    def _current(self, form, target):
+        fresh = self.rescan(form)
         match = next((f for f in fresh.fields if f.key == target.key and f.label == target.label
                       and f.control_type == target.control_type), None)
         if match is None:
             raise FormChanged("The field is no longer on the page")
         return fresh, replace(match, options=target.options or match.options)
+
+    def refresh_target(self, form, target):
+        """Find the field by identity before asking. Earlier choices can change its label and options."""
+        if target.control_type == "ComboBox" and not target.protected:
+            fresh = self.rescan(form, option_key=target.key)
+        else:
+            fresh = self.rescan(form)
+        return next((f for f in fresh.fields if f.key == target.key and f.control_type == target.control_type), None)
 
     def focus(self, form, target):
         """Put the cursor in the field (scrolling it into view) and return where it is on screen now."""
@@ -157,33 +182,17 @@ class FieldsBackend:
             return fields.choose(current, value) or fields.choose(self._current(form, target)[1], value)
         return fields.fill(current, value)
 
-    def clear(self, form, target) -> bool:
-        from bolos.forms import fields
-
-        _, current = self._current(form, target)
-        if current.control_type == "CheckBox":
-            return fields.check_box(current, False)
-        if current.control_type in {"ComboBox", "RadioButton"}:
-            return True  # a choice is replaced by the next answer; there is no empty option to pick
-        return fields.fill(current, "")
-
     def press(self, form, button: str) -> bool:
         from bolos.forms import fields
 
-        fresh = fields.scan(form.hwnd, options=False)
-        if (fresh.url or "") != (form.url or ""):
-            raise FormChanged("The page changed")
+        fresh = self.rescan(form)
+        if fresh.errors or fresh.fields != form.fields or any(
+                before.value != after.value for before, after in zip(form.fields, fresh.fields, strict=True)):
+            raise FormChanged("The form changed after review")
         return fields.press(fresh, button)
 
-    def rescan(self, form):
-        from bolos.forms import fields
-
-        return fields.scan(form.hwnd, options=False)
-
     def errors(self, form) -> list[str]:
-        from bolos.forms import fields
-
-        return fields.errors(form.hwnd)
+        return self.rescan(form).errors
 
     def url(self, form) -> str | None:
         from bolos.forms import fields
@@ -208,6 +217,26 @@ class _Stop(Exception):
     def __init__(self, ok=True, key="filled"):
         super().__init__(key)
         self.ok, self.key = ok, key
+
+
+def _form_url_identity(url: str | None) -> tuple | None:
+    try:
+        parts = urlsplit(url or "")
+        if parts.scheme not in {"http", "https"} or not parts.hostname or parts.username is not None:
+            return None
+        port = parts.port if parts.port is not None else (443 if parts.scheme == "https" else 80)
+        return parts.scheme, parts.hostname, port, parts.path
+    except ValueError:
+        return None
+
+
+def _matches_application(form, expected_url: str) -> bool:
+    from bolos.guide.planner import is_pan_application, is_pan_application_form
+
+    if is_pan_application(expected_url):
+        return is_pan_application(form.url) and is_pan_application_form(form)
+    expected = _form_url_identity(expected_url)
+    return expected is not None and _form_url_identity(form.url) == expected
 
 
 class ConsentFile:
@@ -258,21 +287,42 @@ _QUESTION = {"name": "q_name", "gender": "q_gender", "mobile": "q_mobile", "emai
              "postal": "q_postal", "aadhaar": "q_aadhaar", "pan": "q_pan", "ifsc": "q_ifsc", "account": "q_account",
              "occupation": "q_occupation", "income": "q_income"}
 _BIRTH = re.compile(r"birth|dob|जन्म|ಜನ್ಮ|ಹುಟ್ಟಿದ|பிறந்த|పుట్టిన|ജനന|জন্ম|જન્મ|ਜਨਮ", re.IGNORECASE)
+_NAME_PART = re.compile(r"\b(first|given|middle|last)\s+name\b|\bsurname\b", re.IGNORECASE)
+_PAN_TYPE = re.compile(r"\bpan\s+application\s+type\b", re.IGNORECASE)
 _SPOKEN_OPTIONS = 5  # a choice with more options than this (36 states) is answered without a list read out
+
+
+def _name_part(label: str) -> str | None:
+    match = _NAME_PART.search(label or "")
+    if match is None:
+        return None
+    part = (match[1] or "last").lower()
+    return "first" if part == "given" else part
 
 
 def question(target, concept: str, language: str | None) -> str:
     """What to ask for one field: "अपना पूरा नाम बताइए।" for a name, else the page's label as a question."""
+    if _is_pan_type(target):
+        return prompt("q_pan_application_type", language)
     key = _QUESTION.get(concept)
-    if concept == "date" and _BIRTH.search(target.label or ""):
+    part = _name_part(target.label) if concept == "name" else None
+    if part:
+        key = f"q_{part}_name"
+    elif concept == "date" and _BIRTH.search(target.label or ""):
         key = "q_dob"
     elif concept == "place":
         key = "q_state" if indian.is_state_field(target.label) else "q_city"
     text = prompt(key, language) if key else prompt("ask", language, label=target.label)
+    if part == "middle" and not target.required:
+        text = f"{text} {prompt('skip_if_none', language)}"
     options = real_options(target.options)
     if options and len(options) <= _SPOKEN_OPTIONS and concept != "gender":
         text = f"{text} {', '.join(options)}"
     return text
+
+
+def _is_pan_type(target) -> bool:
+    return target.control_type == "ComboBox" and _PAN_TYPE.search(target.label or "") is not None
 
 
 def _takes_hints(listen) -> bool:
@@ -291,6 +341,8 @@ class FormSession:
 
     def __init__(self, form, voice, backend, language: str | None, profile=None, status=lambda *_: None,
                  highlight=None, consent=None, *, ask_consent=True):
+        from bolos.guide.planner import is_pan_application
+
         self.form = form
         self.voice = voice
         self.backend = backend
@@ -305,11 +357,15 @@ class FormSession:
         self._entered: dict[str, tuple] = {}
         self._order: list[str] = []
         self._manual: list = []  # fields the user fills in themselves, in screen order
+        self._unanswered_fields = 0
+        self._structure_changed = False
+        self._pan_registration = is_pan_application(form.url)
 
     # --- speech -------------------------------------------------------------------------------------------
     def _say(self, key: str, **values) -> None:
-        if self.voice.speak(prompt(key, self.language, **values), self.language) is False:
-            raise _Stop(False, "")
+        text = prompt(key, self.language, **values)
+        self.status("reply", text)
+        self._say_text(text)
 
     def _say_text(self, text: str) -> None:
         if self.voice.speak(text, self.language) is False:
@@ -353,14 +409,14 @@ class FormSession:
         try:
             self._run()
         except _Stop as stop:
-            self.result.ok = stop.ok
+            self.result.ok = stop.ok or self.result.submitted
             self.result.stopped = True
             self._hide()
             if stop.key:
                 try:
                     self._say(stop.key)
                 except _Stop:
-                    self.result.ok = False
+                    self.result.ok = self.result.submitted
         except FormChanged:
             self.result.ok = False
             self._hide()
@@ -403,7 +459,7 @@ class FormSession:
         except Exception:
             url = None
         warnings = safety.assess(url, self.form)
-        spoken = [w for w in warnings if w.key in safety.DANGER | {"site_http", "site_money_fields"}]
+        spoken = [w for w in warnings if w.key in safety.DANGER | {"site_money_fields"}]
         for text in safety.messages(spoken, self.language):
             self._say_text(text)
         if safety.dangerous(warnings):
@@ -431,12 +487,28 @@ class FormSession:
             f.control_type != "ComboBox" or f.value in real_options(first.get(f.key, f).options or f.options))}
 
     def _fill_fields(self, fields: list, skip_filled: bool) -> None:
-        filled = self._filled_now() if skip_filled else {}
+        refresh = getattr(self.backend, "refresh_target", None)
+        filled = self._filled_now() if skip_filled and refresh is None else {}
+        positions = {target.key: index for index, target in enumerate(fields)}
+        revising = None
         i = 0
         while i < len(fields):
             target = fields[i]
+            if refresh is not None:
+                current = refresh(self.form, target)
+                if current is None:
+                    self._structure_changed = True
+                    i += 1
+                    continue  # earlier selections can hide an inapplicable field
+                target = current
+                answered = target.value if target.control_type != "ComboBox" else target.value in real_options(
+                    target.options)
+            else:
+                answered = filled.get(target.key)
             concept = kinds.classify(target)
             sens = kinds.sensitivity(concept)
+            if self._pan_registration and target.control_type == "CheckBox":
+                sens = kinds.MANUAL  # privacy and CAPTCHA remain manual even with incomplete browser labels
             if target.protected or sens in {kinds.NEVER_FILL, kinds.MANUAL} or target.kind in {"secret", "file",
                                                                                                 "manual"}:
                 if target.label not in self.result.user_must:
@@ -444,24 +516,26 @@ class FormSession:
                     self._manual.append((target, sens))
                 i += 1
                 continue
-            if skip_filled and filled.get(target.key) and not getattr(target, "error", None):
+            if skip_filled and target.key != revising and answered and not target.error:
                 i += 1
                 continue
-            back_to = self._ask(target, concept)
-            if back_to is not None:
-                i = next((j for j, f in enumerate(fields) if f.key == back_to), i)
+            revising = self._ask(target, concept, positions, offer_saved=skip_filled and target.key != revising)
+            if revising is not None:
+                i = positions[revising]
                 continue
             i += 1
 
-    def _ask(self, target, concept: str) -> str | None:
+    def _ask(self, target, concept: str, positions: dict[str, int], *, offer_saved: bool) -> str | None:
         """Highlight one field, ask, and fill it with the answer. Returns a field key to go back to."""
         saved = self.profile.get(concept) if self.profile is not None and concept in kinds.PROFILE_CONCEPTS \
             else None
         asked = question(target, concept, self.language)
+        pan_options = ", ".join(real_options(target.options)) if _is_pan_type(target) else ""
+        optional_middle_name = concept == "name" and not target.required and _name_part(target.label) == "middle"
         hints = indian.keyterms(concept, target.label)
         self._show(target)
         prefilled = False
-        if saved and not getattr(target, "value", None):
+        if offer_saved and saved and not getattr(target, "value", None):
             try:
                 prefilled = self._enter(target, concept, normalize(target, saved, concept))
             except InvalidValue:
@@ -469,14 +543,23 @@ class FormSession:
         tries = silences = 0
         while tries < _MAX_TRIES:
             self.status("state", "filling")
-            self._say_text(f"{asked} {prompt('saved_filled', self.language)}" if prefilled else asked)
+            text = f"{asked} {prompt('saved_filled', self.language)}" if prefilled else asked
+            self.status("reply", f"{text} {pan_options}" if pan_options else text)
+            self._say_text(text)
             answer = self._listen(hints)
             if answer is None:
                 silences += 1
-                if silences >= 2:
+                if silences < 2:
+                    continue  # one silence: ask again
+                self._unanswered_fields += 1
+                if self._unanswered_fields >= 2:
                     raise _Stop(True, "filled")
-                continue  # one silence: ask again
+                if not prefilled:
+                    self._skip(target)
+                    self._say("no_answer_skipped")
+                return None
             silences = 0
+            self._unanswered_fields = 0
             command = command_of(answer)
             if command == "stop":
                 raise _Stop(True, "filled")
@@ -485,12 +568,12 @@ class FormSession:
             if command == "forget":
                 self._forget()
                 continue
-            if command == "skip":
+            if command == "skip" or (optional_middle_name and _key(answer) in _NO_MIDDLE_NAME):
                 if not prefilled:
-                    self.result.skipped.append(target.label)
+                    self._skip(target)
                 return None
             if command == "back":
-                previous = self._go_back(target)
+                previous = self._go_back(target, positions)
                 if previous is not None:
                     return previous
                 continue
@@ -498,7 +581,7 @@ class FormSession:
                 continue
             if command == "explain":
                 where = kinds.where_to_find(concept, self.language)
-                self._say_text(" ".join(t for t in (kinds.explain(concept, self.language), where) if t))
+                self._say_text(" ".join(t for t in (kinds.explain(concept, self.language), where, pan_options) if t))
                 continue
             if command is None and prefilled and target.kind != "checkbox":
                 if is_yes(answer):
@@ -519,10 +602,14 @@ class FormSession:
             if self._enter(target, concept, value):
                 return None
             self._say("not_entered")
-            self.result.skipped.append(target.label)
+            self._skip(target)
             return None
-        self.result.skipped.append(target.label)
+        self._skip(target)
         return None
+
+    def _skip(self, target) -> None:
+        if target.label not in self.result.skipped:
+            self.result.skipped.append(target.label)
 
     def _enter(self, target, concept: str, value: str) -> bool:
         """Put `value` into the field now. Records it for 'go back', the end review and the profile."""
@@ -541,9 +628,9 @@ class FormSession:
             self.result.filled.append(target.label)
         return True
 
-    def _go_back(self, current) -> str | None:
-        """'Galat bhara': clear the previous answer and ask it again."""
-        previous = next((k for k in reversed(self._order) if k != current.key), None)
+    def _go_back(self, current, positions: dict[str, int]) -> str | None:
+        """Ask for a correction without erasing the value already on the page."""
+        previous = next((k for k in reversed(self._order) if k in positions and k != current.key), None)
         if previous is None:
             self._say("back_none")
             return None
@@ -551,8 +638,9 @@ class FormSession:
         self._order.remove(previous)
         if target.label in self.result.filled:
             self.result.filled.remove(target.label)
-        self.backend.clear(self.form, target)
-        self._say("cleared", label=target.label)
+        if target.label not in self.result.skipped:
+            self.result.skipped.append(target.label)
+        self._say("correct", label=target.label)
         return previous
 
     def _forget(self) -> None:
@@ -562,8 +650,15 @@ class FormSession:
 
     def _let_user_type(self) -> None:
         """OTP, CAPTCHA, uploads, declarations: the user does them; wait until they say done (or stop)."""
+        if self._pan_registration:
+            self._say("review_consent_captcha")
+            return
         if not self._manual:
             return
+        if (any(kinds.is_consent(target) for target, _ in self._manual)
+                and any(kinds.classify(target) == "captcha" for target, _ in self._manual)):
+            self._say("review_consent_captcha")
+            return  # these controls already prevent submission; let the user finish at their own pace
         if any(sens == kinds.NEVER_FILL for _, sens in self._manual):
             self._say("secrets")
         self._show(self._manual[0][0])
@@ -584,7 +679,7 @@ class FormSession:
                                                                                        kinds.MANUAL}]
         if wrong:
             self._fill_fields(wrong, skip_filled=False)
-        self.result.errors = self._errors()
+        self.result.errors = explainer.page_errors(self._errors(), self.form, self.language)
 
     def _errors(self) -> list[str]:
         try:
@@ -594,32 +689,37 @@ class FormSession:
         except Exception:
             return []
 
-    def _required_left(self) -> list[str]:
+    def _review(self):
         rescan = getattr(self.backend, "rescan", None)
         if rescan is None:
-            return [label for label in self.result.skipped
-                    if any(f.label == label and f.required for f in self.form.fields)]
+            return self.form, [label for label in self.result.skipped
+                               if any(f.label == label and f.required for f in self.form.fields)]
         try:
             fresh = rescan(self.form)
         except FormChanged:
             raise
         except Exception:
-            return list(self.result.skipped)
-        return [f.label for f in fresh.fields if f.required and not f.protected and not f.value
+            raise UnsupportedField("Could not check the form") from None
+        left = [f.label for f in fresh.fields if f.required and not f.protected and not f.value
                 and kinds.sensitivity(kinds.classify(f)) not in {kinds.NEVER_FILL, kinds.MANUAL}]
+        return fresh, left
 
-    def _submit_button(self) -> str | None:
-        buttons = [b for b in getattr(self.form, "buttons", ()) or ()
+    def _submit_button(self, form) -> str | None:
+        buttons = [b for b in getattr(form, "buttons", ()) or ()
                    if _SUBMIT_BUTTON.match(b.strip()) and not _MONEY_BUTTON.search(b)]
         return buttons[0] if len(buttons) == 1 else None  # two Submit buttons: never guess
 
     def _finish(self) -> None:
-        left = self._required_left()
+        reviewed, left = self._review()
         if left:
             self._say("left_required", labels=", ".join(left))
-        button = self._submit_button()
-        if left or self.result.errors or self.result.skipped or self.result.user_must or button is None:
-            if self.result.errors or left:
+        button = self._submit_button(reviewed)
+        manual = any(kinds.sensitivity(kinds.classify(f)) in {kinds.NEVER_FILL, kinds.MANUAL}
+                     for f in reviewed.fields)
+        errors = self.result.errors or reviewed.errors
+        if (left or errors or self.result.skipped or self.result.user_must or manual or self._structure_changed
+                or self._pan_registration or button is None):
+            if errors or left:
                 self._say("incomplete")
             elif self.result.skipped:
                 self._say("skipped")
@@ -629,15 +729,16 @@ class FormSession:
         self.status("state", "confirming")
         self._say("submit")
         reply = self._listen()
+        if command_of(reply) == "stop":
+            raise _Stop(True)
         # Only a clear, short yes submits: "haan", "yes", "ಹೌದು". "Haan nahi", silence or anything else does not.
         if reply and is_yes(reply) and command_of(reply) is None:
             self.status("state", "executing")
-            if self.backend.press(self.form, button):
+            if self.backend.press(reviewed, button):
                 self.result.submitted = True
-                self._remember()
                 self._say("submitted")
+                self._remember()
                 return
-            self._say("not_entered")
         self._remember()
         self._say("filled")
 
@@ -727,14 +828,17 @@ class FormAssistant:
         self.status("state", "done" if ok else "error")
         return Outcome(ok, "form_handled" if ok else failure)
 
-    def _form(self, language):
+    def _form(self, language, *, for_filling=False, expected_url=None):
         try:
-            form = self.backend.scan()
-            if form.fields:
+            scan = getattr(self.backend, "scan_for_filling", self.backend.scan) if for_filling else self.backend.scan
+            form = scan()
+            if form.fields and (expected_url is None or _matches_application(form, expected_url)):
                 return form
         except Exception:
             pass
-        self._say("no_fields", language)
+        key = "return_to_application" if expected_url is not None else "no_fields"
+        self.status("reply", prompt(key, language))
+        self._say(key, language)
         return None
 
     def _url(self, form) -> str | None:
@@ -755,7 +859,7 @@ class FormAssistant:
         explanation = explainer.explain(form, language)
         self.voice.speak(explanation.summary, language)
         warnings = [w for w in safety.assess(self._url(form), form)
-                    if w.key in safety.DANGER | {"site_http", "site_money_fields"}]
+                    if w.key in safety.DANGER | {"site_money_fields"}]
         for text in safety.messages(warnings, language):
             self.voice.speak(text, language)
         followup = getattr(self.voice, "followup", None)
@@ -792,8 +896,8 @@ class FormAssistant:
             self.voice.speak(text, language)
         return self._done()
 
-    def fill(self, language=None) -> Outcome:
-        form = self._form(language)
+    def fill(self, language=None, *, expected_url: str | None = None) -> Outcome:
+        form = self._form(language, for_filling=True, expected_url=expected_url)
         if form is None:
             return self._done(False, "form_not_found")
         result = FormSession(form, self.voice, self.backend, language, self.profile, self.status,

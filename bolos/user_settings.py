@@ -15,6 +15,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+import tempfile
 import threading
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -60,15 +61,19 @@ class Option:
                 raise SettingError(f"{self.label}: expected on or off")
             return value
         if self.kind == "choice":
-            if value not in self.choices:
-                raise SettingError(f"{self.label}: {value!r} is not one of the choices")
+            if not isinstance(value, str) or value not in self.choices:
+                raise SettingError(f"Choose one of the listed options for {self.label.lower()}.")
             return value
         if self.kind == "choices":
-            if not isinstance(value, list) or not value or any(v not in self.choices for v in value):
-                raise SettingError(f"{self.label}: choose at least one")
+            if not isinstance(value, list) or not value or any(
+                not isinstance(v, str) or v not in self.choices for v in value
+            ):
+                raise SettingError(f"Choose at least one of the listed options for {self.label.lower()}.")
             return [k for k in self.choices if k in value]  # canonical order, no duplicates
         if not isinstance(value, str):
             raise SettingError(f"{self.label}: expected text")
+        if self.kind in {"input_device", "output_device"}:
+            return value.strip()
         value = " ".join(value.split())
         if self.kind == "hotkey":
             from bolos.hotkey import HotkeyError, parse
@@ -90,32 +95,32 @@ def options(defaults: dict[str, object]) -> list[Option]:
     """Every option, in the order the dashboard shows them. `defaults` holds the .env-backed defaults."""
     return [
         Option("input_device", "Microphone", "Sound", "input_device", "",
-               help="The microphone Bol OS listens with. Windows default follows the Sound settings."),
+               help="Choose the microphone Sahur listens to. Windows default follows your Windows Sound settings."),
         Option("output_device", "Speaker", "Sound", "output_device", "",
                help="Where replies and chimes are played."),
         Option("chimes", "Start and stop chimes", "Sound", "toggle", True,
-               help="A short tone when Bol OS starts and stops listening."),
-        Option("hotkey", "Push-to-talk hotkey", "Voice", "hotkey", defaults["hotkey"], setting="hotkey",
-               help="Hold it while speaking, or tap it and speak."),
+               help="A short tone when Sahur starts and stops listening."),
+        Option("hotkey", "Shortcut to speak", "Voice", "hotkey", defaults["hotkey"], setting="hotkey",
+               help="Select this box, then press the new key combination. Press Esc to cancel."),
         Option("user_language", "Reply language", "Voice", "choice", defaults["user_language"],
                choices=LANGUAGES, setting="user_language",
-               help="Used when the language of a command is unclear (romanised Hindi and English look alike)."),
+               help="Sahur replies in this language when it cannot tell which language you spoke."),
         Option("stt_languages", "Languages to recognise", "Voice", "choices", defaults["stt_languages"],
                choices=LANGUAGES, setting="stt_languages",
-               help="Fewer languages make Prisma more accurate. Applies from the next command."),
+               help="Pick the languages you speak to Sahur. Choosing only the ones you use can improve accuracy."),
         Option("tts_voice", "Voice", "Voice", "choice", defaults["tts_voice"],
-               choices={v: v for v in VOICES}, setting="tts_voice", help="Gnani Timbre voice for replies."),
+               choices={v: v for v in VOICES}, setting="tts_voice", help="The voice you hear when Sahur replies."),
         Option("buddy_visible", "Show the Sahur companion", "Widget", "toggle", True,
                help="Drag Sahur to move it. When disabled, Sahur appears during commands."),
         Option("widget_visible", "Allow click-to-open details", "Widget", "toggle", True,
                help="Click Sahur to show the latest transcript, reply, and command details."),
         Option("widget_corner", "Card position", "Widget", "choice", "bottom-right", choices=CORNERS,
                help="Used by the standalone status card. Sahur's details open beside the sprite."),
-        Option("screen_images", "Let System 2 see the screen", "Privacy", "toggle", True,
-               help="\"Screen par kya hai\" and guides send a screenshot to System 2. Off: only the text of "
-                    "the window is used. Forms with your details typed in are never sent either way."),
+        Option("screen_images", "Share screenshots for screen help", "Privacy", "toggle", True,
+               help="Sahur can send a picture of your screen to its AI service when you ask for screen help. "
+                    "When off, it can still send text from your window."),
         Option("keep_history", "Keep command history", "Privacy", "toggle", True,
-               help="Saved on this computer only, for the statistics here and for Bol OS to learn from."),
+               help="Save commands on this computer for the statistics below and to help Sahur learn."),
         Option("decider", "Who decides", "Brain", "choice", defaults["decider"], live=False, choices=DECIDERS,
                setting="decider", help="System 1 is Bol OS's own model on this computer (about 10 ms)."),
         Option("llm_provider", "System 2", "Brain", "choice", defaults["llm_provider"], live=False,
@@ -126,9 +131,9 @@ def options(defaults: dict[str, object]) -> list[Option]:
                live=False, choices=EFFORTS, setting="codex_effort", help="Lower is faster."),
         Option("codex_fast", "Codex Fast mode", "Brain", "toggle", defaults["codex_fast"],
                live=False, setting="codex_fast", help="Request the Fast service tier for Codex replies."),
-        Option("wake_enabled", "\"Hey Bol OS\" wake word", "Brain", "toggle", defaults["wake_enabled"],
+        Option("wake_enabled", "Start listening with ‘Hey Bol OS’", "Brain", "toggle", defaults["wake_enabled"],
                live=False, setting="wake_enabled",
-               help="Needs a trained wake word model (train/wake); without one, use the hotkey."),
+               help="If this option is unavailable, use your keyboard shortcut to speak."),
     ]
 
 
@@ -203,12 +208,20 @@ class UserSettings:
         checked = self.check(changes)
         with self._lock:
             before = {key: self._saved.get(key, self.options[key].default) for key in checked}
+            saved = self._saved.copy()
             for key, value in checked.items():
                 if value == self.options[key].default:
-                    self._saved.pop(key, None)  # back to the default: follow .env again
+                    saved.pop(key, None)  # back to the default: follow .env again
                 else:
-                    self._saved[key] = value
-            self._write()
+                    saved[key] = value
+            if saved != self._saved:
+                try:
+                    self._write(saved)
+                except OSError as e:
+                    log.warning("Could not save dashboard settings", exc_info=True)
+                    raise SettingError("Sahur couldn't save your changes. Try again. If it keeps happening, "
+                                       "ask the person who set up Sahur for help.") from e
+                self._saved = saved
         return {k: v for k, v in checked.items() if before[k] != v}
 
     def check(self, changes: dict[str, object]) -> dict[str, object]:
@@ -225,10 +238,17 @@ class UserSettings:
         """Everything back to the defaults."""
         return self.update({key: o.default for key, o in self.options.items()})
 
-    def _write(self) -> None:
+    def _write(self, saved: dict[str, object]) -> None:
         if self.path is None:
             return
         self.path.parent.mkdir(parents=True, exist_ok=True)
-        tmp = self.path.with_suffix(".tmp")
-        tmp.write_text(json.dumps(self._saved, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
-        tmp.replace(self.path)  # atomic: a crash leaves the old file or the new one
+        data = json.dumps(saved, indent=1) + "\n"
+        with tempfile.NamedTemporaryFile(dir=self.path.parent, delete=False) as file:
+            tmp = Path(file.name)
+            try:
+                file.write(data.encode("ascii"))
+                file.close()
+                tmp.replace(self.path)  # atomic: a crash leaves the old file or the new one
+            finally:
+                file.close()
+                tmp.unlink(missing_ok=True)

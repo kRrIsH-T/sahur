@@ -14,6 +14,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from urllib.parse import parse_qs, urlsplit
 
+from bolos.forms.fields import Form
 from bolos.guide.screen import Observation
 from bolos.responses import LANGUAGE_NAMES, lang_key
 
@@ -24,6 +25,8 @@ STATUSES = ("step", "done", "cannot", "form")
 # authorises for PAN. Anything else the person opens themselves, so a model can never send them to a look-alike.
 OFFICIAL_SUFFIXES = (".gov.in", ".nic.in")
 OFFICIAL_DOMAINS = ("proteantech.in", "protean-tinpan.com", "utiitsl.com")
+PAN_APPLICATION_URL = "https://onlineservices.proteantech.in/paam/endUserRegisterContact.html"
+_PAN_APPLICATION = urlsplit(PAN_APPLICATION_URL)
 # Where a lesson for these services starts: the portal's home page, so the person learns the way in.
 OFFICIAL_STARTS = {
     "a new PAN card (physical card, Indian citizen; Protean, authorised by the Income Tax Department; its "
@@ -34,6 +37,29 @@ OFFICIAL_STARTS = {
     "a voter ID card": "https://voters.eci.gov.in/",
     "DigiLocker documents": "https://www.digilocker.gov.in/",
 }
+
+
+def is_pan_application(url: str | None) -> bool:
+    """Match the actual PAN form; Chromium's address bar sometimes omits the HTTPS scheme."""
+    address = (url or "").strip()
+    try:
+        parts = urlsplit(address if "://" in address else f"//{address}", scheme="https")
+        return (parts.scheme == "https" and parts.username is None and parts.password is None
+                and parts.port in (None, 443)
+                and parts.hostname in {_PAN_APPLICATION.hostname, f"www.{_PAN_APPLICATION.hostname}"}
+                and parts.path == _PAN_APPLICATION.path)
+    except ValueError:
+        return False
+
+
+def is_pan_application_form(form: Form) -> bool:
+    """Distinguish the New Application controls from Resume Application at the same address."""
+    choices = [field.label.casefold() for field in form.fields if field.control_type == "ComboBox"]
+    edits = [field.label.casefold() for field in form.fields if field.control_type == "Edit"]
+    # The category control can disappear once the user picks an individual application type.
+    return (any("application type" in label for label in choices)
+            and any("surname" in label or "last name" in label for label in edits)
+            and any("email" in label or "mobile" in label for label in edits))
 
 
 def official(url: str) -> bool:

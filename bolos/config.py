@@ -32,10 +32,13 @@ class Settings:
     llm_api_key: str
     llm_model: str
     llm_rpm: int  # requests per minute to stay under; 0 means no pacing
-    llm_provider: str  # "codex" (Codex CLI) or "openai" (any OpenAI-compatible API: Gemini, Evon, ...)
+    llm_provider: str  # "codex" (Codex CLI), "claude" (Claude Code CLI) or "openai" (any OpenAI-compatible API: Gemini, Evon, ...)
     codex_path: str
     codex_model: str
     codex_effort: str
+    claude_path: str
+    claude_model: str
+    claude_effort: str
     laya_model: str
     decider: str  # "system1" (own model, LLM when unsure), "fast" (own model only), "llm" or "laya"
     fast_model: Path
@@ -86,6 +89,9 @@ def _from_env() -> Settings:
         codex_path=env("CODEX_PATH", ""),
         codex_model=env("CODEX_MODEL", "gpt-6-luna"),
         codex_effort=env("CODEX_EFFORT", "low"),
+        claude_path=env("CLAUDE_PATH", ""),
+        claude_model=env("CLAUDE_MODEL", "haiku"),  # the fastest model; "sonnet" if answers need more care
+        claude_effort=env("CLAUDE_EFFORT", "low"),
         laya_model=env("LAYA_MODEL", "multilingual"),
         decider=env("DECIDER", "system1"),
         fast_model=Path(env("FAST_MODEL", str(ROOT / "bolos" / "fast" / "models" / "system1.npz"))),

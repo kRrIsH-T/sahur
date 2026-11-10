@@ -9,6 +9,7 @@ import difflib
 import re
 import threading
 import time
+import unicodedata
 from dataclasses import dataclass, replace
 from dataclasses import field as _dc_field
 from urllib.parse import urlsplit
@@ -211,6 +212,23 @@ _VERIFY_WAIT = 1.0
 _PLACEHOLDER = re.compile(r"^\s*$|^\s*-|^\s*(select|choose|please|pick)\b|चुन|निवड|ಆಯ್ಕೆ|தேர்ந்தெடு|"
                           r"ఎంచుకో|തിരഞ്ഞെടു|নির্বাচন|বাছাই|પસંદ|ਚੁਣ", re.I)
 _tls = threading.local()
+_PAN_FORM_EDITS = {
+    "f_name_end": "First Name",
+    "m_name_end": "Middle Name",
+    "l_name_end": "Last Name / Surname*",
+    "date_of_birth_reg": "Date of Birth / Incorporation / Formation (DD/MM/YYYY)*",
+    "email_id2": "Email ID*",
+    "rvContactNo": "Mobile Number*",
+}
+
+
+def _pan_registration(url: str | None) -> bool:
+    try:
+        site = urlsplit(url or "")
+        return (site.scheme == "https" and site.hostname == "onlineservices.proteantech.in"
+                and site.path.casefold() == "/paam/enduserregistercontact.html")
+    except ValueError:
+        return False
 
 
 @dataclass
@@ -450,9 +468,13 @@ def form_from_tree(root: Node, hwnd: int | None = None, title: str | None = None
                 walk(child, ancestors + [child])
 
     walk(root, [])
+    # Protean changes these visible labels after choosing the application type and category, and some
+    # of its help text appears between the label and input. Keep the known controls' labels stable.
+    pan_edits = _PAN_FORM_EDITS if _pan_registration(url or root.value) else {}
     fields = [_radio_field(radio_groups[e[1]], id_texts, hwnd) if e[0] == "radio"
               else _plain_field(e[1], following.get(id(e[1]), e[2]) if e[1].ct == "CheckBox" else e[2],
-                                id_texts, hwnd) for e in entries]
+                                id_texts, hwnd, pan_edits.get(e[1].aid) if e[1].ct == "Edit" else None)
+              for e in entries]
     errors = list(dict.fromkeys(alerts)) + [f"{f.label}: {f.error}" for f in fields if f.error]
     return Form(title=title if title is not None else root.name, url=url, fields=fields, buttons=buttons,
                 errors=errors, hwnd=hwnd, headings=headings, button_elements=button_elements)
@@ -478,12 +500,22 @@ def _radio_field(group: dict, id_texts: dict, hwnd) -> Field:
 _LABEL_WORDS = 16  # a checkbox's sentence is spoken as its label: its first words only
 
 
-def _plain_field(node: Node, fallback: str, id_texts: dict, hwnd) -> Field:
-    name = _clean(node.name)
+def _plain_field(node: Node, fallback: str, id_texts: dict, hwnd, pan_label: str | None = None) -> Field:
+    name = _clean(pan_label or node.name)
+    value = node.value
     # An unlabelled dropdown reports its selected option as its name ("----Please Select------", later
     # "INDIVIDUAL"): that is not its label, and it would change as soon as a choice is made.
-    if node.ct == "ComboBox" and name and (_PLACEHOLDER.search(name) or name == _clean(node.value or "")):
-        name = ""
+    if node.ct == "ComboBox":
+        name = _choice_text(name)
+        value = _choice_text(value or "")
+        # Select2 may expose its displayed choice as a read-only textbox without a Value pattern.
+        if name and not value and any(n.role == "textbox" and name == _choice_text(n.name)
+                                      for n in _descendants(node)):
+            value = name
+        if name and (_PLACEHOLDER.search(name) or name == value):
+            name = ""
+        if _PLACEHOLDER.search(value):
+            value = ""
     # The required star in the label before the field ("Last Name / Surname*"), when that label is this field's.
     required_mark = "*" in (fallback or "") and (not name or _clean(fallback) == name)
     fallback = " ".join((fallback or "").replace("*", " ").split())
@@ -494,7 +526,7 @@ def _plain_field(node: Node, fallback: str, id_texts: dict, hwnd) -> Field:
         sentence, fallback = fallback, " ".join(fallback.split()[:_LABEL_WORDS]) + "..."
     label = name or _clean(node.help) or fallback
     identifier = re.sub(r"[_-]+", " ", node.aid or "")
-    control, parts, value = node.ct, (), node.value
+    control, parts = node.ct, ()
     if node.ct == "Button":  # file input: "Upload Aadhaar (front side): No file chosen"
         control, kind, value = "File", "file", None
         label = _clean(node.name[: len(node.name) - len(node.value or "")].rstrip(": ")) or fallback
@@ -514,7 +546,7 @@ def _plain_field(node: Node, fallback: str, id_texts: dict, hwnd) -> Field:
         node.readonly and node.ct == "Edit")
     return Field(
         key=_key(node), label=label or "Unlabelled field", kind=kind if label else "manual",
-        required=node.required or "*" in node.name or required_mark, protected=protected,
+        required=node.required or "*" in (pan_label or node.name) or required_mark, protected=protected,
         help=sentence or (node.help if node.help and _clean(node.help) != label else ""), control_type=control,
         value=None if secret else value, error=_error_text(node, id_texts), is_password=node.password,
         rect=node.rect, element=node.el, parts=parts, hwnd=hwnd)
@@ -561,7 +593,7 @@ def _is_chromium(hwnd: int) -> bool:
     return win32gui.GetClassName(hwnd).startswith("Chrome_WidgetWin")
 
 
-def scan(hwnd: int | None = None, options: bool = True) -> Form:
+def scan(hwnd: int | None = None, options: bool = True, *, option_key: str | None = None) -> Form:
     """The form in window `hwnd` (default: foreground). With `options`, dropdowns whose choices are not in the
     tree (Chromium's <select>) are briefly opened to list them, then closed; their selection is not changed."""
     import win32gui
@@ -582,11 +614,16 @@ def scan(hwnd: int | None = None, options: bool = True) -> Form:
     title = root.name if doc is not None else win32gui.GetWindowText(hwnd)
     form = form_from_tree(root, hwnd=hwnd, title=title, url=url)
     if options:
-        page_items = {n.runtime_id for n in _descendants(root) if n.ct == "ListItem"}
+        page_items = {n.runtime_id for n in _descendants(root) if n.ct == "ListItem" or n.role == "option"}
         for i, f in enumerate(form.fields):
-            if f.control_type == "ComboBox" and not f.protected:
+            if f.control_type == "ComboBox" and not f.protected and (option_key is None or f.key == option_key):
                 form.fields[i] = _with_options(f, _combo_items(f.element, window, page_items, ia, m))
     return form
+
+
+def _choice_text(value: str) -> str:
+    # Icon fonts used in custom dropdowns add a Private Use character to accessible names and values.
+    return _clean("".join(c for c in value if unicodedata.category(c) != "Co"))
 
 
 def _with_options(field: Field, items: list) -> Field:
@@ -609,7 +646,10 @@ def _pattern(el, m, pattern: str):
 
 def _list_items(root, page_items, ia, m, skip=frozenset()) -> list:
     """[(text, element)] of the ListItems under `root`, minus the page's own <li> items and `skip` ids."""
-    condition = ia.CreatePropertyCondition(m.UIA_ControlTypePropertyId, m.UIA_ListItemControlTypeId)
+    condition = ia.CreateOrCondition(
+        ia.CreatePropertyCondition(m.UIA_ControlTypePropertyId, m.UIA_ListItemControlTypeId),
+        ia.CreatePropertyCondition(m.UIA_AriaRolePropertyId, "option"),
+    )
     found = root.FindAll(m.TreeScope_Descendants, condition)
     items = []
     for i in range(found.Length if found else 0):
@@ -618,7 +658,9 @@ def _list_items(root, page_items, ia, m, skip=frozenset()) -> list:
             rid = tuple(item.GetRuntimeId())
             if rid in page_items or rid in skip:
                 continue
-            items.append((_clean(item.CurrentName), item))
+            name = _choice_text(item.CurrentName)
+            if name and item.CurrentIsEnabled:
+                items.append((name, item))
         except Exception:
             continue
     return items
@@ -649,7 +691,7 @@ def _combo_items(el, window, page_items, ia, m, keep_open=False) -> list:
             previous = items
         if not items:
             current = _pattern(el, m, "Value")
-            current = _clean(current.CurrentValue) if current is not None else None
+            current = _choice_text(current.CurrentValue) if current is not None else None
             items = stale if current and any(name == current for name, _ in stale) else []
     except Exception:
         return []
@@ -798,7 +840,8 @@ def _fill_date(field: Field, value: str) -> bool:
 
 
 def _norm_option(s: str) -> str:
-    return " ".join(re.sub(r"[^\w\s]+", " ", s.casefold()).split())
+    text = unicodedata.normalize("NFC", s).casefold()
+    return " ".join("".join(c if unicodedata.category(c)[0] in "LMN" else " " for c in text).split())
 
 
 def match_option(options, wanted: str) -> str | None:
@@ -807,9 +850,11 @@ def match_option(options, wanted: str) -> str | None:
     key = _norm_option(wanted)
     if not key:
         return None
+    if wanted in options:
+        return wanted
     exact = [o for o in options if _norm_option(o) == key]
     if exact:
-        return exact[0]
+        return exact[0] if len(exact) == 1 else None
     if len(key) >= 3:
         partial = [o for o in options if _norm_option(o).startswith(key)] or \
                   [o for o in options if key in _norm_option(o)]
@@ -835,25 +880,45 @@ def choose(field: Field, option: str) -> bool:
         except Exception:
             return False
         return _wait(lambda: bool(sel.CurrentIsSelected))
-    target = match_option(field.options, option) if field.options else option
-    if target is None:
+    target = match_option(field.options, option) if field.options else None
+    if field.options and target is None:
         return False
     window = ia.ElementFromHandle(field.hwnd) if field.hwnd else ia.GetRootElement()
     ec = _pattern(field.element, m, "ExpandCollapse")
     try:
         items = _combo_items(field.element, window, set(), ia, m, keep_open=True)
-        match = [el for name, el in items if name == target]
-        sel = _pattern(match[0], m, "SelectionItem") if match else None
-        if sel is None:
+        if not field.options:
+            target = match_option([name for name, _ in items], option)
+        matches = [el for name, el in items if name == target]
+        if len(matches) != 1:
             return False
-        sel.Select()
+        option_el, = matches
+        value = _pattern(field.element, m, "Value")
+
+        def committed() -> bool:
+            current = value.CurrentValue if value is not None else None
+            return _choice_text(current or field.element.CurrentName or "") == target
+
+        # Native dropdowns implement SelectionItem. Web dropdowns can expose an invokable option or
+        # a legacy default action instead. Check the combobox itself after each action to verify it committed.
+        for pattern, action in (("SelectionItem", "Select"), ("Invoke", "Invoke"),
+                                ("LegacyIAccessible", "DoDefaultAction")):
+            interface = _pattern(option_el, m, pattern)
+            if interface is None:
+                continue
+            try:
+                getattr(interface, action)()
+            except Exception:
+                continue
+            if _wait(committed, 0.3):
+                return True
     except Exception:
         return False
     finally:
         if ec is not None:
             _collapse(ec)
-    vp = _pattern(field.element, m, "Value")
-    return vp is not None and _wait(lambda: _same(vp.CurrentValue, target))
+    # Some native dropdowns reflect the new value only after the popup closes.
+    return _wait(committed)
 
 
 def check_box(field: Field, on: bool) -> bool:

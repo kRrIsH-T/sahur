@@ -1,25 +1,14 @@
-"""WhatsApp Desktop: open a chat with the message pre-filled, then press Enter to send."""
+"""Hand a message draft to WhatsApp Desktop for the user to review and send."""
 
 import os
-import time
 from urllib.parse import quote
-
-from pywinauto import Desktop
-from pywinauto.keyboard import send_keys
-
-# Time for WhatsApp to open the chat and place the draft in the message box.
-DRAFT_SETTLE_SECONDS = 2.5
 
 
 def send_url(phone: str, text: str) -> str:
     digits = "".join(ch for ch in phone if ch.isdigit())
-    return f"whatsapp://send?phone={digits}&text={quote(text)}"
+    return f"whatsapp://send?phone={digits}&text={quote(text, safe='')}"
 
 
-def send(phone: str, text: str) -> None:
+def open_draft(phone: str, text: str) -> None:
+    """Ask WhatsApp to open the draft without acting on the current chat or keyboard focus."""
     os.startfile(send_url(phone, text))
-    window = Desktop(backend="uia").window(title_re=r"^WhatsApp.*")
-    window.wait("exists visible", timeout=15)
-    window.set_focus()
-    time.sleep(DRAFT_SETTLE_SECONDS)
-    send_keys("{ENTER}")

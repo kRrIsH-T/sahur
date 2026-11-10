@@ -202,7 +202,7 @@ class FieldLog:
 
 
 # What the session says that is not a question about the highlighted field.
-_NOT_QUESTIONS = {"consent", "how", "remember", "continue_anyway", "type_yourself", "submit", "secrets", "cleared",
+_NOT_QUESTIONS = {"consent", "how", "remember", "continue_anyway", "type_yourself", "submit", "secrets", "correct",
                   "back_none", "not_entered", "page_errors", "page_error_raw", "left_required", "incomplete",
                   "skipped", "filled", "submitted", "changed"}
 

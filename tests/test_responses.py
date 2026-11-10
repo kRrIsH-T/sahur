@@ -125,9 +125,9 @@ def test_fields_in_any_script_go_in_unchanged(lang, app, query):
 
 def test_field_values_are_cleaned_for_speech():
     assert say("confirm_send", "en", contact=" Raju ", text="are you coming?") == \
-        "Send to Raju: are you coming? Say yes or no."
+        "Open WhatsApp with this message for Raju: are you coming? Say yes or no."
     assert say("confirm_send", "hi", contact="Raju", text="kal milte hain.\n  bye") == \
-        "Raju को भेजूँ: kal milte hain. bye? हाँ या ना बोलिए।"
+        "Raju के लिए यह मैसेज व्हाट्सऐप में खोलूँ: kal milte hain. bye? हाँ या ना बोलिए।"
     assert say("opened", "ta", app="Notepad.") == "Notepad திறந்துவிட்டேன்."
     assert say("searched", "bn", query="আবহাওয়া।") == "আবহাওয়া সার্চ করে দিয়েছি।"
     assert say("playing", "en", query=42) == "Playing 42."

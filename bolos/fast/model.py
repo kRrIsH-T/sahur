@@ -9,6 +9,7 @@ language (Prediction.language is None) or a compound command.
 """
 
 import json
+import math
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -41,6 +42,43 @@ class Prediction:
 def _softmax(z: np.ndarray) -> np.ndarray:
     e = np.exp(z - z.max())
     return e / e.sum()
+
+
+class LanguageModel:
+    """System 1's local classifier for the romanised text returned by Prisma."""
+
+    def __init__(self, path: Path = MODELS_DIR / "language.npz"):
+        try:
+            with np.load(path, allow_pickle=False) as data:
+                self.config = json.loads(str(data["config"]))
+                self.weights = data["weights"].astype(np.float32)
+            config = self.config
+            buckets, languages, char_n = config["buckets"], config["languages"], config["char_n"]
+            temperature, thresholds = config["temperature"], config["language_thresholds"]
+            valid_shape = (type(buckets) is int and buckets > 0 and isinstance(languages, list) and bool(languages)
+                           and all(language in LANGUAGES for language in languages)
+                           and self.weights.shape == (buckets, len(languages)) and np.isfinite(self.weights).all())
+            valid_features = (isinstance(char_n, list) and len(char_n) == 2
+                              and all(type(n) is int for n in char_n) and 0 < char_n[0] <= char_n[1]
+                              and all(isinstance(config[key], bool) for key in ("word_bigrams", "folded")))
+            valid_calibration = (isinstance(temperature, (int, float)) and math.isfinite(temperature)
+                                 and temperature > 0 and isinstance(thresholds, dict)
+                                 and all(isinstance(t, (int, float)) and 0 <= t <= NEVER for t in thresholds.values()))
+        except (KeyError, TypeError, OverflowError) as exc:
+            raise ValueError("Invalid language model") from exc
+        if not (valid_shape and valid_features and valid_calibration):
+            raise ValueError("Invalid language model")
+
+    def detect(self, text: str) -> str | None:
+        config = self.config
+        ids = feature_ids(text, config["buckets"], tuple(config["char_n"]), config["word_bigrams"], config["folded"])
+        probabilities = _softmax(self.weights[ids].mean(axis=0) / config["temperature"])
+        best = int(probabilities.argmax())
+        language = config["languages"][best]
+        threshold = config["language_thresholds"].get(language, NEVER)
+        if language != "none" and threshold < NEVER and probabilities[best] >= threshold:
+            return language
+        return None
 
 
 class FastModel:

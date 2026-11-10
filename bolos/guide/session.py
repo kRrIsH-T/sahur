@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import ctypes
 import logging
+import os
 import threading
 import time
 from collections import deque
@@ -47,6 +48,14 @@ APPEAR_S, APPEAR_POLL_S = 4.0, 0.6  # how long a predicted step's target may tak
 CLICK_MARGIN = 6  # physical pixels around a target that still count as hitting it
 OPEN_WAIT_S, PAGE_SETTLE_S = 6.0, 5.0  # an opened site: time to appear, then to finish drawing
 PAGE_LOAD_S, PAGE_MARKS = 12.0, 8  # and to list its links and buttons (at least this many)
+PAN_LOAD_S = 30.0  # the provider may render its input controls after the tab loads
+_SETTINGS_PAGES = {
+    "hotspot": ("ms-settings:network-mobilehotspot", "Mobile hotspot"),
+    "wifi": ("ms-settings:network-wifi", "Wi-Fi"),
+    "bluetooth": ("ms-settings:bluetooth", "Bluetooth"),
+    "night_light": ("ms-settings:display", "Night light"),
+    "wallpaper": ("ms-settings:personalization-background", "Background"),
+}
 POINT_RADIUS_IMAGE = 22  # a target given as a point: this many screenshot pixels around it
 CLICK_BUTTONS = {"click": "left", "right_click": "right"}
 DRIVE_CONTROLS = {screen.BUTTON, screen.HYPERLINK, screen.LISTITEM, screen.MENUITEM, screen.TREEITEM,
@@ -334,7 +343,7 @@ class Guide:
             answer_view = replace(observation, cursor=None) if resolved != question else observation
             reply = plans.answer(self.llm, resolved, language, answer_view, text, list(self._context))
         except Exception:
-            log.warning("Could not answer the screen question")
+            log.warning("Could not answer the screen question", exc_info=True)
             return None
         finally:
             self.status("thinking", self.clock() - started)
@@ -367,6 +376,13 @@ class Guide:
     def run(self, goal: str, language: str | None, *, find_form: bool = False) -> Outcome:
         self.pending = None
         self.hide_answer()
+        if intent.new_pan_request(goal):
+            return self._open_pan_application(language)
+        if lesson := intent.settings_toggle_lesson(goal):
+            setting, turn_on = lesson
+            return self._settings_lesson(setting, language, turn_on=turn_on)
+        if intent.wallpaper_lesson(goal):
+            return self._settings_lesson("wallpaper", language)
         if self.llm is None or not hasattr(self.llm, "ask_json"):
             return self._end("guide_unavailable", language, ok=False)
         pointer = self._new_pointer()
@@ -380,6 +396,73 @@ class Guide:
             inputs.stop()
             pointer.close()
             self.status("avoid", None)
+
+    def _settings_lesson(self, setting: str, language: str | None, *, turn_on: bool | None = None) -> Outcome:
+        """Open a known Settings page and explain the next step without inspecting the screen."""
+        uri, label = _SETTINGS_PAGES[setting]
+        try:
+            os.startfile(uri)
+        except OSError:
+            key = "guide_settings_open_failed"
+            return self._end(key, language, ok=False, spoken=say(key, language, target=label))
+        if setting == "wallpaper":
+            text = say("guide_wallpaper", language, target="Browse")
+        else:
+            key = "guide_settings_on" if turn_on else "guide_settings_off"
+            text = say(key, language, target=label)
+        return self._end("guide_done", language, ok=True, spoken=text)
+
+    def _pan_ready(self) -> bool:
+        from bolos.forms.windows import browser_url, scan
+
+        try:
+            hwnd = screen.user_window()
+            if not hwnd or not plans.is_pan_application(browser_url(hwnd)):
+                return False
+            form = scan(hwnd, options=False)
+            return (hwnd == screen.user_window() and plans.is_pan_application(form.url)
+                    and plans.is_pan_application_form(form) and plans.is_pan_application(browser_url(hwnd)))
+        except Exception:
+            return False
+
+    def _open_pan_application(self, language: str | None) -> Outcome:
+        from bolos.forms.session import command_of
+
+        if self._pan_ready():
+            return self._to_form(language, expected_url=plans.PAN_APPLICATION_URL)
+        if self.open_url is None:
+            return self._end("guide_pan_not_loaded", language, ok=False)
+        self.status("state", "guiding")
+        message = say("one_moment", language)
+        self.status("reply", message)
+        self.voice.speak(message, language)
+        try:
+            self.open_url(plans.PAN_APPLICATION_URL)
+        except Exception:
+            log.warning("Could not open the PAN application page")
+            return self._end("guide_pan_not_loaded", language, ok=False)
+
+        deadline = self.clock() + PAN_LOAD_S
+        poll = getattr(self.voice, "poll", None)
+        while self.clock() < deadline:
+            if self._pan_ready():
+                return self._to_form(language, expected_url=plans.PAN_APPLICATION_URL)
+            wait = min(APPEAR_POLL_S, max(0.0, deadline - self.clock()))
+            if not callable(poll):
+                self.sleep(wait)
+                continue
+            reply = poll(wait)
+            if reply:
+                kind = control(reply[0])
+                if kind == "stop" or command_of(reply[0]) == "back":
+                    return self._end("guide_stopped", language, ok=True)
+                if kind == "repeat":
+                    self.voice.speak(message, language)
+                elif kind != "next":
+                    self.pending = reply[0]
+                    self.status("state", "done")
+                    return Outcome(True, "guide_interrupted")
+        return self._end("guide_pan_not_loaded", language, ok=False)
 
     def drive(self, goal: str, language: str | None, confirm: Callable[[str], bool]) -> Outcome:
         """Propose one verified foreground control at a time, then look again after the confirmed click."""
@@ -395,10 +478,12 @@ class Guide:
                 if self.private is not None and self.private():
                     return self._end("guide_form", language, ok=False)
                 seen, plan = self._plan(goal, language, done, None, pointer, drive=True, expected_window=before)
-                if not seen.hwnd or seen.hwnd != before or screen.user_window() != seen.hwnd:
+                if screen.user_window() != before or (seen.hwnd is not None and seen.hwnd != before):
                     return self._end("focus_changed", language, ok=False)
                 if plan is None:
                     return self._end("guide_lost", language, ok=False)
+                if not seen.hwnd or screen.window_title(seen.hwnd) != seen.window_title:
+                    return self._end("focus_changed", language, ok=False)
                 if plan.status == "done":
                     return self._end("guide_done", language, ok=True, spoken=plan.say)
                 if plan.status != "step":
@@ -459,7 +544,8 @@ class Guide:
                 return self._to_form(language)
             if self.private is not None and self.private():
                 if not find_form:
-                    return self._end("guide_form", language, ok=False)
+                    key = "guide_form" if wants_form else "guide_switch_app"
+                    return self._end(key, language, ok=False)
                 if self._at_form(wants_form):
                     return self._to_form(language, announce=False)  # sizeable form with protected controls
                 observation = self.look(False)
@@ -473,7 +559,7 @@ class Guide:
                                                  or (before is not None and observation.hwnd != before)):
                 note = "The active window changed while planning. Continue from the current window."
                 continue
-            if find_form and observation.hwnd and screen.window_title(observation.hwnd) != observation.window_title:
+            if observation.hwnd and screen.window_title(observation.hwnd) != observation.window_title:
                 note = "The page changed while planning. Continue from the current page."
                 continue
             if plan is None:
@@ -484,7 +570,7 @@ class Guide:
                     continue
                 if find_form:
                     return self._to_form(language, announce=False)
-                return self._to_form(language) if wants_form else self._end("guide_form", language, ok=False)
+                return self._to_form(language) if wants_form else self._end("guide_switch_app", language, ok=False)
             if plan.status == "done":
                 if find_form:
                     note = "The requested fillable form is still needed. Continue until its controls are visible."
@@ -576,13 +662,13 @@ class Guide:
             log.warning("Could not check the page for a form", exc_info=True)
             return False
 
-    def _to_form(self, language: str | None, *, announce=True) -> Outcome:
+    def _to_form(self, language: str | None, *, announce=True, expected_url: str | None = None) -> Outcome:
         if announce:
             text = say("guide_to_form", language)
             self.status("state", "guiding")
             self.status("reply", text)
             self.voice.speak(text, language)
-        return Outcome(True, "guide_form_ready")
+        return Outcome(True, "guide_form_ready", {"expected_url": expected_url} if expected_url else {})
 
     def _open(self, step: plans.Step, observation: screen.Observation, language: str | None, number: int,
               *, form_start=False) -> bool:

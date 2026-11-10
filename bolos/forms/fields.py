@@ -73,7 +73,8 @@ class Snapshot:
 def field_kind(label: str, control_type: str = "Edit", password: bool = False) -> str:
     """Conservative, local glossary. Unknown fields remain literal text."""
     text = label.casefold()
-    if password or re.search(r"\b(otp|cvv|cvc|password|passcode|captcha|mpin|upi pin|atm pin|card pin|"
+    if password or re.search(r"\b(otp|cvv|cvc|password|passcode|(?:re)?captcha|not a robot|i am human|"
+                             r"mpin|upi pin|atm pin|card pin|"
                              r"api key|token|secret|private key|recovery code|security answer|"
                              r"security code|verification code|one.time.code|characters shown)\b", text):
         return "secret"
@@ -170,15 +171,15 @@ def explanation(field: Field, language: str) -> str:
 
 # Public UI Automation API. Thin wrappers so callers (and fakes in tests) depend on bolos.forms.fields only.
 
-def scan(hwnd: int | None = None, options: bool = True) -> Form:
+def scan(hwnd: int | None = None, options: bool = True, *, option_key: str | None = None) -> Form:
     """The form in window `hwnd` (default: the foreground window). Raises RuntimeError if it has no UI tree.
 
     With `options` (default), dropdowns whose choices are not in the tree (Chrome/Edge <select>) are opened for a
     moment to list them, then closed with their selection unchanged; options=False skips that (faster rescans,
-    and the returned dropdown fields then have no options)."""
+    and the returned dropdown fields then have no options). With `option_key`, only that dropdown is opened."""
     from bolos.forms import windows
 
-    return windows.scan(hwnd, options)
+    return windows.scan(hwnd, options, option_key=option_key) if option_key is not None else windows.scan(hwnd, options)
 
 
 def focus(field: Field) -> tuple[int, int, int, int] | None:

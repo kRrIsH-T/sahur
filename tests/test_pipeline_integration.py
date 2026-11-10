@@ -7,6 +7,7 @@ import pytest
 from bolos import actions as a
 from bolos.decide import Parse
 from bolos.executor import Outcome
+from bolos.fast.model import LanguageModel
 from bolos.history import History
 from bolos.pipeline import Assistant
 from bolos.preferences import Preferences
@@ -161,6 +162,86 @@ def test_execution_failure_stops_remaining_steps():
     assert say("steps_stopped", "en") in voice.spoken[-1][0]
 
 
+def test_later_step_exception_still_reports_the_step_that_already_worked():
+    class InterruptedRunner(Runner):
+        def execute(self, action):
+            if isinstance(action, a.WebSearch):
+                raise OSError("browser closed")
+            return super().execute(action)
+
+    text, parser = compound_parser()
+    voice = Voice()
+    assistant = Assistant(parser, None, InterruptedRunner(), voice)
+    assert assistant.handle(text, "en").key == "error"
+    assert "Opened Chrome" in voice.spoken[-1][0]
+    assert "something went wrong" in voice.spoken[-1][0].casefold()
+
+
+def test_whatsapp_draft_pauses_the_rest_of_a_compound_command():
+    class DraftRunner(Runner):
+        def execute(self, action):
+            self.executed.append(action)
+            return Outcome(True, "message_draft", {"contact": action.contact})
+
+    steps = [a.SendMessage(contact="Raju", text="hello"), a.OpenApp(app="Chrome")]
+    voice, runner = Voice([("yes", "en")]), DraftRunner()
+    assistant = Assistant(None, StepsLLM(steps), runner, voice)
+    outcome = assistant.handle("message Raju hello, then open Chrome", "en")
+    assert outcome.key == "message_draft" and not outcome.ok
+    assert runner.executed == steps[:1]
+    assert "press Send" in voice.spoken[-1][0] and say("steps_stopped", "en") in voice.spoken[-1][0]
+
+
+@pytest.mark.parametrize("text", [
+    "Do not open Calculator", "No, don't open Calculator", "Please don’t click Submit",
+    "Calculator mat kholo", "Calculator kholo nahin", "कैलकुलेटर मत खोलो", "फॉर्म मत भरो",
+    "Calculator mat kholo, Chrome bhi mat kholo",
+])
+def test_explicit_refusal_overrides_a_confident_positive_prediction(text):
+    parser = Parser(default=Parse("open_app", True, {"app": "Calculator"}))
+    llm = StepsLLM([a.OpenApp(app="Calculator")])
+    runner = Runner()
+    assistant = Assistant(parser, llm, runner, Voice())
+    assert assistant.handle(text, None).ok
+    assert runner.executed == [a.Cancel()]
+    assert parser.calls == llm.calls == []
+
+
+@pytest.mark.parametrize("text,literal", [
+    ("Tell Raju don't open Calculator", "don't open Calculator"),
+    ("Raju ko bolo ki Calculator mat kholo", "Calculator mat kholo"),
+])
+def test_refusal_in_dictated_message_is_kept_as_the_users_words(text, literal):
+    parser = Parser(default=Parse("send_message", True, {"contact": "Raju", "text": literal}))
+    runner = Runner()
+    assistant = Assistant(parser, None, runner, Voice([("yes", "en")]))
+    assert assistant.handle(text, None).ok
+    assert runner.executed == [a.SendMessage(contact="Raju", text=literal)]
+
+
+@pytest.mark.parametrize("reply", ["Go ahead.", "yes", "theek hai", "ಹೌದು"])
+def test_standalone_confirmation_never_triggers_screen_reading(reply):
+    runner = Runner()
+    assistant = Assistant(Parser(default=Parse("read_screen", True)), None, runner, Voice())
+    assert assistant.handle(reply, None).key == "not_understood"
+    assert runner.executed == []
+
+
+def test_pasted_document_is_rejected_before_command_inference():
+    runner, parser, voice = Runner(), Parser(), Voice()
+    assistant = Assistant(parser, None, runner, voice)
+    assert assistant.handle("open Calculator " + "!? " * 10000, "en").key == "not_understood"
+    assert runner.executed == [] and parser.calls == []
+    assert "Try one short request" in voice.spoken[-1][0]
+
+
+def test_unsupported_close_request_never_opens_the_app():
+    parser, runner = Parser(default=Parse("open_app", True, {"app": "Calculator"})), Runner()
+    assistant = Assistant(parser, None, runner, Voice())
+    assert assistant.handle("close Calculator", "en").key == "not_understood"
+    assert runner.executed == []
+
+
 @pytest.mark.parametrize("remote_steps", [None, [a.OpenApp(app="Chrome"), a.Unknown()]])
 def test_unknown_later_task_cannot_silently_execute_only_the_first(remote_steps):
     command = "Chrome kholo aur mera dusra kaam karo"
@@ -275,14 +356,45 @@ def test_script_language_wins_over_conflicting_model_language():
 
 def test_model_language_controls_romanised_replies_and_neutral_turn_keeps_it():
     parser = Parser({
-        "Notepad tegi": Parse("open_app", True, {"app": "Notepad"}, language="te"),
+        "Notepad teravandi": Parse("open_app", True, {"app": "Notepad"}, language="te"),
         "Calculator": Parse("open_app", True, {"app": "Calculator"}),
     })
     voice = Voice()
     assistant = Assistant(parser, None, Runner(), voice)
-    assert assistant.handle("Notepad tegi", None).ok
+    assert assistant.handle("Notepad teravandi", None).ok
     assert assistant.handle("Calculator", None).ok
     assert [language for _, language in voice.spoken] == ["te", "te"]
+
+
+def test_bundled_language_model_switches_replies_before_system_two_and_habits():
+    command = "Notepad open cheyyandi"
+    voice, runner = Voice(), Runner()
+    llm = StepsLLM([a.OpenApp(app="Notepad")], voice)
+    prefs = Preferences(None)
+    assistant = Assistant(None, llm, runner, voice, preferences=prefs, language_detector=LanguageModel().detect)
+
+    assert assistant.handle(command, None).ok
+    assert voice.spoken == [(say("one_moment", "te"), "te"), (say("opened", "te", app="Notepad"), "te")]
+    assistant.handle("Open settings", None)
+    assert voice.spoken[-1][1] == "en"
+    voice.spoken.clear()
+    assert assistant.handle(command, None).ok
+    assert voice.spoken == [(say("opened", "te", app="Notepad"), "te")]
+    assert llm.calls.count(command) == 1
+
+    assistant.handle("Spotify", None)
+    assert voice.spoken[-1][1] == "te"
+
+
+def test_bundled_language_model_applies_before_a_correction_reply():
+    voice, runner = Voice(), Runner()
+    corrector = Corrector(a.OpenApp(app="Notepad"))
+    parser = Parser(default=Parse("open_app", True, {"app": "Calculator"}))
+    assistant = Assistant(parser, corrector, runner, voice, language_detector=LanguageModel().detect)
+    assert assistant.handle("Open Calculator", "en").ok
+    assert assistant.handle("Tappu, Notepad open cheyyandi", None).ok
+    assert len(corrector.calls) == 1
+    assert voice.spoken[-2:] == [(say("one_moment", "te"), "te"), (say("opened", "te", app="Notepad"), "te")]
 
 
 @pytest.mark.parametrize("command,method", [
@@ -344,9 +456,90 @@ def test_named_form_fills_open_form_or_finds_it_first(already_open):
     assert forms.calls == [("fill", "hi")] and not runner.executed
 
 
+@pytest.mark.parametrize("command", ["PAN card ke liye apply karna hai", "help me fill the PAN application form"])
+def test_named_pan_opens_the_verified_form_even_if_a_different_form_is_open(command):
+    from bolos.guide.planner import PAN_APPLICATION_URL
+
+    class ScreenForms(Forms):
+        def has_fillable_form(self):
+            return True
+
+        def shows_personal_details(self):
+            return True
+
+        def fill(self, language, *, expected_url=None):
+            self.calls.append(expected_url)
+            return Outcome(True, "form_handled")
+
+    class FormGuide:
+        pending = None
+
+        def run(self, goal, language, *, find_form=False):
+            return Outcome(True, "guide_form_ready", {"expected_url": PAN_APPLICATION_URL})
+
+    forms, runner = ScreenForms(), Runner()
+    assistant = Assistant(None, None, runner, Voice(), forms=forms, guide=FormGuide())
+    assert assistant.handle(command, "hi").ok
+    assert forms.calls == [PAN_APPLICATION_URL] and not runner.executed
+
+
 def test_compound_cannot_chain_a_form_dialogue_with_another_action():
     llm = StepsLLM([a.FillForm(), a.Click(target="Submit")])
     forms, runner = Forms(), Runner()
     assistant = Assistant(None, llm, runner, Voice(), forms=forms)
     assert assistant.handle("do both tasks", "en").key == "not_understood"
     assert forms.calls == [] and runner.executed == []
+
+
+@pytest.mark.parametrize("command,expected,operation,reply", [
+    ("Private tax report file dhoondo", "Private tax report", "reveal", "file_found"),
+    ("Private tax report PDF kholo", "Private tax report.pdf", "open", "file_opened"),
+    ("maine ek file download ki h use kholo", None, "open", "download_opened"),
+    ("maine ek PAN form download ki h use kholo", None, "open", "download_opened"),
+])
+def test_file_voice_commands_use_the_local_executor(tmp_path, monkeypatch, command, expected, operation, reply):
+    from bolos import executor
+    from bolos.contacts import ContactBook
+    from bolos.executor import files
+
+    path = tmp_path / "Private tax report.pdf"
+    calls = []
+
+    def lookup(query=None):
+        calls.append(("lookup", query))
+        return files.FileResult("found", path)
+
+    monkeypatch.setattr(executor, "foreground_window", lambda: 1)
+    monkeypatch.setattr(files, "find_file", lookup)
+    monkeypatch.setattr(files, "latest_download", lookup)
+    monkeypatch.setattr(files, "open_file", lambda found: calls.append(("open", found)) or True)
+    monkeypatch.setattr(files, "reveal_file", lambda found: calls.append(("reveal", found)) or True)
+    parser, llm, voice = Parser(), StepsLLM([a.Unknown()]), Voice()
+    runner = executor.Executor(ContactBook([]), catalog=object())
+    history = History(tmp_path / "history.jsonl")
+    bot = Assistant(parser, llm, runner, voice, history=history)
+
+    assert bot.handle(command, "hi") == Outcome(True, reply)
+    assert calls == [("lookup", expected), (operation, path)]
+    assert not parser.calls and not llm.calls and bot._last is None
+    assert voice.spoken == [(say(reply, "hi"), "hi")]
+    entry = history.entries()[0]
+    assert entry["transcript"] == "[file request]" and "query" not in entry["steps"][0]
+    assert runner.execute(a.TypeText(text="should not type into the new window")).key == "focus_changed"
+
+
+def test_pending_download_leaves_the_older_files_unopened(monkeypatch):
+    from bolos import executor
+    from bolos.contacts import ContactBook
+    from bolos.executor import files
+
+    monkeypatch.setattr(executor, "foreground_window", lambda: 1)
+    monkeypatch.setattr(files, "latest_download", lambda: files.FileResult("pending"))
+    monkeypatch.setattr(files, "open_file", lambda _: pytest.fail("Must not open a different file"))
+    monkeypatch.setattr(files, "reveal_file", lambda _: pytest.fail("Must not reveal a partial file"))
+    voice = Voice()
+    runner = executor.Executor(ContactBook([]), catalog=object())
+    bot = Assistant(None, None, runner, voice)
+
+    assert bot.handle("Open my latest download", "en") == Outcome(False, "download_pending")
+    assert voice.spoken == [(say("download_pending", "en"), "en")]

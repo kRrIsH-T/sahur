@@ -233,6 +233,13 @@ class History:
         "corrected_to" (steps), "confirmed" (bool)."""
         return read_entries(self.path)
 
+    def archive(self) -> Path | None:
+        with self._lock:
+            path = archive_history(self.path)
+            if path is not None:
+                self._checked_tail = False
+            return path
+
     # Writing
 
     def _append(self, record: dict) -> None:
@@ -305,15 +312,29 @@ def _loads(line: str) -> dict | None:
     return record if isinstance(record, dict) else None
 
 
+def archive_history(path: Path | None) -> Path | None:
+    if path is None:
+        return None
+    target = path.with_name(f"{path.stem}-{datetime.now():%Y%m%d-%H%M%S}-{uuid.uuid4().hex[:12]}{path.suffix}")
+    try:
+        return path.rename(target)
+    except FileNotFoundError:
+        return None
+
+
 def read_entries(path: Path | None) -> list[dict]:
     """The commands in a history file with their events folded in. Unreadable lines (a crash mid-write) are
     skipped."""
-    if not path or not path.exists():
+    if path is None:
+        return []
+    try:
+        lines = path.read_text(encoding="utf-8-sig", errors="replace").splitlines()
+    except FileNotFoundError:  # the dashboard can archive the log between reads
         return []
     entries: dict[str, dict] = {}
-    for line in path.read_text(encoding="utf-8-sig").splitlines():
+    for line in lines:
         record = _loads(line)
-        if not record or "id" not in record:
+        if not record or not isinstance(record.get("id"), str):
             continue
         event = record.get("event")
         if event is None:

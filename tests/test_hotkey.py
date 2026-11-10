@@ -13,7 +13,7 @@ def test_parse_letters_and_function_keys():
     assert hotkey.parse("win+f9")[2] == 0x78
 
 
-@pytest.mark.parametrize("bad", ["ctrl", "ctrl+a+b", "ctrl+nonsense", ""])
+@pytest.mark.parametrize("bad", ["ctrl", "ctrl+a+b", "ctrl+nonsense", "ctrl+ß", "ctrl+f²", ""])
 def test_parse_rejects_unusable_hotkeys(bad):
     with pytest.raises(hotkey.HotkeyError):
         hotkey.parse(bad)

@@ -2,7 +2,17 @@
 
 import pytest
 
-from bolos.guide.intent import control, is_guide_request, is_screen_question, language_hint, takeover_goal
+from bolos.guide.intent import (
+    control,
+    is_guide_request,
+    is_screen_question,
+    language_hint,
+    new_pan_request,
+    settings_toggle_lesson,
+    takeover_goal,
+    wallpaper_lesson,
+    wants_form,
+)
 
 
 @pytest.mark.parametrize("command", [
@@ -77,6 +87,108 @@ def test_not_guide_requests(command):
     assert not is_guide_request(command)
 
 
+@pytest.mark.parametrize("command,topic,enabled", [
+    ("wifi hotspot kaise chalu karein", "hotspot", True),
+    ("hot spot kesay chalu karun", "hotspot", True),
+    ("hotspot kivein chalu karna", "hotspot", True),
+    ("मोबाइल हॉटस्पॉट कैसे चालू करें", "hotspot", True),
+    ("Wi Fi kaise on karein", "wifi", True),
+    ("wifi kaise on kare", "wifi", True),
+    ("वाइफाइ कैसे चालू करें", "wifi", True),
+    ("Wi-Fi band kaise karein", "wifi", False),
+    ("how do I turn Wi-Fi off on Windows?", "wifi", False),
+    ("how do I turn Wi‑Fi on?", "wifi", True),
+    ("teach me how to turn on Bluetooth", "bluetooth", True),
+    ("bluetooth kaise on kare", "bluetooth", True),
+    ("ब्लूटूथ ऑफ कैसे करें", "bluetooth", False),
+    ("night light kaise off karun", "night_light", False),
+    ("how do I turn night light back on?", "night_light", True),
+])
+def test_windows_toggle_lessons_recognize_the_requested_setting_and_direction(command, topic, enabled):
+    assert is_guide_request(command)
+    assert settings_toggle_lesson(command) == (topic, enabled)
+
+
+@pytest.mark.parametrize("command", [
+    "hotspot chalu karo",
+    "message bhejo ki wifi hotspot kaise chalu karein",
+    "how do I check whether Wi-Fi is on?",
+    "how do I find mobile hotspot on Windows?",
+    "how do I turn Wi-Fi on or off?",
+    "how do I turn hotspot off and then back on?",
+    "how do I turn on Wi-Fi and Bluetooth?",
+    "how do I turn on night light automatically?",
+    "how do I turn on Wi-Fi on my Android phone?",
+    "mobile mein hotspot kaise chalu karein",
+    "फ़ोन पर हॉटस्पॉट कैसे चालू करें",
+    "hotspot ka password kaise badlein",
+    "how do I turn on my router's Wi-Fi?",
+    "how do I connect to a hotspot?",
+    "how to turn on Wi-Fi and connect to a hotspot",
+    "how do I change Bluetooth settings?",
+    "Bluetooth speaker kaise pair karein",
+    "biryani kaise banate hain",
+])
+def test_windows_toggle_lesson_does_not_guess_a_device_action_or_other_goal(command):
+    assert settings_toggle_lesson(command) is None
+
+
+@pytest.mark.parametrize("command", [
+    "wallpaper kaise badle",
+    "wall paper kaise lagau",
+    "desktop background change karna sikhao",
+    "वॉलपेपर कैसे बदलें",
+    "வால்பேப்பர் எப்படி மாற்றுவது காட்டு",
+    "show me how to change the Windows background",
+    "how do I set this picture as my wallpaper?",
+])
+def test_windows_wallpaper_lesson_recognizes_the_desktop_background_goal(command):
+    assert is_guide_request(command)
+    assert wallpaper_lesson(command)
+
+
+@pytest.mark.parametrize("command", [
+    "change my wallpaper",
+    "type wallpaper kaise badle",
+    "phone ka wallpaper kaise badle",
+    "how do I change my Zoom wallpaper?",
+    "how do I change my lock screen wallpaper?",
+    "how do I download a wallpaper?",
+    "wallpaper kaise badle aur wifi kaise on kare",
+])
+def test_windows_wallpaper_lesson_leaves_other_goals_on_their_own_route(command):
+    assert not wallpaper_lesson(command)
+
+
+@pytest.mark.parametrize("command", ["how do I install an application", "Windows application kaise open karein",
+                                     "how to apply dark mode", "how do I register this app"])
+def test_app_lessons_are_not_requests_for_forms(command):
+    assert not wants_form(command)
+
+
+@pytest.mark.parametrize("command", ["show me how to apply for a PAN card", "passport ke liye apply karna hai",
+                                     "show me how to fill out an application", "show me how to fill this form",
+                                     "show me how to apply for college admission"])
+def test_document_and_paperwork_lessons_still_allow_form_handoff(command):
+    assert wants_form(command)
+
+
+@pytest.mark.parametrize("command", ["open the PAN card application form", "help me fill the PAN form",
+                                     "PAN card ke liye apply karna hai", "pan ka form bharna h",
+                                     "पैन कार्ड के लिए आवेदन करना है"])
+def test_regular_pan_application_requests_use_the_direct_route(command):
+    assert new_pan_request(command) and is_guide_request(command)
+
+
+@pytest.mark.parametrize("command", ["PAN card online apply kaise karte hain", "Show me how to apply for a PAN card",
+                                     "apply for instant e PAN", "apply for a PAN card correction",
+                                     "apply for a duplicate PAN card", "what documents for a PAN card application",
+                                     "PAN card application status", "type apply for a PAN card",
+                                     "don't apply for a PAN card", "pan card apply mat karo"])
+def test_pan_lessons_and_other_requests_keep_their_own_route(command):
+    assert not new_pan_request(command)
+
+
 @pytest.mark.parametrize("question", ["Where is the export button?", "What does that button do?",
                                        "ye button kya karta hai?", "What should I do next?",
                                        "theriyila enna irukkudhu?", "theriyala enna irukkudhu?",
@@ -114,6 +226,8 @@ def test_screen_questions_match_and_select_the_reply_language(romanized, native,
     ("Bluetooth engane on cheyyum", "ml"),
     ("Excel e file kibhabe open korbo", "bn"),
     ("WiFi kevi rite chalu karu", "gu"),
+    ("hotspot kivein chalu karna", "pa"),
+    ("hot spot kesay chalu karun", "hi"),
     ("Chrome vich bookmark kiven banauna", "pa"),
 ])
 def test_romanized_lessons_survive_the_app_name_and_mixed_english(command, language):

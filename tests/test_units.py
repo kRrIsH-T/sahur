@@ -36,6 +36,24 @@ def test_unknown_contact():
     assert BOOK.find("Suresh") is None
 
 
+def test_contact_file_recovers_valid_entries(tmp_path):
+    path = tmp_path / "contacts.json"
+    path.write_text('{"contacts":[null,{"name":"Missing phone"},'
+                    '{"name":"Raju Sharma","phone":"+91 9800000001","aliases":[null,"Raju"]}]}',
+                    encoding="utf-8-sig")
+    assert ContactBook.load(path).find("Raju").name == "Raju Sharma"
+    path.write_text('{"contacts":[', encoding="utf-8")
+    assert ContactBook.load(path).names() == []
+
+
+def test_contact_lookup_refuses_shared_aliases_and_tied_spelling_matches():
+    book = ContactBook([Contact("Ravi Kapoor", "1111", ("Ravi", "Ravik")),
+                        Contact("Ravi Singh", "2222", ("Ravi", "Ravis"))])
+    assert book.find("Ravi") is None
+    assert book.find("Ravix") is None
+    assert book.find("Ravi Singh").phone == "2222"
+
+
 @pytest.mark.parametrize("reply,expected", [
     ("haan", True), ("haan bhejo", True), ("Haan ji, bhej do.", True), ("हाँ भेज दो", True), ("theek hai", True),
     ("yes", True), ("yes send it", True), ("ಹೌದು", True), ("Houdu kalsu.", True), ("ஆமா", True), ("Sari anuppu.", True),

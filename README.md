@@ -2,9 +2,17 @@
 
 Control Windows by speaking naturally in Indian languages, including code-mixed speech.
 
-> "Raju ko WhatsApp karo ki 5 minute lagenge" -> WhatsApp opens Raju's chat, reads the message back, and sends it when you say "haan".
+Sahur helps people who find typing or navigating menus difficult. Press **Ctrl+Space** and speak in your own
+words to open an app, learn a task step by step, or fill in a form one field at a time.
+
+[Read the one-page solution pitch](docs/SOLUTION_PITCH.md)
+
+![Sahur desktop widget cycling through its hop, listening and reply animations](docs/sahur-widget.gif)
+
+> "Raju ko WhatsApp karo ki 5 minute lagenge" -> Sahur reads the message back. Say "haan" to open the draft in WhatsApp, then check the name and message and press **Send**.
 > "Spotify pe Radiohead chalao" -> Spotify starts Radiohead. "Gaana rok do" pauses it.
 > "Lata Mangeshkar ke baare mein batao" -> a search about her, not a song.
+> "Maine ek file download ki hai, use kholo" -> Sahur opens the newest file in Downloads.
 
 Built for people who can't type easily: motor or vision impairments, elderly users, low literacy.
 Windows Voice Access understands fixed English command words. Sahur understands how people actually talk.
@@ -22,10 +30,11 @@ validated model; the app continues with the hotkey when that model is absent.
 orange ring and the cursor, Sahur asks for it in plain words (“अपना पूरा नाम बताइए।”), and the box is filled
 the moment you answer. “Galat” goes back to the previous field, “skip” leaves one, “ruko” stops. Names,
 addresses, cities and states are written the way forms want them (see below). The question about online
-speech recognition is asked at the first form only. Form answers are never spoken back and do not go through
+speech recognition is asked the first time you fill a form by voice. Form answers are never spoken back and do not go through
 Codex, command history or learned habits.
 Submission requires a separate yes; skipped, protected or unsupported controls prevent automatic submission.
-Generic clicks also require confirmation. After an action opens or navigates a window, typing/clicking
+For a click, say the label you see on the screen. Sahur asks for confirmation and looks for one matching
+visible control. After an action opens or navigates a window, typing/clicking
 requires a new command until the destination can be verified.
 
 Speech input is sent to Gnani. Form answers are heard as private turns (never logged) and are shown in the
@@ -50,6 +59,7 @@ See [development status](docs/DEVELOPMENT_STATUS.md) for evidence and remaining 
 
 ```
 tap/hold hotkey -> streaming Prisma v3.0 (Gnani), with REST fallback
+            -> System 1 detects the reply language from the transcript
             -> local form dialogue when requested (answers bypass the command parser and Codex)
             -> habits: a command System 2 worked out before is reused instantly
             -> System 1 (our own from-scratch models, on the laptop, ~1 ms):
@@ -58,7 +68,7 @@ tap/hold hotkey -> streaming Prisma v3.0 (Gnani), with REST fallback
             -> System 2 (Codex CLI, gpt-6-luna at low effort; or Gemini), only for what System 1 is unsure of
             -> typed Action (validated, the only thing the executor accepts)
             -> your preferences: the music/video service you usually use, names you taught it
-            -> spoken read-back + "haan" before anything is sent
+            -> spoken read-back + "haan" before opening a WhatsApp draft
             -> Windows executor (every Start menu app, websites, Spotify, media sessions, UI Automation)
             -> Timbre v3.0 (spoken reply, Gnani)
 ```
@@ -70,6 +80,8 @@ Models never touch the computer directly. Unclear commands do nothing and ask ag
 | `open_app` | "VS Code khol do", "ಕ್ಯಾಲ್ಕುಲೇಟರ್ ತೆರೆ", "Zoom wala app open karo" (any of the PC's apps) |
 | `open_website` | "Flipkart ki website kholo", "open github dot com", "IRCTC site kholo" |
 | `web_search` | "Bangalore ka weather batao", "Radiohead kaun hai", "Amazon pe running shoes dhundho" |
+| `find_file` | "Budget report file dhoondo", "Open budget report PDF" |
+| `open_recent_download` | "Maine ek file download ki hai, use kholo", "Open my latest download" |
 | `play_media` | "Spotify pe Radiohead chalao", "YouTube pe Arijit ke gaane", "kuch lo-fi bajao" |
 | `media_control` | "gaana rok do", "agla gaana", "awaaz badhao", "phir se chalao" |
 | `send_message` | "Mummy ko message bhejo ki main ghar aa raha hoon" |
@@ -78,6 +90,14 @@ Models never touch the computer directly. Unclear commands do nothing and ask ag
 | `click` | "submit button dabao" |
 | `show_how` | "Settings mein Bluetooth kaise kholte hain, dikhao", "folder banana sikhao" (guide mode, below) |
 | `cancel` | "rehne do" |
+
+### Finding files by voice
+
+Say “Budget report file dhoondo” to select a matching file in File Explorer, or “Budget report PDF kholo”
+to open it. Sahur looks in Downloads, Documents and Desktop. If several files match, say more of the name.
+For “Maine ek file download ki hai, use kholo,” Sahur uses the newest file in Downloads. If it is still
+downloading, Sahur asks you to wait. Documents, pictures and media open in their usual apps. Other file
+types are selected in File Explorer for you to open there.
 
 ### Guide mode: "dikhao"
 
@@ -103,6 +123,9 @@ how to change the wallpaper") and it teaches instead of doing: an orange ring ap
 click, the step is spoken in your language, and the next step comes when you click inside the ring.
 Click Sahur to see the latest step in the details card. Sahur never clicks or types in guide mode.
 
+For “Wi‑Fi hotspot kaise chalu karein” or “wallpaper kaise badle,” Sahur opens the relevant Windows Settings
+page and explains what to do next. This also works for Wi‑Fi, Bluetooth and Night light.
+
 - One System 2 call (with a screenshot plus the numbered UI Automation elements on screen) plans the next
   step and predicts the ones after it by their on-screen label; those are then found locally with UI Automation
   after each click, so a 3-step lesson usually needs one or two calls (about 6 s each).
@@ -118,15 +141,14 @@ Click Sahur to see the latest step in the details card. Sahur never clicks or ty
   normal commands. On the frozen eval sets, 3 of 600 commands (all web searches) now start a lesson instead.
   `show_how` is not a System 1 class and never becomes training data or a habit.
 - Sahur starts talking at once ("theek hai, main screen par dikhati hoon") while the first plan is made.
-- Websites: when the goal needs a site that is not open, Sahur opens it itself, but only an official one
-  (`https://` on `*.gov.in`, `*.nic.in`, or Protean / UTIITSL, the Income Tax Department's PAN agencies), always
-  at its home page, and then guides you through the site's own links so you learn the way. Cookie banners
-  are a step of their own (it suggests the option that shares least).
+- The general guide starts from an official site's home page (`https://` on `*.gov.in`, `*.nic.in`, or
+  Protean / UTIITSL, the Income Tax Department's PAN agencies). It then shows you which links to follow.
+  For cookie banners, it suggests the option that shares the least.
 
-**Applying for a PAN card** ("PAN card ke liye apply karna hai"): Sahur opens tinpan.proteantech.in, points
-you through PAN, Apply Online and Apply now to the Online PAN application form, and as soon as that form is on
-screen it hands over to the form assistant, which rings each box, asks for it by voice and fills it as you
-answer. The reCAPTCHA stays yours, and Submit needs your own "haan".
+**Applying for a PAN card.** Say “PAN card ke liye apply karna hai” and Sahur opens Protean’s Online PAN
+application directly. If the form is already open, Sahur picks up at the next empty field. It highlights each
+field, asks once and puts the answer on screen. Say “galat” to go back or “skip” to leave an optional field.
+Read the privacy notice, complete the “I’m not a robot” check and submit on the page when you’re ready.
 
 - Guide mode sends an image of the active monitor to System 2 when screenshots are enabled. Close private
   windows first. Detected forms with typed details or secret fields stay with local form guidance. A guide
@@ -145,6 +167,9 @@ copy contacts.example.json contacts.json  # your contacts, with names in every s
 
 System 2 is the Codex CLI when it is installed and signed in (`codex login`); set `LLM_PROVIDER=openai`
 and `GEMINI_API_KEY` to use Gemini instead.
+
+If voice setup is incomplete, Sahur opens its settings page so you can check what still needs to be set up
+and test your microphone and chime.
 
 ## Run
 
@@ -186,6 +211,19 @@ is not running, in which case changes are saved for the next start.
 
 Changes are saved in `settings.json` and win over `.env`; "Reset all to defaults" goes back to `.env`.
 
+### If Sahur needs help hearing you
+
+- **Try one short request.** Tap the shortcut shown under **Before you speak**, then say “Open Calculator.”
+- **Check your microphone.** Speak while watching **Microphone check**. If the bars stay still, reconnect your
+  microphone or allow microphone access in Windows, then select **Retry microphone**. You can choose
+  **Windows default** under **Sound** if the microphone you picked was unplugged.
+- **Check your sound.** Select **Play the chime**. If you cannot hear it, check the speaker under **Sound**
+  and turn up the Windows volume.
+- **Change the shortcut.** If another app already uses it, select **Shortcut to speak** under **Voice and language**
+  and press a different combination.
+- **Try the full name.** If Sahur cannot tell which contact you mean, say the person's full name. Give contacts
+  distinct names during setup if they share a name.
+
 ## What it learns about you
 
 Kept in `preferences.json` next to the app:
@@ -207,8 +245,12 @@ and make no LLM/TTS calls.
 
 ## The System 1 models
 
-Both are trained from scratch (random init, no pretrained weights) and run in numpy, no PyTorch needed at
-runtime.
+The models are trained from scratch and run in NumPy. PyTorch is used for training.
+
+**Language classifier.** The local classifier detects ten languages from Prisma's romanized text before
+Sahur replies. Native script or an explicit language code takes priority when available. For unclear or
+language-neutral input, Sahur keeps the previous turn's language or starts with the configured reply
+language. Rebuild the classifier with `python train/train_language.py`.
 
 **Action model.** fastText-style: hashed word bigrams and character 1-4 grams (plus a spelling-folded copy,
 so "kholo/kolo" and "maadu/madu" share features), mean-pooled into a 48-dim vector, with two linear heads:
@@ -220,8 +262,8 @@ the action (11) and, for `media_control`, which control (7). Three seeds are mer
   was confident on ~5 points more commands, so it needs System 2 less often.
 - **Calibration and abstention**: one temperature per head and a confidence threshold per action, fitted
   on a held-out split augmented to look like noisy speech. Thresholds keep the estimated error under 3%
-  for typing and clicking (nothing confirms them first) and 6% for the rest; messages are read back and
-  need a spoken "haan", which catches a wrong guess. Below a threshold System 2 decides.
+  for typing and clicking and 6% for the rest. Sahur asks before clicking or opening a message draft.
+  Below a threshold System 2 decides.
 
 **Slot tagger.** Words are split before the case endings Kannada, Tamil, Telugu, Malayalam, Marathi and
 Bengali join to names ("Ravi-ge", "Suresh-ku", "அம்மா-வுக்கு"), so a slot can be just the name. Per token:
@@ -309,8 +351,8 @@ aloud can't make it read files on the PC.
 
 - Spotify playback needs the desktop app started with accessibility on; Sahur restarts Spotify once to do
   that. While Windows throttles a hidden or locked screen, starting a song can take 20 s instead of ~8 s.
-- WhatsApp sending presses Enter after the chat opens without checking the chat header (the read-back and
-  "haan" come first). Verifying it needs testing against the real app.
+- WhatsApp needs the desktop app. Sahur opens the draft after you confirm it, then you check the name and
+  message and press **Send** in WhatsApp. Say any remaining requests after you finish with the draft.
 - Services Sahur can't drive (JioSaavn, Gaana, Netflix, ...) open their search page; the user picks the item.
 - Guide mode's ring cannot be drawn over the Start menu or the Windows Search panel: Windows reserves the layer
   above them for signed UIAccess apps. The planner prefers taskbar icons and app windows; when a step is inside

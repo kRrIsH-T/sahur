@@ -95,7 +95,7 @@ def split(command: str, parser: Parser, whole: Parse | None = None) -> list[str]
         for *_, ranges, strict in candidates:
             if all(judge.ok(r, strict) for r in ranges):
                 return [judge.text(r) for r in ranges]
-    log.info("no split of %r works", command)
+    log.debug("No complete command split found")
     return None
 
 
@@ -176,7 +176,12 @@ def _field_check(command: str, toks: list[Token], whole: Parse, cut: _Cut, begin
         return cut
     left, right = toks[cut.end - 1], toks[cut.start]
     for value in values:
-        if value and (at := command.find(value)) >= 0 and at < left.end and at + len(value) > right.start:
+        if not value or (at := command.find(value)) < 0:
+            continue
+        # A kept participle can be the last word of a title (e.g. "Kurchi Madatha Petti").
+        if cut.end == cut.start and at < left.start and at + len(value) == left.end:
+            return None
+        if at < left.end and at + len(value) > right.start:
             if not (may_swallow and at <= toks[begin].start):
                 return None
             cut = _Cut(cut.end, cut.start, strict=True)
@@ -410,6 +415,8 @@ def chain(steps: list[a.Action]) -> list[a.Action]:
     for step in steps:
         if out:
             step = carry_over(out[-1], step)
+            if isinstance(out[-1], a.ReadScreen) and isinstance(step, a.ReadScreen):
+                continue
             if _opens_what_uses(out[-1], step):
                 out[-1] = step
                 continue

@@ -52,13 +52,17 @@ class Executor:
                 outcome = self.open_site(site, browser)
                 self._opened_window = outcome.ok
                 return outcome
+            case a.FindFile() | a.OpenRecentDownload():
+                outcome = self._open_or_find_file(action)
+                self._opened_window = outcome.ok
+                return outcome
             case a.SendMessage(contact=name, text=text):
                 contact = self.contacts.find(name)
                 if contact is None:
                     return Outcome(False, "contact_not_found", {"contact": name})
-                whatsapp.send(contact.phone, text)
+                whatsapp.open_draft(contact.phone, text)
                 self._opened_window = True
-                return Outcome(True, "sent", {"contact": contact.name})
+                return Outcome(True, "message_draft", {"contact": contact.name})
             case a.WebSearch(query=query, site=site, browser=browser):
                 self.open_url(sites.search_url(site, query), browser)
                 self._opened_window = True
@@ -99,6 +103,27 @@ class Executor:
                 return Outcome(True, "cancelled", {})
             case _:
                 return Outcome(False, "not_understood", {})
+
+    def _open_or_find_file(self, action: a.FindFile | a.OpenRecentDownload) -> Outcome:
+        from bolos.executor import files
+
+        recent = isinstance(action, a.OpenRecentDownload)
+        result = files.latest_download() if recent else files.find_file(action.query)
+        if result.status != "found" or result.path is None:
+            key = {
+                "not_found": "download_not_found" if recent else "file_not_found",
+                "ambiguous": "file_ambiguous",
+                "pending": "download_pending",
+                "invalid": "file_name_only",
+                "unsafe": "file_unavailable" if recent else "file_name_only",
+            }.get(result.status, "file_unavailable")
+            return Outcome(False, key)
+        should_open = recent or action.open
+        if should_open and files.open_file(result.path):
+            return Outcome(True, "download_opened" if recent else "file_opened")
+        if files.reveal_file(result.path):
+            return Outcome(True, "file_open_manually" if should_open else "file_found")
+        return Outcome(False, "file_unavailable")
 
     def open_app(self, spoken: str) -> Outcome:
         """An installed app; else a website of that name ("Netflix kholo" without the app)."""

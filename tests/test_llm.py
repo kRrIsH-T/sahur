@@ -190,3 +190,71 @@ def test_unusable_correction_raises_slot_error(llm, reply):
     llm.replies = [reply]
     with pytest.raises(SlotError):
         llm.correct("notes kholo", a.OpenApp(app="Sticky Notes"), "wrong, I meant")
+
+
+def test_fallback_llm_uses_the_backup_after_the_primary_fails_and_skips_it_for_a_while():
+    from bolos.llm import FallbackLLM
+
+    calls = []
+
+    class Down:
+        def _structured(self, *a):
+            calls.append("primary")
+            raise RuntimeError("usage limit")
+
+    class Up:
+        def _structured(self, *a):
+            calls.append("backup")
+            return {"ok": True}
+
+    llm = FallbackLLM(Down(), Up())
+    assert llm._structured("s", "u", {}) == {"ok": True}
+    assert llm._structured("s", "u", {}) == {"ok": True}
+    assert calls == ["primary", "backup", "backup"]
+
+
+def _claude(monkeypatch, stdout, returncode=0, seen=None):
+    import subprocess
+
+    from bolos import llm as llm_module
+    from bolos.llm import ClaudeLLM
+
+    def fake_run(cmd, **kwargs):
+        if seen is not None:
+            seen.append((cmd, kwargs))
+        return subprocess.CompletedProcess(cmd, returncode, stdout=stdout, stderr="")
+
+    monkeypatch.setattr(llm_module.subprocess, "run", fake_run)
+    obj = ClaudeLLM.__new__(ClaudeLLM)
+    obj.exe, obj.model, obj.effort = "claude", "haiku", "low"
+    obj.workdir = __import__("pathlib").Path(".")
+    return obj
+
+
+def test_claude_llm_returns_structured_output_with_tools_and_settings_off(monkeypatch):
+    import json
+
+    seen = []
+    llm = _claude(monkeypatch, json.dumps({"type": "result", "is_error": False, "result": "x",
+                                           "structured_output": {"say": "ok"}}), seen=seen)
+    assert llm._structured("sys", "user", {"type": "object"}) == {"say": "ok"}
+    cmd = seen[0][0]
+    assert cmd[cmd.index("--tools") + 1] == "" and cmd[cmd.index("--model") + 1] == "haiku"
+    assert "--no-session-persistence" in cmd and cmd[cmd.index("--effort") + 1] == "low"
+
+
+def test_claude_llm_raises_when_not_logged_in(monkeypatch):
+    import json
+
+    import pytest
+
+    llm = _claude(monkeypatch, json.dumps({"type": "result", "is_error": True, "result": "Not logged in"}))
+    with pytest.raises(RuntimeError, match="Not logged in"):
+        llm._structured("sys", "user", {"type": "object"})
+
+
+def test_claude_llm_text_answer(monkeypatch):
+    import json
+
+    llm = _claude(monkeypatch, json.dumps({"type": "result", "is_error": False, "result": "screen par Hello likha hai"}))
+    assert llm._text("sys", "user") == "screen par Hello likha hai"

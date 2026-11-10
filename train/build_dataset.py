@@ -86,6 +86,24 @@ def load_eval_texts(eval_dir: Path) -> list[str]:
     return [t for t in texts if t]
 
 
+def without_eval_overlap(rows: list[dict], eval_texts: list[str], problems: Counter) -> list[dict]:
+    eval_norm = {normalize(t) for t in eval_texts}
+    eval_bags = {word_bag(t) for t in eval_texts}
+    near_shingles, near_bags = NearSets([shingles(t) for t in eval_texts]), NearSets(list(eval_bags))
+    clean = []
+    for row in rows:
+        chars, bag = shingles(row["text"]), word_bag(row["text"])
+        if normalize(row["text"]) in eval_norm or bag in eval_bags:
+            problems["in_test_set"] += 1
+        elif near_shingles.any_at_least(chars, NEAR_DUP):
+            problems["near_test_set"] += 1
+        elif len(bag) >= 3 and near_bags.any_at_least(bag, NEAR_DUP_WORDS):
+            problems["reworded_test_set"] += 1
+        else:
+            clean.append(row)
+    return clean
+
+
 def default_corrections_path() -> Path:
     from bolos.config import load_settings
 
@@ -187,20 +205,7 @@ def main() -> None:
     eval_texts = load_eval_texts(args.eval_dir)
     found = [name for name in TEST_SETS if (args.eval_dir / name).exists()]
     print(f"test sets kept out: {', '.join(found)}; not found: {sorted(set(TEST_SETS) - set(found)) or 'none'}")
-    eval_norm = {normalize(t) for t in eval_texts}
-    eval_bags = {word_bag(t) for t in eval_texts}
-    near_shingles, near_bags = NearSets([shingles(t) for t in eval_texts]), NearSets(list(eval_bags))
-    clean = []
-    for r in rows:
-        s, bag = shingles(r["text"]), word_bag(r["text"])
-        if normalize(r["text"]) in eval_norm or bag in eval_bags:
-            problems["in_test_set"] += 1
-        elif near_shingles.any_at_least(s, NEAR_DUP):
-            problems["near_test_set"] += 1
-        elif len(bag) >= 3 and near_bags.any_at_least(bag, NEAR_DUP_WORDS):
-            problems["reworded_test_set"] += 1
-        else:
-            clean.append(r)
+    clean = without_eval_overlap(rows, eval_texts, problems)
 
     out = args.out or args.data_dir / "dataset.jsonl"
     with out.open("w", encoding="utf-8", newline="\n") as f:

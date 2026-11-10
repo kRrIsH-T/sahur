@@ -8,6 +8,7 @@ from __future__ import annotations
 
 from collections import Counter
 from datetime import date, datetime, timedelta
+from math import isfinite
 from statistics import median
 
 from bolos.overlay import OUTCOME_STATES
@@ -27,19 +28,29 @@ RECENT = 30
 def worked(entry: dict) -> bool:
     if isinstance(entry.get("ok"), bool):
         return entry["ok"] and not entry.get("corrected")
-    return entry.get("outcome") not in FAILED and not entry.get("corrected")
+    return _text(entry, "outcome") not in FAILED and not entry.get("corrected")
+
+
+def _text(entry: dict, key: str) -> str:
+    value = entry.get(key)
+    return value if isinstance(value, str) else ""
 
 
 def _when(entry: dict) -> datetime | None:
     try:
-        return datetime.fromisoformat(entry["time"])
-    except (KeyError, TypeError, ValueError):
+        when = datetime.fromisoformat(_text(entry, "time"))
+        return when.astimezone() if when.tzinfo is None else when
+    except (OSError, OverflowError, ValueError):
         return None
 
 
 def _ms(entry: dict) -> float | None:
-    value = (entry.get("timings") or {}).get("total")
-    return float(value) if isinstance(value, (int, float)) else None
+    timings = entry.get("timings")
+    value = timings.get("total") if isinstance(timings, dict) else None
+    try:
+        return float(value) if type(value) in (int, float) and isfinite(value) and value >= 0 else None
+    except OverflowError:
+        return None
 
 
 def _percentile(values: list[float], q: float) -> float | None:
@@ -63,7 +74,7 @@ def summarize(entries: list[dict], today: date | None = None, days: int = 14) ->
         days = max(7, min(days, age))
     times = [ms for e, _ in dated if (ms := _ms(e)) is not None]
     ok = [e for e, _ in dated if worked(e)]
-    understood = [e for e, _ in dated if e.get("source")]
+    understood = [e for e, _ in dated if _text(e, "source")]
 
     per_day = []
     for offset in range(days - 1, -1, -1):
@@ -74,7 +85,7 @@ def summarize(entries: list[dict], today: date | None = None, days: int = 14) ->
 
     by_source: dict[str, list[float]] = {}
     for e, _ in dated:
-        by_source.setdefault(SOURCES.get(e.get("source"), "Other"), []).append(_ms(e))
+        by_source.setdefault(SOURCES.get(_text(e, "source") or None, "Other"), []).append(_ms(e))
     sources = []
     for name, values in sorted(by_source.items(), key=lambda item: -len(item[1])):
         measured = [v for v in values if v is not None]
@@ -83,12 +94,13 @@ def summarize(entries: list[dict], today: date | None = None, days: int = 14) ->
 
     recent = []
     for e, when in sorted(dated, key=lambda item: item[1], reverse=True)[:RECENT]:
-        recent.append({"time": when.isoformat(timespec="seconds"), "transcript": e.get("transcript") or "",
-                       "action": e.get("action") or "", "source": SOURCES.get(e.get("source"), "Other"),
-                       "outcome": e.get("outcome") or "", "ok": worked(e), "ms": _ms(e),
+        outcome = _text(e, "outcome")
+        recent.append({"time": when.isoformat(timespec="seconds"), "transcript": _text(e, "transcript"),
+                       "action": _text(e, "action"), "source": SOURCES.get(_text(e, "source") or None, "Other"),
+                       "outcome": outcome, "ok": worked(e), "ms": _ms(e),
                        # failures read as the status card says them ("App not found")
-                       "result": OUTCOME_STATES.get(e.get("outcome"), (None,))[0],
-                       "language": (e.get("language") or "").split("-")[0], "corrected": bool(e.get("corrected"))})
+                       "result": OUTCOME_STATES.get(outcome, (None,))[0],
+                       "language": _text(e, "language").split("-")[0], "corrected": bool(e.get("corrected"))})
 
     return {
         "total": len(dated),
@@ -103,9 +115,10 @@ def summarize(entries: list[dict], today: date | None = None, days: int = 14) ->
         "first": min(when for _, when in dated).isoformat(timespec="seconds") if dated else None,
         "per_day": per_day,
         "sources": sources,
-        "actions": _counts((e.get("action") or "not understood" for e, _ in dated), 8),
-        "languages": _counts(((e.get("language") or "?").split("-")[0] for e, _ in dated)),
-        "triggers": _counts(TRIGGERS.get(e.get("trigger"), e.get("trigger") or "?") for e, _ in dated),
-        "failures": _counts((e.get("outcome") or "?" for e, _ in dated if not worked(e)), 6),
+        "actions": _counts((_text(e, "action") or "not understood" for e, _ in dated), 8),
+        "languages": _counts(((_text(e, "language") or "?").split("-")[0] for e, _ in dated)),
+        "triggers": _counts(TRIGGERS.get(trigger, trigger or "?")
+                            for trigger in (_text(e, "trigger") for e, _ in dated)),
+        "failures": _counts((_text(e, "outcome") or "?" for e, _ in dated if not worked(e)), 6),
         "recent": recent,
     }

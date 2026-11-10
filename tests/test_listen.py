@@ -417,6 +417,30 @@ def test_stream_open_fails_cleanly(settings, prisma):
         PrismaStream(settings, url="ws://127.0.0.1:9", open_timeout=1).open()  # nothing listening
 
 
+def test_stream_invalid_handshake_closes_socket_and_uses_a_safe_error(settings, monkeypatch):
+    from websockets.sync import client
+
+    class Socket:
+        closed = False
+
+        def __enter__(self):
+            return self
+
+        def recv(self, timeout):
+            return '["private value"]'
+
+        def close(self):
+            self.closed = True
+
+    socket = Socket()
+    monkeypatch.setattr(client, "connect", lambda *a, **kw: socket)
+    stream = PrismaStream(settings)
+    with pytest.raises(SpeechError, match="did not acknowledge") as raised:
+        stream.open()
+    assert "private value" not in str(raised.value)
+    assert socket.closed and stream.closed
+
+
 # Whole turns through the Listener
 
 
@@ -888,7 +912,7 @@ def test_rest_never_truncates_a_long_capture(make_listener):
     assert rest.calls == []
 
 
-@pytest.mark.parametrize("termination", ["closed", "timeout"])
+@pytest.mark.parametrize("termination", ["closed", "error", "malformed transcript", "timeout"])
 def test_unfinished_stream_cannot_return_only_its_first_instruction(make_listener, monkeypatch, termination):
     rest = FakeRest("open Chrome then search weather")
     listener, _ = make_listener(rest=rest)
@@ -903,8 +927,10 @@ def test_unfinished_stream_cannot_return_only_its_first_instruction(make_listene
             self.messages.put({"type": "transcript", "text": "open Chrome", "is_final": True,
                                "utterance_id": "one"})
             self.messages.put({"type": "speech_start", "utterance_id": "two"})
-            if termination == "closed":
-                self.messages.put({"type": "closed"})
+            if termination in {"closed", "error"}:
+                self.messages.put({"type": termination})
+            if termination == "malformed transcript":
+                self.messages.put({"type": "transcript", "text": None, "is_final": True, "utterance_id": "two"})
 
         def open(self):
             pass
@@ -932,6 +958,74 @@ def test_unfinished_stream_cannot_return_only_its_first_instruction(make_listene
     assert heard.text == "open Chrome then search weather"
     assert heard.via == "rest"
     assert len(rest.calls) == 1
+
+
+def test_unavailable_recognition_gives_a_retry_step_and_no_partial_command(make_listener):
+    listener, events = make_listener()
+    listener.settings = replace(listener.settings, user_language="en-IN")
+
+    class Unavailable:
+        def open(self):
+            raise SpeechError("connection down")
+
+        def transcribe(self, wav, keyterms):
+            raise SpeechError("connection still down")
+
+    listener._stream_factory = lambda terms: Unavailable()
+    listener.rest = Unavailable()
+    assert listener._run(_finished_capture(), tell_issue=True) is None
+    assert events.of("state")[-1] == "speech_unavailable"
+    assert "Check your internet and try again" in events.of("reply")[-1]
+
+
+def test_command_silence_has_a_retry_prompt_but_false_wakes_do_not(make_listener, monkeypatch):
+    listener, events = make_listener()
+    listener.settings = replace(listener.settings, user_language="en-IN")
+    monkeypatch.setattr(listener, "_transcribe", lambda cap: None)
+    assert listener._run(_finished_capture("wake"), tell_issue=True) is None
+    assert events.of("reply") == []
+    assert listener._run(_finished_capture("tap"), tell_issue=True) is None
+    assert events.of("state")[-1] == "not_understood"
+    assert "say it again" in events.of("reply")[-1]
+
+
+def test_shutdown_discards_a_rest_transcript_that_arrived_late(make_listener):
+    listener, _ = make_listener()
+
+    class LateRest:
+        def transcribe(self, wav, keyterms):
+            listener.close()
+            return FakeRest("open Chrome").transcribe(wav, keyterms)
+
+    listener.rest = LateRest()
+    assert listener._transcribe_rest(_finished_capture()) is None
+
+
+def test_microphone_that_stops_delivering_audio_is_recoverable(make_listener):
+    listener, events = make_listener()
+    listener.use_mic = True
+    closed = []
+
+    class Microphone:
+        def stop(self):
+            closed.append("stop")
+
+        def close(self):
+            closed.append("close")
+
+    class OfflineStream:
+        def open(self):
+            raise SpeechError("no stream")
+
+    listener._mic = Microphone()
+    listener._stream_factory = lambda terms: OfflineStream()
+    cap = Capture("tap", [], time.monotonic() - L.MIC_STALL_S - 1, 10)
+    cap.endpointer.started = True  # the user had started a command before unplugging
+    assert listener._run(cap, tell_issue=True) is None
+    assert not listener.rest.calls  # never transcribe the partial recording
+    assert listener.device_issue()[0] == "microphone_unavailable"
+    assert events.of("state")[-1] == "microphone_unavailable"
+    assert closed == ["stop", "close"]
 
 
 def test_stream_ignores_an_explicit_nonfinal_transcript(make_listener):

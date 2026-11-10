@@ -74,7 +74,8 @@ def test_sse_audio_yields_decoded_chunks_in_order():
 def test_sse_audio_stops_at_complete_and_handles_a_missing_last_blank_line():
     lines = sse(chunk(0, b"ab"), COMPLETE, chunk(2, b"never"))
     assert list(_sse_audio(iter(lines))) == [b"ab"]
-    assert list(_sse_audio(iter(sse(chunk(0, b"ab"))[:-1]))) == [b"ab"]
+    lines = sse(chunk(0, b"ab"), COMPLETE)[:-1]
+    assert list(_sse_audio(line.encode() for line in lines)) == [b"ab"]
 
 
 def test_sse_error_event_raises():
@@ -290,8 +291,9 @@ class FakeTimbre:
         self.stream_calls.append((text, language))
         if self.fail_stream:
             raise SpeechError("Timbre SSE 503")
-        yield pcm(1201)[:-1]  # chunks may split a sample
-        yield pcm(1200)[1:] + b"\x00"
+        audio = pcm(2400)
+        yield audio[:2401]  # chunks may split a sample
+        yield audio[2401:]
 
 
 class FakePlayer:
@@ -339,6 +341,32 @@ def test_streaming_failure_falls_back_to_rest(settings, tmp_path):
     assert tts.speak("ho gaya", "ta", player)
     assert timbre.rest_calls == [("ho gaya", "ta")] and player.played[-1] == 2400
     assert tts.cached("ho gaya", "ta") is not None
+
+
+def test_empty_stream_retries_with_complete_reply(settings, tmp_path, monkeypatch):
+    def post(url, **kwargs):
+        if url == speech.TTS_SSE_URL:
+            return FakeResponse(lines=sse(COMPLETE))
+        return FakeResponse(content=to_wav(np.full(100, 500, dtype=np.int16), 24000))
+
+    monkeypatch.setattr(speech.requests, "post", post)
+    tts = CachedTimbre(settings, TtsCache(tmp_path))
+    player = FakePlayer()
+    assert tts.speak("Full reply", "en", player)
+    assert player.played == [0, 100]
+
+
+def test_incomplete_spoken_reply_cannot_count_as_a_confirmation_prompt(settings, tmp_path, monkeypatch):
+    def post(url, **kwargs):
+        assert url == speech.TTS_SSE_URL
+        return FakeResponse(lines=sse(chunk(0, pcm(100))))  # connection ended before the complete event
+
+    monkeypatch.setattr(speech.requests, "post", post)
+    tts = CachedTimbre(settings, TtsCache(tmp_path))
+    player = FakePlayer()
+    assert tts.speak("Read back a message", "en", player) is False
+    assert player.played == [100]
+    assert tts.cached("Read back a message", "en") is None
 
 
 def test_rest_mode_when_streaming_is_off(settings, tmp_path):

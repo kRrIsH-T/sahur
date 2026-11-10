@@ -9,6 +9,14 @@ from bolos.forms.normalize import InvalidValue, amount, choose, digits, email, n
 from bolos.forms.prompts import PROMPTS
 from bolos.forms.validate import REASONS, check, reason_text
 
+
+def test_pan_application_choice_can_be_named_without_its_full_legal_label():
+    options = ("New PAN - Form No. 93 (Indian Citizen)", "New PAN - Form No. 94 (Indian Entity)",
+               "New PAN - Form No. 95 (Foreign Citizen)")
+    assert choose(options, "Indian citizen") == options[0]
+    with pytest.raises(InvalidValue):
+        choose(options, "New PAN")
+
 VALID = next(v for v in ("23456789012" + str(i) for i in range(10)) if check("aadhaar", v)[0])
 
 

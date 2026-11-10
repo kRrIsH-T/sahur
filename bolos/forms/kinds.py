@@ -50,7 +50,7 @@ _WORDS = {
     "place": r"\b(city|town|village|district|state|tehsil|taluk)\b|शहर|गाँव|गांव|जिला|ज़िला|राज्य|ನಗರ|ಊರು|ಜಿಲ್ಲೆ|"
              r"ರಾಜ್ಯ|நகரம்|ஊர்|மாவட்டம்|மாநிலம்|నగరం|ఊరు|జిల్లా|రాష్ట్రం|गाव|जिल्हा|നഗരം|ജില്ല|സംസ്ഥാനം|"
              r"শহর|গ্রাম|জেলা|রাজ্য|શહેર|ગામ|જિલ્લો|રાજ્ય|ਸ਼ਹਿਰ|ਪਿੰਡ|ਜ਼ਿਲ੍ਹਾ|ਰਾਜ",
-    "name": r"\bname\b|नाम|ಹೆಸರು|பெயர்|పేరు|नाव|പേര്|নাম|નામ|ਨਾਮ|ਨਾਂ",
+    "name": r"\b(?:name|surname)\b|नाम|ಹೆಸರು|பெயர்|పేరు|नाव|പേര്|নাম|નામ|ਨਾਮ|ਨਾਂ",
 }
 _SECRET_ORDER = ("otp", "captcha", "cvv", "password")
 _TEXT_ORDER = ("ckyc", "pep", "nominee", "relative_name", "gender", "occupation", "income", "address", "place",
@@ -62,9 +62,17 @@ def _has(concept: str, label: str) -> bool:
 
 
 _CONSENT = re.compile(
-    r"\bconsent|\bagree|\bdeclar|terms (and|&) conditions|privacy policy|\bi have read|\bi hereby|"
+    r"\bconsent|\bagree|\bdeclar|terms (and|&) conditions|privacy (policy|notice)|\bi have read|\bi hereby|"
+    r"\bby submitting\b|\byou give your\b|"
     r"सहमति|सहमत|घोषणा|मान्य करता|ಒಪ್ಪಿಗೆ|ಘೋಷ|ஒப்புதல்|உறுதிமொழி|అంగీకార|ప్రకటన|संमती|घोषणा|സമ്മത|"
     r"সম্মতি|ঘোষণা|સંમતિ|ઘોષણા|ਸਹਿਮਤੀ|ਘੋਸ਼ਣਾ")
+
+
+def is_consent(field) -> bool:
+    """Whether this is a declaration the user must read and complete themselves."""
+    is_checkbox = getattr(field, "control_type", "") == "CheckBox" or getattr(field, "kind", "") == "checkbox"
+    return (is_checkbox and
+            _CONSENT.search(f"{getattr(field, 'label', '')} {getattr(field, 'help', '')}".casefold()) is not None)
 
 
 def classify(field) -> str:
@@ -87,7 +95,7 @@ def classify(field) -> str:
     if kind == "checkbox":
         if _has("captcha", label):
             return "captcha"  # reCAPTCHA's "I'm not a robot" is the person's to tick
-        if _CONSENT.search(f"{label} {(getattr(field, 'help', '') or '').casefold()}"):
+        if is_consent(field):
             return "manual"  # a legal consent or declaration: read and ticked by the person themselves
         return "pep" if _has("pep", label) else "checkbox"
     for concept in _TEXT_ORDER:

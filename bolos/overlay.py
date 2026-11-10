@@ -35,6 +35,8 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Protocol
 
+from bolos.hotkey import format_hotkey
+
 # Palette: a calm dark card; colour only where it means something (state, source).
 BG = "#17191e"
 SURFACE = "#262931"
@@ -75,9 +77,18 @@ STATE_LABELS = {
 # Failure outcomes the pipeline may report as a state instead of "error": (wording, colour key).
 OUTCOME_STATES = {
     "not_understood": ("Didn't catch that", "warning"),
+    "microphone_unavailable": ("Microphone unavailable", "error"),
+    "shortcut_unavailable": ("Voice shortcut unavailable", "error"),
+    "speech_unavailable": ("Can't recognise speech right now", "warning"),
     "not_sent": ("Not sent", "ready"),
     "contact_not_found": ("Contact not found", "error"),
     "app_not_found": ("App not found", "error"),
+    "file_not_found": ("File not found", "warning"),
+    "download_not_found": ("No file in Downloads", "warning"),
+    "download_pending": ("Download in progress", "warning"),
+    "file_ambiguous": ("More than one file matches", "warning"),
+    "file_name_only": ("Say the file name", "warning"),
+    "file_unavailable": ("Couldn't get to the file", "warning"),
     "control_not_found": ("Not found on screen", "error"),
     "screen_unavailable": ("Can't read the screen", "warning"),
     "focus_changed": ("Window changed, did nothing", "warning"),
@@ -85,11 +96,15 @@ OUTCOME_STATES = {
     "form_not_found": ("No form on screen", "warning"),
     "form_not_finished": ("Form not finished", "warning"),
     "guide_lost": ("Lost the next step", "warning"),
+    "guide_pan_not_loaded": ("PAN form not visible yet", "warning"),
     "guide_cannot": ("Can't show that", "warning"),
     "guide_timeout": ("Stopped showing", "ready"),
     "guide_unavailable": ("Can't show right now", "error"),
     "guide_form": ("Use the form assistant", "warning"),
+    "guide_switch_app": ("Switch to the app you want help with", "warning"),
+    "guide_settings_open_failed": ("Open Windows Settings", "warning"),
 }
+ATTENTION_STATES = {"microphone_unavailable", "shortcut_unavailable", "speech_unavailable"}
 ANIMATED_STATES = {"listening", "hearing", "transcribing", "understanding", "thinking", "executing", "guiding",
                    "filling"}
 METER_STATES = {"listening", "hearing"}  # the microphone is open: a live level meter
@@ -276,7 +291,8 @@ class OverlayState:
     def settle(self, now: float) -> bool:
         """Back to the idle card once a finished command has been on screen for SETTLE_S, so the last result
         (a failure or "form handled") never sits on the user's screen until the next command."""
-        if self.state == "ready" or self.state not in TERMINAL_STATES or now - self.state_since < SETTLE_S:
+        if (self.state == "ready" or self.state in ATTENTION_STATES or self.state not in TERMINAL_STATES
+                or now - self.state_since < SETTLE_S):
             return False
         self.heard, self.language, self.decision, self.reply = "", None, None, ""
         self.trigger = self.guide_step = None
@@ -293,11 +309,6 @@ class OverlayState:
 
 # ---------------------------------------------------------------------------------------------------------
 # Wording
-
-
-def format_hotkey(hotkey: str) -> str:
-    """"ctrl+space" -> "Ctrl+Space"."""
-    return "+".join(part.strip().capitalize() for part in hotkey.split("+") if part.strip()) or hotkey
 
 
 def format_duration(ms: float) -> str:
@@ -342,6 +353,10 @@ def describe_step(step: Step) -> tuple[str, str, str]:
     in_browser = f"in {browser}" if browser else ""
     if action == "open_app":
         return "Open app", _text(f, "app"), ""
+    if action == "find_file":
+        return ("Open file" if f.get("open") else "Find file"), _text(f, "query"), ""
+    if action == "open_recent_download":
+        return "Open file", "Newest file in Downloads", ""
     if action == "open_website":
         return "Open site", _text(f, "site"), in_browser
     if action == "web_search":
@@ -388,7 +403,7 @@ def header(st: OverlayState, now: float) -> tuple[str, str, str]:
         label, colour = st.state.replace("_", " ").capitalize(), STATE_COLOURS["error"]
     detail = ""
     if st.state == "thinking":  # System 2 is working out the command
-        detail = f"{st.thinking_seconds(now):.1f} s{SEP}{st.api_model or 'asking Codex'}"
+        detail = f"{st.thinking_seconds(now):.1f} s{SEP}{st.api_model or 'asking System 2'}"
     elif st.state == "confirming":
         detail = "say yes or no"
     elif st.state == "guiding":
@@ -868,6 +883,7 @@ class Overlay:
         self._origin = (0, 0)
         self.hwnd = 0
         self.visible = not click_only
+        self._notice_visible = False
         if self.visible:
             self._show_without_focus()
             self._render()
@@ -1004,12 +1020,14 @@ class Overlay:
                         self.details_enabled = value
                         if not value:
                             self._set_visible(False)
+                            self._notice_visible = False
                     else:
                         self._set_visible(value)
                     continue
                 if kind == "_details":
                     if self.details_enabled and self.visible:
                         self._set_visible(False)
+                        self._notice_visible = False
                     elif self.details_enabled:
                         self.anchor = value
                         if not self.hwnd:
@@ -1025,7 +1043,10 @@ class Overlay:
                         changed = True
                     continue
                 try:
-                    changed |= self.model.apply(kind, value, now)
+                    applied = self.model.apply(kind, value, now)
+                    changed |= applied
+                    if applied and kind == "state" and self.click_only:
+                        self._show_attention(value)
                 except Exception:  # a bad event must never take the window down
                     pass
         except queue.Empty:
@@ -1035,6 +1056,20 @@ class Overlay:
         if (self.visible or not self.click_only) and (changed or self._animating):
             self._render()
         self.root.after(self.TICK_MS, self._tick)
+
+    def _show_attention(self, state: str) -> None:
+        if state in ATTENTION_STATES:
+            if self.details_enabled and not self.visible:
+                self.anchor = None
+                if not self.hwnd:
+                    self._show_without_focus()
+                    self.visible = True
+                else:
+                    self._set_visible(True)
+                self._notice_visible = True
+        elif self._notice_visible:
+            self._set_visible(False)
+            self._notice_visible = False
 
     _animating = False
 

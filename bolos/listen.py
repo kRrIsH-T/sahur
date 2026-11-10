@@ -45,6 +45,8 @@ from bolos.audio import (
     to_wav,
 )
 from bolos.config import Settings
+from bolos.hotkey import format_hotkey
+from bolos.responses import say
 from bolos.speech import Prisma, PrismaStream, SpeechError
 
 log = logging.getLogger(__name__)
@@ -61,11 +63,19 @@ MAX_CAPTURE_S = 60.0  # hard cap on one turn, whatever happens
 LOCAL_END_SILENCE_MS = 1000  # local endpoint: a backstop behind the server's VAD (MIN_SILENCE_MS)
 MIN_SILENCE_MS = 600  # the server closes an utterance after this much silence
 BARRIER_WAIT_S = 4.0  # after the speech ends, how long to wait for the server's last transcript
+MIC_STALL_S = 2.0  # the microphone normally delivers a frame every 32 ms, even in a quiet room
+MIC_WATCH_S = 0.25  # how often the microphone watchdog checks that frames still arrive
+MIC_RETRY_S = 1.0  # while the microphone is gone, try to reopen it this often
 MUTE_TAIL_S = 0.3  # the speaker's sound dies away (and echoes) for a moment after playback
 LEVEL_INTERVAL_S = 0.05  # 20 level updates a second
 EARCON_VAD_IGNORE_S = 0.35  # the start earcon is not the user starting to speak
 MIN_HOLD_S = 0.6  # a held press this long is transcribed by REST even if the local VAD heard nothing
 WAKE_KEYTERM = "Bol OS"
+MICROPHONE_HELP = ("Sahur can't use the microphone. Check that it's plugged in and allowed in Windows, "
+                   "then choose a microphone in Sahur Settings.")
+# A stream that stops delivering audio: usually another app (a screen recorder) took exclusive control of it.
+MICROPHONE_LOST = ("Sahur lost the microphone. Another app may be using it. Sahur will reconnect "
+                   "as soon as it's free.")
 SQUEEZE_KEEP_S = 0.16  # every pause keeps at least this much silence (a natural gap between words)
 SQUEEZE_LAG_S = 0.064  # squeeze only while the websocket is this far behind the microphone
 SQUEEZE_MARGIN_DB = 6.0  # "quiet": below the room's noise floor plus this (the VAD needs +9 dB for speech)
@@ -266,11 +276,14 @@ class Capture:
             self._check_deadlines(now)
             return started
 
-    def tick(self, now: float) -> None:
-        """Apply the time limits even when no audio arrives (a microphone that stopped delivering)."""
+    def tick(self, now: float, *, microphone_frame_at: float | None = None) -> None:
+        """Check wall-clock limits even if the microphone stops delivering frames."""
         with self.lock:
             if not self.ended:
-                self._check_deadlines(now)
+                if microphone_frame_at is not None and now - max(self.started, microphone_frame_at) >= MIC_STALL_S:
+                    self._end("microphone_stalled", now)
+                else:
+                    self._check_deadlines(now)
 
     def _check_deadlines(self, now: float) -> None:
         if not self.hold and not self.endpointer.started and now >= self.no_speech_deadline:
@@ -351,7 +364,7 @@ class Listener:
                  hotkey: str | None = None, use_mic: bool = True, use_hotkey: bool = True, tts=None,
                  stream_factory: Callable[[list[str]], PrismaStream] | None = None, rest=None,
                  player: Player | None = None, earcons: bool = True, min_silence_ms: int = MIN_SILENCE_MS,
-                 squeeze: bool = True, input_device: int | None = None):
+                 squeeze: bool = True, input_device: int | None = None, speak_replies: bool = True):
         self.settings = settings
         self.input_device = input_device  # a sounddevice input index; None: the Windows default
         self.keyterms = list(keyterms)
@@ -364,11 +377,11 @@ class Listener:
         self.earcons = earcons
         self.min_silence_ms = min_silence_ms
         self.squeeze = squeeze  # shorten silences while the websocket lags the microphone (SilenceSqueezer)
-        if tts is None and settings.has_gnani:
+        if tts is None and settings.has_gnani and speak_replies:
             from bolos.tts_cache import CachedTimbre
 
             tts = CachedTimbre(settings)
-        self.tts = tts
+        self.tts = tts if speak_replies else None
         self.rest = rest or Prisma(settings)
         self._stream_factory = stream_factory or (
             lambda terms: PrismaStream(self.settings, terms, min_silence_ms=self.min_silence_ms))
@@ -388,9 +401,16 @@ class Listener:
         self._was_muted = False
         self._last_level = 0.0
         self._level_peak = 0.0
+        self._last_frame_at = 0.0  # includes frames muted during speech output, to detect a stalled input
+        self._mic_frame_at = 0.0  # when the open stream last called back (or opened), for the watchdog
+        self._next_mic_retry = 0.0
+        self._watch: threading.Thread | None = None
+        self._watch_stop = threading.Event()
         self.mic_level = 0.0  # 0..1, decaying peak of every frame (the dashboard's meter), even when idle
         self.mic_error: str | None = None  # why the microphone could not be opened, if it could not
+        self.hotkey_error: str | None = None
         self._mic_lock = threading.Lock()
+        self._hotkey_lock = threading.Lock()
         self._hotkey_down = False
         self._key_pressed = None  # set in start(); tests replace it
         self._hotkey = None
@@ -413,70 +433,177 @@ class Listener:
         except BaseException:
             self.close()
             raise
+        if self.use_mic:
+            self._watch_stop.clear()
+            self._watch = threading.Thread(target=self._watch_mic, daemon=True, name="listen-mic-watch")
+            self._watch.start()
         return self
 
     def _start_devices(self) -> None:
         if self.use_mic:
-            self._open_mic(self.input_device)
+            from sounddevice import PortAudioError
+
+            try:
+                with self._mic_lock:
+                    self._open_mic(self.input_device)
+            except (PortAudioError, OSError):
+                self.mic_error = MICROPHONE_HELP
         if self.use_hotkey:
             from bolos import hotkey
 
             self._key_pressed = self._key_pressed or (lambda: hotkey.is_down(self.hotkey))
-            self._hotkey = hotkey.GlobalHotkey(self.hotkey, self._on_hotkey)
-            self._hotkey.start()
+            try:
+                self.set_hotkey(self.hotkey)
+            except hotkey.HotkeyError:
+                pass  # The dashboard stays available so the user can choose another shortcut.
+        self._show_device_issue()
+
+    def device_issue(self) -> tuple[str, str] | None:
+        if self._mic is None and self.mic_error:
+            return "microphone_unavailable", self.mic_error
+        if self.hotkey_error:
+            return "shortcut_unavailable", self.hotkey_error
+        return None
+
+    def _show_device_issue(self) -> None:
+        if issue := self.device_issue():
+            state, message = issue
+            self.status("state", state)
+            self.status("reply", message)
 
     def _open_mic(self, device: int | None) -> None:
         import sounddevice as sd
 
         def callback(data, frames, _time, flags):
+            self._mic_frame_at = time.monotonic()
             if flags.input_overflow:
                 log.debug("microphone overflow")
             self._frames.put(data[:, 0].copy())
 
         mic = sd.InputStream(samplerate=SAMPLE_RATE, channels=1, dtype="int16", blocksize=FRAME,
                              callback=callback, device=device)
-        mic.start()
+        try:
+            self._mic_frame_at = time.monotonic()  # a new stream gets MIC_STALL_S to deliver its first frame
+            mic.start()
+        except BaseException:
+            try:
+                mic.close()
+            except Exception:
+                log.debug("closing a microphone that failed to start", exc_info=True)
+            raise
         self._mic, self.input_device, self.mic_error = mic, device, None
 
     def set_input_device(self, device: int | None) -> None:
         """Listen with another microphone from now on (None: the Windows default). If it cannot be opened,
         the one before stays (and mic_error says why)."""
-        if not self.use_mic or not self._running:
-            self.input_device = device
-            return
         with self._mic_lock:
+            if not self.use_mic or not self._running:
+                self.input_device = device
+                return
+            recovering = self._mic is None and self.mic_error is not None
             old = self._mic
+            if old is not None and device == self.input_device:
+                self.mic_error = None
+                return
             try:
                 self._open_mic(device)
-            except Exception as e:
-                self.mic_error = str(e) or type(e).__name__
-                log.warning("Could not switch the microphone: %s", self.mic_error)
+            except Exception:
+                self.mic_error = MICROPHONE_HELP if old is None else (
+                    "Sahur couldn't switch microphones. It is still using the previous microphone.")
                 raise
-            if old is not None:
-                for step in (old.stop, old.close):
-                    try:
-                        step()
-                    except Exception:
-                        log.debug("closing the old microphone failed", exc_info=True)
+            self._close_mic(old)
             with self._lock:
                 self._ring.clear()  # the old microphone's audio is not the pre-roll of the new one
+            if recovering:
+                self._device_recovered()
 
     def set_hotkey(self, combination: str) -> None:
         """Use another push-to-talk combination from now on. HotkeyError (the old one stays) if another
         program already has it."""
-        if combination == self.hotkey:
-            return
         from bolos import hotkey
 
-        if not self.use_hotkey or not self._running or hotkey.parse(combination) == hotkey.parse(self.hotkey):
-            self.hotkey = combination  # the same keys spelled differently stay registered as they are
-            return
-        new = hotkey.GlobalHotkey(combination, self._on_hotkey)
-        new.start()  # raises HotkeyError before anything changed
-        old, self._hotkey = self._hotkey, new
-        self.hotkey = combination
-        if old is not None:
-            old.stop()
+        with self._hotkey_lock:
+            try:
+                flags, _, key = hotkey.parse(combination)
+                if not flags:
+                    raise hotkey.HotkeyError("The shortcut must include Ctrl, Alt, Shift or the Windows key.")
+                if not self.use_hotkey or not self._running:
+                    self.hotkey = combination
+                    return
+                old = self._hotkey
+                if old is not None:
+                    old_flags, _, old_key = hotkey.parse(self.hotkey)
+                    if (flags, key) == (old_flags, old_key):
+                        self.hotkey = combination
+                        return
+                new = hotkey.GlobalHotkey(combination, self._on_hotkey)
+                new.start()  # if registration fails, keep the previous shortcut
+            except hotkey.HotkeyError:
+                if self._hotkey is None:
+                    self.hotkey_error = (f"Sahur can't use the {format_hotkey(self.hotkey)} shortcut. "
+                                         "Choose a different shortcut in Sahur Settings.")
+                raise
+            self._hotkey, self.hotkey = new, combination
+            if old is not None:
+                old.stop()
+            if self.hotkey_error is not None:
+                self.hotkey_error = None
+                self._device_recovered()
+
+    def _watch_mic(self) -> None:
+        """Keep the microphone alive without a restart. When another app takes exclusive control of it (some screen
+        recorders do), Windows stops this stream for good, even after that app lets go, and opening it again fails
+        with "Device unavailable" until then. So: notice a stream that stopped delivering frames, close it, and
+        reopen it every MIC_RETRY_S until the microphone is free again."""
+        from sounddevice import PortAudioError
+
+        while not self._watch_stop.wait(MIC_WATCH_S):
+            lost = recovered = False
+            with self._mic_lock:
+                if not self._running:
+                    return
+                now = time.monotonic()
+                mic = self._mic
+                if mic is not None:
+                    if not getattr(mic, "active", True) or now - self._mic_frame_at >= MIC_STALL_S:
+                        log.warning("The microphone stopped delivering audio; reconnecting when it is free")
+                        self._mic = None
+                        self._close_mic(mic)
+                        self.mic_error = MICROPHONE_LOST
+                        self.mic_level = 0.0
+                        self._next_mic_retry = now + MIC_RETRY_S
+                        lost = True
+                elif self.mic_error and now >= self._next_mic_retry:
+                    try:
+                        self._open_mic(self.input_device)
+                    except (PortAudioError, OSError) as e:
+                        log.debug("The microphone is still unavailable: %s", e)
+                        self._next_mic_retry = now + MIC_RETRY_S
+                    else:
+                        with self._lock:
+                            self._ring.clear()  # audio from before the gap is not the pre-roll of what comes next
+                        log.info("The microphone is back")
+                        recovered = True
+            if lost:
+                self._show_device_issue()
+            elif recovered:
+                self._device_recovered()
+
+    def _device_recovered(self) -> None:
+        if self.device_issue():
+            self._show_device_issue()
+        else:
+            self.status("reply", "")
+            self.status("state", "ready")
+
+    @staticmethod
+    def _close_mic(mic) -> None:
+        if mic is not None:
+            for step in (mic.stop, mic.close):
+                try:
+                    step()
+                except Exception:
+                    log.debug("Could not close a microphone stream", exc_info=True)
 
     def update_settings(self, settings: Settings) -> None:
         """New settings (voice, languages to recognise) for the next turn and reply."""
@@ -487,6 +614,7 @@ class Listener:
 
     def close(self) -> None:
         self._running = False
+        self._watch_stop.set()
         self._interrupt.set()
         with self._lock:
             if self._capture is not None:
@@ -495,23 +623,20 @@ class Listener:
         self._frames.put(None)
         # The overlay thread and command loop may both finish at once. Detach before closing so a
         # second close cannot stop or close the same PortAudio stream concurrently.
-        mic, self._mic = self._mic, None
-        if mic is not None:
-            try:
-                mic.stop()
-            except Exception:
-                log.warning("Microphone stop failed during shutdown")
-            try:
-                mic.close()
-            except Exception:
-                log.warning("Microphone close failed during shutdown")
-        registered, self._hotkey = self._hotkey, None
+        with self._mic_lock:
+            mic, self._mic = self._mic, None
+        self._close_mic(mic)
+        with self._hotkey_lock:
+            registered, self._hotkey = self._hotkey, None
         if registered is not None:
             registered.stop()
         self.player.stop()
         if self._pump is not None and self._pump is not threading.current_thread():
             self._pump.join(timeout=1.0)
         self._pump = None
+        if self._watch is not None and self._watch is not threading.current_thread():
+            self._watch.join(timeout=1.0)
+        self._watch = None
 
     def __enter__(self):
         return self.start()
@@ -547,6 +672,7 @@ class Listener:
 
     def _on_frame(self, frame: np.ndarray, now: float) -> None:
         trigger_wake = False
+        self._last_frame_at = now
         self.mic_level = max(level(frame), self.mic_level * 0.8)
         with self._lock:
             cap = self._capture
@@ -618,6 +744,9 @@ class Listener:
 
     def _on_hotkey(self) -> None:
         if not self._running or self._hotkey_down:  # key auto-repeat while held
+            return
+        if self._mic is None and self.mic_error:
+            self._show_device_issue()
             return
         self._hotkey_down = True
         threading.Thread(target=self._hotkey_turn, daemon=True, name="hotkey").start()
@@ -731,7 +860,7 @@ class Listener:
             cap = self._capture
             if cap is None:
                 return None
-            return self._run(cap)
+            return self._run(cap, tell_issue=timeout is None)
 
     def followup(self, timeout_s: float = 6.0) -> Heard | None:
         """Listen right now, without a trigger (after a question such as "send it?"). None if nobody speaks
@@ -742,6 +871,8 @@ class Listener:
         """Start a turn now and end it when the user stops speaking (record_set.py and follow-ups)."""
         with self._turn:
             if not self._running:
+                return None
+            if self._mic is None and self.mic_error:
                 return None
             with self._lock:
                 cap = self._capture  # the user may already have pressed the hotkey
@@ -756,20 +887,53 @@ class Listener:
                     cap = cap or self._capture
             return self._run(cap)
 
-    def _run(self, cap: Capture) -> Heard | None:
+    def _run(self, cap: Capture, *, tell_issue: bool = False) -> Heard | None:
+        issue = None
+        was_running = self._running
+        mic = self._mic
         try:
             heard = self._transcribe(cap)
+        except SpeechError:
+            issue = "speech_unavailable", "speech_retry"
+            heard = None
         except Exception:
             if self._private:
                 log.warning("Listening failed for a private answer")
             else:
                 log.exception("Listening failed")
+            issue = "error", "error"
             heard = None
         finally:
             cap.end("done")
             self._finish(cap)
+        if cap.reason == "closed" or (was_running and not self._running):
+            return None
+        if cap.reason == "microphone_stalled":
+            with self._mic_lock:
+                if self._mic is mic:  # Settings may already have switched to another microphone.
+                    self._mic = None
+                    self.mic_error = MICROPHONE_LOST  # the watchdog reconnects it once it is free
+                    self._next_mic_retry = time.monotonic() + MIC_RETRY_S
+                    self.mic_level = 0.0
+                    self._close_mic(mic)
+                    self._show_device_issue()
+            return None
         if heard is None:
-            self.status("state", "ready")
+            if tell_issue and not self._private and (cap.trigger in {"tap", "hotkey"} or issue):
+                if cap.reason == "max_capture":
+                    issue = "not_understood", "speech_shorter"
+                state, key = issue or ("not_understood", "speech_repeat")
+                language = self.settings.user_language
+                message = say(key, language, hotkey=format_hotkey(self.hotkey))
+                self.status("state", state)
+                self.status("reply", message)
+                # A connection failure can take down spoken replies as well. Keep its next steps visible.
+                if state != "speech_unavailable" and self.tts is not None:
+                    self.speak(message, language)
+            elif self.device_issue():
+                self._show_device_issue()
+            else:
+                self.status("state", "ready")
         elif not self._private:
             log.info("heard (%s, %s, %.0f ms after speech end): %s", heard.trigger, heard.via,
                      heard.timings.get("speech_end_to_transcript", -1), heard.text)
@@ -824,8 +988,8 @@ class Listener:
             if not self._running:
                 return None
             now = time.monotonic()
-            cap.tick(now)
-            if cap.reason in {"closed", "max_capture"}:
+            cap.tick(now, microphone_frame_at=self._last_frame_at if self.use_mic else None)
+            if cap.reason in {"closed", "max_capture", "microphone_stalled"}:
                 return None  # capture was interrupted, so its text would be an incomplete command
             frames = cap.take(cursor)
             if frames:
@@ -861,8 +1025,11 @@ class Listener:
             except queue.Empty:
                 continue
             kind = ev.get("type")
+            utterance = ev.get("utterance_id")
+            if utterance is not None and not isinstance(utterance, str):
+                return _Fallback(segments)
             if kind == "speech_start":
-                open_utterances.add(ev.get("utterance_id") or "")
+                open_utterances.add(utterance or "")
                 if not heard_state:
                     heard_state = True
                     self.status("state", "hearing")
@@ -871,8 +1038,11 @@ class Listener:
             elif kind == "transcript":
                 if ev.get("is_final") is False:
                     continue
-                open_utterances.discard(ev.get("utterance_id") or "")
-                text = clean_transcript(ev.get("text", ""))
+                text = ev.get("text")
+                if not isinstance(text, str):
+                    return _Fallback(segments)
+                open_utterances.discard(utterance or "")
+                text = clean_transcript(text)
                 if not text:
                     continue
                 transcript_at = ev.get("_t", time.monotonic())
@@ -909,6 +1079,7 @@ class Listener:
                     break
             elif kind == "error":
                 log.warning("Prisma stream error: %s", "[private]" if self._private else ev.get("message"))
+                return _Fallback(segments)
             elif kind == "closed":
                 log.warning("Prisma stream closed: %s", "[private]" if self._private else ev.get("reason"))
                 return _Fallback(segments)
@@ -922,14 +1093,17 @@ class Listener:
     def _transcribe_rest(self, cap: Capture, prefix: list[str] = ()) -> Heard | None:
         """The websocket failed: wait for the local endpoint, then send the captured audio to REST Prisma."""
         while not cap.ended:
-            cap.tick(time.monotonic())
+            cap.tick(time.monotonic(), microphone_frame_at=self._last_frame_at if self.use_mic else None)
             time.sleep(0.02)
         if not self._running:
             return None
         cap.end("rest")
         audio = cap.audio()
-        if cap.reason in {"closed", "max_capture"} or len(audio) > MAX_SECONDS * SAMPLE_RATE:
-            log.warning("Capture was interrupted or exceeds the REST limit; please use a shorter command")
+        if cap.reason in {"closed", "max_capture", "microphone_stalled"}:
+            return None
+        if len(audio) > MAX_SECONDS * SAMPLE_RATE:
+            log.warning("Capture exceeds the REST limit; please use a shorter command")
+            cap.reason = "max_capture"
             return None
         if not prefix and not cap.endpointer.started:
             # Nobody spoke, as far as the local VAD can tell. A held key is the user's own word that they
@@ -943,6 +1117,8 @@ class Listener:
             text = clean_transcript(self.rest.transcribe(clip, keyterms=terms).text)
         except Exception as e:
             log.warning("Prisma REST failed too: %s", "[private]" if self._private else e)
+            raise SpeechError("Speech recognition is unavailable") from None
+        if not self._running:
             return None
         transcript_at = time.monotonic()
         if cap.trigger == "wake" and text:

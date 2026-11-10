@@ -42,14 +42,19 @@ class MicMeter:
         self._device: int | None = None
         self._stream = None
         self._seen = 0.0
+        self._last_attempt = 0.0
+        self._closed = False
         self._lock = threading.Lock()
 
     def read(self, device: int | None) -> float:
         with self._lock:
+            if self._closed:
+                return 0.0
             self._seen = time.monotonic()
             if self._stream is not None and device != self._device:
                 self._close()
-            if self._stream is None:
+            if self._stream is None and (not self.error or device != self._device
+                                         or self._seen - self._last_attempt >= 1.0):
                 self._open(device)
             self.level *= 0.85  # decays between reads when no audio arrives
             return self.level
@@ -62,14 +67,18 @@ class MicMeter:
         def callback(data, *_):
             self.level = max(level(data[:, 0]), self.level)
 
+        self._device = device
+        self._last_attempt = self._seen
         try:
             self._stream = sd.InputStream(samplerate=SAMPLE_RATE, channels=1, dtype="int16", blocksize=FRAME,
                                           callback=callback, device=device)
             self._stream.start()
-            self._device, self.error = device, None
+            self.error = None
             threading.Thread(target=self._close_when_idle, daemon=True, name="mic-meter").start()
-        except Exception as e:
-            self._stream, self.error = None, str(e) or type(e).__name__
+        except Exception:
+            self._close()
+            self.error = "Check that your microphone is connected and allowed in Windows microphone settings."
+            log.debug("Could not start the dashboard microphone check", exc_info=True)
 
     def _close_when_idle(self) -> None:
         while True:
@@ -83,12 +92,18 @@ class MicMeter:
 
     def _close(self) -> None:
         stream, self._stream = self._stream, None
+        self.level = 0.0
         if stream is not None:
-            try:
-                stream.stop()
-                stream.close()
-            except Exception:
-                log.debug("closing the meter's microphone failed", exc_info=True)
+            for operation in (stream.stop, stream.close):
+                try:
+                    operation()
+                except Exception:
+                    log.debug("closing the meter's microphone failed", exc_info=True)
+
+    def close(self) -> None:
+        with self._lock:
+            self._closed = True
+            self._close()
 
 
 class Controls:
@@ -101,7 +116,6 @@ class Controls:
         self.history = history
         self.llm = llm
         self.dry_run = dry_run
-        self.started = time.time()
         self.at_start = store.values()  # what this Bol OS started with: changed non-live options need a restart
         self.live = {"state": "ready", "since": time.time(), "heard": "", "reply": ""}
         self._meter = MicMeter()
@@ -124,6 +138,10 @@ class Controls:
     def listener(self):
         return getattr(self.voice, "listener", None)
 
+    @property
+    def voice_commands(self) -> bool:
+        return bool(getattr(self.listener, "use_mic", False))
+
     def settings(self) -> Settings:
         return load_settings(self.store.overrides())
 
@@ -132,27 +150,53 @@ class Controls:
         return bool(self.store.get("screen_images"))
 
     def update(self, changes: dict[str, object]) -> dict[str, object]:
-        """Check, apply and save. What can fail when applied (a hotkey another program holds, a microphone that
-        will not open) is tried first, so a failure changes nothing: SettingError."""
+        """Keep live updates in order when two requests arrive together."""
+        with self._lock:
+            return self._update(changes)
+
+    def _update(self, changes: dict[str, object]) -> dict[str, object]:
+        from bolos.hotkey import HotkeyError
+
         checked = self.store.check(changes)
         before = self.store.values()
         listener = self.listener
-        if listener is not None:
-            if "hotkey" in checked and checked["hotkey"] != before["hotkey"]:
-                from bolos.hotkey import HotkeyError
-
+        restore = []
+        try:
+            if listener is not None:
+                if "hotkey" in checked and (checked["hotkey"] != before["hotkey"]
+                                            or getattr(listener, "hotkey_error", None)):
+                    original = listener.hotkey
+                    try:
+                        listener.set_hotkey(checked["hotkey"])
+                    except HotkeyError as e:
+                        log.warning("Could not switch the keyboard shortcut: %s", e)
+                        raise SettingError("Sahur couldn't use that shortcut. "
+                                           "Choose a different key combination.") from e
+                    if listener.hotkey != original:
+                        restore.append((listener.set_hotkey, original))
+                if "input_device" in checked and (checked["input_device"] != before["input_device"]
+                                                  or listener.mic_error):
+                    name = checked["input_device"]
+                    device = self._device(name, "input")
+                    if name and device is None:
+                        raise SettingError("That microphone is disconnected. Plug it in or choose Windows default.")
+                    original = listener.input_device
+                    try:
+                        listener.set_input_device(device)
+                    except Exception as e:
+                        log.warning("Could not switch the microphone: %s", e)
+                        raise SettingError("Sahur couldn't use that microphone. Check that it's connected and allowed "
+                                           "in Windows microphone settings, or choose a different one.") from e
+                    if listener.input_device != original:
+                        restore.append((listener.set_input_device, original))
+            diff = self.store.update(checked)
+        except SettingError:
+            for apply, original in reversed(restore):
                 try:
-                    listener.set_hotkey(checked["hotkey"])
-                except HotkeyError:
-                    raise SettingError(f"Another program already uses {checked['hotkey']}. Choose another "
-                                       "combination.") from None
-            if "input_device" in checked and checked["input_device"] != before["input_device"]:
-                device = self._device(checked["input_device"], "input")
-                try:
-                    listener.set_input_device(device)
-                except Exception as e:
-                    raise SettingError(f"Could not open that microphone: {e}") from None
-        diff = self.store.update(checked)
+                    apply(original)
+                except Exception:
+                    log.warning("Could not restore a live setting after a dashboard error", exc_info=True)
+            raise
         self._apply(diff)
         return diff
 
@@ -203,7 +247,11 @@ class Controls:
             return None
         from bolos.audio import find_device
 
-        device = find_device(name, kind)
+        try:
+            device = find_device(name, kind)
+        except Exception:
+            log.warning("Could not find the %s device; using the Windows default", kind, exc_info=True)
+            return None
         if device is None:
             log.warning("%s %r is not connected; using the Windows default", kind, name)
         return device.index if device else None
@@ -233,32 +281,48 @@ class Controls:
         value = self._meter.read(device)
         return {"level": round(value, 3), "error": self._meter.error, "state": None}
 
+    def close(self) -> None:
+        self._meter.close()
+
     # Sound checks
 
     def test(self, what: str) -> str:
-        """Play a sound check ("chime" or "speaker") or show the buddy's hello. Returns what it plays."""
+        """Run a dashboard check and return what worked."""
+        if what == "microphone":
+            self.update({"input_device": self.store.get("input_device")})
+            return "microphone"
+        if what == "welcome":
+            if self.buddy is None:
+                raise SettingError("Open Sahur to see the companion on your desktop.")
+            self.welcome()
+            return "welcome"
+        if what not in {"chime", "speaker"}:
+            raise SettingError("Choose one of the sound checks on this page.")
+        from bolos.audio import Player, earcon
+
         settings = self.settings()
         language = settings.user_language
         output = self.store.get("output_device")
-        device = self._device(output, "output")
-        if what == "chime":
-            from bolos.audio import Player
+        player = Player(self._device(output, "output"))
+        if what == "speaker" and not settings.has_gnani:
+            raise SettingError("Voice replies aren't set up. Try the chime to check your speakers, or ask the person "
+                               "who set up Sahur to help with voice replies.")
+        try:
+            if what == "chime" and player.play(earcon("start"), 24000):
+                return "chime"
+            if what == "speaker":
+                from bolos.responses import say
 
-            Player(device).chime("start")
-            return "chime"
+                text = say("speaker_test", language)
+                if self._speak_test(settings, text, language, player):
+                    return text
+        except Exception:
+            log.warning("The speaker check could not play", exc_info=True)
         if what == "speaker":
-            from bolos.responses import say
-
-            text = say("speaker_test", language)
-            threading.Thread(target=self._speak_test, args=(settings, text, language, device), daemon=True,
-                             name="speaker-test").start()
-            return text
-        if what == "welcome":
-            if self.buddy is None:
-                raise SettingError("Start Bol OS to see the pointer")
-            self.welcome()
-            return "welcome"
-        raise SettingError(f"Unknown sound check {what!r}")
+            raise SettingError("Sahur couldn't say the test sentence. Try the chime first. If you hear the chime, "
+                               "check your internet connection or ask for help with the voice service.")
+        raise SettingError("Sahur couldn't play the sound. Check your speaker and volume in Windows Sound settings, "
+                           "then try again.")
 
     def welcome(self) -> None:
         """The pointer's hello and how to start talking, in the reply language (first run, and on request)."""
@@ -272,74 +336,82 @@ class Controls:
         self.buddy.welcome(say("buddy_hello", language), say("buddy_hint", language, hotkey=format_hotkey(
             self.store.get("hotkey") or settings.hotkey)))
 
-    def _speak_test(self, settings: Settings, text: str, language: str, device: int | None) -> None:
-        try:
-            listener = self.listener
-            if listener is not None:
-                listener.speak(text, language)
-                return
-            if not settings.has_gnani:
-                return
-            from bolos.audio import Player
-            from bolos.tts_cache import CachedTimbre
+    def _speak_test(self, settings: Settings, text: str, language: str, player) -> bool:
+        if self.listener is not None:
+            return self.listener.speak(text, language)
+        from bolos.tts_cache import CachedTimbre
 
-            CachedTimbre(settings).speak(text, language, Player(device))
-        except Exception:
-            log.warning("The speaker check could not play", exc_info=True)
+        return CachedTimbre(settings).speak(text, language, player)
 
     # Health
 
     def checks(self) -> list[Check]:
         """What to look at before a demo, worst first."""
-        from bolos.audio import devices, find_device
+        from bolos.audio import devices
         from bolos.wake import MODEL_PATH
 
         settings = self.settings()
         values = self.store.values()
         out = []
         if self.running:
-            mode = " (dry run: nothing is executed)" if self.dry_run else ""
-            out.append(Check("running", "Bol OS is running", "warn" if self.dry_run else "ok",
-                             f"Since {time.strftime('%H:%M', time.localtime(self.started))}{mode}"))
+            if self.dry_run:
+                mode = "Sahur will show what it would do in practice mode."
+            elif self.voice_commands:
+                mode = "You can change your microphone and keyboard shortcut below."
+            else:
+                mode = "Open Sahur in voice mode to give it spoken commands."
+            out.append(Check("running", "Sahur is open", "warn" if self.dry_run else "ok", mode))
         else:
-            out.append(Check("running", "Bol OS is not running", "fail",
-                             "Changes are saved and used when it starts: uv run python -m bolos"))
-        out.append(Check("gnani", "Gnani speech key", "ok" if settings.has_gnani else "fail",
-                         "Prisma and Timbre are ready" if settings.has_gnani else "Set GNANI_API_KEY in .env"))
+            out.append(Check("running", "Sahur is closed", "fail",
+                             "Open Sahur to give it voice commands. You can test your sound here first."))
+        out.append(Check("gnani", "Voice service set up" if settings.has_gnani else "Voice service needs setup",
+                         "ok" if settings.has_gnani else "fail",
+                         "Play a test sentence to check that you can hear Sahur." if settings.has_gnani else
+                         "Ask the person who set up Sahur to connect the Gnani speech service."))
         out.append(self._system2(settings))
         for kind, key, label in (("input", "input_device", "Microphone"), ("output", "output_device", "Speaker")):
             name = values[key]
-            if name and find_device(name, kind) is None:
+            try:
+                available = devices(kind)
+            except Exception:
+                log.debug("Could not check the %s devices", kind, exc_info=True)
+                available = []
+            if not available:
+                out.append(Check(key, f"No {label.lower()} found", "fail",
+                                 f"Connect a {label.lower()} and check Windows Sound settings. Then reopen Sahur."))
+            elif name and not any(d.name == name for d in available) and self._device(name, kind) is None:
                 out.append(Check(key, f"{label} not connected", "fail",
-                                 f"{name} is missing; the Windows default is used. Plugged in after Bol OS "
-                                 "started? Restart it."))
+                                 f"Reconnect {name} and reopen Sahur, or choose Windows default below."))
             else:
-                default = next((d.name for d in devices(kind) if d.default), "")
+                default = next((d.name for d in available if d.default), "")
                 out.append(Check(key, label, "ok", name or (f"{default} (Windows default)" if default else
                                                               "Windows default")))
         listener = self.listener
         if listener is not None and listener.mic_error:
-            out.append(Check("mic_error", "Microphone error", "fail", listener.mic_error))
+            out.append(Check("mic_error", "Check your microphone", "fail",
+                             f"{listener.mic_error} Select Retry microphone when you're ready."))
+        if listener is not None and getattr(listener, "hotkey_error", None):
+            out.append(Check("hotkey_error", "Keyboard shortcut unavailable", "fail", listener.hotkey_error))
         out.append(Check("widget", "Sahur details", "ok" if values["widget_visible"] else "warn",
                          "Click Sahur to open" if values["widget_visible"] else "Disabled"))
         if values["screen_images"]:
-            out.append(Check("screen_images", "Screenshots go to System 2", "warn",
-                             "Close private chats and tabs before recording"))
+            out.append(Check("screen_images", "Screen help can share screenshots", "warn",
+                             "Close private chats and tabs before asking for help with your screen."))
         if settings.wake_enabled and not MODEL_PATH.exists():
-            out.append(Check("wake", "Wake word unavailable", "warn", "No trained model: use the hotkey"))
+            out.append(Check("wake", "Wake word unavailable", "warn", "Use your keyboard shortcut to speak."))
         order = {"fail": 0, "warn": 1, "ok": 2}
         return sorted(out, key=lambda c: order[c.level])
 
     def _system2(self, settings: Settings) -> Check:
         if settings.decider == "fast":
-            return Check("system2", "System 2 is off", "warn", "Only what System 1 is sure of runs")
+            return Check("system2", "Advanced help is off", "warn", "Sahur can still follow basic commands.")
         if settings.llm_provider == "codex":
             found = settings.codex_path or shutil.which("codex")
             if found:
-                tier = ", Fast mode" if settings.codex_fast else ""
-                return Check("system2", "System 2: Codex CLI", "ok",
-                             f"{settings.codex_model}, {settings.codex_effort} effort{tier}")
-            return Check("system2", "System 2: Codex CLI not found", "fail", "Install it or set CODEX_PATH")
+                return Check("system2", "Advanced help set up", "ok", "Uses Codex for more complex requests.")
+            return Check("system2", "Advanced help needs setup", "warn",
+                         "Ask the person who set up Sahur to check the Codex connection.")
         if settings.has_llm:
-            return Check("system2", "System 2: API", "ok", settings.llm_model)
-        return Check("system2", "System 2 has no key", "fail", "Set GEMINI_API_KEY or LLM_API_KEY in .env")
+            return Check("system2", "Advanced help set up", "ok", "Uses an AI service for more complex requests.")
+        return Check("system2", "Advanced help needs setup", "warn",
+                     "Ask the person who set up Sahur to connect the AI service for more complex requests.")

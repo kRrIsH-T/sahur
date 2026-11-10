@@ -179,3 +179,16 @@ def test_old_habit_files_without_a_source_still_load(tmp_path):
     assert prefs.habit_source("zoom wala kholo") == "system2"
     prefs.learn_correction("zoom wala kholo", a.OpenApp(app="Zoom Workplace"))
     assert prefs.recall("zoom wala kholo") == a.OpenApp(app="Zoom Workplace")
+
+
+def test_malformed_saved_preferences_keep_valid_older_entries(tmp_path):
+    path = tmp_path / "p.json"
+    path.write_text(json.dumps({"media": {"music": {"Spotify": 2, "bad": "3"}, "video": []},
+                                "media_names": None, "app_names": {"bad": []},
+                                "habits": {"zoom": {"action": "open_app", "app": "Zoom"}, "broken": []}}),
+                    encoding="utf-8")
+    prefs = Preferences(path)
+    assert prefs.media_app("play music", "") == "Spotify"
+    assert prefs.media_app("play a video", "") == "YouTube"
+    assert prefs.app_names == {} and prefs.recall("broken") is None
+    assert prefs.recall("zoom") == a.OpenApp(app="Zoom")

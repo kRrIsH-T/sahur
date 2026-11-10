@@ -34,6 +34,11 @@ class HotkeyError(RuntimeError):
     pass
 
 
+def format_hotkey(hotkey: str) -> str:
+    """Display a combination as Ctrl+Space."""
+    return "+".join(part.strip().capitalize() for part in hotkey.split("+") if part.strip()) or hotkey
+
+
 def parse(hotkey: str) -> tuple[int, list[int], int]:
     """"ctrl+space" -> (RegisterHotKey modifier flags, virtual keys of the modifiers, virtual key of the key)."""
     flags, modifier_vks, key = 0, [], None
@@ -48,9 +53,10 @@ def parse(hotkey: str) -> tuple[int, list[int], int]:
             raise HotkeyError(f"Hotkey {hotkey!r} has more than one non-modifier key")
         elif part in _NAMED_KEYS:
             key = _NAMED_KEYS[part]
-        elif len(part) == 1 and part.isalnum():
+        elif len(part) == 1 and part.isascii() and part.isalnum():
             key = ord(part.upper())
-        elif part.startswith("f") and part[1:].isdigit() and 1 <= int(part[1:]) <= 24:
+        elif part.startswith("f") and len(part) <= 3 and part.isascii() and part[1:].isdigit() \
+                and 1 <= int(part[1:]) <= 24:
             key = 0x70 + int(part[1:]) - 1
         else:
             raise HotkeyError(f"Unknown key {part!r} in hotkey {hotkey!r}")
@@ -80,27 +86,35 @@ class GlobalHotkey:
         self._thread: threading.Thread | None = None
         self._thread_id = 0
         self._ready = threading.Event()
+        self._stopping = threading.Event()
         self._error: str | None = None
 
     def start(self) -> None:
         self._thread = threading.Thread(target=self._loop, daemon=True, name="hotkey-loop")
         self._thread.start()
-        self._ready.wait(5.0)
+        if not self._ready.wait(5.0):
+            self.stop()
+            raise HotkeyError(f"Windows did not start the {self.hotkey} shortcut. Try it again in Settings.")
         if self._error:
             raise HotkeyError(self._error)
 
     def _loop(self) -> None:
         user32, kernel32 = ctypes.windll.user32, ctypes.windll.kernel32
         self._thread_id = kernel32.GetCurrentThreadId()
+        if self._stopping.is_set():
+            return
         if not user32.RegisterHotKey(None, self._id, self._flags | MOD_NOREPEAT, self._vk):
             self._error = (f"Could not register {self.hotkey}: another program already uses it "
-                           f"(Windows error {ctypes.get_last_error() or kernel32.GetLastError()}). "
-                           "Set HOTKEY in .env to another combination.")
+                           f"(Windows error {ctypes.get_last_error() or kernel32.GetLastError()}).")
             self._ready.set()
             return
-        self._ready.set()
         try:
             msg = wintypes.MSG()
+            # The message queue must exist before stop() can post WM_QUIT to this thread.
+            user32.PeekMessageW(ctypes.byref(msg), None, 0, 0, 0)
+            self._ready.set()
+            if self._stopping.is_set():
+                return
             while user32.GetMessageW(ctypes.byref(msg), None, 0, 0) > 0:
                 if msg.message == WM_HOTKEY and msg.wParam == self._id:
                     try:
@@ -111,8 +125,10 @@ class GlobalHotkey:
             user32.UnregisterHotKey(None, self._id)
 
     def stop(self) -> None:
+        self._stopping.set()
         thread, self._thread = self._thread, None
-        if thread is None:
+        if thread is None or not thread.is_alive():
             return
-        ctypes.windll.user32.PostThreadMessageW(self._thread_id, WM_QUIT, 0, 0)
+        if self._thread_id:
+            ctypes.windll.user32.PostThreadMessageW(self._thread_id, WM_QUIT, 0, 0)
         thread.join(timeout=2.0)

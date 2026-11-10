@@ -129,11 +129,15 @@ class CachedTimbre:
                             chunks.put(bytes(data))
                     finally:
                         stream.close()
+                if len(pcm) % 2:
+                    raise SpeechError("Spoken reply ended in the middle of an audio sample")
                 if pcm:
-                    wav = to_wav(np.frombuffer(bytes(pcm[: len(pcm) // 2 * 2]), dtype=np.int16),
-                                 self.timbre.SAMPLE_RATE)
-                    self.cache.put(*self._key(text, language), wav)
-            except Exception as e:  # network, credits, server error
+                    wav = to_wav(np.frombuffer(bytes(pcm), dtype=np.int16), self.timbre.SAMPLE_RATE)
+                    try:
+                        self.cache.put(*self._key(text, language), wav)
+                    except OSError:
+                        log.warning("Could not save the spoken reply for next time")
+            except Exception as e:  # network, credits, malformed response
                 chunks.put(e)
             finally:
                 chunks.put(done)
@@ -163,12 +167,15 @@ class CachedTimbre:
         played = player.play_stream(samples(), self.timbre.SAMPLE_RATE, prebuffer_s=self.PREBUFFER_S)
         if first:
             self.last_first_audio_ms = (first[0] - start) * 1000
-        if failure and not first:
-            log.warning("Timbre streaming failed (%s); using REST", failure[0])
+        if not played:
+            return False
+        if not first:
+            log.warning("No streaming audio arrived; trying a complete spoken reply")
             return self.speak_rest(text, language, player)
         if failure:
-            log.warning("Timbre streaming broke off mid-reply: %s", failure[0])
-        return played
+            log.warning("Spoken reply was interrupted by a speech service failure")
+            return False
+        return True
 
     def speak_rest(self, text: str, language: str | None, player) -> bool:
         start = time.monotonic()

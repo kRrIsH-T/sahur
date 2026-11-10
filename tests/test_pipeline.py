@@ -120,7 +120,7 @@ def test_send_requires_spoken_yes():
     assistant, runner, voice = make(sure("send_message", contact="Raju", text="5 minute lagenge"), voice=voice)
     assistant.handle("Raju ko WhatsApp karo ki 5 minute lagenge", "hi-IN")
     assert runner.executed == [SEND]
-    assert "Raju को भेजूँ: 5 minute lagenge?" in voice.spoken[0]
+    assert "Raju के लिए यह मैसेज व्हाट्सऐप में खोलूँ: 5 minute lagenge?" in voice.spoken[0]
 
 
 @pytest.mark.parametrize("reply", [("nahi", "hi-IN"), ("haan nahi ruko", "hi-IN"), ("hmm", None), None])
@@ -137,7 +137,7 @@ def test_sure_unknown_never_executes_or_asks_llm():
     assistant, runner, voice = make(Parse("unknown", True), llm=llm)
     assert assistant.handle("arre yaar", "en-IN").key == "not_understood"
     assert runner.executed == [] and llm.calls == []
-    assert voice.spoken == ["Sorry, I didn't get that. Please say it again."]
+    assert voice.spoken == ["I didn't catch that. Try one short request, like open Calculator."]
 
 
 def test_unsure_without_llm_is_not_understood():
@@ -160,7 +160,7 @@ def test_read_back_names_the_resolved_contact():
     assistant, runner, voice = make(sure("send_message", contact="राजू", text="aa raha hoon"), voice=voice)
     assistant.contacts = book
     assistant.handle("राजू को बोलो aa raha hoon", "hi-IN")
-    assert voice.spoken[0].startswith("Raju को भेजूँ")
+    assert voice.spoken[0].startswith("Raju के लिए यह मैसेज व्हाट्सऐप में खोलूँ")
     assert runner.executed == [a.SendMessage(contact="Raju", text="aa raha hoon")]
 
 
@@ -173,6 +173,32 @@ def test_unknown_contact_fails_before_asking():
     assert assistant.handle("Raju ko message karo hi", "hi-IN").key == "contact_not_found"
     assert runner.executed == []
     assert voice.replies, "never asked for confirmation"
+
+
+def test_unique_alias_for_a_duplicate_display_name_never_opens_the_other_chat():
+    from bolos.contacts import Contact, ContactBook
+
+    voice = FakeVoice(replies=[("yes", "en")])
+    assistant, runner, _ = make(sure("send_message", contact="Raju from work", text="hello"), voice=voice)
+    assistant.contacts = ContactBook([Contact("Raju", "1111", ("Raju from work",)),
+                                     Contact("Raju", "2222", ("Raju from school",))])
+    events = []
+    assistant.status = lambda *event: events.append(event)
+    assert assistant.handle("message Raju from work saying hello", "en").key == "contact_not_found"
+    assert runner.executed == [] and voice.replies
+    assert ("reply", "I couldn't match Raju from work to one person. Try saying their full name.") in events
+
+
+def test_completed_action_still_reports_success_when_preferences_file_cannot_be_replaced(tmp_path):
+    path = tmp_path / "preferences.json"
+    prefs = Preferences(path)
+    path.mkdir()
+    runner = FakeRunner(Outcome(True, "playing_on", {"query": "Arijit", "app": "Spotify"}))
+    assistant, runner, voice = make(sure("play_media", query="Arijit", app="Spotify"), runner=runner,
+                                    preferences=prefs)
+    assert assistant.handle("play Arijit on Spotify", "en").ok
+    assert len(runner.executed) == 1
+    assert voice.spoken == [say("playing_on", "en", query="Arijit", app="Spotify")]
 
 
 def test_missing_field_asks_again():
@@ -446,3 +472,12 @@ def test_a_dry_run_correction_changes_nothing(tmp_path):
     assistant.handle("zoom wala kholo", "hi-IN")
     assert assistant.handle("galat tha", "hi-IN").key == "forgot"
     assert "zoom wala kholo" in Preferences(tmp_path / "p.json").habits
+
+
+def test_brief_cuts_long_screen_text_at_a_word_boundary():
+    from bolos.pipeline import READBACK_MAX_CHARS, _brief
+
+    assert _brief("short  text\nhere") == "short text here"
+    long = "word " * 500
+    cut = _brief(long)
+    assert len(cut) <= READBACK_MAX_CHARS + 3 and cut.endswith("...") and not cut.endswith("wor...")

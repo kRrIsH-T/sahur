@@ -124,7 +124,7 @@ def _executor(monkeypatch):
     monkeypatch.setattr(runner, "open_site", lambda site, browser=None: Outcome(True, "opened_site", {"site": site}))
     monkeypatch.setattr(runner, "open_url", lambda *args: calls.append("navigate"))
     monkeypatch.setattr(play, "play", lambda *args: Outcome(True, "playing", {"query": "demo"}))
-    monkeypatch.setattr(whatsapp, "send", lambda *args: calls.append("message"))
+    monkeypatch.setattr(whatsapp, "open_draft", lambda *args: calls.append("message"))
     monkeypatch.setattr(uia, "type_text", lambda text: calls.append("typed"))
     monkeypatch.setattr(uia, "click", lambda target: calls.append("clicked") or target)
     runner.begin()
@@ -158,6 +158,52 @@ def test_a_click_then_type_cannot_assume_the_same_window_means_the_same_field(mo
     assert runner.execute(a.Click(target="Next")).ok
     assert runner.execute(a.TypeText(text="private words")).key == "focus_changed"
     assert calls == ["clicked"]
+
+
+@pytest.mark.parametrize("target,labels,at_point,clicks", [
+    ("Activate", ["Deactivate"], 42, []),
+    ("खोलो", ["खालो"], 42, []),
+    ("Next", ["Next", "Next"], 42, []),
+    ("Next", ["Next"], 43, []),
+    ("Next", ["Next >"], 42, ["Next >"]),
+])
+def test_click_requires_a_single_exact_label_at_an_unobstructed_point(monkeypatch, target, labels, at_point, clicks):
+    pressed = []
+    controls = [SimpleNamespace(element_info=SimpleNamespace(control_type="Button", name=label),
+                                is_visible=lambda: True, is_enabled=lambda: True,
+                                rectangle=lambda: SimpleNamespace(left=10, top=10, right=30, bottom=30),
+                                click_input=lambda label=label: pressed.append(label)) for label in labels]
+    monkeypatch.setattr(uia, "_window", lambda hwnd: SimpleNamespace(descendants=lambda: controls))
+    monkeypatch.setattr(uia.win32gui, "GetForegroundWindow", lambda: 42)
+    monkeypatch.setattr(uia.win32gui, "GetAncestor", lambda hwnd, _: hwnd)
+    monkeypatch.setattr(uia.win32gui, "WindowFromPoint", lambda _: at_point)
+
+    if clicks:
+        assert uia.click(target) == clicks[0]
+    else:
+        with pytest.raises(uia.ControlNotFound):
+            uia.click(target)
+    assert pressed == clicks
+
+
+def test_whatsapp_requests_only_a_draft_and_reports_the_users_next_step(monkeypatch):
+    from urllib.parse import parse_qs, urlsplit
+
+    from bolos.executor import whatsapp
+
+    opened = []
+    monkeypatch.setattr(whatsapp.os, "startfile", opened.append)
+    runner = Executor(ContactBook([Contact("Test Person", "919000000000", ())]), catalog=object())
+    message = "Can we meet at 5? + tea & snacks / आज"
+    outcome = runner.execute(a.SendMessage(contact="Test Person", text=message))
+
+    assert outcome == Outcome(True, "message_draft", {"contact": "Test Person"})
+    url, = opened
+    parsed = urlsplit(url)
+    assert (parsed.scheme, parsed.netloc) == ("whatsapp", "send")
+    assert parse_qs(parsed.query) == {"phone": ["919000000000"], "text": [message]}
+    assert "press Send" in say(outcome.key, "en", **outcome.detail)
+    assert all("Test Person" in say(outcome.key, language, **outcome.detail) for language in LANGUAGES)
 
 
 class Voice:

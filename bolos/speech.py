@@ -152,13 +152,11 @@ class PrismaStream:
                                close_timeout=self.close_timeout, max_size=2**20).__enter__()
             first = json.loads(self._ws.recv(timeout=self.open_timeout))
         except Exception as e:  # DNS, TLS, HTTP 401/429, timeout: the caller falls back to REST
-            self._closed.set()
-            if self._ws is not None:
-                self._ws.close()
-            raise SpeechError(f"Prisma stream did not open: {e}") from e
-        if first.get("type") != "connected":
             self.close()
-            raise SpeechError(f"Prisma stream refused: {first}")
+            raise SpeechError(f"Prisma stream did not open: {e}") from e
+        if not isinstance(first, dict) or first.get("type") != "connected":
+            self.close()
+            raise SpeechError("Prisma stream did not acknowledge the connection")
         self.connect_ms = (time.monotonic() - start) * 1000
         for target, name in ((self._receive, "prisma-recv"), (self._send, "prisma-send")):
             thread = threading.Thread(target=target, daemon=True, name=name)
@@ -222,7 +220,11 @@ class PrismaStream:
                 except ValueError:
                     # A malformed response may contain a personal form answer. Never log its payload.
                     log.warning("Prisma sent a malformed JSON response (%d characters)", len(raw))
-                    continue
+                    self._events.put({"type": "error", "message": "Malformed speech response"})
+                    return
+                if not isinstance(message, dict):
+                    self._events.put({"type": "error", "message": "Malformed speech response"})
+                    return
                 message["_t"] = time.monotonic()
                 self._events.put(message)
         except Exception as e:
@@ -356,6 +358,8 @@ def _sse_audio(lines) -> Iterator[bytes]:
     for line in lines:
         if line is None:
             continue
+        if isinstance(line, bytes):
+            line = line.decode("utf-8")  # Some servers omit the charset; SSE is still UTF-8.
         if line == "":
             if data:
                 payload = json.loads("\n".join(data))
@@ -363,8 +367,10 @@ def _sse_audio(lines) -> Iterator[bytes]:
                     raise SpeechError(f"Timbre SSE error: {payload.get('message') or payload}")
                 if payload.get("audio"):
                     yield base64.b64decode(payload["audio"])
-                if event == "complete" or payload.get("is_final"):
+                if payload.get("is_final"):
                     return
+            if event == "complete":
+                return
             event, data = "message", []
         elif line.startswith("event:"):
             event = line[6:].strip()
@@ -376,3 +382,7 @@ def _sse_audio(lines) -> Iterator[bytes]:
             raise SpeechError(f"Timbre SSE error: {payload.get('message') or payload}")
         if payload.get("audio"):
             yield base64.b64decode(payload["audio"])
+        if payload.get("is_final"):
+            return
+    if event != "complete":
+        raise SpeechError("Spoken reply ended before it was complete")

@@ -4,8 +4,10 @@ import threading
 import time
 from contextlib import contextmanager
 from dataclasses import replace
+from types import SimpleNamespace
 
 import numpy as np
+import pytest
 
 from bolos import __main__ as main
 from bolos.config import load_settings
@@ -117,6 +119,7 @@ def test_dry_run_entrypoint_never_constructs_api_clients_or_executor(monkeypatch
             assert isinstance(runner, main.DryRun)
             assert not kwargs["learning"]
             assert kwargs["history"] is None and kwargs["forms"] is None
+            assert kwargs["language_detector"]("Notepad open cheyyandi") == "te"
 
         def handle(self, *args, **kwargs):
             handled.append((args, kwargs))
@@ -185,12 +188,197 @@ def test_device_start_failure_closes_listener(monkeypatch):
         raise RuntimeError("microphone unavailable")
 
     monkeypatch.setattr(listener, "_start_devices", fail)
-    import pytest
 
     with pytest.raises(RuntimeError, match="microphone unavailable"):
         listener.start()
     assert not listener._running
     assert listener._pump is None
+
+
+def test_listener_stays_open_and_retries_a_missing_microphone(monkeypatch):
+    import sounddevice
+
+    attempts = []
+    events = []
+
+    class Microphone:
+        closed = False
+
+        def __init__(self, **kwargs):
+            attempts.append(self)
+
+        def start(self):
+            if len(attempts) == 1:
+                raise sounddevice.PortAudioError("no audio device")
+
+        def stop(self):
+            pass
+
+        def close(self):
+            self.closed = True
+
+    monkeypatch.setattr(sounddevice, "InputStream", Microphone)
+    listener = Listener(replace(load_settings(), gnani_api_key=""), use_hotkey=False,
+                        status=lambda *event: events.append(event))
+    with listener:
+        assert listener.device_issue()[0] == "microphone_unavailable"
+        assert "Windows" in listener.mic_error
+        assert attempts[0].closed
+        listener._on_hotkey()
+        assert listener.next_command(0) is None  # pressing the shortcut cannot send empty audio to Prisma
+        listener.set_input_device(None)
+        assert listener.device_issue() is None
+        assert listener.mic_error is None
+        assert events[-2:] == [("reply", ""), ("state", "ready")]
+    assert len(attempts) == 2 and all(mic.closed for mic in attempts)
+
+
+@pytest.mark.parametrize("shortcut", ["ctrl+space", "space"])
+def test_unavailable_startup_shortcut_can_be_replaced_live(monkeypatch, shortcut):
+    from bolos import hotkey
+
+    attempted = []
+
+    class Shortcut:
+        def __init__(self, combination, callback):
+            self.combination = combination
+
+        def start(self):
+            attempted.append(self.combination)
+            if len(attempted) == 1 and self.combination == "ctrl+space":
+                raise hotkey.HotkeyError("shortcut taken")
+
+        def stop(self):
+            pass
+
+    monkeypatch.setattr(hotkey, "GlobalHotkey", Shortcut)
+    listener = Listener(replace(load_settings(), gnani_api_key=""), use_mic=False, hotkey=shortcut)
+    with listener:
+        assert listener.device_issue()[0] == "shortcut_unavailable"
+        assert "Sahur Settings" in listener.hotkey_error
+        retry = "ctrl+alt+k" if shortcut == "space" else shortcut
+        listener.set_hotkey(retry)
+        assert listener.device_issue() is None
+        assert listener.hotkey == retry
+    assert attempted == (["ctrl+alt+k"] if shortcut == "space" else [shortcut, shortcut])
+
+
+@pytest.mark.parametrize("error", [FileNotFoundError, main.BadZipFile, ValueError])
+def test_optional_language_model_does_not_block_startup(monkeypatch, error):
+    from bolos.fast import model
+
+    def unavailable():
+        raise error("model is missing or damaged")
+
+    monkeypatch.setattr(model, "LanguageModel", unavailable)
+    assert main.make_language_detector(None) is None
+
+
+def test_voice_dry_run_has_no_reply_synthesizer(monkeypatch, capsys):
+    from bolos import tts_cache
+
+    def forbidden(*args):
+        raise AssertionError("dry run created a speech synthesizer")
+
+    monkeypatch.setattr(tts_cache, "CachedTimbre", forbidden)
+    settings = replace(load_settings(), gnani_api_key="speech-recognition-only")
+    voice = main.SpokenVoice(settings, ContactBook([]), silent=True)
+    assert voice.listener.tts is None
+    assert voice.speak("Test complete.", "en")
+    assert "Test complete." in capsys.readouterr().out
+
+
+def test_startup_opens_settings_when_the_microphone_needs_help(monkeypatch, tmp_path, capsys):
+    import webbrowser
+
+    import sounddevice
+
+    from bolos.dashboard import server
+    from bolos.executor import apps
+
+    settings = replace(load_settings(), gnani_api_key="speech-test", contacts_path=tmp_path / "contacts.json",
+                       preferences_path=tmp_path / "preferences.json")
+    monkeypatch.setenv("BOLOS_SETTINGS", str(tmp_path / "settings.json"))
+    monkeypatch.setattr(main, "load_settings", lambda overrides=None: settings)
+    monkeypatch.setattr(apps, "Catalog", lambda *_: SimpleNamespace(names=lambda: []))
+    monkeypatch.setattr(Listener, "set_hotkey", lambda *args: None)
+
+    def no_microphone(*args):
+        raise sounddevice.PortAudioError("private system error details")
+
+    def exit_loop(*args):
+        raise EOFError
+
+    monkeypatch.setattr(Listener, "_open_mic", no_microphone)
+    monkeypatch.setattr(Listener, "next_command", exit_loop)
+    opened, closed = [], []
+
+    class Dashboard:
+        url = "http://127.0.0.1:8765/"
+
+        def __init__(self, *args):
+            pass
+
+        def start(self):
+            return self.url
+
+        def close(self):
+            closed.append(True)
+
+    monkeypatch.setattr(server, "Dashboard", Dashboard)
+    monkeypatch.setattr(webbrowser, "open", opened.append)
+    monkeypatch.setattr("sys.argv", ["bolos", "--dry-run", "--no-overlay"])
+    main.main()
+    assert opened == [Dashboard.url] and closed == [True]
+    output = capsys.readouterr().out
+    assert "Sahur can't use the microphone" in output
+    assert "private system error details" not in output
+
+
+def test_startup_shows_setup_settings_when_the_speech_key_is_missing(monkeypatch, tmp_path, capsys):
+    from bolos.dashboard import __main__ as dashboard_main
+
+    settings = replace(load_settings(), gnani_api_key="")
+    monkeypatch.setattr(main, "load_settings", lambda overrides=None: settings)
+    monkeypatch.setenv("BOLOS_SETTINGS", str(tmp_path / "settings.json"))
+    monkeypatch.setattr("sys.argv", ["bolos"])
+    opened = []
+    monkeypatch.setattr(dashboard_main, "main", opened.append)
+    main.main()
+    assert opened == [[]]
+    assert "Voice setup is incomplete" in capsys.readouterr().out
+
+
+@pytest.mark.parametrize("typed", [True, False])
+def test_form_speech_consent_is_wired_only_for_voice_mode(monkeypatch, tmp_path, typed):
+    from bolos import llm
+    from bolos.executor import apps
+
+    settings = replace(load_settings(), gnani_api_key="speech-test", contacts_path=tmp_path / "contacts.json",
+                       preferences_path=tmp_path / "preferences.json")
+    monkeypatch.setenv("BOLOS_SETTINGS", str(tmp_path / "settings.json"))
+    monkeypatch.setattr(main, "load_settings", lambda overrides=None: settings)
+    monkeypatch.setattr(llm, "make_llm", lambda *_: None)
+    monkeypatch.setattr(apps, "Catalog", lambda *_: SimpleNamespace(names=lambda: []))
+    monkeypatch.setattr(Listener, "_start_devices", lambda *_: None)
+
+    def exit_loop(*args):
+        raise EOFError
+
+    monkeypatch.setattr(Listener, "next_command", exit_loop)
+    monkeypatch.setattr("builtins.input", exit_loop)
+    attached = []
+    monkeypatch.setattr(main, "Assistant", lambda *args, **kwargs: attached.append(kwargs["forms"]))
+    flags = ["--text", "--no-speech"] if typed else []
+    monkeypatch.setattr("sys.argv", ["bolos", "--no-overlay", "--no-dashboard", *flags])
+    main.main()
+    forms, = attached
+    assert forms.ask_consent is not typed
+    if typed:
+        assert forms.consent is None
+    else:
+        assert forms.consent.path == tmp_path / ".cache" / "form-speech-consent"
+        assert not forms.consent.given()  # startup cannot grant permission on the user's behalf
 
 
 def test_second_tap_preserves_microphone_frames_waiting_in_the_queue():

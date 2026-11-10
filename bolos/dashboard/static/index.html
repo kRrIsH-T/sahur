@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bol OS dashboard</title>
+<title>Sahur settings and sound check</title>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/app.css">
 <script src="/app.js" defer></script>
@@ -12,30 +12,32 @@
 <header class="top">
   <div class="brand">
     <svg class="mark" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="9" width="3" height="6" rx="1.5"/><rect x="8" y="5" width="3" height="14" rx="1.5"/><rect x="13" y="7" width="3" height="10" rx="1.5"/><rect x="18" y="10" width="3" height="4" rx="1.5"/></svg>
-    <h1>Bol OS</h1>
+    <h1>Sahur</h1>
   </div>
   <p class="state" id="state" role="status"><span class="dot" aria-hidden="true"></span><span id="state-text">Connecting</span></p>
 </header>
 
 <main>
-  <div class="banner" id="offline" hidden>The dashboard lost its connection. Is Bol OS still running? Retrying.</div>
-  <div class="banner warn" id="restart" hidden></div>
+  <div class="banner" id="offline" role="status" hidden>Couldn't reach Sahur. Open Sahur again and this page will reconnect.</div>
+  <div class="banner warn" id="restart" role="status" hidden></div>
 
   <section class="setup" aria-labelledby="setup-title">
     <div class="live">
       <h2 id="setup-title">Microphone check</h2>
-      <p class="lede" id="meter-hint">Say something. The bars follow your voice.</p>
+      <p class="lede" id="meter-hint">Checking your microphone…</p>
       <div class="meter" id="meter" role="meter" aria-label="Microphone level" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
       <p class="device-line"><span id="mic-name">Microphone</span><span id="spk-name">Speaker</span></p>
       <div class="tests">
         <button type="button" class="btn primary" data-test="speaker">Play a test sentence</button>
         <button type="button" class="btn" data-test="chime">Play the chime</button>
+        <button type="button" class="btn" data-test="microphone" id="retry-mic" hidden>Retry microphone</button>
         <button type="button" class="btn" data-test="welcome" id="test-welcome">Preview Sahur</button>
       </div>
       <p class="said" id="said" aria-live="polite"></p>
     </div>
     <div class="checks">
-      <h2>Before you record</h2>
+      <h2>Before you speak</h2>
+      <p class="lede" id="speak-hint"></p>
       <ul id="checks"></ul>
       <div class="last" id="last" hidden>
         <p class="label">Last heard</p>
@@ -59,8 +61,8 @@
       <button type="button" class="btn quiet" id="archive">Start fresh statistics</button>
     </div>
     <p class="note" id="stats-note"></p>
-    <div id="stats-empty" class="empty" hidden>No commands yet. Press the hotkey and say something, then come back.</div>
-    <div id="stats-body">
+    <div id="stats-empty" class="empty" hidden>No commands saved yet.</div>
+    <div id="stats-body" hidden>
       <dl class="kpis" id="kpis"></dl>
       <div class="charts">
         <figure class="chart wide">

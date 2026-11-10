@@ -98,7 +98,7 @@ class FastParser:
         return Parse(pred.action, sure, slots, frozenset(unsure), **about)
 
     def detect_language(self, command: str) -> str | None:
-        """Language only for locally routed dialogues; their action need not enter the old slot tagger."""
+        """Predict the language without deciding an action or extracting its slots."""
         return self._language(command, self.model.predict(command))
 
     def _language(self, command: str, pred: "Prediction") -> str | None:

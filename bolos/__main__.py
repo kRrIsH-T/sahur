@@ -9,6 +9,7 @@ import argparse
 import logging
 import sys
 import threading
+from zipfile import BadZipFile
 
 from bolos.config import ROOT, load_settings
 from bolos.contacts import ContactBook
@@ -35,7 +36,7 @@ def make_parser(settings, llm, mode: str | None = None):
         sys.exit(f"Unknown DECIDER {mode!r}; choose one of {', '.join(DECIDER_MODES)}")
     if mode == "llm":
         if llm is None:
-            sys.exit("DECIDER=llm needs System 2: the codex CLI, or GEMINI_API_KEY / LLM_API_KEY in .env")
+            sys.exit("DECIDER=llm needs System 2: the codex or claude CLI, or GEMINI_API_KEY / LLM_API_KEY in .env")
         return None
     if mode == "laya":
         from bolos.decide import LayaParser
@@ -45,6 +46,19 @@ def make_parser(settings, llm, mode: str | None = None):
     from bolos.decide import FastParser
 
     return FastParser(settings.fast_model, settings.slot_model)
+
+
+def make_language_detector(parser):
+    from bolos.decide import FastParser
+    from bolos.fast.model import LanguageModel
+
+    if isinstance(parser, FastParser) and parser.model.languages:
+        return parser.detect_language
+    try:
+        return LanguageModel().detect
+    except (OSError, ValueError, KeyError, TypeError, BadZipFile):
+        log.info("Automatic reply language detection is unavailable. Sahur will use the language in Settings.")
+        return None  # Assistant still checks the text's script and uses the selected language as a fallback.
 
 
 APP_HINTS = ["WhatsApp", "Chrome", "YouTube", "Notepad", "Calculator", "File Explorer", "Settings", "Camera",
@@ -67,12 +81,13 @@ class SpokenVoice:
     """One streaming Listener for commands, automatic follow-ups, and half duplex cached replies."""
 
     def __init__(self, settings, contacts: ContactBook, app_names: list[str] = (), status=lambda *_: None,
-                 wake_enabled: bool = False, listener=None):
+                 wake_enabled: bool = False, listener=None, silent: bool = False):
         from bolos.listen import Listener
 
         self.user_language = settings.user_language
         self.last_heard = None
         self.wake = None
+        self.silent = silent
         if wake_enabled:
             from bolos.wake import WakeDetector
 
@@ -83,7 +98,7 @@ class SpokenVoice:
             if self.wake is None:
                 log.warning("Wake word is unavailable: no trained model is installed. Tap or hold the hotkey.")
         self.listener = listener or Listener(settings, recognition_hints(contacts, app_names), status,
-                                             wake=self.wake)
+                                             wake=self.wake, speak_replies=not silent)
 
     def start(self):
         self.listener.start()
@@ -94,7 +109,7 @@ class SpokenVoice:
 
     def speak(self, text, language):
         print(f"bolos: {text}")
-        return self.listener.speak(text, language)
+        return self.silent or self.listener.speak(text, language)
 
     def listen(self):
         return self._reply(self.listener.next_command())
@@ -141,7 +156,7 @@ class TypedVoice:
             from bolos.audio import play_wav
 
             try:
-                play_wav(self.tts.synthesize(text, language), self.device)
+                return play_wav(self.tts.synthesize(text, language), self.device)
             except Exception:  # synthesis, network, cache and missing audio devices must not end typed mode
                 log.warning("Spoken reply unavailable; the reply is shown in the terminal")
                 return False
@@ -205,7 +220,18 @@ def main() -> None:
     settings = load_settings(store.overrides())
     controls = Controls(store, dry_run=args.dry_run)
     if not args.text and not settings.has_gnani:
-        sys.exit("Voice mode needs GNANI_API_KEY in .env (see .env.example). Use --text to try without it.")
+        message = ("Voice setup is incomplete. Add your Gnani speech key to GNANI_API_KEY in the .env file "
+                   "in the Sahur folder, then start Sahur again.\nTo try typing, run uv run python -m bolos --text")
+        if args.no_dashboard:
+            sys.exit(message)
+        from bolos.dashboard.__main__ import main as open_settings
+
+        print(message)
+        try:
+            open_settings([])
+        except OSError:
+            sys.exit("Sahur could not open its Settings page.")
+        return
 
     from bolos.executor.apps import Catalog
     from bolos.llm import make_llm
@@ -221,6 +247,7 @@ def main() -> None:
     preferences = Preferences(settings.preferences_path)
     # Dry runs are entirely local, including when the configured decider normally asks an API.
     parser = make_parser(settings, llm, "fast" if args.dry_run else None)
+    language_detector = make_language_detector(parser)
     if settings.decider.strip().lower() == "fast":
         llm = None  # System 1 only: unsure commands are not executed, and nothing goes to System 2
 
@@ -247,14 +274,16 @@ def main() -> None:
     status = controls.status(show_status)
     voice = (TypedVoice(settings, silent=args.dry_run or args.no_speech) if args.text else
              SpokenVoice(settings, contacts, catalog.names(), status,
-                         wake_enabled=args.wake_word or settings.wake_enabled))
+                         wake_enabled=args.wake_word or settings.wake_enabled, silent=args.dry_run))
     from bolos.history import History, history_path
 
     forms = None
     if not args.dry_run:
-        from bolos.forms.session import FieldHighlight, FormAssistant
+        from bolos.forms.session import ConsentFile, FieldHighlight, FormAssistant
 
-        forms = FormAssistant(voice, status, highlight=FieldHighlight(buddy), ask_consent=False)
+        consent = None if args.text else ConsentFile(settings_path().parent / ".cache" / "form-speech-consent")
+        forms = FormAssistant(voice, status, highlight=FieldHighlight(buddy), consent=consent,
+                              ask_consent=not args.text)
     runner = DryRun() if args.dry_run else Executor(contacts, catalog, preferences)
     guide = None
     if not args.dry_run:
@@ -273,7 +302,7 @@ def main() -> None:
     history = None if args.dry_run else History(history_path(settings.preferences_path))
     assistant = Assistant(parser, llm, runner, voice, status=status, contacts=contacts, preferences=preferences,
                           learning=not args.dry_run, forms=forms, guide=guide,
-                          history=history)
+                          history=history, language_detector=language_detector)
     controls.voice, controls.overlay, controls.history, controls.buddy = voice, overlay, history, buddy
     controls.apply_all()  # the saved microphone, speaker, card and history choices, before the devices open
     dashboard = None
@@ -283,10 +312,6 @@ def main() -> None:
         try:
             dashboard = Dashboard(controls, history_path(settings.preferences_path))
             print(f"Dashboard: {dashboard.start()}")
-            if args.dashboard:
-                import webbrowser
-
-                webbrowser.open(dashboard.url)
         except OSError:
             log.warning("The dashboard could not start", exc_info=True)
             dashboard = None
@@ -297,11 +322,12 @@ def main() -> None:
         instructions = "Type a command." if args.text else f"Tap or hold {hotkey} and speak."
         if getattr(voice, "wake", None):
             instructions += ' Or say "Hey Bol OS".'
-        print(f"Ready. {instructions}")
+        if not startup_issue:
+            print(f"Ready. {instructions}")
         try:
             while not stopped.is_set():
                 heard = voice.listen()
-                if heard:
+                if heard and not stopped.is_set():
                     metadata = getattr(voice, "last_heard", None)
                     assistant.handle(*heard, trigger=metadata.trigger if metadata else "typed")
         except (KeyboardInterrupt, EOFError):
@@ -312,19 +338,28 @@ def main() -> None:
             if overlay:
                 overlay.close()
 
-    if buddy:
-        buddy.start()
-        # Preview Sahur's animation on first launch.
-        welcomed = settings_path().with_name(".bolos-welcomed")
-        if not welcomed.exists():
-            controls.welcome()
-            try:
-                welcomed.touch()
-            except OSError:
-                log.warning("Could not remember that the hello was shown", exc_info=True)
-
     try:
         voice.start()
+        startup_issue = None if args.text else voice.listener.device_issue()
+        if startup_issue:
+            print(startup_issue[1])
+        if dashboard and (args.dashboard or startup_issue):
+            import webbrowser
+
+            try:
+                webbrowser.open(dashboard.url)
+            except (OSError, webbrowser.Error):
+                log.warning("Open %s to use Sahur Settings", dashboard.url)
+        if buddy:
+            buddy.start()
+            # Show the greeting only when the shortcut can actually be used.
+            welcomed = settings_path().with_name(".bolos-welcomed")
+            if not startup_issue and not welcomed.exists():
+                controls.welcome()
+                try:
+                    welcomed.touch()
+                except OSError:
+                    log.warning("Could not remember that the hello was shown", exc_info=True)
         if overlay:
             worker = threading.Thread(target=loop, daemon=True, name="bolos-commands")
             worker.start()

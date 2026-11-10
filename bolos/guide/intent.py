@@ -17,7 +17,7 @@ karo" stay ordinary commands.
 import re
 import unicodedata
 
-from bolos.responses import _norm, _words, script_language
+from bolos.responses import _norm, _words, refuses_command, script_language
 
 # Dictated text or a message can contain these words; it must not start a lesson.
 _DICTATION = re.compile(
@@ -26,9 +26,10 @@ _DICTATION = re.compile(
     r"kalisi|kalsi|pampu)\b|लिखो|भेजो|ಟೈಪ್|ಕಳುಹಿಸು|டைப்|அனுப்பு|పంపు")
 _FORM = re.compile(r"\bforms?\b|फॉर्म|फार्म|ಫಾರ್ಮ್|படிவ|ఫారం|ఫారమ్|ഫോം|ফর্ম|ફોર્મ|ਫਾਰਮ")
 
+_HINDI_HOW = r"kaise|kaisey|kaisay|kese|kesay|kaisa|kis tarah"
 _HOW = re.compile(
-    r"\b(kaise|kaisey|kese|kaisa|kis tarah|how|hege|hegge|eppadi|epadi|epdi|ela|elaa|kasa|kase|kashi|kasha|"
-    r"kibhabe|kivabe|kemon kore|kevi rite|kevirite|engane|enganeya|kiddan|kive|kiven)\b"
+    rf"\b({_HINDI_HOW}|how|hege|hegge|eppadi|epadi|epdi|ela|elaa|kasa|kase|kashi|kasha|"
+    r"kibhabe|kivabe|kemon kore|kevi rite|kevirite|engane|enganeya|kiddan|kive|kiven|kivein)\b"
     r"|कैसे|किस तरह|ಹೇಗೆ|எப்படி|ఎలా|कसा|कसे|कशी|कसं|কিভাবে|কীভাবে|কেমন করে|કેવી રીતે|എങ്ങനെ|ਕਿਵੇਂ|ਕਿੱਦਾਂ")
 _SHOW = re.compile(
     r"\b(show|torisu|thorisu|torsu|kaattu|kaatu|kaanbi|choopinchu|chupinchu|chupinchandi|dakhav|dakhva|"
@@ -45,13 +46,13 @@ _TEACH = re.compile(
 # A bare "sikha" / "shikha": a teach verb only next to a computer word ("folder banana shikha").
 _TEACH_WEAK = re.compile(r"\b(sikha|shikha|sikhaa|shikhaa|sekha)\b")
 _COMPUTER = re.compile(
-    r"\b(computer|laptop|pc|windows|settings?|bluetooth|wi-?fi|internet|hotspot|folders?|files?|screenshot|"
+    r"\b(computer|laptop|pc|windows|settings?|internet|folders?|files?|screenshot|"
     r"wallpaper|printer|print|download|install|uninstall|update|apps?|application|software|browser|chrome|edge|"
     r"website|websites|site|e-?mail|gmail|mail|whatsapp|password|account|login|log in|sign in|online|upload|"
     r"pdf|zoom|volume|brightness|keyboard|mouse|taskbar|start menu|desktop|copy|paste|rename|pen ?drive|usb|"
     r"camera|microphone|mic|speaker|notepad|word|excel|powerpoint|youtube|bookmark|font|recycle bin|shortcut|"
     r"calculator|scientific mode|screens?|buttons?|click|tap|menus?|tabs?|dialog|scroll)\b"
-    r"|कंप्यूटर|कम्प्यूटर|लैपटॉप|सेटिंग|ब्लूटूथ|वाईफाई|वाई-फाई|इंटरनेट|फ़ोल्डर|फोल्डर|फ़ाइल|फाइल|स्क्रीनशॉट|"
+    r"|कंप्यूटर|कम्प्यूटर|लैपटॉप|सेटिंग|इंटरनेट|फ़ोल्डर|फोल्डर|फ़ाइल|फाइल|स्क्रीनशॉट|"
     r"वॉलपेपर|प्रिंटर|डाउनलोड|ऐप|वेबसाइट|ईमेल|पासवर्ड|ऑनलाइन|अपलोड|कीबोर्ड|माउस|डेस्कटॉप"
     r"|ಕಂಪ್ಯೂಟರ್|ಸೆಟ್ಟಿಂಗ್|ಬ್ಲೂಟೂತ್|ವೈಫೈ|ಫೋಲ್ಡರ್|ಫೈಲ್|ಸ್ಕ್ರೀನ್‌ಶಾಟ್|ವಾಲ್‌ಪೇಪರ್"
     r"|கம்ப்யூட்டர்|செட்டிங்|ப்ளூடூத்|வைஃபை|ஃபோல்டர்|ஃபைல்|ஸ்கிரீன்ஷாட்|வால்பேப்பர்"
@@ -60,6 +61,34 @@ _COMPUTER = re.compile(
     r"|કમ્પ્યુટર|સેટિંગ|બ્લૂટૂથ|વાઇફાઇ|ફોલ્ડર|ફાઇલ|સ્ક્રીનશોટ|વોલપેપર"
     r"|കമ്പ്യൂട്ടർ|സെറ്റിങ്|ബ്ലൂടൂത്ത്|വൈഫൈ|ഫോൾഡർ|ഫയൽ|സ്ക്രീൻഷോട്ട്|വാൾപേപ്പർ"
     r"|ਕੰਪਿਊਟਰ|ਸੈਟਿੰਗ|ਬਲੂਟੁੱਥ|ਵਾਈਫਾਈ|ਫੋਲਡਰ|ਫਾਈਲ|ਸਕ੍ਰੀਨਸ਼ਾਟ|ਵਾਲਪੇਪਰ")
+_SETTINGS_TOPICS = {
+    "hotspot": re.compile(r"\bhot[ ‐‑-]?spot\b|हॉट[ ‐‑-]?स्पॉट"),
+    "wifi": re.compile(r"\bwi[ ‐‑-]?fi\b|वा[इई][ ‐‑-]?फा[इई]"),
+    "bluetooth": re.compile(r"\bblue[ ‐‑-]?tooth\b|ब्लू[ ‐‑-]?टूथ"),
+    "night_light": re.compile(r"\bnight[ ‐‑-]?light\b|ना[इई]ट[ ‐‑-]?ला[इई]ट"),
+}
+_SETTINGS_OTHER_DEVICE = re.compile(
+    r"\b(?:phones?|smartphones?|android|iphones?|ios|ipads?|tablets?|macs?|macbooks?|linux|ubuntu|chromebooks?|"
+    r"routers?|modems?|mobile (?:mein|me|pe|par|ka|ke|ki)|on (?:my|your|the) mobile)\b"
+    r"|फ़?ोन|आईफ़?ोन|एंड्रॉइड|मोबाइल (?:में|पर|का|के|की)")
+_SETTINGS_OTHER_TASK = re.compile(
+    r"\b(?:connect(?:ing|ed)?|join|pair(?:ing)?|set up|setup|(?:re)?configur\w*|change|modify|rename|"
+    r"pass ?word|automatic\w*|schedule|bad(?:a)?l\w*|jor\w*|jod\w*)\b|पासवर्ड|बदल|जोड़|कनेक्ट")
+_ENGLISH_SWITCH = re.compile(r"\b(?:turn|switch|toggle)\s+(?:(?!(?:on|off)\b)[\w'‐‑-]+\s+){0,7}(on|off)\b")
+_SWITCH_ON = re.compile(rf"\b(?:enable|activate|chaa?l(?:u|oo)|on (?:(?:{_HINDI_HOW}) )?k(?:a)?r\w*)\b|चालू|ऑन")
+_SWITCH_OFF = re.compile(
+    rf"\b(?:disable|deactivate|(?:off|bandh?) (?:(?:{_HINDI_HOW}) )?k(?:a)?r\w*)\b|बंद|बन्द|ऑफ")
+_SWITCH_AMBIGUOUS = re.compile(r"\b(?:on|off)\b\s*(?:/|and(?: then)?|or|then|ya|aur)\s*(?:back )?(?:on|off)\b")
+_WALLPAPER = re.compile(
+    r"\b(?:wall[ -]?paper|(?:desktop|windows|pc|computer|laptop) background)\b"
+    r"|व[ाॉ]लपेपर|ವಾಲ್‌?ಪೇಪರ್|வால்பேப்பர்|వాల్‌?పేపర్"
+    r"|ওয়ালপেপার|વોલપેપર|വാൾപേപ്പർ|ਵਾਲਪੇਪਰ")
+_WALLPAPER_CHANGE = re.compile(
+    r"\b(?:chang(?:e|ing)|set(?:ting)?|replac(?:e|ing)|bad(?:a)?l\w*|laga(?:na|ye(?:in|n)?|un?))\b"
+    r"|बदल|लगाएँ|लगाएं|लगाना|ಬದಲ|மாற்ற|మార్చ|বদল|બદલ|മാറ്റ|ਬਦਲ")
+_OTHER_BACKGROUND = re.compile(
+    r"\b(?:lock[ -]?screen|screen ?saver|whats ?app|zoom|teams|google meet|chrome|firefox|browser)\b"
+    r"|लॉक स्क्रीन|व्हाट्सऐप")
 _DOCUMENT = re.compile(
     r"\b(pan|pan card|aadhaa?r|passport|voter ?id|voter card|ration card|driving licen[cs]e|licen[cs]e|"
     r"birth certificate|pension|scholarship|ayushman)\b"
@@ -67,6 +96,18 @@ _DOCUMENT = re.compile(
 _APPLY = re.compile(
     r"\b(apply|application|banwana|banvana|banwani|banvani|banwane|banvane|banana hai|register|registration|"
     r"renew|naya banana)\b|आवेदन|अप्लाई|बनवाना|बनवानी|ಅರ್ಜಿ|விண்ணப்ப|దరఖాస్తు|अर्ज|আবেদন|અરજી|അപേക്ഷ|ਅਰਜ਼ੀ")
+_APPLICATION_PAPERWORK = re.compile(
+    r"\b(?:apply (?:online )?for|ke liye (?:online )?apply|"
+    r"(?:fill(?: in| out)?|submit|complete) (?:an? |the |my |this )?application)\b")
+_PAN_CARD = re.compile(
+    r"\b(?:pan card|pan (?:application|form|apply|online|ke liye|ka|banwana)|new pan|for (?:a )?pan)\b|"
+    r"पैन|ಪ್ಯಾನ್|பான்|పాన్|पॅन|প্যান|પાન|പാൻ|ਪੈਨ")
+_PAN_OTHER = re.compile(
+    r"\b(?:e[ -]?pan|instant|correction|correct|update|change|reprint|duplicate|replacement|lost|renew|resume|"
+    r"status|track|download|documents?|fees?|cost|eligibility|what|which|where|when|why)\b|"
+    r"\blink(?:ing)? (?:a?adhaa?r|pan)\b|"
+    r"क्या|कौन|कब|सुधार|बदल|दोबारा|स्थिति")
+_PAN_FORM_ACTION = re.compile(r"\b(?:open|fill|filling|bhar\w*)\b|खोल|भर|ತುಂಬ|நிரப்ப|నింప|പൂരിപ്പ|পূরণ|ભર|ਭਰ")
 
 
 _SCREEN_QUESTION = re.compile(
@@ -140,7 +181,7 @@ _TAKEOVER = {lang: re.compile(rf"(?:{prefix})[,;:—-]?\s+(.+)", re.I) for lang,
 }.items()}
 
 _LANGUAGE_CUES = {lang: re.compile(rf"\b(?:{words})\b") for lang, words in {
-    "hi": r"kaise|kaisey|kese|kis tarah|dikha\w*|sikha\w*|shikha\w*|bharna|bharne",
+    "hi": rf"{_HINDI_HOW}|dikha\w*|sikha\w*|shikha\w*|bharna|bharne",
     "kn": r"hege|hegge|th?orisu\w*|torsu|maadodu|maadbeku|th?umb\w*|tumbu\w*",
     "ta": r"eppadi|epadi|epdi|kaattu\w*|kaatu\w*|kathukodu|pannuvadhu|pannanum|nirapp\w*|niraipp\w*",
     "te": r"ela|elaa|ch[ou]opinchu|chupinchu|chupinchandi|nerpinchu|marchali|nimp\w*",
@@ -210,13 +251,15 @@ def bind_reference(question: str, label: str) -> str:
 def is_guide_request(command: str) -> bool:
     """Whether the user asks to be shown how to do something on this computer."""
     text = unicodedata.normalize("NFC", command).casefold().strip()
+    if new_pan_request(text):
+        return True
     if not text or _FORM.search(text):
         return False
     if (payload := _DICTATION.search(text)) and not _LESSON_START.match(text):
         before = text[:payload.start()]
         if not (_HOW.search(before) or _TEACH.search(before)):
             return False
-    computer = bool(_COMPUTER.search(text))
+    computer = bool(_COMPUTER.search(text) or _settings_topics(text) or _WALLPAPER.search(text))
     if _TEACH.search(text) or (_TEACH_WEAK.search(text) and computer):
         return True
     if _HOW.search(text) and (_SHOW.search(text) or computer or _DOCUMENT.search(text)):
@@ -224,12 +267,53 @@ def is_guide_request(command: str) -> bool:
     return bool(_DOCUMENT.search(text) and _APPLY.search(text))
 
 
+def _settings_topics(text: str) -> tuple[str, ...]:
+    # Hotspot takes precedence when someone says "Wi-Fi hotspot".
+    return tuple(topic for topic, pattern in _SETTINGS_TOPICS.items() if pattern.search(text))
+
+
+def settings_toggle_lesson(command: str) -> tuple[str, bool] | None:
+    """Recognize requests to learn a single Windows toggle, without taking an action for the user."""
+    text = _question_text(command)
+    topics = _settings_topics(text)
+    if not topics or (len(topics) != 1 and topics != ("hotspot", "wifi")):
+        return None
+    if not is_guide_request(text) or refuses_command(text):
+        return None
+    if _SETTINGS_OTHER_DEVICE.search(text) or _SETTINGS_OTHER_TASK.search(text) or _SWITCH_AMBIGUOUS.search(text):
+        return None
+    states = set(_ENGLISH_SWITCH.findall(text))
+    if _SWITCH_ON.search(text):
+        states.add("on")
+    if _SWITCH_OFF.search(text):
+        states.add("off")
+    return (topics[0], "on" in states) if len(states) == 1 else None
+
+
+def wallpaper_lesson(command: str) -> bool:
+    """Recognize requests to learn how to change the Windows desktop background."""
+    text = _question_text(command)
+    return bool(_WALLPAPER.search(text) and _WALLPAPER_CHANGE.search(text) and is_guide_request(text)
+                and not refuses_command(text) and not _SETTINGS_OTHER_DEVICE.search(text)
+                and not _OTHER_BACKGROUND.search(text) and not _settings_topics(text))
+
+
+def new_pan_request(command: str) -> bool:
+    """A request to open or fill the regular new PAN application, rather than a lesson or another PAN service."""
+    text = _question_text(command)
+    if not _PAN_CARD.search(text) or any(pattern.search(text) for pattern in (_HOW, _TEACH, _DICTATION, _PAN_OTHER)):
+        return False
+    requested = _APPLY.search(text) or (_FORM.search(text) and _PAN_FORM_ACTION.search(text))
+    return bool(requested) and not refuses_command(text)
+
+
 def wants_form(goal: str) -> bool:
     """Whether the lesson's goal is to fill in an application ("PAN card ke liye apply karna hai"): when its
     form appears, the private form session takes over."""
     text = unicodedata.normalize("NFC", goal).casefold()
-    return bool(_APPLY.search(text) or _FORM.search(text)
-                or (_DOCUMENT.search(text) and re.search(r"\b(bhar\w*|fill\w*|online)\b|भर", text)))
+    return bool(_FORM.search(text) or _APPLICATION_PAPERWORK.search(text)
+                or (_DOCUMENT.search(text) and (_APPLY.search(text)
+                    or re.search(r"\b(bhar\w*|fill\w*|online)\b|भर", text))))
 
 
 def _phrases(*groups: str) -> list[tuple[str, ...]]:

@@ -6,7 +6,7 @@
     GET  /api/stats            statistics from history.jsonl
     POST /api/settings         {"changes": {key: value}}  apply and save
     POST /api/reset            every setting back to its default
-    POST /api/test             {"what": "chime" | "speaker" | "welcome"}
+    POST /api/test             {"what": "chime" | "speaker" | "microphone" | "welcome"}
     POST /api/history/archive  start the statistics afresh (the old history is kept, renamed)
     POST /api/shutdown         a standalone dashboard steps aside for a starting Bol OS
 
@@ -22,7 +22,6 @@ import logging
 import threading
 import time
 from dataclasses import asdict
-from datetime import datetime
 from http import HTTPStatus
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -31,7 +30,7 @@ from urllib.request import Request, urlopen
 
 from bolos.controls import Controls
 from bolos.dashboard.stats import summarize
-from bolos.history import read_entries
+from bolos.history import archive_history, read_entries
 from bolos.user_settings import SettingError
 from bolos.wake import MODEL_PATH as WAKE_MODEL
 
@@ -54,6 +53,8 @@ class Dashboard:
         self.port = port
         self.server: ThreadingHTTPServer | None = None
         self.stopped = threading.Event()
+        self._close_lock = threading.Lock()
+        self._history_lock = threading.Lock()
 
     @property
     def url(self) -> str:
@@ -62,14 +63,14 @@ class Dashboard:
     def start(self) -> str:
         """Serve in the background; returns the URL. A standalone dashboard on the port steps aside for a
         running Bol OS; anything else on it moves this one to the next free port."""
-        if self.controls.running and ping(self.port) == "standalone":
-            post(self.port, "/api/shutdown", {})
-            deadline = time.monotonic() + 3.0
-            while ping(self.port) is not None and time.monotonic() < deadline:
-                time.sleep(0.1)
         handler = type("Handler", (_Handler,), {"dashboard": self})
         error = None
-        for port in range(self.port, self.port + PORTS_TO_TRY):
+        for port in candidate_ports(self.port):
+            if port and self.controls.running and ping(port) == "standalone":
+                post(port, "/api/shutdown", {})
+                deadline = time.monotonic() + 3.0
+                while ping(port) is not None and time.monotonic() < deadline:
+                    time.sleep(0.1)
             try:
                 self.server = ThreadingHTTPServer(("127.0.0.1", port), handler)
                 break
@@ -83,11 +84,13 @@ class Dashboard:
         return self.url
 
     def close(self) -> None:
-        server, self.server = self.server, None
-        if server is not None:
-            server.shutdown()
-            server.server_close()
-        self.stopped.set()
+        with self._close_lock:
+            server, self.server = self.server, None
+            if server is not None:
+                self.controls.close()
+                server.shutdown()
+                server.server_close()
+            self.stopped.set()
 
     # The API
 
@@ -105,21 +108,23 @@ class Dashboard:
             except Exception:
                 log.warning("Could not list the %s devices", kind, exc_info=True)
                 listed[kind] = []
-        return {"running": c.running, "dry_run": c.dry_run, "values": values, "options": options,
+        return {"running": c.running, "voice_commands": c.voice_commands, "dry_run": c.dry_run,
+                "buddy_available": c.buddy is not None,
+                "values": values, "options": options,
                 "devices": listed, "checks": [asdict(check) for check in c.checks()], "live": dict(c.live),
                 "restart_needed": c.restart_needed(), "history": str(self.history_path or ""),
                 "wake_model": WAKE_MODEL.exists()}
 
     def stats(self) -> dict:
-        return summarize(read_entries(self.history_path))
+        with self._history_lock:
+            entries = read_entries(self.history_path)
+        return summarize(entries)
 
     def archive_history(self) -> dict:
-        path = self.history_path
-        if path is None or not path.exists():
-            return {"archived": None}
-        target = path.with_name(f"{path.stem}-{datetime.now():%Y%m%d-%H%M%S}{path.suffix}")
-        path.replace(target)
-        return {"archived": target.name}
+        with self._history_lock:
+            history = self.controls.history
+            target = history.archive() if history is not None else archive_history(self.history_path)
+        return {"archived": target.name if target is not None else None}
 
 
 class _Handler(BaseHTTPRequestHandler):
@@ -147,7 +152,7 @@ class _Handler(BaseHTTPRequestHandler):
         self.wfile.write(body)
 
     def _json(self, data, status: int = HTTPStatus.OK) -> None:
-        self._send(status, json.dumps(data, ensure_ascii=False).encode("utf-8"), "application/json; charset=utf-8")
+        self._send(status, json.dumps(data).encode("ascii"), "application/json; charset=utf-8")
 
     def do_GET(self):  # noqa: N802  (the base class's name)
         if not self._host_ok():
@@ -168,7 +173,8 @@ class _Handler(BaseHTTPRequestHandler):
                 return self._json(d.stats())
         except Exception:
             log.exception("Dashboard request failed: %s", path)
-            return self._json({"error": "Something went wrong; see the Bol OS log"}, HTTPStatus.INTERNAL_SERVER_ERROR)
+            return self._json({"error": "Sahur couldn't load this. Try refreshing the page."},
+                              HTTPStatus.INTERNAL_SERVER_ERROR)
         self._json({"error": "not found"}, HTTPStatus.NOT_FOUND)
 
     def do_POST(self):  # noqa: N802
@@ -220,7 +226,7 @@ class _Handler(BaseHTTPRequestHandler):
             return self._json({"error": str(e)}, HTTPStatus.UNPROCESSABLE_ENTITY)
         except Exception:
             log.exception("Dashboard request failed: %s", path)
-            return self._json({"error": "Something went wrong; see the Bol OS log"}, HTTPStatus.INTERNAL_SERVER_ERROR)
+            return self._json({"error": "Sahur couldn't finish this. Try again."}, HTTPStatus.INTERNAL_SERVER_ERROR)
         self._json({"error": "not found"}, HTTPStatus.NOT_FOUND)
 
 
@@ -234,6 +240,22 @@ def ping(port: int, timeout: float = 0.5) -> str | None:
     if not isinstance(data, dict) or data.get("app") != APP:
         return None
     return "running" if data.get("running") else "standalone"
+
+
+def candidate_ports(port: int) -> range:
+    return range(1) if port == 0 else range(port, min(port + PORTS_TO_TRY, 65536))
+
+
+def find_dashboard(port: int) -> int | None:
+    """Find Sahur even when another local service was using its first port."""
+    standalone = None
+    for candidate in candidate_ports(port):
+        kind = ping(candidate, timeout=0.2)
+        if kind == "running":
+            return candidate
+        if kind == "standalone" and standalone is None:
+            standalone = candidate
+    return standalone
 
 
 def post(port: int, path: str, body: dict, timeout: float = 2.0) -> dict | None:

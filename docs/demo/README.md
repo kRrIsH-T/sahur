@@ -10,7 +10,7 @@ Open `http://127.0.0.1:8765/form_smoke.html` in a separate browser tab. It has t
 Submit button. The English bank form, Hindi form and deliberately suspicious page exercise manual-only
 controls, OTP/password refusal, and unsupported controls. Use invented values throughout.
 
-In a second terminal, select English for the installed English Windows voice and start voice mode:
+In a second terminal, select English for the spoken prompts and start voice mode:
 
 ```powershell
 $env:USER_LANGUAGE = 'en-IN'
@@ -30,6 +30,12 @@ yes is needed before Submit.
 
 Spoken answers go to Gnani speech recognition as private turns. They are never read aloud (the box shows
 them) and do not enter the command parser, LLM, history or learning store.
+
+For the PAN demo, say “PAN card ke liye apply karna hai.” Sahur opens the Protean application directly and
+starts filling when the correct form appears. Say “Indian citizen” for the application type. Protean may then
+hide the category selector, and Sahur moves to the next field automatically. For a rehearsal, use invented
+details such as `Asha Demo Example`, `15 August 1985` and `asha.demo@example.com`. Leave the privacy checkbox,
+CAPTCHA and Submit for a real application.
 
 The session has questions in ten languages. Detailed field definitions currently cover English and Hindi;
 other languages retain visible labels and use English field definitions. Spoken digit words and native

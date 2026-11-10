@@ -10,6 +10,16 @@ class OpenApp(BaseModel):
     app: str = Field(min_length=1)
 
 
+class FindFile(BaseModel):
+    action: Literal["find_file"] = "find_file"
+    query: str = Field(min_length=1)
+    open: bool = False
+
+
+class OpenRecentDownload(BaseModel):
+    action: Literal["open_recent_download"] = "open_recent_download"
+
+
 # The browser a website or search opens in ("Chrome", "Edge", "Firefox", "Brave", "Opera"; None: the default
 # one). Never a slot System 1 or the LLM fills: a multi-step command sets it when an earlier step opened that
 # browser ("Chrome kholo aur weather search karo"), see bolos.compound.carry_over.
@@ -95,6 +105,16 @@ class DriveScreen(BaseModel):
     goal: str = Field(min_length=1)
 
 
+class Answer(BaseModel):
+    """A reply in words: a general question ("Narendra Modi kaun hai?"), small talk, or a request Sahur can't
+    carry out, answered aloud instead of opening a search. Only System 2 chooses it, with the conversation in
+    front of it (bolos.llm.LLM.converse), so like show_how it is not in ACTION_DESCRIPTIONS (whose order the
+    trained models follow) and never becomes training data or a habit."""
+
+    action: Literal["answer"] = "answer"
+    text: str = Field(min_length=1)  # what Sahur says, in the user's language
+
+
 class Cancel(BaseModel):
     action: Literal["cancel"] = "cancel"
 
@@ -105,7 +125,8 @@ class Unknown(BaseModel):
 
 Action = Annotated[
     Union[OpenApp, OpenWebsite, SendMessage, WebSearch, PlayMedia, MediaControl, TypeText, ReadScreen, Click,
-          ExplainForm, FillForm, CheckSite, UploadFile, ShowHow, DriveScreen, Cancel, Unknown],
+          ExplainForm, FillForm, CheckSite, UploadFile, ShowHow, DriveScreen, FindFile, OpenRecentDownload,
+          Answer, Cancel, Unknown],
     Field(discriminator="action"),
 ]
 ACTION_ADAPTER: TypeAdapter[Action] = TypeAdapter(Action)
@@ -154,6 +175,7 @@ REQUIRED_FIELDS: dict[str, set[str]] = {
 }
 
 FORM_ACTIONS = {"explain_form", "fill_form", "check_site", "upload_file"}
+FILE_ACTIONS = {"find_file", "open_recent_download"}  # resolved locally, outside the trained action list
 # Dialogues that speak for themselves and must run alone, never as one step of a compound command.
 GUIDE_ACTIONS = {"show_how", "drive_screen"}
 DIALOGUE_ACTIONS = FORM_ACTIONS | GUIDE_ACTIONS

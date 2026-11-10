@@ -16,6 +16,7 @@ from bolos import actions as a
 from bolos.config import load_settings
 from bolos.decide import Parse
 from bolos.executor import Outcome
+from bolos.forms.fields import Field, Form
 from bolos.guide import planner as plans
 from bolos.guide import screen
 from bolos.guide.pointer import Flight, Sprite
@@ -401,6 +402,25 @@ def test_takeover_reobserves_after_click_even_when_the_plan_claims_it_is_complet
     assert voice.spoken[-1] == "Menu opened."
 
 
+@pytest.mark.parametrize("answer,key", [
+    (step_answer(), "focus_changed"),
+    ({"status": "done", "say": "Menu opened."}, "focus_changed"),
+    (TimeoutError(), "guide_lost"),
+])
+def test_takeover_rejects_a_stale_tab_and_reports_planner_failures_accurately(monkeypatch, answer, key):
+    guide, voice, pointer, _, _ = make_guide(FakePlanLLM(answer), [])
+    seen = observation(START, title="Original tab")
+    seen.hwnd = 1
+    guide.answer_look = lambda: seen
+    monkeypatch.setattr(screen, "user_window", lambda: 1)
+    monkeypatch.setattr(screen, "window_title", lambda _: "Another tab")
+
+    outcome = guide.drive("Open the menu", "en", lambda _: pytest.fail("Do not ask about an unverified page"))
+
+    assert outcome == Outcome(False, key) and voice.spoken[-1] == say(key, "en")
+    assert pointer.shown == [] and pointer.events[-1] == "close"
+
+
 def test_cursor_flight_starts_and_ends_at_the_correct_screen_points():
     flight = Flight((-500, 200), (-100, 200), 1, Rect(-1000, 0, 0, 800))
     offset = flight.size[0] // 2
@@ -573,11 +593,104 @@ def test_a_pan_lesson_opens_the_site_walks_the_pages_and_hands_over_at_the_form(
     opened = []
     guide.open_url = opened.append
     guide.form_ready = lambda: guide.look.__self__.state == "settings"  # the form page is the "settings" state
-    assert guide.run("PAN card ke liye apply karna hai", "hi") == Outcome(True, "guide_form_ready")
+    assert guide.run("Show me how to apply for a PAN card", "hi") == Outcome(True, "guide_form_ready")
     assert opened == ["https://tinpan.proteantech.in/"]
     assert voice.opened == [say("guide_start", "hi")]
     assert voice.spoken == ["PAN ki official website khol rahi hoon.", "Apply Now dabaiye.",
                             say("guide_to_form", "hi")]
+
+
+@pytest.mark.parametrize("goal,find_form", [("PAN card ke liye apply karna hai", False),
+                                           ("pan ka form bharna h", True)])
+def test_new_pan_waits_for_verified_controls_without_using_a_planner(monkeypatch, goal, find_form):
+    guide, voice, pointer, _, _ = make_guide(None, [])
+    opened = []
+    guide.open_url = opened.append
+    guide.look = lambda *_: pytest.fail("PAN handoff needs no screenshots or guide observations")
+    monkeypatch.setattr(screen, "user_window", lambda: 25)
+    monkeypatch.setattr("bolos.forms.windows.browser_url", lambda hwnd: plans.PAN_APPLICATION_URL if opened else "")
+    monkeypatch.setattr("bolos.forms.windows.scan", lambda hwnd, *, options: pan_form(guide.clock() >= 2.0))
+    assert guide.run(goal, "hi", find_form=find_form) == Outcome(True, "guide_form_ready", {
+        "expected_url": plans.PAN_APPLICATION_URL,
+    })
+    assert opened == [plans.PAN_APPLICATION_URL] and not pointer.shown
+    assert voice.spoken == [say("one_moment", "hi"), say("guide_to_form", "hi")]
+
+
+def test_new_pan_reuses_an_open_verified_form_and_rejects_a_lookalike(monkeypatch):
+    guide, _, _, _, _ = make_guide(None, [])
+    opened = []
+    guide.open_url = opened.append
+    monkeypatch.setattr(screen, "user_window", lambda: 25)
+    monkeypatch.setattr("bolos.forms.windows.browser_url", lambda hwnd: plans.PAN_APPLICATION_URL)
+    monkeypatch.setattr("bolos.forms.windows.scan", lambda hwnd, *, options: pan_form())
+    assert guide.run("open the PAN card application form", "en").key == "guide_form_ready"
+    assert opened == []
+
+    monkeypatch.setattr("bolos.forms.windows.browser_url", lambda hwnd: plans.PAN_APPLICATION_URL.replace(
+        "proteantech.in", "proteantech.in.example.com"))
+    monkeypatch.setattr("bolos.forms.windows.scan", lambda *_args, **_kwargs: pytest.fail("lookalike"))
+    assert guide.run("open the PAN card application form", "en") == Outcome(False, "guide_pan_not_loaded")
+    assert opened == [plans.PAN_APPLICATION_URL]
+
+
+def test_pan_handoff_waits_if_the_browser_tab_changes_during_the_scan(monkeypatch):
+    guide, _, _, _, _ = make_guide(None, [("say", "stop")])
+    current = ["https://example.com/"]
+    guide.open_url = lambda url: current.__setitem__(0, url)
+    monkeypatch.setattr(screen, "user_window", lambda: 25)
+    monkeypatch.setattr("bolos.forms.windows.browser_url", lambda _: current[0])
+
+    def scan(hwnd, *, options):
+        current[0] = "https://example.com/"
+        return pan_form()
+
+    monkeypatch.setattr("bolos.forms.windows.scan", scan)
+    assert guide.run("pan card apply karo", "en") == Outcome(True, "guide_stopped")
+
+
+@pytest.mark.parametrize("reply", ["ruko", "go back"])
+def test_waiting_for_pan_can_be_stopped_by_voice(monkeypatch, reply):
+    guide, voice, _, _, _ = make_guide(None, [("say", reply)])
+    guide.open_url = lambda _: None
+    monkeypatch.setattr(screen, "user_window", lambda: 25)
+    monkeypatch.setattr("bolos.forms.windows.browser_url", lambda _: plans.PAN_APPLICATION_URL)
+    monkeypatch.setattr("bolos.forms.windows.scan", lambda hwnd, *, options: pan_form(False))
+    assert guide.run("pan card apply karo", "hi") == Outcome(True, "guide_stopped")
+    assert voice.spoken[-1] == say("guide_stopped", "hi")
+
+
+def pan_form(ready=True):
+    fields = [Field("application", "Select PAN Application Type", control_type="ComboBox"),
+              Field("category", "Select Applicant Category", control_type="ComboBox"),
+              Field("surname", "Last Name / Surname"), Field("email", "Email ID")]
+    return Form("Online PAN application", plans.PAN_APPLICATION_URL, fields if ready else [], [], [])
+
+
+def test_resume_pan_tab_is_not_the_new_application_form():
+    form = pan_form(False)
+    form.fields = [Field("token", "Enter token number"), Field("email", "Email ID"), Field("birth", "Date of Birth")]
+    assert not plans.is_pan_application_form(form)
+
+
+def test_partial_pan_form_stays_recognizable_after_category_disappears():
+    form = pan_form()
+    form.fields = [field for field in form.fields if field.key != "category"]
+    assert plans.is_pan_application_form(form)
+
+
+@pytest.mark.parametrize("url", [plans.PAN_APPLICATION_URL, plans.PAN_APPLICATION_URL.removeprefix("https://"),
+                                plans.PAN_APPLICATION_URL + "?a=1"])
+def test_pan_url_variants_from_browser_accessibility_are_recognized(url):
+    assert plans.is_pan_application(url)
+
+
+@pytest.mark.parametrize("url", [None, "https://tinpan.proteantech.in/", "https://onlineservices.proteantech.in/paam/",
+                                plans.PAN_APPLICATION_URL.replace("https", "http"),
+                                plans.PAN_APPLICATION_URL.replace(".in/", ".in:8080/"),
+                                plans.PAN_APPLICATION_URL.replace("https://", "https://other@")])
+def test_pan_handoff_rejects_wrong_page_or_unexpected_origin(url):
+    assert not plans.is_pan_application(url)
 
 
 def test_named_form_search_waits_for_a_fillable_form_after_opening_the_site():
@@ -622,7 +735,14 @@ def test_details_typed_during_a_lesson_stop_the_screenshots():
     llm = FakePlanLLM(step_answer(), step_answer())
     guide, voice, _, _, _ = make_guide(llm, [("click", (5, 5), "elsewhere")])
     guide.private = lambda: guide.look.__self__.state == "elsewhere"
-    assert guide.run("goal", "hi") == Outcome(False, "guide_form") and len(llm.calls) == 1
+    assert guide.run("goal", "hi") == Outcome(False, "guide_switch_app") and len(llm.calls) == 1
+    assert voice.spoken[-1] == say("guide_switch_app", "hi")
+
+
+def test_planner_cannot_turn_an_unrelated_lesson_into_a_form_session():
+    guide, voice, _, _, _ = make_guide(FakePlanLLM({"status": "form", "say": "Use this form."}), [])
+    assert guide.run("show me how to open an application", "en") == Outcome(False, "guide_switch_app")
+    assert voice.spoken[-1] == say("guide_switch_app", "en")
 
 
 def test_the_opening_line_is_said_while_the_first_plan_is_made():
@@ -789,11 +909,52 @@ def test_a_command_said_during_a_guide_runs_after_it():
     assert outcome.key == "opened" and runner.executed == [a.OpenApp(app="Spotify")] and guide.pending is None
 
 
-def test_details_typed_into_a_form_go_to_the_form_assistant_instead():
+def test_general_lesson_on_a_private_screen_asks_to_switch_apps():
     guide = FakeGuide()
     bot, voice, _ = assistant(guide, forms=Forms(True))
-    assert bot.handle("is page pe kaise aage badhein, dikhao", "hi-IN").key == "guide_form"
-    assert guide.runs == [] and voice.spoken == [say("guide_form", "hi-IN")]
+    assert bot.handle("is page pe kaise aage badhein, dikhao", "hi-IN").key == "guide_switch_app"
+    assert guide.runs == [] and voice.spoken == [say("guide_switch_app", "hi-IN")]
+
+
+@pytest.mark.parametrize("text,language,uri,target,reply", [
+    ("wifi hotspot kaise chalu karein", "hi", "network-mobilehotspot", "Mobile hotspot", "guide_settings_on"),
+    ("Wi Fi kaise band karein", "hi", "network-wifi", "Wi-Fi", "guide_settings_off"),
+    ("wifi kaise on kare", "hi", "network-wifi", "Wi-Fi", "guide_settings_on"),
+    ("bluetooth kaise on kare", "hi", "bluetooth", "Bluetooth", "guide_settings_on"),
+    ("Show me how to turn off Night light", "en", "display", "Night light", "guide_settings_off"),
+    ("wallpaper kaise badle", "hi", "personalization-background", "Browse", "guide_wallpaper"),
+])
+def test_settings_lessons_work_from_a_private_screen_without_observing_it(monkeypatch, text, language, uri,
+                                                                       target, reply):
+    from bolos.guide import session
+
+    def forbidden(*_):
+        pytest.fail("Local Settings lessons must not inspect, capture, or plan from the old screen")
+
+    voice, runner, forms = Voice(), Runner(), Forms(True, ready=True)
+    forms.shows_personal_details = forbidden
+    opened = []
+    monkeypatch.setattr(session.os, "startfile", opened.append)
+    guide = session.Guide(None, voice, look=forbidden, private=forbidden, form_ready=forbidden,
+                          inputs=forbidden, open_url=forbidden)
+    bot = Assistant(Parser(), None, runner, voice, forms=forms, guide=guide)
+
+    assert bot.handle(text, None) == Outcome(True, "guide_done")
+    assert opened == [f"ms-settings:{uri}"]
+    assert voice.spoken == [say(reply, language, target=target)]
+    assert forms.filled == [] and runner.executed == []
+
+
+def test_settings_launch_failure_tells_the_user_how_to_find_the_setting(monkeypatch):
+    from bolos.guide import session
+
+    def fail_to_open(_):
+        raise OSError("Settings could not launch")
+
+    monkeypatch.setattr(session.os, "startfile", fail_to_open)
+    voice = Voice()
+    assert session.Guide(None, voice).run("how to turn on Wi-Fi", "en").key == "guide_settings_open_failed"
+    assert voice.spoken == [say("guide_settings_open_failed", "en", target="Wi-Fi")]
 
 
 def test_an_empty_text_box_on_screen_does_not_stop_a_lesson():

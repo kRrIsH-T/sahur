@@ -21,3 +21,15 @@ def test_evaluation_measures_ordered_plans_and_refusals_without_effects():
     assert report["summary"]["actions_correct"] == report["summary"]["exact"] == 2
     assert report["summary"]["planned"] == 1
     assert report["results"][0]["predicted"][1]["browser"] == "chrome"
+
+
+def test_evaluation_treats_incomplete_commands_as_refusals_and_uses_runtime_language_detection():
+    class Parser:
+        def parse(self, text):
+            return Parse("send_message", True, {"contact": "Sunil"}, frozenset({"text"}))
+
+    rows = [{"text": "Sunil la message pathav", "lang": "mr", "action": "send_message",
+             "slots": {"contact": "Sunil"}}]
+    result = evaluate(Parser(), rows, language_detector=lambda text: "mr")["results"][0]
+    assert result["expected"] == result["predicted"] == []
+    assert result["exact"] and result["language_correct"]

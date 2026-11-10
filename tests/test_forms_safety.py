@@ -14,6 +14,7 @@ def form(*fields, title="Update details", headings=()):
     ("https://onlinesbi.sbi/", "SBI"), ("https://retail.onlinesbi.sbi/retail/login.htm", "SBI"),
     ("https://www.hdfcbank.com", "HDFC Bank"), ("pmkisan.gov.in/", "the Government of India"),
     ("https://sbi.bank.in", "SBI"), ("https://example.bank.in", "a bank"), ("https://pay.google.com", "Google Pay"),
+    ("https://onlineservices.proteantech.in/paam/endUserRegisterContact.html", "Protean (PAN services)"),
 ])
 def test_official_domains_and_subdomains(url, org):
     assert safety.is_official(url)
@@ -26,6 +27,7 @@ def test_official_domains_and_subdomains(url, org):
     ("https://uidai-gov.in/aadhaar", "UIDAI (Aadhaar)"), ("http://hdfcbank-rekyc.com", "HDFC Bank"),
     ("https://onlinesbi.sbi.secure-login.top", "SBI"), ("https://gov.in.kyc-check.net", "the Government of India"),
     ("https://paytm-kyc.in/upi", "Paytm"),
+    ("https://onlineservices.proteantech.in.example.org/paam/endUserRegisterContact.html", "Protean (PAN services)"),
 ])
 def test_lookalikes_are_not_official_and_name_the_brand(url, claim):
     assert not safety.is_official(url)

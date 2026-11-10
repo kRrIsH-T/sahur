@@ -15,6 +15,7 @@ from bolos.forms import kinds
 OFFICIAL = {
     "gov.in": "the Government of India", "nic.in": "the Government of India", "mygov.in": "the Government of India",
     "uidai.gov.in": "UIDAI (Aadhaar)", "incometax.gov.in": "the Income Tax Department",
+    "proteantech.in": "Protean (PAN services)",
     "digilocker.gov.in": "DigiLocker", "epfindia.gov.in": "EPFO", "passportindia.gov.in": "Passport Seva",
     "bank.in": "a bank", "fin.in": "a financial company",
     "sbi": "SBI", "onlinesbi.sbi": "SBI", "sbi.co.in": "SBI", "onlinesbi.com": "SBI",
@@ -32,6 +33,7 @@ OFFICIAL = {
 _BRANDS = {
     "sbi": "SBI", "uidai": "UIDAI (Aadhaar)", "aadhaar": "UIDAI (Aadhaar)", "aadhar": "UIDAI (Aadhaar)",
     "incometax": "the Income Tax Department", "hdfc": "HDFC Bank", "icici": "ICICI Bank", "axisbank": "Axis Bank",
+    "protean": "Protean (PAN services)",
     "kotak": "Kotak Mahindra Bank", "pnb": "Punjab National Bank", "baroda": "Bank of Baroda",
     "canara": "Canara Bank", "unionbank": "Union Bank of India", "idbi": "IDBI Bank", "yesbank": "Yes Bank",
     "indusind": "IndusInd Bank", "paytm": "Paytm", "phonepe": "PhonePe", "gpay": "Google Pay",
@@ -46,6 +48,7 @@ _SHORT = 4
 _CLAIMS = (
     (r"\bsbi\b|state bank", "SBI"), (r"aadhaa?r|uidai|आधार", "UIDAI (Aadhaar)"),
     (r"income tax|आयकर", "the Income Tax Department"), (r"\bhdfc\b", "HDFC Bank"), (r"\bicici\b", "ICICI Bank"),
+    (r"\bprotean\b", "Protean (PAN services)"),
     (r"\bpnb\b|punjab national", "Punjab National Bank"), (r"\bkyc\b|re-kyc|केवाईसी", "a bank"),
     (r"\bbank\b|बैंक|ಬ್ಯಾಂಕ್|வங்கி|బ్యాంక్|बँक|ബാങ്ക്|ব্যাংক|બેંક|ਬੈਂਕ", "a bank"),
     (r"government|govt|सरकार|ಸರ್ಕಾರ|அரசு|ప్రభుత్వ|शासन|സർക്കാർ|সরকার|સરકાર|ਸਰਕਾਰ", "the Government of India"),
@@ -174,13 +177,12 @@ def assess(url: str | None, form=None) -> list[SiteWarning]:
     return sorted(warnings, key=lambda w: order.index(w.key))
 
 
-DANGER = {"site_lookalike", "site_punycode", "site_ip"}
+DANGER = {"site_lookalike", "site_punycode", "site_ip", "site_http"}
 
 
 def dangerous(warnings: list[SiteWarning]) -> bool:
-    """A page the user should not fill at all, or an insecure page that asks for money secrets."""
-    keys = {w.key for w in warnings}
-    return bool(keys & DANGER) or ({"site_http", "site_money_fields"} <= keys)
+    """Whether filling requires a separate decision after a site warning."""
+    return any(w.key in DANGER for w in warnings)
 
 
 def messages(warnings: list[SiteWarning], language: str | None) -> list[str]:

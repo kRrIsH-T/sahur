@@ -1,6 +1,6 @@
 """Offline plan evaluation: no Windows execution, microphone, speech service or System 2 calls.
 
-    python eval/evaluate_pipeline.py --data eval/commands_v6.jsonl --output eval/results/pipeline_v6.json
+    python eval/evaluate_pipeline.py --data eval/commands_v5.jsonl --output eval/results/pipeline_v5.json
 
 This measures the connected local planner, including splitting, context, form routing and abstention.
 It is separate from the earlier action-model-only evaluate.py results.
@@ -17,10 +17,11 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from bolos import actions as a
+from bolos.__main__ import make_language_detector
 from bolos.compound import chain
 from bolos.decide import FastParser
+from bolos.history import short_lang
 from bolos.pipeline import Assistant
-from bolos.responses import script_language
 
 
 class NoEffects:
@@ -36,6 +37,9 @@ class NoEffects:
 
 def expected_steps(row):
     raw = row.get("steps", []) if row["action"] == "multi" else [row]
+    # A request without a required field (e.g. "Send Sunil a message") should produce no runnable plan.
+    if any(a.REQUIRED_FIELDS.get(step["action"], set()) - step.get("slots", {}).keys() for step in raw):
+        return []
     return chain([a.parse_action({"action": step["action"], **step.get("slots", {}),
                                   **({"control": step["control"]} if "control" in step else {})}) for step in raw])
 
@@ -46,15 +50,15 @@ def _canonical(steps):
              for key, value in step.model_dump(exclude_none=True).items()} for step in steps]
 
 
-def evaluate(parser, rows):
+def evaluate(parser, rows, language_detector=None):
     effects = NoEffects()
-    assistant = Assistant(parser, None, effects, effects, learning=False)
+    assistant = Assistant(parser, None, effects, effects, learning=False, language_detector=language_detector)
     results = []
     for row in rows:
         text = row["text"]
-        assistant.language = script_language(text)  # independent commands: no previous-language carry
+        assistant.language = None  # independent commands: no previous-language carry
         start = time.perf_counter()
-        understood = assistant._plan(text)
+        understood = assistant._plan(text, assistant._set_language(text, None))
         elapsed = (time.perf_counter() - start) * 1000
         predicted = [step.action for step in understood]
         expected = expected_steps(row)
@@ -66,8 +70,9 @@ def evaluate(parser, rows):
                         "expected": _canonical(expected), "predicted": _canonical(predicted),
                         "planned": bool(predicted), "actions_correct": same_actions,
                         "exact": _canonical(predicted) == _canonical(expected),
-                        "predicted_language": assistant.language,
-                        "language_correct": assistant.language == row.get("lang"), "ms": round(elapsed, 2)})
+                        "predicted_language": short_lang(assistant.language),
+                        "language_correct": short_lang(assistant.language) == row.get("lang"),
+                        "ms": round(elapsed, 2)})
 
     def summary(items):
         n = len(items)
@@ -92,7 +97,8 @@ def main():
     cli.add_argument("--output", type=Path, required=True)
     args = cli.parse_args()
     rows = [json.loads(line) for line in args.data.read_text(encoding="utf-8-sig").splitlines() if line.strip()]
-    report = evaluate(FastParser(args.model, args.slots), rows)
+    parser = FastParser(args.model, args.slots)
+    report = evaluate(parser, rows, language_detector=make_language_detector(parser))
     report["provenance"] = {str(path): hashlib.sha256(path.read_bytes()).hexdigest()
                             for path in (args.data, args.model, args.slots)}
     args.output.parent.mkdir(parents=True, exist_ok=True)

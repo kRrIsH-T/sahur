@@ -156,6 +156,60 @@ def test_dropdown_placeholder_is_not_an_option_or_a_value():
     assert hindi.options == ("कर्नाटक",) and hindi.value == "कर्नाटक"
 
 
+def test_custom_combo_names_remain_stable_and_ignore_icon_font_glyphs():
+    label = text("Select Applicant Category*")
+    placeholder = Node("ComboBox", name="----Please Select------", value="----Please Select------ \ue9c5")
+    selected = Node("ComboBox", name="INDIVIDUAL", value="INDIVIDUAL \ue9c5")
+    empty, = form_from_tree(page(label, placeholder)).fields
+    picked, = form_from_tree(page(label, selected)).fields
+    assert empty.label == picked.label == "Select Applicant Category"
+    assert empty.required and picked.required
+    assert empty.value == "" and picked.value == "INDIVIDUAL"
+
+
+def test_custom_combo_uses_an_invokable_option_when_selection_is_unsupported(monkeypatch):
+    from types import SimpleNamespace
+
+    combo, option = object(), object()
+    target = "New PAN - Form No. 93 (Indian Citizen)"
+    value = SimpleNamespace(CurrentValue="----Please Select------ \ue9c5")
+    invoke = SimpleNamespace(Invoke=lambda: setattr(value, "CurrentValue", target + " \ue9c5"))
+    ia = SimpleNamespace(ElementFromHandle=lambda _: object())
+    patterns = {(combo, "Value"): value, (option, "Invoke"): invoke}
+    monkeypatch.setattr(windows, "_api", lambda: (ia, None))
+    monkeypatch.setattr(windows, "_pattern", lambda el, _, name: patterns.get((el, name)))
+    monkeypatch.setattr(windows, "_combo_items", lambda *_, **__: [(target, option)])
+    control = Field("type", "PAN Application Type", "choice", options=(target,), control_type="ComboBox",
+                    element=combo, hwnd=5)
+    assert windows.choose(control, target)
+    assert value.CurrentValue == target + " \ue9c5"
+
+
+def test_native_combo_verifies_selection_after_popup_closes(monkeypatch):
+    from types import SimpleNamespace
+
+    combo, option = object(), object()
+    value = SimpleNamespace(CurrentValue="Select state")
+    selected = []
+
+    def collapse():
+        if selected:
+            value.CurrentValue = "Karnataka"
+
+    patterns = {
+        (combo, "Value"): value,
+        (combo, "ExpandCollapse"): SimpleNamespace(CurrentExpandCollapseState=1, Collapse=collapse),
+        (option, "SelectionItem"): SimpleNamespace(Select=lambda: selected.append(True)),
+    }
+    monkeypatch.setattr(windows, "_api", lambda: (SimpleNamespace(ElementFromHandle=lambda _: object()), None))
+    monkeypatch.setattr(windows, "_pattern", lambda el, _, name: patterns.get((el, name)))
+    monkeypatch.setattr(windows, "_combo_items", lambda *_, **__: [("Karnataka", option)])
+    monkeypatch.setattr(windows, "_wait", lambda check, *_: check())
+    control = Field("state", "State", "choice", options=("Karnataka",), control_type="ComboBox",
+                    element=combo, hwnd=5)
+    assert windows.choose(control, "Karnataka") and value.CurrentValue == "Karnataka"
+
+
 def test_option_matching_is_exact_or_unique_never_a_guess():
     states = ["Andhra Pradesh", "Madhya Pradesh", "Uttar Pradesh", "Karnataka", "Kerala", "Tamil Nadu"]
     assert match_option(states, "karnataka") == "Karnataka"
@@ -166,6 +220,7 @@ def test_option_matching_is_exact_or_unique_never_a_guess():
     assert match_option(states, "Ka") is None
     assert match_option(["Yes", "No"], "no") == "No"
     assert match_option(["1 to 5 lakh", "5 to 10 lakh"], "1 to 5 lakh") == "1 to 5 lakh"
+    assert match_option(["Option A / B", "Option A - B"], "option a b") is None
 
 
 def test_dates_parse_iso_and_day_first():
@@ -282,7 +337,7 @@ def test_the_pan_application_page_is_labelled_the_way_a_person_reads_it():
         Node("Hyperlink", name="https://onlineservices.proteantech.in/paam/endUserRegisterContact.html",
              children=[text("https://onlineservices.proteantech.in/paam/endUserRegisterContact.html")]),
         text("you give your consent that all personal data/information that you submit may be processed"),
-        Node("CheckBox", name="I'm not a robot", runtime_id=(42, 5), toggle=0),
+        Node("CheckBox", name="I'm not a robot", aid="recaptcha-anchor", runtime_id=(42, 5), toggle=0),
     )
     form = form_from_tree(tree)
     application, category, mobile, consent, robot = form.fields
@@ -292,3 +347,20 @@ def test_the_pan_application_page_is_labelled_the_way_a_person_reads_it():
     assert consent.label.startswith("By submitting data") and "http" not in consent.label
     assert kinds.classify(consent) == "manual"  # a legal consent: the person reads and ticks it
     assert kinds.classify(robot) == "captcha" and kinds.sensitivity("captcha") == kinds.NEVER_FILL
+    assert robot.protected and robot.value is None and not fields.check_box(robot, True)
+
+
+def test_protean_edit_labels_survive_the_form93_category_change():
+    tree = page(
+        text("to avoid authentication failure"), Node("Edit", aid="f_name_end"),
+        text("For Individuals Date of Birth should be as per Aadhaar"), Node("Edit", aid="date_of_birth_reg"),
+        text("You will receive PAN application status updates on this number"), Node("Edit", aid="rvContactNo"),
+    )
+    first, birth, mobile = form_from_tree(
+        tree, url="https://onlineservices.proteantech.in/paam/endUserRegisterContact.html?from=pan").fields
+    assert first.label == "First Name" and not first.required
+    assert "DD/MM/YYYY" in birth.label and birth.kind == "date" and birth.required
+    assert mobile.label == "Mobile Number" and mobile.kind == "mobile" and mobile.required
+    other = form_from_tree(tree, url="https://onlineservices.proteantech.in.example.org/"
+                                     "paam/endUserRegisterContact.html")
+    assert other.fields[0].label == "to avoid authentication failure"
